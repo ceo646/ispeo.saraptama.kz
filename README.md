@@ -1,0 +1,1 @@
+# ispeo.saraptama.kz
