@@ -52,6 +52,7 @@ class ScrapeConfig:
     timeout: int = 30
     retries: int = 4
     fetch_details: bool = True
+    fetch_coords: bool = True   # enrich listings with coordinates (geo mode)
     user_agent: str = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
@@ -175,6 +176,7 @@ def load_config(path: str | None = None) -> Config:
         timeout=s.get("timeout", cfg.scrape.timeout),
         retries=s.get("retries", cfg.scrape.retries),
         fetch_details=s.get("fetch_details", cfg.scrape.fetch_details),
+        fetch_coords=s.get("fetch_coords", cfg.scrape.fetch_coords),
         user_agent=s.get("user_agent", cfg.scrape.user_agent),
     )
 

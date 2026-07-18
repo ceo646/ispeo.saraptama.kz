@@ -60,7 +60,14 @@ def main(argv: list[str] | None = None) -> int:
     else:
         from .scraper import Scraper
         try:
-            sale, rent = Scraper(cfg).scrape()
+            scraper = Scraper(cfg)
+            sale, rent = scraper.scrape()
+            if cfg.scrape.fetch_coords and cfg.analysis.location_mode == "geo":
+                # coordinates power the geo-radius rent benchmark
+                scraper.enrich_coords(rent, "rent")
+                eligible = [l for l in sale if l.price
+                            and l.price <= cfg.deal.price_to and l.area]
+                scraper.enrich_coords(eligible, "sale")
         except Exception as err:  # noqa: BLE001
             logger.error("Скрапинг не удался: %s", err)
             logger.error("krisha.kz недоступен или блокирует запросы. "
