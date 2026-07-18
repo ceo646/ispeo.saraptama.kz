@@ -1,0 +1,34 @@
+# Конфигурация анализатора коммерческой недвижимости krisha.kz
+city: astana                 # astana | almaty | shymkent | karaganda | aktobe | atyrau
+
+filters:
+  exclude_basement: true     # исключать цокольные/подвальные/полуподвальные
+
+deal:
+  price_to: 100000000        # максимальная цена покупки, ₸ (100 млн)
+  price_from: 0
+  area_from: 20              # минимальная площадь, м²
+  area_to: 5000              # максимальная площадь, м²
+
+scrape:
+  max_pages: 40              # максимум страниц выдачи на раздел
+  request_delay: [2, 5]      # случайная пауза между запросами, сек (вежливость)
+  timeout: 30
+  retries: 4
+  fetch_details: true        # заходить на карточки продажи (этаж/тип/район)
+  user_agent: >-
+    Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+    (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+
+analysis:
+  top_n: 20
+  min_rent_samples: 3        # минимум объявлений аренды в районе для доверия
+  max_plausible_yield: 0.60  # отсечь аномалии (ошибки в данных)
+  min_plausible_yield: 0.01
+  weights:                   # веса композитного скора (сумма не обязана быть 1)
+    yield: 0.5               # доходность аренда/цена
+    discount: 0.3            # дисконт цены за м² к медиане района
+    confidence: 0.2          # достоверность арендного бенчмарка
+
+report:
+  output: report/top20.html
