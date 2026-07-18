@@ -14,9 +14,9 @@ class Listing:
     deal: str  # "sale" | "rent"
     url: str
     title: str
-    price: Optional[int]          # tenge (sale: full price; rent: per month)
-    area: Optional[float]         # m2
-    floor: Optional[int]          # storey number, None if unknown
+    price: Optional[int] = None   # tenge (sale: full price; rent: per month)
+    area: Optional[float] = None  # m2
+    floor: Optional[int] = None   # storey number, None if unknown
     floor_raw: str = ""           # raw floor text ("цокольный", "1 из 5", ...)
     building_type: str = ""       # тип здания / помещения
     district: str = ""            # район (Есиль/Алматы/Сарыарка/...)

@@ -11,8 +11,11 @@ datacenter IPs; run from a network where krisha is reachable.
 from __future__ import annotations
 
 import logging
+import os
 import random
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urlencode
 
 import requests
@@ -27,6 +30,7 @@ logger = logging.getLogger("krisha")
 class Scraper:
     def __init__(self, config: Config):
         self.cfg = config
+        self._tls = threading.local()
         self.session = requests.Session()
         self.session.headers.update({
             "User-Agent": config.scrape.user_agent,
@@ -103,29 +107,82 @@ class Scraper:
         rent = self._crawl_deal("rent")
         return sale, rent
 
-    def enrich_coords(self, listings: list[Listing],
-                      label: str = "") -> int:
-        """Fetch each listing's detail page and fill lat/lon (+complex id).
-        Skips listings that already have coordinates. Returns count enriched."""
-        done = 0
-        todo = [l for l in listings if l.lat is None]
-        logger.info("Enriching %s%s listings with coordinates",
-                    len(todo), f" {label}" if label else "")
-        for i, l in enumerate(todo, 1):
+    def _thread_session(self) -> requests.Session:
+        if not hasattr(self._tls, "session"):
+            s = requests.Session()
+            s.headers.update(self.session.headers)
+            self._tls.session = s
+        return self._tls.session
+
+    def _get_once(self, url: str) -> str | None:
+        """Single GET with light retries, for concurrent workers."""
+        for attempt in range(1, self.cfg.scrape.retries + 1):
             try:
-                geo = parse.parse_detail_geo(self._get(l.url))
-            except RuntimeError as err:
-                logger.warning("coord fetch failed %s: %s", l.url, err)
-                geo = {}
-            if geo.get("lat") and geo.get("lon"):
-                l.lat, l.lng = geo["lat"], geo["lon"]
+                r = self._thread_session().get(url, timeout=self.cfg.scrape.timeout)
+                if r.status_code == 200:
+                    return r.text
+            except requests.RequestException:
+                pass
+            time.sleep(1.5 * attempt + random.random())
+        return None
+
+    def enrich_coords(self, listings: list[Listing], label: str = "",
+                      workers: int = 6, checkpoint: str | None = None) -> int:
+        """Fetch detail pages concurrently and fill lat/lon (+complex id).
+
+        Resumable: if `checkpoint` is given, each result is appended to that
+        JSONL file and already-recorded ids are skipped on restart, so an
+        interrupted run continues instead of starting over.
+        """
+        import json as _json
+        import threading
+
+        cache: dict[str, dict] = {}
+        if checkpoint and os.path.exists(checkpoint):
+            for line in open(checkpoint, encoding="utf-8"):
+                try:
+                    o = _json.loads(line)
+                    cache[o["id"]] = o
+                except (ValueError, KeyError):
+                    pass
+        # apply cached coords, collect the rest
+        todo: list[Listing] = []
+        for l in listings:
+            c = cache.get(l.id)
+            if c and c.get("lat"):
+                l.lat, l.lng = c["lat"], c["lon"]
+            elif l.lat is None:
+                todo.append(l)
+        logger.info("Enriching %s%s listings with coordinates (%s cached)",
+                    len(todo), f" {label}" if label else "", len(cache))
+
+        lock = threading.Lock()
+        ck = open(checkpoint, "a", encoding="utf-8") if checkpoint else None
+        done = [0]
+
+        def work(l: Listing) -> None:
+            html = self._get_once(l.url)
+            geo = parse.parse_detail_geo(html) if html else {}
+            lat, lon = geo.get("lat"), geo.get("lon")
+            if lat and lon:
+                l.lat, l.lng = lat, lon
                 if geo.get("complex_id"):
                     l.raw_params["complex_id"] = geo["complex_id"]
                 if geo.get("area"):
-                    l.area = geo["area"]  # detail area is more precise
-                done += 1
-            if i % 50 == 0:
-                logger.info("  %s/%s enriched (%s ok)", i, len(todo), done)
-            self._sleep()
-        logger.info("Coordinates: %s/%s enriched", done, len(todo))
-        return done
+                    l.area = geo["area"]
+            with lock:
+                done[0] += 1
+                if ck:
+                    ck.write(_json.dumps({"id": l.id, "lat": lat, "lon": lon}) + "\n")
+                    ck.flush()
+                if done[0] % 100 == 0:
+                    logger.info("  %s/%s enriched", done[0], len(todo))
+            time.sleep(random.uniform(0.15, 0.5))
+
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            list(ex.map(work, todo))
+        if ck:
+            ck.close()
+        ok = sum(1 for l in listings if l.lat)
+        logger.info("Coordinates: %s/%s listings have coordinates", ok, len(listings))
+        return ok

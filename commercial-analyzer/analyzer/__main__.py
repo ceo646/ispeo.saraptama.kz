@@ -63,11 +63,18 @@ def main(argv: list[str] | None = None) -> int:
             scraper = Scraper(cfg)
             sale, rent = scraper.scrape()
             if cfg.scrape.fetch_coords and cfg.analysis.location_mode == "geo":
-                # coordinates power the geo-radius rent benchmark
-                scraper.enrich_coords(rent, "rent")
+                # coordinates power the geo-radius rent benchmark;
+                # checkpoints make the (large) coord crawl resumable
+                ckdir = args.cache or ".coords_cache"
+                os.makedirs(ckdir, exist_ok=True)
+                scraper.enrich_coords(
+                    rent, "rent",
+                    checkpoint=os.path.join(ckdir, f"{cfg.city}_rent_coords.jsonl"))
                 eligible = [l for l in sale if l.price
                             and l.price <= cfg.deal.price_to and l.area]
-                scraper.enrich_coords(eligible, "sale")
+                scraper.enrich_coords(
+                    eligible, "sale",
+                    checkpoint=os.path.join(ckdir, f"{cfg.city}_sale_coords.jsonl"))
         except Exception as err:  # noqa: BLE001
             logger.error("Скрапинг не удался: %s", err)
             logger.error("krisha.kz недоступен или блокирует запросы. "
