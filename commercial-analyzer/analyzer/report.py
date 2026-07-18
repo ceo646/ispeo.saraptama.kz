@@ -44,6 +44,7 @@ def _rows(deals: list[ScoredDeal]) -> str:
           <td class="num">{_fmt_money(r['price'])}</td>
           <td class="num">{_fmt_money(r['price_per_m2'])}</td>
           <td class="num">{_fmt_money(r['est_monthly_rent'])}<span class="sub">/мес</span></td>
+          <td class="basis">{html.escape(r['rent_basis'] or '—')}</td>
           <td class="num pos">{r['gross_yield_pct']}%</td>
           <td class="num">{r['payback_years']} лет</td>
           <td class="num {'pos' if r['price_discount_pct'] > 0 else 'neg'}">{r['price_discount_pct']:+}%</td>
@@ -106,6 +107,7 @@ def render_html(deals: list[ScoredDeal], cfg: Config,
   .sub {{ color:var(--muted); font-size:11px; }}
   .pos {{ color:var(--pos); }} .neg {{ color:var(--neg); }}
   .conf {{ color:var(--muted); }}
+  .basis {{ color:var(--muted); font-size:12px; white-space:nowrap; }}
   .score {{ display:inline-block; min-width:42px; text-align:center;
     padding:3px 8px; border-radius:8px; font-weight:700; color:#fff;
     background:hsl(var(--hue) 65% 42%); }}
@@ -142,7 +144,8 @@ def render_html(deals: list[ScoredDeal], cfg: Config,
     <thead><tr>
       <th>#</th><th>Скор</th><th>Объявление</th><th>Район</th><th>Площадь</th>
       <th>Этаж</th><th>Цена</th><th>Цена/м²</th><th>Аренда (оц.)</th>
-      <th>Доходность</th><th>Окупаемость</th><th>Дисконт к рынку</th><th>Довер.</th>
+      <th>База аренды</th><th>Доходность</th><th>Окупаемость</th>
+      <th>Дисконт к рынку</th><th>Довер.</th>
     </tr></thead>
     <tbody>{_rows(deals)}</tbody>
   </table>

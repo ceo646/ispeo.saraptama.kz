@@ -82,6 +82,7 @@ class ScoredDeal:
     confidence: float                # 0..1 data-trust factor (conf × plausibility)
     score: float = 0.0               # composite score, 0..100
     verify: bool = False             # "too good" — flag for manual verification
+    rent_basis: str = ""             # how rent was benchmarked (radius/district)
 
     def to_row(self) -> dict:
         l = self.listing
@@ -101,5 +102,6 @@ class ScoredDeal:
             "floor": l.floor_raw or (str(l.floor) if l.floor is not None else "—"),
             "confidence": round(self.confidence, 2),
             "verify": self.verify,
+            "rent_basis": self.rent_basis,
             "url": l.url,
         }

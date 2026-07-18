@@ -13,6 +13,7 @@ import statistics
 from collections import defaultdict
 
 from .config import AnalysisConfig, Config
+from .geo import build_geo_rents, geo_rent_for
 from .models import Listing, ScoredDeal
 
 logger = logging.getLogger("krisha")
@@ -170,7 +171,13 @@ def analyze(sale: list[Listing], rent: list[Listing],
     typ = district_typical_yields(rent_bench, sale_bench)
     city_typ = typ.get(CITY_KEY, 0.16)
 
+    use_geo = a.location_mode == "geo"
+    geo_pts = build_geo_rents(rent, SIZE_EDGES) if use_geo else []
+    if use_geo:
+        logger.info("Geo mode: %s rent points with coordinates", len(geo_pts))
+
     candidates: list[ScoredDeal] = []
+    basis_stats: dict[str, int] = defaultdict(int)
     skipped: dict[str, int] = defaultdict(int)
     for l in sale:
         if not l.price or l.price > cfg.deal.price_to:
@@ -187,11 +194,25 @@ def analyze(sale: list[Listing], rent: list[Listing],
             skipped["basement"] += 1
             continue
 
-        rent_ppm, n, conf = _rent_for(l.district, l.area, rent_bench,
-                                      a.min_rent_samples)
+        rent_ppm = 0.0
+        n = 0
+        conf = 0.0
+        basis = ""
+        if use_geo and l.lat and l.lng and geo_pts:
+            g = geo_rent_for(l.lat, l.lng, l.area, geo_pts, SIZE_EDGES,
+                             a.geo_min_samples)
+            if g:
+                rent_ppm, n, radius, conf = g
+                basis = f"≤{radius:.1f} км · {n} объ."
+        if rent_ppm <= 0:  # geo failed or district mode -> district benchmark
+            rent_ppm, n, conf = _rent_for(l.district, l.area, rent_bench,
+                                          a.min_rent_samples)
+            basis = f"район · {n} объ." if rent_ppm > 0 else ""
+            conf *= 0.85  # district benchmark is coarser -> slightly less trust
         if rent_ppm <= 0:
             skipped["no_rent_bench"] += 1
             continue
+        basis_stats["гео" if basis.startswith("≤") else "район"] += 1
 
         est_month = rent_ppm * l.area
         annual = est_month * 12
@@ -219,8 +240,11 @@ def analyze(sale: list[Listing], rent: list[Listing],
             rent_sample_size=n, confidence=trust,
             verify=(gross_yield > a.verify_yield
                     or discount > a.verify_discount or not l.district),
+            rent_basis=basis,
         ))
 
+    if use_geo:
+        logger.info("Rent basis: %s", dict(basis_stats))
     logger.info("Candidates: %s (skipped: %s)", len(candidates), dict(skipped))
     if not candidates:
         return []

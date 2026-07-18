@@ -102,3 +102,30 @@ class Scraper:
         sale = self._crawl_deal("sale")
         rent = self._crawl_deal("rent")
         return sale, rent
+
+    def enrich_coords(self, listings: list[Listing],
+                      label: str = "") -> int:
+        """Fetch each listing's detail page and fill lat/lon (+complex id).
+        Skips listings that already have coordinates. Returns count enriched."""
+        done = 0
+        todo = [l for l in listings if l.lat is None]
+        logger.info("Enriching %s%s listings with coordinates",
+                    len(todo), f" {label}" if label else "")
+        for i, l in enumerate(todo, 1):
+            try:
+                geo = parse.parse_detail_geo(self._get(l.url))
+            except RuntimeError as err:
+                logger.warning("coord fetch failed %s: %s", l.url, err)
+                geo = {}
+            if geo.get("lat") and geo.get("lon"):
+                l.lat, l.lng = geo["lat"], geo["lon"]
+                if geo.get("complex_id"):
+                    l.raw_params["complex_id"] = geo["complex_id"]
+                if geo.get("area"):
+                    l.area = geo["area"]  # detail area is more precise
+                done += 1
+            if i % 50 == 0:
+                logger.info("  %s/%s enriched (%s ok)", i, len(todo), done)
+            self._sleep()
+        logger.info("Coordinates: %s/%s enriched", done, len(todo))
+        return done

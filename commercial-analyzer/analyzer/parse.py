@@ -126,6 +126,32 @@ def parse_list_page(html: str, deal: str, city: str) -> list[dict]:
     return out
 
 
+_MAP_RE = re.compile(r'"map"\s*:\s*\{\s*"lat"\s*:\s*(-?\d+\.\d+)\s*,\s*'
+                     r'"lon"\s*:\s*(-?\d+\.\d+)')
+_COMPLEX_ID_RE = re.compile(r'"complexId"\s*:\s*(\d+)')
+_ADVERT_AREA_RE = re.compile(r'·\s*(\d+[.,]?\d*)\s*м')
+
+
+def parse_detail_geo(html: str) -> dict:
+    """Extract precise location from a listing detail page:
+    {lat, lon, complex_id, area}. Values are None if absent."""
+    out: dict = {"lat": None, "lon": None, "complex_id": None, "area": None}
+    m = _MAP_RE.search(html)
+    if m:
+        out["lat"] = float(m.group(1))
+        out["lon"] = float(m.group(2))
+    cm = _COMPLEX_ID_RE.search(html)
+    if cm:
+        out["complex_id"] = int(cm.group(1))
+    soup = BeautifulSoup(html, "html.parser")
+    t = soup.select_one(".offer__advert-title")
+    if t:
+        am = _ADVERT_AREA_RE.search(t.get_text(" ", strip=True))
+        if am:
+            out["area"] = float(am.group(1).replace(",", "."))
+    return out
+
+
 def get_total_pages(html: str) -> int:
     """Number of result pages from the paginator, min 1."""
     soup = BeautifulSoup(html, "html.parser")

@@ -86,6 +86,10 @@ class AnalysisConfig:
     # flag a deal for manual verification when it looks "too good".
     verify_yield: float = 0.27
     verify_discount: float = 0.45
+    # rent benchmark granularity: "geo" (radius around each listing, needs
+    # coordinates) or "district" (per-district × size bucket).
+    location_mode: str = "geo"
+    geo_min_samples: int = 5   # min nearby rent ads before trusting a radius
 
 
 @dataclass
@@ -194,5 +198,7 @@ def load_config(path: str | None = None) -> Config:
         winsor_pct=a.get("winsor_pct", cfg.analysis.winsor_pct),
         verify_yield=a.get("verify_yield", cfg.analysis.verify_yield),
         verify_discount=a.get("verify_discount", cfg.analysis.verify_discount),
+        location_mode=a.get("location_mode", cfg.analysis.location_mode),
+        geo_min_samples=a.get("geo_min_samples", cfg.analysis.geo_min_samples),
     )
     return cfg
