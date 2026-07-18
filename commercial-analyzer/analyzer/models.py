@@ -56,6 +56,15 @@ class Listing:
         d["price_per_m2"] = self.price_per_m2
         return d
 
+    @classmethod
+    def from_dict(cls, d: dict) -> "Listing":
+        fields = {f: d.get(f) for f in (
+            "id", "deal", "url", "title", "price", "area", "floor",
+            "floor_raw", "building_type", "district", "address", "city",
+            "description", "lat", "lng", "raw_params")}
+        fields = {k: v for k, v in fields.items() if v is not None}
+        return cls(**fields)
+
 
 @dataclass
 class ScoredDeal:

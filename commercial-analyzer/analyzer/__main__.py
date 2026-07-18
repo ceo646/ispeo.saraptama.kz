@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 
 from .analyze import analyze
@@ -35,11 +36,24 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--demo", action="store_true",
                    help="offline-прогон на синтетических данных (без сети)")
     p.add_argument("--out", default=None, help="путь к HTML-отчёту")
+    p.add_argument("--cache", default=None, metavar="DIR",
+                   help="сохранить собранные данные в DIR/<city>_{sale,rent}.json")
+    p.add_argument("--from-cache", default=None, metavar="DIR",
+                   help="анализировать из кэша DIR без скрапинга (быстрые итерации)")
     args = p.parse_args(argv)
 
     cfg = load_config(args.config)
 
-    if args.demo:
+    if args.from_cache:
+        import json
+        from .models import Listing
+        base = os.path.join(args.from_cache, cfg.city)
+        with open(f"{base}_sale.json", encoding="utf-8") as fh:
+            sale = [Listing.from_dict(d) for d in json.load(fh)]
+        with open(f"{base}_rent.json", encoding="utf-8") as fh:
+            rent = [Listing.from_dict(d) for d in json.load(fh)]
+        logger.info("Загружено из кэша: %s продажа, %s аренда", len(sale), len(rent))
+    elif args.demo:
         from .demo import generate
         logger.info("DEMO MODE — синтетические данные, krisha.kz не запрашивается")
         sale, rent = generate()
@@ -52,6 +66,14 @@ def main(argv: list[str] | None = None) -> int:
             logger.error("krisha.kz недоступен или блокирует запросы. "
                          "Запустите с локального IP в РК или используйте --demo.")
             return 1
+        if args.cache:
+            import json
+            os.makedirs(args.cache, exist_ok=True)
+            base = os.path.join(args.cache, cfg.city)
+            for name, data in (("sale", sale), ("rent", rent)):
+                with open(f"{base}_{name}.json", "w", encoding="utf-8") as fh:
+                    json.dump([l.to_dict() for l in data], fh, ensure_ascii=False)
+            logger.info("Данные сохранены в кэш: %s", args.cache)
 
     logger.info("Продажа: %s объявлений, аренда: %s объявлений",
                 len(sale), len(rent))

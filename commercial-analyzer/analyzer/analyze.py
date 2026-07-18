@@ -45,6 +45,21 @@ def _clean_area(l: Listing, cfg: Config) -> bool:
     return bool(l.area and cfg.deal.area_from <= l.area <= cfg.deal.area_to)
 
 
+def dedupe(listings: list[Listing]) -> list[Listing]:
+    """Collapse re-posts: same price + area + address = same object under
+    different ad ids. Keeps the first occurrence."""
+    seen: set[tuple] = set()
+    out: list[Listing] = []
+    for l in listings:
+        key = (l.price, round(l.area, 1) if l.area else None,
+               (l.address or "").lower()[:40])
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(l)
+    return out
+
+
 def build_rent_benchmarks(rent: list[Listing]) -> dict:
     """Return nested medians:
        bench[district][bucket] and bench[district][-1] (all sizes),
@@ -123,6 +138,11 @@ def _normalize(values: list[float]) -> list[float]:
 def analyze(sale: list[Listing], rent: list[Listing],
             cfg: Config) -> list[ScoredDeal]:
     a: AnalysisConfig = cfg.analysis
+    before = len(sale)
+    sale = dedupe(sale)
+    rent = dedupe(rent)
+    if before != len(sale):
+        logger.info("Dedupe: %s -> %s sale listings", before, len(sale))
     rent_bench = build_rent_benchmarks(rent)
     sale_bench = build_sale_price_benchmarks(sale)
 
