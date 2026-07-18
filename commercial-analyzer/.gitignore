@@ -4,3 +4,4 @@ __pycache__/
 venv/
 report/*.html
 !report/demo.html
+!report/top20_astana.html

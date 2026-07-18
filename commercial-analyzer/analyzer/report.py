@@ -30,11 +30,14 @@ def _rows(deals: list[ScoredDeal]) -> str:
     for i, d in enumerate(deals, 1):
         r = d.to_row()
         score_hue = 120 * min(1.0, r["score"] / 100)
+        badge = ('<span class="flag" title="Доходность/дисконт выше обычного — '
+                 'обязательно проверьте объект вручную">⚠ проверить</span>'
+                 if r["verify"] else "")
         cells.append(f"""
         <tr>
           <td class="rank">{i}</td>
           <td><span class="score" style="--hue:{score_hue:.0f}">{r['score']}</span></td>
-          <td class="title"><a href="{html.escape(r['url'])}" target="_blank" rel="noopener">{html.escape(r['title'])}</a></td>
+          <td class="title"><a href="{html.escape(r['url'])}" target="_blank" rel="noopener">{html.escape(r['title'])}</a>{badge}</td>
           <td>{html.escape(r['district'])}</td>
           <td class="num">{_fmt_num(r['area'], ' м²')}</td>
           <td class="num">{html.escape(str(r['floor']))}</td>
@@ -106,6 +109,12 @@ def render_html(deals: list[ScoredDeal], cfg: Config,
   .score {{ display:inline-block; min-width:42px; text-align:center;
     padding:3px 8px; border-radius:8px; font-weight:700; color:#fff;
     background:hsl(var(--hue) 65% 42%); }}
+  .flag {{ display:inline-block; margin-left:8px; padding:1px 7px;
+    border-radius:6px; font-size:11px; font-weight:600; white-space:nowrap;
+    color:#92400e; background:#fef3c7; border:1px solid #fbbf24; }}
+  @media (prefers-color-scheme: dark) {{
+    .flag {{ color:#fde68a; background:#3a2f10; border-color:#a16207; }}
+  }}
   .method {{ margin-top:28px; color:var(--muted); font-size:13px;
     background:var(--card); border:1px solid var(--line);
     border-radius:12px; padding:16px 20px; }}
@@ -141,16 +150,27 @@ def render_html(deals: list[ScoredDeal], cfg: Config,
 
   <div class="method">
     <b>Как считается композитный скор.</b>
-    Для каждого помещения ожидаемая аренда = площадь × медианная ставка
-    аренды за м² по его району (по данным аренды krisha.kz).
-    Доходность = аренда×12 / цена покупки; окупаемость = 1/доходности;
-    дисконт к рынку = насколько цена за м² ниже медианы района.
-    Итоговый скор нормализует три компонента и складывает с весами:
+    Ожидаемая аренда = площадь × медианная ставка аренды за м² по району
+    <i>и близкому размеру</i> помещения (усечённая медиана по объявлениям
+    аренды krisha.kz — крайние выбросы отброшены). Доходность = аренда×12 /
+    цена; окупаемость = 1/доходности; дисконт к рынку = насколько цена за м²
+    ниже медианы района. Скор нормализует три компонента с весами:
     доходность <code>{w.yield_}</code>, дисконт <code>{w.discount}</code>,
-    достоверность данных <code>{w.confidence}</code>.
-    «Достоверность» тем выше, чем больше объявлений аренды в районе
-    подтверждают ставку. Оценки арендной доходности — валовые (без учёта
-    налогов, простоя и расходов на содержание); проверяйте каждый объект
+    надёжность <code>{w.confidence}</code>. «Надёжность» = объём данных по
+    аренде района × правдоподобие (доходность, сильно превышающая типичную
+    для района, считается менее достоверной и понижается в рейтинге).
+    <br><br>
+    <b>Фильтры:</b> цена ≤ {_fmt_money(cfg.deal.price_to)}; исключены
+    цокольные/подвальные/полуподвальные; отброшены аномальные доходности
+    (&gt;{round(cfg.analysis.max_plausible_yield*100)}%) и подозрительно
+    дешёвые лоты (дисконт &gt;{round(cfg.analysis.max_discount*100)}% —
+    почти всегда битые данные или неполноценный объект); дубли-переклейки
+    объединены. Метка <span class="flag">⚠ проверить</span> — доходность или
+    дисконт выше обычного: возможен реальный «алмаз», но чаще требует ручной
+    проверки (тип/этаж/состояние/площадь).
+    <br><br>
+    Доходность <b>валовая</b> — без налогов, простоя, коммуналки и ремонта.
+    Это инструмент отбора кандидатов, а не оценка; каждый объект проверяйте
     вручную перед сделкой.
   </div>
 </div>

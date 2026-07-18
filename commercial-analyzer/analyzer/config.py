@@ -69,12 +69,23 @@ class Weights:
 class AnalysisConfig:
     weights: Weights = field(default_factory=Weights)
     top_n: int = 20
-    min_rent_samples: int = 3
+    min_rent_samples: int = 4
     # ignore sale listings whose computed yield is implausible (data errors).
-    # Astana commercial gross yields are ~8-16%; >28% is almost always a data
-    # artifact (wrong area, a share/land plot, or a benchmark mismatch).
-    max_plausible_yield: float = 0.28
+    # Astana commercial gross yields cluster ~10-18%; >35% is almost always a
+    # data artifact (wrong area, a share/land plot, or a benchmark mismatch).
+    max_plausible_yield: float = 0.35
     min_plausible_yield: float = 0.03
+    # drop suspiciously cheap listings (price/m² far below district median) —
+    # an extreme discount signals a problem, not value.
+    max_discount: float = 0.55
+    # a yield above plausibility_factor × district-typical yield loses trust.
+    plausibility_factor: float = 1.5
+    # winsorize yield & discount at this percentile before normalizing, so a
+    # few extreme values don't compress everyone else's score.
+    winsor_pct: float = 0.90
+    # flag a deal for manual verification when it looks "too good".
+    verify_yield: float = 0.27
+    verify_discount: float = 0.45
 
 
 @dataclass
@@ -177,5 +188,11 @@ def load_config(path: str | None = None) -> Config:
                                   cfg.analysis.max_plausible_yield),
         min_plausible_yield=a.get("min_plausible_yield",
                                   cfg.analysis.min_plausible_yield),
+        max_discount=a.get("max_discount", cfg.analysis.max_discount),
+        plausibility_factor=a.get("plausibility_factor",
+                                  cfg.analysis.plausibility_factor),
+        winsor_pct=a.get("winsor_pct", cfg.analysis.winsor_pct),
+        verify_yield=a.get("verify_yield", cfg.analysis.verify_yield),
+        verify_discount=a.get("verify_discount", cfg.analysis.verify_discount),
     )
     return cfg

@@ -58,11 +58,12 @@ class Listing:
 
     @classmethod
     def from_dict(cls, d: dict) -> "Listing":
-        fields = {f: d.get(f) for f in (
-            "id", "deal", "url", "title", "price", "area", "floor",
-            "floor_raw", "building_type", "district", "address", "city",
-            "description", "lat", "lng", "raw_params")}
-        fields = {k: v for k, v in fields.items() if v is not None}
+        known = ("id", "deal", "url", "title", "price", "area", "floor",
+                 "floor_raw", "building_type", "district", "address", "city",
+                 "description", "lat", "lng", "raw_params")
+        fields = {f: d[f] for f in known if f in d}
+        if fields.get("raw_params") is None:
+            fields.pop("raw_params", None)
         return cls(**fields)
 
 
@@ -78,8 +79,9 @@ class ScoredDeal:
     market_price_per_m2: float       # district median sale price/m2
     price_discount: float            # (market - listing) / market  (>0 = cheaper)
     rent_sample_size: int            # rent listings backing the benchmark
-    confidence: float                # 0..1 data-trust factor
+    confidence: float                # 0..1 data-trust factor (conf × plausibility)
     score: float = 0.0               # composite score, 0..100
+    verify: bool = False             # "too good" — flag for manual verification
 
     def to_row(self) -> dict:
         l = self.listing
@@ -98,5 +100,6 @@ class ScoredDeal:
             "price_discount_pct": round(self.price_discount * 100, 1),
             "floor": l.floor_raw or (str(l.floor) if l.floor is not None else "—"),
             "confidence": round(self.confidence, 2),
+            "verify": self.verify,
             "url": l.url,
         }

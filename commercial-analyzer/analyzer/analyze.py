@@ -135,6 +135,23 @@ def _normalize(values: list[float]) -> list[float]:
     return [(v - lo) / (hi - lo) for v in values]
 
 
+def _percentile(values: list[float], p: float) -> float:
+    s = sorted(values)
+    return s[min(len(s) - 1, int(len(s) * p))] if s else 0.0
+
+
+def district_typical_yields(rent_bench: dict,
+                            sale_bench: dict[str, float]) -> dict[str, float]:
+    """district -> typical gross yield (rent_median×12 / sale_median)."""
+    typ: dict[str, float] = {}
+    for d, bmap in rent_bench.items():
+        r = bmap.get(-1)
+        s = sale_bench.get(d)
+        if r and s:
+            typ[d] = r[0] * 12 / s
+    return typ
+
+
 def analyze(sale: list[Listing], rent: list[Listing],
             cfg: Config) -> list[ScoredDeal]:
     a: AnalysisConfig = cfg.analysis
@@ -149,6 +166,9 @@ def analyze(sale: list[Listing], rent: list[Listing],
     if CITY_KEY not in rent_bench:
         logger.error("No usable rent data — cannot estimate yields.")
         return []
+
+    typ = district_typical_yields(rent_bench, sale_bench)
+    city_typ = typ.get(CITY_KEY, 0.16)
 
     candidates: list[ScoredDeal] = []
     skipped: dict[str, int] = defaultdict(int)
@@ -179,24 +199,39 @@ def analyze(sale: list[Listing], rent: list[Listing],
         if not (a.min_plausible_yield <= gross_yield <= a.max_plausible_yield):
             skipped["implausible_yield"] += 1
             continue
-        payback = l.price / annual
 
         market_ppm = sale_bench.get(l.district) or sale_bench.get(CITY_KEY, 0.0)
         discount = ((market_ppm - ppm) / market_ppm) if market_ppm else 0.0
+        if discount > a.max_discount:  # suspiciously cheap -> likely a problem
+            skipped["suspicious_cheap"] += 1
+            continue
+
+        # trust = rent-sample confidence × plausibility. A yield far above the
+        # district norm is more likely a data artifact -> lower trust.
+        d_typ = typ.get(l.district, city_typ) or city_typ
+        plausibility = min(1.0, a.plausibility_factor * d_typ / gross_yield)
+        trust = conf * plausibility
 
         candidates.append(ScoredDeal(
             listing=l, est_monthly_rent=est_month, rent_per_m2=rent_ppm,
-            gross_yield=gross_yield, payback_years=payback,
+            gross_yield=gross_yield, payback_years=l.price / annual,
             market_price_per_m2=market_ppm, price_discount=discount,
-            rent_sample_size=n, confidence=conf,
+            rent_sample_size=n, confidence=trust,
+            verify=(gross_yield > a.verify_yield
+                    or discount > a.verify_discount or not l.district),
         ))
 
     logger.info("Candidates: %s (skipped: %s)", len(candidates), dict(skipped))
     if not candidates:
         return []
 
-    y = _normalize([c.gross_yield for c in candidates])
-    disc = _normalize([max(0.0, c.price_discount) for c in candidates])
+    # winsorize yield & discount so extreme values don't dominate the scale
+    cap_y = _percentile([c.gross_yield for c in candidates], a.winsor_pct)
+    cap_d = _percentile([max(0.0, c.price_discount) for c in candidates],
+                        a.winsor_pct)
+    y = _normalize([min(c.gross_yield, cap_y) for c in candidates])
+    disc = _normalize([min(max(0.0, c.price_discount), cap_d)
+                       for c in candidates])
     conf = _normalize([c.confidence for c in candidates])
     w = a.weights
     wsum = w.yield_ + w.discount + w.confidence
