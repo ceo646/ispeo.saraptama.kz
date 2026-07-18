@@ -22,6 +22,7 @@ class Listing:
     district: str = ""            # район (Есиль/Алматы/Сарыарка/...)
     address: str = ""
     city: str = ""
+    description: str = ""         # card snippet / detail text (basement check)
     lat: Optional[float] = None
     lng: Optional[float] = None
     raw_params: dict = field(default_factory=dict)
@@ -39,13 +40,14 @@ class Listing:
                 self.floor_raw,
                 self.building_type,
                 self.title,
+                self.description,
                 " ".join(f"{k} {v}" for k, v in self.raw_params.items()),
             ]
         ).lower()
         markers = (
             "цоколь", "цокольн", "подвал", "подвальн", "полуподвал",
             "полу-подвал", "basement", "ниже уровня земли", "-1 этаж",
-            "минус первый", "сутеренный", "сутеренный",
+            "минус первый", "сутеренный",
         )
         return any(m in text for m in markers)
 

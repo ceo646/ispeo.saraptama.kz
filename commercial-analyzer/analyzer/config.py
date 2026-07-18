@@ -45,7 +45,9 @@ class DealConfig:
 
 @dataclass
 class ScrapeConfig:
-    max_pages: int = 40
+    max_pages: int = 40                # fallback cap for both deal types
+    max_pages_sale: int | None = None  # overrides max_pages for sale
+    max_pages_rent: int | None = None  # overrides max_pages for rent
     request_delay: tuple[float, float] = (2.0, 5.0)
     timeout: int = 30
     retries: int = 4
@@ -68,9 +70,11 @@ class AnalysisConfig:
     weights: Weights = field(default_factory=Weights)
     top_n: int = 20
     min_rent_samples: int = 3
-    # ignore sale listings whose computed yield is implausible (data errors)
-    max_plausible_yield: float = 0.60
-    min_plausible_yield: float = 0.01
+    # ignore sale listings whose computed yield is implausible (data errors).
+    # Astana commercial gross yields are ~8-16%; >28% is almost always a data
+    # artifact (wrong area, a share/land plot, or a benchmark mismatch).
+    max_plausible_yield: float = 0.28
+    min_plausible_yield: float = 0.03
 
 
 @dataclass
@@ -150,6 +154,8 @@ def load_config(path: str | None = None) -> Config:
     delay = s.get("request_delay", list(cfg.scrape.request_delay))
     cfg.scrape = ScrapeConfig(
         max_pages=s.get("max_pages", cfg.scrape.max_pages),
+        max_pages_sale=s.get("max_pages_sale", cfg.scrape.max_pages_sale),
+        max_pages_rent=s.get("max_pages_rent", cfg.scrape.max_pages_rent),
         request_delay=tuple(delay),
         timeout=s.get("timeout", cfg.scrape.timeout),
         retries=s.get("retries", cfg.scrape.retries),
