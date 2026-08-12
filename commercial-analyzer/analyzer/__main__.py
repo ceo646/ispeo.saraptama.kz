@@ -63,18 +63,38 @@ def main(argv: list[str] | None = None) -> int:
             scraper = Scraper(cfg)
             sale, rent = scraper.scrape()
             if cfg.scrape.fetch_coords and cfg.analysis.location_mode == "geo":
-                # coordinates power the geo-radius rent benchmark;
-                # checkpoints make the (large) coord crawl resumable
-                ckdir = args.cache or ".coords_cache"
-                os.makedirs(ckdir, exist_ok=True)
-                scraper.enrich_coords(
-                    rent, "rent",
-                    checkpoint=os.path.join(ckdir, f"{cfg.city}_rent_coords.jsonl"))
+                # Coordinates power the geo-radius rent benchmark. The map
+                # endpoints hand out ~20 coords per request, so try them first
+                # and only fall back to detail pages (1 per request) for what
+                # the map doesn't carry. See docs/data-sources.md.
+                from . import mapsource
                 eligible = [l for l in sale if l.price
                             and l.price <= cfg.deal.price_to and l.area]
-                scraper.enrich_coords(
-                    eligible, "sale",
-                    checkpoint=os.path.join(ckdir, f"{cfg.city}_sale_coords.jsonl"))
+                bbox = mapsource.CITY_BBOX.get(cfg.city.lower())
+                if bbox:
+                    for label, section, items in (
+                            ("rent", "arenda/kommercheskaya-nedvizhimost/", rent),
+                            ("sale", "prodazha/kommercheskaya-nedvizhimost/", eligible)):
+                        try:
+                            coords = mapsource.coords_for_city(section, bbox)
+                            hit = mapsource.apply_coords(items, coords)
+                            logger.info("Карта: %s координат для %s (%s объявлений)",
+                                        hit, label, len(items))
+                        except Exception as err:  # noqa: BLE001
+                            logger.warning("Карта недоступна для %s: %s", label, err)
+                else:
+                    logger.info("Нет bbox для города %s — только детальные страницы",
+                                cfg.city)
+
+                if cfg.scrape.fetch_coords_fallback:
+                    ckdir = args.cache or ".coords_cache"
+                    os.makedirs(ckdir, exist_ok=True)
+                    scraper.enrich_coords(
+                        rent, "rent",
+                        checkpoint=os.path.join(ckdir, f"{cfg.city}_rent_coords.jsonl"))
+                    scraper.enrich_coords(
+                        eligible, "sale",
+                        checkpoint=os.path.join(ckdir, f"{cfg.city}_sale_coords.jsonl"))
         except Exception as err:  # noqa: BLE001
             logger.error("Скрапинг не удался: %s", err)
             logger.error("krisha.kz недоступен или блокирует запросы. "
