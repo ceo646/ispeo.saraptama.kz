@@ -1,0 +1,43 @@
+{
+  "bigville": "IMPULSE (BI Group)",
+  "location": {
+    "address": "Астана, шоссе Каркаралы (Қарқаралы тас жолы) at пр. Кабанбай батыра; krisha resale listing gives 'Каркаралы 10 — Кабанбай батыра'. BI Group landing: 'Каркаралинское шоссе, рядом с конноспортивным комплексом' (Kazanat hippodrome, 51.068, 71.390, west side of the highway)",
+    "district": "Есильский",
+    "lat": 51.064,
+    "lon": 71.399,
+    "source_coords": {"method": "inferred, no published pin: wedge east of Karkaraly highway (OSM way 165608300 starts at 51.0704, 71.3954) and south of Kabanbay batyr (passes 51.069,71.397 -> 51.066,71.403); Nominatim reverse geocodes this wedge to район Есиль, the hippodrome side to район Нура", "krisha_listing_pin": "the only Impulse listing (1015245492) is pinned far away, inside 51.085-51.100 x 71.430-71.4475 (seller pin, judged wrong)"},
+    "bbox": {
+      "base": {"south": 51.059, "west": 71.391, "north": 51.069, "east": 71.407, "center": [51.064, 71.399]},
+      "widened": {"south": 51.054, "west": 71.383, "north": 51.074, "east": 71.415},
+      "areas_base": "p51.069000%2C71.391000%2C51.069000%2C71.407000%2C51.059000%2C71.407000%2C51.059000%2C71.391000%2C51.069000%2C71.391000",
+      "areas_widened": "p51.074000%2C71.383000%2C51.074000%2C71.415000%2C51.054000%2C71.415000%2C51.054000%2C71.383000%2C51.074000%2C71.383000"
+    },
+    "complexes": ["IMPULSE", "IMPULSE. Sport"],
+    "status": "Under construction, sales open. Comfort+ class, closed courtyard, green belt; first completion IV кв. 2027 (bi.group landing snippets + krisha listing 1015245492: 9-floor building, risen to ~8th floor). Not on korter/kn.kz/krisha complex catalogues yet."
+  },
+  "search_terms": ["areas= map polygon (base and widened)", "keyword checks: Impulse, Импульс, Каркаралы"],
+  "totals": {
+    "rent_found_raw": 0,
+    "sale_found_raw": 0,
+    "area_found_raw": {"rent": 3, "sale": 2, "rent_widened": 3, "sale_widened": 4}
+  },
+  "rows": [
+    {"id": "1015329045", "deal": "rent", "scope": "inside", "title": "Свободное назначение, офисы, магазины и бутики, склады, азс, автосервисы и автомойки, общепит, кабинеты и рабочие места, студии", "area": 249.0, "price": 880000, "ppm": 3534, "address": "Есильский р-н, Кабанбай батыра 75а (вход отдельный, потолки 2.8 м)", "complex": "Family Park", "basement": false},
+    {"id": "1015447816", "deal": "rent", "scope": "inside", "title": "Свободное назначение, офисы, магазины и бутики, склады, азс, автосервисы и автомойки, общепит, развлечения, студии", "area": 250.0, "price": 880000, "ppm": 3520, "address": "Есильский р-н, Кабанбай батыра 75а (вход отдельный, с улицы, потолки 2.8 м)", "complex": "Family Park", "basement": false},
+    {"id": "1008781557", "deal": "rent", "scope": "inside", "title": "Свободное назначение, офисы, магазины и бутики, склады, азс, автосервисы и автомойки, студии", "area": 249.0, "price": 850000, "ppm": 3414, "address": "Есильский р-н, Кабанбай батыра 75а (вход отдельный, с улицы, потолки 2.8 м)", "complex": "Family Park", "basement": false},
+    {"id": "761392449", "deal": "sale", "scope": "inside", "title": "Свободное назначение, офисы, образование, развлечения", "area": 105.0, "price": 45000000, "ppm": 428571, "address": "Есильский р-н, Кабанбай батыра 75а (черновая, потолки 4.2 м)", "complex": "Family Park", "basement": false},
+    {"id": "1015206465", "deal": "sale", "scope": "inside", "title": "Свободное назначение, офисы, магазины и бутики, салоны красоты, медцентры и аптеки, образование", "area": 20.0, "price": 10000000, "ppm": 500000, "address": "Нура р-н (sic), Кабанбай батыра 75 а (черновая, вход отдельный, потолки 3.6 м)", "complex": "Family Park", "basement": false},
+    {"id": "1016135355", "deal": "sale", "scope": "nearby", "title": "Свободное назначение, офисы, магазины и бутики, общепит, салоны красоты, сельское хозяйство, медцентры и аптеки, образование", "area": 188.7, "price": 225000000, "ppm": 1192369, "address": "Есильский р-н, Мангилик ел 65, 1 этаж", "complex": "", "basement": false},
+    {"id": "1015967576", "deal": "sale", "scope": "nearby", "title": "Свободное назначение (кладовая, 5 подъезд, 3 этаж)", "area": 3.3, "price": 1300000, "ppm": 393939, "address": "Нура р-н, Туран 103 5а", "complex": "Space 1", "basement": false}
+  ],
+  "notes": "IMPULSE is in Astana (Esil district per krisha; the highway itself is the Esil/Nura boundary - the hippodrome side is Nura). Location is approximate: no complex page with coordinates exists on krisha/korter/kn.kz yet, and bi.group was not opened (Cloudflare). The area is still mostly undeveloped, so supply is very thin: base box 3 rent + 2 sale, widened once 3 rent + 4 sale (the 2 extra sale rows are scope=nearby). All 3 rent and both inside sale rows are ЖК Family Park (Кабанбай батыра 75а, completed 2020, not BI Group) - the only built residential complex in the box; the three rent rows are near-duplicate ~250 m² street-front units (possibly the same premises listed more than once). Fewer than 10 rent rows even after widening - treat the rent median as indicative only. Keyword searches (_txt_=Impulse, Импульс, Каркаралы) return 0 commercial listings in Astana. Single-page results everywhere; printed ppm matched price/area on every row. 1015967576 is a 3.3 m² storage unit - exclude from medians; 1016135355 (Мангилик Ел 65, near the Central Mosque) is a high-end outlier. Medians: rent (n=3, inside) 3,520 ₸/m²/month; sale inside (n=2) 464,286 ₸/m²; sale excl. storage incl. nearby (n=3) 500,000 ₸/m². Basement flags false based only on visible snippet text.",
+  "sources": [
+    "https://bi.group/ru/landing/impulse (search snippet only)",
+    "https://bi.group/ru/landing/impulse-sport (search snippet only)",
+    "https://krisha.kz/a/show/1015245492",
+    "https://krisha.kz/prodazha/kvartiry/astana/?_txt_=Impulse",
+    "https://nominatim.openstreetmap.org/search?q=шоссе Каркаралы, Астана (way 165608300, Нура ауданы)",
+    "https://nominatim.openstreetmap.org/search?q=ипподром, Астана (Қазанат атшабары, Қарқаралы тас жолы, 51.0679, 71.3904)",
+    "https://www.gov.kz/memleket/entities/astana/press/news/details/811316?lang=ru"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "bigville": "Lavita City (BI Group)",
+  "location": {
+    "address": "Астана, Есильский р-н, ул. Е 826, 2 (kn.kz: пересечение улиц Е111 и Е826); south-east Esil, ~1.2 km south of ЖК Bagystan (Е117) and Улы Дала, east of КГ Tumar Grand Village",
+    "district": "Есильский",
+    "lat": 51.070,
+    "lon": 71.486,
+    "source_coords": {"korter": [51.06798, 71.48711], "kn.kz": [51.07044, 71.47923], "krisha_listing_pins": "inside 51.0700-51.0760 x 71.4825-71.4960 (found by bisecting areas= with _txt_=Lavita)"},
+    "bbox": {
+      "base": {"south": 51.066, "west": 71.480, "north": 51.076, "east": 71.496, "center": [51.071, 71.488]},
+      "widened": {"south": 51.061, "west": 71.472, "north": 51.081, "east": 71.504},
+      "areas_base": "p51.076000%2C71.480000%2C51.076000%2C71.496000%2C51.066000%2C71.496000%2C51.066000%2C71.480000%2C51.076000%2C71.480000",
+      "areas_widened": "p51.081000%2C71.472000%2C51.081000%2C71.504000%2C51.061000%2C71.504000%2C51.061000%2C71.472000%2C51.081000%2C71.472000",
+      "check": "base box verified to contain krisha pins of Lavita City apartment listings 1016477154, 1016499581, 1006889378"
+    },
+    "complexes": ["Lavita City A (monolithic)", "Lavita City B (brick)", "LAVITA (kn.kz card, business class, possibly a separate low-rise phase)"],
+    "status": "Under construction. korter/krisha: 19 sections, 9 floors, comfort+ class, 1,746 apartments, construction start 2025, completion III кв. 2026; kn.kz says II кв. 2026. Resale apartment listings already show '2026 г.п.'. Developer shown as BI Group Север (krisha complex page) / BI Group Юг (search snippet)."
+  },
+  "search_terms": ["areas= map polygon (base and widened)", "keyword checks: Lavita, Лавита, Е 826"],
+  "totals": {
+    "rent_found_raw": 0,
+    "sale_found_raw": 0,
+    "area_found_raw": {"rent": 0, "sale": 0, "rent_widened": 11, "sale_widened": 14}
+  },
+  "rows": [
+    {"id": "1014072497", "deal": "rent", "scope": "nearby", "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, фитнес и спорт, медцентры и аптеки, образование, развлечения, конференц-залы, кабинеты и рабочие места, студии", "area": 130.0, "price": 600000, "ppm": 4615, "address": "Есильский р-н, Е-117 4", "complex": "Багыстан-4", "basement": false},
+    {"id": "1012629665", "deal": "rent", "scope": "nearby", "title": "Свободное назначение", "area": 164.0, "price": 600000, "ppm": 3659, "address": "Есильский р-н, Е 117 40 — Аныракай", "complex": "Багыстан", "basement": false},
+    {"id": "1012262027", "deal": "rent", "scope": "nearby", "title": "Свободное назначение", "area": 40.0, "price": 130000, "ppm": 3250, "address": "Есильский р-н, Е117 40", "complex": "Багыстан", "basement": false},
+    {"id": "1016484576", "deal": "rent", "scope": "nearby", "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, фитнес и спорт, медцентры и аптеки, образование, развлечения, конференц-залы, кабинеты и рабочие места, студии", "area": 105.0, "price": 600000, "ppm": 5714, "address": "Есильский р-н, мкр Куйгенжар, Е 117 35", "complex": "Багыстан", "basement": false},
+    {"id": "1013686879", "deal": "rent", "scope": "nearby", "title": "Свободное назначение", "area": 70.0, "price": 300000, "ppm": 4286, "address": "Есильский р-н, мкр Комсомольский 40", "complex": "", "basement": false},
+    {"id": "1011137373", "deal": "rent", "scope": "nearby", "title": "Свободное назначение", "area": 160.0, "price": 650000, "ppm": 4063, "address": "Есильский р-н, Е 117 40", "complex": "Багыстан", "basement": false},
+    {"id": "1016432363", "deal": "rent", "scope": "nearby", "title": "Свободное назначение", "area": 70.0, "price": 600000, "ppm": 8571, "address": "Есильский р-н, Е 117 43 — Е 117 / Ф Онгарсыновой", "complex": "Багыстан 4", "basement": false},
+    {"id": "1015994824", "deal": "rent", "scope": "nearby", "title": "Свободное назначение, магазины и бутики, общепит", "area": 157.0, "price": 1200000, "ppm": 7643, "address": "Есильский р-н, Е 117 улица 39", "complex": "Багыстан", "basement": false},
+    {"id": "1005346227", "deal": "rent", "scope": "nearby", "title": "Свободное назначение, общепит", "area": 70.0, "price": 800000, "ppm": 11429, "address": "Есильский р-н, Е 117 39", "complex": "", "basement": false},
+    {"id": "1015994362", "deal": "rent", "scope": "nearby", "title": "Свободное назначение, магазины и бутики, кабинеты и рабочие места", "area": 30.0, "price": 450000, "ppm": 15000, "address": "Есильский р-н, Е 117 улица 39", "complex": "Багыстан", "basement": false},
+    {"id": "1016375267", "deal": "rent", "scope": "nearby", "title": "Склады", "area": 120.0, "price": 300000, "ppm": 2500, "address": "Есильский р-н, Е-117 4", "complex": "Багыстан", "basement": false},
+    {"id": "1010842063", "deal": "sale", "scope": "nearby", "title": "Свободное назначение", "area": 25.0, "price": 14000000, "ppm": 560000, "address": "Есильский р-н, Е-117 38", "complex": "Багыстан", "basement": false},
+    {"id": "1015933212", "deal": "sale", "scope": "nearby", "title": "Склады (кладовая)", "area": 2.74, "price": 900000, "ppm": 328467, "address": "Е117 45", "complex": "Багыстан 2", "basement": false},
+    {"id": "1015009051", "deal": "sale", "scope": "nearby", "title": "Свободное назначение, офисы, магазины и бутики, общепит, салоны красоты, медцентры и аптеки, образование, развлечения", "area": 130.0, "price": 62000000, "ppm": 476923, "address": "Есильский р-н, Е-117 4", "complex": "Багыстан-4", "basement": false},
+    {"id": "1016323672", "deal": "sale", "scope": "nearby", "title": "Магазины и бутики", "area": 151.0, "price": 145000000, "ppm": 960265, "address": "Есильский р-н, E117 38", "complex": "", "basement": false},
+    {"id": "1013882737", "deal": "sale", "scope": "nearby", "title": "Свободное назначение", "area": 86.92, "price": 72000000, "ppm": 828348, "address": "Есильский р-н, Е-117 40", "complex": "New line (Багыстан 4)", "basement": false},
+    {"id": "1016067691", "deal": "sale", "scope": "nearby", "title": "Свободное назначение, офисы, магазины и бутики, общепит, салоны красоты, медцентры и аптеки, образование, развлечения", "area": 170.0, "price": 98000000, "ppm": 576471, "address": "Есильский р-н, Е117 41 — Улы Дала", "complex": "Багыстан", "basement": false},
+    {"id": "1011345474", "deal": "sale", "scope": "nearby", "title": "Свободное назначение", "area": 51.0, "price": 45000000, "ppm": 882353, "address": "Есильский р-н, Е117 38", "complex": "Багыстан", "basement": false},
+    {"id": "1016062649", "deal": "sale", "scope": "nearby", "title": "Склады (кладовая, 2 позиция, под 5 подъездом)", "area": 3.61, "price": 600000, "ppm": 166205, "address": "Е117 43", "complex": "Багыстан", "basement": false},
+    {"id": "1016457406", "deal": "sale", "scope": "nearby", "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование, развлечения", "area": 130.0, "price": 75000000, "ppm": 576923, "address": "Есильский р-н, Е-117 42", "complex": "Бағыстан", "basement": false},
+    {"id": "1015847987", "deal": "sale", "scope": "nearby", "title": "Свободное назначение, склады (кладовая)", "area": 4.0, "price": 800000, "ppm": 200000, "address": "Есильский р-н, Багыстан 4 43 — Улы дала", "complex": "Багыстан 4", "basement": false},
+    {"id": "1014722538", "deal": "sale", "scope": "nearby", "title": "Свободное назначение", "area": 127.0, "price": 87630000, "ppm": 690000, "address": "Есильский р-н, Е 453 24/1 — Е 453", "complex": "Lumen", "basement": false},
+    {"id": "1016432555", "deal": "sale", "scope": "nearby", "title": "Свободное назначение", "area": 68.0, "price": 52000000, "ppm": 764706, "address": "Есильский р-н, Е 117 43 — Е 117 / Ф Онгарсыновой", "complex": "Багыстан 4", "basement": false},
+    {"id": "1016400214", "deal": "sale", "scope": "nearby", "title": "Свободное назначение, офисы, магазины и бутики, салоны красоты, медцентры и аптеки, образование", "area": 91.0, "price": 58000000, "ppm": 637363, "address": "Есильский р-н, Е-117 39", "complex": "", "basement": false},
+    {"id": "1014115217", "deal": "sale", "scope": "nearby", "title": "Офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование, развлечения (2 уровня)", "area": 141.4, "price": 69000000, "ppm": 487977, "address": "Есильский р-н, Е117 39", "complex": "Бағыстан", "basement": false}
+  ],
+  "notes": "Lavita is in Astana (Esil district, south-east, the Е111/Е826 street grid south of Улы Дала). Map-area method: the base box (±0.005 lat, ±0.008 lon around 51.071, 71.488) contains the krisha pins of the Lavita City apartment listings but has 0 commercial rent and 0 commercial sale listings - the complex is still being built and its ground-floor commercial is not on the market. Widened once (±0.010/±0.016): 11 rent and 14 sale, all marked scope=nearby. Almost all are in ЖК Багыстан / Bagystan-4 / New Line (ул. Е117 35-45, ~1-1.5 km north of Lavita at 51.080, 71.489; not a BI Group project), plus one Lumen (Е 453 24/1) and one мкр Комсомольский 40. Keyword searches (_txt_=Lavita, Лавита, Е 826) also return 0 commercial listings. All pages had a single page of results (no pagination). Printed ppm matched price/area on every row. Three sale rows are 2.7-4 m² storage units (кладовые: 1015933212, 1016062649, 1015847987) - exclude them from sale medians. Medians: rent (n=11, nearby) 4,615 ₸/m²/month (IQR approx 3,700-8,600; the 2,500 row is a warehouse); sale excl. storage (n=11, nearby) 637,363 ₸/m² (range 476,923-960,265); sale incl. storage (n=14) 576,697 ₸/m². Basement flags are false everywhere but are based only on the visible title/snippet (snippets truncated). Source conflicts: kn.kz describes 'LAVITA' as business class, 1-2 floors, II кв. 2026, while korter/krisha describe 'Lavita City' as comfort+, 9 floors, 1,746 apartments, III кв. 2026; same location, so treated as one bigville.",
+  "sources": [
+    "https://krisha.kz/complex/show/astana/lavitacity/",
+    "https://korter.kz/lavita-city-астана",
+    "https://www.kn.kz/zhilye-kompleksy/astana/lavita",
+    "https://krisha.kz/prodazha/kvartiry/astana/?_txt_=Lavita",
+    "https://krisha.kz/prodazha/kvartiry/astana/?areas=p51.076000%2C71.480000%2C51.076000%2C71.496000%2C51.066000%2C71.496000%2C51.066000%2C71.480000%2C51.076000%2C71.480000",
+    "https://nominatim.openstreetmap.org (reverse geocode: 51.0704,71.4792 -> район Есиль)"
+  ]
+}

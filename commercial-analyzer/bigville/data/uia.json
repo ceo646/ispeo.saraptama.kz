@@ -1,0 +1,512 @@
+{
+ "bigville": "ÜIA (UIA Birlik / Daryn / Sunqar / Tarih)",
+ "search_terms": [
+  "areas polygon (core box)",
+  "UIA",
+  "ŪIA",
+  "Daryn",
+  "Birlik",
+  "Tarih",
+  "Дарын",
+  "Бирлик"
+ ],
+ "method": "krisha.kz map-area polygon search (areas=p...), all pages, rent and sale; _txt_ keyword results used only for cross-check",
+ "polygons": {
+  "core": "p51.109000,71.344000,51.109000,71.370000,51.099000,71.370000,51.099000,71.344000,51.109000,71.344000"
+ },
+ "totals": {
+  "rent_found_raw": 15,
+  "sale_found_raw": 18,
+  "area_found_raw": {
+   "rent": 15,
+   "sale": 18
+  },
+  "txt_found_raw": {
+   "UIA": {
+    "rent": 3,
+    "sale": 9
+   },
+   "ŪIA": {
+    "rent": 2,
+    "sale": 0
+   },
+   "Daryn": {
+    "rent": 2,
+    "sale": 4
+   },
+   "Birlik": {
+    "rent": 2,
+    "sale": 5
+   },
+   "Tarih": {
+    "rent": 1,
+    "sale": 1
+   },
+   "Дарын": {
+    "rent": 2
+   },
+   "Бирлик": {
+    "rent": 2
+   },
+   "Улы Дала (rent, city-wide)": {
+    "rent": 163
+   }
+  },
+  "totals_note": "rent_found_raw/sale_found_raw = map-area polygon counts (all rows kept are from the area search)."
+ },
+ "rows": [
+  {
+   "id": "1016457172",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение",
+   "area": 75.11,
+   "price": 650000,
+   "ppm": 8654,
+   "address": "Е 908 23",
+   "complex": "UIA Birlik A",
+   "basement": false
+  },
+  {
+   "id": "1016130183",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 75.0,
+   "price": 800000,
+   "ppm": 10667,
+   "address": "Улы Дала 12, 1 линия",
+   "complex": "UIA Daryn блок А",
+   "basement": false
+  },
+  {
+   "id": "1014567269",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 57.0,
+   "price": 700000,
+   "ppm": 12281,
+   "address": "Нура р-н, Улы Дала 12",
+   "complex": "UIA Daryn A",
+   "basement": false
+  },
+  {
+   "id": "1016322725",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины, склады и др.",
+   "area": 70.96,
+   "price": 700000,
+   "ppm": 9865,
+   "address": "Нура р-н, Улы Дала 14",
+   "complex": "UIA Daryn K",
+   "basement": false
+  },
+  {
+   "id": "1015049371",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 88.0,
+   "price": 500000,
+   "ppm": 5682,
+   "address": "Нура р-н, Улы Дала 14",
+   "complex": "UIA",
+   "basement": false
+  },
+  {
+   "id": "1010687071",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение",
+   "area": 74.35,
+   "price": 800000,
+   "ppm": 10760,
+   "address": "Улы Дала 12, 1 линия",
+   "complex": "UIA Daryn блок А",
+   "basement": false
+  },
+  {
+   "id": "1014047803",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 125.0,
+   "price": 1350000,
+   "ppm": 10800,
+   "address": "Нура р-н, Улы Дала 5 — Чингиза Айтматова",
+   "complex": "",
+   "basement": false
+  },
+  {
+   "id": "1013103202",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 68.5,
+   "price": 685000,
+   "ppm": 10000,
+   "address": "Есильский р-н, Улы Дала 14",
+   "complex": "",
+   "basement": false
+  },
+  {
+   "id": "1016472223",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 88.0,
+   "price": 880000,
+   "ppm": 10000,
+   "address": "Нура р-н, E 908 23",
+   "complex": "UIA Birlik A",
+   "basement": false
+  },
+  {
+   "id": "1015453430",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 156.0,
+   "price": 1400000,
+   "ppm": 8974,
+   "address": "Е 909 23 — Чингиз Айтматова",
+   "complex": "UIA Tarih, блок Б",
+   "basement": false
+  },
+  {
+   "id": "1013648023",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 111.8,
+   "price": 1000000,
+   "ppm": 8945,
+   "address": "Нура р-н, Айтматова 24/4 — Улы Дала",
+   "complex": "Gasyr",
+   "basement": false
+  },
+  {
+   "id": "1013339365",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 71.0,
+   "price": 1500000,
+   "ppm": 21127,
+   "address": "Есильский р-н, Улы Дала 12",
+   "complex": "UIA Daryn",
+   "basement": false
+  },
+  {
+   "id": "1013220359",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 130.0,
+   "price": 1295800,
+   "ppm": 9968,
+   "address": "Нура р-н, Айтматова 24/4 — Ellington Mall",
+   "complex": "Gasyr",
+   "basement": false
+  },
+  {
+   "id": "1014522111",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 66.82,
+   "price": 550000,
+   "ppm": 8231,
+   "address": "Есильский р-н, Улы Дала 14",
+   "complex": "UIA Daryn K",
+   "basement": false
+  },
+  {
+   "id": "1016371608",
+   "deal": "rent",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 71.0,
+   "price": 600000,
+   "ppm": 8451,
+   "address": "Нура р-н, Улы Дала 12",
+   "complex": "UIA Daryn блок K",
+   "basement": false
+  },
+  {
+   "id": "1016541096",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Склады",
+   "area": 3.62,
+   "price": 3500000,
+   "ppm": 966851,
+   "address": "Нура р-н, Улы Дала 4, кладовка в паркинге",
+   "complex": "UIA Daryn D",
+   "basement": false
+  },
+  {
+   "id": "1011805801",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение",
+   "area": 92.0,
+   "price": 92000000,
+   "ppm": 1000000,
+   "address": "Есильский р-н, Улы Дала 5",
+   "complex": "Gasyr (Sensata), 2 очередь",
+   "basement": false
+  },
+  {
+   "id": "1016507325",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 86.0,
+   "price": 104000000,
+   "ppm": 1209302,
+   "address": "Нура р-н, Улы Дала 14, 1 этаж",
+   "complex": "",
+   "basement": false
+  },
+  {
+   "id": "1016287769",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение",
+   "area": 119.67,
+   "price": 100000000,
+   "ppm": 835631,
+   "address": "Нура р-н, Улы Дала 4 — Улы Дала / Айтматова",
+   "complex": "",
+   "basement": false
+  },
+  {
+   "id": "1016109248",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 120.17,
+   "price": 170000000,
+   "ppm": 1414663,
+   "address": "Нура р-н, Улы Дала 4",
+   "complex": "UIA Daryn D",
+   "basement": false
+  },
+  {
+   "id": "1010837061",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Склады",
+   "area": 2.5,
+   "price": 2800000,
+   "ppm": 1120000,
+   "address": "Нура р-н, Улы Дала 4 — Улы Дала / Ч. Айтматова",
+   "complex": "UIA Daryn блок D",
+   "basement": false
+  },
+  {
+   "id": "1016272937",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 102.34,
+   "price": 81000000,
+   "ppm": 791479,
+   "address": "E 908 23, пристройка",
+   "complex": "UIA Birlik B",
+   "basement": false
+  },
+  {
+   "id": "1016443731",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 87.0,
+   "price": 68000000,
+   "ppm": 781609,
+   "address": "Нура р-н, Улы Дала 14, 1 этаж",
+   "complex": "",
+   "basement": false
+  },
+  {
+   "id": "1016421822",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 49.5,
+   "price": 49500000,
+   "ppm": 1000000,
+   "address": "Есильский р-н, E 909 31",
+   "complex": "UIA Tarih",
+   "basement": false
+  },
+  {
+   "id": "1016236867",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 90.0,
+   "price": 113000000,
+   "ppm": 1255556,
+   "address": "Улы Дала 5",
+   "complex": "Gasyr",
+   "basement": false
+  },
+  {
+   "id": "1015515118",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 85.6,
+   "price": 89000000,
+   "ppm": 1039720,
+   "address": "Есильский р-н, Улы Дала 12",
+   "complex": "UIA Sunqar",
+   "basement": false
+  },
+  {
+   "id": "1008688487",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение",
+   "area": 88.0,
+   "price": 68000000,
+   "ppm": 772727,
+   "address": "Нура р-н, Улы Дала 14 — Улы Дала / Айтматова",
+   "complex": "UIA",
+   "basement": false
+  },
+  {
+   "id": "1016242517",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 102.34,
+   "price": 80600000,
+   "ppm": 787571,
+   "address": "Нура р-н, E 908 23, пристройка",
+   "complex": "UIA Birlik B",
+   "basement": false
+  },
+  {
+   "id": "1011493212",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение, офисы, магазины и др.",
+   "area": 100.0,
+   "price": 122000000,
+   "ppm": 1220000,
+   "address": "Нура р-н, Улы Дала б/н, 1 этаж",
+   "complex": "UIA Birlik A",
+   "basement": false
+  },
+  {
+   "id": "1014821527",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение, офисы, магазины, склады и др.",
+   "area": 70.96,
+   "price": 70000000,
+   "ppm": 986471,
+   "address": "Нура р-н, Улы Дала 14 — Улы Дала / Айтматова",
+   "complex": "UIA Daryn K",
+   "basement": false
+  },
+  {
+   "id": "1016359119",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area+txt",
+   "title": "Свободное назначение",
+   "area": 89.0,
+   "price": 68000000,
+   "ppm": 764045,
+   "address": "Улы Дала 12",
+   "complex": "UIA Daryn A",
+   "basement": false
+  }
+ ],
+ "excluded_rows": [
+  {
+   "id": "1016542553",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Свободное назначение",
+   "area": 71.0,
+   "price": 1500000,
+   "ppm": 21127,
+   "address": "Нура р-н, Улы Дала 12 (Ellington Mall)",
+   "complex": "",
+   "basement": false,
+   "exclude_reason": "posted in sale section but price 1 500 000 KZT for 71 m2 (21 127/m2) = a monthly rent figure (same unit/price as rent 1013339365 Daryn 71 m2)"
+  },
+  {
+   "id": "1015151446",
+   "deal": "sale",
+   "scope": "inside",
+   "found_in": "area",
+   "title": "Общепит",
+   "area": 150.0,
+   "price": 18000000,
+   "ppm": 120000,
+   "address": "Улы Дала 10 — Улы Дала / Ч. Айтматова",
+   "complex": "",
+   "basement": false,
+   "exclude_reason": "Общепит 150 m2 for 18 000 000 KZT (120 000/m2) - ~8x below area sale level; looks like a business/equipment sale, not premises"
+  }
+ ],
+ "dropped_txt_rows_not_in_area": [
+  "rent:1014422811",
+  "sale:1014368412",
+  "sale:1016374973"
+ ],
+ "stats": {
+  "rent": {
+   "n": 15,
+   "median_ppm": 9968,
+   "n_area_ge_15": 15,
+   "median_ppm_area_ge_15": 9968
+  },
+  "sale": {
+   "n": 16,
+   "median_ppm": 993236,
+   "n_area_ge_15": 14,
+   "median_ppm_area_ge_15": 993236
+  }
+ },
+ "notes": "All rows in the polygon box around UIA (Улы Дала 4-14, E-908/E-909, Айтматова). Includes neighbouring Gasyr/Sensata (Улы Дала 5, Айтматова 24/4 - Ellington Mall) rows; complex field distinguishes them; blank complex at Улы Дала 14 is almost certainly UIA Daryn K. Area search found 15 rent listings (>=10), so no separate 'nearby' rent rows were needed; the earlier _txt_=Улы Дала sweep (163 city-wide) only re-found the same in-box rows. Dropped _txt_ hits not in polygon: sale 1016374973 (UIA Birlik, E-908 1/1, 98.21 m2, 124 m KZT, 1 262 601/m2 - genuinely UIA, pin outside box), and the unrelated Birlik ЖК at Байтурсынова 28/1 (rent 1014422811, sale 1014368412). Most UIA blocks are 2026-2027 completion (pre-sale/rough finish). Rent 1013339365 (71 m2 at 21 127/m2) is ~2x the other Daryn units - kept but an outlier. Two Daryn D storage units (2.5-3.6 m2) kept in sale. Basement flags from visible card text only - none found. No duplicate ids across pages. All rows: price/area matches printed ppm within 3%."
+}

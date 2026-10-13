@@ -1,0 +1,51 @@
+{
+  "bigville": "Alem (BI Group) - Nura district, Kazybek bi SW / E-101..E-103 area",
+  "search_terms": ["Alem Zerde", "Alem Dara", "Alem", "Алем", "Казыбек би", "areas=core polygon", "areas=wide polygon"],
+  "method": "krisha.kz map-area filter (areas=p...). Core box lat 51.066-51.077, lon 71.368-71.385; core rent < 10 so widened once to lat 51.061-51.082, lon 71.360-71.393. Core rows scope=inside, wide-only rows scope=nearby. _txt_ rows not present in the area results were dropped per coordinator.",
+  "polygons": {
+    "core": "p51.077000,71.368000,51.077000,71.385000,51.066000,71.385000,51.066000,71.368000,51.077000,71.368000",
+    "wide": "p51.082000,71.360000,51.082000,71.393000,51.061000,71.393000,51.061000,71.360000,51.082000,71.360000"
+  },
+  "totals": {
+    "rent_found_raw": 8,
+    "sale_found_raw": 15,
+    "area_found_raw": {"rent": 0, "sale": 1},
+    "wide_area_found_raw": {"rent": 8, "sale": 15},
+    "txt_found_raw": {
+      "Alem Zerde": {"rent": 0, "sale": 0},
+      "Alem Dara": {"rent": 0, "sale": 0},
+      "Alem": {"rent": 2, "sale": 0},
+      "Алем": {"rent": 124, "sale": 50},
+      "Казыбек би": {"rent": 40, "sale": 31}
+    },
+    "totals_note": "rent_found_raw/sale_found_raw = wide-box counts (core is a subset). area_found_raw = core box."
+  },
+  "rows": [
+    {"id": "1016247302", "deal": "sale", "scope": "inside", "found_in": "core_box", "title": "Свободное назначение, офисы", "area": 43.0, "price": 39500000, "ppm": 918605, "address": "Нура р-н, Е101 участок 4 — Туран", "complex": "Alem Sana D", "basement": false},
+
+    {"id": "1007381164", "deal": "rent", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, склады, салоны красоты, фитнес и спорт, медцентры и аптеки, образование, развлечения, кабинеты и рабочие места, студии", "area": 37.4, "price": 280000, "ppm": 7487, "address": "Нура р-н, Е 103 5 — Около центра экстренной медицины и школы space", "complex": "Space", "basement": false},
+    {"id": "1016289882", "deal": "rent", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение", "area": 44.0, "price": 350000, "ppm": 7955, "address": "Нура р-н, Улица Е 103 5А", "complex": "Space", "basement": false},
+    {"id": "1015466190", "deal": "rent", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение", "area": 62.0, "price": 558000, "ppm": 9000, "address": "Нура р-н, Улица Е 103 5А", "complex": "Space", "basement": false},
+    {"id": "1015834624", "deal": "rent", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение", "area": 82.0, "price": 400000, "ppm": 4878, "address": "Есильский р-н (sic, Е-103 is Нура), Е 103 3 — Космический центр", "complex": "Turan House", "basement": false},
+    {"id": "1013202404", "deal": "rent", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, общепит, салоны красоты, медцентры и аптеки, образование, развлечения, конференц-залы, кабинеты и рабочие места, студии", "area": 83.0, "price": 996000, "ppm": 12000, "address": "Проспект Туран 89/3 (district not printed)", "complex": "Cosmic City", "basement": false},
+    {"id": "1014070811", "deal": "rent", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, салоны красоты, медцентры и аптеки, образование, развлечения, конференц-залы, кабинеты и рабочие места", "area": 57.0, "price": 400000, "ppm": 7018, "address": "Есильский р-н (sic), Е-103 1 — район Космического центра", "complex": "Cosmic City", "basement": false},
+    {"id": "1012485961", "deal": "rent", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, склады", "area": 7.5, "price": 26000, "ppm": 3467, "address": "Нура р-н, Е 103 1/1", "complex": "Comfort Tandau", "basement": false},
+    {"id": "1009367113", "deal": "rent", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, салоны красоты, медцентры и аптеки, образование, развлечения, конференц-залы, кабинеты и рабочие места, студии", "area": 64.27, "price": 700000, "ppm": 10892, "address": "Е103 5а (district not printed)", "complex": "Space plus", "basement": false},
+
+    {"id": "1007821907", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, бани, гостиницы и зоны отдыха, медцентры и аптеки, образование, развлечения", "area": 111.3, "price": 69000000, "ppm": 619946, "address": "Нура р-н, Туран 89/3", "complex": "Cosmic City", "basement": false},
+    {"id": "1011277903", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение", "area": 66.0, "price": 80000000, "ppm": 1212121, "address": "Нура р-н, E 103 5", "complex": "Space", "basement": false},
+    {"id": "1016516093", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение", "area": 111.8, "price": 72000000, "ppm": 644007, "address": "Нура р-н, Е 103 5а", "complex": "Space", "basement": false},
+    {"id": "1012674739", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение", "area": 150.0, "price": 90000000, "ppm": 600000, "address": "Есильский р-н (sic), Туран 89/3", "complex": "Cosmic City", "basement": false},
+    {"id": "1016461398", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, склады, салоны красоты, медцентры и аптеки, образование, развлечения", "area": 47.55, "price": 36046000, "ppm": 758065, "address": "Нура р-н, Казыбек би 34", "complex": "Turan City", "basement": false},
+    {"id": "1012653935", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение", "area": 111.8, "price": 72000000, "ppm": 644007, "address": "Есильский р-н (sic), E-103 5A", "complex": "Space", "basement": false},
+    {"id": "1016440792", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование, развлечения", "area": 100.0, "price": 62000000, "ppm": 620000, "address": "Нура р-н, Туран 89/3", "complex": "Cosmic City", "basement": false},
+    {"id": "1011666183", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, общепит, салоны красоты, медцентры и аптеки, образование", "area": 83.0, "price": 90000000, "ppm": 1084337, "address": "Туран 89/3 (district not printed)", "complex": "Cosmic City", "basement": false},
+    {"id": "1000254421", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты, медцентры и аптеки, образование, развлечения", "area": 64.3, "price": 27000000, "ppm": 419907, "address": "Нура р-н, Е 103 3", "complex": "Turan House", "basement": false},
+    {"id": "1011440991", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Склады", "area": 10.0, "price": 1500000, "ppm": 150000, "address": "Нура р-н, Е103 1", "complex": "Comfort Tandau", "basement": false},
+    {"id": "691031667", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, склады, общепит, салоны красоты", "area": 82.6, "price": 37170000, "ppm": 450000, "address": "Нура р-н, Е 103 1/1 (цокольный этаж, отдельный вход)", "complex": "Comfort Tandau", "basement": true},
+    {"id": "1016050587", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение, офисы, магазины и бутики, азс, автосервисы и автомойки, общепит, бани, гостиницы и зоны отдыха, медцентры и аптеки, развлечения", "area": 550.0, "price": 522500000, "ppm": 950000, "address": "Есильский р-н (sic), Туран 89 — Казыбек би", "complex": "", "basement": false},
+    {"id": "1015967576", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение (кладовая)", "area": 3.3, "price": 1300000, "ppm": 393939, "address": "Нура р-н, Туран 103 5а (=Е 103 5а)", "complex": "Space 1", "basement": false},
+    {"id": "1016359130", "deal": "sale", "scope": "nearby", "found_in": "wide_box", "title": "Свободное назначение", "area": 112.0, "price": 73000000, "ppm": 651786, "address": "Е-103 5 (district not printed)", "complex": "Space 1-3", "basement": false}
+  ],
+  "notes": "Very thin market. Core Alem box: 0 rent, 1 sale (Alem Sana D, E-101 uch.4). No listings at all for Alem Zerde / Alem Dara (keyword 0/0 rent+sale; nothing on Kazybek bi above no.41 in any search). All 'nearby' rows sit in the NE corner of the wide box: the Space / Cosmic City / Turan House / Comfort Tandau cluster at Turan 89 x E-103 (~1.2-1.5 km NE of Alem) - this cluster also falls inside the ARNA wide box, so these rows appear in both alem.json and arna.json. Several rows print 'Есильский р-н' although E-103/Turan 89 is Nura (krisha district misprints) - kept. Probable duplicate pair: 1016516093 and 1012653935 (same 111.8 m2 / 72 mln, Space E-103 5a). Storage units (3.3-10 m2) inflate/deflate ppm - exclude for medians. 691031667 is basement (цоколь). Keyword-only rows (e.g. Kazybek bi 7/1-41 Dauir/Salman City, Алем keyword hits in Esil) were dropped as instructed because they are not in the ALEM area results."
+}

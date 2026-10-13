@@ -1,0 +1,568 @@
+{
+ "alem": {
+  "bigville": "Alem (BI Group) - Nura district, Kazybek bi SW / E-101..E-103 area",
+  "n_rent": 7,
+  "n_rent_inside": 0,
+  "n_rent_nearby": 7,
+  "n_sale": 1,
+  "rent_med": 7954.545454545455,
+  "rent_p25": 7252.087437845952,
+  "rent_p75": 9945.775634043877,
+  "rent_small_med": 7954.545454545455,
+  "sale_med": 918604.6511627907,
+  "sale_p25": 918604.6511627907,
+  "sale_p75": 918604.6511627907,
+  "resale_gross_yield": 0.10391254315304949,
+  "n_rent_own": 0,
+  "rent_own_med": null,
+  "n_sale_own": 1,
+  "sale_own_med": 918604.6511627907,
+  "raw": {
+   "rent_found_raw": 8,
+   "sale_found_raw": 15,
+   "area_found_raw": {
+    "rent": 0,
+    "sale": 1
+   },
+   "wide_area_found_raw": {
+    "rent": 8,
+    "sale": 15
+   },
+   "txt_found_raw": {
+    "Alem Zerde": {
+     "rent": 0,
+     "sale": 0
+    },
+    "Alem Dara": {
+     "rent": 0,
+     "sale": 0
+    },
+    "Alem": {
+     "rent": 2,
+     "sale": 0
+    },
+    "Алем": {
+     "rent": 124,
+     "sale": 50
+    },
+    "Казыбек би": {
+     "rent": 40,
+     "sale": 31
+    }
+   },
+   "totals_note": "rent_found_raw/sale_found_raw = wide-box counts (core is a subset). area_found_raw = core box."
+  },
+  "notes": "Very thin market. Core Alem box: 0 rent, 1 sale (Alem Sana D, E-101 uch.4). No listings at all for Alem Zerde / Alem Dara (keyword 0/0 rent+sale; nothing on Kazybek bi above no.41 in any search). All 'nearby' rows sit in the NE corner of the wide box: the Space / Cosmic City / Turan House / Comfort Tandau cluster at Turan 89 x E-103 (~1.2-1.5 km NE of Alem) - this cluster also falls inside the ARNA wide box, so these rows appear in both alem.json and arna.json. Several rows print 'Есильский р-н' although E-103/Turan 89 is Nura (krisha district misprints) - kept. Probable duplicate pair: 1016516093 and 1012653935 (same 111.8 m2 / 72 mln, Space E-103 5a). Storage units (3.3-10 m2) inflate/deflate ppm - exclude for medians. 691031667 is basement (цоколь). Keyword-only rows (e.g. Kazybek bi 7/1-41 Dauir/Salman City, Алем keyword hits in Esil) were dropped as instructed because they are not in the ALEM area results.",
+  "location": null,
+  "net_rent_year": 73022.72727272728,
+  "max_price": {
+   "12%": 608522.7272727273,
+   "10%": 730227.2727272727,
+   "8%": 912784.0909090909
+  }
+ },
+ "arna": {
+  "bigville": "Arna (BI Group) - Arna Urpaq, ul. Hussein bin Talal, Nura district",
+  "n_rent": 21,
+  "n_rent_inside": 1,
+  "n_rent_nearby": 20,
+  "n_sale": 9,
+  "rent_med": 7037.037037037037,
+  "rent_p25": 5833.333333333333,
+  "rent_p75": 8833.333333333334,
+  "rent_small_med": 7037.037037037037,
+  "sale_med": 1207658.3210603828,
+  "sale_p25": 1052091.3523222993,
+  "sale_p75": 1223404.255319149,
+  "resale_gross_yield": 0.06992411924119243,
+  "n_rent_own": 0,
+  "rent_own_med": null,
+  "n_sale_own": 9,
+  "sale_own_med": 1207658.3210603828,
+  "raw": {
+   "rent_found_raw": 23,
+   "sale_found_raw": 39,
+   "area_found_raw": {
+    "rent": 1,
+    "sale": 4
+   },
+   "wide_area_found_raw": {
+    "rent": 23,
+    "sale": 39
+   },
+   "txt_found_raw": {
+    "Arna": {
+     "rent": 0,
+     "sale": 11
+    },
+    "Арна": {
+     "rent": 1,
+     "sale": 0
+    },
+    "Urpaq": {
+     "rent": 2,
+     "sale": 11
+    },
+    "Хусейн бен Талал": {
+     "rent": 11,
+     "sale": 29
+    }
+   },
+   "totals_note": "rent_found_raw/sale_found_raw = wide-box counts (core is a subset). area_found_raw = core box."
+  },
+  "notes": "No rent listing exists in Arna Urpaq itself: the only core-box rent row (1004685729) is Salman City (Kazybek bi 41/1), geocoded inside the box - kept as inside per area rule but it is NOT an Arna complex; treat Arna rent as effectively zero and use nearby rent. Arna Urpaq sale stock is all small new-build 2027 units (34-62 m2) at ~1.0-1.26 mln tg/m2; 7 of the 10 Arna Urpaq sale rows were geocoded just outside the core box and were promoted to scope=inside by ЖК name (found_in=wide_box) - re-tag to nearby if a strict box rule is wanted. 1009710768 (5000 m2 ФОК, 3.2 bn, E-103 7/2) is in the core box but is a standalone building, not Arna - outlier, exclude from medians. Dropped per rule: _txt_ row 1016500499 (Arna Urpaq B, Hussein bin Talal 11/1, 41.65 m2, 50 000 000 tg, 1 200 480 tg/m2, sale) not returned by either area search. Nearby rows are mostly Salman City (Kazybek bi 41), Turan Palace (Turan 83), Space / Cosmic City / Turan House / Comfort Tandau (Turan 89 x E-103) ~1-1.5 km E/SE; the latter cluster is also in alem.json. District misprints ('Есильский', 'Сарайшык') on Nura addresses kept. Probable duplicates: 1016258147/1016229509 (128 m2, 93.5 mln, Salman City 2); 1016516093/1012653935 (111.8 m2, 72 mln, Space); 1016448796/1016545822/1016477389 (same ~1190 m2 Salman City 2 building, 3 agents). 691031667 is basement. Storage units (<11 m2) excluded from medians.",
+  "location": null,
+  "net_rent_year": 64600.00000000001,
+  "max_price": {
+   "12%": 538333.3333333334,
+   "10%": 646000.0,
+   "8%": 807500.0000000001
+  }
+ },
+ "auez": {
+  "bigville": "Äuez (BI Group: ЖК Äuez, Äuez Park, Äuez Comfort, Äuez 3/4), ул. Сагадат Нурмагамбетов 14–17 / Калдаякова 18, Астана",
+  "n_rent": 68,
+  "n_rent_inside": 68,
+  "n_rent_nearby": 0,
+  "n_sale": 58,
+  "rent_med": 9213.085764809903,
+  "rent_p25": 7795.267339885555,
+  "rent_p75": 11699.254349627176,
+  "rent_small_med": 9009.46585530764,
+  "sale_med": 982979.7021447874,
+  "sale_p25": 632352.9411764706,
+  "sale_p75": 1236610.3153543742,
+  "resale_gross_yield": 0.11247132462297212,
+  "n_rent_own": 21,
+  "rent_own_med": 10454.545454545454,
+  "n_sale_own": 21,
+  "sale_own_med": 1241134.7517730496,
+  "raw": {
+   "rent_found_raw": 80,
+   "sale_found_raw": 66,
+   "area_found_raw": {
+    "rent": 80,
+    "sale": 66
+   }
+  },
+  "notes": "All rows come from the map-polygon search (scope=inside); rent 80/80 and sale 66/66 captured, ids unique. The polygon covers the whole block between Нурмагамбетова, Калдаякова and Нажимеденова, so only about a third of the rows are BI Äuez* complexes (complex starts with 'Äuez'). The rest are neighbouring ЖК: Bravo Family, Isma, Kemenger, Green House Premium, Азия плюс, Балкадиша, Айдидар and Grand Victoria. The Äuez* subset has 23 rent rows (median 10,455 ₸/m²/month) and 22 sale rows (median 1,240,476 ₸/m²), against 9,231 and 923,077 for the whole polygon. krisha now labels this area 'Сарайшык р-н' (the new district), not 'Алматинский р-н'. A few listings print a wrong district (Байконур, Есильский, Сарыарка) for addresses in the block. Азия плюс (Нажимеденова 16*) is older, cheaper stock: rent is about 3–4.5k ₸/m², and sale includes 1009085495 'подвальное помещение' at 100k/m². Basement=true: rent 697902386 (цоколь); sale 1009085495 (подвал) and 1009922760 ('нулевой этаж', treated as basement). Probable re-posts of one unit: rent 1015503175/1016523374/1015505390 (120.7 m², 1.4M, Äuez Park); 1015780764/1016523158 (87 m², 800k); 1016494852/1016496395 (163 m², 2M); 1010994200/1012194526/1016409853 (156 m², 2M, Äuez); 1016536719/1016380250/1016365818 (105.7 m², 1.1M, Bravo); 1016410669/1016407998/1015752558 (130 m², 1.5M, Bravo); 1015095286/1016200273 and 1016410215/1016408237 (Isma 80 m²); 1016536087/1016388130 (107 m², 900k); 1016499336/1016332156 (115 m², 1M). Sale re-posts: 1015529705/1016434854/1012268964 (Äuez Park 160.23 m², 190M); 1016530102/1011456623 (136 m², 86M); 1015943973/1015795512 (74 m², 97M); 1015011613/1016403109 (88 m², 105.6M); 1015865914/1015909642/1016409550 (130 m², 120M). Outliers: rent 1016532162 (99 m², 300k = 3.0k/m²); sale 1015768879 (5 m² storage, 250k = 50k/m²).",
+  "location": null,
+  "net_rent_year": 84576.12732095493,
+  "max_price": {
+   "12%": 704801.0610079578,
+   "10%": 845761.2732095493,
+   "8%": 1057201.5915119366
+  }
+ },
+ "capitalpark": {
+  "bigville": "Capital Park",
+  "n_rent": 118,
+  "n_rent_inside": 118,
+  "n_rent_nearby": 0,
+  "n_sale": 94,
+  "rent_med": 10312.59834360273,
+  "rent_p25": 8377.659574468085,
+  "rent_p75": 12837.301587301587,
+  "rent_small_med": 10272.282797655145,
+  "sale_med": 1263127.187864644,
+  "sale_p25": 1031632.6530612244,
+  "sale_p75": 1472012.911776143,
+  "resale_gross_yield": 0.09797206592666097,
+  "n_rent_own": 23,
+  "rent_own_med": 12000.0,
+  "n_sale_own": 22,
+  "sale_own_med": 1520819.592983908,
+  "raw": {
+   "rent_found_raw": 165,
+   "sale_found_raw": 142,
+   "area_found_raw": {
+    "rent": 165,
+    "sale": 142
+   },
+   "rent_area_found_raw": 165,
+   "sale_area_found_raw": 142,
+   "rent_txt_found_raw": 18,
+   "sale_txt_found_raw": 28
+  },
+  "notes": "All rows come from the map-area polygon (~1.2 km x 1.5 km around пр. Аль-Фараби / Бухар жырау / Жошы хан / Керей-Жанибек хандар), so besides BI Capital Park queues (Emotions 1-2, Melody, Art, Vector, Flowers, Light, Water) it includes neighbouring non-BI ЖК (Sandi Qala, Abat, Jana Qala, Samal Park, Tribeca, Amal, Арнау, Камал, Адал, Жана Урпак/Бастау/Омир, Vienna, Варшава, G-Park Family, Noho, Olen, Dos, Brooklyn). Basement detection is from title/truncated snippet only, so basement=false means 'not mentioned'. Several units are re-posted under multiple ids (e.g. Capital Park Emotions 130 m² @144 M ₸ x5; Tribeca 73.98 m² x4 and 56 m² x3; Sandi Qala 101.25 m² @1 M ₸ x3); these are flagged 'probable repost'. Many 'Склады' rows are 2-10 m² storage closets in residential parkings (flagged tiny). Some listings print 'Нура р-н' for Жошы хан 12 / Бухар жырау addresses — agent error, they are in Есильский. 1015434094 and 1012295432 (862.3 m², Бухар жырау 25/1, ~820-829 M ₸) look like the same object listed twice with different prices. Clean medians (excl. flagged price errors, whole buildings, units <15 m², and probable reposts): rent 10235 ₸/m²/month (n=123), sale 1220595 ₸/m² (n=98). Subset with BI 'Capital Park' ЖК names only: rent 11978 (n=24), sale 1520820 (n=22). _txt_ keyword rows dropped because absent from the map-area results: 1015364929.",
+  "location": null,
+  "net_rent_year": 94669.65279427308,
+  "max_price": {
+   "12%": 788913.773285609,
+   "10%": 946696.5279427307,
+   "8%": 1183370.6599284133
+  }
+ },
+ "family": {
+  "bigville": "Family",
+  "n_rent": 28,
+  "n_rent_inside": 28,
+  "n_rent_nearby": 0,
+  "n_sale": 29,
+  "rent_med": 9113.75511131304,
+  "rent_p25": 7458.333333333333,
+  "rent_p75": 10000.0,
+  "rent_small_med": 9113.75511131304,
+  "sale_med": 934782.6086956522,
+  "sale_p25": 783783.7837837838,
+  "sale_p75": 1000000.0,
+  "resale_gross_yield": 0.11699518189406506,
+  "n_rent_own": 8,
+  "rent_own_med": 10000.0,
+  "n_sale_own": 12,
+  "sale_own_med": 1000000.0,
+  "raw": {
+   "rent_found_raw": 31,
+   "sale_found_raw": 37,
+   "area_found_raw": {
+    "rent": 31,
+    "sale": 37
+   },
+   "rent_area_found_raw": 31,
+   "sale_area_found_raw": 37,
+   "rent_txt_found_raw_family_gardens": 1,
+   "sale_txt_found_raw_family_gardens": 1,
+   "sale_txt_found_raw_family_nest": 3,
+   "rent_txt_found_raw_family": 13,
+   "sale_txt_found_raw_family": 13,
+   "rent_txt_found_raw_E314": 11,
+   "rent_txt_found_raw_E354": 5
+  },
+  "notes": "All rows come from the map-area polygon (~2.5 km x 1.4 km, Есильский р-н south of Expo / Мангилик Ел). Only 1 listing is explicitly ЖК Family Gardens (1014082785, standalone 164 m² building, 16 463 ₸/m² — far above the area median). Family Nest commercial units are at 'Е 354 5' (5 rent + 6 sale incl. Family Nest A/B tagged ones), 'Е-652 1' (Family Nest A) and 'Аль-Фараби 73' (Family Nest G); Е 354 5 rows without an explicit ЖК name are labelled 'Family Nest (адрес Е 354 5)' because other ads at the same address name Family Nest A/B. The rest of the polygon is Aisar 2/3/4 (Е-321), Aru Park (Е-652 18-22), Family Town (Е-652 2-12; not confirmed as BI Group), Ак Жол (Аль-Фараби 76), Arti7 (Е-496 8), Gold Land, Manar. Rows at Е-314 20/22 (ЖК Ainabulaq, Колос; rent 1 000-9 211 ₸/m², mostly 2 000-4 500) found by _txt_ were NOT inside the polygon and were dropped per method change. Some ads print 'Нура р-н' or 'р-н Байконур' for Е-321/Е-652 addresses — agent errors. Basement: snippets for 688071072, 1015895108, 1012426815 explicitly say 'не цоколь' (basement=false); 1016167572, 1004484189, 1014003392 are on цокольный этаж. Clean medians (excl. flagged price errors, whole buildings, units <15 m², and probable reposts): rent 9114 ₸/m²/month (n=28), sale 910000 ₸/m² (n=31). Subset with BI 'Family' ЖК names only: rent 10000 (n=6), sale 1000000 (n=9). _txt_ keyword rows dropped because absent from the map-area results: 1001536111, 1009544845, 1010421755, 1012408360, 1012732348, 1013113895, 1013484010, 1014767839, 1014997086, 1015107392, 1015679747, 1015750347, 1015900046, 1016134002, 1016142711, 1016143113, 1016179970, 1016251167, 1016407998, 1016409421, 1016410669, 1016524026, 1016524054, 670571615, 678097522, 761392449, 761979614.",
+  "location": null,
+  "net_rent_year": 83664.2719218537,
+  "max_price": {
+   "12%": 697202.2660154474,
+   "10%": 836642.7192185369,
+   "8%": 1045803.3990231712
+  }
+ },
+ "greenline": {
+  "bigville": "GreenLine",
+  "n_rent": 156,
+  "n_rent_inside": 156,
+  "n_rent_nearby": 0,
+  "n_sale": 113,
+  "rent_med": 11792.518425810042,
+  "rent_p25": 10000.0,
+  "rent_p75": 14285.714285714286,
+  "rent_small_med": 11649.91990680064,
+  "sale_med": 1444444.4444444445,
+  "sale_p25": 1000000.0,
+  "sale_p75": 1666666.6666666667,
+  "resale_gross_yield": 0.09796861461442188,
+  "n_rent_own": 76,
+  "rent_own_med": 12312.035919951244,
+  "n_sale_own": 48,
+  "sale_own_med": 1639610.3896103897,
+  "raw": {
+   "rent_found_raw": 183,
+   "sale_found_raw": 136,
+   "area_found_raw": {
+    "rent": 183,
+    "sale": 136
+   },
+   "txt_found_raw": {
+    "GreenLine": {
+     "rent": 55,
+     "sale": 39
+    },
+    "Грин Лайн": {
+     "rent": 4,
+     "sale": 2
+    }
+   },
+   "totals_note": "rent_found_raw/sale_found_raw = map-area polygon counts (all rows kept are from the area search)."
+  },
+  "notes": "Polygon is a ~1.5x1.3 km box around GreenLine, so 'inside' rows also include adjacent non-GreenLine stock: BC Oner (Анет баба 9в), Зеленый квартал / Green Mall (Сыганак 17*), Sultan Beibarys (Сыганак 22/1), BI City Seoul/Tokyo, Комсомольский (Нарикбаева 6), Самрук Тауэрс, Liberty, Eco Park, Evolution; the 'complex' field lets you filter to GreenLine.* if needed (blank complex = not printed on card). Small storage units (Склады, 1-12 m2, mostly parking/basement kladovki) are kept as listed; they pull ppm down for sale (200-1 100k/m2) - use stats.*.median_ppm_area_ge_15 for premises-only medians. Sale includes whole buildings (6 500 m2 Мухамедханова 19А at 12.5 bn; 1 500 m2 BC Oner; 922-1 000 m2 Сыганак 17ф). Basement flag comes from visible card text only (snippets truncated); 1016511851 flagged from '-1 этаж'; 1015760811 says '0 этаж' but left false. Several _txt_ hits that are clearly GreenLine (e.g. rent 1016534229 Sakura E-900 8, 1016538487 Tokyo, 1015719100 Aurora Айтеке би 3А, 1016017706/1016407263 Verda; sale 1016510047 Tokyo) were not in the polygon results (pin likely mis-geocoded or listing outside box) and were dropped per instruction; others dropped are BC Omega (Асфендиярова 8а/11), Култегин 14/17, W Towers (Туран 37), Асфендиярова 3. 1013561929 and 1016428786 look like the same 170 m2 4YOU unit (3.74 m/month) posted twice; both kept since ids differ. 1015820365 card says 136.5m, text mentions 140m. 1016369490/1016368283 area differs card vs text (270/260, 141/147); card values used. No duplicate ids across pages. All rows: price/area matches printed ppm within 3%.",
+  "location": null,
+  "net_rent_year": 108255.31914893619,
+  "max_price": {
+   "12%": 902127.6595744683,
+   "10%": 1082553.191489362,
+   "8%": 1353191.4893617025
+  }
+ },
+ "impulse": {
+  "bigville": "IMPULSE (BI Group)",
+  "n_rent": 3,
+  "n_rent_inside": 3,
+  "n_rent_nearby": 0,
+  "n_sale": 2,
+  "rent_med": 3520.0,
+  "rent_p25": 3466.8273092369477,
+  "rent_p75": 3527.0682730923695,
+  "rent_small_med": null,
+  "sale_med": 464285.7142857143,
+  "sale_p25": 446428.5714285714,
+  "sale_p75": 482142.85714285716,
+  "resale_gross_yield": 0.09097846153846154,
+  "n_rent_own": 0,
+  "rent_own_med": null,
+  "n_sale_own": 0,
+  "sale_own_med": null,
+  "raw": {
+   "rent_found_raw": 0,
+   "sale_found_raw": 0,
+   "area_found_raw": {
+    "rent": 3,
+    "sale": 2,
+    "rent_widened": 3,
+    "sale_widened": 4
+   }
+  },
+  "notes": "IMPULSE is in Astana (Esil district per krisha; the highway itself is the Esil/Nura boundary - the hippodrome side is Nura). Location is approximate: no complex page with coordinates exists on krisha/korter/kn.kz yet, and bi.group was not opened (Cloudflare). The area is still mostly undeveloped, so supply is very thin: base box 3 rent + 2 sale, widened once 3 rent + 4 sale (the 2 extra sale rows are scope=nearby). All 3 rent and both inside sale rows are ЖК Family Park (Кабанбай батыра 75а, completed 2020, not BI Group) - the only built residential complex in the box; the three rent rows are near-duplicate ~250 m² street-front units (possibly the same premises listed more than once). Fewer than 10 rent rows even after widening - treat the rent median as indicative only. Keyword searches (_txt_=Impulse, Импульс, Каркаралы) return 0 commercial listings in Astana. Single-page results everywhere; printed ppm matched price/area on every row. 1015967576 is a 3.3 m² storage unit - exclude from medians; 1016135355 (Мангилик Ел 65, near the Central Mosque) is a high-end outlier. Medians: rent (n=3, inside) 3,520 ₸/m²/month; sale inside (n=2) 464,286 ₸/m²; sale excl. storage incl. nearby (n=3) 500,000 ₸/m². Basement flags false based only on visible snippet text.",
+  "location": {
+   "address": "Астана, шоссе Каркаралы (Қарқаралы тас жолы) at пр. Кабанбай батыра; krisha resale listing gives 'Каркаралы 10 — Кабанбай батыра'. BI Group landing: 'Каркаралинское шоссе, рядом с конноспортивным комплексом' (Kazanat hippodrome, 51.068, 71.390, west side of the highway)",
+   "district": "Есильский",
+   "lat": 51.064,
+   "lon": 71.399,
+   "source_coords": {
+    "method": "inferred, no published pin: wedge east of Karkaraly highway (OSM way 165608300 starts at 51.0704, 71.3954) and south of Kabanbay batyr (passes 51.069,71.397 -> 51.066,71.403); Nominatim reverse geocodes this wedge to район Есиль, the hippodrome side to район Нура",
+    "krisha_listing_pin": "the only Impulse listing (1015245492) is pinned far away, inside 51.085-51.100 x 71.430-71.4475 (seller pin, judged wrong)"
+   },
+   "bbox": {
+    "base": {
+     "south": 51.059,
+     "west": 71.391,
+     "north": 51.069,
+     "east": 71.407,
+     "center": [
+      51.064,
+      71.399
+     ]
+    },
+    "widened": {
+     "south": 51.054,
+     "west": 71.383,
+     "north": 51.074,
+     "east": 71.415
+    },
+    "areas_base": "p51.069000%2C71.391000%2C51.069000%2C71.407000%2C51.059000%2C71.407000%2C51.059000%2C71.391000%2C51.069000%2C71.391000",
+    "areas_widened": "p51.074000%2C71.383000%2C51.074000%2C71.415000%2C51.054000%2C71.415000%2C51.054000%2C71.383000%2C51.074000%2C71.383000"
+   },
+   "complexes": [
+    "IMPULSE",
+    "IMPULSE. Sport"
+   ],
+   "status": "Under construction, sales open. Comfort+ class, closed courtyard, green belt; first completion IV кв. 2027 (bi.group landing snippets + krisha listing 1015245492: 9-floor building, risen to ~8th floor). Not on korter/kn.kz/krisha complex catalogues yet."
+  },
+  "net_rent_year": 32313.6,
+  "max_price": {
+   "12%": 269280.0,
+   "10%": 323135.99999999994,
+   "8%": 403920.0
+  }
+ },
+ "jetisu": {
+  "bigville": "Jetisu (BI Group), Есильский р-н, Астана — ул. Е-915 / Е-511 / Е-446 / Е-509 / Е-669, пр. Улы Дала",
+  "n_rent": 29,
+  "n_rent_inside": 29,
+  "n_rent_nearby": 0,
+  "n_sale": 25,
+  "rent_med": 8235.29411764706,
+  "rent_p25": 7954.545454545455,
+  "rent_p75": 9090.90909090909,
+  "rent_small_med": 8235.29411764706,
+  "sale_med": 917431.1834862386,
+  "sale_p25": 855555.5555555555,
+  "sale_p75": 991417.5791654335,
+  "resale_gross_yield": 0.10771764813600002,
+  "n_rent_own": 29,
+  "rent_own_med": 8235.29411764706,
+  "n_sale_own": 25,
+  "sale_own_med": 917431.1834862386,
+  "raw": {
+   "rent_found_raw": 37,
+   "sale_found_raw": 33,
+   "area_found_raw": {
+    "rent": 37,
+    "sale": 33
+   },
+   "txt_found_raw": {
+    "rent": {
+     "Jetisu": 12,
+     "Жетысу": 10,
+     "Жетису": 4,
+     "Е 915": 21,
+     "Е-915": 21,
+     "Kerbez": 6,
+     "Satti": 1,
+     "Aspan": 2,
+     "Nauryz": 1,
+     "Е 511": 8,
+     "Е 446": 7,
+     "Е 509": 2
+    },
+    "sale": {
+     "Jetisu": 9,
+     "Жетысу": 6,
+     "Жетису": 2,
+     "Е 915": 8,
+     "Е-915": 8,
+     "Kerbez": 1,
+     "Aspan": 4,
+     "Nauryz": 3,
+     "Е 511": 15,
+     "Е 446": 9,
+     "Е 509": 3
+    }
+   }
+  },
+  "notes": "All rows come from the map-polygon search (scope=inside); rent 37/37 and sale 33/33 listings captured, ids unique. The polygon covers the whole Jetisu bigville, not only Е-915: rows include Jetisu Bereke (Е-511 36) and Jetisu Lepsy (Е-669 4), which are Jetisu-branded BI complexes not in the brief's list. Complex names with '(by address)' were inferred from the house number because the listing gave no ЖК. Two _txt_ rent rows were dropped because they are not in the polygon results: 1012479793 (Kerbez Comfort-1, 78 m², 590k) and 1015876485 (Satti, 87 m², 800k). Probable re-posts of one unit: 1016392015/1016380680/1016012081 (160 m², 1.3M, Kerbez, Е-915 11); 1016108664/1015194091 (89.7 m², 500k, Nauryz; 1015194091's description says 600k/month). Small storage cells (Склады, 2.5–7 m²) are included and pull the sale median down; filter area>=20 for retail benchmarks. Outlier: sale 1008443831 (Jetisu Aqsu, 75 m², 25M = 333k/m², 'срочно, торг'). No listing mentions цоколь/подвал in the visible text, but snippets are truncated. 1013982361 mentions storage at level '-2', ambiguous. 1014379511's district is printed as 'Алматы р-н', but the address is Е-915 9; kept because it is inside the polygon.",
+  "location": null,
+  "net_rent_year": 75600.00000000001,
+  "max_price": {
+   "12%": 630000.0000000001,
+   "10%": 756000.0000000001,
+   "8%": 945000.0000000001
+  }
+ },
+ "lavita": {
+  "bigville": "Lavita City (BI Group)",
+  "n_rent": 11,
+  "n_rent_inside": 0,
+  "n_rent_nearby": 11,
+  "n_sale": 11,
+  "rent_med": 4615.384615384615,
+  "rent_p25": 3860.5182926829266,
+  "rent_p75": 8107.370336669699,
+  "rent_small_med": 4615.384615384615,
+  "sale_med": 637362.6373626373,
+  "sale_p25": 568235.294117647,
+  "sale_p75": 796526.8942367559,
+  "resale_gross_yield": 0.08689655172413793,
+  "n_rent_own": 0,
+  "rent_own_med": null,
+  "n_sale_own": 0,
+  "sale_own_med": null,
+  "raw": {
+   "rent_found_raw": 0,
+   "sale_found_raw": 0,
+   "area_found_raw": {
+    "rent": 0,
+    "sale": 0,
+    "rent_widened": 11,
+    "sale_widened": 14
+   }
+  },
+  "notes": "Lavita is in Astana (Esil district, south-east, the Е111/Е826 street grid south of Улы Дала). Map-area method: the base box (±0.005 lat, ±0.008 lon around 51.071, 71.488) contains the krisha pins of the Lavita City apartment listings but has 0 commercial rent and 0 commercial sale listings - the complex is still being built and its ground-floor commercial is not on the market. Widened once (±0.010/±0.016): 11 rent and 14 sale, all marked scope=nearby. Almost all are in ЖК Багыстан / Bagystan-4 / New Line (ул. Е117 35-45, ~1-1.5 km north of Lavita at 51.080, 71.489; not a BI Group project), plus one Lumen (Е 453 24/1) and one мкр Комсомольский 40. Keyword searches (_txt_=Lavita, Лавита, Е 826) also return 0 commercial listings. All pages had a single page of results (no pagination). Printed ppm matched price/area on every row. Three sale rows are 2.7-4 m² storage units (кладовые: 1015933212, 1016062649, 1015847987) - exclude them from sale medians. Medians: rent (n=11, nearby) 4,615 ₸/m²/month (IQR approx 3,700-8,600; the 2,500 row is a warehouse); sale excl. storage (n=11, nearby) 637,363 ₸/m² (range 476,923-960,265); sale incl. storage (n=14) 576,697 ₸/m². Basement flags are false everywhere but are based only on the visible title/snippet (snippets truncated). Source conflicts: kn.kz describes 'LAVITA' as business class, 1-2 floors, II кв. 2026, while korter/krisha describe 'Lavita City' as comfort+, 9 floors, 1,746 apartments, III кв. 2026; same location, so treated as one bigville.",
+  "location": {
+   "address": "Астана, Есильский р-н, ул. Е 826, 2 (kn.kz: пересечение улиц Е111 и Е826); south-east Esil, ~1.2 km south of ЖК Bagystan (Е117) and Улы Дала, east of КГ Tumar Grand Village",
+   "district": "Есильский",
+   "lat": 51.07,
+   "lon": 71.486,
+   "source_coords": {
+    "korter": [
+     51.06798,
+     71.48711
+    ],
+    "kn.kz": [
+     51.07044,
+     71.47923
+    ],
+    "krisha_listing_pins": "inside 51.0700-51.0760 x 71.4825-71.4960 (found by bisecting areas= with _txt_=Lavita)"
+   },
+   "bbox": {
+    "base": {
+     "south": 51.066,
+     "west": 71.48,
+     "north": 51.076,
+     "east": 71.496,
+     "center": [
+      51.071,
+      71.488
+     ]
+    },
+    "widened": {
+     "south": 51.061,
+     "west": 71.472,
+     "north": 51.081,
+     "east": 71.504
+    },
+    "areas_base": "p51.076000%2C71.480000%2C51.076000%2C71.496000%2C51.066000%2C71.496000%2C51.066000%2C71.480000%2C51.076000%2C71.480000",
+    "areas_widened": "p51.081000%2C71.472000%2C51.081000%2C71.504000%2C51.061000%2C71.504000%2C51.061000%2C71.472000%2C51.081000%2C71.472000",
+    "check": "base box verified to contain krisha pins of Lavita City apartment listings 1016477154, 1016499581, 1006889378"
+   },
+   "complexes": [
+    "Lavita City A (monolithic)",
+    "Lavita City B (brick)",
+    "LAVITA (kn.kz card, business class, possibly a separate low-rise phase)"
+   ],
+   "status": "Under construction. korter/krisha: 19 sections, 9 floors, comfort+ class, 1,746 apartments, construction start 2025, completion III кв. 2026; kn.kz says II кв. 2026. Resale apartment listings already show '2026 г.п.'. Developer shown as BI Group Север (krisha complex page) / BI Group Юг (search snippet)."
+  },
+  "net_rent_year": 42369.23076923077,
+  "max_price": {
+   "12%": 353076.9230769231,
+   "10%": 423692.3076923077,
+   "8%": 529615.3846153846
+  }
+ },
+ "uia": {
+  "bigville": "ÜIA (UIA Birlik / Daryn / Sunqar / Tarih)",
+  "n_rent": 15,
+  "n_rent_inside": 15,
+  "n_rent_nearby": 0,
+  "n_sale": 14,
+  "rent_med": 9967.692307692309,
+  "rent_p25": 8799.258999740156,
+  "rent_p75": 10713.292983635956,
+  "rent_small_med": 9967.692307692309,
+  "sale_med": 993235.6257046224,
+  "sale_p25": 788547.977330467,
+  "sale_p75": 1166906.6507281025,
+  "resale_gross_yield": 0.12042692045752205,
+  "n_rent_own": 11,
+  "rent_own_med": 9864.712514092447,
+  "n_sale_own": 9,
+  "sale_own_med": 986471.2514092447,
+  "raw": {
+   "rent_found_raw": 15,
+   "sale_found_raw": 18,
+   "area_found_raw": {
+    "rent": 15,
+    "sale": 18
+   },
+   "txt_found_raw": {
+    "UIA": {
+     "rent": 3,
+     "sale": 9
+    },
+    "ŪIA": {
+     "rent": 2,
+     "sale": 0
+    },
+    "Daryn": {
+     "rent": 2,
+     "sale": 4
+    },
+    "Birlik": {
+     "rent": 2,
+     "sale": 5
+    },
+    "Tarih": {
+     "rent": 1,
+     "sale": 1
+    },
+    "Дарын": {
+     "rent": 2
+    },
+    "Бирлик": {
+     "rent": 2
+    },
+    "Улы Дала (rent, city-wide)": {
+     "rent": 163
+    }
+   },
+   "totals_note": "rent_found_raw/sale_found_raw = map-area polygon counts (all rows kept are from the area search)."
+  },
+  "notes": "All rows in the polygon box around UIA (Улы Дала 4-14, E-908/E-909, Айтматова). Includes neighbouring Gasyr/Sensata (Улы Дала 5, Айтматова 24/4 - Ellington Mall) rows; complex field distinguishes them; blank complex at Улы Дала 14 is almost certainly UIA Daryn K. Area search found 15 rent listings (>=10), so no separate 'nearby' rent rows were needed; the earlier _txt_=Улы Дала sweep (163 city-wide) only re-found the same in-box rows. Dropped _txt_ hits not in polygon: sale 1016374973 (UIA Birlik, E-908 1/1, 98.21 m2, 124 m KZT, 1 262 601/m2 - genuinely UIA, pin outside box), and the unrelated Birlik ЖК at Байтурсынова 28/1 (rent 1014422811, sale 1014368412). Most UIA blocks are 2026-2027 completion (pre-sale/rough finish). Rent 1013339365 (71 m2 at 21 127/m2) is ~2x the other Daryn units - kept but an outlier. Two Daryn D storage units (2.5-3.6 m2) kept in sale. Basement flags from visible card text only - none found. No duplicate ids across pages. All rows: price/area matches printed ppm within 3%.",
+  "location": null,
+  "net_rent_year": 91503.4153846154,
+  "max_price": {
+   "12%": 762528.4615384616,
+   "10%": 915034.1538461539,
+   "8%": 1143792.6923076925
+  }
+ }
+}
