@@ -1,0 +1,3875 @@
+[
+ {
+  "id": "1013545132",
+  "active": true,
+  "area_m2": 126.6,
+  "price_now": 126000000,
+  "floor_confirmed": "1 (Қабат: 1; description has no цоколь/полуцоколь mention; building handed over 2025)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "separate_street_entrance": false,
+  "ceiling_m": 3.6,
+  "power_kw": 18,
+  "complex_name": "ЖК Hazar (2GIS: residential, 21 floors, 2 entrances, 4 organisations, 95 reviews)",
+  "ready": "built 2025, people live there (korter status 'ready'; 2GIS shows residents' reviews and businesses); shell finish ('қара сылақпен беріледі'); 'Документы готовы к сделке'",
+  "exchange_verdict": "accepts_apartment",
+  "exchange_quote": "Рассмотрим варианты обмена на земельный участок и другую недвижимость.",
+  "lat": 51.085729,
+  "lon": 71.425115,
+  "coord_source": "2GIS building page for Мангилик Ел 62/1 (/astana/geo/70030076257697665); matches the krisha pin 51.085742,71.425183; road geometry from OSM via Nominatim",
+  "frontage_street": "East side of пр. Мангилик Ел (major avenue). 62/1 is the northern tower of the Hazar row. It stands about 90–100 m back from the Мангилик Ел carriageway, behind a parking/service strip with a bus stop, and about 35 m south of ул. Ф. Онгарсыновой (district street, near the corner). The listing does not say which facade the unit faces. The text says only 'Витражные окна', 'Удобные подъездные пути и парковочные места'.",
+  "area_maturity": "Mature, dense left-bank core: EXPO, Nazarbayev University and Mega Silk Way are within about 1–1.5 km, and residential complexes from 2015–2025 are fully populated. 70 rent listings fall inside a ±400 m polygon.",
+  "rent_comps": [
+   {
+    "id": "696154748",
+    "address": "Мангилик Ел 62, угол Онгарсыновой (same block)",
+    "area_m2": 250,
+    "rent_month": 2800000,
+    "ppm": 11200,
+    "first_line": "yes (Үйлер қатары: бірінші, 1 этаж)"
+   },
+   {
+    "id": "1014189066",
+    "address": "Мангилик Ел 62, отдельно стоящее здание",
+    "area_m2": 650,
+    "rent_month": 9000000,
+    "ppm": 13846,
+    "first_line": "yes ('на первой линии по Мәңгілік Ел')"
+   },
+   {
+    "id": "1016575467",
+    "address": "Мангилик Ел 58",
+    "area_m2": 200,
+    "rent_month": 2500000,
+    "ppm": 12500,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016553156",
+    "address": "Мангилик Ел 60",
+    "area_m2": 40,
+    "rent_month": 400000,
+    "ppm": 10000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1014074894",
+    "address": "Мангилик Ел 63/1",
+    "area_m2": 46,
+    "rent_month": 600000,
+    "ppm": 13043,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1001826461",
+    "address": "Бокейхана 29",
+    "area_m2": 165,
+    "rent_month": 1800000,
+    "ppm": 10909,
+    "first_line": "unknown (1 этаж)"
+   },
+   {
+    "id": "1016331213",
+    "address": "Рыскулова 16/2",
+    "area_m2": 130,
+    "rent_month": 1200000,
+    "ppm": 9231,
+    "first_line": "unknown (1 этаж)"
+   },
+   {
+    "id": "1013799119",
+    "address": "Бокейхана 27",
+    "area_m2": 110,
+    "rent_month": 1100000,
+    "ppm": 10000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "686114800",
+    "address": "Бокейхана 25В",
+    "area_m2": 126,
+    "rent_month": 1100000,
+    "ppm": 8730,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016384955",
+    "address": "Бокейхана 29",
+    "area_m2": 164,
+    "rent_month": 1200000,
+    "ppm": 7317,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 10455,
+  "red_flags": [
+   "The listing has no Үйлер қатары field and the text never says 'первая линия'. The building line is set back about 90–100 m from Мангилик Ел, and the unit's facade is not known.",
+   "A first-line standalone commercial building at 'Мангилик Ел 62' (rent listing 1014189066, 650 m²) may stand between Hazar and the avenue. This needs checking on site or on satellite imagery.",
+   "Entrance is only 'бөлек'. The listing does not say whether it opens from the street (көшеден) or the courtyard.",
+   "Power is low: 18 kW.",
+   "Asking 995k ₸/m² is about 38% above our sale comps (~723k ₸/m²).",
+   "The description covers two units (126.6 and 97.7 m²). This listing is the 126.6 m² unit.",
+   "No seller name is shown. The exchange offer is for land or 'другую недвижимость'. An apartment is not named explicitly, but it falls under real estate in general."
+  ],
+  "verdict": "ok",
+  "verdict_reason": "This is a ground-floor unit in a finished 2025 tower in a mature EXPO/Мангилик Ел location, and the seller accepts any real estate in exchange. At about 10.5k ₸/m² rent it would earn roughly 12% gross. It is not strong because first line is not stated, the tower sits about 100 m back from the avenue, power is only 18 kW, and the price is above comps."
+ },
+ {
+  "id": "1011090888",
+  "active": true,
+  "area_m2": 90.7,
+  "price_now": 39000000,
+  "floor_confirmed": "1 (Қабат: 1; no цоколь mention)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "separate_street_entrance": false,
+  "ceiling_m": 3.5,
+  "complex_name": "ЖК Femida (2GIS: brick residential, 9 floors, 5 entrances, 13 organisations)",
+  "ready": "built 2020; freshly renovated ('жаңадан жөндеу жүргізген')",
+  "exchange_verdict": "accepts_apartment",
+  "exchange_quote": "Обмен возможен на квартиру",
+  "lat": 51.154375,
+  "lon": 71.362905,
+  "coord_source": "2GIS building page for ул. Е-181, 3 (/astana/geo/9570784903589989); Nominatim gives 51.1547,71.3619",
+  "frontage_street": "ул. Е-181, a minor numbered district street. Коргалжинское шоссе (major) is about 480–500 m to the south. The listing names no street the shopfront faces and has no Үйлер қатары field.",
+  "area_maturity": "Developing/frontier: north of Коргалжинское ш. next to a private-housing sector (Центральная ул., Яглинского). The seller calls it 'активно развивающемся районе', with 'Рядом ведется строительство жилых комплексов от BI Group'. Only 19 rent listings fall inside a ±400 m polygon.",
+  "rent_comps": [
+   {
+    "id": "695524878",
+    "address": "Е-181 3, ЖК Фемида (same building)",
+    "area_m2": 107,
+    "rent_month": 430000,
+    "ppm": 4019,
+    "first_line": "unknown"
+   },
+   {
+    "id": "761857692",
+    "address": "Е181 3 (same building)",
+    "area_m2": 74,
+    "rent_month": 300000,
+    "ppm": 4054,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1000231684",
+    "address": "E181 3, ЖК Фемида (same building; possibly the same unit as 761857692)",
+    "area_m2": 74,
+    "rent_month": 300000,
+    "ppm": 4054,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015172592",
+    "address": "Е181 1, Алатау Парк",
+    "area_m2": 55,
+    "rent_month": 250000,
+    "ppm": 4545,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016184557",
+    "address": "Е 181 1, ЖК Алтын аспан",
+    "area_m2": 54,
+    "rent_month": 300000,
+    "ppm": 5556,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1014623945",
+    "address": "Коргалжинское ш. 24/2, ЖК Oiu",
+    "area_m2": 107,
+    "rent_month": 650000,
+    "ppm": 6075,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015354903",
+    "address": "Е 923 / Айтматова",
+    "area_m2": 63,
+    "rent_month": 400000,
+    "ppm": 6349,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016360528",
+    "address": "E923 2 / Коргалжинское ш.",
+    "area_m2": 54,
+    "rent_month": 350000,
+    "ppm": 6481,
+    "first_line": "unknown (1 этаж)"
+   },
+   {
+    "id": "1015753992",
+    "address": "Коргалжинское ш. 24/2",
+    "area_m2": 95.6,
+    "rent_month": 650000,
+    "ppm": 6799,
+    "first_line": "yes"
+   },
+   {
+    "id": "1013838815",
+    "address": "Е181 7",
+    "area_m2": 54,
+    "rent_month": 550000,
+    "ppm": 10185,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 5815,
+  "red_flags": [
+   "Not first line of a busy street. It is on minor street Е-181, about 500 m from Коргалжинское ш., and the listing never states first line.",
+   "Frontier location next to construction sites and a private-housing sector. Rents in the same building are only ~4,000 ₸/m².",
+   "Entrance is only 'бөлек'. The listing does not say it opens from the street.",
+   "Power is not stated.",
+   "The seller is an agent (Джаксыбекова Жанагуль).",
+   "Krisha puts the unit in Нура district while OSM puts it in Есиль. It lies on the district boundary, which is acceptable either way."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "The ground floor and apartment exchange fit, and it is cheap at 430k ₸/m². Same-building rents of ~4,000 ₸/m² give about 11% gross. But it is on a minor numbered street in a frontier area with no confirmed first-line frontage, which fails the investor's location priority."
+ },
+ {
+  "id": "1007821907",
+  "active": true,
+  "area_m2": 111.3,
+  "price_now": 69000000,
+  "floor_confirmed": "unknown (Қабат field absent; description silent)",
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "separate_street_entrance": false,
+  "ceiling_m": 4.6,
+  "complex_name": "ЖК Cosmic City (2GIS: monolithic residential, 9 floors, 8 entrances, 15 organisations)",
+  "ready": "built 2021 (building 89/3); other Cosmic City phases are still listed as under construction on korter",
+  "exchange_verdict": "accepts_exchange_unspecified",
+  "exchange_quote": "рассмотрим обмен с вашей доплатой",
+  "lat": 51.078075,
+  "lon": 71.383089,
+  "coord_source": "2GIS building page for Туран 89/3 (/astana/geo/70030076217999571); Туран geometry from OSM via Nominatim",
+  "frontage_street": "Not on пр. Туран despite the address. Туран runs about 270 m to the east at lon ~71.387. Between them are the National Space Center (Туран 89) with its Buran and rocket displays, and ул. Е-103 (a minor street). At best the building faces Е-103 or the inside of the complex.",
+  "area_maturity": "Developing: the southern end of Туран with a low density of commercial listings (8 rent listings in a ±400 m polygon). Cosmic City is still partly under construction.",
+  "rent_comps": [
+   {
+    "id": "1013202404",
+    "address": "Туран 89/3 (same building), угловое",
+    "area_m2": 83,
+    "rent_month": 996000,
+    "ppm": 12000,
+    "first_line": "claims windows on Туран (1 этаж)"
+   },
+   {
+    "id": "1009367113",
+    "address": "Е103 5а, угловое",
+    "area_m2": 64.27,
+    "rent_month": 700000,
+    "ppm": 10892,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015466190",
+    "address": "Е 103 5А",
+    "area_m2": 62,
+    "rent_month": 558000,
+    "ppm": 9000,
+    "first_line": "unknown (1 этаж)"
+   },
+   {
+    "id": "1016289882",
+    "address": "Е 103 5А",
+    "area_m2": 44,
+    "rent_month": 350000,
+    "ppm": 7955,
+    "first_line": "unknown (1 этаж)"
+   },
+   {
+    "id": "1007381164",
+    "address": "Е 103 5",
+    "area_m2": 37.4,
+    "rent_month": 280000,
+    "ppm": 7487,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1014070811",
+    "address": "Е-103 1, ЖК Cosmic City",
+    "area_m2": 57,
+    "rent_month": 400000,
+    "ppm": 7018,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015834624",
+    "address": "Е 103 3",
+    "area_m2": 82,
+    "rent_month": 400000,
+    "ppm": 4878,
+    "first_line": "claimed (typo text)"
+   }
+  ],
+  "rent_median_ppm": 7955,
+  "red_flags": [
+   "Floor is not stated, so the ground floor is unconfirmed.",
+   "The title and address say 'Туран', but the building is about 270 m off Туран behind the National Space Center. This is not first line of Туран.",
+   "It is sold as a business: 'готовый бизнес с помещением, магазин с товаром и оборудованием'; Жұмыс істеп тұрған бизнес: иә. The price may include stock and equipment.",
+   "The exchange requires the buyer to add cash ('с вашей доплатой'), and the type of property is not named.",
+   "Line field is missing. Power and condition are not stated. The seller is an agent (Шаймардан Айдар).",
+   "The 'Самая низкая цена' / 'Горящее предложение' marketing language suggests pressure."
+  ],
+  "verdict": "exclude",
+  "verdict_reason": "The ground floor is unconfirmed, and the building is not on the first line of Туран: it sits about 270 m back behind the Space Center in a developing area. It is also a business sale with stock, and the exchange is unspecified with a buyer top-up."
+ },
+ {
+  "id": "1010251878",
+  "active": true,
+  "area_m2": 58,
+  "price_now": 25000000,
+  "floor_confirmed": "unknown (no Этаж field in RU or KZ version; description silent)",
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "separate_street_entrance": false,
+  "ceiling_m": 2.7,
+  "complex_name": "no complex; 15-storey residential building at Туркестан 4А (2GIS: 3 entrances, 10 organisations incl. Kino Room, Минимаркет 777)",
+  "ready": "built 2013; renovated, 'готово к эксплуатации'",
+  "exchange_verdict": "accepts_exchange_unspecified",
+  "exchange_quote": "Варианты обмена с Вашей доплатой.",
+  "lat": 51.11683,
+  "lon": 71.43022,
+  "coord_source": "OSM building footprint for ул. Туркестан 4А via Nominatim (15 levels); 2GIS confirms address",
+  "frontage_street": "ул. Туркестан is a secondary district street, but its carriageway lies about 150 m west of the 4А footprint. 4А stands inside the block between Туркестан and ул. Алматы; Туркестан 4Б is probably the front building. Мангилик Ел is about 250 m east and Керей-Жанибек about 300 m south.",
+  "area_maturity": "Mature, dense central left bank (Есиль, between Туркестан, Мангилик Ел and Керей-Жанибек). 66 rent listings fall inside a ±400 m polygon.",
+  "rent_comps": [
+   {
+    "id": "1016571882",
+    "address": "Туркестан 4Б (neighbouring building)",
+    "area_m2": 285,
+    "rent_month": 3500000,
+    "ppm": 12281,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016544003",
+    "address": "Мангилик Ел 20/2",
+    "area_m2": 60,
+    "rent_month": 720000,
+    "ppm": 12000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "697072543",
+    "address": "Алматы 13",
+    "area_m2": 35,
+    "rent_month": 350000,
+    "ppm": 10000,
+    "first_line": "yes"
+   },
+   {
+    "id": "1014453479",
+    "address": "Мангилик Ел 17",
+    "area_m2": 140,
+    "rent_month": 1300000,
+    "ppm": 9286,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015362090",
+    "address": "Керей Жанибек хандар 22 (2 этаж)",
+    "area_m2": 179.7,
+    "rent_month": 1300000,
+    "ppm": 7234,
+    "first_line": "no (2nd floor)"
+   },
+   {
+    "id": "1011028948",
+    "address": "Туркестан 2",
+    "area_m2": 105,
+    "rent_month": 500000,
+    "ppm": 4762,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016537469",
+    "address": "Мангилик Ел 17 / Алматы",
+    "area_m2": 42,
+    "rent_month": 200000,
+    "ppm": 4762,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 9286,
+  "red_flags": [
+   "Floor, line of buildings and entrance are all missing on the page.",
+   "Price is 431k ₸/m², about 61% below area sale comps (~1.1M). Together with the 2.7 m ceiling (residential height), this points to a basement or полуцоколь, a courtyard unit, or a converted apartment.",
+   "The building is inside the block, about 150 m from Туркестан. It is not first line.",
+   "The exchange requires the buyer to add cash, and the type of property is not named.",
+   "The page has only 5 photos and a 3-line description."
+  ],
+  "verdict": "exclude",
+  "verdict_reason": "The area is mature, but nothing confirms a ground floor, first line or street entrance. The building sits inside the block about 150 m from Туркестан, and the very low price with a 2.7 m ceiling suggests a basement or courtyard unit. The exchange is also unspecified with a buyer top-up."
+ },
+ {
+  "id": "1009606565",
+  "active": true,
+  "area_m2": 375,
+  "price_now": 100000000,
+  "floor_confirmed": "unknown; detached production hangar (ангар 350 m²) on own land plot, not a unit in a building",
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "separate_street_entrance": false,
+  "ceiling_m": 8,
+  "power_kw": 15,
+  "complex_name": "none (private land plot with hangar)",
+  "ready": "existing hangar; year not stated",
+  "exchange_verdict": "accepts_exchange_unspecified",
+  "exchange_quote": "Рассмотрю обмен: на недвижимость в Алматы (возможна доплата в обе стороны).",
+  "lat": 51.1256,
+  "lon": 71.2808,
+  "coord_source": "Nominatim street-level geocode of ул. Е-578, мкр Уркер (approximate)",
+  "frontage_street": "ул. Е-578, an internal street in the Уркер private-housing sector. No major street nearby.",
+  "area_maturity": "Frontier: the Уркер private-housing microdistrict on the western edge of the left bank.",
+  "rent_comps": [],
+  "red_flags": [
+   "Not commercial retail or office space. It is a land plot with a production hangar for warehouse, truck service or logistics use.",
+   "Exchange is only for real estate in Almaty, with cash top-up possible either way. That is not equal-value Astana real estate.",
+   "Not first line, and the location is frontier (Уркер).",
+   "The listing says 375 m², but the description says the hangar is 350 m².",
+   "The income is a Kcell tower lease on the plot, which is not retail rent."
+  ],
+  "verdict": "exclude",
+  "verdict_reason": "This is an industrial hangar on a land plot in frontier Уркер, not a first-line ground-floor commercial unit. The exchange is limited to Almaty real estate."
+ },
+ {
+  "id": "1009554252",
+  "active": true,
+  "price_now": 46500000,
+  "area_m2": 65,
+  "floor_confirmed": "1 (Қабат: 1; nothing in the description suggests a цоколь)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "separate_street_entrance": true,
+  "ceiling_m": 4.5,
+  "complex_name": "ЖК Меркурий (Айтматова 29А)",
+  "ready": "built; units in the complex are already rented, and the seller cites current income of about 500k ₸/month",
+  "exchange_verdict": "accepts_apartment",
+  "exchange_quote": "Возможен обмен на квартиру с вашей доплатой! Или равноценную!",
+  "lat": 51.1300818,
+  "lon": 71.3600992,
+  "coord_source": "Nominatim building hit 'ЖК Меркурий, 29А, Шыңғыс Айтматов көшесі' (bbox lon 71.3589-71.3604, about 50 m west of the Айтматова carriageway)",
+  "frontage_street": "ул. Ш. Айтматова (on the investor's major-street list, but in practice a district arterial in west Нура, not a prime avenue). Sibling rent listing 1016341342 in the same building reads 'Первая Линия', with a separate street entrance and a bus stop in front. This listing leaves Үйлер қатары blank.",
+  "area_maturity": "established mid-density residential belt in west Нура (ЖК Меркурий, Delta, Жагалау; schools, kindergartens, bus stop). More than 50 commercial rent listings within ±500 m. Not CBD, but populated.",
+  "rent_comps": [
+   {
+    "id": "1016341342",
+    "address": "Айтматова 29А, ЖК Меркурий",
+    "area_m2": 60,
+    "rent_month": 350000,
+    "ppm": 5833,
+    "first_line": "yes, 1 этаж, corner, street entrance"
+   },
+   {
+    "id": "1016326059",
+    "address": "Айтматова 29а",
+    "area_m2": 79,
+    "rent_month": 400000,
+    "ppm": 5063,
+    "first_line": "yes (бірінші), 2-level"
+   },
+   {
+    "id": "1016410993",
+    "address": "Айтматова 29а, Меркурий",
+    "area_m2": 79,
+    "rent_month": 400000,
+    "ppm": 5063,
+    "first_line": "unknown (possibly the same unit as 1016326059)"
+   },
+   {
+    "id": "1013439266",
+    "address": "Меркурий, Айтматова",
+    "area_m2": 52,
+    "rent_month": 200000,
+    "ppm": 3846,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1010337503",
+    "address": "Молдагалиева 1, ЖК Delta",
+    "area_m2": 98.1,
+    "rent_month": 500000,
+    "ppm": 5097,
+    "first_line": "yes"
+   },
+   {
+    "id": "1004393069",
+    "address": "Молдагалиева 1, ЖК Delta",
+    "area_m2": 92.1,
+    "rent_month": 600000,
+    "ppm": 6515,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1014915102",
+    "address": "Молдагалиева 1, ЖК Delta",
+    "area_m2": 100,
+    "rent_month": 600000,
+    "ppm": 6000,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016546481",
+    "address": "Молдагалиева 3, Delta 2",
+    "area_m2": 158.9,
+    "rent_month": 950000,
+    "ppm": 5979,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016535667",
+    "address": "Молдагалиева 1, Delta",
+    "area_m2": 117,
+    "rent_month": 1000000,
+    "ppm": 8547,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1016439820",
+    "address": "Молдагалиева 3",
+    "area_m2": 94,
+    "rent_month": 500000,
+    "ppm": 5319,
+    "first_line": "yes"
+   },
+   {
+    "id": "696384705",
+    "address": "Шайкенова 6/2 - Айтматова",
+    "area_m2": 70,
+    "rent_month": 525000,
+    "ppm": 7500,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016534229",
+    "address": "Е-900 8, GreenLine.Sakura",
+    "area_m2": 135,
+    "rent_month": 1400000,
+    "ppm": 10370,
+    "first_line": "yes, 1 этаж"
+   }
+  ],
+  "rent_median_ppm": 5906,
+  "red_flags": [
+   "Үйлер қатары is not filled in; first line is inferred only from sibling units in the same building plus 'вход с улицы'",
+   "Claimed income of 500k ₸/month (7.7k/m²) is about 30% above the complex comps (5.1-5.8k/m²). At market rent the gross yield is about 9.9%, not 12.9%. The tenant-inflated price needs a check of the lease.",
+   "'Цена на неделю' urgency wording",
+   "Ceiling of 4.5 m with 65 m² may mean a mezzanine or two levels (as in sibling 1016326059); check the cadastral area",
+   "Seller is shown as owner but unnamed; no year built given",
+   "Not a duplicate. Other Меркурий sale listings (1015816566 and 1016582152, 74 m² at 59M) are a different unit, and those two are duplicates of each other."
+  ],
+  "verdict": "ok",
+  "verdict_reason": "The exchange fits exactly: list A, apartment accepted 'или равноценную'. The unit is ground floor with a street entrance on Айтматова, in a populated though not prime district. It moves to strong once first line on Айтматова is confirmed on site; the yield is about 10% at market rent, below the claimed 12.9%."
+ },
+ {
+  "id": "1014773959",
+  "active": true,
+  "price_now": 69000800,
+  "area_m2": 115,
+  "floor_confirmed": "1 (Қабат: 1)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "separate_street_entrance": true,
+  "ceiling_m": 3.5,
+  "power_kw": 50,
+  "complex_name": "Asyl Bulak (асыл булак), Айтматова 46/1, developer BM Group per sibling listing",
+  "ready": "new build 2026, shell finish. Sibling listing 1014407506 in the same complex says 'Ключи ноябрь декабрь' (2026), which is within 6 months.",
+  "exchange_verdict": "car_only",
+  "exchange_quote": "варианты на авто",
+  "lat": 51.1520267,
+  "lon": 71.3728564,
+  "coord_source": "Nominatim '46/1, Шыңғыс Айтматов көшесі'",
+  "frontage_street": "ул. Ш. Айтматова near its junction with Коргалжинское шоссе (a major highway). Which façade the unit faces is not stated.",
+  "area_maturity": "frontier or developing north-west edge with new builds (2024-2026: Maryam Residence, Ажар, Onyx). Rent supply is mostly one landlord's block at Айтматова 57.",
+  "rent_comps": [
+   {
+    "id": "687634781",
+    "address": "Айтматова 59, Onyx",
+    "area_m2": 120,
+    "rent_month": 700000,
+    "ppm": 5833,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015907421",
+    "address": "Айтматова 55, Ajar",
+    "area_m2": 70,
+    "rent_month": 500000,
+    "ppm": 7143,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015446239",
+    "address": "Айтматова 55, Ажар",
+    "area_m2": 112.5,
+    "rent_month": 1125000,
+    "ppm": 10000,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016512609",
+    "address": "Айтматова 57, Maryam Residence",
+    "area_m2": 220,
+    "rent_month": 1760000,
+    "ppm": 8000,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1016512528",
+    "address": "Айтматова 57, Maryam Residence",
+    "area_m2": 180,
+    "rent_month": 1530000,
+    "ppm": 8500,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1016438715",
+    "address": "Айтматова 57, Maryam Residence",
+    "area_m2": 90,
+    "rent_month": 765000,
+    "ppm": 8500,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1009683156",
+    "address": "Айтматова 57 / Коргалжын",
+    "area_m2": 125,
+    "rent_month": 1200000,
+    "ppm": 9600,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016512314",
+    "address": "Айтматова 57, Maryam Residence",
+    "area_m2": 80,
+    "rent_month": 680000,
+    "ppm": 8500,
+    "first_line": "likely"
+   }
+  ],
+  "rent_median_ppm": 8500,
+  "red_flags": [
+   "The exchange offered is car-only ('варианты на авто'); no apartment is mentioned",
+   "Likely DUPLICATE or sibling of 1014407506: same complex Asyl Bulak (Айтматова 46), 115 m², floor 1, first line, but 58,000,000 ₸ from developer BM Group with 'Обмен дороже'. This listing asks 69,000,800 ₸.",
+   "Not yet handed over; keys are expected Nov-Dec 2026",
+   "Seller and author fields are blank; the description is a single phrase",
+   "Frontier area; the rent comps are mostly one landlord's asking prices"
+  ],
+  "verdict": "exclude",
+  "verdict_reason": "List A, but the only exchange offered is for a car ('варианты на авто'). The same 115 m² unit type is listed by the developer (1014407506) at 58M with an exchange only 'дороже' (at a higher price), and the area is a frontier zone."
+ },
+ {
+  "id": "1016512494",
+  "active": true,
+  "price_now": 80000000,
+  "area_m2": 110,
+  "floor_confirmed": "1 (Қабат: 1; no цоколь wording)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "separate_street_entrance": true,
+  "ceiling_m": 3.4,
+  "complex_name": "not named (Айтматова 33; ЖК Aisafi shares this address, but this listing says built 2017 while Aisafi is 2021)",
+  "ready": "built 2017, freshly renovated",
+  "exchange_verdict": "silent",
+  "exchange_quote": "",
+  "lat": 51.1362485,
+  "lon": 71.3620736,
+  "coord_source": "Nominatim '33, Шыңғыс Айтматов көшесі' (matches preliminary)",
+  "frontage_street": "ул. Ш. Айтматова (district arterial, opposite ЖК Жагалау; per rent comp 1015748801 an LRT station is planned opposite in 2027). This listing has no line field; its description says only 'в развитом районе с хорошей проходимостью'.",
+  "area_maturity": "established mid-density residential area of west Нура (Жагалау, Altyn Saulet, Омарова). Populated, but not a prime commercial corridor.",
+  "rent_comps": [
+   {
+    "id": "1016513982",
+    "address": "Айтматова 33",
+    "area_m2": 340,
+    "rent_month": 2000000,
+    "ppm": 5882,
+    "first_line": "yes, 2-level"
+   },
+   {
+    "id": "1015748801",
+    "address": "Айтматова 33, ЖК Aisafi",
+    "area_m2": 335.8,
+    "rent_month": 1500000,
+    "ppm": 4467,
+    "first_line": "yes, 1 этаж, 2-level"
+   },
+   {
+    "id": "1014925825",
+    "address": "Айтматова 37/1",
+    "area_m2": 63,
+    "rent_month": 650000,
+    "ppm": 10317,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015967675",
+    "address": "Айтматова 37",
+    "area_m2": 68,
+    "rent_month": 500000,
+    "ppm": 7353,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016566855",
+    "address": "Айтматова 36, Жагалау",
+    "area_m2": 102,
+    "rent_month": 400000,
+    "ppm": 3922,
+    "first_line": "1 этаж, line unknown"
+   },
+   {
+    "id": "1005058075",
+    "address": "Айтматова 36",
+    "area_m2": 109.7,
+    "rent_month": 300000,
+    "ppm": 2735,
+    "first_line": "yes"
+   },
+   {
+    "id": "1003127973",
+    "address": "Айтматова 36",
+    "area_m2": 200,
+    "rent_month": 900000,
+    "ppm": 4500,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015660417",
+    "address": "Омарова 21/1",
+    "area_m2": 103,
+    "rent_month": 800000,
+    "ppm": 7767,
+    "first_line": "corner"
+   },
+   {
+    "id": "1010394301",
+    "address": "Ильяса Омарова 19/1",
+    "area_m2": 78.8,
+    "rent_month": 750000,
+    "ppm": 9518,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016510245",
+    "address": "Мухамедханов 21, ЖК Кристалл",
+    "area_m2": 75,
+    "rent_month": 550000,
+    "ppm": 7333,
+    "first_line": "1 этаж"
+   },
+   {
+    "id": "697200736",
+    "address": "Е-36 2/1, Altyn Saulet 3",
+    "area_m2": 98,
+    "rent_month": 550000,
+    "ppm": 5612,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1004091844",
+    "address": "Е-429 14/1, Altyn Saulet 3",
+    "area_m2": 95,
+    "rent_month": 500000,
+    "ppm": 5263,
+    "first_line": "yes"
+   }
+  ],
+  "rent_median_ppm": 6608,
+  "red_flags": [
+   "First line is not stated anywhere (no Үйлер қатары field, generic agency text)",
+   "No complex name, and the year 2017 conflicts with ЖК Aisafi (2021) at the same address; check which building it is",
+   "Agency listing (Kazrealty) with templated description; power not given",
+   "Asks 727k/m², the same level as first-line units in ЖК Меркурий (797k/m²) without proof of first line"
+  ],
+  "verdict": "weak",
+  "verdict_reason": "Ground floor with a street entrance, and the exchange is not refused (list B). First line on Айтматова is unconfirmed and the agency text is generic. Market rent of about 6.6k/m² gives roughly a 10.9% gross yield, but the location is district-grade rather than prime."
+ },
+ {
+  "id": "761931237",
+  "active": true,
+  "price_now": 28000000,
+  "area_m2": 45,
+  "floor_confirmed": "1 (Қабат: 1; no цоколь wording, but see red flags)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": false,
+  "ceiling_m": 3,
+  "complex_name": "ЖК Триумф Астаны (Кабанбай батыра 11)",
+  "ready": "built (listing says 2012; the tower itself dates from 2006)",
+  "exchange_verdict": "silent",
+  "exchange_quote": "",
+  "lat": 51.1404261,
+  "lon": 71.4150636,
+  "coord_source": "Nominatim building '“Астана Салтанаты” ТҮК, 11, Қабанбай Батыр даңғылы' (Kazakh name of Триумф Астаны); preliminary krisha guide coordinates are within 30 m",
+  "frontage_street": "пр. Кабанбай батыра (major avenue), per 'Үйлер қатары: бірінші'. The entrance field says only 'бөлек', not 'көшеден'. Another 45 m² office in the same building (761550648) has windows facing БЦ Нурлы Орда, i.e. the inner side.",
+  "area_maturity": "mature and dense: Триумф Астаны, Премьера 1-3, Ак Орда, БЦ Нурлы Орда, near Туран and ТРЦ Сарыарка; established offices and retail",
+  "rent_comps": [
+   {
+    "id": "699311015",
+    "address": "Кабанбай батыра 11, Триумф Астаны",
+    "area_m2": 85,
+    "rent_month": 1200000,
+    "ppm": 14118,
+    "first_line": "unknown"
+   },
+   {
+    "id": "697733988",
+    "address": "Кабанбай батыра 11, Триумф Астаны",
+    "area_m2": 40,
+    "rent_month": 250000,
+    "ppm": 6250,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1011211358",
+    "address": "Кабанбай батыра 11/5, БЦ Нурлы Орда",
+    "area_m2": 50.6,
+    "rent_month": 400000,
+    "ppm": 7905,
+    "first_line": "unknown (office)"
+   },
+   {
+    "id": "1016315972",
+    "address": "Кабанбай батыра 11/2, Клубный дом 56",
+    "area_m2": 100,
+    "rent_month": 1600000,
+    "ppm": 16000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015534888",
+    "address": "Кабанбай батыра 9, Премьера",
+    "area_m2": 175,
+    "rent_month": 2800000,
+    "ppm": 16000,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015617782",
+    "address": "Кабанбай батыра 9/2, Премьера-3",
+    "area_m2": 150,
+    "rent_month": 1700000,
+    "ppm": 11333,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016494096",
+    "address": "Кабанбай батыра 7/2, Ак Орда",
+    "area_m2": 110,
+    "rent_month": 1000000,
+    "ppm": 9091,
+    "first_line": "1 этаж"
+   },
+   {
+    "id": "1016048140",
+    "address": "Кабанбай батыра 7/2, Ак Орда",
+    "area_m2": 180,
+    "rent_month": 2000000,
+    "ppm": 11111,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015742136",
+    "address": "Кабанбай батыра 14",
+    "area_m2": 196,
+    "rent_month": 1000000,
+    "ppm": 5102,
+    "first_line": "yes, 1 этаж, 2-level"
+   }
+  ],
+  "rent_median_ppm": 11111,
+  "red_flags": [
+   "Price of 622k/m² is about 40-50% below sale comps in the same block (1000844084, Триумф: 1.04M/m²; 1015203968, Премьера-3: 1.2M/m²). Either a price error or a weak unit, e.g. on the inner side.",
+   "Stale listing (old 76xxxxxx id, renewed for years) with a one-line description 'Жк триумф Астаны рядом с жк премьера'",
+   "Possible DUPLICATE or confusion with 761550648: also a 45 m² office in Триумф Астаны at 30M, from the same era, but listed as floor 3 with a shared entrance and windows to БЦ Нурлы Орда. Check whether this is really a ground-floor unit.",
+   "Entrance is 'бөлек' with no 'көшеден', so a separate street entrance is not confirmed",
+   "Year 2012 conflicts with the building's 2006 completion",
+   "Tenant in place (Жалға алушылар бар: ия) with unknown lease terms; office type with a 3 m ceiling, small at 45 m²",
+   "Seller and author fields are empty"
+  ],
+  "verdict": "ok",
+  "verdict_reason": "On paper this is the best location in the batch: ground floor, first line on пр. Кабанбай батыра in a mature dense area, at about 11k ₸/m² market rent and a 13-20% implied yield. The very low price and the stale, terse listing (possibly an inner-side unit or the floor-3 twin 761550648) need a site visit before it can count as strong."
+ },
+ {
+  "id": "1016067691",
+  "active": true,
+  "price_now": 98000000,
+  "area_m2": 170,
+  "floor_confirmed": "1 (Қабат: 1; no цоколь wording)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ceiling_m": 5.1,
+  "power_kw": 65,
+  "complex_name": "ЖК Багыстан (Е117 41)",
+  "ready": "built 2021, 'Помещение полностью готово к работе'",
+  "exchange_verdict": "silent",
+  "exchange_quote": "",
+  "lat": 51.078924,
+  "lon": 71.489763,
+  "coord_source": "krisha guide (preliminary), corroborated by korter 'ЖК Bagystan (позиция 2, 4)' at 51.08026, 71.48901 (about 150 m) and by Nominatim reverse placing the point on 'Е-117 көшесі'",
+  "frontage_street": "corner unit, front on ул. Е-117 ('на первой линии выход на ул. Е117'). OSM classes Е-117 as a residential or local street; the title's 'Улы Дала' is a landmark, since Улы Дала's east end is about 0.8 km north.",
+  "area_maturity": "developing or frontier south-east edge (Куйгенжар; ЖК Багыстан 1-4, Salt, Bosaga). Low density, with many vacant commercial units for sale and rent on Е117 38-45.",
+  "rent_comps": [
+   {
+    "id": "1012629665",
+    "address": "Е117 40, Багыстан",
+    "area_m2": 164,
+    "rent_month": 600000,
+    "ppm": 3659,
+    "first_line": "yes"
+   },
+   {
+    "id": "1011137373",
+    "address": "Е117 40, Багыстан",
+    "area_m2": 160,
+    "rent_month": 650000,
+    "ppm": 4063,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016432880",
+    "address": "Е117 45 / Онгарсыновой, Багыстан 2",
+    "area_m2": 90,
+    "rent_month": 800000,
+    "ppm": 8889,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016432363",
+    "address": "Е117 43, Багыстан 4",
+    "area_m2": 70,
+    "rent_month": 600000,
+    "ppm": 8571,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015994824",
+    "address": "Е117 39, Багыстан",
+    "area_m2": 157,
+    "rent_month": 1200000,
+    "ppm": 7643,
+    "first_line": "1 этаж, 'на главной улице'"
+   },
+   {
+    "id": "1005346227",
+    "address": "Е117 39",
+    "area_m2": 70,
+    "rent_month": 800000,
+    "ppm": 11429,
+    "first_line": "1 этаж"
+   },
+   {
+    "id": "1016484576",
+    "address": "Е117 35, Багыстан",
+    "area_m2": 105,
+    "rent_month": 600000,
+    "ppm": 5714,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1014072497",
+    "address": "Е-117 4, Багыстан-4",
+    "area_m2": 130,
+    "rent_month": 600000,
+    "ppm": 4615,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1012262027",
+    "address": "Е117 40, Багыстан",
+    "area_m2": 40,
+    "rent_month": 130000,
+    "ppm": 3250,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1012800609",
+    "address": "Е-779 32, Salt 2",
+    "area_m2": 49,
+    "rent_month": 400000,
+    "ppm": 8163,
+    "first_line": "1 этаж"
+   },
+   {
+    "id": "1016219802",
+    "address": "Е779 32, Salt",
+    "area_m2": 48,
+    "rent_month": 400000,
+    "ppm": 8333,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 7643,
+  "red_flags": [
+   "Fronts a local street (Е-117), not a major avenue. The 'Улы Дала' in the title is only a nearby landmark.",
+   "Frontier area with heavy competing supply: sale listings on Е117 at 404-500k/m² (1012328635, 1015009051, 1014115217) and several large first-line units for rent at only 3.7-4.1k/m²",
+   "Large units here rent at about 3.7-7.6k/m²; realistic gross yield is about 8-11%, not the preliminary 14.2%",
+   "Seller is not shown"
+  ],
+  "verdict": "weak",
+  "verdict_reason": "It meets every formal criterion: ground floor, first line, corner, street entrance, 5.1 m ceiling, 65 kW, built, exchange not refused. But it faces a local street in a developing frontier area with plenty of vacant supply, which conflicts with the investor's 'best location' priority."
+ },
+ {
+  "id": "1015343794",
+  "active": true,
+  "price_now": 85000000,
+  "area_m2": 97.2,
+  "floor_confirmed": "1 (field 'Қабат: 1'; no цоколь/полуцоколь wording; the identical rent listing 1012331757 also says floor 1)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_street": "Казыбек би (Qazybek Bi) street, the southern end near Улы Дала. It is a district street (OSM 'residential'), not a major avenue. Kazybek bi is the only named road within 100 m of 41/4–41/5.",
+  "separate_street_entrance": true,
+  "ceiling_m": 4,
+  "complex_name": "ЖК Salman City-2 (Казыбек би 41/4 or 41/5; the building is not specified). Power is not stated.",
+  "ready": "built 2025; handed over in rough finish ('қара сылақпен беріледі')",
+  "exchange_verdict": "silent",
+  "exchange_quote": "No mention of обмен/айырбас. Full description: 'Продается коммерческое помещение в ЖК “Salman-city-2”. Отличная планировка, отдельный вход с улицы, перспективный район, активная застройка.'",
+  "lat": 51.095628,
+  "lon": 71.3812231,
+  "coord_source": "Nominatim building 'ЖК Salman City - 2, 41/5, Қазыбек Би көшесі' (41/4 is at 51.09579,71.38236); matches the preliminary krisha coordinates",
+  "area_maturity": "Developing or frontier. The seller's own words are 'перспективный район, активная застройка'. The complex was built in 2025 at the SW edge of Нура. Preliminary density is only 19 commercial listings per km². At least 9 other commercial units in Salman City 41 are currently for rent, so supply here is high.",
+  "rent_comps": [
+   {
+    "id": "1012331757",
+    "address": "Казыбек би 41, ЖК Salman-city-2 (very likely THIS unit offered for rent)",
+    "area_m2": 97.2,
+    "rent_month": 700000,
+    "ppm": 7202,
+    "first_line": "yes (бірінші, separate street entrance)"
+   },
+   {
+    "id": "1009887410",
+    "address": "Казыбек би 41/4",
+    "area_m2": 80,
+    "rent_month": 500000,
+    "ppm": 6250,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1005497580",
+    "address": "Казыбек би 41/4",
+    "area_m2": 120,
+    "rent_month": 700000,
+    "ppm": 5833,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1011735236",
+    "address": "Казыбек би 41/1, Улы дала",
+    "area_m2": 114.5,
+    "rent_month": 1200000,
+    "ppm": 10480,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1014659820",
+    "address": "Казыбек би 41",
+    "area_m2": 97,
+    "rent_month": 1000000,
+    "ppm": 10309,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1009364663",
+    "address": "Казыбек би 41/1",
+    "area_m2": 114.5,
+    "rent_month": 1500000,
+    "ppm": 13100,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1008580214",
+    "address": "Казыбек би 41/4 (Small)",
+    "area_m2": 60,
+    "rent_month": 530000,
+    "ppm": 8833,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015783781",
+    "address": "Казыбек би 41",
+    "area_m2": 135,
+    "rent_month": 950000,
+    "ppm": 7037,
+    "first_line": "unknown; floor 1"
+   }
+  ],
+  "rent_median_ppm": 8018,
+  "red_flags": [
+   "The same unit (97.2 m², Salman-city-2, same text) is listed for rent as krisha 1012331757 at 700,000 ₸/month. It is vacant and unlet, so income is not proven.",
+   "Rough finish (черновая): the buyer must pay for a fit-out.",
+   "Developing area with heavy supply of identical vacant units in the same complex, which risks long vacancy.",
+   "Power is not stated.",
+   "Building (41/4 or 41/5) not specified."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "Ground floor, first line and a street entrance are confirmed at a fair price (874k ₸/m²), and the gross yield is about 10–11% at the 700k asking rent. But it fronts a secondary street in a frontier area with many vacant identical units, so it fails the location-first priority."
+ },
+ {
+  "id": "760836253",
+  "active": true,
+  "price_now": 90000000,
+  "area_m2": 105.5,
+  "floor_confirmed": "1 (field 'Қабат: 1'; no цоколь/полуцоколь mention)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_street": "проспект Туран, a major avenue (OSM primary). The building's east edge (lon 71.3965) is about 30–40 m from the Turan carriageway, next to Barys Arena (Туран 57).",
+  "separate_street_entrance": true,
+  "ceiling_m": 4.3,
+  "power_kw": 320,
+  "complex_name": "ЖК Sezim Qala, Senim 1 очередь (Туран 55/6)",
+  "ready": "built 2022, operating",
+  "exchange_verdict": "silent",
+  "exchange_quote": "No mention of обмен/айырбас. The description begins 'Продаётся нежилое помещение с действующим арендатором. Стабильный пассивный доход с первого дня... я хозяин работаю без риэлторских услуг.'",
+  "lat": 51.1112542,
+  "lon": 71.3963038,
+  "coord_source": "Nominatim building 'Sezim Qala. Senim 1 очередь, 55/6, Тұран даңғылы' (bbox 51.11082–51.11157, 71.39515–71.39647); matches the preliminary coordinates",
+  "area_maturity": "Mature and dense: the Barys Arena / Turan corridor of Нура, with Sezim Qala complexes from 2019–2022, schools and kindergartens. 54 commercial rent listings are within a ±400 m box, and preliminary density is 43.",
+  "rent_comps": [
+   {
+    "id": "1015343093",
+    "address": "Туран 57д",
+    "area_m2": 84,
+    "rent_month": 800000,
+    "ppm": 9524,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016576492",
+    "address": "Туран 55/11",
+    "area_m2": 80,
+    "rent_month": 1200000,
+    "ppm": 15000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016465582",
+    "address": "Толе би 26",
+    "area_m2": 161,
+    "rent_month": 1100000,
+    "ppm": 6832,
+    "first_line": "yes"
+   },
+   {
+    "id": "1012966435",
+    "address": "Туран 55/8",
+    "area_m2": 160,
+    "rent_month": 1900000,
+    "ppm": 11875,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1011996918",
+    "address": "Туран 57/6",
+    "area_m2": 136,
+    "rent_month": 1000000,
+    "ppm": 7353,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016128995",
+    "address": "Туран 46б",
+    "area_m2": 140,
+    "rent_month": 1500000,
+    "ppm": 10714,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015941455",
+    "address": "Туран 55Д (общепит)",
+    "area_m2": 130,
+    "rent_month": 2600000,
+    "ppm": 20000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016525132",
+    "address": "Туран 55/4",
+    "area_m2": 178,
+    "rent_month": 2314000,
+    "ppm": 13000,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016538861",
+    "address": "Туран 57/8",
+    "area_m2": 126.6,
+    "rent_month": 1100000,
+    "ppm": 8689,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015947771",
+    "address": "Туран 55/13",
+    "area_m2": 70,
+    "rent_month": 800000,
+    "ppm": 11429,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "691454763",
+    "address": "Туран 46А",
+    "area_m2": 90,
+    "rent_month": 1400000,
+    "ppm": 15556,
+    "first_line": "yes"
+   }
+  ],
+  "rent_median_ppm": 11429,
+  "red_flags": [
+   "DUPLICATE: same unit as krisha 1015095328 (105.5 m², 90M, 4.3 m, 320 kW, Senim 1, 2022). Count it once.",
+   "Sold 'с действующим арендатором' (a children's development centre), but the rent amount and lease term are not disclosed.",
+   "320 kW of power is implausible for 105.5 m² and is probably a typo for 32 kW; verify.",
+   "At 853k ₸/m² it is about 25% below area sale comps. The seller says it is an urgent sale; check for encumbrances.",
+   "The duplicate listing shows 'Есігі: бөлек, ауладан' (courtyard), which contradicts this listing's 'көшеден' (street). Check on site that the shopfront faces Turan."
+  ],
+  "verdict": "strong",
+  "verdict_reason": "Confirmed ground floor and first line on проспект Туран next to Barys Arena in a mature, dense area, at a below-market 90M. Gross yield is roughly 13–16% at the comp median (9.5–11.4k ₸/m²), and the exchange is not refused."
+ },
+ {
+  "id": "1015095328",
+  "active": true,
+  "price_now": 90000000,
+  "area_m2": 105.5,
+  "floor_confirmed": "1 (field 'Орналасқан қабаты: 1'; no цоколь mention)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_street": "проспект Туран, a major avenue, about 30–40 m from the building's east edge; Barys Arena is next door. The entrance field says courtyard ('ауладан'), but the description says street.",
+  "separate_street_entrance": true,
+  "ceiling_m": 4.3,
+  "power_kw": 320,
+  "complex_name": "ЖК Sezim Qala. Senim 1 (Туран 55/6)",
+  "ready": "built 2022, operating",
+  "exchange_verdict": "silent",
+  "exchange_quote": "No mention of обмен/айырбас. The description says 'СРОЧНАЯ ПРОДАЖА!... Отдельный собственный вход с улицы... Возможен разумный торг реальному покупателю.'",
+  "lat": 51.1112542,
+  "lon": 71.3963038,
+  "coord_source": "Nominatim building 'Sezim Qala. Senim 1 очередь, 55/6, Тұран даңғылы'",
+  "area_maturity": "Mature and dense (Barys Arena / Turan corridor, Нура). The description cites nearby schools, kindergartens and shops.",
+  "rent_comps": [
+   {
+    "id": "1015343093",
+    "address": "Туран 57д",
+    "area_m2": 84,
+    "rent_month": 800000,
+    "ppm": 9524,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016576492",
+    "address": "Туран 55/11",
+    "area_m2": 80,
+    "rent_month": 1200000,
+    "ppm": 15000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016465582",
+    "address": "Толе би 26",
+    "area_m2": 161,
+    "rent_month": 1100000,
+    "ppm": 6832,
+    "first_line": "yes"
+   },
+   {
+    "id": "1012966435",
+    "address": "Туран 55/8",
+    "area_m2": 160,
+    "rent_month": 1900000,
+    "ppm": 11875,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1011996918",
+    "address": "Туран 57/6",
+    "area_m2": 136,
+    "rent_month": 1000000,
+    "ppm": 7353,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016128995",
+    "address": "Туран 46б",
+    "area_m2": 140,
+    "rent_month": 1500000,
+    "ppm": 10714,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015941455",
+    "address": "Туран 55Д",
+    "area_m2": 130,
+    "rent_month": 2600000,
+    "ppm": 20000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016525132",
+    "address": "Туран 55/4",
+    "area_m2": 178,
+    "rent_month": 2314000,
+    "ppm": 13000,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016538861",
+    "address": "Туран 57/8",
+    "area_m2": 126.6,
+    "rent_month": 1100000,
+    "ppm": 8689,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015947771",
+    "address": "Туран 55/13",
+    "area_m2": 70,
+    "rent_month": 800000,
+    "ppm": 11429,
+    "first_line": "yes"
+   },
+   {
+    "id": "691454763",
+    "address": "Туран 46А",
+    "area_m2": 90,
+    "rent_month": 1400000,
+    "ppm": 15556,
+    "first_line": "yes"
+   }
+  ],
+  "rent_median_ppm": 11429,
+  "red_flags": [
+   "DUPLICATE of krisha 760836253 (same unit, same 90M price). Count it once.",
+   "Entrance field 'бөлек, ауладан' (courtyard) contradicts the description 'Отдельный собственный вход с улицы'. Verify the shopfront faces Turan.",
+   "An operating children's centre is on site ('можно приобрести вместе с готовым коммерческим пространством'). The tenant's rent is not disclosed; make sure the price covers the premises only.",
+   "320 kW is likely a typo.",
+   "'Срочная продажа' at about 25% below comps: check for encumbrance or залог."
+  ],
+  "verdict": "strong",
+  "verdict_reason": "Same unit as 760836253: ground floor on the Туран avenue frontage next to Barys Arena, mature area, 90M with room to negotiate. The exchange is not refused. Treat this as one opportunity, not two."
+ },
+ {
+  "id": "1011580833",
+  "active": true,
+  "price_now": 128000000,
+  "area_m2": 128.7,
+  "floor_confirmed": "1 (field 'Қабат: 1'; no цоколь/полуцоколь mention)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_street": "Бұқар Жырау street, a district street (OSM tertiary), at the corner with Қасым Қайсенов (also tertiary). Улы Дала avenue (secondary) is about 250–400 m S/SW. It is not on a major avenue itself.",
+  "separate_street_entrance": false,
+  "ceiling_m": 4,
+  "power_kw": 30,
+  "complex_name": "No ЖК name in the listing; OSM names the building at Бұқар Жырау 36 'Қамал-4' (8 floors, built 2018)",
+  "ready": "built 2018, operating with tenants",
+  "exchange_verdict": "silent",
+  "exchange_quote": "No mention of обмен/айырбас. Description: 'Продаётся коммерческое помещение по адресу: ул. Бухар Жырау, 36. ✔ Первая линия — отличная видимость и высокий трафик ✔ Помещение с действующими арендаторами — стабильный доход с первого дня, можете расторгнуть договор...'",
+  "lat": 51.0972812,
+  "lon": 71.443799,
+  "coord_source": "Nominatim building 'Қамал-4, 36, Бұқар Жырау көшесі' (bbox 51.09685–51.09777, 71.44187–71.44402). The preliminary point (51.09687, 71.43877) is about 360 m west.",
+  "area_maturity": "Mature and dense: Есиль district east of Мангилик Ел, with 2015–2020 complexes (Сфера Парк, Triumph City, Amal, Qamal). 71 commercial rent listings are within a ±400 m box, and preliminary density is 66. Some infill is still under construction (Capital Park).",
+  "rent_comps": [
+   {
+    "id": "1005934429",
+    "address": "Бухар жырау 36а (same block)",
+    "area_m2": 87.2,
+    "rent_month": 1000000,
+    "ppm": 11468,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1015960686",
+    "address": "Бухар жырау 36/1",
+    "area_m2": 45,
+    "rent_month": 650000,
+    "ppm": 14444,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016380076",
+    "address": "Бухар жырау 33",
+    "area_m2": 145.5,
+    "rent_month": 1499999,
+    "ppm": 10309,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1006056603",
+    "address": "Бухар Жырау 33 (Сфера Парк)",
+    "area_m2": 69,
+    "rent_month": 700000,
+    "ppm": 10145,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016501777",
+    "address": "Бухар Жырау 33",
+    "area_m2": 133,
+    "rent_month": 2000000,
+    "ppm": 15038,
+    "first_line": "unknown; 1 этаж"
+   },
+   {
+    "id": "1016569797",
+    "address": "Бухар жырау 33а",
+    "area_m2": 120,
+    "rent_month": 1300000,
+    "ppm": 10833,
+    "first_line": "unknown; 1 этаж"
+   },
+   {
+    "id": "1014076625",
+    "address": "Бухар Жырау 33/1",
+    "area_m2": 123,
+    "rent_month": 1250000,
+    "ppm": 10163,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015336765",
+    "address": "Бухар Жырау 32/1",
+    "area_m2": 175.4,
+    "rent_month": 900000,
+    "ppm": 5131,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015550788",
+    "address": "Бухар Жырау 40",
+    "area_m2": 77,
+    "rent_month": 850000,
+    "ppm": 11039,
+    "first_line": "unknown; 1 этаж"
+   },
+   {
+    "id": "1014276874",
+    "address": "Бухар Жырау 31",
+    "area_m2": 154,
+    "rent_month": 1400000,
+    "ppm": 9091,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015890448",
+    "address": "Улы Дала 67 / Кайсенова",
+    "area_m2": 40,
+    "rent_month": 400000,
+    "ppm": 10000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016342694",
+    "address": "Улы дала 65 (общепит)",
+    "area_m2": 175,
+    "rent_month": 2600000,
+    "ppm": 14857,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 10571,
+  "red_flags": [
+   "The current tenants' rent and lease terms are not disclosed ('можете расторгнуть договор').",
+   "The entrance field says only 'бөлек' (separate); it does not say 'көшеден' (from the street).",
+   "Only 30 kW of power, which limits food-service use despite the installed hood.",
+   "No complex name; the building is identified only from OSM (Қамал-4)."
+  ],
+  "verdict": "ok",
+  "verdict_reason": "Ground floor and first line in a mature, dense Есиль area on Бұқар Жырау, a busy district street near Улы Дала but not a major avenue. At 994k ₸/m² the gross yield is about 12–13% at the 10.6k ₸/m² comp median, and the exchange is not refused."
+ },
+ {
+  "id": "1015906454",
+  "active": true,
+  "price_now": 138000000,
+  "area_m2": 100,
+  "floor_confirmed": "1 (field 'Қабат: 1'; no цоколь mention)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_street": "The listing claims 'Үйлер қатары: бірінші', but OSM shows only unnamed residential driveways within 150 m of 44/2. Керей-Жанибек хандар (OSM secondary, a fairly major Есиль street) passes about 150–250 m to the NE/E. The south side faces Самал саябағы (Samal Park) via an internal road. The shopfront most likely faces an internal or park-side driveway, not Kerey-Zhanibek.",
+  "separate_street_entrance": true,
+  "ceiling_m": 4,
+  "power_kw": 50,
+  "complex_name": "ЖК Öleñ / Olen (Керей-Жанибек хандар 44/2; Olen 2 is 44/3)",
+  "ready": "built 2024",
+  "exchange_verdict": "silent",
+  "exchange_quote": "No mention of обмен/айырбас. The description begins 'ПРОДАЁТСЯ РЕСТОРАН — ГОТОВЫЙ БИЗНЕС-ПРОЕКТ ДЛЯ ИНВЕСТИЦИЙ. Район Самал Парка... Ранее ресторан не работал... потенциальная арендная ставка — до 2 млн ₸ в месяц. Цена — 140 млн ₸.'",
+  "lat": 51.1050378,
+  "lon": 71.4465807,
+  "coord_source": "Nominatim building '44/2, Керей Және Жәнібек Хандар көшесі' (12 floors, bbox 51.10464–51.10597, 71.44539–71.44705) inside the landuse area 'Öleñ'; matches the preliminary coordinates",
+  "area_maturity": "Developing or maturing: new complexes from 2020–2025 around Samal Park and Жошы хан, which border the low-rise Заречный private-house area to the W/SW. OSM shows construction to the SE. There are active rents on Жошы хан 12–20.",
+  "rent_comps": [
+   {
+    "id": "1009580772",
+    "address": "Жошы Хан 14/1 (also listed as 1007736098, 1015799315)",
+    "area_m2": 103.63,
+    "rent_month": 1100000,
+    "ppm": 10615,
+    "first_line": "unknown; 1 этаж"
+   },
+   {
+    "id": "1015565606",
+    "address": "Жошы Хан 16/1, Самал Парк (corner)",
+    "area_m2": 91,
+    "rent_month": 1400000,
+    "ppm": 15385,
+    "first_line": "corner"
+   },
+   {
+    "id": "1016515179",
+    "address": "Жошы хан 20",
+    "area_m2": 96.6,
+    "rent_month": 1100000,
+    "ppm": 11387,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015576346",
+    "address": "Жошы хан 12/3, ЖК Абат-Сфера Парк",
+    "area_m2": 100,
+    "rent_month": 1200000,
+    "ppm": 12000,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1011887933",
+    "address": "Жошы Хан 14/1",
+    "area_m2": 97,
+    "rent_month": 950000,
+    "ppm": 9794,
+    "first_line": "yes"
+   },
+   {
+    "id": "1012392936",
+    "address": "Жошы хан 14/1",
+    "area_m2": 95,
+    "rent_month": 900000,
+    "ppm": 9474,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1010750079",
+    "address": "Жошы хан 20",
+    "area_m2": 97,
+    "rent_month": 800000,
+    "ppm": 8247,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016559727",
+    "address": "Жошы Хан 12/3, Самал парк",
+    "area_m2": 44.6,
+    "rent_month": 700000,
+    "ppm": 15695,
+    "first_line": "yes"
+   },
+   {
+    "id": "1010140127",
+    "address": "Жошы Хан 20",
+    "area_m2": 101.4,
+    "rent_month": 1115400,
+    "ppm": 11000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016333021",
+    "address": "Жошы Хан 20",
+    "area_m2": 110,
+    "rent_month": 1200000,
+    "ppm": 10909,
+    "first_line": "unknown; 1 этаж"
+   },
+   {
+    "id": "1011356181",
+    "address": "Керей Жанибек хандары 42",
+    "area_m2": 185,
+    "rent_month": 1750000,
+    "ppm": 9459,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016535590",
+    "address": "Жошы хана 20",
+    "area_m2": 130,
+    "rent_month": 1500000,
+    "ppm": 11538,
+    "first_line": "unknown; 1 этаж"
+   },
+   {
+    "id": "1016534850",
+    "address": "Жошы хана 14/1",
+    "area_m2": 87,
+    "rent_month": 850000,
+    "ppm": 9770,
+    "first_line": "yes, 1 этаж"
+   }
+  ],
+  "rent_median_ppm": 10909,
+  "red_flags": [
+   "Marketed as a business ('ПРОДАЁТСЯ РЕСТОРАН — ГОТОВЫЙ БИЗНЕС-ПРОЕКТ'), so the price includes a designer fit-out premium: 1.38M ₸/m², about 29% above area sale comps. The listing does not say whether equipment is included.",
+   "The restaurant never operated ('Ранее ресторан не работал'), so there is no tenant and no income history.",
+   "The seller's 'до 2 млн ₸/мес' (20k ₸/m²) is inflated, roughly 1.8 times the 10.9k ₸/m² comp median.",
+   "Price conflict: 138M in the header vs '140 млн ₸' in the description, which is at the 140M budget cap.",
+   "First line is claimed, but geometry shows the building set back about 150–250 m from Керей-Жанибек; the frontage is an internal or park-side driveway.",
+   "Listed by an agent (маман Исаева Асем)."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "Ground floor with a separate entrance, but the unit does not front Керей-Жанибек; it faces the Samal Park internal driveway in a still-developing area. It is priced as a turnkey restaurant at 1.38M ₸/m², so the realistic gross yield is only about 9.5%."
+ },
+ {
+  "id": "1016399196",
+  "active": true,
+  "price_now": 87000000,
+  "area_m2": 78,
+  "floor_confirmed": "1. Field 'Қабат 1'; the text does not mention цоколь, подвал or ступени.",
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ground_floor_ok": true,
+  "ceiling_m": 4.5,
+  "complex_name": "Not named in the listing. The building is Бухар Жырау 36/1; next door, 36Б is ЖК Адал-3 (a krisha rent ad), so this is probably the Адал complex.",
+  "ready": "Built and leased. The listing says 2015, but the building is the same 2020 block as items 18 and 19, so the year is doubtful.",
+  "exchange_verdict": "silent",
+  "exchange_quote": "None. The page does not mention обмен or айырбас.",
+  "lat": 51.0968709,
+  "lon": 71.4387676,
+  "coord_source": "Nominatim exact building match: OSM way 916114026, '36/1, Бұқар Жырау көшесі'",
+  "frontage_street": "The listing does not say which side the unit faces; it claims 'Үйлер қатары: бірінші, Есігі: бөлек, көшеден'. The building sits between Бухар Жырау (a district street, tertiary in OSM) and Жошы Хан, a new district street still under construction; both photos show the building beside the Жошы Хан roadworks. The unit's exact side is unconfirmed. It is not on a major avenue: Мангилик Ел is about 700 m west.",
+  "area_maturity": "Developing. ЖК Amal' (34б) is ready, but Capital Park Melody, Sandi Qala, Capital Park Vector and ABAT are all under construction within 600 m (korter). The Жошы Хан road is being built, as the listing photo shows. Several schools are nearby.",
+  "rent_comps": [
+   {
+    "id": "1002506646",
+    "address": "Бухар Жырау 36Б (ЖК Адал-3), the neighbouring building",
+    "area_m2": 85.5,
+    "rent_month": 1100000,
+    "ppm": 12865,
+    "first_line": "yes (бірінші, бөлек көшеден), 1st floor"
+   },
+   {
+    "id": "1015891718",
+    "address": "Бухар Жырау 32/1 (Triumph City)",
+    "area_m2": 73.6,
+    "rent_month": 400000,
+    "ppm": 5435,
+    "first_line": "yes (бірінші)"
+   },
+   {
+    "id": "1015336765",
+    "address": "Бухар Жырау 32/1",
+    "area_m2": 175.4,
+    "rent_month": 900000,
+    "ppm": 5131,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015995461",
+    "address": "Бухар Жырау 34",
+    "area_m2": 130,
+    "rent_month": 500000,
+    "ppm": 3846,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015750347",
+    "address": "Бухар Жырау 23",
+    "area_m2": 91.8,
+    "rent_month": 380000,
+    "ppm": 4139,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015514014",
+    "address": "Жошы хан 1",
+    "area_m2": 65,
+    "rent_month": 700000,
+    "ppm": 10769,
+    "first_line": "yes, 1st line of Жошы хан"
+   },
+   {
+    "id": "1016578552",
+    "address": "Жошы хана 10",
+    "area_m2": 155,
+    "rent_month": 1600000,
+    "ppm": 10323,
+    "first_line": "yes, 1st line of Кайсенова"
+   },
+   {
+    "id": "1015382965",
+    "address": "Жошы хан 10",
+    "area_m2": 41,
+    "rent_month": 600000,
+    "ppm": 14634,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016523661",
+    "address": "Жошы хан 10",
+    "area_m2": 173,
+    "rent_month": 2500000,
+    "ppm": 14451,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016562706",
+    "address": "Жошы хана 12/5",
+    "area_m2": 105,
+    "rent_month": 900000,
+    "ppm": 8571,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1015986221",
+    "address": "Бокейхана 17/1",
+    "area_m2": 40,
+    "rent_month": 400000,
+    "ppm": 10000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016568325",
+    "address": "Улы дала 65/2",
+    "area_m2": 99.8,
+    "rent_month": 800000,
+    "ppm": 8016,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1015526704",
+    "address": "Улы дала 65/1",
+    "area_m2": 98.3,
+    "rent_month": 850000,
+    "ppm": 8647,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016419544",
+    "address": "Касыма Кайсенова 2",
+    "area_m2": 86,
+    "rent_month": 400000,
+    "ppm": 4651,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 8609,
+  "red_flags": [
+   "Sold with a tenant ('Помещение уже сдано в аренду — доход с первого дня', 'готовый арендный бизнес'), but no rent figure is given. At 1.115 M ₸/m² the price looks inflated for the tenant.",
+   "The year built (2015) conflicts with the 2020 date in the other listings for the same address. Only 2 photos, both exterior, and no interior or facade shot of the unit.",
+   "Same building as 1014957838 and 1015960489, but a different unit: 78 m² with a 4.5 m ceiling against 45 m² with 3.1 m. Not a duplicate of either.",
+   "Power capacity is not stated.",
+   "At the comp median of about 8,600 ₸/m², the yield is about 9.3%. Street comps on Бухар Жырау run only 4–5.4k ₸/m²."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "The unit is on the ground floor with a street entrance and a tenant in place, but it fronts district or new streets in a developing area, not a busy avenue. The 87 M ₸ price is set by the tenant, yet no rent figure is disclosed."
+ },
+ {
+  "id": "1015978956",
+  "active": true,
+  "price_now": 80000000,
+  "area_m2": 146,
+  "floor_confirmed": "1. Field 'Қабат 1'. The text does not mention цоколь or подвал. Photos show a raised ground floor with 3–4 steps up to the entrances.",
+  "first_line_confirmed": false,
+  "separate_street_entrance": false,
+  "ground_floor_ok": true,
+  "ceiling_m": 4.2,
+  "power_kw": 9.5,
+  "complex_name": "Building object name 'НАУЧНИЙ' (Научный), Туран 56. It is a multi-storey residential/commercial building (OSM 'apartments') built in 2020, with commercial space on floors 1–3.",
+  "ready": "Built 2020 and handed over in rough finish (черновая).",
+  "exchange_verdict": "silent",
+  "exchange_quote": "None. The page has no обмен, айырбас, торг or ипотека; it says only 'Документы в порядке ✅'.",
+  "lat": 51.1024275,
+  "lon": 71.3968753,
+  "coord_source": "Nominatim exact building match: OSM way 425276269, '56, Тұран даңғылы'. The footprint is long and runs north–south, about 50–100 m east of the Туран centreline.",
+  "frontage_street": "The listing claims 'Үйлер қатары: бірінші' and 'на пересечении улиц Тұран и Ұлы Дала' (major avenue Туран at Улы Дала / Бухар Жырау). The entrance field says only 'бөлек', not 'көшеден'. The exterior photos show a narrow two-lane side driveway with parked cars and a paved courtyard with residential towers, not the avenue. A 809 m² unit in the same building (rent ad 1016538887) is listed as 'аулада'. So it is unconfirmed that the shopfront faces Туран; it may face the side lane or courtyard.",
+  "area_maturity": "Mature and populated. This is the Туран × Улы Дала / Бухар Жырау node near EXPO, with ЖК Athletic City, Arena Towers and Arena Style ready and Qasteev under construction. Commercial supply is dense: 33 rent listings in the 500 m polygon.",
+  "rent_comps": [
+   {
+    "id": "1016384651",
+    "address": "Туран 52/2 (Туран–Бухар Жырау)",
+    "area_m2": 109,
+    "rent_month": 1250000,
+    "ppm": 11468,
+    "first_line": "yes, 1st floor, separate street entrance"
+   },
+   {
+    "id": "1002162342",
+    "address": "Turan 57/3",
+    "area_m2": 50,
+    "rent_month": 700000,
+    "ppm": 14000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016048101",
+    "address": "Туран 59/2",
+    "area_m2": 192,
+    "rent_month": 2400000,
+    "ppm": 12500,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016574643",
+    "address": "Бухар Жырау 20",
+    "area_m2": 138,
+    "rent_month": 2000000,
+    "ppm": 14493,
+    "first_line": "yes, 1st line of Бухар Жырау"
+   },
+   {
+    "id": "1013761012",
+    "address": "Бухар жырау 20а",
+    "area_m2": 181,
+    "rent_month": 3500000,
+    "ppm": 19337,
+    "first_line": "yes, 1st line of Бухар Жырау"
+   },
+   {
+    "id": "1014224772",
+    "address": "Бухар жырау 20 (Бухар жырау/Туран)",
+    "area_m2": 113,
+    "rent_month": 1400000,
+    "ppm": 12389,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1010551172",
+    "address": "Бухар жырау 20",
+    "area_m2": 103,
+    "rent_month": 1200000,
+    "ppm": 11650,
+    "first_line": "no, second line"
+   },
+   {
+    "id": "1013685521",
+    "address": "Бухар жырау 20",
+    "area_m2": 150,
+    "rent_month": 2000000,
+    "ppm": 13333,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1012579583",
+    "address": "Бухар жырау 20",
+    "area_m2": 250,
+    "rent_month": 2000000,
+    "ppm": 8000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015834234",
+    "address": "Улы Дала 31",
+    "area_m2": 95,
+    "rent_month": 1200000,
+    "ppm": 12632,
+    "first_line": "unknown (1016526949 is a duplicate ad)"
+   },
+   {
+    "id": "1016564499",
+    "address": "Улы Дала 31 (Туран)",
+    "area_m2": 268,
+    "rent_month": 2500000,
+    "ppm": 9328,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1015649387",
+    "address": "Улы дала 28",
+    "area_m2": 116,
+    "rent_month": 1000000,
+    "ppm": 8621,
+    "first_line": "yes, 1st line of Улы дала"
+   },
+   {
+    "id": "1016538887",
+    "address": "Туран 56, same building (Научный)",
+    "area_m2": 809,
+    "rent_month": 4854000,
+    "ppm": 6000,
+    "first_line": "no: 'аулада' (courtyard); 1st floor"
+   }
+  ],
+  "rent_median_ppm": 12445,
+  "red_flags": [
+   "Price is anomalously low at 548k ₸/m², about −32% to sale comps, for a unit claimed to be first line at Туран × Улы Дала. Possible reasons: the unit is not really on the Туран facade, or there is an undisclosed issue. Request title documents and an encumbrance certificate.",
+   "First line is not confirmed. Photos show a side lane or courtyard, the entrance field lacks 'көшеден', and another unit in the same building is listed as 'аулада'.",
+   "Still in rough finish 6 years after completion (2020). The same building also has 809 m² (floor 1, courtyard) and 2160 m² (floors 2–3) listed for rent, which suggests high vacancy.",
+   "Power of 9.5 kW is low for food service.",
+   "Interior photos show a broken-up layout: several rooms, small windows, columns.",
+   "The yield implied by the comp median (about 27%) is unrealistic. At the same building's courtyard rate of 6,000 ₸/m², the yield is about 13%."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "This is the best node of the five (Туран × Улы Дала), at a very attractive price. But the photos and a sister listing suggest the unit faces a side lane or courtyard rather than Туран, and the price looks too cheap for a genuine Туран first line. Inspect on site before considering it."
+ },
+ {
+  "id": "1016490444",
+  "active": true,
+  "price_now": 95000000,
+  "area_m2": 90,
+  "floor_confirmed": "1. Field 'Қабат 1'. The text does not mention цоколь or подвал. Photos show a street-level glazed entrance.",
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ground_floor_ok": true,
+  "ceiling_m": 3.8,
+  "power_kw": 12,
+  "complex_name": "ЖК Washington (Бокейхана 7; korter lists it at Алихан Бокейхан 13)",
+  "ready": "Built 2025 and ready ('Документы и ключи на руках'; korter status: ready). Rough finish.",
+  "exchange_verdict": "silent",
+  "exchange_quote": "None. The page has no обмен, айырбас, торг, ипотека or рассрочка.",
+  "lat": 51.107549710798,
+  "lon": 71.437194223181,
+  "coord_source": "krisha coordinates (guide). The korter point for ЖК Washington (51.10683, 71.43590) is 120 m away; the corner of Бокейхан and Орынбор per Nominatim is consistent.",
+  "frontage_street": "Faces a street ('Есігі: бөлек, көшеден', 'Большая парковка перед помещением'). The listing title gives the corner of Бокейхана and Орынбор, both district streets; Мангилик Ел, a major avenue, is about 250–400 m west. A comp in the same complex (1016566474) has its entrance on Орынбор. The photos show the street-side car park, and across the street is an active construction site.",
+  "area_maturity": "Transitional. Established ЖК Asylym, Asylym Park 1/2 and Triumph Exclusive (all ready) and schools #45 and #75 are within 400 m, close to Мангилик Ел. But the immediate surroundings, the former Заречный private-house area, are being redeveloped: excavation and a crane show in the listing photos, and ЖК TRIBECA is under construction. Commercial supply is dense: 95 rent ads in the polygon.",
+  "rent_comps": [
+   {
+    "id": "1015153163",
+    "address": "Алихан Бокейхан 7 (ЖК Washington)",
+    "area_m2": 59,
+    "rent_month": 700000,
+    "ppm": 11864,
+    "first_line": "yes, faces Бокейхана, 1st floor, 2025"
+   },
+   {
+    "id": "1016566474",
+    "address": "Бокейхана 7 (ЖК Washington)",
+    "area_m2": 100,
+    "rent_month": 1900000,
+    "ppm": 19000,
+    "first_line": "yes, entrance from Орынбор, 1st floor, renovated, 3.8 m"
+   },
+   {
+    "id": "1014379491",
+    "address": "Алихан Бокейхан 7/2 (ЖК Washington)",
+    "area_m2": 111.1,
+    "rent_month": 800000,
+    "ppm": 7201,
+    "first_line": "yes (бірінші), 1st floor, rough finish"
+   },
+   {
+    "id": "1016575437",
+    "address": "Алихана Бокейхана 16",
+    "area_m2": 80,
+    "rent_month": 800000,
+    "ppm": 10000,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1016542677",
+    "address": "Мангилик ел 36",
+    "area_m2": 125,
+    "rent_month": 1700000,
+    "ppm": 13600,
+    "first_line": "1st floor (1016496484 is a duplicate)"
+   },
+   {
+    "id": "1013813150",
+    "address": "Мангилик ел 36 (Орынбор)",
+    "area_m2": 227,
+    "rent_month": 2500000,
+    "ppm": 11013,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016565220",
+    "address": "Мангилик ел 23",
+    "area_m2": 100,
+    "rent_month": 1000000,
+    "ppm": 10000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016342457",
+    "address": "Бокейхана 11/1",
+    "area_m2": 144,
+    "rent_month": 1400000,
+    "ppm": 9722,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016030208",
+    "address": "Алихан Бокейхан 11",
+    "area_m2": 160,
+    "rent_month": 950000,
+    "ppm": 5938,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1015799315",
+    "address": "Жошы Хан 14/1",
+    "area_m2": 103.63,
+    "rent_month": 1100000,
+    "ppm": 10615,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 10308,
+  "red_flags": [
+   "Price of 1.056 M ₸/m² is well above our sale comps (+93% vs 547k ₸/m²).",
+   "The opposite plot is a construction site, so footfall in the near term is limited.",
+   "It fronts district streets (Бокейхана/Орынбор), not a major avenue.",
+   "Rough finish, so fit-out cost is extra.",
+   "Supply is heavy: several other Washington ground-floor units (59, 100, 111 m²) are listed for rent, which is a vacancy risk."
+  ],
+  "verdict": "ok",
+  "verdict_reason": "A genuine first-line ground-floor unit with a street entrance, new building with keys in hand, 3.8 m ceiling, 12 kW, about 300 m from Мангилик Ел. At the Washington and Bokeikhan comp median of about 10.3k ₸/m², the gross yield is about 11.7%. The location is a district-street corner in a redeveloping area, not a prime avenue."
+ },
+ {
+  "id": "1014957838",
+  "active": true,
+  "price_now": 51000000,
+  "area_m2": 45.6,
+  "floor_confirmed": "1. Field 'Қабат 1'. The text does not mention цоколь or подвал. Photos show a street-level entrance in the brick podium under a terrace.",
+  "first_line_confirmed": false,
+  "separate_street_entrance": true,
+  "ground_floor_ok": true,
+  "ceiling_m": 3.1,
+  "power_kw": 25,
+  "complex_name": "Not named; object name 'Встроенное нежилое помещение'. Building Бухар Жырау 36/1, probably the Адал complex (36Б = ЖК Адал-3).",
+  "ready": "Built 2020, renovated, leased ('Жалға алушылар бар: ия').",
+  "exchange_verdict": "silent",
+  "exchange_quote": "None. The page has no обмен, айырбас or торг.",
+  "lat": 51.0968709,
+  "lon": 71.4387676,
+  "coord_source": "Nominatim exact building match: OSM way 916114026, '36/1, Бұқар Жырау көшесі'",
+  "frontage_street": "The listing claims 'бірінші' and 'бөлек, көшеден'. The photos of this unit (same unit as 1015960489) show the shopfront under the residential podium, facing an internal driveway and car park, with a school building opposite (Lyceum №82 'Дарын', about 150 m south per OSM). It is an internal driveway, not a busy street; Бухар Жырау is a district street.",
+  "area_maturity": "Developing. ЖК Amal' is ready, but Capital Park Melody, Sandi Qala, Capital Park Vector and ABAT are under construction within 600 m, and the Жошы Хан road is being built. Schools nearby add some local footfall.",
+  "rent_comps": [
+   {
+    "id": "1002506646",
+    "address": "Бухар Жырау 36Б (ЖК Адал-3)",
+    "area_m2": 85.5,
+    "rent_month": 1100000,
+    "ppm": 12865,
+    "first_line": "yes, 1st floor"
+   },
+   {
+    "id": "1015891718",
+    "address": "Бухар Жырау 32/1",
+    "area_m2": 73.6,
+    "rent_month": 400000,
+    "ppm": 5435,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015995461",
+    "address": "Бухар Жырау 34",
+    "area_m2": 130,
+    "rent_month": 500000,
+    "ppm": 3846,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015514014",
+    "address": "Жошы хан 1",
+    "area_m2": 65,
+    "rent_month": 700000,
+    "ppm": 10769,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015382965",
+    "address": "Жошы хан 10",
+    "area_m2": 41,
+    "rent_month": 600000,
+    "ppm": 14634,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015986221",
+    "address": "Бокейхана 17/1",
+    "area_m2": 40,
+    "rent_month": 400000,
+    "ppm": 10000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016562706",
+    "address": "Жошы хана 12/5",
+    "area_m2": 105,
+    "rent_month": 900000,
+    "ppm": 8571,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1016568325",
+    "address": "Улы дала 65/2",
+    "area_m2": 99.8,
+    "rent_month": 800000,
+    "ppm": 8016,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1015750347",
+    "address": "Бухар Жырау 23",
+    "area_m2": 91.8,
+    "rent_month": 380000,
+    "ppm": 4139,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016419544",
+    "address": "Касыма Кайсенова 2",
+    "area_m2": 86,
+    "rent_month": 400000,
+    "ppm": 4651,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 8609,
+  "red_flags": [
+   "DUPLICATE: the same unit as 1015960489, which is listed by the owner at 51.5 M ₸ and 45 m². The bathroom, floor tiles and facade are identical in the photos, and the ceiling (3.1 m) and year (2020) match.",
+   "The 'бөлек тұрған ғимарат' (standalone building) field contradicts the photos, which show a unit built into a residential podium.",
+   "The 'Жұмыс істеп тұрған бизнес: иә' field and a tenant in place suggest the sale may be framed as a business; the tenant's terms are not disclosed.",
+   "Tagged 'Шұғыл, сауда' (urgent sale).",
+   "The shopfront faces an internal driveway or car park opposite a school, not a busy street.",
+   "At 1.118 M ₸/m², the yield is about 9% at the comp median."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "A small ground-floor unit, but the 'first line' is effectively an internal driveway facing a school in a developing area, far from the major avenues. This is also a duplicate of 1015960489."
+ },
+ {
+  "id": "1015960489",
+  "active": true,
+  "price_now": 51500000,
+  "area_m2": 45,
+  "floor_confirmed": "1. Field 'Қабат 1'. The text does not mention цоколь or подвал. Photos show a street-level entrance in the podium.",
+  "first_line_confirmed": false,
+  "separate_street_entrance": false,
+  "ground_floor_ok": true,
+  "ceiling_m": 3.1,
+  "complex_name": "Not named. Building Бухар Жырау 36/1, probably the Адал complex (36Б = ЖК Адал-3).",
+  "ready": "Built 2020, renovated.",
+  "exchange_verdict": "silent",
+  "exchange_quote": "None. The page has no обмен, айырбас or торг.",
+  "lat": 51.0968709,
+  "lon": 71.4387676,
+  "coord_source": "Nominatim exact building match: OSM way 916114026, '36/1, Бұқар Жырау көшесі'",
+  "frontage_street": "The field says 'бірінші' and the entrance field only 'бөлек'. The photos show the shopfront under the podium terrace, facing an internal driveway and car park opposite a large school building. The listing says 'рядом школа №77 «Дарын»'; per OSM that school is Lyceum №82 'Дарын', about 150 m south. It is an internal driveway, not a busy street.",
+  "area_maturity": "Developing. ЖК Amal' is ready, but several ЖК within 600 m are still under construction (Capital Park Melody, Sandi Qala, Capital Park Vector, ABAT) and the Жошы Хан road is being built.",
+  "rent_comps": [
+   {
+    "id": "1002506646",
+    "address": "Бухар Жырау 36Б (ЖК Адал-3)",
+    "area_m2": 85.5,
+    "rent_month": 1100000,
+    "ppm": 12865,
+    "first_line": "yes, 1st floor"
+   },
+   {
+    "id": "1015891718",
+    "address": "Бухар Жырау 32/1",
+    "area_m2": 73.6,
+    "rent_month": 400000,
+    "ppm": 5435,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015995461",
+    "address": "Бухар Жырау 34",
+    "area_m2": 130,
+    "rent_month": 500000,
+    "ppm": 3846,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015514014",
+    "address": "Жошы хан 1",
+    "area_m2": 65,
+    "rent_month": 700000,
+    "ppm": 10769,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015382965",
+    "address": "Жошы хан 10",
+    "area_m2": 41,
+    "rent_month": 600000,
+    "ppm": 14634,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015986221",
+    "address": "Бокейхана 17/1",
+    "area_m2": 40,
+    "rent_month": 400000,
+    "ppm": 10000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016562706",
+    "address": "Жошы хана 12/5",
+    "area_m2": 105,
+    "rent_month": 900000,
+    "ppm": 8571,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1016568325",
+    "address": "Улы дала 65/2",
+    "area_m2": 99.8,
+    "rent_month": 800000,
+    "ppm": 8016,
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1015750347",
+    "address": "Бухар Жырау 23",
+    "area_m2": 91.8,
+    "rent_month": 380000,
+    "ppm": 4139,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016419544",
+    "address": "Касыма Кайсенова 2",
+    "area_m2": 86,
+    "rent_month": 400000,
+    "ppm": 4651,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 8609,
+  "red_flags": [
+   "DUPLICATE: the same unit as 1014957838 (agent Касенова, Family Estate, 51.0 M ₸, 45.6 m²). The photos are identical, and the area, ceiling and year match. This ad is by the owner ('Мүлік иесі'), 0.5 M ₸ higher.",
+   "The school is misnamed (№77 instead of Lyceum №82 'Дарын').",
+   "Power is not stated.",
+   "The shopfront faces an internal driveway or car park opposite a school, not a busy street.",
+   "The yield is about 9% at the comp median."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "A duplicate of 1014957838. A small renovated ground-floor unit whose 'first line' faces an internal driveway or school in a developing area, so the location falls short of the investor's priority."
+ },
+ {
+  "id": "1016511692",
+  "active": true,
+  "price_now": 68900000,
+  "area_m2": 78,
+  "ceiling_m": 3,
+  "complex_name": "Sezim Qala.Örken (BI Group), going by the Nominatim building match for Туран 55/16. The listing itself gives no complex name.",
+  "floor_confirmed": "unknown. The listing has no Қабат field and the description never says what floor it is on. It does not mention цоколь or подвал. Power capacity is not listed either.",
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "separate_street_entrance": true,
+  "frontage_street": "The address is Туран 55/16, but the Örken block is about 570 m west of Туран avenue. It sits on Роза Баглановой street (a district street, OSM tertiary, about 100-250 m away) and near Толе би (a district street). Ad 1012286553 for the same address says 'Первая Линия Толе би'. The description says only 'Отличная видимость с дороги' and does not name a street.",
+  "area_maturity": "Developing, but quickly filling up. This is BI Group's new Sezim Qala mega-quarter, with buildings handed over in 2022-2025. There are 50 rent ads inside the ±0.004/±0.006 polygon, and seller 1012286553 calls it 'Густонаселённый район'. It is not an established central area.",
+  "ready": "Built 2025 (Салынған жылы 2025). Sold in черновая отделка (shell finish).",
+  "lat": 51.1150077,
+  "lon": 71.3917624,
+  "coord_source": "Nominatim, exact building match: 'Sezim Qala.Örken, 55/16, Тұран даңғылы'",
+  "exchange_verdict": "silent",
+  "exchange_quote": "",
+  "rent_comps": [
+   {
+    "id": "1016576492",
+    "area_m2": 80,
+    "rent_month": 1200000,
+    "ppm": 15000,
+    "address": "Туран 55/11 (beauty salon)",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1012966435",
+    "area_m2": 160,
+    "rent_month": 1900000,
+    "ppm": 11875,
+    "address": "Туран 55/8",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1015947771",
+    "area_m2": 70,
+    "rent_month": 800000,
+    "ppm": 11429,
+    "address": "Туран 55/13",
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1016331013",
+    "area_m2": 70,
+    "rent_month": 800000,
+    "ppm": 11429,
+    "address": "Туран 55/10",
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1014765030",
+    "area_m2": 110,
+    "rent_month": 600000,
+    "ppm": 5455,
+    "address": "Туран 55/13",
+    "first_line": "yes, 1st floor"
+   },
+   {
+    "id": "1015356182",
+    "area_m2": 134,
+    "rent_month": 1200000,
+    "ppm": 8955,
+    "address": "Розы Баглановой 6/3",
+    "first_line": "yes (Толе би)"
+   },
+   {
+    "id": "1013522150",
+    "area_m2": 110,
+    "rent_month": 600000,
+    "ppm": 5455,
+    "address": "Казыбек би 15",
+    "first_line": "1st floor, separate entrance"
+   },
+   {
+    "id": "1010881814",
+    "area_m2": 40,
+    "rent_month": 350000,
+    "ppm": 8750,
+    "address": "Казыбек би 9",
+    "first_line": "not stated"
+   }
+  ],
+  "rent_median_ppm": 10192,
+  "red_flags": [
+   "Possible duplicate of 1012286553: same address (Туран 55/16, Sezim Qala Örken), 76 m² at 68.0M from a different agent, against 78 m² at 68.9M here. It could be the same unit or the unit next door.",
+   "The floor is not stated anywhere, so ground floor is unconfirmed.",
+   "The listing does not state first line: there is no Үйлер қатары field, and the description says only that the unit is visible from the road.",
+   "The address says Туран, but the building does not face Туран avenue. It is about 570 m back, on Роза Баглановой / Толе би.",
+   "Shell finish (черновая), so fit-out costs come on top of the price.",
+   "The seller is an agent (Family Estate).",
+   "Power capacity is not listed."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "The floor and first-line status are unconfirmed. Despite the 'Туран' address, the shopfront faces district streets (Баглановой / Толе би) in a new, still-developing BI quarter. The price, about 883k/m², is fair and implies roughly 13% gross yield at the 10.2k/m² median rent, but the location is not top tier and the listing may duplicate 1012286553."
+ },
+ {
+  "id": "1014775730",
+  "active": true,
+  "price_now": 100000000,
+  "area_m2": 70,
+  "ceiling_m": 4,
+  "power_kw": 6,
+  "complex_name": "Ак Кошкар (Нысан атауы)",
+  "floor_confirmed": "1 (Қабат: 1). There is no mention of цоколь or подвал.",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": false,
+  "frontage_street": "Алихан Бокейхан street, which is on the investor's list of major streets (OSM tertiary). The title says 'Параллельно триумфальной арки Мангилик ел'; Мангилик Ел avenue runs parallel, roughly 700-900 m away. Үйлер қатары: бірінші. The Есігі field says only 'бөлек' and does not say 'көшеден'.",
+  "area_maturity": "Mature and dense. This is central Есиль (Бокейхана / Бухар жырау / Мангилик Ел, near Expo), with buildings from 2018. The polygon holds 90 rent ads, the highest density of the five items.",
+  "ready": "Built 2018. It is in use now as a working meat shop.",
+  "lat": 51.1009451,
+  "lon": 71.4329715,
+  "coord_source": "Nominatim, exact building match: '15, Әлихан Бөкейхан көшесі' (a Bank CenterCredit ATM is at the same point)",
+  "exchange_verdict": "silent",
+  "exchange_quote": "",
+  "rent_comps": [
+   {
+    "id": "1016330549",
+    "area_m2": 100,
+    "rent_month": 1000000,
+    "ppm": 10000,
+    "address": "Бокейхана 15 (same building)",
+    "first_line": "yes, 1st floor"
+   },
+   {
+    "id": "1016180961",
+    "area_m2": 134,
+    "rent_month": 850000,
+    "ppm": 6343,
+    "address": "Бокейханова 15, ЖК Кумбель",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1011365544",
+    "area_m2": 178,
+    "rent_month": 1780000,
+    "ppm": 10000,
+    "address": "Мангилик Ел 40/2, ЖК Коркем 4",
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1011367192",
+    "area_m2": 142,
+    "rent_month": 2130000,
+    "ppm": 15000,
+    "address": "Мангилик Ел 40/2, ЖК Коркем 4",
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1015891718",
+    "area_m2": 73.6,
+    "rent_month": 400000,
+    "ppm": 5435,
+    "address": "Бухар Жырау 32/1, Triumph City",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1015336765",
+    "area_m2": 175.4,
+    "rent_month": 900000,
+    "ppm": 5131,
+    "address": "Бухар Жырау 32/1 at Бокейхана",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1015750347",
+    "area_m2": 91.8,
+    "rent_month": 380000,
+    "ppm": 4139,
+    "address": "Бухар Жырау 23, G-Park",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1015986221",
+    "area_m2": 40,
+    "rent_month": 400000,
+    "ppm": 10000,
+    "address": "Бокейхана 17/1",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1016578552",
+    "area_m2": 155,
+    "rent_month": 1600000,
+    "ppm": 10323,
+    "address": "Жошы хана 10, Capital Park",
+    "first_line": "yes (Кайсенова)"
+   }
+  ],
+  "rent_median_ppm": 10000,
+  "red_flags": [
+   "It is sold as a running business ('ПРОДАЁТСЯ ДЕЙСТВУЮЩИЙ МЯСНОЙ МАГАЗИН!', 'Готовый бизнес', Жұмыс істеп тұрған бизнес: иә). The ad does not say whether equipment or goodwill is in the price.",
+   "The price looks inflated: 1.43M/m², about 161% above sale comps (about 547k/m²). The investor would be handing over an apartment of equal value at that inflated figure.",
+   "The entrance is listed only as 'бөлек', with no confirmation that it opens from the street.",
+   "The seller's name is not shown.",
+   "Power is only 6 kW."
+  ],
+  "verdict": "ok",
+  "verdict_reason": "This is a confirmed ground-floor, first-line unit on Бокейхан in a mature, dense part of Есиль: the best location of the five. However, it is priced as a business at about 1.43M/m². That gives about 8.4% gross yield at 10k/m² market rent, and the price must be checked against the premises alone before the swap."
+ },
+ {
+  "id": "1016547581",
+  "active": true,
+  "price_now": 70000000,
+  "area_m2": 67.2,
+  "ceiling_m": 3.9,
+  "complex_name": "Бестерек 1 (Нысан атауы)",
+  "floor_confirmed": "unknown. The listing has no Қабат field. The description gives first line and 3.9 m ceilings, which suggests a ground-floor shopfront, but the floor is not stated. There is no mention of цоколь. Power capacity is not listed.",
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "separate_street_entrance": false,
+  "frontage_street": "Фариза Онгарсынова street, a district street (OSM tertiary, about 80 m away), near the Касым Кайсенова street corner. It is not a major avenue: Мангилик Ел and Улы Дала are both about 1.1 km away. Үйлер қатары: бірінші, and the description says '▪️ Первая линия'. The Есігі field says 'бөлек' and does not say 'көшеден'.",
+  "area_maturity": "Developing and maturing. This is the newer quarter south-east of EXPO (Бестерек, BI Village, Mod Urban, Abyroi, mostly built 2019-2023), and the seller calls it a 'перспективном районе'. The polygon holds 36 rent ads.",
+  "ready": "Built 2021, freshly renovated and tenanted.",
+  "lat": 51.0836852,
+  "lon": 71.4398731,
+  "coord_source": "Nominatim, exact building match: '6, Фариза Оңғарсынова көшесі' (apartments)",
+  "exchange_verdict": "silent",
+  "exchange_quote": "",
+  "rent_comps": [
+   {
+    "id": "1015901736",
+    "area_m2": 105,
+    "rent_month": 1100000,
+    "ppm": 10476,
+    "address": "Рыскулова 24А, ЖК Abyroi",
+    "first_line": "yes, corner"
+   },
+   {
+    "id": "1016366193",
+    "area_m2": 133,
+    "rent_month": 1200000,
+    "ppm": 9023,
+    "address": "Рыскулова 22а, MOD Urban 2",
+    "first_line": "yes, 1st floor"
+   },
+   {
+    "id": "1015860839",
+    "area_m2": 75,
+    "rent_month": 750000,
+    "ppm": 10000,
+    "address": "Рыскулова 24а / Кайсенова",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1014574049",
+    "area_m2": 72.59,
+    "rent_month": 500000,
+    "ppm": 6888,
+    "address": "Рыскулова 24а / Кайсенова",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1016545352",
+    "area_m2": 77,
+    "rent_month": 500000,
+    "ppm": 6494,
+    "address": "Онгарсынова 8/1, Бестерек-6",
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1016545239",
+    "area_m2": 105,
+    "rent_month": 1090000,
+    "ppm": 10381,
+    "address": "Рыскулова 24А, Abyroi",
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1012543434",
+    "area_m2": 132,
+    "rent_month": 1500000,
+    "ppm": 11364,
+    "address": "Рыскулова 18/5, Mod Urban-2",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1015325389",
+    "area_m2": 75,
+    "rent_month": 600000,
+    "ppm": 8000,
+    "address": "Рыскулова 24А",
+    "first_line": "yes"
+   },
+   {
+    "id": "697714586",
+    "area_m2": 103.51,
+    "rent_month": 1000000,
+    "ppm": 9661,
+    "address": "Онгарсынова 8/2, Asyl Besterek",
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1016502789",
+    "area_m2": 75,
+    "rent_month": 1000000,
+    "ppm": 13333,
+    "address": "Рыскулова 22а, Mod Urban",
+    "first_line": "yes (Кайсенова)"
+   },
+   {
+    "id": "1015638909",
+    "area_m2": 70,
+    "rent_month": 700000,
+    "ppm": 10000,
+    "address": "Рыскулова 24а / Кайсенова",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1016276808",
+    "area_m2": 72,
+    "rent_month": 750000,
+    "ppm": 10417,
+    "address": "Аль-Фараби 35",
+    "first_line": "not stated"
+   }
+  ],
+  "rent_median_ppm": 10000,
+  "red_flags": [
+   "The floor is not stated, so ground floor is unconfirmed.",
+   "The entrance is listed only as 'бөлек', with no confirmation that it opens from the street.",
+   "It has a sitting tenant paying 450,000 ₸/month (about 6.7k/m², below the 10k/m² market). The seller says 'при необходимости арендаторы готовы освободить помещение'.",
+   "The listing is flagged 'Шұғыл, сауда' (urgent, bargaining possible).",
+   "The seller is an agent (Сейтбекова Жанеля).",
+   "Power capacity is not listed."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "First line is confirmed and the unit is ready and tenanted, earning 450k/month (about 7.7% now, and about 11.5% at the 10k/m² market rent). But the floor is unconfirmed, and the shopfront faces a district street (Онгарсынова) in a still-developing quarter south of EXPO, so the location is second tier."
+ },
+ {
+  "id": "1015390831",
+  "active": true,
+  "price_now": 17900000,
+  "area_m2": 40,
+  "ceiling_m": 3.05,
+  "complex_name": "Orynbor Towers, going by the Nominatim match for Мангилик Ел 54/1. The listing gives no complex name.",
+  "floor_confirmed": "unknown. The listing has no Қабат field and does not mention a floor. A salt cave (соляная шахта) is a use often found in a цоколь, and the price is anomalously low, so a basement or socle cannot be ruled out.",
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "frontage_street": "Мангилик Ел avenue, a major avenue about 90 m from the building point. Үйлер қатары: бірінші; Есігі: көшеден. The description says 'центр ЛЕВОГО БЕРЕГА'. Which face of Orynbor Towers the unit is on is not confirmed.",
+  "area_maturity": "Mature and established. This is the Мангилик Ел corridor beside EXPO and Бокейхана, with 46 rent ads in the polygon and high rents (9-12.5k/m² for first-line units on Мангилик Ел).",
+  "ready": "Built 2021 and newly renovated. A salt-cave business operates in it now.",
+  "lat": 51.0892466,
+  "lon": 71.4258818,
+  "coord_source": "Nominatim, exact building match: 'ORYNBOR TOWERS, 54/1, Мәңгілік Ел даңғылы'",
+  "exchange_verdict": "silent",
+  "exchange_quote": "",
+  "rent_comps": [
+   {
+    "id": "1016553156",
+    "area_m2": 40,
+    "rent_month": 400000,
+    "ppm": 10000,
+    "address": "Мангилик ел 60",
+    "first_line": "not stated"
+   },
+   {
+    "id": "696154748",
+    "area_m2": 250,
+    "rent_month": 2800000,
+    "ppm": 11200,
+    "address": "Мангилик ел 62 / Онгарсыновой",
+    "first_line": "yes"
+   },
+   {
+    "id": "1016577418",
+    "area_m2": 258,
+    "rent_month": 2400000,
+    "ppm": 9302,
+    "address": "Мангилик ел 52 блок Б2",
+    "first_line": "yes"
+   },
+   {
+    "id": "1016575467",
+    "area_m2": 200,
+    "rent_month": 2500000,
+    "ppm": 12500,
+    "address": "Мангилик Ел 58",
+    "first_line": "yes"
+   },
+   {
+    "id": "1016567197",
+    "area_m2": 254,
+    "rent_month": 2400000,
+    "ppm": 9449,
+    "address": "Мангилик ел 52",
+    "first_line": "yes"
+   },
+   {
+    "id": "1013799119",
+    "area_m2": 110,
+    "rent_month": 1100000,
+    "ppm": 10000,
+    "address": "Бокейхана 27",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1016305846",
+    "area_m2": 75.2,
+    "rent_month": 700000,
+    "ppm": 9309,
+    "address": "Бокейхана 40 (two-level unit)",
+    "first_line": "not stated"
+   },
+   {
+    "id": "686114800",
+    "area_m2": 126,
+    "rent_month": 1100000,
+    "ppm": 8730,
+    "address": "Бокейхана 25В",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1013757142",
+    "area_m2": 300,
+    "rent_month": 3000000,
+    "ppm": 10000,
+    "address": "Мангилик ел 57а",
+    "first_line": "yes, mostly 1st floor"
+   }
+  ],
+  "rent_median_ppm": 10000,
+  "red_flags": [
+   "The price is anomalously low: 447.5k/m² for a first-line unit on Мангилик Ел, about 15% below our sale comps and roughly half of nearby first-line asks. At the 10k/m² market rent that would be about 27% gross yield, which is implausible. Possible causes are a цоколь, a share, a price typo, or a business-only sale.",
+   "The floor is not stated anywhere. The salt-cave use is typical of a basement or socle.",
+   "It is sold together with a running business ('Сейчас в помещении функционирует готовый бизнес - Соляная шахта', Жұмыс істеп тұрған бизнес: иә).",
+   "The power field reads 2021 kW, clearly the build year entered by mistake, so real power is unknown.",
+   "The seller is an agent (Дощикова Анар) and the sale is urgent ('В СВЯЗИ С ПЕРЕЕЗДОМ срочно')."
+  ],
+  "verdict": "weak",
+  "verdict_reason": "The location is excellent (first line on Мангилик Ел, entrance from the street, mature EXPO-area corridor). But the floor is unstated, the salt-cave use suggests a basement, and the price of about 447k/m² is implausibly low. It needs a site check or photos showing a ground-floor shopfront before it can be considered."
+ },
+ {
+  "id": "1015669571",
+  "active": true,
+  "price_now": 37900000,
+  "area_m2": 69.5,
+  "ceiling_m": 2.8,
+  "power_kw": 12,
+  "complex_name": "ЖК Шығыс (block 1А), НП 26, мкр Уркер",
+  "floor_confirmed": "1 (Қабат: 1). There is no mention of цоколь.",
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "separate_street_entrance": false,
+  "frontage_street": "The address is Сыганак 18. In Уркер, Сыганак is a district through-street (OSM secondary, about 120 m from the building). However, the entrance is listed as 'бөлек, ауладан' (from the courtyard). The likely duplicate 1004462511 (same ЖК Шығыс 1А, НП 26, 69.5 m², 2022) gives Үйлер қатары 'аулада' and puts 'ул. Маншук Маметова' in its title. So the unit does not face Сыганак.",
+  "area_maturity": "Fairly mature residential area: Уркер / НП 26 in the Нура district. The seller says 'Обжитой, развитый район', and there are 87 rent ads in the polygon. It is on the city's western edge, however, about 1.85 km from Туран, and rents are lower (median about 7.2k/m²).",
+  "ready": "Built 2022 and tenanted.",
+  "lat": 51.1287356,
+  "lon": 71.3815614,
+  "coord_source": "Nominatim, exact building match: 'ЖК Шыгыс блок 1А, 18, Сығанақ көшесі'",
+  "exchange_verdict": "silent",
+  "exchange_quote": "",
+  "rent_comps": [
+   {
+    "id": "1016561101",
+    "area_m2": 70,
+    "rent_month": 500000,
+    "ppm": 7143,
+    "address": "Е-15 15",
+    "first_line": "yes"
+   },
+   {
+    "id": "1016584203",
+    "area_m2": 79,
+    "rent_month": 600000,
+    "ppm": 7595,
+    "address": "Маншук Маметова 10 / Е-35",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1014323032",
+    "area_m2": 133.3,
+    "rent_month": 800000,
+    "ppm": 6002,
+    "address": "Молдагалиева 13",
+    "first_line": "yes, 1st floor"
+   },
+   {
+    "id": "1010086695",
+    "area_m2": 92,
+    "rent_month": 600000,
+    "ppm": 6522,
+    "address": "E-15 16",
+    "first_line": "yes, 1st floor"
+   },
+   {
+    "id": "1015611866",
+    "area_m2": 50,
+    "rent_month": 450000,
+    "ppm": 9000,
+    "address": "Асфендиярова 4, Уркер",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1016575325",
+    "area_m2": 127,
+    "rent_month": 1300000,
+    "ppm": 10236,
+    "address": "Анет баба 4",
+    "first_line": "yes, 1st floor"
+   },
+   {
+    "id": "1016568916",
+    "area_m2": 140,
+    "rent_month": 1200000,
+    "ppm": 8571,
+    "address": "Анет Баба 2",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1006140731",
+    "area_m2": 137,
+    "rent_month": 1094000,
+    "ppm": 7985,
+    "address": "Е 15",
+    "first_line": "1st floor, not first line"
+   },
+   {
+    "id": "1005823592",
+    "area_m2": 130,
+    "rent_month": 800000,
+    "ppm": 6154,
+    "address": "Сыганак 28",
+    "first_line": "1st floor"
+   },
+   {
+    "id": "1011333977",
+    "area_m2": 160,
+    "rent_month": 700000,
+    "ppm": 4375,
+    "address": "Сыганак 24, ЖК Республика",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1015535873",
+    "area_m2": 125,
+    "rent_month": 900000,
+    "ppm": 7200,
+    "address": "Молдагалиева 13",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1015772325",
+    "area_m2": 160,
+    "rent_month": 1100000,
+    "ppm": 6875,
+    "address": "Асфендияров 4",
+    "first_line": "not stated"
+   },
+   {
+    "id": "1016479247",
+    "area_m2": 49,
+    "rent_month": 650000,
+    "ppm": 13265,
+    "address": "Анет баба 4",
+    "first_line": "yes"
+   }
+  ],
+  "rent_median_ppm": 7200,
+  "red_flags": [
+   "Likely duplicate of 1004462511, which is active at 40.0M with the same ЖК Шығыс 1А / НП 26, 69.5 m², 2022 build and floor 1. That listing gives Үйлер қатары 'аулада' (courtyard), entrance 'көшеден, ауладан' and ceiling 2.7 m.",
+   "The first-line claim (Үйлер қатары: бірінші) is contradicted by this listing's own entrance field ('бөлек, ауладан', from the courtyard) and by the duplicate's 'аулада'.",
+   "Tenants are present, but the rent amount and tenant type are not disclosed. The listing is also marked 'Жұмыс істеп тұрған бизнес: иә' (operating business).",
+   "The ceiling is low at 2.8 m.",
+   "The seller's name is not shown. On the positive side, the ad says 'Не в залоге', 'Не под арестом'."
+  ],
+  "verdict": "exclude",
+  "verdict_reason": "The entrance is from the courtyard and the matching listing 1004462511 places the unit 'аулада'. It is not a real first-line unit on Сыганак, which fails the first-line requirement. The cheap price (about 545k/m², about 13% gross at 7.2k/m²) does not offset a courtyard location on the city's western edge."
+ },
+ {
+  "id": "1016206807",
+  "active": true,
+  "price_now": 132000000,
+  "area_m2": 153,
+  "floor_confirmed": "1 (Қабат: 1; description says 'Отдельная входная группа, витражные окна'; no цоколь mention)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ceiling_m": 4.3,
+  "power_kw": 27,
+  "complex_name": "ЖК Uly Dala Avenue (Нысан атауы: ЖК Улы Дала), Толе би 27, Нура",
+  "ready": "built 2025 (Салынған жылы 2025); same unit also offered for rent now, so it is complete and vacant",
+  "exchange_verdict": "silent",
+  "exchange_quote": "no mention of айырбас/обмен anywhere on the page",
+  "lat": 51.1018981,
+  "lon": 71.3873065,
+  "coord_source": "Nominatim OSM building 'ЖК Uly Dala Avenue, 27, Төле Би көшесі' (matches the preliminary building-level point)",
+  "frontage_street": "Толе би (left-bank Төле Би, OSM class residential, a district street, not a major avenue). The complex's south side is about 250 m from пр. Улы Дала, but the listing does not say the unit faces Улы Дала.",
+  "area_maturity": "developing: south end of Толе би near Улы Дала, with many 2024-2026 complexes (Gauhartas, Bozjyra, Arena Style 2026, Gala). About 44 rent listings in the 500 m box, many shell units offering 1-3 months rent-free, so vacant supply is high.",
+  "rent_comps": [
+   {
+    "id": "1016413527",
+    "address": "Толе би 27, Uly Dala Avenue (THIS SAME unit for rent, 3 months rent-free)",
+    "area_m2": 152.8,
+    "rent_month": 1000000,
+    "ppm": 6545,
+    "first_line": "yes"
+   },
+   {
+    "id": "1000265458",
+    "address": "Толе би 27, Uly Dala Avenue",
+    "area_m2": 131,
+    "rent_month": 1000000,
+    "ppm": 7634,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1007799797",
+    "address": "Толе би 27, Uly Dala Avenue, corner",
+    "area_m2": 75,
+    "rent_month": 750000,
+    "ppm": 10000,
+    "first_line": "corner"
+   },
+   {
+    "id": "1015602911",
+    "address": "Толе би 27, Uly Dala Avenue, full finish",
+    "area_m2": 152,
+    "rent_month": 1800000,
+    "ppm": 11842,
+    "first_line": "yes (Улы Дала side)"
+   },
+   {
+    "id": "1015917792",
+    "address": "Толе би 25/1 HomeLand",
+    "area_m2": 185.4,
+    "rent_month": 1854000,
+    "ppm": 10000,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1012793585",
+    "address": "Толе би 25/1",
+    "area_m2": 184,
+    "rent_month": 1850000,
+    "ppm": 10054,
+    "first_line": "yes (Улы Дала)"
+   },
+   {
+    "id": "1011432137",
+    "address": "Толе би 20 Athletic City",
+    "area_m2": 80.58,
+    "rent_month": 700000,
+    "ppm": 8687,
+    "first_line": "yes"
+   },
+   {
+    "id": "1013678510",
+    "address": "Толе би 20 Athletic City",
+    "area_m2": 100,
+    "rent_month": 700000,
+    "ppm": 7000,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1016579352",
+    "address": "Улы Дала 38 Gauhartas",
+    "area_m2": 46,
+    "rent_month": 600000,
+    "ppm": 13043,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1016349975",
+    "address": "Улы Дала 38 Gauhartas, corner",
+    "area_m2": 73,
+    "rent_month": 750000,
+    "ppm": 10274,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1016427558",
+    "address": "Улы Дала 38/3 Gauhartas",
+    "area_m2": 121,
+    "rent_month": 1200000,
+    "ppm": 9917,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1015649387",
+    "address": "Улы Дала 28 Бозжыра",
+    "area_m2": 116,
+    "rent_month": 1000000,
+    "ppm": 8621,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015516450",
+    "address": "Улы Дала 28 Бозжыра",
+    "area_m2": 120,
+    "rent_month": 1500000,
+    "ppm": 12500,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1015161063",
+    "address": "Толе би 35/1 West Side",
+    "area_m2": 122,
+    "rent_month": 950000,
+    "ppm": 7787,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016262618",
+    "address": "Толе би 22 Arena Style",
+    "area_m2": 79,
+    "rent_month": 700000,
+    "ppm": 8861,
+    "first_line": "yes"
+   }
+  ],
+  "rent_median_ppm": 9917,
+  "red_flags": [
+   "DUPLICATE: same unit as 1016413421 (152.8 m², same price 132M, Толе би 27, ~4.2-4.3 m ceiling, 27-28 kW), listed by a different agent",
+   "Same unit is also listed for rent (1016413527 and 1016495856) at 1.0M/month (6,545 ₸/m²) with 3 months rent-free, so it is vacant and the realistic yield is about 9.1% gross, not the 13-14% the comp median implies",
+   "Price is at the top of the budget (862,745 ₸/m²)",
+   "Frontage is Толе би, a district street, not a major avenue",
+   "High vacant supply of shell units nearby"
+  ],
+  "verdict": "ok",
+  "verdict_reason": "Built, ground floor, first line on Толе би, and the seller is silent on exchange. But the street is a district one in a developing, oversupplied area, and the unit's own rent ask (1.0M/month) implies about 9% gross. This is a duplicate of 1016413421, so keep only one."
+ },
+ {
+  "id": "1016413421",
+  "active": true,
+  "price_now": 132000000,
+  "area_m2": 152.8,
+  "floor_confirmed": "1 (Орналасқан қабаты: 1; description says it can be extended to two levels; no цоколь)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ceiling_m": 4.2,
+  "power_kw": 28,
+  "complex_name": "ЖК Uly Dala Avenue (Улы Дала Авеню), Толе би 27, Нура",
+  "ready": "built 2024; vacant (same agent also lists it for rent as 1016413527)",
+  "exchange_verdict": "silent",
+  "exchange_quote": "no mention of айырбас/обмен on the page",
+  "lat": 51.1018981,
+  "lon": 71.3873065,
+  "coord_source": "Nominatim OSM building 'ЖК Uly Dala Avenue, 27, Төле Би көшесі'",
+  "frontage_street": "Толе би (district street, OSM residential class), about 250 m north of пр. Улы Дала. Description: 'Первая линия — отличная видимость и трафик'.",
+  "area_maturity": "developing: new 2024-2026 complexes around the Толе би / Улы Дала junction, with many vacant shell units for rent offering rent-free months",
+  "rent_comps": [
+   {
+    "id": "1016413527",
+    "address": "Толе би 27, THIS SAME unit for rent (same agent, LIBERTY), 3 months rent-free",
+    "area_m2": 152.8,
+    "rent_month": 1000000,
+    "ppm": 6545,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016495856",
+    "address": "Толе би 27, same unit, another rent listing",
+    "area_m2": 152.8,
+    "rent_month": 1000000,
+    "ppm": 6545,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1000265458",
+    "address": "Толе би 27, Uly Dala Avenue",
+    "area_m2": 131,
+    "rent_month": 1000000,
+    "ppm": 7634,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1007799797",
+    "address": "Толе би 27, corner",
+    "area_m2": 75,
+    "rent_month": 750000,
+    "ppm": 10000,
+    "first_line": "corner"
+   },
+   {
+    "id": "1015602911",
+    "address": "Толе би 27, full finish",
+    "area_m2": 152,
+    "rent_month": 1800000,
+    "ppm": 11842,
+    "first_line": "yes"
+   },
+   {
+    "id": "1012793585",
+    "address": "Толе би 25/1",
+    "area_m2": 184,
+    "rent_month": 1850000,
+    "ppm": 10054,
+    "first_line": "yes"
+   },
+   {
+    "id": "1011432137",
+    "address": "Толе би 20 Athletic City",
+    "area_m2": 80.58,
+    "rent_month": 700000,
+    "ppm": 8687,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015649387",
+    "address": "Улы Дала 28 Бозжыра",
+    "area_m2": 116,
+    "rent_month": 1000000,
+    "ppm": 8621,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016427558",
+    "address": "Улы Дала 38/3 Gauhartas",
+    "area_m2": 121,
+    "rent_month": 1200000,
+    "ppm": 9917,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1015161063",
+    "address": "Толе би 35/1 West Side",
+    "area_m2": 122,
+    "rent_month": 950000,
+    "ppm": 7787,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016349975",
+    "address": "Улы Дала 38, corner",
+    "area_m2": 73,
+    "rent_month": 750000,
+    "ppm": 10274,
+    "first_line": "street entrance"
+   }
+  ],
+  "rent_median_ppm": 8687,
+  "red_flags": [
+   "DUPLICATE: same unit as 1016206807 (153 m², 132M, Толе би 27)",
+   "Simultaneously listed for rent at 1.0M/month with 3 months rent-free, so it is vacant; the realistic gross yield is about 9.1%",
+   "Price is at the top of the budget (863,874 ₸/m²)",
+   "Frontage is Толе би, a district street, not a major avenue",
+   "Developing area with heavy shell-unit supply"
+  ],
+  "verdict": "ok",
+  "verdict_reason": "This is the better-documented copy of the Толе би 27 unit: floor 1, first line, separate entrance from the street, built 2024, 4.2 m ceiling, power upgradable to 80 kW. The location is only a district street in a developing area, and the seller's own rent ask gives about 9% gross."
+ },
+ {
+  "id": "1012286553",
+  "active": true,
+  "price_now": 68000000,
+  "area_m2": 76,
+  "floor_confirmed": "unknown: no floor field and no floor in the description; duplicate 1016511692 also omits the floor",
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "separate_street_entrance": false,
+  "ceiling_m": 3,
+  "complex_name": "Sezim qala.Orken (BI Group), Туран 55/16, Нура",
+  "ready": "built: 'ключи и документы на руках застройщик Bi Group'; duplicate listing gives year 2025",
+  "exchange_verdict": "silent",
+  "exchange_quote": "no mention of айырбас/обмен; description: 'Первая Линия Толе би Густонаселённый район Застройщик Bi group окна в обе стороны своя вытяжка и приточка ключи и документы ан руках'",
+  "lat": 51.1150077,
+  "lon": 71.3917624,
+  "coord_source": "Nominatim OSM building 'Sezim Qala.Örken, 55/16, Тұран даңғылы'",
+  "frontage_street": "Толе би, a district street, per the description ('Первая Линия Толе би'). The building is about 500 m west of пр. Туран despite the Туран address and title, so it does not face Туран.",
+  "area_maturity": "mature, dense: the Sezim Qala / Barys Arena / Туран 55 cluster, built and populated in 2019-2025 (Sezim Qala Baqyt units let at 8-11k ₸/m²)",
+  "rent_comps": [
+   {
+    "id": "1015356182",
+    "address": "Р. Баглановой 6/3, Sezim Qala.Baqyt, front line on Толе би",
+    "area_m2": 134,
+    "rent_month": 1200000,
+    "ppm": 8955,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015947771",
+    "address": "Туран 55/13, Sezim Qala.Baqyt, floor 1",
+    "area_m2": 70,
+    "rent_month": 800000,
+    "ppm": 11429,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016331013",
+    "address": "Туран 55/10, Sezim Qala.Baqyt, floor 1, fitted",
+    "area_m2": 70,
+    "rent_month": 800000,
+    "ppm": 11429,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1014765030",
+    "address": "Туран 55/13, along Толе би, floor 1, shell",
+    "area_m2": 110,
+    "rent_month": 600000,
+    "ppm": 5455,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015644375",
+    "address": "Туран 55/13, Sezim Qala Baqyt",
+    "area_m2": 80,
+    "rent_month": 800000,
+    "ppm": 10000,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1015870461",
+    "address": "Р. Баглановой 6/1, SezimQala.Baqyt, finished",
+    "area_m2": 100,
+    "rent_month": 800000,
+    "ppm": 8000,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1016173465",
+    "address": "Казыбек би 15, floor 1",
+    "area_m2": 110,
+    "rent_month": 600000,
+    "ppm": 5455,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1010881814",
+    "address": "Казыбек би 9",
+    "area_m2": 40,
+    "rent_month": 350000,
+    "ppm": 8750,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1015390476",
+    "address": "Казыбек би 9, Кок Жайлау, floor 1",
+    "area_m2": 127,
+    "rent_month": 1000000,
+    "ppm": 7874,
+    "first_line": "unstated"
+   },
+   {
+    "id": "695196754",
+    "address": "Р. Багланова 3/1",
+    "area_m2": 88,
+    "rent_month": 600000,
+    "ppm": 6818,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1016498784",
+    "address": "Казыбек би 19/1",
+    "area_m2": 110,
+    "rent_month": 500000,
+    "ppm": 4545,
+    "first_line": "unstated"
+   }
+  ],
+  "rent_median_ppm": 8000,
+  "red_flags": [
+   "Floor is NOT stated anywhere, so ground floor is unconfirmed",
+   "DUPLICATE: probably the same unit as 1016511692 (Туран 55/16, 78 m², 68.9M, 3 m ceiling, separate street entrance, 2025), listed by a different agent",
+   "Entrance not stated on this listing (the duplicate says 'бөлек, көшеден')",
+   "3 m ceiling is low for retail; 'окна в обе стороны' may mean a converted or through unit",
+   "Title says 'Туран — первая линия', but the shopfront faces Толе би, not Туран",
+   "Power and year not stated"
+  ],
+  "verdict": "weak",
+  "verdict_reason": "A good mature, dense location at an attractive price (895k ₸/m², about 10.7% gross at an 8,000 ₸/m² median). But the floor is not stated, so ground floor is unconfirmed; the frontage is Толе би, not Туран; and it duplicates 1016511692. Upgrade only if the floor is confirmed as 1."
+ },
+ {
+  "id": "1016563277",
+  "active": true,
+  "price_now": 100000000,
+  "area_m2": 108,
+  "floor_confirmed": "1 (Орналасқан қабаты: 1; no цоколь mention)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": false,
+  "power_kw": 21,
+  "complex_name": "ЖК Arena Style (BI Group), Толе би 22 (OSM: ЖК Arena Style 2), Нура",
+  "ready": "probably built: no year or keys on the listing, but korter lists Arena Style as ready, the description says 'Современный жилой комплекс с активным заселением', and units at Толе би 22 are already let (an operating grocery store) with keys",
+  "exchange_verdict": "silent",
+  "exchange_quote": "no mention of айырбас/обмен on the page",
+  "lat": 51.1056716,
+  "lon": 71.3901579,
+  "coord_source": "Nominatim OSM building 'ЖК Arena Style 2, 22, Төле Би көшесі' (korter Arena Style 51.1057, 71.3906)",
+  "frontage_street": "Толе би (district street) at the corner with Бухар жырау (district avenue); description: 'аллея напротив', 'Большой автомобильный трафик'. Which façade the unit faces is unspecified.",
+  "area_maturity": "developing next to a mature core: 'Район активно развивается, вокруг строятся и заселяются новые жилые комплексы'. It borders the mature Туран 55 / Barys Arena cluster, but its own block has 2025-2026 buildings and many vacant shell units for rent.",
+  "rent_comps": [
+   {
+    "id": "1016262618",
+    "address": "Толе би 22 Arena Style",
+    "area_m2": 79,
+    "rent_month": 700000,
+    "ppm": 8861,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015838773",
+    "address": "Толе би 22, Толе би–Бухар жырау, Arena Style",
+    "area_m2": 80,
+    "rent_month": 700000,
+    "ppm": 8750,
+    "first_line": "yes"
+   },
+   {
+    "id": "1013923476",
+    "address": "Толе би 22, Бухар жырау, refurbished",
+    "area_m2": 49,
+    "rent_month": 750000,
+    "ppm": 15306,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1014186144",
+    "address": "Толе би 22, corner Бухар жырау, Arena Style",
+    "area_m2": 132,
+    "rent_month": 1600000,
+    "ppm": 12121,
+    "first_line": "yes"
+   },
+   {
+    "id": "1014830499",
+    "address": "Толе би 22, Arena Style, end-on to Бухар жырау",
+    "area_m2": 98.5,
+    "rent_month": 600000,
+    "ppm": 6091,
+    "first_line": "yes"
+   },
+   {
+    "id": "1014835951",
+    "address": "Толе би 22, Arena Style",
+    "area_m2": 99,
+    "rent_month": 600000,
+    "ppm": 6061,
+    "first_line": "yes"
+   },
+   {
+    "id": "1010101598",
+    "address": "Бухар жырау 57/6 Arena Style, floor 1",
+    "area_m2": 96.5,
+    "rent_month": 700000,
+    "ppm": 7254,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1011413281",
+    "address": "Толе би 22/12 Arena Style 1, faces Бухар жырау",
+    "area_m2": 153.7,
+    "rent_month": 1350000,
+    "ppm": 8783,
+    "first_line": "yes"
+   },
+   {
+    "id": "1010095740",
+    "address": "Бухар жырау 57/6 Arena Style",
+    "area_m2": 158.5,
+    "rent_month": 2000000,
+    "ppm": 12618,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1016465582",
+    "address": "Толе би 26 Arena Vista",
+    "area_m2": 161,
+    "rent_month": 1100000,
+    "ppm": 6832,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015161063",
+    "address": "Толе би 35/1 West Side",
+    "area_m2": 122,
+    "rent_month": 950000,
+    "ppm": 7787,
+    "first_line": "yes"
+   },
+   {
+    "id": "1005935832",
+    "address": "Толе би 35/1 West Side",
+    "area_m2": 126.5,
+    "rent_month": 900000,
+    "ppm": 7115,
+    "first_line": "yes"
+   },
+   {
+    "id": "1011432137",
+    "address": "Толе би 20 Athletic City",
+    "area_m2": 80.58,
+    "rent_month": 700000,
+    "ppm": 8687,
+    "first_line": "yes"
+   }
+  ],
+  "rent_median_ppm": 8687,
+  "red_flags": [
+   "Year built and handover (keys) are not stated on the listing; readiness is inferred from korter and neighbouring let units",
+   "Entrance type and ceiling height are not stated",
+   "Frontage is Толе би / Бухар жырау (district streets), not a major avenue",
+   "Many competing vacant shell units in the same complex for rent (6-9k ₸/m²)",
+   "925,926 ₸/m² is at the upper end for the block"
+  ],
+  "verdict": "ok",
+  "verdict_reason": "Ground floor, first line, in an occupied BI Group complex at the Толе би / Бухар жырау corner. At about 8.7k ₸/m² it yields around 11% gross. But the street is a district one in a still-developing block, and the listing omits year, entrance and ceiling, which need checking."
+ },
+ {
+  "id": "1011415452",
+  "active": true,
+  "price_now": 118000000,
+  "area_m2": 160,
+  "floor_confirmed": "1 (Қабат: 1), but the description mentions 'Два балкона', which is unusual for a ground-floor commercial unit; verify it is not a converted flat or upper level",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ceiling_m": 3,
+  "power_kw": 10,
+  "complex_name": "Жк Комсомольский, Мақсут Нәрікбаев 6 (мкр Комсомольский / Караоткель-2), Нура",
+  "ready": "built 2023; 'Документы и ключи на руках'",
+  "exchange_verdict": "silent",
+  "exchange_quote": "no mention of айырбас/обмен; only '✅Ипотеку проходит ✅В ипотеку 125.000.000 с учетом налогов'",
+  "lat": 51.1403,
+  "lon": 71.3912,
+  "coord_source": "approximate: OSM ЖК Комсомольский buildings (Қыз Жібек 55/3-55/5, Ұлпан 8, about 51.140-51.142, 71.389-71.392) next to the SE segment of Нарикбаев street near the Мухамедханова junction (rent comp at Нарикбаев 6a 'выход на Мухамедханова'). House 6 itself is not geocoded; the preliminary point was only the street centroid.",
+  "frontage_street": "Мақсут Нәрікбаев street (OSM residential, a minor district street), near Қайым Мұхамедханов (secondary). Not a major avenue. KAZGUU university is about 1 km north on Коргалжинское ш.",
+  "area_maturity": "mature, populated: older мкр Комсомольский / Караоткель-2 redeveloped with ЖК, next to the busy GreenLine belt (Хан Шатыр side), the embassy district and KAZGUU. It is a quieter residential street, though, with several basement or semi-basement commercial units on it.",
+  "rent_comps": [
+   {
+    "id": "1016081512",
+    "address": "Нарикбаев 6a, ЖК Комсомольский (same complex), new renovation",
+    "area_m2": 152,
+    "rent_month": 1200000,
+    "ppm": 7895,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015261844",
+    "address": "Нарикбаев 9",
+    "area_m2": 53,
+    "rent_month": 315000,
+    "ppm": 5943,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015373453",
+    "address": "Нарикбаев 9",
+    "area_m2": 60,
+    "rent_month": 350000,
+    "ppm": 5833,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1000361533",
+    "address": "Нарикбаев 5",
+    "area_m2": 120,
+    "rent_month": 770000,
+    "ppm": 6417,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016213922",
+    "address": "Нарикбаев 9 (КазГЮУ)",
+    "area_m2": 190,
+    "rent_month": 1000000,
+    "ppm": 5263,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1015500571",
+    "address": "Нарикбаев 14, ЖК Eva",
+    "area_m2": 60,
+    "rent_month": 550000,
+    "ppm": 9167,
+    "first_line": "unstated"
+   },
+   {
+    "id": "1013255316",
+    "address": "Мухамедханова 6а, GreenLine Terra",
+    "area_m2": 135.3,
+    "rent_month": 1600000,
+    "ppm": 11826,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1016575060",
+    "address": "Мухамедханова 6А",
+    "area_m2": 146,
+    "rent_month": 1400000,
+    "ppm": 9589,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016569313",
+    "address": "Мухамедханова 6а, GreenLine Aru Qala",
+    "area_m2": 85,
+    "rent_month": 1100000,
+    "ppm": 12941,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015282269",
+    "address": "Мухамедханова 6",
+    "area_m2": 105,
+    "rent_month": 800000,
+    "ppm": 7619,
+    "first_line": "street entrance"
+   },
+   {
+    "id": "1006170147",
+    "address": "Е-900 10, GreenLine Astra",
+    "area_m2": 95,
+    "rent_month": 800000,
+    "ppm": 8421,
+    "first_line": "unstated"
+   }
+  ],
+  "rent_median_ppm": 7895,
+  "red_flags": [
+   "'Два балкона' in the description of a supposedly floor-1 commercial unit; floor or layout needs physical check (possible converted residential unit)",
+   "Power only 10 kW, too low for food service or retail without an upgrade",
+   "Ceiling only 3 m",
+   "Frontage is a minor residential street (Нарикбаев), not a busy avenue",
+   "Exact building is not geocoded; coordinates are approximate",
+   "Rents on Нарикбаев itself are only about 5.3-6.4k ₸/m² (gross yield about 9.6% at street-level rents vs 12.8% at the blended median)",
+   "Mortgage mention ('Ипотеку проходит') refers to buyer financing, not an encumbrance"
+  ],
+  "verdict": "ok",
+  "verdict_reason": "Built and keys in hand, floor 1, first line, separate street entrance, and the lowest price per m² here (737.5k), in a mature area next to GreenLine. Yield is about 10-13% gross. But the street is minor, power is 10 kW, and the 'two balconies' raise a floor or layout doubt to check on site."
+ },
+ {
+  "id": "1016358069",
+  "active": true,
+  "price_now": 65000000,
+  "area_m2": 88.7,
+  "floor_confirmed": "1 (field 'Қабат 1', corner unit with 5 large windows, ceiling 3.7 m). Not confirmed safe: other commercial units in the same ЖК Ainabulaq are listed as полуцоколь or цоколь (1002763140, 1015151516, 1012732060), and apartments there start at floor 1 of 4 (1016348284)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ceiling_m": 3.7,
+  "complex_name": "ЖК Айнабулак / Ainabulaq (AIZ QURYLYS), Е-314 20",
+  "ready": "built (year 2024 per listing; complex commissioned 2022); handed over in black plaster (черновая); power not stated (only 'электр. энергиясы')",
+  "exchange_verdict": "silent",
+  "exchange_quote": "No обмен/айырбас wording. The only deal note is 'Торг обсуждается с реальным покупателем'",
+  "lat": 51.0725,
+  "lon": 71.431,
+  "coord_source": "Estimate. Uses the OSM E-314 way (51.0700,71.4272 to 51.0735,71.4327). A krisha map polygon of 51.0688–51.0768 / 71.4255–71.4375 returns all the Е-314 20/22 listings. The preliminary 51.0831,71.4382 was wrong: it is the BI Village Deluxe-3 cottage area, about 1.2 km away",
+  "frontage_street": "Е-314: a minor internal/district street south of Хусейн бен Талал, near Аль-Фараби and Мангилик Ел. The krisha title reads 'Е-314 — Хусейн бен Талал и Касыма Кайсенова'. The corner unit faces Е-314, not a major avenue",
+  "area_maturity": "Developing or frontier. This is south Есиль behind Хусейн бен Талал, near the Central Mosque and Expo. Around it are low-rise ЖК from 2022–2024, cottage towns (Forest Park Village, BI Village) and many sites still under construction (MOD Frame/Style/Urban, Family Gardens, Manar). One rent listing mentions a MEGA mall being built nearby. Supply is high: 14 sale and 11 rent listings sit within about 500 m",
+  "rent_comps": [
+   {
+    "id": "1016142711",
+    "address": "Е 314 22 (desc. Е-314 20)",
+    "area_m2": 100,
+    "rent_month": 450000,
+    "ppm": 4500,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1016409421",
+    "address": "Е-314 20",
+    "area_m2": 90,
+    "rent_month": 300000,
+    "ppm": 3333,
+    "first_line": "unknown; separate entrance from street"
+   },
+   {
+    "id": "1016143113",
+    "address": "Е 314 22",
+    "area_m2": 88,
+    "rent_month": 350000,
+    "ppm": 3977,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016524054",
+    "address": "Е 314 22",
+    "area_m2": 84,
+    "rent_month": 250000,
+    "ppm": 2976,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016524026",
+    "address": "Е 314 22",
+    "area_m2": 143,
+    "rent_month": 300000,
+    "ppm": 2098,
+    "first_line": "unknown"
+   },
+   {
+    "id": "675814717",
+    "address": "Е 495 8 (ЖК Араби)",
+    "area_m2": 92.8,
+    "rent_month": 230000,
+    "ppm": 2478,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1012765698",
+    "address": "Е321 15/3",
+    "area_m2": 50,
+    "rent_month": 400000,
+    "ppm": 8000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1012732348",
+    "address": "Е-314 20",
+    "area_m2": 20,
+    "rent_month": 120000,
+    "ppm": 6000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1014997086",
+    "address": "Е314 20",
+    "area_m2": 25,
+    "rent_month": 100000,
+    "ppm": 4000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016543534 (sale with tenant)",
+    "address": "Е-315 20 ЖК Ainabulaq",
+    "area_m2": 75,
+    "rent_month": 300000,
+    "ppm": 4000,
+    "first_line": "unknown"
+   }
+  ],
+  "rent_median_ppm": 3977,
+  "red_flags": [
+   "Low local rents (about 4,000 ₸/m²) give a gross yield of about 6.5%. The preliminary 11,500 ₸/m² was based on a wrong geocode",
+   "Overpriced inside its own complex: 733k/m² against 12 other Ainabulaq sale units at 341–683k/m² (e.g. 90 m² rough finish for 31.5M in 1004983323; 105 m² renovated for 59.9M in 1014902871)",
+   "Полуцоколь risk: several units in the same complex are semi-basement or цоколь, so confirm the entrance level on site",
+   "Entrance is shared (from the street and from the yard), according to the listing",
+   "Rough finish (черновая)",
+   "Heavy vacancy: 11 rent listings around Е-314 20/22",
+   "Not a duplicate of any other listing found"
+  ],
+  "verdict": "weak",
+  "verdict_reason": "The unit meets the formal tests: built, floor 1, first line, separate street entrance, and the seller is silent on exchange. But it faces the minor internal street Е-314 in a frontier area south of Хусейн бен Талал with heavy vacancy. Local rents are about 4,000 ₸/m² (gross yield about 6.5%), and the price is well above similar units in the same complex."
+ },
+ {
+  "id": "1015099599",
+  "active": true,
+  "price_now": 61000000,
+  "area_m2": 112,
+  "floor_confirmed": "1 (field 'Қабат 1'). No цоколь, полуцоколь or подвал in the text. Placement is 'сауда орталығында' (in a shopping centre)",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ceiling_m": 2.7,
+  "power_kw": 380,
+  "complex_name": "ЖК Шыгыс, block 1А (OSM building at Сығанақ 18). The shopping centre in the listing is not named",
+  "ready": "built 2020; needs cosmetic repair",
+  "exchange_verdict": "silent",
+  "exchange_quote": "No обмен/айырбас wording. The description opens 'Срочная продажа коммерческого помещения на первой линии!'",
+  "lat": 51.1287356,
+  "lon": 71.3815614,
+  "coord_source": "Nominatim building 'ЖК Шыгыс блок 1А, 18, Сығанақ көшесі, Нұра' (shops, fast food and BeePost tagged at No. 18). Krisha rent 1016304058 gives 'Сығанақ 18 — пересечение с улицей Анет баба'. Old Есиль listings 'Сыганак 18 — Туран' (697378495, 696613739) are a different building under the old numbering",
+  "frontage_street": "Сыганак, western Нура segment, at the corner of Анет баба. This is a district artery (OSM secondary), the continuation of the main Сыганак corridor, but quieter than its Туран–Кабанбай section",
+  "area_maturity": "Mature and dense. Around it are ЖК completed in 2018–2022 (Miami, Madi, Dariya, Respublika, Green Town, Eco Park), with ground-floor retail already trading at No. 18. density_1km is 89",
+  "rent_comps": [
+   {
+    "id": "1014442444",
+    "address": "Сыганак 18",
+    "area_m2": 25,
+    "rent_month": 200000,
+    "ppm": 8000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016369490",
+    "address": "Сыганак 22/1",
+    "area_m2": 270,
+    "rent_month": 3600000,
+    "ppm": 13333,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1015815907",
+    "address": "Сығанақ 14 — Айтматова",
+    "area_m2": 211,
+    "rent_month": 2110000,
+    "ppm": 10000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016575325",
+    "address": "Анет баба 4",
+    "area_m2": 127,
+    "rent_month": 1300000,
+    "ppm": 10236,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1016479247",
+    "address": "Анет баба 4",
+    "area_m2": 49,
+    "rent_month": 650000,
+    "ppm": 13265,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016568916",
+    "address": "Анет Баба 2",
+    "area_m2": 140,
+    "rent_month": 1200000,
+    "ppm": 8571,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1016561101",
+    "address": "Е-15 15",
+    "area_m2": 70,
+    "rent_month": 500000,
+    "ppm": 7143,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016527512",
+    "address": "Е-15 15 — Сыганак",
+    "area_m2": 70,
+    "rent_month": 480000,
+    "ppm": 6857,
+    "first_line": "1 этаж"
+   },
+   {
+    "id": "1010086695",
+    "address": "Е-15 16",
+    "area_m2": 92,
+    "rent_month": 600000,
+    "ppm": 6522,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1005823592",
+    "address": "Сыганак 28",
+    "area_m2": 130,
+    "rent_month": 800000,
+    "ppm": 6154,
+    "first_line": "1 этаж"
+   },
+   {
+    "id": "1014323032",
+    "address": "Молдагалиева 13",
+    "area_m2": 133.3,
+    "rent_month": 800000,
+    "ppm": 6002,
+    "first_line": "yes, 1 этаж"
+   },
+   {
+    "id": "1016396563",
+    "address": "Е-15 15 — Сыганак",
+    "area_m2": 89,
+    "rent_month": 530000,
+    "ppm": 5955,
+    "first_line": "1 этаж"
+   },
+   {
+    "id": "1011333977",
+    "address": "Сыганак 24 (ЖК Республика)",
+    "area_m2": 160,
+    "rent_month": 700000,
+    "ppm": 4375,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015552822",
+    "address": "Сыганак 15",
+    "area_m2": 50,
+    "rent_month": 180000,
+    "ppm": 3600,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016542967",
+    "address": "Сыганак 16",
+    "area_m2": 180,
+    "rent_month": 500000,
+    "ppm": 2778,
+    "first_line": "1 этаж"
+   }
+  ],
+  "rent_median_ppm": 6857,
+  "red_flags": [
+   "Inside a shopping centre ('сауда орталығында'), and the entrance field reads 'бөлек, ортақ, көшеден' (separate, shared, from the street). The street door may be shared with the mall rather than a direct shopfront",
+   "Low ceiling of 2.7 m for retail",
+   "380 kW allocated power is very likely a typo",
+   "Urgent sale ('Срочная продажа', tagged 'Шұғыл'). Needs cosmetic repair",
+   "Neighbouring sale 1016249812 (Сыганак 18, 119 m², 58M, 'вход сразу на 2 этаж', standalone building) is in the same address cluster. It differs in area and placement, so it is probably not a duplicate",
+   "Wide rent dispersion (2.8k–13.3k ₸/m²)"
+  ],
+  "verdict": "ok",
+  "verdict_reason": "The unit is on floor 1, first line on Сыганак at the Анет баба corner, in a mature dense Нура cluster. The price of 545k/m² is low, and the median comp of about 6,900 ₸/m² gives roughly 15% gross. It falls short of strong because the unit sits inside a mall with a shared entrance and a 2.7 m ceiling, and this western segment of Сыганак is a district artery, not a prime avenue."
+ },
+ {
+  "id": "1008234741",
+  "active": true,
+  "price_now": 110000000,
+  "area_m2": 127,
+  "floor_confirmed": "1 (field 'Қабат 1', description 'Первый этаж'). No цоколь or подвал mentioned",
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "separate_street_entrance": true,
+  "ceiling_m": 4.8,
+  "power_kw": 68,
+  "complex_name": "ЖК West Side (DDD Group), Толе би 35/1. The name comes from rent listings 1015905862 and 1015161063 at the same address; the sale listing leaves the complex blank",
+  "ready": "built 2025. Keys handed over according to same-building rent listing 1015161063",
+  "exchange_verdict": "silent",
+  "exchange_quote": "No обмен/айырбас wording. 'Документы в порядке, быстрый выход на сделку'",
+  "lat": 51.1057,
+  "lon": 71.3862,
+  "coord_source": "Estimate. ЖК West Side sits at the corner of Толе би and Бухар жырау: Nominatim has Толе би 27 at 51.103,71.3865 and lyceum Зерде at 37/1 at 51.108,71.387. A krisha rent polygon of 51.1015–51.1095 / 71.3805–71.3925 returns two units at Толе би 35/1. The preliminary 51.1359,71.3988 was a street-level match at the northern end of Толе би near Headliner, about 3.4 km away",
+  "frontage_street": "Corner of Толе би and Бухар жырау. Same-building rent listings say 'Первая линия улицы Бухар жырау', and the sale listing says 'Первая линия' on Толе би. Both are district streets: Толе би runs about 500 m west of and parallel to Туран, and Бухар жырау links to Туран at Arena Style. Neither is a major avenue",
+  "area_maturity": "Mature to maturing. It is next to Barys Arena and the Qazaqstan sports centre. Nearby are ЖК Athletic City, Arena Style, Arena Towers, Uly Dala Avenue and Shugyla (completed 2019–2023), with schools including the Зерде lyceum and a large student footfall. West Side itself is new (2025)",
+  "rent_comps": [
+   {
+    "id": "1015905862",
+    "address": "Толе би 35/1 (ЖК West Side), corner",
+    "area_m2": 122.2,
+    "rent_month": 900000,
+    "ppm": 7365,
+    "first_line": "yes (Бухар жырау)"
+   },
+   {
+    "id": "1015161063",
+    "address": "Толе би 35/1 (ЖК West Side), corner",
+    "area_m2": 122,
+    "rent_month": 950000,
+    "ppm": 7787,
+    "first_line": "yes (Бухар жырау)"
+   },
+   {
+    "id": "1016465582",
+    "address": "Толе би 26 (ЖК Arena Vista)",
+    "area_m2": 161,
+    "rent_month": 1100000,
+    "ppm": 6832,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016262618",
+    "address": "Толе би 22 (ЖК Arena Style)",
+    "area_m2": 79,
+    "rent_month": 700000,
+    "ppm": 8861,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015838773",
+    "address": "Толеби 22 — Бухар Жырау",
+    "area_m2": 80,
+    "rent_month": 700000,
+    "ppm": 8750,
+    "first_line": "yes"
+   },
+   {
+    "id": "1011338716",
+    "address": "Толе би 22, corner of Бухар жырау",
+    "area_m2": 49,
+    "rent_month": 750000,
+    "ppm": 15306,
+    "first_line": "yes"
+   },
+   {
+    "id": "1011078031",
+    "address": "Толе би 22, corner, Бухар Жырау",
+    "area_m2": 132,
+    "rent_month": 1500000,
+    "ppm": 11364,
+    "first_line": "yes"
+   },
+   {
+    "id": "1011432137",
+    "address": "Толе би 20 (Athletic City)",
+    "area_m2": 80.58,
+    "rent_month": 700000,
+    "ppm": 8687,
+    "first_line": "yes"
+   },
+   {
+    "id": "1013678510",
+    "address": "Толе би 20 — Улы Дала",
+    "area_m2": 100,
+    "rent_month": 700000,
+    "ppm": 7000,
+    "first_line": "unknown"
+   },
+   {
+    "id": "1015343093",
+    "address": "Туран 57д",
+    "area_m2": 84,
+    "rent_month": 800000,
+    "ppm": 9524,
+    "first_line": "yes"
+   },
+   {
+    "id": "1015268497",
+    "address": "Туран 57д — Бухар жырау",
+    "area_m2": 65,
+    "rent_month": 700000,
+    "ppm": 10769,
+    "first_line": "yes"
+   },
+   {
+    "id": "1016495856",
+    "address": "Толе би 27",
+    "area_m2": 152.8,
+    "rent_month": 1000000,
+    "ppm": 6545,
+    "first_line": "1 этаж"
+   },
+   {
+    "id": "1009304713",
+    "address": "Казыбек би 21",
+    "area_m2": 100,
+    "rent_month": 800000,
+    "ppm": 8000,
+    "first_line": "1 этаж"
+   }
+  ],
+  "rent_median_ppm": 8687,
+  "red_flags": [
+   "Price of 866k/m² is about 43% above area sale comps (about 607k/m²). The price is not shown in the text ('Цена: 🔥🔥🔥')",
+   "Two other corner units of about 122 m² in the same building are listed for rent at only 7.4–7.8k ₸/m² with rent-free repair holidays ('Каникулы на ремонт'). This points to oversupply in the building; a realistic gross yield is about 10.5%, against about 12% at the area median",
+   "Agent listing; condition not stated (probably rough finish)",
+   "Which street the shopfront faces is ambiguous (Толе би or Бухар жырау); both are district streets",
+   "Listing id is from 2025 and has been re-raised; it has been on the market for a long time",
+   "Not a duplicate: the same-address rent units differ in area (122 vs 127 m²) and ceiling (4.2 vs 4.8 m)"
+  ],
+  "verdict": "ok",
+  "verdict_reason": "The unit is built (2025), on floor 1, first line with a separate street entrance, in a new building by Barys Arena in a mature Нура area. It has a 4.8 m ceiling and the seller is silent on exchange. Gross yield is about 10.5–12% on 7.4–8.7k ₸/m² rents. Against that, the frontage is on district streets rather than a main avenue, the price is high against comps, and same-building vacancies suggest the building is oversupplied."
+ }
+]
