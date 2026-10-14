@@ -1,0 +1,1545 @@
+[
+ {
+  "id": "1016211805",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Е-15 (вход у арки во двор ЖК, ~90 м от южного участка ул. Айтеке би)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1268662,
+  "lon": 71.3746382,
+  "reason": "Active. Price field 28M; the description says 31M. Line: бірінші. Entrance is separate, from the street, 'прямо у арки, возле прохода к ЖК': pedestrian flow into the courtyard, not a road-traffic shopfront. The floor is NOT stated (ceiling 3 m), but an operating shop with a street entrance is probably the ground floor. Built 2021. The area is a newer quarter SW of Сыганак (Green Town, Eleven, Delta, 2021-25) that is filling up. Worth full verification only to confirm the floor and the price, as a cheap micro-location for a convenience shop.",
+  "red_flags": [
+   "floor not stated",
+   "price conflict 28M vs 31M in text",
+   "arch/courtyard pedestrian frontage on numbered street",
+   "small 54 m2"
+  ]
+ },
+ {
+  "id": "1006694047",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Күлтегін (ЖК Aruna City, Күлтегін 19), напротив школы №115",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1384707,
+  "lon": 71.3744026,
+  "reason": "Active, 62.5M, 56 m2. Line: бірінші. Separate entrance from the street. 3 large shop windows along the facade, 'первая линия оживленной дороги', 'прямо напротив школы'. Geocoded to ЖК Aruna City (Күлтегін 19). School №115 is directly across Күлтегін (≈130 m E). The established quarter of Сыганак/Айтеке би/Мухамедханов is around it (Кристалл 2, Inju City, Madi, Anisa). Real street shopfront in a mature area. The floor is NOT stated in the parameters, so it must be confirmed.",
+  "red_flags": [
+   "floor not stated",
+   "sold as turnkey food business with equipment (price includes fit-out)",
+   "1.12M/m2 above comps (+29%)"
+  ]
+ },
+ {
+  "id": "1012824124",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Айтеке би (южный участок, класс residential в OSM), ЖК Green Town (Күлтегін 4)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1284611,
+  "lon": 71.3723383,
+  "reason": "Active, 120M, 138.2 m2, floor 1, first line, separate entrance plus access to the parking, ceiling 4 m, 2024. Text: 'со стороны Айтеки би'. The Green Town building lies directly W of the N-S Айтеке би segment (≈90 m by Nominatim). Сыганак (secondary) is ≈280 m. District-street shopfront in a newer residential quarter that is filling up. No exclusion.",
+  "red_flags": [
+   "frontage on district street, not a major avenue",
+   "+18% vs comps"
+  ]
+ },
+ {
+  "id": "1016348135",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "не указана: ЖК Eleven (Күлтегін 4а), между ул. Айтеке би (~85 м) и ул. Е-15 (~95 м)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1264277,
+  "lon": 71.3726272,
+  "reason": "Active, 85M, 98 m2, floor 1, 'Первая линия', separate entrance from the street, ceiling 4.5 m, 15 kW, 2025 (Sat NS). Access to the parking. ЖК Eleven (korter: ready) is at the corner of Айтеке би and Е-15 in the same newer quarter as Green Town. The facade street is not stated (Айтеке би or Е-15). Same unit as 1016570852.",
+  "red_flags": [
+   "facade street not stated",
+   "duplicate of 1016570852 (renovated version, same price)",
+   "+27% vs comps"
+  ]
+ },
+ {
+  "id": "1010316642",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Жұбан Молдағалиев (предположительно; 'Проезжая часть'), ЖК Delta Prime, Молдагалиева 13",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1248286,
+  "lon": 71.377593,
+  "reason": "Active, 125M, 136.2 m2, floor 1, first line, separate street entrance, 4.25 m, 18 kW, gas. Text: 'густонаселенном районе, ЖК Delta... Проезжая часть. Торг'. Geocoded to ЖК Delta Prime (Молдагалиев 13), on the E side of the quarter ≈350 m E of Айтеке би. The facade faces a carriageway that is probably Молдагалиев, a district street. The listing says Есильский р-н while OSM says Нура (boundary). Ground-floor road shopfront, but expensive.",
+  "red_flags": [
+   "+50% vs comps (917k/m2)",
+   "facade street not named",
+   "year built not stated"
+  ]
+ },
+ {
+  "id": "1005337028",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Жұбан Молдағалиев 9 (ЖК Delta 5), в заголовке 'Молдагалиева — Култегин' (вероятно угол); Е-15 ~75 м",
+  "maturity": "populating",
+  "exchange_stance": "offers",
+  "promote": true,
+  "lat": 51.125604,
+  "lon": 71.3706686,
+  "reason": "Active, 76M, 92.1 m2, floor 1, first line, separate street entrance, 4.35 m (two levels possible), 15 kW, rough finish, 2025. Owner listing ('С риэлторами не работаю'). Text: 'варианты с доплатой на кв.' This most likely means the owner is open to swap options for an apartment with a top-up, an exchange signal. The direction and size of the top-up are unclear, so it must be clarified against the 'equal value, no top-up' condition. Possibly a corner unit in the newer quarter (Delta). Good price/m2.",
+  "red_flags": [
+   "exchange phrase ambiguous: 'варианты с доплатой на кв.' (top-up direction unknown)",
+   "facade street not stated in body"
+  ]
+ },
+ {
+  "id": "1014957607",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "не указана; адрес Жұбан Молдағалиев 6г (ЖК Ümit), парковка перед помещением",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.12316296,
+  "lon": 71.36495401,
+  "reason": "Active, 63.4M, 116.5 m2, floor 1, 'Первая линия', shop windows, parking in front, 4 m. Sold by the developer's partner agent. ЖК Ümit is 'construction' in korter, and the listing gives only year 2026 with no handover or keys date, so the 6-month readiness is unproven. The building sits at the SW edge of the Delta/Green Town quarter, next to other projects under construction (Baizaman, TŪLĞA). The facade street is not named. 'Альтернативные варианты' means other units, not exchange. The location is weaker than the core of the quarter.",
+  "red_flags": [
+   "under construction, keys date not stated",
+   "edge/frontier location",
+   "facade street unnamed"
+  ]
+ },
+ {
+  "id": "1015832637",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "ул. Е-900, внутренняя улица бигвилля GreenLine (Е 900 8 = GreenLine. Sakura, BI Group); Төле би ~240 м, Мұхамедханов (secondary) ~360 м",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.13564647,
+  "lon": 71.3951749,
+  "reason": "Active, 134.85M, 90 m2 (1.5M/m2), rough finish, 4.3 m, 2026. The page has NO description. The floor is not stated. Е 900 8 is GreenLine Sakura (BI Group, korter: ready) inside the GreenLine bigville, which is still largely under construction. The frontage is on the internal numbered street Е-900, not a through street, and the price is near the cap and 164% above comps.",
+  "red_flags": [
+   "floor not stated",
+   "no description",
+   "internal bigville street",
+   "1.5M/m2, +164% vs comps",
+   "price near 140M cap"
+  ]
+ },
+ {
+  "id": "1012816902",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "district_street",
+  "frontage_street": "Е-15 (OSM residential, through street, maxspeed 60), next to the residential segment of Айтеке би about 60 m west. The listing names no facade street.",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1 with no цоколь, 'Үйлер қатары: бірінші', separate door, 4 m ceiling, 18 kW, built 2025, black plaster, 75 M ₸ for 98 m². ЖК Баймура, Е-15 13/1 (Nominatim reverse matches 13/1 E 15). Dense 2015-2025 new-build cluster around Култегин, Молдагалиева and Айтеке би (density about 100 per km). The location is middling: a numbered district street, not an avenue. Promoted for full verification because the facade street and shopfront are unconfirmed (description: 'Продается коммерческое помещение'). Cheapest of the Баймура lots.",
+  "red_flags": [
+   "first line from the parameter only, with a one-line description",
+   "facade street unknown (Е-15 or Айтеке би)",
+   "no street-entrance wording ('бөлек' only)",
+   "same building as 1009586382"
+  ],
+  "lat": 51.1279236,
+  "lon": 71.3741891
+ },
+ {
+  "id": "1014049899",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "district_street",
+  "frontage_street": "Е-15 at its western end. Nominatim reverse gives '3, E 15' (an Ozon point) about 90 m south of the main ЖК Меркурий block at Айтматова 29А, so the unit is about 70 m off ул. Ш. Айтматова (district arterial). The facade likely faces Е-15 or the Е-15 / Айтматова corner.",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. ЖК Меркурий, built 2016, an established area. Floor 1 with a 66 m² ground level plus a 32 m² upper level, 4.5 m ceiling, separate door, first row per the parameter, designer renovation, currently rented by the hour for events. 55 M ₸ for 100 m², an urgent sale by an owner moving abroad. The same complex was earlier judged mature and on a district street (1009554252). Promote, to verify whether the shopfront faces Айтматова or only Е-15.",
+  "red_flags": [
+   "32 of the 100 m² are on an upper or mezzanine level",
+   "first line from the parameter only; no street named in the description",
+   "facade may face the minor Е-15 rather than Айтматова"
+  ],
+  "lat": 51.1286223,
+  "lon": 71.3595928
+ },
+ {
+  "id": "1014786127",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "district_street",
+  "frontage_street": "Most likely ул. Жубана Молдагалиева or Култегин (both district streets). The same building (Култегин 2, ЖК Культеген) has an earlier-verified first-line lot 1016054827 facing Молдагалиева. Айтеке би and Молдагалиева are about 100 m away (OSM residential).",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, first row per the parameter, separate door, built 2024, owner-seller, 120 M ₸ for 154 m² (779k per m²). No description text. Dense populating Nura cluster (Delta, Культеген, Green Town, Eleven). It meets the criteria on a district street, so it is promoted at low priority. The facade street and the shopfront need checking.",
+  "red_flags": [
+   "ceiling only 2.7 m (weak for retail)",
+   "no description, so first line comes from the parameter only",
+   "a nearby corner lot in the same building rents at about 3,650 ₸ per m² with rent holidays, a sign of weak demand",
+   "price above comps"
+  ],
+  "lat": 51.1241402,
+  "lon": 71.3718461
+ },
+ {
+  "id": "1016461049",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Кыз Жибек 38/1, Караоткель-2 (Nominatim building hit). This is a low-rise private-house-sector street about 620 m from Коргалжинское шоссе, not an avenue.",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, but the floor is not stated and a different block in the same building is цокольный. 440 m² at 117 M ₸ is only 266k per m², which is consistent with a basement or socle level. The entrance is 'бөлек, ортақ, көшеден, ауладан' (partly shared). It has a long-term tenant, but the location is a minor street in the Караоткель private sector. Basement risk plus a weak frontage, so not promoted.",
+  "red_flags": [
+   "floor not stated; another block in the building is a socle",
+   "price per m² far below the area's ground-floor level",
+   "shared entrance",
+   "object name Мадиленд; the ЖК is unconfirmed"
+  ],
+  "lat": 51.1428199,
+  "lon": 71.3880905
+ },
+ {
+  "id": "1011442602",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "A pedestrian alley inside the ЖК Республика quarter, block Н ('выходит фасадом на оживленную аллею'), near Е-36 (OSM: under construction) between Сыганак and Улы Дала. It is not a car street.",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, 59 M ₸ for 52.5 m², 4.5 m ceiling, separate door from the street, built 2026 with 'all documents in hand'. However, the floor is not stated, and the shopfront faces an internal pedestrian alley rather than a street. The investor wants a real street shopfront, so it is not promoted. The stored coordinates (51.1283, 71.4305) were a city-centroid fallback and have been corrected to Е-36 in Республика.",
+  "red_flags": [
+   "facade on a pedestrian alley, not a street",
+   "floor not stated",
+   "price about 1.12 M per m²",
+   "2026 building; confirm the acceptance act"
+  ],
+  "lat": 51.1262099,
+  "lon": 71.3836769
+ },
+ {
+  "id": "1015611379",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "ул. Умай Ана, ЖК Кашаган (Умай Ана 14), about 120 m from Коргалжинское шоссе. Access is via the parking and the building entrance, with no street shopfront.",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, but this is the twin of the excluded ЖК Кашаган lots (1013322234 and 1015796313: same address, about 150-152 m², a food-workshop tenant, 'KazGUU area'). There the twin explicitly says 'на цокольном этаже… входы через паркинг'. This listing gives no floor, the category is warehouse or production, and the ceiling is 3 m. Probable socle with no shopfront, so it is excluded.",
+  "red_flags": [
+   "probable цоколь, per the twin listing",
+   "no floor given",
+   "entrance via parking or yard; a workshop profile",
+   "needs cosmetic repair"
+  ],
+  "lat": 51.1473104,
+  "lon": 71.3851228
+ },
+ {
+  "id": "1009586382",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "district_street",
+  "frontage_street": "Е-15 (OSM residential through street), ЖК BAIMURA at Е-15 13/1, near the residential segment of Айтеке би. The description names no facade street.",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, first row per the parameter, 'бөлек, көшеден' (street entrance), 3.9 m ceiling, 80 M ₸ for 95.23 m². Sold by a developer partner (SVOYDOM, through ABY GROUP), and other units are available. The location is the same as 1012816902: a dense populating cluster on a numbered district street. Promoted for verification of the facade and the handover date.",
+  "red_flags": [
+   "year 2026 with no handover or key date stated",
+   "first line from the parameter only",
+   "same building as 1012816902, which is cheaper",
+   "numbered internal street"
+  ],
+  "lat": 51.1279236,
+  "lon": 71.3741891
+ },
+ {
+  "id": "1016570852",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Култегин 4а, ЖК Eleven (korter 51.12649, 71.37185). Within about 100 m of Айтеке би, Е-15 and Култегин, all OSM residential. The description says 'на первой линии' but names no street.",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1 with no цоколь, first line in the description ('Коммерческое помещение на первой линии'), separate door, 4.5 m ceiling, 15 kW, built 2025, freshly renovated, 85 M ₸ for 98 m². Dense populating cluster (Green Town, Delta, Культеген). It meets the criteria on district streets, so it is promoted to confirm which street the shopfront faces.",
+  "red_flags": [
+   "duplicate of 1016348135 (same unit, no renovation, same price)",
+   "also has an exit to the parking; confirm the street-side door",
+   "facade street not named",
+   "price about 37% above comps"
+  ],
+  "lat": 51.12648865,
+  "lon": 71.37185044
+ },
+ {
+  "id": "1015150418",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "major_avenue",
+  "frontage_street": "likely the пр. Аль-Фараби side road (OSM service roads named Аль-Фараби about 130-140 m south and east of E-496 4); the listing does not name the street, it only says 'Первая линия, проезжая часть'",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, no цоколь. First line on a roadway, with high car and foot traffic per the description. Esil district, southern Al-Farabi area. Operating Global Coffee franchise, 127 m², 122 M ₸, built 2021, gas, 40 kW, 4.2 m ceiling. Exchange not mentioned.",
+  "red_flags": [
+   "sold as an operating franchise business (equipment and franchise included), not as an empty unit",
+   "frontage street not named: confirm the facade faces the Al-Farabi side road and not internal E-496",
+   "density_1km is only 33 and the area is still filling up"
+  ],
+  "lat": 51.0739261,
+  "lon": 71.4292994
+ },
+ {
+  "id": "1016409729",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е 885 (internal numbered street); the listing names no frontage street. Ул. Шаймердена Косшыгулулы (secondary) is about 130 m north and is not claimed as the frontage",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active. Floor 1. First line only per the parameter field, and the description names no street (it only mentions the embankment, Small supermarket, school №80 and a kindergarten). ЖК Abai Joly-3 (Ulytau Group), 115 m², 69 M ₸, built 2025, rough finish. Internal frontage, so not a real street shopfront.",
+  "red_flags": [
+   "OSM puts the coordinates in Сарыарка district (possibly the right bank) while krisha says Нура: verify the district",
+   "frontage on internal street Е 885, not confirmed on a main road",
+   "nearby Завод газовой аппаратуры / Караоткель-2 is private-house and industrial fringe",
+   "buyer pays a 2% agent fee"
+  ],
+  "lat": 51.16448618,
+  "lon": 71.39445806
+ },
+ {
+  "id": "1016511761",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-36 / Е-37 (internal, OSM shows Е-36 under construction). The sibling listing 1011442602 in the same block H says the facade faces a pedestrian alley ('аллея'). ул. Сыганак (secondary) is about 250-300 m away",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active. Floor not stated. ЖК Республика block H, 122.7 m², 99.5 M ₸, built 2026, rough finish, no handover or keys date. The page names no street, the block faces an alley rather than a road, and the ground floor is unconfirmed.",
+  "red_flags": [
+   "floor not stated",
+   "keys or handover date not stated (2026)",
+   "facade on a pedestrian alley or internal street, not a road",
+   "address mismatch (Е 36 vs Е 37 in the title); ceiling 4.6 vs 4.7 m"
+  ],
+  "lat": 51.12673891,
+  "lon": 71.38505179
+ },
+ {
+  "id": "1016015745",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "unknown",
+  "frontage_street": "'Первая линия парка, вид на Самал Парк' (Capital Park Art, Аль-Фараби 3/2). The facade faces a park; OSM puts пр. Аль-Фараби and ул. Керей и Жанибек хандар (both secondary) about 280 m east and north of the korter point, so direct road frontage is unconfirmed",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, separate entrance from the street, 4.5 m ceiling. Park first line in the premium Capital Park quarter (BI Group). Handover November 2026, within 6 months. 53.78 m², 135 M ₸. The location is strong for foot traffic; worth full verification.",
+  "red_flags": [
+   "2.51 M ₸/m², far above Capital Park Art comps of about 1.45-1.67 M ₸/m²",
+   "facade faces a park, not confirmed on a road",
+   "still under construction (handover Nov 2026)",
+   "small unit (53.78 m²)"
+  ],
+  "lat": 51.10240844,
+  "lon": 71.45027038
+ },
+ {
+  "id": "1015853314",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "district_street",
+  "frontage_street": "Култегин 4 / Айтеке би (title 'Культегин — Айтеки Би'). Facade not stated; OSM has Култегин (residential) about 120 m and Айтеке би (residential/tertiary) about 130 m away",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active. Floor 1, ceiling 3 m. What is for sale is a whole ТОО running two kindergartens: the Култегин premises (154 m², owned) plus a leased 500 m² cottage kindergarten in another district. It is not a plain unit purchase, so the exchange and price logic do not apply.",
+  "red_flags": [
+   "sale of a company (ТОО) with an operating licensed business, not a standalone unit",
+   "part of the business is in leased premises elsewhere",
+   "entrance not stated; facade street not stated"
+  ],
+  "lat": 51.12853887,
+  "lon": 71.37253522
+ },
+ {
+  "id": "1003069004",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Е 15 (OSM residential street) between Е 13 and Е 26; ул. Нуршайыкова is about 280 m north. Description: 'Первая линия', 'Витражные окна', 'Парковка перед помещением'",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, first line, 4 m ceiling, panoramic glazing and parking in front. ЖК BAIMURA on Е-15, a street lined with several complexes. 95.23 m², 80 M ₸, built 2025, sold directly from the developer. A genuine shopfront in a filling-up area, but on a numbered local street, not an avenue.",
+  "red_flags": [
+   "frontage is numbered local street Е-15, not a main avenue",
+   "probable duplicate of 1009586382 (same ЖК, 95.23 m², 80 M ₸, same agency ABY GROUP) with different coordinates",
+   "handover status: the sibling listing says 2026 г.п.; confirm keys"
+  ],
+  "lat": 51.1274971,
+  "lon": 71.3650814
+ },
+ {
+  "id": "1016420042",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Нуршайыкова 6 (Nominatim: 6/1 Нуршайыкова). OSM also has Е 26 about 40 m and Е 13 about 86 m from the point, so the facade could face Е 26. The listing gives no street, only 'Идеальное расположение'",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, first line, entrance from the street and the yard, 4.3 m ceiling, 50 kW. ЖК Сарман, built 2016, in a mature dense area. 160 m², 110 M ₸ (687 k/m², below comps).",
+  "red_flags": [
+   "the facade street (Нуршайыкова vs internal Е 26) is not confirmed",
+   "still rough finish 10 years after completion: ask why the unit was unsold or vacant",
+   "the description is a single sentence"
+  ],
+  "lat": 51.1293831,
+  "lon": 71.3630359
+ },
+ {
+  "id": "1015916066",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "major_avenue",
+  "frontage_street": "Коргалжинское шоссе 108 (OSM primary road). 'Отличная видимость с дороги'; the sibling listing 699579297 in the same building says 'с видом и выходом на Коргальжинское шоссе'",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, first line, separate street entrance. Boston Comfort House, built 2021, fully leased with a claimed net 500 k ₸/month (about 14% yield). 95 m², 42.75 M ₸. The frontage is a major avenue, but it is in outer мкр Уркер.",
+  "red_flags": [
+   "outskirts (мкр Уркер), density_1km = 10, far from the mature core",
+   "3 m ceiling; tenant names and lease terms not disclosed",
+   "price well below the budget: one unit would need a cheap BI apartment for an equal-value exchange"
+  ],
+  "lat": 51.1231036,
+  "lon": 71.2889566
+ },
+ {
+  "id": "1016452671",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "unknown",
+  "frontage_street": "Е-127 / Е-128 (numbered streets; ЖК Тан-2, west of ЖК Тан on Коргалжинское шоссе); the facade street is not named",
+  "maturity": "frontier",
+  "exchange_stance": "refuses",
+  "promote": false,
+  "reason": "Listing is active. Floor 1, row 'бірінші', separate entrance from the street, 3 m ceiling, 40M. Keys end of 2026, which is inside the 6-month limit. The description says 'Только наличный расчет!' (cash only), which rules out an apartment exchange: hard exclusion. The location is also a new 10-storey building of about 800 flats on numbered streets in a low-density frontier area (density_1km=24).",
+  "lat": 51.148744,
+  "lon": 71.344308,
+  "red_flags": [
+   "cash only = exchange refused",
+   "frontier area",
+   "3 m ceiling",
+   "shell finish"
+  ]
+ },
+ {
+  "id": "1014061079",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Култегин 4 (ЖК Green Town). A sister listing (1012824124) says 'со стороны Айтеке би'. Both are quarter streets, not avenues.",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Listing is active, 61M for 65.5 m², 4 m ceiling, built 2025. The page has no floor, line or entrance fields and no description, so ground floor and first line cannot be confirmed. The area is mature and dense (Nura quarter of Култегин / Айтеке би / Молдагалиева, density about 100), but the frontage is a district street, not a major avenue. Price is about 36% above comps.",
+  "lat": 51.12853887,
+  "lon": 71.37253522,
+  "red_flags": [
+   "floor not stated",
+   "no description",
+   "price above comps"
+  ]
+ },
+ {
+  "id": "1015602012",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Жубана Молдагалиева (separate entrance from this street). Next to the Ozen fitness centre, opposite Alpha Fitness, near the Binom school. Сыганак (secondary road) is about 0.5 km away.",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Listing is active. Floor 1, first line, street entrance on Ж. Молдагалиева, 'высокий пешеходный и автомобильный трафик', renovated, 15 kW, leased to an operating business, built 2021. 68M for 85 m², within budget. The area is a mature, dense Nura quarter. The facade is on a busy district street rather than an avenue, but it is a genuine shopfront. Exchange is not mentioned.",
+  "lat": 51.1256549,
+  "lon": 71.3662668,
+  "red_flags": [
+   "3.3 m ceiling",
+   "street is district-level, not an avenue",
+   "tenant terms unknown"
+  ]
+ },
+ {
+  "id": "1012000046",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "ул. Жубана Молдагалиева 6/2 (ЖК Жагалау 4); the facade street is not named",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Listing is active. The description says 'Первая линия', separate entrance from the street, operating shop with tenants. The floor is not stated and the ceiling is 2.3 m. At 256k/m², 58% below comps, this strongly suggests a basement or socle unit. The unit is also pledged (9M encumbrance). The area is mature, but the basement risk means it should not be promoted.",
+  "lat": 51.1256549,
+  "lon": 71.3662668,
+  "red_flags": [
+   "floor not stated",
+   "2.3 m ceiling suggests socle/basement",
+   "pledged 9M",
+   "price far below comps"
+  ]
+ },
+ {
+  "id": "1004983323",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-314 (numbered internal street, south Есиль, ЖК Ainabulaq); the facade is not described",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Listing is active. 31.5M for 90 m² (350k/m²), 3.4 m ceiling, shell finish, entrance from the street or the yard. Floor and year are not stated. The price is about 71% below comps, and a neighbouring Ainabulaq unit is a socle on its documents, so this is likely a socle. Only the row parameter shows first line. The site is on an internal numbered street in the developing south of Есиль. The seller offers a cash discount but does not refuse an exchange.",
+  "lat": 51.0717528,
+  "lon": 71.4299506,
+  "red_flags": [
+   "floor not stated, likely socle",
+   "suspiciously cheap",
+   "internal street"
+  ]
+ },
+ {
+  "id": "1011943704",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-15 (internal numbered street; Е-28 and Е-13 nearby, Сыганак secondary road about 0.5 km, Айтматова about 0.6 km)",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Listing is active. Floor 1, row 'бірінші', separate entrance, 4 m ceiling, 15 kW, built 2025, 91M (931k/m²). There is no description, so the shopfront street is unconfirmed. The unit sits on internal Е-15 in a mature Nura quarter (ЖК Байдаулет, near Baimura at Е 15 16). This is not a major-avenue frontage, and it is expensive per m². Note that the file's coordinates (71.4957) are wrong; the corrected position is about 51.1275, 71.3651.",
+  "lat": 51.1275,
+  "lon": 71.3651,
+  "red_flags": [
+   "no description",
+   "internal street",
+   "high price per m²",
+   "source coords wrong"
+  ]
+ },
+ {
+  "id": "1016391135",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-429 (internal); ЖК Arman Meken per korter (Е 429, уч. 12б), about 340 m from ул. Шыңғыс Айтматов (secondary), not facing it",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Listing is active. Floor 1, row 'бірінші', separate entrance, 4.5 m ceiling, 65M for 92.66 m². Korter lists the complex as under construction, and the page gives year 2026 with no keys date, so readiness within 6 months is unconfirmed. The description names no street and makes no traffic or first-line claim. The site is on an internal street in a populating north-Nura area. The file's coordinates (71.2466) are wrong; the korter coordinates are used here.",
+  "lat": 51.14167319,
+  "lon": 71.3623186,
+  "red_flags": [
+   "under construction, handover not stated",
+   "internal street",
+   "no traffic or facade info"
+  ]
+ },
+ {
+  "id": "699579297",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "major_avenue",
+  "frontage_street": "Коргалжинское шоссе 108 (Қорғалжын тас жолы, primary), мкр Уркер, ЖК Boston Comfort House: 'С видом и выходом на Коргальжинское шоссе'",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Listing is active. Floor 1, first row, separate entrance from the street onto Коргалжинское шоссе (a primary arterial), long parking strip, built 2022, 22M for 57.57 m². Two neighbouring units could be combined. This is a genuine avenue shopfront with no hard exclusion. However, Уркер is a low-density outskirt (density_1km=10), so the location is weaker than central left-bank sites.",
+  "lat": 51.1229,
+  "lon": 71.28837,
+  "red_flags": [
+   "outskirts (Уркер), low density",
+   "2.8 m ceiling",
+   "shell finish, no vestibule"
+  ]
+ },
+ {
+  "id": "1015521185",
+  "active": false,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-489 (internal street just behind Нарикбаева, near KazGUU)",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "krisha shows 'Архивте – Хабарландыру өзекті болмауы мүмкін' with no contact button, so the listing is archived. The floor parameter is missing, so ground floor is unverified. ЖК Аркада 2 (built 2020, 9 floors) is at Е-489 4–6, an internal street in a mature area near Нарикбаева. The previous geocode (51.1475, 71.2466, trunk) was wrong.",
+  "lat": 51.1455,
+  "lon": 71.378,
+  "red_flags": [
+   "archived listing",
+   "floor not stated",
+   "internal street Е-489",
+   "bad prior geocode"
+  ]
+ },
+ {
+  "id": "1012969932",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Фариза Оңғарсынова (Nominatim building 'ЖК Besterek-6, 8/1, Фариза Оңғарсынова көшесі')",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, first row, separate entrance, 4.3 m ceilings, 81.1 m2, built and commissioned 2022, renovated, 70 M ₸. The building geocodes directly onto Онгарсынова, a district street in the established Expo / Nazarbayev University / BI Village area. Strongest location in this batch, although the listing does not say which side the facade faces.",
+  "lat": 51.0824,
+  "lon": 71.4431,
+  "red_flags": [
+   "facade side not stated"
+  ]
+ },
+ {
+  "id": "1015096177",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-324 / Е-321 (internal streets, Family Village, southern Есиль)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active. Floor 1, first row, street entrance, 3.9 m ceilings, rough finish, 60 M ₸. ЖК Aisar (BI) is at Е-321 4/6 per korter and is still marked 'construction'. Build year is 2026 and no keys date is given, so readiness within 6 months is unverified. It sits on an internal street in Family Village, not on an avenue. The description is one line.",
+  "lat": 51.0635,
+  "lon": 71.4232,
+  "red_flags": [
+   "korter status construction, no keys date",
+   "internal street",
+   "no description"
+  ]
+ },
+ {
+  "id": "1011531250",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-511 (internal street in the Jetisu bigville cluster, south of Улы Дала)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active. Floor 1, first row, 45 m2, 2.7 m ceilings, rough finish, built 2026. Keys are about 21.10.2026 per a sibling listing, which meets the 6-month rule. Jetisu Bereke (BI, Е-511 36) is inside the Jetisu cluster on an internal street, not on Улы Дала itself. The low ceiling and the lack of any traffic or facade claim make it a weak shopfront.",
+  "lat": 51.085,
+  "lon": 71.466,
+  "red_flags": [
+   "internal street",
+   "2.7 m ceiling",
+   "approximate coordinates (cluster centroid)"
+  ]
+ },
+ {
+  "id": "1016133823",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-652 (Family Village, AruPark cluster); entrance from the street, not the yard",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, first row, a working grocery store, 3.3 m ceilings, built 2025, 54.4 m2, 46 M ₸ and negotiable. The text says 'Проходимость хорошая, вход не со двора', so this is a real operating shopfront. The AruPark (BI) cluster is delivered and filling up. It is on an internal street, not an avenue, so it is worth verifying but not a top location.",
+  "lat": 51.0553,
+  "lon": 71.4265,
+  "red_flags": [
+   "internal street Е-652",
+   "owner relocating (motivated seller)"
+  ]
+ },
+ {
+  "id": "1016529185",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-446 / Е-915 (internal streets of Jetisu Aspan, south part of the Jetisu cluster)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active. Floor 1, 'Первая линия домов', separate entrance, renovated office layout (3 offices plus a hall), 66 m2, 2.7 m ceilings, built 2025. Jetisu Aspan (korter at Е-915 уч.21) is about 300 m south of Улы Дала on internal streets. The office layout and low ceiling make it a weak retail shopfront.",
+  "lat": 51.0812,
+  "lon": 71.468,
+  "red_flags": [
+   "internal street",
+   "2.7 m ceiling",
+   "author name differs from signature (Шаримова vs Аружан)",
+   "parking shared vs own conflict"
+  ]
+ },
+ {
+  "id": "1016073953",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Мақсұт Нәрікбаев (Nominatim building 14, Нарикбаева)",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active. Floor 1, first row, separate entrance, 72 m2, 45.45 M ₸ (631k ₸/m2, said to be below the developer's price), built 2026 with 'документы на руках'. It geocodes onto Нарикбаева 14 next to ЖК Eva and KazGUU, an established Нура/Есиль area with steady foot traffic. Facade side, the 'мкр Комсомольский' label and the 350 kW figure need checking.",
+  "lat": 51.1441,
+  "lon": 71.3852,
+  "red_flags": [
+   "address label conflict (мкр Комсомольский vs Нарикбаева)",
+   "350 kW likely typo",
+   "complex not named",
+   "2026 build — confirm keys"
+  ]
+ },
+ {
+  "id": "1013533359",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "unknown",
+  "frontage_street": "Е-538 / Е-810 near the far east end of Ұлы Дала (secondary); facade street not stated",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active. Floor 1, first row, two entrances (street and yard), 45 m2, 28.59 M ₸, built 2024. The seller holds the unit under a cession (переуступка) contract. ЖК Феникс (korter Е-810 2/21) is at the eastern end of Улы Дала near River City, which is still under construction. It is a sparse frontier area far from the mature core, and the facade onto Улы Дала is unconfirmed.",
+  "lat": 51.0999,
+  "lon": 71.5093,
+  "red_flags": [
+   "cession contract — title not registered to seller",
+   "frontier area",
+   "facade street unknown"
+  ]
+ },
+ {
+  "id": "1016478029",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_street": "ул. Е-652 (internal Family Village street); пр. Кабанбай батыра is about 250-450 m away",
+  "frontage_class": "district_street",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.0552792,
+  "lon": 71.42650187,
+  "reason": "Aru Park (BI, ready), Е-652 18, inside the Family Village bigville south of Expo/Мангилик Ел (many ready BI complexes, others still building). Floor 1 with no цоколь mention. The description says 'Первая линия / отличная просматриваемость с улицы' and the unit has its own entrance group, 5 offices, a fresh renovation and 2.75-2.8 m ceilings. 110M for 115 m² is 957k/m², about the Family Village sale median of about 935k. The shopfront faces the internal Е-652, not an avenue. A moderate location, but it qualifies.",
+  "red_flags": [
+   "frontage is an internal numbered street, not Кабанбай батыра",
+   "office layout (5 cabinets), not a retail shopfront",
+   "ceiling 2.75 m"
+  ]
+ },
+ {
+  "id": "1015850804",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_street": "unknown (ул. Е-779; nearest named road Е-117; пр. Улы Дала about 0.9 km)",
+  "frontage_class": "unknown",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.08101886,
+  "lon": 71.49418509,
+  "reason": "ЖК Salt, Е-779 32. korter lists it as under construction. Its only neighbours within 1.2 km are Bagystan and Bosağa, both still under construction, about 0.9 km off Улы Дала in the far south-east. First line rests only on the 'Үйлер қатары: бірінші' parameter. The description covers only the ЖК's amenities. Built 2026 with rough plaster and no handover/keys date, so the 6-month readiness rule is unconfirmed. Frontier location.",
+  "red_flags": [
+   "frontier area, surrounding complexes under construction",
+   "korter status construction; keys date not stated",
+   "frontage street unknown"
+  ]
+ },
+ {
+  "id": "1006518849",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_street": "unknown (ул. Е-321, Family Village / Е-314 zone)",
+  "frontage_class": "unknown",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.0681819,
+  "lon": 71.4324846,
+  "reason": "The listing names the object 'Куршавель'. That complex is not in korter, and the coordinates are only the Е-321 street centroid from Nominatim. Neighbours are Gold Land and Forest Park (ready) and Aisar and Family Gardens (building). The whole description is 'Продаем помещение в перспективном районе!'. First line comes only from the parameter field. 37 m² for 20M is 541k/m², far below the Family Village median of about 935k, which suggests a weak or internal position. No evidence of a real street shopfront.",
+  "red_flags": [
+   "complex and building position unverified",
+   "price far below area median",
+   "tiny 37 m² unit",
+   "frontage unknown"
+  ]
+ },
+ {
+  "id": "1008084418",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_street": "ул. Ш. Чокина (the listing says the ЖК runs along it, opposite the BINOM school named after А. Бокейханов)",
+  "frontage_class": "district_street",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.12046617,
+  "lon": 71.37548391,
+  "reason": "ЖК TŪLĞA (BI Group), Е-20 уч.4, west left bank next to the Култегин / Сыганак / Жубан Молдагалиев cluster. Within 1 km are Eleven, Delta, Green Town, Respublika and Dariya (all ready) and the Galaxy complexes (building). The description says 'Помещение находиться по первой линии со своим отдельным входом' and the ЖК lies along ул. Ш. Чокина, opposite a school. Floor 1, 4.2 m ceilings, enlarged windows, 'Документы на руках', built 2026. 85M for 95 m² is 895k/m². A good candidate.",
+  "red_flags": [
+   "korter still shows status construction: verify commissioning/keys",
+   "pre-finish only; 19 kW power",
+   "exact facade street not confirmed on a map (Ш. Чокина is not named in OSM)"
+  ]
+ },
+ {
+  "id": "1015602398",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_street": "unknown (address Е-810; korter point is about 120 m from the eastern end of пр. Улы Дала)",
+  "frontage_class": "unknown",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.09995153,
+  "lon": 71.50934011,
+  "reason": "ЖК Феникс (ready, 2024), Е-810 2/21, on the far south-east edge near the eastern end of Улы Дала. Within 1.2 km there is only River City (building) and Tansu. The entire description is 'Продам коммерческое помещение в ЖК Феникс, 115 кв'. First line comes only from the parameter. The entrance is from the street and from the courtyard. 55M for 115 m² is 478k/m², very cheap, which suggests low demand at this spot. It may sit near Улы Дала, but the address is on Е-810 and the frontage is unconfirmed. Low traffic on the city fringe.",
+  "red_flags": [
+   "frontier area",
+   "very low price per m² signals weak location",
+   "frontage unknown; may be courtyard-facing (entrance also from the courtyard)"
+  ]
+ },
+ {
+  "id": "1014268349",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_street": "entrance road into ЖК Jetisu Bereke on the side of the main road (listing: 'прямо на въезде', 'самое близкое помещение к Президентской трассе'); Jetisu bigville lies along пр. Улы Дала",
+  "frontage_class": "unknown",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.084,
+  "lon": 71.467,
+  "reason": "Jetisu Bereke (BI Jetisu bigville), Е-511 36. The coordinates are the Jetisu cluster centroid from korter, approximate. Aqsu, Kerbez, Kerbez Comfort and Nauryz are ready, and Satti and Aspan are building. Other Bereke ads say 'рядом с проспектом Улы Дала'. The description says 'Первая линия' and puts the unit right at the complex entrance, closest to the main road. 38.9M for 45 m² is 864k/m², below the Jetisu sale median of 917k. Worth full verification of which road the window faces.",
+  "red_flags": [
+   "ceiling only 2.7 m",
+   "built 2026; keys/handover date not stated",
+   "small 45 m²",
+   "exact facade road not confirmed; 'Президентская трасса' is ambiguous"
+  ]
+ },
+ {
+  "id": "1016366666",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_street": "ул. Е-797 / Е-876 (internal residential); ул. Айтеке би (tertiary) about 100-175 m east",
+  "frontage_class": "internal_or_courtyard",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.13817,
+  "lon": 71.37806,
+  "reason": "ЖК Атамари (Nominatim object on Е-876), between Айтеке би and Култегин in the west left-bank Сыганак / Кайым Мухамедханов zone. Of 22 complexes within 1.2 km, most are ready: Кристалл 2, Aruna City, Oner, Anisa, Madi, Inju City. Floor 1, built 2025, separate street entrance, 3 витражных окна, 3.6 m ceilings, 167 m² for 120M (719k/m²). First line rests only on the 'Үйлер қатары: бірінші' parameter. The address street is internal. Another Atamari sale (1015383077) is at 1.25M/m², which makes this price look cheap. Promote to check which side the windows face (Айтеке би vs internal).",
+  "red_flags": [
+   "first line only from parameter field",
+   "address on internal numbered street",
+   "agent (Amanat Estate) while text claims 'от собственника'",
+   "duplicate of 1016532246",
+   "rough plaster, 20 kW"
+  ]
+ },
+ {
+  "id": "1016532246",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_street": "ул. Е-797 / Е-876 (internal residential); ул. Айтеке би (tertiary) about 100-175 m east",
+  "frontage_class": "internal_or_courtyard",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.13817,
+  "lon": 71.37806,
+  "reason": "A duplicate of 1016366666: same unit (ЖК Атамари, Е-797 2, 167 m², 120M, 3.6 m, 20 kW, 3 витражных окна), posted by another Amanat Estate agent (Туран Бердалиев). Verify through 1016366666 and keep this one only as a backup contact.",
+  "red_flags": [
+   "duplicate listing of 1016366666",
+   "agent while text claims 'от собственника'"
+  ]
+ },
+ {
+  "id": "760958616",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-34 (numbered internal street, not in OSM); ЖК Baimura sits on Е-12",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "The listing is active: floor 1, line бірінші, 4 m ceiling, shop windows, parking in front, building handed over, 80 M. Nothing on exchange; the seller only says 'can offer alternatives'. OSM puts ЖК Baimura at 51.1263,71.3762 on Е-12. The nearest named roads are residential, and the secondary road Сығанақ is about 450 m away. The listing's address, Е-34 БН, is a numbered internal street in the new Turan-west quarter. 'First line' here means it faces an internal residential street, not a busy avenue.",
+  "lat": 51.12631,
+  "lon": 71.37619,
+  "red_flags": [
+   "internal numbered street Е-34",
+   "exact block (БН) unconfirmed"
+  ]
+ },
+ {
+  "id": "1006360509",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "major_avenue",
+  "frontage_street": "шоссе Коргалжын (Қорғалжын тас жолы, OSM primary, ~56 m)",
+  "maturity": "populating",
+  "exchange_stance": "refuses",
+  "promote": false,
+  "reason": "The location is strong. Nominatim matches 'Тан ТҮК, Қорғалжын тас жолы 37' at 51.1487,71.3572, and the primary road Korgalzhyn highway is about 56 m away. The unit has a street entrance and 2 entrance groups, and gymnasium 90 is behind it. However, the description says 'ДДУ, только наличный расчет! ИПОТЕКИ НЕТ!' Cash only rules out paying with an apartment, so this counts as refusing an exchange. It is also a 3-storey annex, so the 254 m² is spread over 3 floors and only part is ground-floor shopfront. It is sold under an equity agreement (ДДУ) even though the building dates from 2025.",
+  "lat": 51.14868,
+  "lon": 71.35724,
+  "red_flags": [
+   "cash only (effectively refuses exchange)",
+   "sold under ДДУ (equity agreement), not ownership",
+   "3-storey annex, ground floor only part of 254 m²"
+  ]
+ },
+ {
+  "id": "1014113694",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-797 (internal); OSM Атамари is on Е-876, and the tertiary road Әйтеке би is ~170 m away",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "The listing is active: floor 1, бірінші, 3.6 m ceiling, 3 shop windows, built 2025, 120 M. Nothing on exchange; 'можно через банк'. OSM puts Атамари at 51.1382,71.3781 on the internal street Е-876; the listing gives Е 797 2. The nearest tertiary road is about 170 m away, so the shopfront faces an internal street in a new quarter. It duplicates 1013404419.",
+  "lat": 51.13817,
+  "lon": 71.37806,
+  "red_flags": [
+   "internal numbered street",
+   "duplicate of 1013404419"
+  ]
+ },
+ {
+  "id": "1011824564",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Максут Нарикбаев (corner with Мухаметханова); OSM tertiary road ~51 m away",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "The listing is active: floor 1, бірінші, separate entrance, built 2015, recently renovated, 70 kW. A tenant pays 500k ₸/month plus utilities, and the price is 39 M. Nominatim matches ЖК Сеним, Нарікбаев 9 at 51.1459,71.3821. It is a corner building: Нарікбаев is about 84 m away and a tertiary road is about 51 m away, in an established 2010s neighbourhood. This is a real street shopfront in a mature area with no hard exclusion. Its weaknesses are the 2.6 m ceiling and the small 77 m² area.",
+  "lat": 51.14585,
+  "lon": 71.38211,
+  "red_flags": [
+   "low ceiling 2.6 m",
+   "sold as operating food-service business; need to confirm the sale is of the premises with a tenant"
+  ]
+ },
+ {
+  "id": "1016176914",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "probably Е-13 (internal, ~86 m) or Әзілхан Нұршайықов (residential, ~330 m); not stated",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "The listing is active: floor 1, бірінші, 3.5 m ceiling, fitted out as cabinets, built 2022, 104 M, about 1 M ₸/m², which is high. OSM has Нұршайықов 6/1 at 51.1294,71.3630, where the nearest roads are the internal streets Е-13 and Е-26. Another listing in the same building, 1016407139, says it is in the courtyard (аулада), so first line is doubtful. The area is a new quarter west of Turan.",
+  "lat": 51.12938,
+  "lon": 71.36304,
+  "red_flags": [
+   "first line contradicted by a sibling listing (courtyard)",
+   "high price per m²"
+  ]
+ },
+ {
+  "id": "1011026794",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-36 (OSM highway=construction, internal); the complex also borders Сығанақ (secondary)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "The listing is active, at 140 M, exactly the cap. Only 108 m² is on floor 1; the other 42 m² is on floor 2. It has a 4.6 m ceiling and is an operating business. The address is Е36 2, ЖК Республика, around 51.1267,71.3851. In OSM, Е-36 is a road still under construction, and Сығанақ (secondary) runs on the other side of the complex near block A. The address points to the internal Е-36 frontage, not Сығанақ.",
+  "lat": 51.12674,
+  "lon": 71.38505,
+  "red_flags": [
+   "price at cap",
+   "28% of the area is on the 2nd floor",
+   "internal street under construction"
+  ]
+ },
+ {
+  "id": "695338630",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Максут Нарикбаев",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "The location is good: ЖК Энергетик, Нарікбаев 10, at 51.1425,71.3872, with school 79 opposite and a pharmacy, WB, Ozon pick-up and coffee shops next door. However, it is not a whole unit. The seller is selling their half of a 106 m² unit that has two owners ('Продам свою часть помещения... на два хозяина'). A co-owned share comes with the co-owner's pre-emptive right and cannot be used independently, so it is not a standalone shopfront. The ceiling is also only 2.7 m.",
+  "lat": 51.14248,
+  "lon": 71.3872,
+  "red_flags": [
+   "share (доля) of a co-owned unit, not a whole unit",
+   "co-owner pre-emptive right",
+   "ceiling 2.7 m"
+  ]
+ },
+ {
+  "id": "1015344068",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-882 / Шаймерден Қосшығұлұлы 15б (OSM)",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "The listing is active: floor 1, бірінші, entrance from the street, 4 m ceiling, rough finish, built 2025, 69 M, no description. Nominatim matches 'ЖК Abai Joly 3, 15б, Шаймерден Қосшығұлұлы' at 51.1648,71.3948, which OSM places in Сарыарқа district. That point is about 200 m north of the Есіл river, so it is on the right bank, not the left bank, even though krisha labels it Нура. The area is a new development by the river, and the given street Е-882 is internal.",
+  "lat": 51.16475,
+  "lon": 71.39478,
+  "red_flags": [
+   "probably right bank (OSM Сарыарқа), outside the left-bank target",
+   "new development area",
+   "internal street"
+  ]
+ },
+ {
+  "id": "762188970",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Жубан Молдагалиев (corner of Култегин 2); listing header: 'Выход офиса на проезжую часть ул Ж.Молдагалиева'",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1241402,
+  "lon": 71.3718461,
+  "reason": "Active. Floor 1 with no цоколь mention. Row is 'бірінші' and the entrance is separate from the street. The header says the office exits onto the Moldagaliev carriageway. Built 2024, 130.1 m2, 78.06M (600k/m2, well under budget). Nominatim puts Култегин 2 at the Kultegin/Moldagaliev junction, next to ready complexes Green Town, Eleven and Delta. This is a populating left-bank residential cluster. The frontage is a district street, not an avenue. The listing has almost no description.",
+  "red_flags": [
+   "description almost empty ('Новый перспективный район')",
+   "3 m ceiling",
+   "faces district street, not major avenue"
+  ]
+ },
+ {
+  "id": "1011045384",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Жубан Молдагалиев (ЖК Delta, No. 7)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1258818,
+  "lon": 71.3681717,
+  "reason": "Active. Floor 1, first row, separate street entrance. 4.5 m ceiling, 34 kW. Korter lists ЖК Delta as ready, built 2025. Nominatim finds 'ЖК Delta 4, 7, Жұбан Молдағалиев'. It sits in the same populating Kultegin/Moldagaliev cluster as the other ready complexes. The location is a genuine street shopfront on a district street. The price is high for the area: 1.145M/m2 vs about 600k/m2 for 762188970 nearby.",
+  "red_flags": [
+   "price per m2 about 2x nearby comps",
+   "no description; facing street not stated explicitly",
+   "'срочно, торг' flag"
+  ]
+ },
+ {
+  "id": "1016533308",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-797 per listing (OSM places ЖК Атамари on Е-876); numbered internal street, facing street not named",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1381687,
+  "lon": 71.3780564,
+  "reason": "Active. Floor 1, first row, separate street entrance, 3 shopfront windows. 167 m2, 3.6 m ceiling, built 2025, 120M (719k/m2). OSM places ЖК Атамари at 51.138,71.378. That is beside long-ready complexes (Aruna City, Inju City, Oner, Кристалл 2, Miami), a mature left-bank area. The frontage is a numbered internal street, not an avenue. The text says 'от собственника без комиссии', but the author is an agent (Amanat Estate).",
+  "red_flags": [
+   "numbered internal street frontage",
+   "description says owner/no commission but listed by agent",
+   "20 kW only"
+  ]
+ },
+ {
+  "id": "1016073496",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "unknown",
+  "frontage_street": "ул. Маметова 24 (not found in OSM/Nominatim for Astana; facing street not stated)",
+  "maturity": "unknown",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active. A full 1st floor, first line per the text, separate entrance, 2.7 m ceiling. Sold as a rental business at 52M (650k/month plus an office at 150k). Mametova street could not be located in OSM or korter. Listing 1016436884 places a 'Маметова' street in мкр Уркер/Жагалау. That is a peripheral, mostly low-rise area, not a mature avenue location. No complex name and no window orientation are given. The building cannot be confirmed as a street shopfront with good location.",
+  "red_flags": [
+   "location not geocodable; likely Уркер/Жагалау periphery",
+   "window grilles mentioned, low 2.7 m ceiling",
+   "no complex name, facing street unknown"
+  ]
+ },
+ {
+  "id": "1015889875",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "unknown",
+  "frontage_street": "Е-103 (ЖК SPACE, No. 5); block lies along пр. Туран south end, but listing does not say whether windows face Туран or Е-103",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.0804042,
+  "lon": 71.3785729,
+  "reason": "Active. Floor 1, first line, separate street entrance, 2 shopfront windows. 45.4 m2, built 2025, 29.99M. OSM puts Е-103 and Space Plus (BI) at 51.080,71.380, right by пр. Туран (Tamos school at Туран 89/1). If the shopfront faces Туран it is an avenue location. The address on Е-103 suggests an internal side instead. The area at the south end of Туран is still being built out. Worth verifying the facade orientation.",
+  "red_flags": [
+   "price in description (32M) differs from listed 29.99M",
+   "small 45 m2, 2.7 m ceiling, 9.27 kW",
+   "facing street unconfirmed (Туран vs Е-103)",
+   "south Туран area still under construction"
+  ]
+ },
+ {
+  "id": "1009575143",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-15 (numbered internal street, БН); facing street not named",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1279135,
+  "lon": 71.3586976,
+  "reason": "Active. Floor 1, first line, separate street entrance, 4 m ceiling, shopfront windows, parking in front. Built 2025, 98 m2, 91M (929k/m2). Nominatim puts Е-15 at 51.128,71.359 near Aitmatov street. Neighbours are ЖК Abadan (ready), with Baizaman and Next One under construction. This is a populating western edge of the left bank. The frontage is a numbered internal street. 'Альтернативные варианты' is not an exchange offer. The seller is a developer partner (ABY Group).",
+  "red_flags": [
+   "numbered internal street, address БН",
+   "high price per m2 vs nearby comps",
+   "neighbouring blocks still under construction"
+  ]
+ },
+ {
+  "id": "1014023790",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Жубан Молдагалиев (ЖК Umit, korter: No. 6г); facing street not stated",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.12316296,
+  "lon": 71.36495401,
+  "reason": "Active. Floor 1, first line, separate entrance, 4 m ceiling, shopfront windows. 97.8 m2 at 58.19M (595k/m2, cheap). It is in the same populating Moldagaliev cluster as Delta. The listing says build year 2026 with no handover date. Korter marks ЖК Ümit as 'construction'. Readiness within 6 months must be confirmed before it can qualify.",
+  "red_flags": [
+   "korter status 'construction'; handover/keys date not stated (6-month rule unverified)",
+   "facing street not stated",
+   "'tenants ready to rent' is a sales claim, no lease"
+  ]
+ },
+ {
+  "id": "1016436884",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "мкр Уркер, Жагалау, Маметова 2; entrance 'бөлек, ауладан' (from courtyard)",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.129687,
+  "lon": 71.28114,
+  "reason": "Active, floor 1. The row field says first, but the entrance is from the courtyard, so it is not a street shopfront. 36 m2, built 2018, a tailor shop tenant. It is in мкр Уркер on the western periphery, a largely low-rise area (coordinates are for the Уркер centroid, not the building). It fails the investor's 'real street shopfront, best location' priority.",
+  "red_flags": [
+   "courtyard entrance, not street-facing",
+   "peripheral мкр Уркер",
+   "tiny 36 m2",
+   "power '220 kW' likely a data-entry error"
+  ]
+ },
+ {
+  "id": "1008918027",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "corner of Е-900 and Толе би, inside the GreenLine bigville (the page title says 'Е-900 — Толеби'; which side the shopfront faces is not stated)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1345,
+  "lon": 71.396,
+  "reason": "Active, floor 1, first line stated in the text, separate street entrance, 3.9 m ceiling, built 2025. Corner of Е-900 and Толе би in the GreenLine bigville. OSM tags this stretch of Толе би as a residential street. The area is filling up (GreenLine Sakura is ready, the other phases are under construction). Coordinates are approximate, taken from Nominatim and the nearby GreenLine Sakura entry in korter.",
+  "red_flags": [
+   "the price of 137M is close to the 140M cap",
+   "the facing street (Толе би or Е-900) is unconfirmed",
+   "GreenLine Astra is not in korter, so its completion is taken only from the listing"
+  ]
+ },
+ {
+  "id": "1015383077",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Айтеке би (OSM class tertiary), corner of Е 797; opposite school No.115",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1382,
+  "lon": 71.3781,
+  "reason": "Active, floor 1, first row of buildings, separate street entrance, large parking area, opposite a school. Nominatim places ЖК Атамари at Е-876 in the Sat City / Oner cluster of Нура, a lived-in area. Айтеке би is a tertiary through-street. Price is 65M (1.25M per m²).",
+  "red_flags": [
+   "the facing street is not stated explicitly (corner of Е 797 and Айтеке би)",
+   "small unit of 52 m²",
+   "the coordinates are for the Атамари complex, not this unit"
+  ]
+ },
+ {
+  "id": "1016206926",
+  "active": false,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Әнет баба 9/1в (ЖК Oner), next to a pedestrian alley",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.13685,
+  "lon": 71.3834,
+  "reason": "The page shows 'Архивте. Хабарландыру өзекті болмауы мүмкін' and has no contact button, so the listing is archived. Floor 1, stated as not a basement, built 2022, has a tenant. It faces an alley inside the complex rather than a traffic street.",
+  "red_flags": [
+   "archived listing",
+   "alley or courtyard frontage",
+   "high price of 985k per m²"
+  ]
+ },
+ {
+  "id": "1015975731",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е538 (numbered internal street); the facing side is not stated",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.1021,
+  "lon": 71.5034,
+  "reason": "Active, operating grocery/drinks shop, 60 m², 33.2M. The floor is not stated anywhere. It faces a numbered internal street. The only nearby korter reference (ЖК River City at Е538/Е810) reverse-geocodes to Сарайшық district, not Есиль. The 'top location' claim is not backed by anything on the page.",
+  "red_flags": [
+   "floor not stated",
+   "the district may be Сарайшық rather than Есиль",
+   "internal numbered street",
+   "coordinates are approximate (River City proxy)"
+  ]
+ },
+ {
+  "id": "1013950300",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-779 (numbered internal street), ЖК Salt",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.08102,
+  "lon": 71.49419,
+  "reason": "Active, but has no description and no floor field. The 2.85 m ceiling is typical of a residential floor, not a ground-floor shop. korter lists ЖК Salt as still under construction, while the listing says built 2025. The complex is on an internal numbered street in the south-east fringe of Есиль.",
+  "red_flags": [
+   "floor not stated",
+   "low 2.85 m ceiling",
+   "completion conflict (korter says under construction)",
+   "no description"
+  ]
+ },
+ {
+  "id": "1016532096",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Е-321 (OSM class residential), near Family Village / Gold Land; panoramic windows facing a road with traffic",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.06353,
+  "lon": 71.42323,
+  "reason": "Active, 142 m², 135M, street entrance, three panoramic windows onto a road with traffic. The floor is not stated. Е-321 is a minor residential street on the southern fringe of Есиль, next to cottage villages. The location is weak for 950k per m², near the top of the budget. ЖК Aisar is a BI Group complex.",
+  "red_flags": [
+   "floor not stated",
+   "minor street on the southern fringe",
+   "the price of 135M is close to the cap"
+  ]
+ },
+ {
+  "id": "1015385060",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "major_avenue",
+  "frontage_street": "Коргалжынское шоссе at the Е-127 crossing (ЖК Satty Jol, Коргалжын 40а)",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": true,
+  "lat": 51.1489,
+  "lon": 71.3404,
+  "reason": "Active, 196.9 m² for 98.3M (499k per m²). Separate street entrance, no apartments above, which points to a standalone commercial block. It sits at the crossing of Е-127 and Коргалжынское шоссе, a primary highway with steady traffic. It is promoted for the major-avenue frontage, but floor and completion must be verified. Coordinates use the ULAGAT complex (Коргалжын 40б) as a proxy.",
+  "red_flags": [
+   "floor not stated",
+   "the 2026 completion date and keys are unconfirmed",
+   "western end of Коргалжын, where the area is still frontier (most nearby complexes are under construction)",
+   "which side faces the highway is not stated",
+   "price per m² differs between header (499k) and text (490k)"
+  ]
+ },
+ {
+  "id": "1014915157",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Гринлайн аллея, the pedestrian alley inside ЖК Sat City (Санжар Асфендияров 11, block J)",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "lat": 51.13707,
+  "lon": 71.3775,
+  "reason": "Active, floor 1, 4.5 m ceiling, 110M. The description says the shopfront faces the pedestrian alley inside the complex. There is foot traffic but no car frontage, so it is not a street shopfront. The area is mature.",
+  "red_flags": [
+   "frontage on a pedestrian alley only, not a traffic street",
+   "entrance not described",
+   "high price of 995k per m²"
+  ]
+ },
+ {
+  "id": "1015306244",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е882 (numbered internal street; ЖК Abai Joly 3, Е882 15б)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, 86.5M, 115.6 m², separate entrance, 4 m, built 2025. Floor not stated. OSM places Е882 15б (51.1648,71.3945) in the Сарыарка district on the RIGHT bank, not Нура. The frontage is the internal Е882 among new ЖК still under construction (Ferrum City, Shakarim Avenue, Anyz Avenue). Not a major-street shopfront.",
+  "lat": 51.16476,
+  "lon": 71.3945,
+  "red_flags": [
+   "district mismatch: OSM says Сарыарка (right bank)",
+   "floor not stated",
+   "internal numbered street",
+   "area still building out"
+  ]
+ },
+ {
+  "id": "1006199201",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Е-251 (2-lane through street with 1-storey commercial strip; Әйтеке би ~290 m)",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active, 95M, 133 m², 4.2 m, separate entrance from the street. The description says 'Первая линия, улица Е-251'. The building is Е-489 6 (9 floors) at 51.1444,71.3787 in an established Есиль quarter near ЖК Керемет, ЖК Сеним, school-lyceum №79 and Нарикбаева. Е-251 already has a row of small commercial buildings. The floor is not stated and must be checked.",
+  "lat": 51.14435,
+  "lon": 71.3787,
+  "red_flags": [
+   "floor not stated",
+   "year built not stated",
+   "frontage is a numbered secondary street, not an avenue"
+  ]
+ },
+ {
+  "id": "1016223371",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "district_street",
+  "frontage_street": "Максут Нарикбаева / Әйтеке би (tertiary ~75 m); ЖК Сеним retail facade",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": true,
+  "reason": "Active, 120M, 190 m², separate street entrance, ЖК Сеним (2015), near КазГЮУ. OSM shows a working retail facade on the same building at Нарикбаева 9: Alma, Jana Post, Satti, Procar, Актив Ломбард and Алматы Лагман. This is the best location in this batch. It is sold with the anti-café UTOPIA business. The floor is not stated, and the 2.8 m ceiling and the large hall plus 5 VIP rooms may mean a non-ground floor, so the floor must be confirmed.",
+  "lat": 51.14594,
+  "lon": 71.38179,
+  "red_flags": [
+   "floor not stated",
+   "sold with operating business (anti-café)",
+   "ceiling only 2.8 m"
+  ]
+ },
+ {
+  "id": "1016432521",
+  "active": true,
+  "ground_floor_ok": true,
+  "first_line_confirmed": false,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Азильхан Нуршаихов (residential; Сыганак secondary ~200 m)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, 110M, 160.3 m², floor 1, 4.5 m, 50 kW, built 2025. The parameters say first row, but listing 1016433635 for the same unit (ЖК Сарман, Нуршаихов 6, 160 m², 50 kW, 2025, 112M) says 'Үйлер қатары: аулада' (courtyard). The frontage is the internal Нуршаихов street, not Сыганак.",
+  "lat": 51.12938,
+  "lon": 71.36304,
+  "red_flags": [
+   "duplicate listing 1016433635 states courtyard (аулада)",
+   "internal street frontage"
+  ]
+ },
+ {
+  "id": "1016552832",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Маншук Маметовой (OSM: right bank, Байконыр, 1-storey buildings)",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, 17M, 51.6 m², shared entrance, 2.7 m, 2023, no description. The only Маметовой street in OSM is on the right bank (Байконыр, 51.161,71.434), not Нура. With a shared entrance, no description and a very low price, this is unlikely to be a street shopfront.",
+  "lat": 51.1609589,
+  "lon": 71.434172,
+  "red_flags": [
+   "district mismatch: street is on the right bank (Байконыр)",
+   "shared entrance",
+   "floor not stated",
+   "no description",
+   "suspiciously cheap"
+  ]
+ },
+ {
+  "id": "1015610620",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е 923 (numbered; korter places Kerey Comfort at Е-410/Е-428, near Яглинский / Е-181)",
+  "maturity": "frontier",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, 115M, 150 m², 3.8 m, built 2025, entrance from the street and the courtyard. ЖК Kerey Comfort (korter 51.1535,71.3601) is in the north-west edge quarter, where the only nearby streets are residential (Яглинский, Е-181). korter lists the complex as 'construction'. The floor is not stated, and there is no major street.",
+  "lat": 51.1535354,
+  "lon": 71.36006892,
+  "red_flags": [
+   "frontier area",
+   "internal numbered street",
+   "floor not stated",
+   "korter status construction"
+  ]
+ },
+ {
+  "id": "1016423588",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": true,
+  "frontage_class": "internal_or_courtyard",
+  "frontage_street": "Е-36 (internal, south side of ЖК Respublika; Сыганак secondary on north side)",
+  "maturity": "populating",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, 120M, 123.3 m², 4.6 m, street entrance, 2026 (korter: ready), no description. The address Е-36 6 puts the unit on the internal Е-36 street facing a 1-storey commercial building (Е-36 5), not on Сыганак (block A is Сыганак 24). At 973k/m² it is expensive for an internal frontage. The floor is not stated. Borderline: it could be promoted only if the unit actually faces Сыганак.",
+  "lat": 51.1265,
+  "lon": 71.3845,
+  "red_flags": [
+   "internal street frontage",
+   "floor not stated",
+   "no description",
+   "high price per m²",
+   "2026 completion: verify keys"
+  ]
+ },
+ {
+  "id": "1008500394",
+  "active": true,
+  "ground_floor_ok": false,
+  "first_line_confirmed": false,
+  "frontage_class": "district_street",
+  "frontage_street": "Хейдар Әлиев (tertiary, 6 lanes)",
+  "maturity": "mature",
+  "exchange_stance": "silent",
+  "promote": false,
+  "reason": "Active, 28M, 54 m². The description says 'Помещается 2-3 машины. Идеально под склад, либо производство', so this is a garage or storage room with a shared entrance, not a shopfront. Row and floor are not stated. The location on Хейдар Әлиев near Мангилик Ел/EXPO is mature, but the unit type excludes it.",
+  "lat": 51.10056,
+  "lon": 71.41204,
+  "red_flags": [
+   "garage/warehouse, not retail",
+   "shared entrance",
+   "floor not stated (likely basement/parking level)",
+   "line not stated"
+  ]
+ }
+]
