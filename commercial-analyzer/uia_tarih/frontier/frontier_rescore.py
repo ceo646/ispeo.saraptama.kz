@@ -3,8 +3,10 @@
 usage: frontier_rescore.py <scored.json> <orient.json> <out.json>
 
 <scored.json>: old per-office scores (key, area, price, ppm, rent, y, handover, loc).
-<orient.json>: {key: [factor, reason]}; factor = how the frontage sits relative to the only
-real flows (residents walking/driving north to пр. Улы Дала; nothing south or west).
+<orient.json>: {key: [factor, reason, handover_override?]}; factor = how the frontage sits
+relative to the only real flows (residents walking/driving north to пр. Улы Дала; nothing
+south or west). handover_override replaces the sheet quarter when imagery shows the block
+far behind schedule.
 
 Mature asking rent M = old rent x DEFLATOR x factor, where DEFLATOR moves the old anchor
 (ÜIA pre-delivery asks, ~9,200 for the best TARIH frontage) to the delivered-analog level:
@@ -41,10 +43,10 @@ def noi_stab(M, area, price, edge):
     return M * area * 12 * 0.9 * VAC[edge] * (1 - TAX) - 0.005 * price - SOC
 
 
-def five_year(o, M, edge, scen):
+def five_year(o, M, edge, scen, handover):
     """Average annual net cash yield over 60 months from purchase (income only)."""
     area, price = o["area"], o["price"]
-    mk = KEYS[scen][o["handover"]]
+    mk = KEYS[scen][handover]
     r = RAMP[scen]
     lag = r["lag"] + (3 if edge else 0)
     cash = 0.0
@@ -66,10 +68,11 @@ def five_year(o, M, edge, scen):
 
 res = []
 for o in offices:
-    f, why = ORIENT[o["key"]]
+    f, why, *rest = ORIENT[o["key"]]
+    handover = rest[0] if rest else o["handover"]
     edge = f <= EDGE
     row = dict(key=o["key"], area=o["area"], price_m=round(o["price"] / 1e6, 2), ppm=int(o["ppm"]),
-               handover=o["handover"], old_rent=o["rent"], old_y=round(o["y"] * 100, 1),
+               handover=handover, old_rent=o["rent"], old_y=round(o["y"] * 100, 1),
                factor=f, edge=edge, why=why, loc=o.get("loc"), h=o.get("h"),
                in_budget=BUDGET[0] <= o["price"] <= BUDGET[1])
     for name, A in ANCHORS.items():
@@ -77,8 +80,8 @@ for o in offices:
         row[f"M_{name}"] = round(M)
         row[f"stab_{name}"] = round(noi_stab(M, o["area"], o["price"], edge) / o["price"] * 100, 1)
     Mb = o["rent"] * ANCHORS["base"] / OLD_ANCHOR * f
-    row["y5_base"] = round(five_year(o, Mb, edge, "base") * 100, 1)
-    row["y5_slow"] = round(five_year(o, o["rent"] * ANCHORS["low"] / OLD_ANCHOR * f, edge, "slow") * 100, 1)
+    row["y5_base"] = round(five_year(o, Mb, edge, "base", handover) * 100, 1)
+    row["y5_slow"] = round(five_year(o, o["rent"] * ANCHORS["low"] / OLD_ANCHOR * f, edge, "slow", handover) * 100, 1)
     noi = noi_stab(Mb, o["area"], o["price"], edge)
     row["value_ppm_cap10"] = int(noi / CAP / o["area"])
     row["equity_gap_pct"] = round((noi / CAP - o["price"]) / o["price"] * 100)

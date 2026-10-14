@@ -1,0 +1,951 @@
+[
+ {
+  "key": "geometry",
+  "result": {
+   "blocks": [
+    {
+     "block": "E",
+     "position": "NW corner of the cluster, about 100 m SSE of the Айтматова/Улы Дала junction. Local frame (x east, y north, metres from the junction): x 0..105, y -90..-205. It is an L of sections 1–4: section 1 runs N–S on the west side, sections 2–4 run along Улы Дала. Section 5 (9 floors) sits on the courtyard diagonal at the SE. OSM 'ЖК ŪIA.DARYN блок Е' (Улы Дала 10а) matches.",
+     "on_uly_dala": "YES. The north façades of sections 2–4 face the avenue about 50 m back from the kerb, behind a green strip and a parking/service strip. The west façade (section 1) faces the unpaved stub 25–40 m away, with site cabins and steppe beyond. Section 5, which holds office E-2, is not on any road.",
+     "confidence": "high",
+     "lat": 51.1054,
+     "lon": 71.35122,
+     "imagery_status": "Topped out. The facade looks essentially complete. Long tall-building shadows appear on the S2 scenes of 2025-10-28 and 2026-10-13 (55% of the zone in shadow vs 1% on open ground). Keys due Q4 2026."
+    },
+    {
+     "block": "F",
+     "position": "Directly south of E along the cluster's west edge: x -40..60, y -200..-305, about 200–300 m S of the junction. Sections 3 and 4 form the north edge, on a narrow lane (about 15–20 m) between F and E. Sections 2 and 1 form the south edge, on the DARYN|TARIH boundary street (fence/drive at about y -305). The west façades face the unpaved stub (about 40–60 m), with steppe beyond.",
+     "on_uly_dala": "NO. About 150–250 m from the avenue, and E stands in between.",
+     "confidence": "medium (block position high; individual section positions ±20 m)",
+     "lat": 51.10445,
+     "lon": 71.35064,
+     "imagery_status": "Tall towers stand in every part of the block. On the undated Google image (mid-2026) towers were at or near full height with cranes. On 2026-10-13, 44% of the zone is in shadow, so it is probably topped out (estimate)."
+    },
+    {
+     "block": "G",
+     "position": "South-east of F and south of the PLAY HUB: x 50..180, y -215..-335. Section 5 (17-floor point tower) is at about x 52–98, y -222..-260, facing the PLAY HUB to the north. The 8+7 slab runs E–W at about x 64–150, y -298..-325, directly on the boundary street. Section 6 (17-floor tower) is at about x 143–173, y -290..-335. D's Г-shape is to the NE, as on the G key plan.",
+     "on_uly_dala": "NO. About 175–250 m from the avenue, with D and E in between.",
+     "confidence": "medium",
+     "lat": 51.10418,
+     "lon": 71.35207,
+     "imagery_status": "On the Google image (mid-2026) sections 5 and 6 were still rising with cranes. On 2026-10-13 all three parts cast tall shadows (31–41% of each zone). Topped out or close to it (estimate, medium-low)."
+    },
+    {
+     "block": "C",
+     "position": "West arm of the M/C U. Section 1 (17 floors, подъезд 1, which holds offices C-2..C-5) is a standalone N–S slab at x 250–280, y -152..-216. Its short north end faces Улы Дала. Sections 2 (14 floors) and 3 (12 floors) continue south at x 232–262 to y about -310. A narrow internal drive (about 10–20 m) separates C from D to the west. The M/C courtyard lies to the east.",
+     "on_uly_dala": "PARTLY. Only the narrow north end of section 1 faces the avenue, about 40 m from the kerb behind a parking strip. The long façades are perpendicular to the road. Sections 2 and 3 are not on the avenue.",
+     "confidence": "medium",
+     "lat": 51.10463,
+     "lon": 71.35415,
+     "imagery_status": "Section 1 topped out (long shadow, 56% of the zone; already tall on the Google mid-2026 image). Sections 2 and 3 were low on the Google image and are tall by 2026-10-13 (30% of the zone). Probably topped out (estimate)."
+    },
+    {
+     "block": "M",
+     "position": "East arm of the M/C U. On the key plan, section 7 (14 floors) is L-shaped and stands on Улы Дала, with a wing running west along the avenue. Sections 6, 5 and 4 run south. Estimated footprint x 290–345, y -165..-350. A low 'yourt' block at x 212–290, y -310..-365 closes the U on the south. The east façades (all scored M offices) open onto Аллея Bolashaq at about x 340–355. Across the alley: lot A for sections 7 and 6, and block H for sections 5 and 4. The south end of section 4 is on the DARYN|TARIH boundary street at about y -370.",
+     "on_uly_dala": "YES for section 7 only: north façade and west wing, about 40–50 m from the kerb. According to the sheet notes, offices 33/34/35, which are not in our scored set, are on that façade. Sections 6, 5 and 4 are not on the avenue.",
+     "confidence": "medium (I placed it from the key-plan proportions plus the mid-2026 Google image, where only two light ground-level slabs occupied this footprint)",
+     "lat": 51.10436,
+     "lon": 71.35508,
+     "imagery_status": "NOT topped out (estimate, medium-low). On the Google image (mid-2026) only flat ground-level slabs. On 2026-09-08 and 2026-10-13 the zone stays bright: 15–23% shadow, against 40–55% at the tall blocks. Keys due Q1 2027 look at risk of slipping."
+    },
+    {
+     "block": "H",
+     "position": "U open to the west at x 345–430, y -258..-388, east of M's south half. The north bar (sections 1 and 2) is at about y -263. The east column (sections 3 and 4) is at about x 400–430. Section 5 is on the south. The west side is on Аллея Bolashaq. The north side ('Перспективная улица') is only a narrow strip against the fence of lot A. The east side faces a N–S drive with parked cars (x about 430–450), then block B to the NE and a large BI site camp (blue cabins), where the brochure shows a kindergarten. South is the boundary drive, then the BI camp and materials yard. No TARIH buildings stand opposite H.",
+     "on_uly_dala": "NO. About 115–240 m from the avenue, with lot A in between.",
+     "confidence": "medium",
+     "lat": 51.1038,
+     "lon": 71.35605,
+     "imagery_status": "On the Google image (mid-2026) the frames were rising with cranes. By September–October 2026 there is a clear N–S shadow band north of the block (28% of the zone in shadow), so it is at or near full height. Topped out probably, but not confirmed."
+    },
+    {
+     "block": "K",
+     "position": "South half of the closed A+K block at the EAST end of DARYN: x 528–682, y -330..-470, about 650–810 m ESE of the junction. A (finished, landscaped courtyard) is on Улы Дала to its north and B is to the NW. East side: an edge drive (x about 680–700), then an empty field about 120 m wide (x 700–820), then a separate construction cluster (probably SŪNQAR or BIRLIK; not verified). South side: an edge track, then open steppe. The tree nursery starts at y about -580. School №118 is across Улы Дала, about 0.35–0.4 km NNE of K-14.",
+     "on_uly_dala": "NO. A stands in between; K is about 200–270 m from the kerb.",
+     "confidence": "medium-high",
+     "lat": 51.1031,
+     "lon": 71.35923,
+     "imagery_status": "On the Google image (mid-2026) most of K was built and the courtyard was landscaped; the NE corner was still under construction. On 2026-10-13 it is structurally complete (estimate). Keys due Q4 2026."
+    },
+    {
+     "block": "PLAY HUB",
+     "position": "Open central space bounded by E section 5 (NW), D (N/NE), C sections 2–3 (E), G section 6 (S) and G section 5 / F (W): roughly x 95–222, y -205..-300, centre about (150,-245). Measured area about 0.7–1.0 ha, not 2 ha (estimate).",
+     "on_uly_dala": "NO. About 160 m from the avenue, screened by D and E. The only openings are the E–D gap and the narrow D–C drive.",
+     "confidence": "medium",
+     "lat": 51.1045,
+     "lon": 71.35265,
+     "imagery_status": "No visible park or sports works. On the Google image (mid-2026) it was a construction staging area with materials, a crane and one concrete slab. Sentinel-2 at 10 m cannot show landscaping. It is probably finished last, together with G (Q3 2027)."
+    },
+    {
+     "block": "Аллея Bolashaq",
+     "position": "N–S pedestrian alley about 15–30 m wide, at x about 335–355. It runs from Улы Дала (north mouth about (342,-155), 51.10526/71.35539) south between M's east façade (west side) and lot A / H (east side) to the boundary drive (about (345,-385), 51.10324/71.35544). Length is about 230 m.",
+     "on_uly_dala": "Its north mouth opens onto the Улы Дала service/parking strip, about 30 m from the kerb.",
+     "confidence": "medium",
+     "lat": 51.10425,
+     "lon": 71.3554,
+     "imagery_status": "Not built on the Google image (mid-2026): it was a construction strip inside the fences."
+    },
+    {
+     "block": "D (context, not in our BI list)",
+     "position": "East of E on Улы Дала: x 115–225, y -110..-240. It is a slab along the avenue with an arm running south on its east side, plus a diagonal tower (the Г shape on the G key plan). OSM 'ЖК ŪIA.DARYN', Улы Дала 4.",
+     "on_uly_dala": "YES (about 40 m from the kerb).",
+     "confidence": "high",
+     "lat": 51.10508,
+     "lon": 71.35286,
+     "imagery_status": "Topped out (tall shadow since 2025-10-28)."
+    },
+    {
+     "block": "Lot A (brochure 'flat-roofed square building', use not stated)",
+     "position": "Fenced lot on Улы Дала between the M alley and B: x 342–448, y -158..-272. Directly north of H and east of Аллея Bolashaq.",
+     "on_uly_dala": "YES. It fronts the avenue (about 10–20 m from the kerb).",
+     "confidence": "medium",
+     "lat": 51.10477,
+     "lon": 71.35611,
+     "imagery_status": "Pile-foundation stage on the Google image (mid-2026). It has no clear tall shadow of its own on 2026-10-13; the shadow there is from H."
+    },
+    {
+     "block": "DARYN|TARIH boundary street",
+     "position": "An E–W fence/drive parallel to Улы Дала, about 260 m south of it: about (0,-308) → (200,-345) → (300,-370) → (400,-392). Three topped-out TARIH perimeter blocks stand directly across it from F and G (x -70..274, y -318..-486). South of M4/H there are only BI site camps and yards.",
+     "on_uly_dala": "no",
+     "confidence": "medium",
+     "lat": 51.10378,
+     "lon": 71.35193,
+     "imagery_status": "Graded/unpaved site drive on the Google image (mid-2026). The TARIH blocks opposite F and G are topped out."
+    },
+    {
+     "block": "Айтматова stub",
+     "position": "From the junction (51.1067, 71.3505) an unpaved site road runs SSW along the cluster's west edge, about 25–40 m west of E and about 40–60 m west of F: about (-20,-100) → (-55,-200) → (-90,-300). BI site cabins line it on the west side. Beyond that is steppe toward the Талдыколь wetlands.",
+     "on_uly_dala": "It starts at the junction.",
+     "confidence": "high",
+     "lat": 51.1049,
+     "lon": 71.3497,
+     "imagery_status": "Unpaved. No sign of a paved extension."
+    }
+   ],
+   "offices": [
+    {
+     "key": "G-16",
+     "real_frontage": "PLAY HUB (internal). The north façade of G section 5 faces the planned PLAY HUB and, about 30–45 m away, the SE face of E section 5 (office E-2).",
+     "faces_empty_land": false,
+     "old_label_still_valid": "partly. 'Фасад на PLAY HUB, с улиц не виден' is right. '2 га' is overstated: the open space measures about 0.7–1.0 ha, and in mid-2026 it was a construction staging area.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 159,
+     "notes": "About 51.1047, 71.35157. No street view: E and D block Улы Дала. Walking route to the avenue is about 200 m through the E–D gap."
+    },
+    {
+     "key": "E-2",
+     "real_frontage": "PLAY HUB (internal). The SE façade of E section 5 looks onto the west end of the PLAY HUB, with G section 5 directly opposite about 30–45 m away.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "partly. Same as G-16: correct direction, but '2 га' is overstated and the park is not built.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 133,
+     "notes": "About 51.10495, 71.35157. Behind E sections 2–4 and screened from Улы Дала. Of the PLAY HUB offices this one has the earliest handover (Q4 2026), but the park will probably not exist until about 2027."
+    },
+    {
+     "key": "F-2",
+     "real_frontage": "Internal drive: the narrow (about 15–20 m) E–F pedestrian lane. Its west end, about 40–50 m away, dead-ends at the unpaved Айтматова stub with steppe beyond. Its east end opens onto the PLAY HUB.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "no. 'Проход E–F от Айтматова, ближе к Айтматова' assumed a street with traffic at the west end. In reality it is a dirt site road with no through traffic, so being 'closer to Айтматова' is a disadvantage, not a plus.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 156,
+     "notes": "About 51.1049, 71.35071. E blocks the view to Улы Дала."
+    },
+    {
+     "key": "F-1",
+     "real_frontage": "Internal drive: the E–F lane, about 40 m west of where it opens into the PLAY HUB.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "partly. 'Проход E–F ... к PLAY HUB' still holds. 'от Айтматова' is void.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 152,
+     "notes": "About 51.10486, 71.35114."
+    },
+    {
+     "key": "F-8",
+     "real_frontage": "Boundary street with TARIH. The south façade of F section 1 faces the DARYN|TARIH drive, with a topped-out TARIH perimeter block (about 51.1033, 71.3504) directly across, about 20–30 m away. The west corner of the street meets the dead-end Айтматова stub.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "partly. 'Южная граничная улица' is right. '35–40 м от Айтматова' now means 35–60 m from a dead-end unpaved stub, so there is no corner traffic premium.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 254,
+     "notes": "About 51.104, 71.35057. TARIH residents opposite (TARIH A/В keys Q4 2026, per the earlier research) are the realistic footfall."
+    },
+    {
+     "key": "F-9",
+     "real_frontage": "Boundary street with TARIH (F section 1 south façade, TARIH block opposite).",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes ('Южная граничная улица'). Note that it is the DARYN|TARIH street, not the outer edge of the bigville.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 249,
+     "notes": "About 51.10396, 71.35107."
+    },
+    {
+     "key": "G-12",
+     "real_frontage": "Boundary street with TARIH. The south façade of G section 7 faces a topped-out TARIH perimeter block (about 51.1030, 71.3522) across the drive.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 249,
+     "notes": "About 51.10377, 71.35207."
+    },
+    {
+     "key": "G-10",
+     "real_frontage": "Boundary street with TARIH (G section 8 south façade, with TARIH blocks opposite).",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 253,
+     "notes": "About 51.10384, 71.3515."
+    },
+    {
+     "key": "G-13",
+     "real_frontage": "Boundary street with TARIH (G section 7 south façade, east part).",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 248,
+     "notes": "About 51.10373, 71.35233."
+    },
+    {
+     "key": "G-11",
+     "real_frontage": "Boundary street with TARIH (G section 8 south façade, east part).",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 251,
+     "notes": "About 51.1038, 71.35179."
+    },
+    {
+     "key": "M-32",
+     "real_frontage": "Bolashaq alley within about 50 m of Улы Дала: 12–20 m south of the north façade of M section 7, at the alley mouth onto the avenue's service/parking strip. Lot A (foundation stage) is opposite across the alley.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "yes ('Аллея Bolashaq у выхода на Улы Дала (12–20 м)'; about 45–60 m to the kerb)",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 52,
+     "notes": "About 51.10504, 71.35544. This is the best-placed of the 29 scored offices. It is visible obliquely from the avenue. M was not topped out on 2026-10-13, so the Q1 2027 handover is at risk."
+    },
+    {
+     "key": "M-26",
+     "real_frontage": "Bolashaq alley within about 110–120 m of Улы Дала, plus an end façade on the gap between sections 6 and 5 (corner). Lot A or the north end of H is opposite.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 114,
+     "notes": "About 51.10448, 71.35538."
+    },
+    {
+     "key": "M-17",
+     "real_frontage": "Corner: the boundary street with TARIH to the south and the Bolashaq alley to the east. Opposite is a BI construction yard and site camp, not a TARIH building; TARIH's block lies diagonally to the SW.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "partly. The 'южный край кластера + аллея' geometry is right, but nothing faces it for now.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 214,
+     "notes": "About 51.10357, 71.35528."
+    },
+    {
+     "key": "H-12",
+     "real_frontage": "Internal drive: H's north strip ('Перспективная улица' on the sheet). In reality the fence of lot A (pile foundations, use unknown) is only a few metres away, so this is not a through street. Courtyard behind.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "partly. Internal plus courtyard is right, but the 'street' is a narrow strip facing a construction lot.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 116,
+     "notes": "About 51.10434, 71.35615. Lot A, on the avenue, screens it from Улы Дала."
+    },
+    {
+     "key": "M-30",
+     "real_frontage": "Bolashaq alley within about 70–80 m of Улы Дала (M section 6, east façade). Lot A is opposite.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "yes. '55–75 м' is measured from the section 7 façade; it is about 70–80 m to the kerb.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 72,
+     "notes": "About 51.10486, 71.35544."
+    },
+    {
+     "key": "M-29",
+     "real_frontage": "Bolashaq alley within about 80–90 m of Улы Дала. Lot A is opposite.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 82,
+     "notes": "About 51.10477, 71.35541."
+    },
+    {
+     "key": "M-21",
+     "real_frontage": "Bolashaq alley within about 140 m of Улы Дала (M section 5). Block H's west side is opposite across the alley.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes ('Аллея Bolashaq, южная часть')",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 139,
+     "notes": "About 51.10425, 71.35534."
+    },
+    {
+     "key": "M-28",
+     "real_frontage": "Bolashaq alley within about 90–100 m of Улы Дала. Lot A is opposite.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 92,
+     "notes": "About 51.10468, 71.35541."
+    },
+    {
+     "key": "K-14",
+     "real_frontage": "East perspective plot (empty). K section 2's east façade faces the cluster's east edge drive (partly unpaved), then an empty field about 120 m wide. Beyond that is a separate construction cluster, probably SŪNQAR or BIRLIK (not verified).",
+     "faces_empty_land": true,
+     "old_label_still_valid": "no. 'Напротив ТЦ' is wrong: no shopping centre exists or is under construction there; the brochure's ТЦ with parking is an empty field. 'Улица с парковкой' is at most an edge drive.",
+     "confidence": "medium-high",
+     "distance_to_uly_dala_m": 226,
+     "notes": "About 51.10274, 71.36023. School №118 (OSM 51.10595, 71.36215) is across Улы Дала, about 0.4 km NNE."
+    },
+    {
+     "key": "H-5",
+     "real_frontage": "East perspective plot. H section 4's east façade faces a N–S drive with parked cars, then a large BI site camp (blue cabins) where the brochure shows a kindergarten.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "partly. The drive exists; the kindergarten does not.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 180,
+     "notes": "About 51.10369, 71.35662."
+    },
+    {
+     "key": "M-27",
+     "real_frontage": "Bolashaq alley within about 100–110 m of Улы Дала. Lot A or the north tip of H is opposite.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 102,
+     "notes": "About 51.10459, 71.35539."
+    },
+    {
+     "key": "M-20",
+     "real_frontage": "Bolashaq alley within about 190–200 m of Улы Дала (M section 4). H is opposite.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 198,
+     "notes": "About 51.10371, 71.35528."
+    },
+    {
+     "key": "M-18",
+     "real_frontage": "Bolashaq alley within about 190 m of Улы Дала (M section 4, north part). H is opposite.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 188,
+     "notes": "About 51.1038, 71.35528."
+    },
+    {
+     "key": "H-14",
+     "real_frontage": "Internal drive: H section 1's north strip against the lot A fence, with the alley mouth on the west corner side. Courtyard behind.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "partly (same as H-12)",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 123,
+     "notes": "About 51.10434, 71.35572."
+    },
+    {
+     "key": "M-16",
+     "real_frontage": "Boundary street with TARIH. M section 4's south façade faces a BI construction yard; the TARIH block (about 51.1029, 71.3538) is diagonally SW.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "yes ('Южный край кластера'), but nothing stands opposite",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 219,
+     "notes": "About 51.10355, 71.35508."
+    },
+    {
+     "key": "K-9",
+     "real_frontage": "Outer south edge drive of the A+K block, facing open steppe; the tree nursery is about 100+ m further south. It is NOT the DARYN|TARIH street, and TARIH is about 300+ m to the west.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "partly. 'Южная граничная улица' is the edge of the built-up area, with steppe opposite.",
+     "confidence": "medium-high",
+     "distance_to_uly_dala_m": 266,
+     "notes": "About 51.10255, 71.35908."
+    },
+    {
+     "key": "M-22",
+     "real_frontage": "Bolashaq alley within about 150 m of Улы Дала (M section 5; entrance through the hall per the adjudication). H is opposite.",
+     "faces_empty_land": false,
+     "old_label_still_valid": "yes",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 148,
+     "notes": "About 51.10416, 71.35534."
+    },
+    {
+     "key": "H-2",
+     "real_frontage": "Boundary street, south side of H section 5. A BI site camp and materials yard are opposite. No TARIH buildings exist south of H; the nearest TARIH block is about 150 m SW.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "no in practice. 'Юг: к кластеру TARIH' describes the plan; on the ground there is a construction camp.",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 241,
+     "notes": "About 51.10324, 71.35587."
+    },
+    {
+     "key": "H-7",
+     "real_frontage": "East perspective plot. H section 3's east façade faces the N–S drive, with the south end of block B and the BI site camp beyond.",
+     "faces_empty_land": true,
+     "old_label_still_valid": "partly (as H-5)",
+     "confidence": "medium",
+     "distance_to_uly_dala_m": 151,
+     "notes": "About 51.10396, 71.35662."
+    }
+   ],
+   "play_hub": "FACT: The brochure (p5) and the sheets place the PLAY HUB between D, E, F and G. On the ground this is the open space bounded by E section 5 (NW), D (N/NE), C sections 2–3 (E), G section 6 (S) and G section 5 / F (W). Its centre is about 51.1045, 71.3527, about 160 m south of Улы Дала and about 290 m SE of the Айтматова junction. It is not visible from the avenue; the only openings are the E–D gap and the narrow D–C drive. On the undated Google image (content mid-2026) it was a construction staging area: materials, a crane, one concrete slab, bare ground, and no play or sports equipment or landscaping. Sentinel-2 (10 m) cannot resolve landscaping, and on 2026-10-13 the area is mostly in the shadows of G5, D and E. ESTIMATE: the open area is about 0.7–1.0 ha, not 2 ha. It is not being built yet in any visible way, and it will probably be finished together with G (keys Q3 2027). Offices that depend on it (E-2, G-16, and F-1 through the E–F lane) should not count on park footfall before about late 2027.",
+   "uly_dala_frontage_units": "Blocks with direct frontage on пр. Улы Дала (FACT from imagery plus key plans): E (north façades of sections 2–4 and the junction corner; about 50 m from the kerb behind a green strip and parking), D, C (only the short north end of section 1), M (only section 7: north façade and west wing), lot A (a non-residential flat block from the brochure, at foundation stage), B and A. F, G, H and K have NO frontage on the avenue. None of the 29 scored offices is on Улы Дала. The closest is M-32, at the mouth of Аллея Bolashaq about 50 m from the kerb. The next are M-30, M-29 and M-28, at about 70–100 m.\n\nC-2..C-5: the CSV gives подъезд 1, 17 floors, which is section 1. The earlier claim is CONFIRMED WITH A CORRECTION. C sections 1–3 do form the west arm of the M/C U, and section 1 stands at the avenue. But section 1 is a standalone N–S slab (about 51.1050, 71.3543): only its narrow north end faces Улы Дала, about 40 m back from the kerb behind a parking strip. Its long façades face west, onto a narrow internal drive between D and C, and east, onto the M/C courtyard and the gap to M7's wing. So at most the one or two units at the north end of C-2..C-5 can have a real avenue-facing shopfront; the rest face the internal drive or courtyard. Which unit sits where cannot be known without the sheets (BI server error). C-5 is reserved and has no price. C section 1 is topped out on 2026-10-13. ESTIMATE: of all the units in our BI list, a north-end C-1 unit or the M section-7 north-façade units (33/34/35, not scored) are the only true Улы Дала shopfronts. Ask BI for the C section-1 floor plan before scoring C-2..C-5.",
+   "limitations": "1) I used three imagery sources. Sentinel-2 L2A TCI is 10 m: 2025-10-28, 2026-04-28, 2026-06-02, 2026-07-12, 2026-09-08, 2026-09-28, 2026-10-07 and 2026-10-13. The Google satellite tiles are undated: their content shows the clusters after the 2026-04-28 S2 scene (C1 and the TARIH blocks already tall), so roughly mid-2026. Esri, Bing and Yandex tiles are older (2024–early 2025) and I used them only for context. 2) Block and office positions come from overlaying the BI key plans, the brochure p3/p5 renders and the BI city map (K/G sheets) on the imagery and OSM footprints (E, D, B, A match OSM). Positions are ±20 m. Individual sections inside F and G, and M's exact east-façade line, are less certain. M's position is inferred from key-plan proportions plus light ground slabs on the Google image (medium confidence). 3) 'Topped out' status on 2026-10-13 is an ESTIMATE from shadow fractions in the low-sun October scenes (shadow about 2× building height), compared with Oct 2025. It cannot separate a topped-out frame from a finished façade. The weak shadow at M may mean M is still low, and M's Q1 2027 keys may slip; this needs a site check. 4) I could not establish the use of lot A on Улы Дала (pile foundations in mid-2026), the identity of the TARIH blocks south of F/G, or the cluster east of K (probably SŪNQAR or BIRLIK). 5) The PLAY HUB area (about 0.7–1.0 ha) is my measurement and the brochure's '2 га' is unverified. Landscaping is not resolvable at 10 m. 6) Distances to Улы Дала are straight lines to the OSM eastbound carriageway minus 8 m to the kerb. Walking distances are longer because buildings block the way. 7) Office positions inside sections come from the BI sheet extraction (orientation.json), not from on-site checks. 8) I did not use krisha.kz or WebFetch in this track. I wrote nothing into the git repository; all outputs are under scratchpad/geo/daryn_geo/.",
+   "images_written": [
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/daryn_real_layout.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/g18_full.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/g_west.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/g_mid.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/g_mh.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/g17_east.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/w_20261013.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/w_20260908.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/w_20260602.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/w_20251028.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/loc_20261013.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/loc_20250720.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo/t16_google.png"
+   ]
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "None of the 29 scored offices is on пр. Улы Дала. M-32 is the closest; its frontage is on the east façade of M section 7, 12–20 m south of the north façade.",
+     "verdict": "confirmed",
+     "evidence": "M-32 sheet floor plan (подъезд 7): office 32 sits in the south-east part of section 7, next to 'Блокируется с 6 подъездом', with windows on the east wall. The avenue-facing units are offices 33 (NE corner), 34 and 35, and none of them is in the scored list. Scaling the plan (a 22.14 m² room is about 6.6×3.3 m) puts office 32 about 10–16 m south of the north façade. No other scored office has a sheet showing an avenue façade."
+    },
+    {
+     "claim": "Distances to the kerb: E about 50 m, D about 40 m, C1 north end about 40 m, M7 north façade 40–50 m, M-32 52 m.",
+     "verdict": "partially",
+     "evidence": "I overlaid OSM footprints for E (10а), D (4) and B (10) on the Google z18 mosaic, and they register well. E's north façade is at y ≈ -103..-130 and D's at y ≈ -144..-170. The south carriageway runs (18,-30)→(127,-63)→(274,-107). That puts E about 65–70 m from the carriageway line and D about 74 m, so roughly 60 m and 65–70 m to the kerb. The result says 50 m and 40 m. The light M slab starts at y ≈ -177, so M7's north façade is about 50 m from the kerb and M-32 about 58–66 m, not 52 m. Lot A's pile field starts at y ≈ -159, about 15–22 m from the kerb, which matches. The relative ranking holds, but the setbacks are understated by 10–30 m."
+    },
+    {
+     "claim": "M is NOT topped out on 2026-10-13 (estimate, medium-low), so Q1 2027 keys are at risk.",
+     "verdict": "confirmed",
+     "evidence": "My own S2 sampling on a 5 m grid: on 2026-10-13 (sun at 31°, azimuth 172°) the strip north of the M7 slab (x 300–340, y -160..-90) is bright, at 0.8–1.4 of the scene median. The C1 strip is dark (0.36–0.6) and so is B's. Shadow fractions on 10-13 are M7/6 9%, C1 50%, B 59%, E 62%, and the same pattern holds on 09-28, 09-30 and 10-07. In the Google mosaic M is two light concrete slabs. The evidence is stronger than 'medium-low': M7 (14 floors) and M6 (12 floors) are at most a few storeys. A 31.03.2027 handover (M-32 sheet) looks unrealistic, not just 'at risk'. The one caveat is that this depends on M's placement (x 290–345), which the BI render and key plan support: M lies directly east of C, west of the tree/alley icon and of the square lot A building."
+    },
+    {
+     "claim": "The Google tiles are undated but show content from about mid-2026 (after the 2026-04-28 S2 scene).",
+     "verdict": "contradicted",
+     "evidence": "C1 casts no S2 shadow on 2026-04-28, 05-18 or 06-02 (0%, while B shows 25–29% at the same sun angle). Its shadow appears only on 07-12 (8%) and 08-08 (23%). C1 is tall with a long shadow in the Google mosaic, so the mosaic dates from about July–September 2026, not mid-2026. Every 'Google mid-2026' status in the result is therefore later than stated. This makes it worse that M was only slabs and the PLAY HUB only a staging area."
+    },
+    {
+     "claim": "E: an L of sections 1–4 with section 5 (9 floors) on the courtyard diagonal at the SE. E-2's SE façade faces the PLAY HUB, about 30–45 m from G5. Keys Q4 2026.",
+     "verdict": "partially",
+     "evidence": "The key plan and OSM footprint confirm the layout, and the sheet gives keys on 24.12.2026. But the E-2 sheet is branded 'ÜIA.BÜRKIT Комфорт+ 2 очередь', not DARYN. Korter says DARYN is 'также называют UIA.BURKIT', so this is probably a naming legacy. The result does not mention it, and the investor should confirm with BI which project and contract E-2 belongs to. The claim that E-2 faces outward to the SE rests on the lobby and office entrances being on the 'bottom' side of the plan, with a тамбур-шлюз at the top opening to the courtyard. That is plausible but not proven. If the plan is flipped, E-2 faces E's own closed courtyard."
+    },
+    {
+     "claim": "F-1/F-2 face the E–F lane (north) and F-8/F-9 face the DARYN|TARIH boundary street (south). The 'от Айтматова' labels are void.",
+     "verdict": "confirmed",
+     "evidence": "In the F sheets, section 4 has its entrances on the top (north) side and adjoins section 3 to the west. Section 1 has its entrances on the bottom (south) side and adjoins section 2 to the west. In the Google mosaic, the dirt road runs about 20–35 m west of E and about 30 m west of F, lined with cabins. An E–W fence or drive lies at y ≈ -300..-306, with tall TARIH blocks south of it. One correction: F-2 is the west half of section 4, the middle of F's north edge, not its west end."
+    },
+    {
+     "claim": "G-10/11/12/13 face the TARIH boundary street with topped-out TARIH blocks opposite.",
+     "verdict": "confirmed",
+     "evidence": "The G-12 sheet (подъезд 7) shows the office тамбур on the bottom/south side, with 'Блокируется с 8 подъездом' to the west. The key plan has sections 8 and 7 at the south of G. In the Google mosaic, three TARIH perimeter blocks stand south of the fence at y ≈ -300."
+    },
+    {
+     "claim": "K-14 faces east onto an edge drive and an empty field. 'Напротив ТЦ' is wrong. Keys Q4 2026.",
+     "verdict": "partially",
+     "evidence": "The geometry is confirmed. K-14 sits at the NE end of section 2, its doors are on the east wall, and section 1 joins it on the north. In the Google mosaic, a field about 120–150 m wide (x 665–800) separates it from the next construction cluster, with no ТЦ. The BI render shows a shop icon at the east end of A, so the ТЦ is a plan only. The K sheet is more precise than 'Q4 2026': keys on 17.10.2026, three days from now. It also labels B as '1 очередь', A as '2 очередь' and K as '3 очередь'. The result's K-14 position (x ≈ 680) is about 30 m east of the actual block edge (x ≈ 650), which is within its stated ±20–30 m."
+    },
+    {
+     "claim": "A is finished, with a landscaped courtyard on Улы Дала north of K.",
+     "verdict": "partially",
+     "evidence": "The Google mosaic (July–September 2026) shows the A U-block (OSM construction polygon x 531–674, y -230..-329) with a landscaped courtyard. The K sheet calls A '2 очередь', which fits an earlier finish. However, S2 shows A almost shadow-free on 2025-10-28 (8%) and tall from April 2026, and Korter lists 'DARYN A1–A6' as under construction with handover Q4 2027. 'Finished' therefore describes how it looks in imagery, not a confirmed handover. Whether A has keys is unverified."
+    },
+    {
+     "claim": "C-2..C-5: section 1 is a standalone N–S slab whose short north end alone faces Улы Дала, about 40 m from the kerb.",
+     "verdict": "partially",
+     "evidence": "The M key plan shows 1 (17 floors), 2 (14) and 3 (12), matching C's подъезды in the CSV. In Google, C1 is about 33×64 m at x 242–275, y -153..-217, running N–S. The orientation is confirmed. The kerb distance is about 45 m. The result does not check C's handover: the CSV says 4 кв. 2026, Korter says Q2 2027, and C2–3 were still low in the July–September Google image. A Q4 2026 handover for C2–C3 looks unlikely."
+    },
+    {
+     "claim": "H-2 has a BI camp and yard opposite to the south, with no TARIH building. H-12/H-14 face the lot A fence at foundation stage.",
+     "verdict": "confirmed",
+     "evidence": "In Google, blue-roof site cabins lie south of H at y < -385, and the TARIH blocks stop at x ≈ 274. North of H's north bar (y ≈ -256) is a pile field at x 350–438, y -159..-256, with site cabins on its avenue edge."
+    },
+    {
+     "claim": "Sheet key dates: E Q4 2026, K Q4 2026, M Q1 2027, F Q2 2027, G Q3 2027.",
+     "verdict": "partially",
+     "evidence": "BI sheets printed 14.10.2026 give E 24.12.2026, K 17.10.2026, M 31.03.2027, F 05.06.2027 and G 25.09.2027. Korter (14.10.2026) contradicts several of these: E and K Q1 2027, C Q2 2027, D/F/G Q3 2027, A Q4 2027, and '34 дома строятся, ближайшая сдача 1 кв. 2027'. I treat the BI sheets as primary but note the conflict."
+    },
+    {
+     "claim": "The PLAY HUB is about 0.7–1.0 ha, not 2 ha, unbuilt, and probably finished with G around Q3 2027.",
+     "verdict": "unverifiable",
+     "evidence": "The area is the reviewer's own polygon, labelled as an estimate. The mosaic (now dated July–September 2026, not mid-2026) shows a staging area. No primary source gives a completion date."
+    }
+   ],
+   "corrections": [
+    "Re-date the Google mosaic from 'mid-2026' to about July–September 2026. S2 shows C1 casting no shadow through 2026-06-02 and a shadow from July/August. Every 'Google mid-2026' status statement (M slabs, PLAY HUB staging, G5/G6 cranes) is therefore later and worse than stated.",
+    "Upgrade M from 'not topped out (medium-low)' to 'sections 6–7 at most a few storeys on 2026-10-13'. There is no shadow north of the M7 slab on any of 09-28, 09-30, 10-07 or 10-13, while C1 and B, at a similar distance from the avenue, cast clear shadows. A 31.03.2027 handover for all 12 scored M offices is unrealistic, not just at risk.",
+    "Avenue setbacks are understated by 10–30 m. Using OSM footprints registered to Google imagery: E's north façade is about 60 m from the kerb (not 50), D about 65–70 m (not 40), C1's north end about 45 m, M7's north façade about 50 m, and M-32 about 58–66 m (not 52).",
+    "The E-2 sheet is branded 'ÜIA.BÜRKIT Комфорт+ 2 очередь', not ÜIA.DARYN. Flag this and ask BI to confirm which project and contract the unit belongs to.",
+    "K keys are 17.10.2026 (sheet), not just 'Q4 2026'. The K sheet labels B '1 очередь', A '2 очередь' and K '3 очередь'.",
+    "C's handover (CSV 4 кв. 2026) conflicts with Korter (Q2 2027) and with C2–3 being low in the July–September imagery. Do not assume Q4 2026 for C2–C3.",
+    "F-2 is in the middle of F's north edge (west half of section 4), not at the lane's west end. Section 3 lies between F-2 and the stub."
+   ],
+   "missing": [
+    "The result has no market or price check. krisha (WebFetch, normal page, 2026-10-14) lists a resale unit in DARYN D at Улы Дала 4: 120.17 m² for 170,000,000 ₸ (1.41 M ₸/m²), corner, advertised as 'Первая линия Улы Дала' with 'Ключи ноябрь 2026'. That compares with BI's inner M/H/K units at about 0.9–0.94 M ₸/m² and F/G 'Бизнес' units at about 0.86–0.90 M ₸/m² after discount. It is the only first-line DARYN listing found, so the first-line premium is about 1.5× on the ask. The seller's November 2026 keys date for D contradicts Korter's Q3 2027 and is unverified.",
+    "krisha rent search for 'UIA DARYN' returned 0 listings, so the context's 15 rent and 28 sale listings at 5,700–12,300 ₸/m² could not be reproduced by text search. That needs a map or complex filter.",
+    "The source conflict on dates is not reported: BI sheets versus Korter (A Q4 2027, D/F/G Q3 2027, E/K Q1 2027, '34 дома строятся').",
+    "Nothing on the use of lot A (pile field, about 0.9 ha, on the avenue directly in front of M-26..M-32 and H-12/H-14). If it becomes a ТЦ or school, it changes the alley's footfall and screening.",
+    "The E-2 orientation (outward to the PLAY HUB versus E's own courtyard) depends on reading which side of the section 5 plan is outside. Ask BI or check on site."
+   ],
+   "overall_reliability": "medium",
+   "summary": "The frontage geometry mostly holds up. BI floor plans and OSM footprints registered to the Google mosaic agree on which façade each office faces. None of the 29 scored offices faces Улы Дала. M-32 is the closest, on the east façade of section 7 by Аллея Bolashaq; offices 33/34/35 face the avenue and are not scored. F-8/F-9 and G-10..13 face the DARYN|TARIH boundary, K-14 faces an empty field (no ТЦ), H-2 faces a BI camp, and H-12/H-14 face the lot A pile field. The labels that relied on 'Айтматова' are rightly voided.\n\nThe weaker points are below.\n1. The Google mosaic is about July–September 2026, not mid-2026. S2 shows C1 casting no shadow until July or August.\n2. Setbacks from the avenue are understated by 10–30 m. E is about 60 m from the kerb, D 65–70 m, and M-32 about 60 m.\n3. The result rates M 'not topped out' as medium-low confidence. My S2 check makes it stronger: M6–M7 are at most a few storeys in mid-October 2026, so the 31.03.2027 keys for all 12 scored M offices are unrealistic.\n4. The E-2 sheet is branded ÜIA.BÜRKIT, and the result misses this.\n5. K's keys are 17.10.2026.\n6. Korter's dates conflict with the BI sheets (for example, nearest handover Q1 2027 and A in Q4 2027).\n7. Market: krisha shows one first-line resale in D at 1.41 M ₸/m² with seller-claimed keys in November 2026. BI asks about 0.86–0.94 M ₸/m² for inner units, so the first line carries about a 1.5× premium on the ask.\n\nWork files (scratchpad, nothing in the git repo):\n/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/daryn_geo_verify/ (ov_west.png, ov_mid.png, ov_east.png, ov_stub.png, s2_20261013.png, s2_20260928.png, m32_render*.png, grid.npz, grid2.npz, scripts/prof.py, scripts/ov.py)."
+  }
+ },
+ {
+  "key": "market",
+  "result": {
+   "keys_status": [
+    {
+     "address_or_block": "пр. Улы Дала 12 — DARYN A (ModeX, Comfort Lite)",
+     "status": "FACT: keys handed over. Owner rent ads say 'дом сдан, ключи на руках' (1016551423, viewed since 13 Oct 2026), 'ключи на руках' (1014567269, 1010687071). Apartment ad 1015608940 says the complex was 'только что сданном', keys in hand, documents expected 'в конце сентября' (2026), and 'Вы будете первыми жильцами!'. On 2GIS (02.09.2026) a buyer asks to join the 'Блок А' chat and reports losing the keys to entrance 5. Metry gives A as Q2 2026. ESTIMATE: keys roughly Jun–Aug 2026; a few owners are fitting out or moving in, with no proof of meaningful occupancy.",
+     "evidence_url": "https://krisha.kz/a/show/1016551423 ; https://krisha.kz/a/show/1015608940 ; https://2gis.kz/astana/firm/70000001098474893/tab/reviews"
+    },
+    {
+     "address_or_block": "пр. Улы Дала 10 — DARYN B (ModeX, Comfort Lite)",
+     "status": "FACT: delivered. Apartment ad 1013656806 ('UIA Daryn, Block B', 4/14 floor) says 'дом введен в эксплуатацию, документы на руках' and 'никто не проживал'. Ad 1010988174 ('Uia Daryn B', 14/17 floor) says 'Ключи на руках!' and 'готова к заселению'. Commissioned, but the sampled flats are empty."
+    },
+    {
+     "address_or_block": "пр. Улы Дала 14 (generic complex address used by krisha, 2GIS and kn)",
+     "status": "FACT: a 2-room flat ad (1016384780, 12/14 floor, monolith) says 'КЛЮЧИ НА РУКАХ', and commercial sale ad 1008688487 (88 m²) says 'Ключи на руках'. kn.kz lists '14 стр' as Q3 2026, status строится (data as of 9 Oct 2026). Block letters at this address are mixed in ads (K, A, C)."
+    },
+    {
+     "address_or_block": "DARYN K (ads say Улы Дала 14 or 12; one ad says Е-75 11)",
+     "status": "FACT: NOT delivered as of the ads. Rent ads say 'Сдача объекта сентябрь 2026' (1015643126) and 'октябрь 2026' (1016371608); a sale ad says Q3 2026 or Q2 2027 (contradictory, 1015908439). Korter gives K1–K5 and K2-1/K2-2 as Q1 2027. A 2GIS review says 'Uia daryn блок К уже 3 раз переносят сроки. Работа не двигается!'. ESTIMATE: keys Q4 2026 to Q1 2027 at best."
+    },
+    {
+     "address_or_block": "DARYN C",
+     "status": "FACT: apartment ad 1016339840 ('ŪIA.DARYN C', developer price, 2.65 m ceiling) says 'Плановая передача ключей — 26 декабря 2026 года'. Metry gives Q4 2026; korter gives C1–C3 as Q2 2027 (permit №27 of 04.03.2026). Not delivered. Address not established (the ad says Улы Дала 14)."
+    },
+    {
+     "address_or_block": "пр. Улы Дала 4 — DARYN D (monolith, Comfort+/business, 4.2 m commercial)",
+     "status": "FACT: not delivered. Sale ad 1016109248 says 'Ключи ноябрь 2026 год'; 1015641371 says 'Срок сдачи третий квартал'; 1016287769 (same address) gives commissioning 30.03.2027. Korter gives D1–D5 as Q3 2027; kn.kz gives Улы Дала 4 as Q4 2026."
+    },
+    {
+     "address_or_block": "пр. Улы Дала 2 — DARYN E (corner with Айтматова, monolith, 4.2 m)",
+     "status": "FACT: not delivered. Sale ad 1015686217 ('ŪIA.DARYN-E', corner, rough finish) gives no key date. Korter gives E1–E5 as Q1 2027; metry gives Q4 2026."
+    },
+    {
+     "address_or_block": "пр. Улы Дала 10а",
+     "status": "FACT: kn.kz lists it as Q4 2026, строится. Block letter not established."
+    },
+    {
+     "address_or_block": "DARYN F, G, H, M",
+     "status": "FACT: korter gives F1–F4 and G5–G8 as Q3 2027; metry gives H and M as Q1 2027, F as Q2 2027 and G as Q3 2027. All under construction. No owner ads with keys."
+    },
+    {
+     "address_or_block": "Residents (cluster-wide)",
+     "status": "FACT: a 2GIS review update dated 16.01.2026 says 'ключи выдали в срок' (building unspecified), and one reviewer wrote 'Живу здесь, чисто и уютно' (developer reply dated 08.05.2026). Sampled B and A flat ads stress that nobody has lived there yet. ESTIMATE: occupancy is in single-digit percent of delivered A/B flats; nothing measured."
+    }
+   ],
+   "letter_mapping": "FACTS BY SOURCE:\n(1) Metry (https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/), address пр. Улы Дала 2:\n- A: Comfort Lite, Q2 2026\n- B and K: Comfort Lite, Q3 2026\n- D: Comfort+, Q3 2026\n- C: Comfort Lite, Q4 2026\n- E: Comfort+, Q4 2026\n- H and M: Comfort Lite, Q1 2027\n- F: Business, Q2 2027\n- G: Business, Q3 2027\nThis is the only source that ties all the BI sales letters (C, E, F, G, H, K, M) to dates and classes.\n\n(2) Korter (https://korter.kz/uia-burkit-астана; the slug shows DARYN was formerly 'UIA.BURKIT'). Data as of 14 Oct 2026: 34 houses listed (39 stated), 2137 apartments. Queues:\n- A1–A6 (12–17 floors): Q4 2027, permit №5 of 03.02.2026\n- C1–C3 (17/14/12 floors): Q2 2027, permit №27 of 04.03.2026\n- D1–D5: Q3 2027, BVU guarantee 43 of 10.09.2025 (ТОО BI Development Astana)\n- E1–E5: Q1 2027, permit №61 of 13.11.2025\n- F1–F4: Q3 2027, permit №69 of 09.12.2025\n- G5–G8: Q3 2027, permit №70 of 09.12.2025\n- K1–K5 and K-2 (K2-1, K2-2): Q1 2027, K permit №29 of 04.03.2026\n- B: BVU guarantee №30 of 06.08.2025 (ТОО «Dala team»); no houses listed\n- M: permit №28 of 04.03.2026; no houses listed\nKorter's A (permit Feb 2026, Q4 2027) cannot be the delivered 'блок A' at Улы Дала 12. Korter's 'A' is either a re-lettered new phase or its data is wrong. UNRESOLVED.\n\n(3) Krisha complex page (https://krisha.kz/complex/show/astana/uiadaryn/): 784 apartments; A and B are ModeX, D and E are monolith; six stages Q2 2026 to Q3 2027; permits No.74 (03.07.2026), No.29 (K) and No.28 (M).\n\n(4) kn.kz (https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn): A, B and K are ModeX; D and E are monolith. Addresses: 14стр Q3 2026, 10стр Q3 2026, 12 Q3 2026, 10а Q4 2026, 4 Q4 2026.\n\n(5) Owner ads link addresses to letters:\n- Улы Дала 12 = A (some K ads also use 12)\n- Улы Дала 10 = B\n- Улы Дала 4 = D\n- Улы Дала 2 = E (corner with Айтматова)\n- Улы Дала 14 = K, C and A (inconsistent; also the generic complex address)\n- one K ad uses 'Е-75 11'\n\nESTIMATE: the numbering runs west to east from Айтматова: 2 (E), 4 (D), …, 10 (B), 12 (A), 14 (K and others). The Comfort-Lite ModeX letters (A, B, K, C, H, M) have 2.65–2.7 m commercial ceilings. The monolith letters (D, E, and probably F and G) have 4.2 m ceilings.\n\nSŪNQAR vs DARYN B:\nFACTS:\n- BI's official 2GIS reply of 09.07.2025 says 'Обновлённый бигвилль ŪIA теперь состоит из трёх кластеров: TARIH, BIRLIK, DARYN'. SŪNQAR is no longer a separate cluster.\n- Korter still has an orphan ŪIA.SŪNQAR page (https://korter.kz/uia-sunqar-астана) at просп. Улы Дала 14: ceramsite-concrete modules (ModeX), 14 houses ('Подъезд 1–11'), 9–17 floors, 2 queues, Q3 2026.\n- Krisha's SUNQAR page gives Улы Дала 14, Q4 2025, 112 apartments, no permit documents.\nESTIMATE: SŪNQAR was the pre-July-2025 name of the ModeX Comfort-Lite part of today's DARYN, most likely A and B together (perhaps also K), not B alone. DARYN B's permit (06.08.2025) came after the merger, which fits a re-registration.",
+   "first_line_listings": [
+    {
+     "id": "1016551423",
+     "deal": "rent",
+     "area": 88,
+     "price": 600000,
+     "ppm": 6818,
+     "ceiling": 2.7,
+     "kw": 35,
+     "block": "A (Улы Дала 12, 'Уя Дарын А')",
+     "keys": "yes — 'дом сдан, ключи на руках'",
+     "tenant": "no",
+     "first_line_confirmed": "field 'первая'; 3 wide shopfront windows; facing not stated explicitly",
+     "url": "https://krisha.kz/a/show/1016551423"
+    },
+    {
+     "id": "1010687071",
+     "deal": "rent",
+     "area": 74.35,
+     "price": 800000,
+     "ppm": 10760,
+     "ceiling": 2.7,
+     "kw": 25,
+     "block": "A (Улы Дала 12)",
+     "keys": "yes — 'Ключи на руках'",
+     "tenant": "no",
+     "first_line_confirmed": "yes — '1 Линия', faces Улы Дала; a crossing with traffic lights is planned; school nearby; 17-storey building with 529 apartments",
+     "url": "https://krisha.kz/a/show/1010687071"
+    },
+    {
+     "id": "1014567269",
+     "deal": "rent",
+     "area": 57,
+     "price": 700000,
+     "ppm": 12281,
+     "ceiling": 2.8,
+     "block": "A (Улы Дала 12)",
+     "keys": "yes — 'ключи на руках'",
+     "tenant": "no",
+     "first_line_confirmed": "field 'первая' only. Terms: 700k/month if paid quarterly, 750k/month if paid monthly; 1-month rent holiday; deposit 750k",
+     "url": "https://krisha.kz/a/show/1014567269"
+    },
+    {
+     "id": "1016130183",
+     "deal": "rent",
+     "area": 75,
+     "price": 800000,
+     "ppm": 10667,
+     "ceiling": 2.7,
+     "kw": 15,
+     "block": "A (Улы Дала 12)",
+     "keys": "not stated (unit already renovated: 'Готовый ремонт')",
+     "tenant": "no",
+     "first_line_confirmed": "yes — 'Помещение на 1 линий по улы дала'; 'Светофор к школе проходит через мое помещение'; no rent holiday",
+     "url": "https://krisha.kz/a/show/1016130183"
+    },
+    {
+     "id": "1013339365",
+     "deal": "rent",
+     "area": 71,
+     "price": 1500000,
+     "ppm": 21127,
+     "ceiling": 2.8,
+     "kw": 16,
+     "block": "DARYN, office 16 near entrance 3 (Улы Дала 12)",
+     "keys": "implied (renovation nearly finished)",
+     "tenant": "no",
+     "first_line_confirmed": "yes — 'две из них выходят на проспект Улы Дала'. Search snippet earlier showed 1,000,000; page now shows 1,500,000. kW being raised to 25",
+     "url": "https://krisha.kz/a/show/1013339365"
+    },
+    {
+     "id": "1016322725",
+     "deal": "rent",
+     "area": 70.96,
+     "price": 700000,
+     "ppm": 9865,
+     "ceiling": 2.7,
+     "kw": 15,
+     "block": "K (Улы Дала 14)",
+     "keys": "not stated (K not delivered per other ads)",
+     "tenant": "no",
+     "first_line_confirmed": "field 'первая' only; rent holiday offered",
+     "url": "https://krisha.kz/a/show/1016322725"
+    },
+    {
+     "id": "1015049371",
+     "deal": "rent",
+     "area": 88,
+     "price": 500000,
+     "ppm": 5682,
+     "ceiling": 2.8,
+     "kw": 25,
+     "block": "unknown ('uia', Улы Дала 14)",
+     "keys": "not stated",
+     "tenant": "no",
+     "first_line_confirmed": "field 'первая' only; text says 'рядом расположена школа'",
+     "url": "https://krisha.kz/a/show/1015049371"
+    },
+    {
+     "id": "1015643126",
+     "deal": "rent",
+     "area": 71,
+     "price": 650000,
+     "ppm": 9155,
+     "kw": 14,
+     "block": "K (ad says Улы Дала 12)",
+     "keys": "no — 'Сдача объекта сентябрь 2026'",
+     "tenant": "no",
+     "first_line_confirmed": "'Выходит на дорогу' (road not named). Likely the same unit as 1016371608, 1016147164 and 1015944823 (71 m², 14 kW, Улы Дала 12)",
+     "url": "https://krisha.kz/a/show/1015643126"
+    },
+    {
+     "id": "1016371608",
+     "deal": "rent",
+     "area": 71,
+     "price": 600000,
+     "ppm": 8451,
+     "block": "K (Улы Дала 12)",
+     "keys": "no — 'Сдача объекта октябрь 2026'",
+     "tenant": "no",
+     "first_line_confirmed": "not stated",
+     "url": "https://krisha.kz/a/show/1016371608"
+    },
+    {
+     "id": "1015646992",
+     "deal": "rent",
+     "area": 110,
+     "price": 1200000,
+     "ppm": 10909,
+     "ceiling": 4.2,
+     "kw": 25,
+     "block": "D (Улы Дала 4)",
+     "keys": "not stated (D not delivered)",
+     "tenant": "no",
+     "first_line_confirmed": "yes — '1-я линия по пр. Улы Дала'; reinforced exhaust ventilation",
+     "url": "https://krisha.kz/a/show/1015646992"
+    },
+    {
+     "id": "1016443731",
+     "deal": "sale",
+     "area": 87,
+     "price": 68000000,
+     "ppm": 781609,
+     "block": "unknown (Улы Дала 14)",
+     "keys": "not stated",
+     "tenant": "no — 'no tenants'",
+     "first_line_confirmed": "not stated; street entrance; agency Kazrealty",
+     "url": "https://krisha.kz/a/show/1016443731"
+    },
+    {
+     "id": "1008688487",
+     "deal": "sale",
+     "area": 88,
+     "price": 68000000,
+     "ppm": 772727,
+     "ceiling": 2.7,
+     "block": "unknown (Улы Дала 14; title says Улы Дала / Айтматова)",
+     "keys": "yes — 'Ключи на руках'",
+     "tenant": "no",
+     "first_line_confirmed": "field 'первая'; 'пересечение улы дала айтматова напротив школы… 4 окна'",
+     "url": "https://krisha.kz/a/show/1008688487"
+    },
+    {
+     "id": "1016564402",
+     "deal": "sale",
+     "area": 70.96,
+     "price": 70000000,
+     "ppm": 986471,
+     "ceiling": 2.7,
+     "kw": 14.5,
+     "block": "K (Улы Дала 14)",
+     "keys": "not stated",
+     "tenant": "no",
+     "first_line_confirmed": "field 'первая'; entrance from street and yard. Same area as rent 1016322725 (probably the same unit, offered for rent and for sale)",
+     "url": "https://krisha.kz/a/show/1016564402"
+    },
+    {
+     "id": "1016287769",
+     "deal": "sale",
+     "area": 119.67,
+     "price": 100000000,
+     "ppm": 835631,
+     "ceiling": 4.2,
+     "block": "Улы Дала 4 (business class; letter not given — D or F/G)",
+     "keys": "no — commissioning 30.03.2027",
+     "tenant": "no",
+     "first_line_confirmed": "yes — two shopfront windows face Улы Дала; text says developer price 'от 950 тыс. тг' per m²",
+     "url": "https://krisha.kz/a/show/1016287769"
+    },
+    {
+     "id": "1016109248",
+     "deal": "sale",
+     "area": 120.17,
+     "price": 170000000,
+     "ppm": 1414663,
+     "ceiling": 4.2,
+     "kw": 24,
+     "block": "D (Улы Дала 4)",
+     "keys": "no — 'Ключи ноябрь 2026 год'",
+     "tenant": "no",
+     "first_line_confirmed": "yes — 'Первая линия Улы Дала'; corner unit, 5 shopfront windows. The same unit is offered at 168M as 1015641371 (Prime Estate, 'Срок сдачи третий квартал')",
+     "url": "https://krisha.kz/a/show/1016109248"
+    },
+    {
+     "id": "1015686217",
+     "deal": "sale",
+     "area": 110.78,
+     "price": 143000000,
+     "ppm": 1290847,
+     "ceiling": 4.2,
+     "block": "E (Улы Дала 2, corner with Айтматова)",
+     "keys": "not stated (E not delivered)",
+     "tenant": "no",
+     "first_line_confirmed": "yes — 'Первая линия проспекта Улы дала. Помещение угловое. Окна на две стороны.'",
+     "url": "https://krisha.kz/a/show/1015686217"
+    },
+    {
+     "id": "1015742097",
+     "deal": "sale",
+     "area": 85.65,
+     "price": 94000000,
+     "ppm": 1097490,
+     "ceiling": 2.7,
+     "kw": 17,
+     "block": "A",
+     "keys": "not stated",
+     "tenant": "no",
+     "first_line_confirmed": "yes — 'Первая линия Улы Дала'; 3 windows. Prime Estate posted the same unit three times (1015742097 Улы Дала 14, 1016329186 Улы Дала 12, 1015997968 Улы Дала 14)",
+     "url": "https://krisha.kz/a/show/1015742097"
+    },
+    {
+     "id": "1013946781",
+     "deal": "sale",
+     "area": 75,
+     "price": 77500000,
+     "ppm": 1033333,
+     "ceiling": 2.7,
+     "block": "unknown (Улы Дала 12)",
+     "keys": "not stated",
+     "tenant": "no",
+     "first_line_confirmed": "yes — 'на первой линии ул. Улы Дала'; entrance from the street or the yard",
+     "url": "https://krisha.kz/a/show/1013946781"
+    },
+    {
+     "id": "1016507325",
+     "deal": "sale",
+     "area": 86,
+     "price": 104000000,
+     "ppm": 1209302,
+     "ceiling": 2.7,
+     "block": "unknown (Улы Дала 14)",
+     "keys": "not stated",
+     "tenant": "no — 'Жалға алушылар бар: жоқ'",
+     "first_line_confirmed": "field 'первая'; text mentions first-line visibility",
+     "url": "https://krisha.kz/a/show/1016507325"
+    },
+    {
+     "id": "1015908439",
+     "deal": "sale",
+     "area": 44.26,
+     "price": 53112000,
+     "ppm": 1200000,
+     "ceiling": 2.7,
+     "kw": 15,
+     "block": "K (address given as 'Е-75 11')",
+     "keys": "no — Q3 2026 and Q2 2027 both stated",
+     "tenant": "no",
+     "first_line_confirmed": "NOT on Улы Дала per its address (Е-75 11); 'Парковка перед помещением'. Possibly the east-street side of K",
+     "url": "https://krisha.kz/a/show/1015908439"
+    }
+   ],
+   "developer_prices": "FACT: the BI developer commercial price list on kn.kz (https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn, tab 'Коммерческие помещения', 'Актуально на 9 октября 2026') has 15 rows. The rows carry no block letter or address. Office number, ceiling and kW come from the floor-plan images. Each row: area, office number and ceiling (h), kW, price per m², total price.\n\nPlans at h = 2.65–2.7 m (likely ModeX blocks A/B/C/K/H/M):\n- 103.43 m², office №4, h 2.7, 20.69 kW: 816,000 ₸/m², 84,398,880 ₸\n- 88.72 m², office №15, h 2.7, 17.74 kW: 799,000 ₸/m², 70,887,280 ₸\n- 88.55 m², office №11, h 2.7, 17.71 kW: 807,500 ₸/m², 71,504,125 ₸\n- 103.48 m², office №27, h 2.65, 20.696 kW: 930,000 ₸/m², 96,236,400 ₸\n- 59.78 m², office №18, h 2.65, 11.956 kW: 890,000 ₸/m², 53,204,200 ₸\n\nPlans at h = 4.2 m (monolith blocks D/E, and possibly F/G):\n- 171.73 m², office №2, 34.34 kW: 680,000 ₸/m², 116,776,400 ₸\n- 85.37 m² (the plan says office №7, 85.44 m², h 4.22, 17.088 kW): 940,000 ₸/m², 80,247,800 ₸. Listed twice.\n- 112.68 m², office №1, 22.536 kW: 902,000 ₸/m², 101,637,360 ₸\n- 131.65 m², office №2, 26.33 kW: 902,000 ₸/m², 118,748,300 ₸\n- 122.7 m², office №11, 24.54 kW: 861,000 ₸/m², 105,644,700 ₸\n- 156.51 m², office №16, 31.30 kW: 779,000 ₸/m², 121,921,290 ₸\n- 173.53 m², office №12, 34.7 kW: 820,000 ₸/m², 142,294,600 ₸\n\nTwo-level units:\n- 464.76 m², office №4: ground floor 4.2 m (207.55 m²) and upper floor 3.3 m (205.93 m²); 950,000 ₸/m², 441,522,000 ₸\n- 346.92 m², office №25: two levels at 4.2 m; 69.384 kW; 950,000 ₸/m², 329,574,000 ₸\n\nApartments, same date: from 443,200 ₸/m² (3-room) to 572,900 ₸/m² (1-room). Korter on 14 Oct 2026: from 503,000 ₸/m².\n\nCOMPARISON (FACT): resale and agency asks for the same kind of units run 772,727–1,414,663 ₸/m²:\n- 2.7 m units: 68M for 87–88 m² (about 775k ₸/m²) up to 104M for 86 m² (1.21M ₸/m²)\n- 4.2 m D/E corners: 1.29–1.41M ₸/m²\nThe cheapest resale asks (1008688487 and 1016443731, about 775k ₸/m²) are below the developer's 799–940k for similar 2.7 m units.\n\nKrisha's new-build page carries no commercial price list. bi.group (official price pages, e.g. https://bi.group/ru/filter/placement/8bedcfdd-a8cd-438d-9c9c-df04109847a0, 'Помещение №1 - 101.9 м²') is behind a Cloudflare challenge and was not accessed.",
+   "c_block_units": "NOT RESOLVED from public sources.\n\nFACTS:\n- kn.kz's developer list has no block labels and no row matching 'C-2…C-5, 92–103 m² at about 960k'. The nearest rows are 103.48 m² (office №27, h 2.65, 930,000 ₸/m²) and 103.43 m² (office №4, h 2.7, 816,000 ₸/m²).\n- Apartment ad 1016339840 ('ŪIA.DARYN C', developer price, address Улы Дала 14) gives an apartment ceiling of 2.65 m and planned keys on 26.12.2026.\n- Metry classes C as Comfort Lite, Q4 2026. Korter gives C1–C3 (17/14/12 floors) as Q2 2027, permit №27 of 04.03.2026.\n- No commercial ad on krisha names block C.\n\nESTIMATE:\n- C is a Comfort-Lite (ModeX-type) block, so its ground-floor commercial ceiling is most likely 2.65–2.7 m, like the other Comfort-Lite plans, not 4.2 m.\n- About 960k ₸/m² is above every 2.65–2.7 m row on kn.kz (799–930k), which fits units that are no longer listed or were repriced.\n- Whether C faces Улы Дала cannot be confirmed from korter, kn, krisha or metry. Ask BI sales for the C masterplan sheet, or check the site.",
+   "tc_opposite_k14": "NOT IDENTIFIED. No public source names a shopping centre across the east street from DARYN K-14.\n\nFACTS:\n- The only verified mall nearby is Ellington Mall, which 2GIS and sellers call 'Aspan', at the Улы Дала / Айтматова intersection. The city investment department says it was about 50% complete as of Aug 2026, with the mall due by end-2028 and the wider tourist quarter by end-2030; the 'Aspan' rename is not official (bes.media, 25.09.2026: https://bes.media/news/ellington-mall-ili-aspan-novyy-trts-astany-dostroyat-do-kontsa-2028-goda/).\n- One DARYN C apartment ad says 'Вблизи планируется Aspan Mall' (https://krisha.kz/a/show/1016339840).\n- A DARYN K sale ad gives the address 'Е-75 11' with 'Парковка перед помещением' (https://krisha.kz/a/show/1015908439). This hints that K has a frontage onto an east-side street (Е-75?), but no ТЦ is named.\n- A DARYN E ad says 'Соседние участки также застраиваются крупными застройщиками Sat-NS, SENSATA и др.' (https://krisha.kz/a/show/1015686217).\n\nESTIMATE: the 'ТЦ' on BI's sheets is a planned plot with no permit or news found. Treat it as unbuilt, with no timeline, until a site check or BI confirms it.",
+   "play_hub_and_social": "PLAY HUB: no public source mentions a 'PLAY HUB' for ŪIA or DARYN. Listing sites only describe planned courtyard items ('спортивный HUB', 'детские эко-площадки', mini-football field, workout areas, alley Bolashaq) (kn.kz, vagapov.kz). Status: not built and not dated. The 2021 WeProject article defines no PLAY HUB for Uly Dala.\n\nYourt centre: kn.kz says 'В блоках D и E запланирован центр Yourt с библиотекой, детской комнатой и переговорными капсулами'. Planned; D and E are not delivered (keys Nov 2026 to 2027).\n\nKindergarten: 'Äldi bi' kindergarten / ясли-сад 'на территории комплекса' (metry.kz; vagapov.kz: 'Детский сад Aldi BI' inside the cluster). Planned; no construction or opening date found.\n\nSchools:\n- Metry lists a state 'Комфортная школа' for 4,000 places. A seller's ad (1015686217) says 'Уже функционирует новая комфортная гос. школа'. This most likely means School №118, which krisha's complex page puts 585 m (about 7 min walk) from the complex point.\n- Vagapov lists a private 'Creative School им. Бибигуль Тулегеновой' (1,058 pupils, 14,000 m²) as 'вблизи', with no date or status.\n- TARIH (krisha) and BIRLIK (BI page snippet) list a school and a kindergarten in their own clusters. No DARYN-owned school was found.\n\nSources: https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/ ; https://vagapov.kz/zhilie_kompleksi/zhk-uia-daryn/ ; https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn ; https://krisha.kz/complex/show/astana/uiadaryn/",
+   "notes": "ACCESS:\n- krisha.kz/a/show/<id> often returned 403 through WebFetch. The /kz/a/show/<id> mirror worked. Curl to krisha was reset.\n- 404 (probably removed or sold): 1016195227 (Улы Дала 6, 105M), 1016008520, 1016109496 (Улы Дала 14, 86 m², 104M), 1015655776 (85.65 m², 92M, 'ключи на руках' per the search snippet), 1015972547.\n- Nearly every krisha page carries the line 'Архивте хабарландыру өзекті болмауы мүмкін'. It looks like boilerplate and does not prove an ad is archived.\n- bi.group pages and homsters.kz returned a Cloudflare challenge or 403. Not accessed, not bypassed.\n- Korter fetched with plain curl (no challenge).\n- Developer floor plans downloaded from kn.kz to /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/knimg/. Nothing was written to the repo.\n\nMARKET FACTS (first-line DARYN, Oct 2026):\n- Rent asks: 5,682 ₸/m² (1015049371, 88 m² at 500k) to 12,281 ₸/m² (1014567269). One outlier at 21,127 ₸/m² (1013339365, renovated, raised from 1.0M to 1.5M).\n- Rent holidays offered in most rent ads: 1016551423, 1014567269, 1016322725, the K 71 m² ads, and 1015646992. 1016130183 explicitly offers none.\n- No ad mentions an existing tenant. All units are rough finish except 1016130183 and 1013339365.\n- Sale asks: 772,727–1,414,663 ₸/m². Developer list: 680,000–950,000 ₸/m².\n- Several units are duplicated across ads or agencies: K 71 m² four times; A 85.65 m² three times (Prime Estate); D 120.17 m² twice; K 70.96 m² for both rent and sale.\n\nESTIMATES (not facts):\n- About 10 distinct first-line DARYN rent units and about 12 sale units are visible after removing duplicates.\n- Only A (Улы Дала 12) and B (Улы Дала 10) are actually handed over. K, C, D and E fall between Nov 2026 and 2027.\n- Delivered A units at 600–800k/month with keys (1016551423 at 6.8k/m² with 35 kW; 1010687071 and 1016130183 explicitly facing Улы Дала) are the only units that can be leased now.\n\nNot established: K-14's exact position; C's frontage; the 'ТЦ' owner; any PLAY HUB.\n\nOther: the 2GIS DARYN firm card is at пр. Улы Дала 12 (ТОО Global Build), rated 4.9 from 410 ratings."
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "A (Улы Дала 12) has keys: 1016551423 'дом сдан, ключи на руках', 1014567269 'ключи на руках', 1010687071 keys, 1015608940 'только что сданном'.",
+     "verdict": "confirmed",
+     "evidence": "Re-fetched on 14.10.2026. 1016551423: 'в ЖК Уя Дарын А, дом сдан, ключи на руках' (viewed since 13 Oct). 1014567269: 'ЖК Uia Daryn A', 'ключи на руках', 1-month rent holiday, deposit 750k, 700k quarterly / 750k monthly. 1010687071: 'Uia DARYN блок А', 17 floors, 529 flats, keys. 1015608940 names no block and gives no year for the documents ('в конце сентября'). The '(2026)' in the result is an inference."
+    },
+    {
+     "claim": "ESTIMATE: A keys roughly Jun–Aug 2026.",
+     "verdict": "contradicted",
+     "evidence": "The 2GIS DARYN card (пр. Улы Дала 12) has 'ключи выдали в срок' in a review updated 16.01.2026, and 'Живу здесь, чисто и уютно' with a developer reply dated 08.05.2026. Sentinel-2 on 20.07.2025 (geo/daryn_geo/loc_20250720.png) already shows a tall structure at the A/B/K footprint (about x480–700, y−170…−380 m from the junction). The first ModeX handover was therefore probably around Dec 2025–Jan 2026, not Jun–Aug 2026. Which block was handed over first is unknown."
+    },
+    {
+     "claim": "B (Улы Дала 10) is commissioned; 1013656806 says 'дом введен в эксплуатацию, документы на руках', 'никто не проживал'; 1010988174 says 'Ключи на руках!'.",
+     "verdict": "confirmed",
+     "evidence": "Quotes verified. 1013656806 also says B is 'на первой линии по улице Ұлы Дала', and krisha's house-type field reads monolith even though the result calls B ModeX. Krisha's type fields are unreliable."
+    },
+    {
+     "claim": "K is not delivered: 1015643126 'Сдача объекта сентябрь 2026', 1016371608 'октябрь 2026', 1015908439 Q3 2026 / Q2 2027.",
+     "verdict": "confirmed",
+     "evidence": "All quotes verified. Both 71 m² rent ads say 'Каникулы предоставляются'. BI's own office CSV (daryn/zip/Список офисов UIA.DARYN.csv) gives K as '4 кв. 2026', which the result did not cite. Metry says Q3 2026."
+    },
+    {
+     "claim": "C: 1016339840 'Плановая передача ключей — 26 декабря 2026 года', ceiling 2.65 m, Улы Дала 14.",
+     "verdict": "confirmed",
+     "evidence": "Verified: 3-room, 67.1 m², 7/17 floor, 38.78M ₸, 'ŪIA.DARYN C', 'Рядом школа №118', 'Вблизи планируется Aspan Mall'. BI CSV gives C as '4 кв. 2026'."
+    },
+    {
+     "claim": "D (Улы Дала 4) is not delivered: 1016109248 'Ключи ноябрь 2026', corner, first line on Улы Дала, 4.2 m, 24 kW, 170M.",
+     "verdict": "confirmed",
+     "evidence": "Verified: object name 'UIA.DARYN-D', corner, 5 panoramic windows, first line on Улы Дала, keys Nov 2026, viewed since 11 Oct. The geometry fits: D's north facade sits directly on Улы Дала (daryn_real_layout.png)."
+    },
+    {
+     "claim": "1016287769 (Улы Дала 4, 119.67 m², 100M): 'yes — two shopfront windows face Улы Дала'.",
+     "verdict": "contradicted",
+     "evidence": "Exact text: '2 витражных окна будут выходить перпендикулярно улице Улы дала по которой можно будет заехать/выехать' and 'Находится перед входом в зеленую Аллею'. The windows face a passage perpendicular to Улы Дала, not the avenue. The ad also says class 'Бизнес' with commissioning 30.03.2027. BI and metry class D as Комфорт+, with D due Q3 2026 or Nov 2026, and only F and G as Бизнес (F is '2 кв. 2027' in BI's CSV). This unit is probably F or G, not D, and not on the frontage."
+    },
+    {
+     "claim": "1015686217 E (Улы Дала 2): 'corner with Айтматова', 'Первая линия проспекта Улы дала. Помещение угловое. Окна на две стороны.'",
+     "verdict": "partially",
+     "evidence": "The quotes are correct, but 'Ч. Айтматова' appears only in the title locator, and the text never says the second side faces Айтматова. Айтматова ends at the Улы Дала junction, so E's west side faces an unpaved stub and steppe. The second window side is not a traffic street. No key date is given. 110.78 m² is not in BI's current office list. BI's only E office (E-2, 171.73 m²) faces the inner PLAY HUB in the earlier scoring, not a street."
+    },
+    {
+     "claim": "1008688487 (88 m², 68M, 2.7 m, keys): 'пересечение улы дала айтматова напротив школы… 4 окна', listed as a first-line unit at the Улы Дала / Айтматова corner.",
+     "verdict": "contradicted",
+     "evidence": "Full text: 'пересечение улы дала айтматова напротив школы. рядом ТД эллингтон 4 окна. Ключи на руках'. The text is internally inconsistent. In OSM, School №118 (way 1531333511) is at x756–879 m east of the Айтматова junction, on the north side of Улы Дала. The only block at the Айтматова corner is E, which is monolith at 4.2 m and has no keys. 2.7 m plus keys plus 'opposite the school' points to delivered A or B at the east end, about 500–700 m from Айтматова. The intersection is a locator, not this unit's frontage. Treat the frontage as unknown."
+    },
+    {
+     "claim": "A first-line units: 1010687071 (faces Улы Дала, nearest to the school), 1016130183 ('Помещение на 1 линий по улы дала', 'Светофор к школе проходит через мое помещение', 'Без каникул'), 1013339365 (A, office 16 by entrance 3, 'две из них выходят на проспект Улы Дала', 1.5M), 1015742097 (A, 'Первая линия Улы Дала'), 1013946781 (entrance 'со стороны улицы Ұлы Дала' or from the yard).",
+     "verdict": "confirmed",
+     "evidence": "All quotes verified. 1013339365 names 'ЖК ŪIA.DARYN А офис 16, рядом с 3 подъездом' (the result left it as 'DARYN'), now at 1,500,000 ₸, 16 kW raised to 25 kW. Geometry: A's north wing faces Улы Дала, but it is set back about 45–50 m behind a parking and service strip (g18_full.png, about 2 px/m). The school is NE across the avenue, so 'nearest to the school' fits A's NE corner. This is first line, but not shopfronts on the kerb."
+    },
+    {
+     "claim": "1016551423 (A, 88 m², 35 kW, 6,818 ₸/m²) is first line.",
+     "verdict": "unverifiable",
+     "evidence": "Only the krisha 'бірінші' field supports it. A is a courtyard block with north (Улы Дала), east (side street) and courtyard facades, so the field alone does not prove Улы Дала frontage."
+    },
+    {
+     "claim": "K units (1016322725, 1016564402, 1015643126, 1016371608, 1015908439) are in the first-line listing set.",
+     "verdict": "contradicted",
+     "evidence": "BI's masterplan (daryn/png/main_p05.png) and the imagery layout put K at the SE back corner, south of A. K does not touch Улы Дала. BI's own K offices are K-14 ('Восточная улица с парковкой') and K-9 ('Южная граничная улица'). 1015643126 says only 'Выходит на дорогу', and 1015908439 gives the address 'Е-75 11' with 'Парковка перед помещением', which fits the east street. 1016564402 lists entry 'көшеден, ауладан'. The 'бірінші' field on these ads is not Улы Дала frontage. The 71 m² / 14 kW K ad is close to BI's K-14 (71.8 m², 14.36 kW), which is described as facing the east street. Whether it is the same unit is unknown."
+    },
+    {
+     "claim": "Rent holidays are offered in most rent ads, including 1015646992 (D, 110 m², 1.2M).",
+     "verdict": "partially",
+     "evidence": "Confirmed for 1016551423, 1014567269, 1016322725, 1015643126 and 1016371608. Refuted for 1015646992: re-fetched, it mentions no holiday, keys or handover date ('1-я линия по пр. Улы Дала', 'Усиленная вытяжка'). It also offers a D unit for rent although D is not delivered."
+    },
+    {
+     "claim": "The kn.kz developer list (9 Oct 2026) has 15 rows with no block letters. The 4.2 m rows are 'monolith blocks D/E, possibly F/G', and 85.37 m² office №7 is among them.",
+     "verdict": "contradicted",
+     "evidence": "The 15 kn rows are confirmed. But BI's own CSV in the primary inputs ties most rows to letters by area, office number and exact total: 171.73 = E-2; 112.68 = F-1; 131.65 = F-2; 122.7 = G-11; 156.51 = G-16; 173.53 = G-12; 85.37 (80,247,800) = H-7; 103.48 = M-27; 59.78 = M-18. No row is D. H is Комфорт lite but all H sheets show h = 4.22 m, which refutes the estimate that Comfort-Lite letters (A, B, K, C, H, M) have 2.65–2.7 m ceilings. The two-level units (464.76 and 346.92) remain unassigned."
+    },
+    {
+     "claim": "C block units are NOT RESOLVED from public sources: no kn row matches 'C-2…C-5, 92–103 m² at ~960k'; C's ceiling is only an estimate.",
+     "verdict": "contradicted",
+     "evidence": "BI's CSV lists C-2 103.43 (99,292,800 = 960k/m²), C-3 96.47, C-4 103.43, C-5 92.17 (reserved), C-6 88.55, C-7 94.84, C-9 96.72, C-10 88.72, C-11 88.55, C-12 94.84, C-14 96.72 and C-15 88.72, all Q4 2026, in sections of 17/14/12 floors (this matches korter C1–C3). kn rows 103.43 №4 (816k), 88.72 №15 (799k) and 88.55 №11 (807.5k) are C-4, C-15 and C-11 at exactly 0.85 × BI's price (960k / 940k / 950k). The kn plans (knimg/gallery_2_2.jpg and 2_3.jpg) show h = 2.7 m and through-depth units. So C's ceiling of 2.7 m is a fact, and kn shows C (and E-2: 680k = 0.85 × 800k) 15% below BI's list. C's frontage is still unproven. The earlier layout estimate puts the 17-floor C1 (C-2…C-5) nearest Улы Дала, about 35 m back."
+    },
+    {
+     "claim": "The cheapest resale asks (1008688487, 1016443731, about 775k ₸/m²) are below the developer's 799–940k for similar 2.7 m units.",
+     "verdict": "partially",
+     "evidence": "The arithmetic holds, but the developer's 799–816k units are C units at kn's 15%-off price, due Q4 2026, with unproven frontage. The resale 1008688487 has keys and is probably in A or B. The units are not like-for-like, and 1008688487 is an older ID whose frontage is self-contradictory."
+    },
+    {
+     "claim": "Ellington Mall ('Aspan') is at the Улы Дала / Айтматова intersection.",
+     "verdict": "contradicted",
+     "evidence": "The OSM way 1431543354 'Elington Mall' (construction) spans x415–805 m, y319–545 m from the junction. That is about 0.5–0.95 km NE and about 400 m north of Улы Дала, so the mall is not at the intersection."
+    },
+    {
+     "claim": "Numbering runs west to east from Айтматова: 2 (E), 4 (D) … 10 (B), 12 (A), 14 (K…). Улы Дала 2 = E.",
+     "verdict": "partially",
+     "evidence": "A = 12 (2GIS card, ads), B = 10 and D = 4 are consistent. But metry gives 'проспект Улы Дала, 2' as the whole complex's address, so a single E ad at '2' is weak evidence. OSM tags 'ЖК ŪIA.DARYN блок Е' as Улы Дала 10а at the west end, and kn lists 10а as Q4 2026, which matches E's Q4 2026. K is south of A, not east of it, so '14 = K' does not continue a west-to-east sequence."
+    },
+    {
+     "claim": "Korter's A1–A6 (permit №5 of 03.02.2026, Q4 2027) cannot be the delivered block A. UNRESOLVED.",
+     "verdict": "confirmed",
+     "evidence": "Korter (saved korter/burkit.html) shows 'Подъезд A1 12 этажей … Старт в 4 кв. 2025 Сдача в 4 кв. 2027', '34 дома строятся, ближайшая сдача в 1 кв. 2027', at Улы Дала 10. The structure at the A/B footprint is already visible in July 2025, so korter's A is a different, later phase or mislabelled."
+    },
+    {
+     "claim": "Metry's letter, class and date table, and the 2GIS quotes (Блок А chat, block K delays, the 09.07.2025 TARIH/BIRLIK/DARYN reply, 4.9 from 410 ratings).",
+     "verdict": "confirmed",
+     "evidence": "Metry re-fetched: matches exactly. 2GIS re-fetched: quotes match. The 02.09.2026 date belongs to the developer's reply, not to the 'Блок А' review."
+    },
+    {
+     "claim": "1015908439 K: address 'Е-75 11', 'Парковка перед помещением', Q3 2026 and Q2 2027 both stated, not on Улы Дала.",
+     "verdict": "confirmed",
+     "evidence": "Verified: 'Парковка перед помещением сдача 3 квартал 2026.г' and 'Срок сдачи 2кв.2027года.'; no line field; 44.26 m², 1.2M ₸/m²."
+    }
+   ],
+   "corrections": [
+    "Remove 1016287769 from the 'faces Улы Дала' set. Its own text says the windows run 'перпендикулярно улице Улы дала' toward the entrance of the green alley. It is Business class with commissioning 30.03.2027, so it is probably F or G, not D.",
+    "Treat 1008688487 as having unknown frontage. 'Пересечение Улы Дала / Айтматова' is a locator that conflicts with 'напротив школы' (School №118 is about 0.8 km east of Айтматова) and with 2.7 m plus keys (the Айтматова corner is E: 4.2 m, not delivered). It is most likely a delivered A or B unit at the east end.",
+    "The 4.2 m developer rows are E-2, F-1, F-2, G-11, G-12, G-16 and H-7, not 'D/E'. None is D. H (Комфорт lite) has 4.22 m ceilings, so the rule 'Comfort-Lite = 2.65–2.7 m' is wrong for H.",
+    "C is resolvable. BI's CSV lists C-2…C-15 at 88.55–103.43 m² for Q4 2026 at 940–960k ₸/m². kn's 2.7 m rows 103.43 №4, 88.72 №15 and 88.55 №11 are C-4, C-15 and C-11 at exactly 85% of BI's price. The kn plans show h = 2.7 m. kn's E-2 at 680k is likewise 85% of BI's 800k.",
+    "Exclude the K ads (1016322725, 1016564402, 1015643126, 1016371608, 1015908439) from any Улы Дала first-line set. K sits at the SE back of the cluster, on the east and south streets.",
+    "Drop 1015646992 from the list of ads offering rent holidays. It mentions none. It is also a rent offer for an undelivered D unit.",
+    "Revise the A key estimate. A 2GIS review updated 16.01.2026 says keys were handed over on time, and someone reported living there by May 2026. The first ModeX handover was more likely around Dec 2025–Jan 2026 than Jun–Aug 2026, although the building is unspecified.",
+    "Ellington Mall is about 0.5–0.95 km NE of the Айтматова junction and about 400 m north of Улы Дала, not at the intersection.",
+    "For E (1015686217): its second, west-facing window side looks onto the unpaved stub and steppe, not onto Айтматова traffic. Айтматова ends at the junction.",
+    "'Улы Дала 2 = E' rests on one ad, and metry uses Улы Дала 2 for the whole complex. OSM tags E as Улы Дала 10а."
+   ],
+   "missing": [
+    "The result did not use BI's own office list (daryn/zip/Список офисов UIA.DARYN.csv, 42 offices with block, area, section, price, discount and handover). It settles most of the letter and price questions the result calls unresolved.",
+    "No frontage check against the real layout. Of BI's 29 scored developer offices, none fronts Улы Дала (closest is M-32, 12–20 m via the Bolashaq alley). The developer price band (680–960k) is therefore mostly for back, alley or courtyard units, while the resale first-line A/D/E asks (1.03–1.41M) are for avenue frontage. The comparison mixes frontage tiers.",
+    "A and B's Улы Дала facades are set back about 45–50 m behind a parking and service strip (g18_full.png). 'First line' here does not mean a shopfront on the kerb.",
+    "Only D, E and probably the front C section (C1, 17 floors, C-2…C-5) sit directly on Улы Дала with no setback strip. H, M, F, G and K do not front it.",
+    "BI's CSV prices F and G at an ~18% discount from list (e.g. F-1 at 902k vs 1.1M list), while C and E have no 'without discount' price. The kn 85% factor on C and E suggests a new promotion after the CSV snapshot. Ask BI sales to confirm.",
+    "No proof that any first-line rent ad has achieved a signed lease. All rent figures are asks, and many are duplicates.",
+    "The scratchpad path geo/daryn_geo_verify/ named in the task does not exist. The checks used geo/daryn_geo/ and geo/imagery/."
+   ],
+   "overall_reliability": "medium",
+   "summary": "The quoted ad texts, the metry and 2GIS quotes and the kn price rows mostly check out, and so do the key statuses: A and B are delivered; K, C, D and E are not. The weak point is per-office frontage. 1016287769, claimed to face Улы Дала, explicitly has windows perpendicular to it. It is Business class (F/G), not D. 1008688487's 'Айтматова intersection' conflicts with its own 'opposite School №118', 2.7 m ceiling and keys: the school is about 0.8 km east of Айтматова, and the Айтматова corner is E, which is 4.2 m and not delivered. The K units sit at the back of the cluster on the east and south streets, not on Улы Дала. E's corner second side looks onto the unpaved stub, not a street. The result also missed BI's own office CSV in the primary inputs. That CSV ties the kn rows to letters: the 4.2 m rows are E-2, F-1, F-2, G-11, G-12, G-16 and H-7 (no D), and H has 4.22 m ceilings despite being Comfort Lite. It also resolves C: C-2…C-15 at 940–960k, with kn showing C-4, C-11 and C-15 at exactly 85% of that, h 2.7 m. Two more claims fail: the rent holiday in 1015646992, and 'Ellington at the intersection' (the mall is about 0.5–0.95 km NE). The A key-date estimate is likely too late, since a 2GIS review updated 16.01.2026 reports keys handed over. Units that actually front Улы Дала are D, E, likely C1, and A/B (set back about 45–50 m). Developer-list units are mostly non-frontage, so the developer-versus-resale price comparison mixes frontage tiers. Sources: /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/daryn/zip/Список офисов UIA.DARYN.csv, .../daryn/scored.json, .../geo/daryn_geo/daryn_real_layout.png, .../geo/daryn_geo/g18_full.png, .../geo/imagery/osm_geom.json, .../knimg/gallery_2_2.jpg and gallery_2_3.jpg, .../daryn/png/main_p05.png, plus live krisha /kz/ pages, kn.kz, metry and 2GIS."
+  }
+ }
+]
