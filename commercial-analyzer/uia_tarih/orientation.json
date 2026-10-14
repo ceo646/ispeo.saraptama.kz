@@ -1,0 +1,1608 @@
+{
+ "site-map": {
+  "site-map": {
+   "summary": "TARIH north-up master map. Sources: all three key plans, the sheet renders, and the city map on the sheets. The B key-plan compass points straight up. On C the north arrow is tilted about 10° counter-clockwise and on E about 15° counter-clockwise. That matches the city map, where Айтматова runs NNE–SSW and Улы Дала runs WNW–ESE, so the whole bigville grid is turned about 10–15° clockwise. \"North side\" below therefore really faces about NNE, \"east\" about ESE, and so on. All key plans are effectively north-up, and none of the three is rotated 90°.\n\nBIG PICTURE: The plot is L-shaped. Улы Дала runs along the north and ул. Ч. Айтматова along the west. DARYN fills the northern band along Улы Дала, about 250–300 m deep. TARIH is the band directly south of DARYN, starting at Айтматова and running east. The boundary between them is an E–W 'Перспективная улица', a planned city street labelled on the C sheets. Across it to the north are DARYN F/G (near Айтматова) and DARYN M (opposite E, labelled 'Вид на перспективный проект ÜIA.DARYN M' on the E sheets). TARIH's north faces are therefore about 280–320 m south of Улы Дала, and Улы Дала is not visible from any TARIH office. South of TARIH there is a real multi-lane city street (no name on the sheets). It runs from Айтматова eastward past the ФМЛ (физмат лицей), which stands south of it (brochure p3, E render).\n\nINSIDE TARIH: two rows of blocks separated by an E–W pedestrian 'Аллея'. It is a tree-lined boulevard starting at Айтматова: labelled north of B on the B sheets, south of E on the E sheets, and lit in the brochure.\n- NORTH ROW (between the boundary street and the Аллея), west to east:\n  - A (строится, no offices in this set) on the corner of Айтматова and the boundary street.\n  - An internal driveway, about 20–30 m.\n  - C (Бизнес, closed 10-section square, all 9 эт, about 95×95 m), about 130–250 m east of Айтматова.\n  - The N–S 'Перспективная улица' between C and E (labelled on C's east and E's west). It runs from the boundary street south across the Аллея to the southern street.\n  - E (Бизнес, 5 sections of 9 эт, about 70×75 m), about 280–350 m east of Айтматова. It is U-shaped: 4,5 along the north; 3 on the west; 2,1 along the south. The courtyard opens to the east.\n  - East of E, a short driveway with parking, then perspective project F ('Вид на перспективный проект ÜIA.TARIH F').\n- SOUTH ROW (between the Аллея and the southern city street):\n  - B (Комфорт+), the SW block of the whole bigville. Section 4 (12 эт) sits on Айтматова between 5 (NW corner) and 3 (SW corner). Sections 5-6-7-8 and a corner piece run along the Аллея. Section 9 (12 эт) and 10 form the east side. Sections 3-2-1 run along the southern street, with a courtyard and parking entrance gap between 1 and 10. B is about 140 m E–W × 90 m N–S, directly south of A across the Аллея (about 25–35 m).\n  - East of B, a green pedestrian passage with a footpath (about 25–35 m), then a neighbouring perspective block (brochure letter D).\n  - C's south side faces the Аллея and, across it, perspective south-row plots.\n\nDISCREPANCY: brochure p3 (from the DARYN brochure) letters the TARIH perspective blocks with F apparently south of E. The newer office sheets, printed 14.10.2026, and the E render put F EAST of E and north of the Аллея. I trusted the sheets.\n\nROTATIONS OF THE FLOOR PLANS ON P1 (confirmed with 'Блокируется'/'Вид на двор' labels):\n- B sections 4, 6, 9, 10: north-up.\n- C sections 1, 6, 7, 9, 10: north-up.\n- E sections 1, 2, 4, 5: north-up.\n- E section 3 is the only rotated plan. Plan-top = E (двор), plan-bottom = W ('Вид на … TARIH C'), plan-right = S ('Блокируется с 2'), plan-left = N. Offices 7/8/9 have their tambours on the west, toward the C|E Перспективная улица.",
+   "sides": [
+    {
+     "building": "B",
+     "side": "W (sections 5, 4 [12 эт], 3 west ends)",
+     "faces": "ул. Айтматова",
+     "note": "Labelled 'ул. Ч.Айтматова' on the left of the section 4 plan. Offices 16 and 17 have tambours and glazing directly on Айтматова, with a green strip and sidewalk between, about 15–20 m to the carriageway. This is the only TARIH office frontage on the arterial."
+    },
+    {
+     "building": "B",
+     "side": "NW corner (section 5)",
+     "faces": "угол Айтматова и другой улицы/аллеи",
+     "note": "Айтматова × the Аллея (the start of the boulevard). Across the Аллея is TARIH A (about 25–35 m)."
+    },
+    {
+     "building": "B",
+     "side": "N (sections 5, 6, 7, 8 + NE corner piece)",
+     "faces": "Аллея (пешеходная)",
+     "note": "Labelled 'Аллея' above the section 6 plan and on the key plan. Offices 11 and 12 (section 6) have tambours on the north. The tree-lined pedestrian boulevard is about 25–35 m wide, with A's south façade across it."
+    },
+    {
+     "building": "B",
+     "side": "E (sections 9 [12 эт], 10)",
+     "faces": "внутренний проезд/улица кластера",
+     "note": "The B render shows a green strip, a footpath and a service passage, then a neighbouring perspective block (brochure 'D') about 25–35 m away. No street label. Offices 4 and 5 (section 9) and office 3 (section 10) have tambours on this side. Not visible from Айтматова."
+    },
+    {
+     "building": "B",
+     "side": "SE corner (section 10, office 2)",
+     "faces": "Перспективная улица (городская улица)",
+     "note": "South city street × the east green passage. Office 2 has a south tambour and east windows."
+    },
+    {
+     "building": "B",
+     "side": "S (sections 3, 2, 1, 10; courtyard and parking gap between 1 and 10)",
+     "faces": "Перспективная улица (городская улица)",
+     "note": "No label on the sheets. The B render shows a multi-lane city street with lane markings, cars and parking about 15–25 m from the façade. It is TARIH's southern boundary street from Айтматова eastward, toward the ФМЛ лицей on its south side. Office 1 of section 10 has a south tambour."
+    },
+    {
+     "building": "B",
+     "side": "SW corner (section 3)",
+     "faces": "угол Айтматова и другой улицы/аллеи",
+     "note": "Айтматова × the southern city street. This is the SW corner of the whole bigville."
+    },
+    {
+     "building": "B",
+     "side": "inner sides (courtyard faces of all sections)",
+     "faces": "двор ЖК (закрытый)",
+     "note": "Residential lobbies have тамбур-шлюз doors into the yard. The yard opens to the south street only through the 1/10 gap (gate/ramp)."
+    },
+    {
+     "building": "C",
+     "side": "N (sections 1, 2, 3)",
+     "faces": "Перспективная улица (городская улица)",
+     "note": "Labelled 'Перспективная улица' above the key plan and above the section 1 plan. This is the TARIH/DARYN boundary street, with DARYN (G/M) across at about 30–40 m. Offices 19 and 20 (section 2) and 22 (section 1) have tambours on the north. Улы Дала is about 300 m north beyond DARYN."
+    },
+    {
+     "building": "C",
+     "side": "NE corner (section 3)",
+     "faces": "Перспективная улица (городская улица)",
+     "note": "Intersection of the boundary street and the N–S Перспективная улица (labelled on two sides). Best corner of C."
+    },
+    {
+     "building": "C",
+     "side": "E (sections 3, 4, 5, 6)",
+     "faces": "Перспективная улица (городская улица)",
+     "note": "Labelled 'Перспективная улица' on the right of the key plan and the section 6 plan. N–S city street with E across at about 30 m. Offices 13 (section 5), 15 (section 4) and 10/11 (section 6) face it."
+    },
+    {
+     "building": "C",
+     "side": "SE corner (section 6)",
+     "faces": "угол улицы и аллеи",
+     "note": "N–S Перспективная улица × the Аллея (the Аллея is inferred from the B/E labels and the renders; it is not printed on the C sheets)."
+    },
+    {
+     "building": "C",
+     "side": "S (sections 6, 7, 8, 9)",
+     "faces": "Аллея (пешеходная)",
+     "note": "No label on the C sheets, but the office tambours are on the south (offices 7 and 8 in section 7, office 9 in section 6, 4–6 in sections 8/9) and the yard is to the north. Across the tree-lined Аллея are perspective south-row plots. Inferred, medium confidence."
+    },
+    {
+     "building": "C",
+     "side": "W (sections 9, 10)",
+     "faces": "внутренний проезд/улица кластера",
+     "note": "No label. A driveway with ramps and stairs at the section 9/10 corners, between C and TARIH A (about 20–30 m). Айтматова is about 130–150 m west behind A and not visible. Offices 1 (section 10) and 2/3 (section 9) have tambours on the west."
+    },
+    {
+     "building": "C",
+     "side": "NW open corner (gap between sections 10 and 1)",
+     "faces": "внутренний проезд/улица кластера",
+     "note": "The courtyard opens here toward the driveway and the boundary street. Section 1's west end (office 22) and section 10's north end face it."
+    },
+    {
+     "building": "C",
+     "side": "inner sides",
+     "faces": "двор ЖК (закрытый)",
+     "note": "Closed courtyard of the 10-section square."
+    },
+    {
+     "building": "E",
+     "side": "N (sections 4, 5)",
+     "faces": "Перспективная улица (городская улица)",
+     "note": "Labelled 'Вид на перспективный проект ÜIA.DARYN M' above the section 4/5 plans. This is the TARIH/DARYN boundary street (tree-lined road in the render), with DARYN M across. Offices 1–6 (including E-2, E-4, E-5) have tambours on the north."
+    },
+    {
+     "building": "E",
+     "side": "NW corner (section 4 west end, office 6 bay window)",
+     "faces": "Перспективная улица (городская улица)",
+     "note": "Intersection of the boundary street and the N–S Перспективная улица toward C. Best corner of E."
+    },
+    {
+     "building": "E",
+     "side": "W (sections 4 end, 3, 2)",
+     "faces": "Перспективная улица (городская улица)",
+     "note": "Labelled 'Вид на перспективный проект ÜIA.TARIH C'. N–S city street with cars in the render, and C across at about 30 m. The section 3 plan is rotated 90° (plan-bottom = W): offices 7, 8 and 9 have tambours on the west. Office 10 (section 2) has a west tambour."
+    },
+    {
+     "building": "E",
+     "side": "SW corner (section 2, office 11)",
+     "faces": "угол улицы и аллеи",
+     "note": "N–S Перспективная улица × the Аллея."
+    },
+    {
+     "building": "E",
+     "side": "S (sections 2, 1)",
+     "faces": "Аллея (пешеходная)",
+     "note": "Labelled 'Аллея' under the section 1/2 plans and on the key plan. Offices 11–15 (including E-12, E-14, E-15) have tambours on the south. Across are perspective south-row blocks."
+    },
+    {
+     "building": "E",
+     "side": "E (east ends of sections 5 and 1; courtyard open to the east)",
+     "faces": "перспективный проект/пустырь",
+     "note": "Labelled 'Вид на перспективный проект ÜIA.TARIH F'. A narrow driveway with parking, then the F plot (not yet built). Offices 1 (section 5) and 15 (section 1) have side windows here."
+    },
+    {
+     "building": "E",
+     "side": "inner sides (S of 4/5, E of 3, N of 1/2)",
+     "faces": "двор ЖК (закрытый)",
+     "note": "Labelled 'Вид на ваш двор'."
+    }
+   ],
+   "traffic_ranking": "1) B west façade on ул. Айтматова (section 4, offices 16 and 17, plus corner sections 5 and 3). This is the only TARIH frontage on the arterial: through car traffic, public-transport pedestrians, and visibility from passing cars over the whole length. The NW corner (Айтматова × Аллея) adds the pedestrian stream entering the boulevard. The SW corner (Айтматова × southern street) adds the turn flow toward the ФМЛ лицей. Clear #1.\n2) Corners of the two Перспективные streets: C's NE corner (section 3) and E's NW corner (section 4). They are seen from both the boundary street and the C|E street and sit at the main internal crossroads, where TARIH and DARYN M/G residents meet. Next come the Перспективная × Аллея corners: C's SE corner (section 6) and E's SW corner (section 2), which get car visibility plus the boulevard foot traffic.\n3) B's south façade on the southern city street (sections 3-2-1-10). It is an existing multi-lane street from Айтматова to the ФМЛ, with school drop-off traffic, but its visibility falls off with distance from Айтматова. Section 10 (offices 2 and 1) is about 120–140 m east of Айтматова.\n4) The rest of the TARIH/DARYN boundary street: C's north side (sections 1, 2) and E's north side (sections 4, 5). These are two-sided residential streets serving TARIH and the southern part of DARYN. There is moderate car flow and no view from Улы Дала, which is about 300 m away.\n5) The N–S Перспективная улица between C and E: C's east (sections 4, 5) and E's west (section 3 offices 7–9, section 2 office 10). This is a local cluster street with good pedestrian flow from both blocks to the Аллея and the south street, but low through-traffic.\n6) The Аллея frontages: B north (section 6 offices 11 and 12), C south (sections 7–9), E south (sections 1, 2). Pedestrian foot traffic is strong (the boulevard from Айтматова into the cluster) and good for cafés and services, but cars cannot see these units. B's Аллея frontage near Айтматова is the strongest of these, and E's, at the far east end, is the weakest.\n7) Internal driveways and passages:\n   - C west, toward A (offices 1–3)\n   - B east green passage (section 9 offices 4 and 5, section 10 office 3)\n   - the C NW courtyard-entrance corner\n   These get residents and service traffic only.\n8) E east, toward the empty F plot: weakest until F is built.\nClosed courtyards are not retail frontage."
+  }
+ },
+ "extract": {
+  "B": {
+   "building_notes": "ÜIA.TARIH B (Комфорт+) is the SW block of the whole bigville. All four B key plans I checked (B-3, B-4, B-12, B-16) have the compass pointing straight up (С at the top). 'Аллея' is printed along the top of the key plan and 'ул. Ч.Айтматова' along the left edge. All four section plans on p1 (10, 9, 6, 4) are north-up, which matches the master map. The rotation evidence for each section:\n- Section 10: 'Блокируется с 9 подъездом' is at the top of the plan, and 9 is north of 10 on the key plan.\n- Section 9: 'Блокируется с 10 подъездом' is at the bottom.\n- Section 6: 'Аллея' is at the top, 'Блокируется с 5 подъездом' on the left and 'Блокируется с 7 подъездом' on the right.\n- Section 4: 'ул. Ч.Айтматова' is on the left, 'Блокируется с 5 подъездом' at the top and 'Блокируется с 3 подъездом' at the bottom.\n\nThe block is a closed perimeter:\n- Section 4 (12 эт) sits on Айтматова, between 5 (NW corner) and 3 (SW corner).\n- Sections 5-6-7-8 and an unnumbered NE corner piece run along the Аллея on the north.\n- Section 9 (12 эт) forms the east side, under the corner piece.\n- Section 10 (9 эт) is the SE corner. It is offset south of 9 and sticks out further west than 9.\n- Sections 3-2-1 run along the southern city street. There is a courtyard/parking gap between 1 and 10.\n\nWhat each outer side faces:\n- W: ул. Айтматова. Labelled on the section 4 plan and on p2 of offices 16 and 17. This is the only TARIH arterial frontage, with a green strip and sidewalk to the carriageway.\n- N: the tree-lined pedestrian Аллея, with TARIH A across it. Labelled 'Аллея' above the section 6 plan and on p2 of office 12.\n- E (sections 9 and 10): a green strip, footpath and service passage, then a perspective neighbour block. There is no street label. In the render it is a green buffer with a path.\n- S (sections 3-2-1-10): the multi-lane southern city street (render). It has no label on the sheets.\n- Inner sides: the closed residents' courtyard. The residential lobbies have тамбур-шлюз doors into it: on the west of section 9, the east of section 4 and the south of section 6. The office walls facing the yard are blank.\n\nDetails shared by all six offices:\n- Every office has its own street tambour (7.82 m² in sections 4 and 9; 6.67 m² in section 10; 5.67 m² in section 6).\n- Every office has a С/у and a ПУИ.\n- Ceiling h = 4.18 m. All windows are 'Тип 1', 1.81 m wide, with a 0.78 m sill and a 3.4 m opening.\n- A 'РН 500x300' outlet sits next to every entrance door.\n\nThe p2 dimension strings put a '1,81м тип 1' mark on the entrance door opening as well as on each window. So each glazing_m below includes that door/витраж (windows + door).\n\nThe master map agrees with the sheets for these six offices. I found no discrepancy.",
+   "offices": [
+    {
+     "key": "B-3",
+     "section": "10",
+     "plan_rotation": "North-up. 'Блокируется с 9 подъездом' is on the top edge of the section 10 plan (p1 and p2), and on the key plan section 9 sits directly north of the highlighted 10. Office 2's and office 1's tambours open to the bottom, which is the south city street. The compass on the key plan points straight up.",
+     "entrances": [
+      {
+       "direction": "E",
+       "faces": "внутренний проезд/улица кластера",
+       "kind": "Own street tambour, 6.67 m², with a double door in the east wall at the SE corner of the office and a РН 500x300 beside it."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "E",
+       "faces": "внутренний проезд/улица кластера",
+       "glazing_m": 5.43,
+       "openings": 3
+      },
+      {
+       "direction": "N",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      },
+      {
+       "direction": "W",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      },
+      {
+       "direction": "S",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "visible_from_main_road": "None. The east façade faces the green passage/footpath toward the perspective neighbour block (D), about 120–140 m east of Айтматова. The southern city street is around the corner to the south, in front of office 2, so this office is at most an oblique glimpse from that street.",
+     "power_kw": 17.2,
+     "ceiling_m": 4.18,
+     "area_m2": 86.21,
+     "confidence": "high",
+     "shape_notes": "Almost square, about 9.5 m (E–W) × 9 m (N–S) inside, with about 9 m of frontage on the east. Two 1.81 m windows plus a 1.81 m entrance door on the east. С/у 6.42 m², ПУИ 4.72 m² and the tambour 6.67 m² are all along the south wall. The vent shafts B1 400x200 and B2 150x150 sit in the west wall next to the С/у, at the section 10 core. There are no internal columns or walls, so it is open-plan, but too small to split. The north wall is a blind wall against section 9.",
+     "neighbours": "Section 10 has three offices. Office 2 (88.45 m², 17.7 kW) is directly south and is the SE corner unit: east windows, a south tambour and south windows on the city street. Office 1 (68.43 m²) is at the SW of the section, with a south tambour on the city street, west of the residential lobby. Section 9 (offices 4 and 5) is directly north on the same east passage.",
+     "reasoning": "Section 10 is the highlighted SE section on the key plan. The office is the shaded NE quadrant of the section plan. Its north side is the party wall labelled 'Блокируется с 9 подъездом'. Its west side is the section core (ЛК, Холл, stairs, Тех.пом.), and office 2 lies south. The only outside wall is the east one. On p2 that wall has three '1,81м тип 1' dimensions: two windows plus the tambour door. The B render shows a green buffer and a footpath east of 9 and 10 rather than a street. 17.2 kWt and h = 4.18 m are taken from p2."
+    },
+    {
+     "key": "B-4",
+     "section": "9",
+     "plan_rotation": "North-up. 'Блокируется с 10 подъездом' is on the bottom edge of the section 9 plan (p1 and p2), and section 10 is south of the highlighted 9 on the key plan. The residential тамбур-шлюз is on the left (west), which is the courtyard, and the lobby tambour (5.59 m²) is on the right (east), which is the outer passage. The compass points straight up.",
+     "entrances": [
+      {
+       "direction": "E",
+       "faces": "внутренний проезд/улица кластера",
+       "kind": "Own street tambour, 7.82 m², set back in a recess at the NE corner of the office with a double door in the east wall. РН 500x300."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "E",
+       "faces": "внутренний проезд/улица кластера",
+       "glazing_m": 5.43,
+       "openings": 3
+      },
+      {
+       "direction": "W",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      },
+      {
+       "direction": "S",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "visible_from_main_road": "None. The east passage is about 130–150 m from Айтматова. The southern street is behind section 10, so it is not visible from there either.",
+     "power_kw": 28.5,
+     "ceiling_m": 4.18,
+     "area_m2": 142.29,
+     "confidence": "high",
+     "shape_notes": "About 14 m deep (E–W) × 10.5 m frontage (N–S) inside, with about 10.5 m of frontage on the east. A brick partition with two wide openings runs N–S about 6 m from the west wall. It splits the office into a deep blind west zone (about 6 × 10.5 m, with С/у 5.98 m² and ПУИ 4.23 m² in its NW corner) and a glazed east zone (about 8 × 10.5 m). The office could be split along that wall, but the west part would have no daylight. The vent shafts B3 450x400 and B4 150x150 are at the north wall by the core. Two 1.81 m windows plus a 1.81 m door are on the east. The west wall faces the yard and is blank, and the south wall is blind against section 10.",
+     "neighbours": "Office 5 (142.3 m², the mirror unit) is north of it across the residential core (vestibule 43.32 m², колясочная, east lobby tambour). Section 10 is to the south, with office 3 on the same east passage. Section 9 is 12 эт.",
+     "reasoning": "The shaded south half of the section 9 plan sits against 'Блокируется с 10 подъездом'. The only glazing is on the right/east side: p2 shows a 1.81 door at the tambour and two 1.81 windows. The left wall is blank, and the residential тамбур-шлюз on that side shows it is the courtyard. The B render shows the highlighted 12-storey section 9 on the east edge, with greenery and a path in front. 28.5 kWt and h = 4.18 m are taken from p2."
+    },
+    {
+     "key": "B-5",
+     "section": "9",
+     "plan_rotation": "North-up. This is the same section 9 plan as B-4: 'Блокируется с 10 подъездом' is at the bottom, the courtyard тамбур-шлюз is on the west and the street lobby tambour is on the east. The top edge has hatched party-wall marking and abuts the unnumbered NE corner piece shown north of 9 on the key plan.",
+     "entrances": [
+      {
+       "direction": "E",
+       "faces": "внутренний проезд/улица кластера",
+       "kind": "Own street tambour, 7.82 m², at the SE corner of the office. The tambour bulges out of the east wall, with a double door and a РН 500x300."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "E",
+       "faces": "внутренний проезд/улица кластера",
+       "glazing_m": 5.43,
+       "openings": 3
+      },
+      {
+       "direction": "W",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      },
+      {
+       "direction": "N",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "visible_from_main_road": "None. It is on the internal east passage, about 130–150 m from Айтматова. It is about 15–20 m south of the Аллея, but the corner piece blocks it from the Аллея.",
+     "power_kw": 28.5,
+     "ceiling_m": 4.18,
+     "area_m2": 142.3,
+     "confidence": "high",
+     "shape_notes": "Mirror of office 4: about 14 m (E–W) × 10.5 m (N–S) inside. A brick N–S partition with two openings runs about 6 m from the west wall. The west zone is blind, with С/у 5.98 m² and ПУИ 4.23 m² in its SW corner. The vent shafts B3 450x400 and B4 150x150 are at the south wall by the core. Two 1.81 m windows are at the north end of the east wall and the 1.81 m tambour door is at the south end. The north wall is a blind party wall against the NE corner piece, and the west wall faces the yard and is blank.",
+     "neighbours": "Office 4 (the mirror unit) is south of it across the residential core and lobby (the lobby's own east tambour is between the two office tambours). The NE corner piece of B is to the north (no office sheet). Section 10's office 3 is further south on the same passage.",
+     "reasoning": "This is the shaded north half of the same section 9 plan. P2 shows two '1,81м тип 1' windows on the east plus the tambour door, also 1.81. The west and north walls are blank, and the outer edges have hatching. The key plan has the unnumbered corner block north of 9, so the north side is a party wall, not a frontage. 28.5 kWt and h = 4.18 m are taken from p2."
+    },
+    {
+     "key": "B-12",
+     "section": "6",
+     "plan_rotation": "North-up. 'Аллея' is printed above the section 6 plan (p1 and p2), with 'Блокируется с 5 подъездом' on the left (W) and 'Блокируется с 7 подъездом' on the right (E). On the key plan, 6 is the highlighted section between 5 and 7 under 'Аллея'. The compass points straight up.",
+     "entrances": [
+      {
+       "direction": "N",
+       "faces": "Аллея (пешеходная)",
+       "kind": "Own tambour, 5.67 m², in the NE corner of the office, with a single-leaf outward door straight onto the Аллея. РН 500x300."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "N",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 3.62,
+       "openings": 2
+      },
+      {
+       "direction": "W",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      },
+      {
+       "direction": "S",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "visible_from_main_road": "Not on a car street. It is the westernmost unit of section 6, about 30–40 m east of Айтматова, on the Аллея. It may be glimpsed obliquely from the Айтматова sidewalk down the boulevard, but section 5 occupies the corner, so there is no direct view from cars.",
+     "power_kw": 16.9,
+     "ceiling_m": 4.18,
+     "area_m2": 84.33,
+     "confidence": "high",
+     "shape_notes": "A narrow deep strip, about 6.3 m frontage × 13.8 m deep (N–S), with frontage on the Аллея only. The north façade has one 1.81 m window and the 1.81 m tambour door. ПУИ 4.26 m² and С/у 6.98 m² are at the south (yard) end along the west wall. The vent shafts B1 400x200 and B2 150x150 are at the west wall mid-depth. The east wall is a 200 mm gas-block partition to the residential Холл (27.5 m²). The south wall faces the yard and is blank, and the west is a blind party wall with section 5. It is not splittable. The rear half has no daylight.",
+     "neighbours": "East of the residential core (Холл, ЛК, stairs, межквартирный коридор, lobby tambour 5.32 m² on the Аллея) is office 11, 156.44 m², 31.29 kW. It is the larger unit of section 6: about four north windows plus a tambour on the Аллея, an external stair/ramp in front of it, and a small west window toward the core. Section 5 (the NW corner on Айтматова × Аллея) is to the west. Section 7 is to the east.",
+     "reasoning": "This is the shaded west strip of the section 6 plan. 'Аллея' is printed directly above it on both pages. P2 shows two '1,81м тип 1' marks on the north wall, one for the window and one for the door. The left side is labelled 'Блокируется с 5 подъездом'. The south wall is blank, and on the key plan that side faces the courtyard. 16.9 kWt and h = 4.18 m are taken from p2."
+    },
+    {
+     "key": "B-16",
+     "section": "4",
+     "plan_rotation": "North-up. 'ул. Ч.Айтматова' is written vertically on the left of the section 4 plan (p1 and p2), with 'Блокируется с 5 подъездом' at the top and 'Блокируется с 3 подъездом' at the bottom. On the key plan, 4 (12 эт) is highlighted on the Айтматова side between 5 (N) and 3 (S). The courtyard тамбур-шлюз is on the east. The compass points straight up.",
+     "entrances": [
+      {
+       "direction": "W",
+       "faces": "ул. Айтматова",
+       "kind": "Own street tambour, 7.82 m², at the SW corner of the office, with a double door straight onto the Айтматова sidewalk. РН 500x300. It sits next to the residential lobby tambour (5.58 m²), which also opens to Айтматова."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "W",
+       "faces": "ул. Айтматова",
+       "glazing_m": 5.43,
+       "openings": 3
+      },
+      {
+       "direction": "N",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      },
+      {
+       "direction": "E",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "visible_from_main_road": "Yes, from Айтматова directly: the full west façade faces the arterial across the green strip and sidewalk, about 15–20 m to the carriageway. It is also about 20–25 m south of the Айтматова × Аллея corner, which is held by section 5.",
+     "power_kw": 28.7,
+     "ceiling_m": 4.18,
+     "area_m2": 143.47,
+     "confidence": "high",
+     "shape_notes": "About 13.6 m (E–W) × 10.3 m (N–S) inside, with about 10.3 m of frontage on Айтматова. The west façade has two 1.81 m windows at the north end and the 1.81 m tambour door at the south end. A brick N–S partition with two openings runs about 7.5 m from the façade. It gives a glazed front zone of about 7.5 × 10.3 m and a blind rear zone of about 6 × 10.3 m, with ПУИ 4.23 m² and С/у 5.98 m² along its south wall. The vent shafts 3В 400x450 and 4В 150x150 are at the SE corner by the core. It could be split along the partition, but only the front part would have daylight. The north is a party wall with section 5, and the east wall faces the yard and is blank.",
+     "neighbours": "Office 17 (143.47 m², the mirror unit) is south of it across the residential core. The vestibule 43.31 m², колясочная and the lobby tambour 5.58 m² are on Айтматова, between the two office tambours. Section 5 (the NW corner on Айтматова × Аллея) is to the north. Section 4 is 12 эт.",
+     "reasoning": "This is the shaded north half of the section 4 plan. P2 prints 'ул. Ч.Айтматова' beside the west wall, which has three '1,81м тип 1' marks: two windows plus the door. 'Блокируется с 5 подъездом' is above it. The east wall is blank, and the residential тамбур-шлюз on the east side shows it is the courtyard. The B render shows the highlighted 12-storey tower fronting the multi-lane Айтматова. 28.7 kWt and h = 4.18 m are taken from p2."
+    },
+    {
+     "key": "B-17",
+     "section": "4",
+     "plan_rotation": "North-up. This is the same section 4 plan: 'ул. Ч.Айтматова' is on the left, 'Блокируется с 5 подъездом' at the top and 'Блокируется с 3 подъездом' at the bottom (repeated under the office on p2). The courtyard тамбур-шлюз is on the east.",
+     "entrances": [
+      {
+       "direction": "W",
+       "faces": "ул. Айтматова",
+       "kind": "Own street tambour, 7.82 m², at the NW corner of the office, with a double door onto the Айтматова sidewalk. РН 500x300. It sits right next to the residential lobby entrance."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "W",
+       "faces": "ул. Айтматова",
+       "glazing_m": 5.43,
+       "openings": 3
+      },
+      {
+       "direction": "S",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      },
+      {
+       "direction": "E",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "visible_from_main_road": "Yes, from Айтматова directly: the west façade faces the arterial, about 15–20 m to the carriageway. It is about 20–25 m north of the Айтматова × southern street corner, which is held by section 3.",
+     "power_kw": 28.7,
+     "ceiling_m": 4.18,
+     "area_m2": 143.47,
+     "confidence": "high",
+     "shape_notes": "Mirror of office 16: about 13.6 m (E–W) × 10.3 m (N–S), with about 10.3 m of frontage on Айтматова. The west façade has the 1.81 m tambour door at the north end and two 1.81 m windows at the south end. A brick N–S partition with two openings runs about 7.5 m from the façade. ПУИ 4.23 m² and С/у 5.98 m² are in the NE corner of the blind rear zone. The vent shafts 1В 400x450 and 2В 150x150 are at the north wall by the core. The south is a party wall with section 3, and the east wall faces the yard and is blank.",
+     "neighbours": "Office 16 (the mirror unit) is north of it across the residential core and lobby on Айтматова. Section 3 (the SW corner, Айтматова × southern city street) is to the south.",
+     "reasoning": "This is the shaded south half of the section 4 plan. P2 prints 'ул. Ч.Айтматова' beside the west wall, which has three 1.81 marks: one door plus two windows. 'Блокируется с 3 подъездом' is under the office. The east wall faces the courtyard (the residential тамбур-шлюз is on that side) and is blank. 28.7 kWt and h = 4.18 m are taken from p2."
+    }
+   ]
+  },
+  "C-a": {
+   "building_notes": "ÜIA.TARIH C (Бизнес). It is a closed square of 10 sections, all 9 эт, about 95×95 m. Its NW corner is open: the gap between section 10 and section 1 is blank on the key plan.\n\nKey-plan layout:\n- Top row: 1, 2, 3 (3 is the NE corner).\n- Right column: 4, 5, 6 (6 is the SE corner).\n- Bottom row, right to left: 6, 7, 8, 9 (9 is the SW corner).\n- Left column: 10 (above 9).\nThe key-plan compass is tilted about 10° counter-clockwise, so plan-up is really about NNE. I use plan directions (N/E/S/W) below.\n\nLabels on the C key plan:\n- 'Перспективная улица' above the plan, along N sections 1–3. This is the TARIH/DARYN boundary street.\n- 'Перспективная улица' to the right, along E sections 3–6. This is the C|E street.\nThe 3D render labels 'Перспективная улица' on C's N and E sides and 'ул. Айтматова' at the far left behind block A. The S and W sides have no labels.\n\nFrom the render:\n- W side (sections 10, 9): an internal driveway/parking strip separates it from TARIH A (the closed block between C and Айтматова). Айтматова is about 130–150 m west and not visible.\n- S side (sections 9, 8, 7, 6): faces a tree-lined E–W band. This is the Аллея running in from Айтматова between A and B. It is not printed on the C sheets, so the attribution is inferred, medium confidence.\n\nAll floor plans of sections 7, 8, 9 and 10 in this group are north-up. Evidence:\n- Section 10: 'Блокируется с 9 подъездом' at plan-bottom.\n- Section 9: 'Блокируется с 10' at plan-top and 'Блокируется с 8' at plan-right.\n- Section 8: 'Блокируется с 9' on the left and 'с 7' on the right.\n- Section 7: 'с 8' on the left and 'с 6' on the right.\n- In each section the residential тамбур-шлюз opens to the yard on the inner side, and the street lobby tambour (7,02 / 7,21) opens outward on the S or W.\n\nAll offices in this group have h=4.2 m. All windows are 'тип 1', full-height витраж with a 4.2 m opening. Each office has its own С/у, С/у МГН and ПУИ, and vent shafts marked 400x200 + 150x150.\n\nOn the S side of sections 7 and 8 there is an external stair descending along the façade to level −2,480 (labelled on the C-8 sheet), probably a basement entrance. It runs in front of the west sub-room window of offices 6 and 8, next to the residential lobby door.\n\nExternal stairs/ramps also stand at the 9/10 junction (NW corner of section 9) and at the SW corner of section 9.\n\nSection 10, north of office 1, has a 'Менеджер объекта 38,23' with its own west tambour, the residential lobby, a колясочная and a street vestibule with Тамбур 7,02 on the west.\n\nWhat each outer side faces:\n- N: the boundary Перспективная улица (DARYN across).\n- NE corner: the junction of the two Перспективные streets.\n- E: the C|E Перспективная улица.\n- SE: Перспективная × Аллея.\n- S: the Аллея (inferred).\n- W: an internal driveway toward A.\n- NW: the open courtyard mouth onto the driveway and boundary street.\n- Inner sides: the closed yard.\n\nThe master map agrees with the sheets for this group. No conflicts were found.",
+   "offices": [
+    {
+     "key": "C-1",
+     "section": "10",
+     "area_m2": 114.33,
+     "plan_rotation": "North-up. Plan-bottom = S: 'Блокируется с 9 подъездом' under the plan, and section 9 is south of 10 on the key plan. Plan-left = W, the outer façade toward the driveway/A. Plan-right = E, the yard: the residential тамбур-шлюз 6,86 opens to the right. Plan-top = N, a solid end wall at the open NW courtyard mouth.",
+     "entrances": [
+      {
+       "direction": "W",
+       "faces": "внутренний проезд/улица кластера",
+       "kind": "Own tambour (Тамбур 6,96) from outside through a 2.4 m glazed door opening on the west façade."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "W",
+       "faces": "внутренний проезд/улица кластера",
+       "glazing_m": 6.02,
+       "openings": 3
+      }
+     ],
+     "corner": false,
+     "power_kw": 22.9,
+     "ceiling_m": 4.2,
+     "confidence": "high",
+     "visible_from_main_road": "none. Айтматова is about 130–150 m west, behind block A. The office faces only the internal driveway between A and C, and the boulevard runs along C's south side, not past this façade.",
+     "shape_notes": "The office is at the S end of section 10 and abuts section 9. The west façade has three openings (1.81 + 2.4 door + 1.81 = 6.02 m) on about 8–9 m of frontage. It is made of three parts. (1) The main west room with the tambour. (2) An east room behind a brick wall, reached through an opening; it holds ПУИ 3,78, С/у 3,37 and С/у МГН 4,00 and has a blank east wall to the yard. (3) A separate NW sub-room with its own 1.81 window, south of the residential Тамбур 7,02 and reached through an opening in the brick wall. Shafts 400x200 + 150x150 sit on the north partition. An external stair/ramp outside the lower west window is at the 9/10 corner. The office can be split into the west hall and the east wet room plus the NW room. Its depth is about 13–14 m.",
+     "neighbours": "Section 10, to the north: the residential street vestibule (Тамбур 7,02, west door), the residential lobby with тамбур-шлюз to the yard, and 'Менеджер объекта 38,23' with its own west tambour (a management office, not for sale). Section 9, to the south: office 2 (120,59 m², west tambour) directly adjoins it.",
+     "reasoning": "Labels used: 'План этажа: подъезд 10', 'Блокируется с 9 подъездом' at plan-bottom, and the key plan with 10 highlighted on the W side above 9. The p2 widths are 1,81 / 2,4 / 1,81 тип 1 on the left (W) side, with h=4.2 m and 22,9 кВт. The render shows the highlighted section on the W side facing block A across a driveway."
+    },
+    {
+     "key": "C-2",
+     "section": "9",
+     "area_m2": 120.59,
+     "plan_rotation": "North-up. Plan-top = N: 'Блокируется с 10 подъездом' above the plan. Plan-right = E: 'Блокируется с 8 подъездом' vertically on the right. Plan-left = W, the outer façade with tambours. Plan-bottom = S: the residential Тамбур 7,21 and office 4's tambour open outward.",
+     "entrances": [
+      {
+       "direction": "W",
+       "faces": "внутренний проезд/улица кластера",
+       "kind": "Own tambour (Тамбур 8,49) from outside through a 2.4 m door opening on the west façade."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "W",
+       "faces": "внутренний проезд/улица кластера",
+       "glazing_m": 6.02,
+       "openings": 3
+      }
+     ],
+     "corner": false,
+     "power_kw": 24.1,
+     "ceiling_m": 4.2,
+     "confidence": "high",
+     "visible_from_main_road": "none. It faces the internal driveway toward TARIH A, and Айтматова is about 130–150 m west behind A.",
+     "shape_notes": "L-shaped. The main west hall has 1.81 + 1.81 + 2.4 door = 6.02 m of west glazing and about 10 m of frontage. ПУИ 4,47, С/у 3,93 and С/у МГН 4,20 sit along the east side of the hall. A brick wall with an opening leads to a windowless NE room, about 6×5 m, north of the ЛК stair. Its east wall faces the courtyard corner and is blank. Shafts 400x200 + 150x150 sit at the inner corner. The office could be split into the hall and the back room, but the back room has no light. An external stair stands at the NW corner of section 9 (the 9/10 junction).",
+     "neighbours": "Section 9: office 3 (78,06 m², 15,6 кВт), directly south at the SW corner, has a west tambour on the same driveway. Office 4 (79,58 m², south tambour, toward the Аллея) is in the SE part. The residential lobby has its street Тамбур 7,21 on the S and a тамбур-шлюз 5,97 to the yard. Section 10, to the north: office 1 (114,33 m², west tambour).",
+     "reasoning": "Labels used: 'План этажа: подъезд 9', 'Блокируется с 10 подъездом' at the top, 'Блокируется с 8 подъездом' on the right, and the key plan with 9 highlighted at the SW corner. The p2 widths on the left (W) side are 1,81 / 1,81 / 2,4 тип 1, with 24,1 кВт and h=4.2 m. The west side faces the driveway toward A, as seen in the render; the side is unlabeled."
+    },
+    {
+     "key": "C-4",
+     "section": "9",
+     "area_m2": 79.58,
+     "plan_rotation": "North-up, the same section-9 sheet as C-2. 'Блокируется с 10 подъездом' is at the top (N) and 'Блокируется с 8 подъездом' on the right (E). Plan-bottom = S, the outer façade where this office's tambour and the residential Тамбур 7,21 open.",
+     "entrances": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "kind": "Own tambour (Тамбур 8,49) from outside through the middle 1.81 m glazed opening on the south façade."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 6.02,
+       "openings": 3
+      }
+     ],
+     "corner": false,
+     "power_kw": 16,
+     "ceiling_m": 4.2,
+     "confidence": "medium",
+     "visible_from_main_road": "none from Айтматова, which is about 150–165 m west; at best there is an oblique glimpse down the Аллея. It is not on the C|E Перспективная улица, which is about 65–75 m east.",
+     "shape_notes": "The south frontage is about 9–10 m, with 2.4 + 1.81 (door) + 1.81 = 6.02 m of glazing. The main hall is about 6.5 m wide. Behind it, past a brick wall with an opening, are Коридор 11,79 and С/у МГН 5,04. The north wall is gas-block and carries shafts 400x200 + 150x150. To the west, beyond a brick wall with an opening, is a sub-room with its own 2.4 m south window; it holds ПУИ 4,25 and С/у 3,72 and has a gas-block wall to the residential vestibule. The east wall is blocked by section 8. The office could be split into the main hall and the west sub-room.",
+     "neighbours": "Section 9: the residential street lobby (Вестибюль 19,15 + Тамбур 7,21, south door) is directly west. Office 3 (SW corner, west tambour) and office 2 (NW, west tambour) are also in section 9. Section 8, to the east: office 5 (50,65 m², south tambour).",
+     "reasoning": "Labels used: 'План этажа: подъезд 9', 'Блокируется с 10' at the top, 'Блокируется с 8' on the right (also on p2), and section 9 highlighted at the SW corner of the key plan. The p2 widths along the bottom (S) are 2,4 / 1,81 / 1,81 тип 1, with 16 кВт and h=4.2 m. The south side is not labelled on the C sheets. The render shows a tree-lined band (the Аллея from Айтматова) along C's south, so the face is inferred."
+    },
+    {
+     "key": "C-5",
+     "section": "8",
+     "area_m2": 50.65,
+     "plan_rotation": "North-up. Plan-left = W: 'Блокируется с 9 подъездом'. Plan-right = E: 'Блокируется с 7 подъездом'. Plan-top = N, the yard: the residential тамбур-шлюз 6,86 opens there. Plan-bottom = S, the outer façade with the office tambours and the residential Тамбур 7,02.",
+     "entrances": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "kind": "Own tambour (Тамбур 6,96) from outside through a 2.4 m glazed door opening on the south façade."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 4.6,
+       "openings": 2
+      }
+     ],
+     "corner": false,
+     "power_kw": 10.1,
+     "ceiling_m": 4.2,
+     "confidence": "medium",
+     "visible_from_main_road": "none from Айтматова (about 170 m west, behind A/B). It is not on the Перспективная улица, which is about 60–70 m east.",
+     "shape_notes": "A compact, nearly square unit of about 7×7.5 m. The south frontage is about 7 m, with 2.2 m (window) + 2.4 m (door) = 4.6 m of glazing. С/у 2,95, С/у МГН 3,41 and ПУИ 4,43 sit along the north and west. Shafts 400x200 + 150x150 are in the north wall, toward the колясочная. The west wall is blocked by section 9. It is too small to split. The wall stub at the SE corner is the projecting residential vestibule.",
+     "neighbours": "Section 8: the residential street lobby (Вестибюль 15,91 + Тамбур 7,02, south door with an external stair) is directly east. Office 6 (114,43 m²) is in the SE part. Section 9, to the west: office 4 (79,58 m², south tambour).",
+     "reasoning": "Labels used: 'План этажа: подъезд 8', 'Блокируется с 9 подъездом' on the left and 'Блокируется с 7' on the right, and 8 highlighted in the bottom row of the key plan. The p2 widths at the bottom (S) are 2,2 and 2,4 тип 1, with 10,1 кВт and h=4.2 m. The south side is not labelled on the C sheets; the Аллея is inferred from the render and the B/E labels."
+    },
+    {
+     "key": "C-6",
+     "section": "8",
+     "area_m2": 114.43,
+     "plan_rotation": "North-up, the same section-8 sheet as C-5. 'Блокируется с 9' on the left (W), 'Блокируется с 7' on the right (E), the yard тамбур-шлюз at the top (N) and the outer façade at the bottom (S).",
+     "entrances": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "kind": "Own tambour (Тамбур 6,96) from outside through a 2.4 m glazed door opening on the south façade."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 4.21,
+       "openings": 3
+      }
+     ],
+     "corner": false,
+     "power_kw": 22.9,
+     "ceiling_m": 4.2,
+     "confidence": "medium",
+     "visible_from_main_road": "none from Айтматова (about 190 m west). It is about 45–55 m west of the C|E Перспективная улица × Аллея corner, so there is only a very oblique view from that street.",
+     "shape_notes": "The printed glazing is 2.4 (door) + 1.81 = 4.21 m. A third window on the west sub-room is not dimensioned on p2 and is about 1.8 m by scale, which would make about 6 m in total. That window sits behind the external stair descending along the façade to level −2,480 (a basement entrance next to the residential lobby door), so its view and access are partly obstructed. The office is deep and goes through to the yard wall. The main hall is about 6.5 m wide × 8 m. Through an opening in a brick wall it reaches a north back room, about 6.5×6.5 m and windowless, with С/у МГН 4,00, С/у 3,30 and ПУИ 3,84, shafts 400x200 + 150x150, and a blank wall to the yard. The west sub-room, about 3.5×6 m, is reached through an opening in a brick wall and has gas-block walls to the residential vestibule and the ПУИ 6,37. The east wall is blocked by section 7. The office could be split into the front hall plus sub-room and the back room.",
+     "neighbours": "Section 8: the residential lobby (Тамбур 7,02) is directly west, past the sub-room, and office 5 (50,65 m², south tambour) is at the SW. Section 7, to the east: office 7 (50,59 m², south tambour).",
+     "reasoning": "Labels used: 'План этажа: подъезд 8', 'Блокируется с 9' on the left and 'Блокируется с 7' on the right (also on p2), and 8 highlighted in the bottom row of the key plan. The p2 widths are 2,4 and 1,81 тип 1, plus the undimensioned sub-room window and the external stair (with the −2,480 level shown on the identical section-7 sheet). Power is 22,9 кВт and h=4.2 m. The south side is unlabelled; the Аллея is inferred."
+    },
+    {
+     "key": "C-8",
+     "section": "7",
+     "area_m2": 116.23,
+     "plan_rotation": "North-up. Plan-left = W: 'Блокируется с 8 подъездом'. Plan-right = E: 'Блокируется с 6 подъездом'. Plan-top = N, the yard: the тамбур-шлюз 6,86. Plan-bottom = S, the outer façade with the tambours and the external stair marked '−2,480'.",
+     "entrances": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "kind": "Own tambour (Тамбур 6,96) from outside through a 2.4 m glazed door opening on the south façade."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 4.21,
+       "openings": 3
+      }
+     ],
+     "corner": false,
+     "power_kw": 23.2,
+     "ceiling_m": 4.2,
+     "confidence": "medium",
+     "visible_from_main_road": "Partly. It is about 23–30 m west of C's SE corner at the C|E Перспективная улица × Аллея, so it is visible obliquely from that junction; it does not front the street itself. It is not visible from Айтматова (about 210 m west).",
+     "shape_notes": "The layout is identical to C-6 (section 7 repeats section 8). The printed glazing is 2.4 (door) + 1.81 = 4.21 m. A third window on the west sub-room is undimensioned, about 1.8 m by scale, and sits behind the external stair descending to −2,480 next to the residential lobby door. The main hall is about 6.5 m wide. Through an opening it reaches a windowless north back room with МГН 4,00, С/у 3,30 and ПУИ 3,84, shafts 400x200 + 150x150, and a blank wall to the yard. The west sub-room has gas-block walls to the residential vestibule and the ПУИ 6,37. The east wall is blocked by section 6. The office could be split into the front and back parts. Of the offices in this group, it is the closest to the main crossroads at the SE corner.",
+     "neighbours": "Section 7: office 7 (50,59 m², 10,1 кВт, south tambour) is at the SW, and the residential lobby (Тамбур 7,02) is between them. Section 6, to the east, is the SE corner section with offices on the Перспективная улица and the Аллея.",
+     "reasoning": "Labels used: 'План этажа: подъезд 7', 'Блокируется с 8 подъездом' on the left and 'Блокируется с 6 подъездом' on the right (also on p2), the level '−2,480' at the external stair, and 7 highlighted in the bottom row of the key plan next to corner section 6. The p2 widths are 2,4 and 1,81 тип 1, with 23,2 кВт and h=4.2 m. The south side is unlabelled on the C sheets; the Аллея is inferred from the render and the B/E labels."
+    }
+   ]
+  },
+  "C-b": {
+   "building_notes": "ÜIA.TARIH C (Бизнес) is a closed 10-section square of 9-storey sections, about 95×95 m. It sits in TARIH's north row, about 130–250 m east of ул. Айтматова, with TARIH A between it and Айтматова. All six sheets in this group (sections 1, 2, 4, 5, 6) have NORTH-UP floor plans. The key-plan compass is tilted about 10° counter-clockwise, so plan-up is really about NNE. The sheet labels match the master map and I found no conflicts.\nOuter sides:\n- N (sections 1-2-3): the TARIH/DARYN boundary 'Перспективная улица'. It is printed above the key plan and above the section 1 and section 2 plans ('Перспективная улица' on p1 and p2 of C-19, C-20 and C-22).\n- E (sections 3-4-5-6): the N–S 'Перспективная улица' between C and E. It is printed to the right of the key plan and of the section 4, 5 and 6 plans.\n- NE corner (section 3): the crossing of the two Перспективные streets.\n- S (sections 6-7-8-9): no label on any C sheet. The tambours of office 9 and the residential entrance (Тамбур 7,21 with steps) open south, and the yard lies north. I assigned it to the Аллея following the master map, at medium confidence.\n- W (sections 9-10): faces the internal driveway toward A.\n- NW: an open corner (no building between section 10 and section 1) toward the driveway and the boundary street. Section 1's west gable is a blank brick wall facing it.\nYard sides of all sections face the closed courtyard ('двор ЖК'). Residential Тамбур-шлюз doors on the yard side confirm this: section 5/4 on the west, section 2/1 on the south, section 6 at the inner NW corner.\nSection types:\n- Sections 4 and 5 (E side) have identical layouts. Each has one large office of about 113–115 m² in the north half (a front room on the street, a windowless back room on the yard side with С/у МГН, С/у and ПУИ, plus a small glazed sub-room south of the brick cross-wall). Each also has a small office of about 49.5 m² in the south half. The residential entrance (Тамбур 7,02) is on the east between them. Section 4 also has exterior steps along the façade in front of the sub-room window.\n- Sections 1 and 2 (N side) have identical layouts. A narrow office (about 71 m²) sits at the west end, with only a 3.2 m wide entrance strip on the street and a windowless back room. A residential Тамбур 7,24 and the vestibule are next to it. An ЛК stair core has an external stair or landing on the street. A larger office (about 95–97 m²) sits at the east end, with 4.2 m of street glazing and a windowless back room.\n- Section 6 (SE corner): office 11 is on the north and office 10 on the SE corner, both with east tambours. Office 9 is in the SW part with south tambours. The residential entrance (Тамбур 7,21 with steps) is on the south.\nEvery office has its own С/у МГН + С/у + ПУИ, h=4.2 m, a 380 mm brick outer wall and type-1 floor-to-ceiling витражи (4.2 m). The vent shafts are marked 400x200 + 150x150.\nNone of the C offices is visible from ул. Айтматова (about 130–250 m away, behind TARIH A). Улы Дала is about 300 m north beyond DARYN.",
+   "offices": [
+    {
+     "key": "C-9",
+     "section": "6",
+     "plan_rotation": "North-up. Plan top = N: 'Блокируется с 5 подъездом'. Plan left = W: 'Блокируется с 7 подъездом'. Plan right = E: 'Перспективная улица'. Plan bottom = S: no label. Section 6 is highlighted at the SE corner of the key plan, and the 'Перспективная улица' label runs down its right side. The blank area at the plan's top-left is the inner (NW) corner of the L. That is the yard, and the residential Тамбур-шлюз 5,97 opens into it. The compass is tilted about 10° counter-clockwise.",
+     "entrances": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "kind": "own tambour (Тамбур 8,49) from the street. The door sits in the middle 1.81 m витраж on the south façade."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 6.02,
+       "openings": 3
+      }
+     ],
+     "corner": false,
+     "area_m2": 78.78,
+     "power_kw": 15.8,
+     "ceiling_m": 4.2,
+     "confidence": "medium",
+     "visible_from_main_road": "none. It faces the Аллея (south side of C), about 250 m from Айтматова and hidden behind A/B. It sits about 13–23 m west of C's SE corner, so it is seen only obliquely from the N–S Перспективная улица (C|E) at its crossing with the Аллея. Office 10 holds the actual corner.",
+     "shape_notes": "Two parts joined through a roughly 2 m opening in an interior 380 mm brick wall. The west part is about 6.9 m wide and 8.9 m deep: the main hall plus tambour, with a rear strip (about 2.5 m deep) holding С/у МГН 4,91 and Коридор 11,67. The east part is a strip about 2.9 m wide with С/у 3,53 and ПУИ 4,03 at the rear and a glazed room in front. Total frontage is about 10.4 m, with 3 type-1 витражи (1.81 + 1.81 with door + 2.4). The office has two WCs and a ПУИ. Vent shafts 400x200 and 150x150 sit on the north (rear) wall. The rear wall is газоблок toward the residential Холл and ПУИ. The office could be split along the brick wall into about 60 m² + 19 m², but WC access would need replanning. It is a shallow, wide unit, good for a café or services.",
+     "neighbours": "Same section: office 11 (119.67 m², 24 kW) in the north part with an east tambour on the Перспективная улица. Office 10 (76.90 m², 15.4 kW) at the SE corner, with an east tambour on the Перспективная улица and corner glazing. The residential entrance (Тамбур 7,21 with exterior steps, to the south) lies directly east of office 9, between it and office 10. To the west is party wall section 7 (the Аллея frontage continues west).",
+     "reasoning": "p1 says 'План этажа: подъезд 6'. The top/left/right 'Блокируется' and 'Перспективная улица' labels match section 6's position at the SE corner of the key plan, so the plan is north-up. The shaded office occupies the bottom-left of the plan. On p2 all three openings (1,81 м тип 1; 1,81 м тип 1 with the door; 2,4 м тип 1) are on the bottom wall, which is south. Sum: 1.81 + 1.81 + 2.4 = 6.02 m. The C sheets print no label for the south side. The south tambours, the residential south entrance and the yard to the north make it an outer street-level side. The master map's Аллея assignment comes from the B/E sheets, so confidence is medium."
+    },
+    {
+     "key": "C-13",
+     "section": "5",
+     "plan_rotation": "North-up. Plan top = N: 'Блокируется с 4 подъездом'. Plan bottom = S: 'Блокируется с 6 подъездом'. Plan right = E: 'Перспективная улица'. Plan left = W: the yard, with the residential Тамбур-шлюз 6,86 opening there. This matches section 5 on the east side of the key plan. The compass is tilted about 10° counter-clockwise.",
+     "entrances": [
+      {
+       "direction": "E",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour (Тамбур 6,96) from the street. The door is in the 2.4 m витраж."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "E",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 6.02,
+       "openings": 3
+      },
+      {
+       "direction": "W",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "area_m2": 113.45,
+     "power_kw": 22.7,
+     "ceiling_m": 4.2,
+     "confidence": "high",
+     "visible_from_main_road": "Перспективная улица (N–S street between C and E): direct frontage of about 10.7 m in the middle of C's east side. It is visible to traffic on that street and from E's west side across it (about 30 m). Not visible from Айтматова (about 250 m, behind A).",
+     "shape_notes": "Deep L-plan, about 15 m deep from the street. Front room about 7.8 m deep × 7.0 m frontage, with a tambour. Behind a 380 mm brick wall (about 1.3 m opening) is a windowless rear room of about 6.8 × 7.0 m, holding С/у МГН 4,00, С/у 3,37 and ПУИ 3,78 along its south side. The rear room's west wall is a blank outer wall to the yard. Through an opening in the south brick wall is a small sub-room of about 5.7 × 3.6 m with its own 1.81 m street window, separated from the residential ПУИ and Вестибюль by газоблок. Vent shafts 400x200 and 150x150 sit at the ПУИ on the south wall. Openings: 1.81 + 2.4 (door) + 1.81. The office could be split into the front room with the sub-room (about 60 m²) and the rear room with the WCs, but the rear room has no daylight or street access.",
+     "neighbours": "Same section: office 12 (49.52 m², 9.9 kW) in the south part, with its own east tambour on the Перспективная улица. Between them is the residential entrance Тамбур 7,02 and Вестибюль 15,90 on the east façade. Section 4 is to the north (office 15, same layout) and section 6 to the south (offices 9/10/11).",
+     "reasoning": "The p1 labels 'Блокируется с 4 подъездом' at the top, 'Блокируется с 6 подъездом' at the bottom and 'Перспективная улица' on the right give a north-up plan. p2 shows three openings on the right (east) wall: 1,81 м тип 1, 2,4 м тип 1 (with the tambour door) and 1,81 м тип 1 (sub-room). Sum 6.02 m. The west, north and south walls have no openings: the west is a yard wall and the north and south are party or interior walls."
+    },
+    {
+     "key": "C-15",
+     "section": "4",
+     "plan_rotation": "North-up. Plan top = N: 'Блокируется с 3 подъездом'. Plan bottom = S: 'Блокируется с 5 подъездом'. Plan right = E: 'Перспективная улица'. Plan left = W: the yard, with the residential Тамбур-шлюз 6,86. This matches section 4 on the east side of the key plan, south of corner section 3. The compass is tilted about 10° counter-clockwise.",
+     "entrances": [
+      {
+       "direction": "E",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour (Тамбур 6,96) from the street. The door is in the 2.4 m витраж."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "E",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 6.02,
+       "openings": 3
+      },
+      {
+       "direction": "W",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "area_m2": 115.24,
+     "power_kw": 23,
+     "ceiling_m": 4.2,
+     "confidence": "high",
+     "visible_from_main_road": "Перспективная улица (N–S, C|E): frontage of about 11 m. It is one section south of C's NE corner (section 3, at the crossing with the boundary Перспективная улица), so it is partly visible from that crossing. Not visible from Айтматова.",
+     "shape_notes": "Same layout as office 13, mirrored in position. Front room about 7.9 m deep × 7.3 m frontage, with a tambour. A windowless rear room of about 6.9 × 7.3 m holds С/у МГН 4,00, С/у 3,85 and ПУИ 3,30. A small sub-room of about 5.7 × 3.75 m with a 1.81 m window sits south of the brick wall. Exterior steps run along the façade directly in front of the sub-room window toward the residential Тамбур 7,02. The steps partly screen that window and suggest the ground floor sits above the sidewalk here. Vent shafts 400x200 and 150x150 sit on the south wall at the ПУИ. Openings: 1.81 + 2.4 (door) + 1.81. The rear room has no daylight.",
+     "neighbours": "Same section: office 14 (49.41 m², 9.9 kW) in the south part, with an east tambour. Between them is the residential entrance Тамбур 7,02 / Вестибюль 15,90 with exterior steps. North is section 3 (the NE corner of C); south is section 5 (offices 13 and 12).",
+     "reasoning": "The p1 labels 'Блокируется с 3 подъездом' at the top, 'Блокируется с 5 подъездом' at the bottom and 'Перспективная улица' on the right give a north-up plan. On p2 the right (east) wall carries 1,81 м + 2,4 м (with door) + 1,81 м, all тип 1, summing to 6.02 m. No other openings."
+    },
+    {
+     "key": "C-19",
+     "section": "2",
+     "plan_rotation": "North-up. Plan top = N: 'Перспективная улица' (printed above the plan on p1 and on p2). Plan left = W: 'Блокируется с 1 подъездом'. Plan right = E: 'Блокируется с 3 подъездом' (with the hatched expansion-joint strip). Plan bottom = S: the yard, with the residential Тамбур-шлюз 6,44. This matches section 2 in the middle of the key plan's north row. The compass is tilted about 10° counter-clockwise.",
+     "entrances": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour (Тамбур 7,18) from the street. The door is in the 1.81 m витраж at the NE end."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 4.21,
+       "openings": 2
+      },
+      {
+       "direction": "S",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "area_m2": 96.59,
+     "power_kw": 19.3,
+     "ceiling_m": 4.2,
+     "confidence": "high",
+     "visible_from_main_road": "Перспективная улица (the TARIH/DARYN boundary street): direct frontage of about 6.9 m, with DARYN G/M across (about 30–40 m). It sits about 25–35 m west of the NE corner. Not visible from Айтматова (behind A) or from Улы Дала (about 300 m).",
+     "shape_notes": "Narrow and deep: about 6.9 m frontage × 14.5 m depth. Front room about 6.6 m deep, with a tambour in the NE corner. Behind a 380 mm brick cross-wall (about 2 m opening) is a windowless rear room of about 7.5 m depth, holding ПУИ 4,78, С/у 3,57 and С/у МГН 4,99 along its west side. The south wall to the yard is blank. Vent shafts 400x200 and 150x150 are on the west wall of the front room. Glazing: 2.4 m + 1.81 m (door). The office could be split at the brick wall into a 45 m² front room and a 50 m² rear room, but the rear room has no light and no own entrance.",
+     "neighbours": "Same section: office 20 (71.36 m², 14.3 kW) at the west end with a north tambour. The residential entrance (Тамбур 7,24 / Вестибюль 13,73) and the ЛК stair core, with an external stair or landing on the street, sit between the two offices. East is section 3 (the NE corner of C). Section 1 to the west mirrors this layout (office 22 and office 21, 95.01 m²).",
+     "reasoning": "p1 and p2 both print 'Перспективная улица' above the plan. 'Блокируется с 1 подъездом' (left) and 'Блокируется с 3 подъездом' (right) fix north-up. p2 shows 2,4 м тип 1 + 1,81 м тип 1 (with door) on the top (north) wall: 4.21 m. The other walls are party or yard walls without openings."
+    },
+    {
+     "key": "C-20",
+     "section": "2",
+     "plan_rotation": "North-up. Plan top = N: 'Перспективная улица'. Plan left = W: 'Блокируется с 1 подъездом'. Plan right = E: 'Блокируется с 3 подъездом'. Plan bottom = S: the yard (Тамбур-шлюз 6,44). This matches section 2 in the key plan's north row. The compass is tilted about 10° counter-clockwise.",
+     "entrances": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour (Тамбур 7,00) from the street. The door is in the single 1.81 m витраж."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 1.81,
+       "openings": 1
+      },
+      {
+       "direction": "S",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "area_m2": 71.36,
+     "power_kw": 14.3,
+     "ceiling_m": 4.2,
+     "confidence": "high",
+     "visible_from_main_road": "Перспективная улица (TARIH/DARYN boundary street): only about 3.2 m of street frontage (the door витраж). Weak shopfront visibility. Not visible from Айтматова.",
+     "shape_notes": "T or keyhole plan. The street part is only a strip about 3.2 m wide × 6.7 m deep (Тамбур 7,00 plus a passage). A газоблок partition separates it from the residential Тамбур 7,24 and Вестибюль 13,73, and vent shafts 400x200 and 150x150 sit at that partition. Through an opening in a 380 mm brick cross-wall is a windowless main room of about 6.8 × 7.5 m, holding ПУИ 4,59, С/у 3,57 and С/у МГН 5,40 on its east side. The south wall to the yard is blank and the west wall is the party wall with section 1. It suits office, storage or service use, not retail. It cannot be split.",
+     "neighbours": "Same section: office 19 (96.59 m², 19.3 kW) at the east end with 4.21 m of north glazing. The residential entrance Тамбур 7,24 is immediately east, through a газоблок wall. West, across the party wall, is section 1's office 21 (95.01 m², 19 kW).",
+     "reasoning": "Rotation comes from the p1 labels 'Перспективная улица' (top), 'Блокируется с 1 подъездом' (left) and 'Блокируется с 3 подъездом' (right). p2 shows a single 1,81 м тип 1 opening with the door on the top wall, under 'Перспективная улица'. The office is shaded at the NW of the section 2 plan."
+    },
+    {
+     "key": "C-22",
+     "section": "1",
+     "plan_rotation": "North-up. Plan top = N: 'Перспективная улица' (on p1 and p2). Plan right = E: 'Блокируется со 2 подъездом'. Plan left = W: no label, a blank gable. On the key plan section 1 is the west end of the north row, with the open NW corner beside it (no section between 1 and 10). Plan bottom = S: the yard (Тамбур-шлюз 6,44). The compass is tilted about 10° counter-clockwise.",
+     "entrances": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour (Тамбур 7,00) from the street. The door is in the single 1.81 m витраж."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 1.81,
+       "openings": 1
+      },
+      {
+       "direction": "W",
+       "faces": "внутренний проезд/улица кластера",
+       "glazing_m": 0,
+       "openings": 0
+      },
+      {
+       "direction": "S",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "area_m2": 71.13,
+     "power_kw": 14.2,
+     "ceiling_m": 4.2,
+     "confidence": "high",
+     "visible_from_main_road": "Перспективная улица (TARIH/DARYN boundary street): about 3.2 m of street frontage. It is the westernmost C unit on that street and closest to Айтматова, but A blocks the view of Айтматова (about 130 m). Its blank west gable faces the open NW corner and driveway, so it may be seen from the driveway and the boundary street approach. That gable has no glazing.",
+     "shape_notes": "Identical to C-20: a street strip about 3.2 m wide × 6.5 m deep (Тамбур 7,00), separated by газоблок from the residential Тамбур 7,24 and Вестибюль 13,73, with vent shafts 400x200 and 150x150 at that partition. Through an opening in a brick cross-wall is a windowless rear room of about 6.7 × 7.4 m, holding ПУИ 4,59, С/у 3,57 and С/у МГН 5,40. The west wall is the building's outer brick gable to the open NW corner and has no openings. Adding windows there would need developer or permit approval. The south wall to the yard is blank. Unsuitable for retail; acceptable for office or services.",
+     "neighbours": "Same section: office 21 (95.01 m², 19 kW) at the east end, with a north tambour and wider glazing. The residential entrance Тамбур 7,24 and the ЛК stair core, with an external stair on the street, sit between the two offices. East across the party wall is section 2 (offices 20 and 19).",
+     "reasoning": "p1 is titled 'План этажа: подъезд 1'. The top label 'Перспективная улица' and the right label 'Блокируется со 2 подъездом' give a north-up plan, and section 1 is highlighted at the left of the key plan's top row. A p1 zoom shows the left (west) wall is solid brick with no openings, facing the open NW corner of the square. p2 shows only 1,81 м тип 1 (with door) on the north wall. The office has glazing on only one façade, so corner = false."
+    }
+   ]
+  },
+  "E-a": {
+   "building_notes": "ÜIA.TARIH E (Бизнес, 9 эт, 5 sections, handover 27.03.2027, all sheets printed 14.10.2026). The sheets agree with the master map. The key plan compass is tilted about 15° counter-clockwise, so 'N' means about NNE. E is U-shaped: sections 4 (west) and 5 (east) run along the north; section 3 is a N–S bar on the west; sections 2 and 1 run along the south; the courtyard opens to the east. By key-plan proportions there is a gap of roughly 20 m (schematic, estimated) between the south end of section 4 and the north end of section 3. That gap opens the courtyard to the C|E Перспективная улица. Outer sides:\n- N (sections 4, 5): labelled 'Вид на перспективный проект ÜIA.DARYN M' above the plans and the key plan. This is the TARIH/DARYN boundary Перспективная улица. All section 4/5 offices have their tambours here.\n- W (section 4 west end, section 3, section 2 west end): labelled 'Вид на перспективный проект ÜIA.TARIH C' (left of the section 4 plan, bottom of the rotated section 3 plan, and the key plan). This is the N–S Перспективная улица between C and E.\n- S (sections 2, 1): labelled 'Аллея' on the key plan.\n- E (east ends of section 5 and section 1): labelled 'Вид на перспективный проект ÜIA.TARIH F'. This is the empty F plot.\n- Inner sides: labelled 'Вид на ваш двор'.\nPlan rotations:\n- Sections 4 and 5 are north-up. Section 4 has 'Блокируется с 5 подъездом' on the right and TARIH C on the left. Section 5 has 'Блокируется с 4 подъездом' on the left and TARIH F on the right. Both have DARYN M at the top and 'Вид на ваш двор' at the bottom.\n- Section 3 is rotated 90°: plan-top = E ('▲ Вид на ваш двор'), plan-bottom = W ('Вид на перспективный проект ÜIA.TARIH C'), plan-right = S ('Блокируется с 2 подъездом'), plan-left = N (the gap toward section 4).\nGround-floor layouts:\n- Section 4, W→E: office 6 (119.13 m², 23.826 kW, west end with a bay-window projection on the C side); residential lobby; office 5 (64.75); office 4 (123.72) against section 5.\n- Section 5, W→E: office 3 (79.27, 15.854 kW) against section 4; office 2 (91.08); residential core; office 1 (126.22, 25.244 kW, NE/E end with side windows to F).\n- Section 3, N→S: office 7 (130.08); a residential lobby and core with a door to the west street and a door to the yard; office 8 (79.34); office 9 (104.64, 20.928 kW) against section 2, with an escape stair at its SW corner.\nEvery office has h=3.9 m, its own С/у and ПУИ, and a vent shaft pair. Window types: тип 1 = 3.6 m-high витраж to the floor; тип 2 = 3.11 m window on a 0.49 m sill. None of these offices is visible from ул. Айтматова, which is about 280–350 m west behind TARIH A/C.",
+   "offices": [
+    {
+     "key": "E-2",
+     "section": "5",
+     "plan_rotation": "North-up. The plan top is labelled 'Вид на перспективный проект ÜIA.DARYN M' (N, the boundary street). The bottom is '▼ Вид на ваш двор' (S, the courtyard). The left is 'Блокируется с 4 подъездом' (W). The right is 'Вид на перспективный проект ÜIA.TARIH F' (E). This matches the key plan, where 5 is the NE section right of 4. The compass is tilted about 15° CCW.",
+     "entrances": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour from outside: a 2.15 m тип 1 door/витраж unit opening onto the street, with a 'Зона тамбура' inside"
+      }
+     ],
+     "facades": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 2.15,
+       "openings": 1
+      },
+      {
+       "direction": "S",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 6.6,
+       "openings": 3
+      }
+     ],
+     "corner": false,
+     "power_kw": 18.216,
+     "ceiling_m": 3.9,
+     "area_m2": 91.08,
+     "confidence": "high",
+     "visible_from_main_road": "Not visible from Айтматова (about 300+ m, behind C/A). Visible only on the TARIH/DARYN boundary Перспективная улица, through a narrow 2.15 m storefront mid-section.",
+     "shape_notes": "An inverted-L (T-like) unit. The street frontage is a narrow neck about 3.2 m wide (just the door unit) running about 8 m deep between monolith walls. It then widens to about 10.9 m across the courtyard side, which has 3 × 2.2 m тип 2 windows. Depth is about 15 m. It is a pass-through unit from street to courtyard. С/у and ПУИ are at the west of the rear part. Vent shafts are 400x200 and 150x150 at the rear-east corner. There are 2 free-standing monolith pylons. The street glazing is weak: only the 2.15 m door. Most of the light and 6.6 m of the glazing face the closed courtyard. Splitting it is impractical.",
+     "neighbours": "Section 5: to the west is office 3 (79.27 m², N tambour, against section 4). To the east, past the residential core, is office 1 (126.22 m², N tambour plus E windows to F). In section 4 to the west are offices 4, 5 and 6, all with N tambours on the same street.",
+     "reasoning": "p1 'План этажа: подъезд 5, этаж 1'. Office 2 is shaded in the middle of the section. p2 shows the top '2,15м тип 1' with the door ('Вид на перспективный проект ÜIA.DARYN M') and the bottom '2,2м тип 2' × 3 ('▼ Вид на ваш двор'). N glazing 2.15; S glazing 6.6. kW 18.216 and h=3.9 m are printed."
+    },
+    {
+     "key": "E-4",
+     "section": "4",
+     "plan_rotation": "North-up. The plan top is 'Вид на перспективный проект ÜIA.DARYN M' (N). The bottom is '▼ Вид на ваш двор' (S). The left is 'Вид на перспективный проект ÜIA.TARIH C' (W). The right is 'Блокируется с 5 подъездом' (E). This matches the key plan, where 4 is the NW section and 5 is to its right.",
+     "entrances": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour from outside: a 2.15 m тип 1 door unit at the NW of the office, with a 'Зона тамбура' inside"
+      }
+     ],
+     "facades": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 4.35,
+       "openings": 2
+      },
+      {
+       "direction": "S",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 4.4,
+       "openings": 2
+      },
+      {
+       "direction": "E",
+       "faces": "торец к соседней секции/другое",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "power_kw": 24.744,
+     "ceiling_m": 3.9,
+     "area_m2": 123.72,
+     "confidence": "high",
+     "visible_from_main_road": "Not visible from Айтматова. It faces the TARIH/DARYN boundary Перспективная улица about 30 m in from the NW corner of E (the C|E street crossroads), so it is visible to traffic on the boundary street.",
+     "shape_notes": "A clean rectangle about 8.2 m frontage × 15.2 m depth, with a small notch at the SE courtyard corner. There are 2 monolith pylons on the centre line. С/у and ПУИ are against the east wall (the blank party wall with section 5). Vent shafts are 400x200 and 150x150 on the west wall. Through-unit from street to courtyard. It could be split front/back or into two narrow units, but there is only one door.",
+     "neighbours": "Section 4: to the west is office 5 (64.75 m², N tambour). Further west, past the residential lobby, is office 6 (119.13 m², NW corner unit with a bay window toward TARIH C). To the east, across the party wall, is section 5 office 3 (79.27 m²).",
+     "reasoning": "p1 'План этажа: подъезд 4, этаж 1'. Office 4 is shaded at the east end, next to 'Блокируется с 5 подъездом'. p2 shows the top '2,15м тип 1' (door) and '2,2м тип 1' (витраж), giving N = 4.35. The bottom has '2,2м тип 2' × 2, giving S = 4.4 ('▼ Вид на ваш двор'). The east wall is blank. 24.744 kW, h=3.9 m."
+    },
+    {
+     "key": "E-5",
+     "section": "4",
+     "plan_rotation": "North-up, the same plan as E-4. Top is DARYN M (N), bottom is 'Вид на ваш двор' (S), left is TARIH C (W), right is 'Блокируется с 5 подъездом' (E).",
+     "entrances": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour from outside: a 2.2 m тип 1 door unit, with a 'Зона тамбура' inside"
+      }
+     ],
+     "facades": [
+      {
+       "direction": "N",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 2.2,
+       "openings": 1
+      },
+      {
+       "direction": "S",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 2.2,
+       "openings": 1
+      }
+     ],
+     "corner": false,
+     "power_kw": 12.95,
+     "ceiling_m": 3.9,
+     "area_m2": 64.75,
+     "confidence": "high",
+     "visible_from_main_road": "Not visible from Айтматова. A narrow mid-section storefront on the boundary Перспективная улица.",
+     "shape_notes": "A very narrow 'corridor' unit: about 3.3 m wide (one 2.2 m door unit) and about 15.6 m deep. A small side pocket at mid-depth (to the west, behind the residential stair) holds vent shafts 400x200 and 150x150. С/у and ПУИ sit in line behind the tambour. The west wall is a long monolith wall shared with the residential stair core. Through to the courtyard with one 2.2 m тип 2 window. Cannot be split. Suits a small office, kiosk-type service or pick-up point.",
+     "neighbours": "Section 4: to the east is office 4 (123.72 m², N tambour). To the west, past the residential lobby, is office 6 (119.13 m², NW corner). Section 5 offices 3, 2 and 1 lie further east on the same street.",
+     "reasoning": "p1 'План этажа: подъезд 4, этаж 1'. Office 5 is shaded between the stair core and office 4. p2 shows the top '2,2м тип 1' with the door under 'Вид на перспективный проект ÜIA.DARYN M' and the bottom '2,2м тип 2' under '▼ Вид на ваш двор'. 12.95 kW, h=3.9 m."
+    },
+    {
+     "key": "E-7",
+     "section": "3",
+     "plan_rotation": "Rotated 90°. Plan-top = E ('▲ Вид на ваш двор', the courtyard). Plan-bottom = W ('Вид на перспективный проект ÜIA.TARIH C', the C|E Перспективная улица). Plan-right = S ('Блокируется с 2 подъездом', since section 2 is south of 3 on the key plan). Plan-left = N (the free end of section 3 facing the gap toward section 4). This matches the master map.",
+     "entrances": [
+      {
+       "direction": "W",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour from outside: a 2.2 m тип 1 door unit in a projecting tambour bay on the west façade, with a 'Зона тамбура' inside"
+      }
+     ],
+     "facades": [
+      {
+       "direction": "W",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 6.6,
+       "openings": 3
+      },
+      {
+       "direction": "N",
+       "faces": "внутренний проезд/улица кластера",
+       "glazing_m": 2.2,
+       "openings": 1
+      },
+      {
+       "direction": "E",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 3.6,
+       "openings": 2
+      }
+     ],
+     "corner": true,
+     "power_kw": 26.016,
+     "ceiling_m": 3.9,
+     "area_m2": 130.08,
+     "confidence": "medium",
+     "visible_from_main_road": "Not visible from Айтматова. Good frontage on the N–S Перспективная улица between C and E (C across at about 30 m). It sits at the north end of section 3, near the corner with the boundary street, but section 4 lies to the north. The N window looks into the 3/4 gap, so the unit is seen from the street and from the gap/courtyard entrance.",
+     "shape_notes": "Two-part shape. The street-side part is about 10.5 m wide along the west façade, with витражи of 2.2 + 2.2 (door) + 2.2, in a notched outline (the tambour bay steps out). The courtyard-side part narrows to about 6 m and has 1.4 + 2.2 тип 2 windows. Depth E–W is about 15 m. There are 3–4 monolith pylons in the middle. ПУИ and С/у are at the N wall. Vent shafts 450x400 and 150x150 are on the S partition next to the lobby. An external (escape/basement) stair with its own door occupies the NE corner beside the office. Triple aspect: W street, N gap, E yard. The best unit in section 3. It could be split into a street half and a yard half.",
+     "neighbours": "Section 3 (N→S): office 7, then a residential lobby (doors to the street and the yard), then office 8 (79.34 m², W tambour), then office 9 (104.64 m², W tambour, against section 2). North across the about 20 m gap is section 4 office 6 (NW corner of E).",
+     "reasoning": "p1 'План этажа: подъезд 3, этаж 1'. Office 7 is shaded on the plan-left. p2: plan-bottom (W, 'Вид на ... TARIH C') has '2,2м тип 1' × 3 (the middle one with the door), giving 6.6. Plan-left (N) has a vertical '2,2м тип 1', giving 2.2. Plan-top (E, '▲ Вид на ваш двор') has '1,4м тип 2' and '2,2м тип 2', giving 3.6. The N face category is inferred from the key plan gap between sections 3 and 4 (no label), hence medium confidence. 26.016 kW, h=3.9 m."
+    },
+    {
+     "key": "E-8",
+     "section": "3",
+     "plan_rotation": "Rotated 90°, the same as E-7. Plan-top = E ('▲ Вид на ваш двор'), plan-bottom = W ('Вид на перспективный проект ÜIA.TARIH C'), plan-right = S ('Блокируется с 2 подъездом'), plan-left = N.",
+     "entrances": [
+      {
+       "direction": "W",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "own tambour from outside: a 2.2 m тип 1 door unit on the west façade, with a 'Зона тамбура' inside"
+      }
+     ],
+     "facades": [
+      {
+       "direction": "W",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 4.4,
+       "openings": 2
+      },
+      {
+       "direction": "E",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 2.2,
+       "openings": 1
+      }
+     ],
+     "corner": false,
+     "power_kw": 15.868,
+     "ceiling_m": 3.9,
+     "area_m2": 79.34,
+     "confidence": "high",
+     "visible_from_main_road": "Not visible from Айтматова. A mid-section storefront on the N–S Перспективная улица between C and E (local cluster street).",
+     "shape_notes": "A T/L shape. The street part is about 7.8 m wide, with 2.2 m витраж + 2.2 m door, and about 7 m deep. A long narrow arm, about 3.2 m wide and 9 m deep, runs between monolith walls to the courtyard and ends in one 2.2 m тип 2 window. С/у and ПУИ are at the north side of the street part. Vent shafts 400x200 and 150x150 are in the NW corner. There is 1 monolith pylon. The arm is usable only as storage or back office. Not practical to split.",
+     "neighbours": "Section 3: to the north, past the residential lobby, is office 7 (130.08 m², NW corner, W tambour). To the south is office 9 (104.64 m², W tambour, beside the escape stair, against section 2). Across the street to the west is TARIH C (sections 4–6, offices facing the same street).",
+     "reasoning": "p1 'План этажа: подъезд 3, этаж 1'. Office 8 is shaded in the middle. p2: the bottom ('Вид на ... TARIH C') has '2,2м тип 1' × 2, one with the door, giving W = 4.4. The top ('▲ Вид на ваш двор') has '2,2м тип 2', giving E = 2.2. 15.868 kW, h=3.9 m."
+    }
+   ]
+  },
+  "E-b": {
+   "building_notes": "ÜIA.TARIH E (Бизнес, 5 sections, all 9 эт), north row of TARIH. It sits east of the N–S Перспективная улица that separates it from TARIH C, and north of the pedestrian Аллея. The key plan on every E sheet shows: top 'Вид на перспективный проект ÜIA.DARYN M', left 'Вид на перспективный проект ÜIA.TARIH C', right 'Вид на перспективный проект ÜIA.TARIH F', bottom 'Аллея'. The compass is tilted about 15° CCW: С at upper-left, В at upper-right. Plan-up is therefore about NNE, which matches the master map's grid rotation.\n\nLayout is a U open to the east: sections 4 and 5 along the north, 3 on the west, 2 and 1 along the south. Section 2 is the SW corner piece: section 3 sits on its west part ('Блокируется с 3 подъездом' on section 2's top edge). Section 1 continues east from section 2 ('Блокируется с 1/2 подъездом').\n\nPlan rotations on p1:\n- Sections 1 and 2 are north-up. Top = 'Вид на ваш двор' (plus the joint with 3 for section 2), bottom = 'Аллея', section 2's left = 'Вид на перспективный проект ÜIA.TARIH C'.\n- Section 3 is rotated: plan-top = E ('Вид на ваш двор'), plan-bottom = W ('Вид на перспективный проект ÜIA.TARIH C'), plan-right = S ('Блокируется с 2 подъездом'), plan-left = N (toward section 4). This confirms the master map.\n\nOuter sides:\n- N (sections 4, 5): TARIH/DARYN boundary Перспективная улица, with DARYN M across.\n- W (sections 3, 2): the N–S Перспективная улица toward C. City street; the best car exposure in this group.\n- SW corner (office 11, section 2): Перспективная × Аллея.\n- S (sections 2, 1): the pedestrian Аллея.\n- E (east end of section 1, and section 5): driveway and the empty F plot.\n- Inner sides: closed courtyard.\n\nCorrection to the master map: section 1's east end has an evacuation stair at the SE corner. Office 15's east wall is blank on p2: it has no side windows toward F.\n\nNone of the five offices can be seen from ул. Айтматова, which is about 300 m west behind C. E-9 and E-10 front the C|E Перспективная улица. E-12, E-14 and E-15 front only the Аллея (pedestrian), plus courtyard windows.\n\nAll offices have h = 3.9 m. Window type 1 is 3.6 m high, floor to near ceiling (витраж). Window type 2 is 3.11 m high with a 0.49 m sill (courtyard windows).",
+   "offices": [
+    {
+     "key": "E-9",
+     "section": "3",
+     "plan_rotation": "Section 3 plan is rotated 90°. Plan-top = E: 'Вид на ваш двор' printed above the plan; the key plan shows the courtyard east of section 3. Plan-bottom = W: 'Вид на перспективный проект ÜIA.TARIH C' under the plan. Plan-right = S: 'Блокируется с 2 подъездом'. Plan-left = N, toward section 4. The highlighted key-plan section 3 is the narrow N–S bar on the west side. Office 9 is at plan-right, i.e. the south end of section 3, next to section 2.",
+     "entrances": [
+      {
+       "direction": "W",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "Own tambour from outside: a 2.2 m type-1 door/витраж at plan-bottom with 'Зона тамбура' inside. Opens onto the N–S Перспективная улица facing TARIH C."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "W",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 3.55,
+       "openings": 2
+      },
+      {
+       "direction": "E",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 4.4,
+       "openings": 2
+      }
+     ],
+     "corner": false,
+     "power_kw": 20.928,
+     "ceiling_m": 3.9,
+     "confidence": "high",
+     "visible_from_main_road": "Перспективная улица (C|E N–S street): yes, west façade about 3.5 m of glazing. It sits roughly 20–30 m north of the Перспективная × Аллея corner, because section 2 / office 10 lie between it and the corner. Айтматова: none (about 300 m, behind C).",
+     "shape_notes": "Deep, narrow, stepped unit, about 16 m deep (E–W) and about 8.4 m wide at the courtyard end, narrowing to about 5.9 m at the street end. Street frontage is only about 6 m: a 2.2 m door/витраж plus a 1.35 m type-1 window in a recess beside the section 3/2 evacuation stair. Courtyard end has two 2.2 m type-2 windows (sill 0.49 m). Monolith pylons sit on both long walls and in the middle line (3 interior pylons), so the unit is not cut into rooms. С/у and ПУИ in the middle zone. Vent marks 150x150 and 400x200. Could be split only into a front tambour zone and a rear courtyard hall; not practical to divide.",
+     "neighbours": "Section 3 (rotated plan): office 8 (79.34 m², 15.868 kW) directly north, also a west tambour onto the Перспективная улица. Office 7 (130.08 m², 26.016 kW) at the north end of section 3 next to section 4, also on the west street. Residential lobby/stair core between 7 and 8. To the south (blocked): section 2, office 10 (W street) and office 11 (SW corner).",
+     "reasoning": "Rotation fixed by the 'Блокируется с 2 подъездом' label on plan-right and 'Вид на ваш двор' at plan-top, which match the key plan where 2 is south of 3 and the courtyard is east. Office 9 is the rightmost shaded unit, so it is the southernmost office of section 3. p2 widths: top (двор) 2.2 + 2.2 type 2 = 4.4 m. Bottom ('Вид на перспективный проект ÜIA.TARIH C') 2.2 type-1 door + 1.35 type-1 window = 3.55 m. Right wall is the joint with section 2 / stair: no openings."
+    },
+    {
+     "key": "E-10",
+     "section": "2",
+     "plan_rotation": "North-up. Top: 'Блокируется с 3 подъездом' (section 3 sits on the west part of section 2). Left: 'Вид на перспективный проект ÜIA.TARIH C' (W). Bottom: 'Аллея' (S). Right: 'Блокируется с 1 подъездом' (E). 'Вид на ваш двор' above the NE part (the courtyard north of section 2, east of section 3). Highlighted key-plan section 2 is the SW corner piece. Office 10 is in the NW quarter of section 2.",
+     "entrances": [
+      {
+       "direction": "W",
+       "faces": "Перспективная улица (городская улица)",
+       "kind": "Own tambour from outside: a 2.2 m type-1 door in the west wall with 'Зона тамбура', onto the N–S Перспективная улица facing TARIH C."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "W",
+       "faces": "Перспективная улица (городская улица)",
+       "glazing_m": 6.6,
+       "openings": 3
+      },
+      {
+       "direction": "E",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 2.2,
+       "openings": 1
+      }
+     ],
+     "corner": false,
+     "power_kw": 23.616,
+     "ceiling_m": 3.9,
+     "confidence": "high",
+     "visible_from_main_road": "Перспективная улица (C|E street): yes, the best car-visible frontage in this group, about 6.6 m of витраж over about 11 m of west façade. It is one unit north of the Перспективная × Аллея corner (office 11 has the corner). Айтматова: none.",
+     "shape_notes": "L-shape. The main west part is about 11 m (N–S) × about 8.7 m deep. A strip about 4 m wide along the north wall (the joint with section 3, a monolith wall) runs about 15 m east to the courtyard. The west façade is stepped: the upper 2.2 m window is set about 1 m behind the lower plane with the door and a 2.2 m window. Interior monolith pylons: 2 small wall stubs plus 1. С/у and ПУИ along the east side of the main part. Vent marks 450x400 and 150x150. The courtyard-reaching strip is long and narrow (storage/back-office). Splitting is not sensible.",
+     "neighbours": "Section 2: office 11 (97.24 m², 19.448 kW) directly south, holding the SW corner (W street + Аллея) with its tambour on the Аллея. Residential lobby/stair core in the middle. Office 12 (98.19 m²) at the east end of section 2 on the Аллея. North: section 3 (office 9 above, west street).",
+     "reasoning": "Labels on the p1 plan match the key plan, so north-up. p2 west wall ('Вид на перспективный проект ÜIA.TARIH C'): 2.2 type 1 (upper, set back) + 2.2 type 1 with door + 2.2 type 1 = 6.6 m. Right end of the north strip: 2.2 type 2 under 'Вид на ваш двор' = 2.2 m (courtyard). Top wall is labelled 'Блокируется с 3 подъездом' with no openings. Bottom is an internal wall to office 11."
+    },
+    {
+     "key": "E-12",
+     "section": "2",
+     "plan_rotation": "North-up (same section 2 plan as E-10). Top: 'Вид на ваш двор' over the right part. Bottom: 'Аллея'. Right: 'Блокируется с 1 подъездом'. Left: 'Вид на перспективный проект ÜIA.TARIH C'. Office 12 is the easternmost bay of section 2, against the joint with section 1.",
+     "entrances": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "kind": "Own tambour from outside: a 2.2 m type-1 door at the SW of the unit with 'Зона тамбура', onto the pedestrian Аллея."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 4.4,
+       "openings": 2
+      },
+      {
+       "direction": "N",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 2.2,
+       "openings": 1
+      }
+     ],
+     "corner": false,
+     "power_kw": 19.638,
+     "ceiling_m": 3.9,
+     "confidence": "high",
+     "visible_from_main_road": "None for cars. Mid-block on the Аллея, about 25–35 m east of the Перспективная × Аллея corner, so it is visible to pedestrians on the boulevard only. Айтматова: none.",
+     "shape_notes": "About 8.3 m frontage on the Аллея × about 15.6 m deep. The rear (north) half narrows to about 4.5 m and reaches the courtyard with one 2.2 m type-2 window. Interior monolith pylons: 2 along the centre line. С/у and ПУИ on the east wall (joint with section 1). Vent marks 400x200 and 150x150. Simple bar plan, good for a shop or café with a back room. Not divisible.",
+     "neighbours": "West: residential lobby/stair of section 2, then office 11 (97.24 m², SW corner unit) and office 10 (W street). East (blocked): section 1, office 13 (95.75 m², Аллея).",
+     "reasoning": "p2 bottom labelled 'Аллея': 2.2 type-1 door + 2.2 type-1 window = 4.4 m. Top labelled 'Вид на ваш двор': 2.2 type 2. Right labelled 'Блокируется с 1 подъездом': blank. Left: internal wall to the lobby."
+    },
+    {
+     "key": "E-14",
+     "section": "1",
+     "plan_rotation": "North-up. Top: 'Вид на ваш двор'. Bottom: 'Аллея'. Left: 'Блокируется с 2 подъездом' (W). The key plan highlights section 1, east of section 2 in the south wing. Office 14 is the middle-east bay, between the lobby/stair core and office 15.",
+     "entrances": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "kind": "Own tambour from outside: a 2.2 m type-1 door at the SE of the unit with 'Зона тамбура', onto the Аллея."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 4.4,
+       "openings": 2
+      },
+      {
+       "direction": "N",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "power_kw": 15.472,
+     "ceiling_m": 3.9,
+     "confidence": "high",
+     "visible_from_main_road": "None. Аллея frontage only, at the east part of E (about 50–60 m east of the Перспективная улица). Pedestrian visibility only.",
+     "shape_notes": "Smallest unit. Front part about 7.9 m frontage × about 7.4 m deep. Behind it a narrow corridor-like strip about 3.4 m wide × about 8.6 m runs north to the courtyard façade but has no window there: the north end is a blank wall with a small shaft/room niche. All usable light comes from the 2 × 2.2 m on the Аллея. С/у and ПУИ at the front-west corner. Vent marks 400x200 and 150x150. 1 interior monolith pylon. The rear strip suits storage only. Not divisible.",
+     "neighbours": "West: residential lobby/stair core of section 1, then office 13 (95.75 m², 19.15 kW) at the west end of section 1, on the Аллея and blocked with section 2. East: office 15 (105.03 m²) at the east end of section 1.",
+     "reasoning": "p2 bottom labelled 'Аллея': 2.2 type-1 window + 2.2 type-1 door = 4.4 m. The north end touches the courtyard façade (hatched exterior finish) but no opening is drawn and no width is printed, so courtyard glazing is 0. The p1 zoom confirms a solid wall at the top of the shaded strip."
+    },
+    {
+     "key": "E-15",
+     "section": "1",
+     "plan_rotation": "North-up. Top: 'Вид на ваш двор'. Bottom: 'Аллея'. Left: 'Блокируется с 2 подъездом'. The key plan's right side is 'Вид на перспективный проект ÜIA.TARIH F'. Office 15 is the easternmost office of section 1, the east end of E's south wing. An evacuation stair with its own exterior door occupies the SE corner, east of the office.",
+     "entrances": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "kind": "Own tambour from outside: a 2.2 m type-1 door with 'Зона тамбура', onto the Аллея."
+      }
+     ],
+     "facades": [
+      {
+       "direction": "S",
+       "faces": "Аллея (пешеходная)",
+       "glazing_m": 3.55,
+       "openings": 2
+      },
+      {
+       "direction": "N",
+       "faces": "двор ЖК (закрытый)",
+       "glazing_m": 4.4,
+       "openings": 2
+      },
+      {
+       "direction": "E",
+       "faces": "перспективный проект/пустырь",
+       "glazing_m": 0,
+       "openings": 0
+      }
+     ],
+     "corner": false,
+     "power_kw": 21.006,
+     "ceiling_m": 3.9,
+     "confidence": "high",
+     "visible_from_main_road": "None. Аллея frontage at the far east end of E, beside the driveway toward the unbuilt F plot. Weak pedestrian end of the boulevard and no car visibility. Айтматова: none.",
+     "shape_notes": "Stepped bar about 15.6 m deep. Rear (courtyard) part about 8 m wide with 2 × 2.2 m type-2 windows. Front part about 5.5 m wide, because the evacuation stair takes the SE corner. Аллея frontage: a 2.2 m door/витраж plus a 1.35 m type-1 window recessed beside the stair. East wall (upper part) is exterior but blank. The master map says office 15 has side windows toward F; the sheet shows none. Interior monolith pylons: 3 on the centre line. С/у and ПУИ on the east wall. Vent marks 150x150 and 400x200. Through-unit, lit from both the Аллея and the courtyard. Not practical to split.",
+     "neighbours": "West: office 14 (77.36 m², Аллея). East: section 1 evacuation stair, then the building's east end facing the driveway, parking and the F perspective plot.",
+     "reasoning": "p2 bottom labelled 'Аллея': 2.2 type-1 door + 1.35 type-1 window = 3.55 m. Top labelled 'Вид на ваш двор': 2.2 + 2.2 type 2 = 4.4 m. Right/east wall is a hatched exterior wall with no openings or dimensions. p1 shows the stair at the SE corner with a door to the outside. Corner=false because glazing is only on two opposite façades."
+    }
+   ]
+  }
+ },
+ "verify": {
+  "B-3": {
+   "key": "B-3",
+   "plan_rotation": "north-up (0°). Plan-top = N ('Блокируется с 9 подъездом' printed above the plan, and section 9 sits directly north of section 10 on the key plan), plan-right = E, plan-bottom = S (office 2's tambour and doors on plan-bottom match section 10's south side toward the southern street), plan-left = W (core/lobby/office 1). The key-plan compass is near-vertical (С at top), so the true bearing is about 10–15° clockwise (E means about ESE), per the master map.",
+   "entrance_direction": "E",
+   "entrance_faces": "внутренний проезд/улица кластера",
+   "main_facade_direction": "E",
+   "main_facade_faces": "внутренний проезд/улица кластера",
+   "other_facades": "None. N = party wall with section 9 ('Блокируется с 9 подъездом'). W = interior (sanitary unit, ПУИ, shafts B1/B2 toward the stair core). S = interior wall shared with office 2. All the glazing is on the east wall.",
+   "total_glazing_m": 5.43,
+   "corner": false,
+   "power_kw": 17.2,
+   "ceiling_m": 4.18,
+   "confidence": "high",
+   "reasoning": "P1 'План этажа: подъезд 10, этаж 1'. Office 3 (86.21 m²) is the NE unit of section 10. The label 'Блокируется с 9 подъездом' sits on the plan-top, and on the key plan section 10 (highlighted, 9 эт) lies directly south of section 9 (12 эт) at the SE end of block B, so the plan is north-up. Office 2's tambour on plan-bottom, facing the south street, is consistent with this. P2 shows three 'тип 1' openings of 1.81 m each, all on the right (east) wall: two windows plus the double-leaf tambour door (Тамбур 6.67 m², PH 500x300). That gives 3×1.81 = 5.43 m including the door opening, or 3.62 m of windows only. The entrance opens east into B's east green passage (green strip, footpath, service passage, then the perspective neighbour block 'D'). In the render on the sheet, the highlighted section 10 has a green area on its east side and no street there. The passage is not labelled on the sheet, so I took the category from the master map, which agrees. The office is not visible from Айтматова (west end of B) or from the southern street, because office 2 occupies the SE corner. It is not a corner unit. Power: 17.2 kW. Ceiling: h = 4.18 m (window type 1 has a 0.78 m sill and a 3.4 m opening)."
+  },
+  "B-4": {
+   "key": "B-4",
+   "plan_rotation": "North-up (0°). The p1 plan of section 9 (подъезд 9, этаж 1) has 'Блокируется с 10 подъездом' along its bottom edge. On the key plan, section 10 sits directly south of the highlighted section 9, so plan-bottom is S. That makes plan-right E (the outer east side of block B), plan-left W (the courtyard side, where the residential тамбур-шлюз and the ЛК are) and plan-top N (office 5, toward the unnumbered NE corner piece and the Аллея). The key-plan compass points straight up (С at top).",
+   "entrance_direction": "E",
+   "entrance_faces": "внутренний проезд/улица кластера",
+   "main_facade_direction": "E",
+   "main_facade_faces": "внутренний проезд/улица кластера",
+   "other_facades": "No other glazed façades. W wall (plan-left) is solid brick with no openings and faces the closed courtyard of B (двор ЖК (закрытый)). S wall is the party wall with section 10 ('Блокируется с 10 подъездом'), so торец к соседней секции/другое. N wall is an internal wall to the section 9 lobby (Вестибюль, Колясочная, ПУИ) and has no openings. The B4/B3 ventilation shafts exit on the N side.",
+   "total_glazing_m": 5.43,
+   "corner": false,
+   "power_kw": 28.5,
+   "ceiling_m": 4.18,
+   "confidence": "high",
+   "reasoning": "Sheet p1: 'План этажа: подъезд 9, этаж 1'. The shaded office 4 is the southern half of section 9; office 5 is the northern half. 'Блокируется с 10 подъездом' is printed under the plan. The key plan (compass С straight up, 'Аллея' along the top, 'ул. Ч.Айтматова' along the left) shows highlighted section 9 (12 эт) on the east side of B with section 10 directly south, so the plan is north-up. Page 2: one glazed entrance group/тамбур (Тамбур 7.82 м2, double door, 'РН 500x300') projects from the upper part of the plan-right (east) wall. It is dimensioned '1,81м тип 1'. Below it, on the same east wall, are two more 'тип 1' windows of 1,81 м each. All the glazing is on the east wall: 3 × 1.81 = 5.43 m (3.62 m if only the two windows, without the tambour opening, are counted). The west wall toward the courtyard is solid. Power is 28.5 кВт and h=4.18м (window type 1: 3.4 м glazing with a 0.78 м parapet/transom). In the B render on the sheet, section 9 (the dark-outlined 12-storey tower at the east end) has no street on its east side: there is a green strip, a footpath and a service passage, then the neighbouring perspective block. No street or alley label appears on that side of the key plan. So the east façade is classed as 'внутренний проезд/улица кластера'. This agrees with the master map (B E side: offices 4 and 5 of section 9 have tambours on this side), so there is no disagreement. Not a corner: south is blocked by section 10, north is office 5, west is a blind courtyard wall. Area is 142.29 м2 and price 116 677 800."
+  },
+  "B-5": {
+   "key": "B-5",
+   "plan_rotation": "North-up (0°). On p1 the section 9 plan has 'Блокируется с 10 подъездом' along its bottom edge. On the key plan, section 10 lies directly south of section 9, so plan-bottom = S. The residential lobby's тамбур-шлюз is on the plan-left (west) side, toward B's inner courtyard, which lies west of section 9 on the key plan. That confirms plan-left = W (courtyard) and plan-right = E (outside). The key-plan compass (С up, slightly tilted) agrees. Office 5 is the northern unit of section 9, at plan-top. Office 4 is the southern unit, next to section 10.",
+   "entrance_direction": "E",
+   "entrance_faces": "внутренний проезд/улица кластера",
+   "main_facade_direction": "E",
+   "main_facade_faces": "внутренний проезд/улица кластера",
+   "other_facades": "No other glazed façades. The west wall (toward the courtyard) and the south wall (the shared wall with the section 9 lobby and office 4) have no openings. The north (plan-top) wall is blank and abuts the unnumbered NE corner piece of B, shown on the key plan directly above section 9.",
+   "total_glazing_m": 5.43,
+   "corner": false,
+   "confidence": "high",
+   "reasoning": "Office: ÜIA.TARIH B, Комфорт+, №5, 142.3 m², подъезд 9 (12 эт), floor 1. Rotation: 'Блокируется с 10 подъездом' sits at plan-bottom, and section 10 is south of section 9 on the key plan, so the plan is north-up. Glazing (p2): all of it is on the plan-right (east) wall. There are two 'Тип 1' windows of 1,81 м each in the main room. The entrance Тамбур (7.82 m², double door, with a 1,81 м 'Тип 1' glazed opening and a PH 500x300 grille) is in the SE corner of the office on the same east wall. Total glazing is 3 × 1.81 = 5.43 m, window height type 1 with a 3.4 m opening, h = 4.18 m. The entrance door opens east. The east side of section 9 is B's outer east façade. The B render shows a green strip, a footpath and a service passage there, then a neighbouring perspective block. There is no street or alley label on that side, so it falls under 'внутренний проезд/улица кластера'. That agrees with the master map's 'B E (sections 9, 10)' entry, and I found no disagreement. The office is not on a corner: section 9's north end is blocked by the corner piece, and the west side faces the closed courtyard with no glazing. Power 28.5 кВт (label in the room). Ceiling h = 4.18 м.",
+   "power_kw": 28.5,
+   "ceiling_m": 4.18
+  },
+  "B-12": {
+   "key": "B-12",
+   "plan_rotation": "Not rotated: the plan is north-up, and the B key-plan compass points straight up (С at top). Labels checked: 'Аллея' above the plan on p1 and p2; 'Блокируется с 5 подъездом' on the plan's left, and section 5 is west of 6 on the key plan; 'Блокируется с 7 подъездом' on the plan's right, and 7 is east of 6. On the key plan, section 6 sits on the north row under the 'Аллея' label.",
+   "entrance_direction": "N",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "N",
+   "main_facade_faces": "Аллея (пешеходная)",
+   "other_facades": "No other glazed façades. West: a solid brick party wall to section 5 ('Блокируется с 5 подъездом'). East: a 200 mm gas-block partition to the section 6 lobby/hall (Холл 27.50 and Тамбур 5.32). South: a blank brick external wall toward the closed courtyard of B (двор ЖК), with no openings; the ПУИ and С/у are on that side.",
+   "total_glazing_m": 3.62,
+   "corner": false,
+   "power_kw": 16.9,
+   "ceiling_m": 4.18,
+   "confidence": "high",
+   "reasoning": "B-12 is on p1 'План этажа: подъезд 6, этаж 1' at the west end of section 6, shaded. It is about 5.5 m wide and runs through the full depth of the section, N to S. All openings are on the north (top) wall, under the 'Аллея' label (p2 top, zoomed). The west opening is a window marked '1,81м тип 1'. The east opening is a double-leaf entrance door into 'Тамбур 5.67 м2' (with РН 500x300), also dimensioned '1,81м тип 1'. Total frontage is 3.62 m, including the 1.81 m door opening; the window alone is 1.81 m. The window type is 'Тип 1': a 3.4 m opening in a 4.18 m storey. The door opens north onto the tree-lined pedestrian Аллея, the boulevard between B and TARIH A. This matches the master map ('B N side = Аллея; offices 11 and 12 have tambours on the north'). The office is 2 sections, about 40–50 m, east of Айтматова (section 5 is between them) and is not on the corner of Айтматова and the Аллея, so it is not a corner unit. The other three walls are blind: party wall to section 5 on the west, partition to the lobby on the east, courtyard wall on the south. Power is '16.9 кВт' and ceiling height is 'h=4.18м' (p1 and p2). The sheet agrees with the master map; I found no discrepancy."
+  },
+  "B-16": {
+   "key": "B-16",
+   "plan_rotation": "north-up (0°): plan-top = N ('Блокируется с 5 подъездом', section 5 is north of 4 on the key plan), plan-bottom = S ('Блокируется с 3 подъездом'), plan-left = W ('ул. Ч.Айтматова' written vertically to the left of the plan), plan-right = E (courtyard side of section 4). The key-plan compass points straight up (С at top).",
+   "entrance_direction": "W",
+   "entrance_faces": "ул. Айтматова",
+   "main_facade_direction": "W",
+   "main_facade_faces": "ул. Айтматова",
+   "other_facades": "None glazed. N: a solid party wall attached to section 5 ('Блокируется с 5 подъездом'). E: a solid brick wall toward the closed B courtyard, with no openings on p2. S: an internal wall to the section 4 lobby, the PUI and the bathroom.",
+   "total_glazing_m": 5.43,
+   "corner": false,
+   "power_kw": 28.7,
+   "ceiling_m": 4.18,
+   "confidence": "high",
+   "reasoning": "Sheet p1 header: 'План этажа: подъезд 4, этаж 1'. Office 16 (143,47 m², h=4.18 m, 28.7 kW) is the northern unit of section 4. Section 4 is the 12-storey section highlighted on the key plan, on ул. Ч.Айтматова between 5 (north) and 3 (south). The key-plan compass is north-up. The p1 labels fix the plan as north-up: 'Блокируется с 5 подъездом' on top, 'Блокируется с 3 подъездом' at the bottom, and 'ул. Ч.Айтматова' on the left. Page 2 repeats 'ул. Ч.Айтматова' on the left and 'Блокируется с 5 подъездом' on top. The entrance is the 'Тамбур 7.82 м2' at the SW corner of the office, with double doors opening west onto Айтматова. A 'РН 500x300' mark sits outside it. Glazing on p2 is all on the west façade: two windows of 1,81 м (тип 1) plus the 1,81 м (тип 1) glazed tambour/door opening, which is 5.43 m in total (3.62 m without the door opening). Тип 1 openings are 3.4 m high with a 0.78 m sill. The east wall (courtyard) and the north wall (attached to section 5) are solid, so this is not a corner unit. The B render confirms that the highlighted section fronts Айтматова, which carries multi-lane traffic. This agrees with the master map: B west, section 4, offices 16/17 on Айтматова."
+  },
+  "B-17": {
+   "key": "B-17",
+   "plan_rotation": "The plan is north-up with no rotation. Plan-top is N, labelled 'Блокируется с 5 подъездом', and section 5 is north of section 4 on the key plan. Plan-bottom is S, labelled 'Блокируется с 3 подъездом', matching section 3 to the south. Plan-left is W, labelled 'ул. Ч.Айтматова' on both p1 and p2. Plan-right is E, the courtyard side. The key-plan compass points about straight up, with С at the top.",
+   "entrance_direction": "W",
+   "entrance_faces": "ул. Айтматова",
+   "main_facade_direction": "W",
+   "main_facade_faces": "ул. Айтматова",
+   "other_facades": "No other glazed façades. The N side is the internal partition to the residential lobby and corridor of section 4 (office 16 lies beyond them). The S side is blind and attached to section 3 ('Блокируется с 3 подъездом'). The E side is a blind wall toward the closed courtyard (двор ЖК). On p2 it shows only the ПУИ and С/у zones and has no openings.",
+   "total_glazing_m": 5.43,
+   "corner": false,
+   "power_kw": 28.7,
+   "ceiling_m": 4.18,
+   "confidence": "high",
+   "reasoning": "B-17 is a 143.47 m2 office at the south end of section 4 (12 эт), on the first floor of подъезд 4. The section 4 plan is north-up: 'Блокируется с 5 подъездом' is at the top and 'Блокируется с 3 подъездом' at the bottom, both matching the key plan, and 'ул. Ч.Айтматова' is on the left of both p1 and p2.\n\nThe office has a Тамбур (7.82 m2) in its NW part with a РН 500x300 door. The door opens west, directly onto ул. Айтматова. On p2 there are three 1.81 m 'тип 1' openings on the west façade: one at the tambour and two windows lower down. That gives 3 × 1.81 = 5.43 m of glazing, all on Айтматова. Window height is 3.4 m in a 4.18 m storey. The east wall has no openings and faces the courtyard. The south side is blocked by section 3, so the office is not a corner unit; the SW corner of the block belongs to section 3.\n\nPower is 28.7 кВт and h=4.18 m. This agrees with the master map: B's west side faces Айтматова, offices 16 and 17 have tambours on the arterial, and section 4 is north-up. There is no discrepancy."
+  },
+  "C-1": {
+   "key": "C-1",
+   "plan_rotation": "North-up, not rotated. The label 'Блокируется с 9 подъездом' is under the plan, so plan-bottom is S, toward section 9, which is south of section 10 on the key plan. Plan-left is W, the outer façade of the W-edge section 10. Plan-right is E, toward the courtyard. Plan-top is N, toward the open NW corner and section 1. Compass: С sits about 10-15° counter-clockwise from vertical, so plan-up is really about NNE and the west façade really faces about WNW.",
+   "entrance_direction": "W",
+   "entrance_faces": "внутренний проезд/улица кластера",
+   "main_facade_direction": "W",
+   "main_facade_faces": "внутренний проезд/улица кластера",
+   "other_facades": "None. All glazing is on the west façade. S wall: blind, attached to section 9 ('Блокируется с 9 подъездом'). E wall: blind, toward the courtyard (core and residential тамбур-шлюз side). N side: internal walls toward the residential vestibule and Тамбур 7,02.",
+   "total_glazing_m": 6.02,
+   "corner": false,
+   "power_kw": 22.9,
+   "ceiling_m": 4.2,
+   "confidence": "high",
+   "reasoning": "Key plan: section 10 is highlighted on the W edge of C's square. Section 9 is below it (SW corner), 'Перспективная улица' runs along the top (N) and the right (E), and there is no label on the W side. The p1 header reads 'План этажа: подъезд 10, 1 этаж'. The p1 label 'Блокируется с 9 подъездом' under the plan puts plan-bottom = S, so the plan is north-up. All office/МОП tambours (Тамбур 7,67, 7,02, 6,96) open on plan-left = W, the outer façade. The residential Тамбур-шлюз and the courtyard are on the right (E). The office is the shaded southern part of the section: Тамбур 6,96, the main hall, ПУИ 3,78, С/у 3,37, С/у МГН 4,00, plus a shaded room on the west façade north of it. P2 shows windows only on the left (W) wall: 1,81 м тип 1 (upper room) + 2,4 м тип 1 (with the entrance door in the Тамбур 6,96 bay) + 1,81 м тип 1 = 6,02 м. The S wall (blocked by 9) and the E wall have no openings. P2 also gives 22,9 кВт and h=4.2м, 114,33 м². W façade faces: the C-west driveway between C and TARIH A, with ramps and stairs at the 9/10 corner. The sheet does not label it, but the 3D render shows a road and green strip between the highlighted section 10 and the neighbouring block toward ул. Айтматова. Айтматова is about 130-150 m away behind A and is not frontage. This agrees with the master map (C-W, internal driveway, office 1 tambour on the west). I found no discrepancy. Not a corner: the office sits mid-façade at the S end of section 10 and touches section 9, so it has only one exterior face."
+  },
+  "C-2": {
+   "key": "C-2",
+   "plan_rotation": "North-up, no rotation. On p1 the label 'Блокируется с 10 подъездом' sits on the plan top, and section 10 is north of 9 on the key plan. 'Блокируется с 8 подъездом' sits on the plan right, and section 8 is east of 9. The notch at the plan's top-right matches the courtyard corner of section 9 on the key plan, the highlighted SW block. The key-plan compass is close to north-up with a small tilt.",
+   "entrance_direction": "W",
+   "entrance_faces": "внутренний проезд/улица кластера",
+   "main_facade_direction": "W",
+   "main_facade_faces": "внутренний проезд/улица кластера",
+   "other_facades": "None glazed. The north wall is blocked by section 10 ('Блокируется с 10 подъездом'). The east side is internal: the stair/ЛК core and the wall toward the courtyard notch. The south side borders office 3. The small marks on the north and south walls are radiator symbols, not windows.",
+   "total_glazing_m": 6.02,
+   "corner": false,
+   "power_kw": 24.1,
+   "ceiling_m": 4.2,
+   "confidence": "high",
+   "reasoning": "Office 2 is in section 9, C's SW corner block on the key plan, and takes the NW part of the section-9 plan. P2 shows glazing only on the plan-left (west) wall: 1,81 м тип 1 + 1,81 м тип 1 + 2,4 м тип 1. The 2,4 m opening is the glazed entrance door into 'Тамбур 8,49', at the SW of the office. Total 6.02 m, all type 1 at h 4.2 m, so this is a single-façade unit. 24,1 кВт, h=4.2м, area 120,59 м². The sheet prints no label on the west side, only the key-plan labels: 'Перспективная улица' on the north and on the east. So the face category comes from the master map: the driveway between C and TARIH A, about 130–150 m from Айтматова. This agrees with the master map (office 2/3 tambours on the west, section 9). Not a corner: the NW end of the façade meets section 10, which continues west-flush, so there is no exposed corner, and the SW building corner belongs to office 3."
+  },
+  "C-4": {
+   "key": "C-4",
+   "plan_rotation": "north-up (0°). The p1 plan of подъезд 9 has 'Блокируется с 10 подъездом' along the top, so the top is N (section 10 is north of 9 on the key plan). It has 'Блокируется с 8 подъездом' along the right, so the right is E (section 8 is east of 9). On the key plan, section 9 is the highlighted SW corner of the C square. The compass is tilted about 15° CCW (С is up-left), so plan-up is really about NNE and plan-down about SSW.",
+   "entrance_direction": "S",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "S",
+   "main_facade_faces": "Аллея (пешеходная)",
+   "other_facades": "None glazed. W is an interior gas-block partition to Вестибюль 19,15. N is the corridor/ПУИ zone inside the section. E is a party wall to section 8 ('Блокируется с 8 подъездом'). The office has only the one external façade, the south one, and that façade is not labelled on the C sheets.",
+   "total_glazing_m": 6.02,
+   "corner": false,
+   "power_kw": 16,
+   "ceiling_m": 4.2,
+   "confidence": "medium",
+   "reasoning": "Rotation: 'Блокируется с 10 подъездом' is on the top of the plan and 'Блокируется с 8 подъездом' on the right. This matches the key plan, where section 9 is the SW corner with 10 to the north and 8 to the east, so the plan is north-up.\n\nOffice 4 (79,58 m², h=4.2 m, 16 kW) is in the SE part of section 9. It sits between the residential Вестибюль 19,15 / Тамбур 7,21 to the west and section 8 to the east, so it is not on a corner. The C-9 SW building corner belongs to the residential lobby and office 3's west wall, not to office 4.\n\nPage 2 shows all openings on the bottom (south) façade:\n- 2,4 m тип 1 under the ПУИ/С/у zone\n- 1,81 m тип 1 with the entrance door, opening outward from Тамбур 8,49\n- 1,81 m тип 1\n\nTotal 6,02 m, all south, roughly SSW given the compass tilt.\n\nWhat the south faces: the C sheets do not label it (Перспективная улица is labelled only on the N and E sides of the key plan). I followed the master map's inference that C's south row (sections 6–9) faces the Аллея. This fits the render, which shows the highlighted section 9 at the front-left with a passage and another block to the south. It is unconfirmed by any label, hence medium confidence. No disagreement with the master map."
+  },
+  "C-5": {
+   "key": "C-5",
+   "plan_rotation": "North-up (0°). Plan-left = W, labelled 'Блокируется с 9 подъездом' (section 9 is west of section 8 on the key plan). Plan-right = E, labelled 'Блокируется с 7 подъездом' (section 7 is east of 8). Plan-top = N, where the residential lobby (Тамбур-шлюз 6,86) has its door toward the courtyard. Plan-bottom = S, the outer south façade of section 8. On the key plan section 8 is highlighted in the middle of the south row, between 9 and 7. The key-plan compass is tilted about 10° counter-clockwise, so the plan's 'south' really faces about SSE.",
+   "entrance_direction": "S",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "S",
+   "main_facade_faces": "Аллея (пешеходная)",
+   "other_facades": "None. The west wall is blind ('Блокируется с 9 подъездом', attached to section 9). The north side is internal: wet rooms, ПУИ and the section corridor/lobby, with the courtyard beyond. The east side is the internal partition with the lobby (Вестибюль 15,91) and Тамбур 7,02. The only glazing is on the south façade.",
+   "total_glazing_m": 4.6,
+   "corner": false,
+   "power_kw": 10.1,
+   "ceiling_m": 4.2,
+   "confidence": "medium",
+   "reasoning": "Office 5 (50,65 m², entrance from section 8, ground floor) is the west half of section 8, in the middle of C's south row on the key plan. The rotation follows from 'Блокируется с 9 подъездом' on the left and 'Блокируется с 7 подъездом' on the right, which makes the plan north-up. Page 2 shows two openings, both on the plan-bottom (south) façade. The first is a 2,2 m витраж (тип 1) at the SW. The second is 2,4 m (тип 1) at the SE, and it contains the double door of the office's own Тамбур 6,96, which opens outward to the south. That gives 4.6 m of glazing in total, h=4.2 m, 10,1 кВт. The office is not a corner unit: the west wall is shared with section 9. On page 1 the next bay east of the office holds the section's residential Тамбур 7,02 with a south porch and steps, and office 6 sits beyond it. Nothing on the C sheets names the south side. The key plan labels only 'Перспективная улица' on the north and east. Calling the south façade the Аллея rests on the master map (it is labelled on the B and E sheets and lit in the renders), not on this sheet, so confidence is medium. This agrees with the master map: tambours on the south, the courtyard to the north."
+  },
+  "C-6": {
+   "key": "C-6",
+   "plan_rotation": "The plan is north-up (0°). Plan-left reads 'Блокируется с 9 подъездом' and section 9 is west of section 8 on the key plan. Plan-right reads 'Блокируется с 7 подъездом' and section 7 is east of 8. Plan-top is the courtyard side (north, the inner side of the closed square). Plan-bottom is the outer south façade. On the key plan section 8 is highlighted in the middle of the south row (9-8-7). The compass С is tilted about 10–15° counter-clockwise, so plan-south really faces about SSE.",
+   "entrance_direction": "S",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "S",
+   "main_facade_faces": "Аллея (пешеходная)",
+   "other_facades": "No other glazed façades. The east wall is a party wall ('Блокируется с 7 подъездом') with no openings. The north/top wall (courtyard side, wet rooms С/у МГН 4,00, С/у 3,30, ПУИ 3,84) shows no windows on p2. The office has a west annex: a narrow room west of the main hall, behind the residential stair/ПУИ 6,37, joined through an opening in the wall. This annex also has a window on the south façade, above an external stair. That window is not dimensioned on p2 but scales to about 1.8 m. So all glazing is on the south façade.",
+   "total_glazing_m": 4.21,
+   "corner": false,
+   "power_kw": 22.9,
+   "ceiling_m": 4.2,
+   "confidence": "medium",
+   "reasoning": "Sheet labels: 'План этажа: подъезд 8, 1 этаж'; 'Блокируется с 9 подъездом' on plan-left; 'Блокируется с 7 подъездом' on plan-right and also on p2. The key plan has 'Перспективная улица' along the top (N, over sections 1-2-3) and along the right (E, sections 3-6). The highlighted section 8 sits in the south row between 9 and 7, with no label on its south side.\n\nOffice 6 (114,43 m², h=4.2 m, 22,9 кВт) takes the east bay of section 8. Its Тамбур 6,96 has an outward double door in the bottom (south) wall, set in a 2,4 m 'тип 1' glazed unit. A second 1,81 m 'тип 1' window is further east on the same south wall. Labelled glazing totals 2.4 + 1.81 = 4.21 m. The undimensioned west-annex south window (about 1.8 m by scale) could raise this to about 6.0 m.\n\nWhat the south side faces is not printed on the C sheets. The master map's 'Аллея (пешеходная)' (C's south faces the tree-lined Аллея) fits: the tambours face outward and the courtyard is north. That inference is why confidence is medium. I found no conflict with the master map: section 8 is on C's south side, plans are north-up, and the office is not a corner unit because it sits mid-façade and is attached to 7 on the east."
+  },
+  "C-8": {
+   "key": "C-8",
+   "plan_rotation": "North-up (0°). Left side of the plan is labelled 'Блокируется с 8 подъездом' and the right side 'Блокируется с 6 подъездом'. On the key plan, section 7 (highlighted) sits in the south row with 8 to its west and 6 to its east, so plan-left = W, plan-right = E, plan-top = N (courtyard), plan-bottom = S. The key-plan compass is tilted about 10° counter-clockwise, so plan-down really faces about SSW.",
+   "entrance_direction": "S",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "S",
+   "main_facade_faces": "Аллея (пешеходная)",
+   "other_facades": "None dimensioned. North wall (toward the courtyard): solid, no glazing. East wall: blind, attached to section 6 (labelled). West wall: internal, against the residential vestibule. The office includes a small annex SW of the main room (south of the ПУИ 6,37, next to the residential entrance stair at the -2,480 mark). It has a short undimensioned window in its south wall over the stair and steps. It also faces S toward the Аллея, but it is not counted in the total.",
+   "total_glazing_m": 4.21,
+   "corner": false,
+   "power_kw": 23.2,
+   "ceiling_m": 4.2,
+   "confidence": "high",
+   "reasoning": "Labels used: 'План этажа: подъезд 7, 1 этаж'; 'Блокируется с 8 подъездом' (left); 'Блокируется с 6 подъездом' (right). On the key plan, 7 is highlighted in the bottom row between 8 and 6. 'Перспективная улица' is labelled on the top and right of the key plan only, and nothing is labelled on the south side. The office is the east part of section 7. Тамбур 6,96 sits at the bottom-left of the main room, with a double door opening outward through the south (bottom) wall. The south wall carries both витражи from p2: 2,4 м тип 1 (the door/tambour opening) and 1,81 м тип 1, for a total of 4.21 m. The top (courtyard) wall has no openings. The residential tambour-шлюз at the plan-top opens to the yard, which confirms the top is the courtyard. The east wall is a blind party wall to section 6, so the office is not a corner unit even though 6 is the block's SE corner. 23,2 кВт; h=4.2м. The south face is the Аллея. That is consistent with the master map, but it is inferred and not printed on the C sheets: the key plan shows no label south of 7–9. It is high confidence for the direction and medium for the Аллея label itself."
+  },
+  "C-9": {
+   "key": "C-9",
+   "plan_rotation": "The plan is north-up (0°) relative to the key plan. Plan-top says 'Блокируется с 5 подъездом' (section 5 is north of 6 on the key plan). Plan-left says 'Блокируется с 7 подъездом' (section 7 is west of 6). Plan-right is labelled 'Перспективная улица' (east; the key plan also labels it on the right). So plan-bottom is south. The compass is tilted about 10–15° counter-clockwise, so plan-south really faces about SSE.",
+   "entrance_direction": "S",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "S",
+   "main_facade_faces": "Аллея (пешеходная)",
+   "other_facades": "None. The west side is a party wall to section 7 ('Блокируется с 7 подъездом'). The north side is internal (corridor, С/у and ПУИ next to the residential Холл and Вестибюль), with no exterior glazing.",
+   "total_glazing_m": 6.02,
+   "corner": false,
+   "confidence": "medium",
+   "power_kw": 15.8,
+   "ceiling_m": 4.2,
+   "reasoning": "Section 6 is the highlighted SE corner section on C's key plan. Office 9 is the shaded unit in the bottom-left (SW) part of the section 6 plan, against the 'Блокируется с 7 подъездом' wall. On p2 all openings are on the bottom (south) façade: 1.81 m + 1.81 m + 2.4 m, all тип 1 and 4.2 m high, for a total of 6.02 m. The 8.49 m² тамбур with an outward-swinging door sits between the two 1.81 m windows, so the entrance opens south. Sheet data: 15.8 кВт, h=4.2 м, 78.78 m². The C sheets print no label on the south side, so the frontage being the Аллея comes from the master map (inferred from the B and E sheets) and is not stated on this sheet. That is why confidence is medium. The office is not a corner unit: the SE corner of section 6 (where Перспективная улица meets the Аллея) belongs to office 10, and office 9 is the western part of the section, next to section 7. This agrees with the master map, which lists office 9 as having a south tambour in section 6."
+  },
+  "C-13": {
+   "key": "C-13",
+   "plan_rotation": "None: the plan is north-up, matching the key plan. Plan-top = N, labelled 'Блокируется с 4 подъездом'; section 4 is directly north of 5 on the key plan. Plan-bottom = S, labelled 'Блокируется с 6 подъездом'; section 6 is south of 5. Plan-right = E, labelled 'Перспективная улица' (vertical); the key plan has 'Перспективная улица' on the right of sections 3–6. Plan-left = W, the closed courtyard. The key-plan compass is tilted about 10° CCW, so 'E' really faces about ESE.",
+   "entrance_direction": "E",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "E",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "None glazed. N is a party wall (blocked by section 4). The S part touches section 6 and the residential lobby/corridor core. The W side faces the courtyard (двор ЖК) and is a solid wall with the с/у and ПУИ, with no glazing shown. All three openings are on the east façade toward the N–S Перспективная улица.",
+   "total_glazing_m": 6.02,
+   "corner": false,
+   "power_kw": 22.7,
+   "ceiling_m": 4.2,
+   "confidence": "high",
+   "reasoning": "Labels on p1: 'План этажа: подъезд 5, 1 этаж'. 'Блокируется с 4 подъездом' is at the top of the plan and 'Блокируется с 6 подъездом' at the bottom. 'Перспективная улица' runs vertically on the right of the plan. On the key plan, section 5 is highlighted on the east side of C between 4 (north) and 6 (south), and 'Перспективная улица' runs along that east side. So the plan is north-up with no rotation. Office 13 (113.45 m²) occupies the northern half of the section plus a small room to the SE next to ПУИ 6,37. On p2 that room is connected to the office through an opening and is shaded as part of it. The entrance is 'Тамбур 6,96' on the right (east) wall, with the door swinging out east toward the Перспективная улица; E across that street is about 30 m away. Glazing from p2 is all on the east wall: 1.81 m type 1 (main room, north part), 2.4 m type 1 (the tambour door/vitrage) and 1.81 m type 1 (the SE annex room), for 6.02 m in total. The window height is 4.2 m. The west part of the office, with the с/у МГН, с/у and ПУИ, backs onto the courtyard with no openings. The office is not a corner unit: north is blocked by section 4, and the C NE corner is section 3, not 5. The master map agrees ('Offices 13 (section 5) … face it' = Перспективная улица east); I found no discrepancy. 22.7 kW, h = 4.2 m."
+  },
+  "C-19": {
+   "key": "C-19",
+   "plan_rotation": "The section 2 plan is drawn north-up, matching the key plan. Plan-top (N) is labelled 'Перспективная улица' above the plan. Plan-left (W) is labelled 'Блокируется с 1 подъездом', and plan-right (E) 'Блокируется с 3 подъездом'. This matches the key plan, which has 1-2-3 in a row along the top under 'Перспективная улица', with 2 highlighted. Plan-bottom (S) is the closed courtyard side, a solid wall with no openings. The key-plan compass is tilted about 10° counter-clockwise, so plan-north really faces about NNE.",
+   "entrance_direction": "N",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "N",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "None. The east wall is solid and attached to section 3 ('Блокируется с 3 подъездом'). The west wall is an internal wall to the residential core and office 20. The south wall is solid toward the closed courtyard. All the glazing is on the north wall.",
+   "total_glazing_m": 4.21,
+   "corner": false,
+   "power_kw": 19.3,
+   "ceiling_m": 4.2,
+   "confidence": "high",
+   "reasoning": "C-19 is in section 2, ground floor ('План этажа: подъезд 2, 1 этаж'), 96.59 m². It is the east half of section 2's north bay and is shaded on p1. The north wall carries both openings, under the p2 label 'Перспективная улица'. One is a 2.4 m тип 1 витраж. The other is a 1.81 m тип 1 glazed opening with an outward-swinging door into 'Тамбур 7,18', which sits in the NE corner of the office. That gives 4.21 m of glazing in total, 4.2 m tall. On the key plan, section 2 sits mid-way along the north side of C under 'Перспективная улица'. That is the TARIH/DARYN boundary street, consistent with the master map. The office is not a corner unit: its east side is attached to section 3, and C's NE street corner belongs to section 3. The south side faces the courtyard with no openings. The sheet gives 19.3 kW and h=4.2 m. No disagreement with the master map."
+  },
+  "C-15": {
+   "key": "C-15",
+   "plan_rotation": "The plan is north-up, with no rotation relative to the key plan. Plan-top is labelled 'Блокируется с 3 подъездом', and section 3 is north of section 4 on the key plan. Plan-bottom is labelled 'Блокируется с 5 подъездом', and section 5 is to the south. Plan-right is labelled 'Перспективная улица' (vertical text), which on the key plan runs along the east side of sections 3-4-5-6. Plan-left is the inner corridor, ЛК and lobby, with the courtyard beyond. The key-plan compass is tilted about 10-15° counter-clockwise, so plan-right actually faces about ESE.",
+   "entrance_direction": "E",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "E",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "None glazed. North is a party wall to section 3. West is the internal wall to the section-4 corridor, ЛК and lobby, with the courtyard beyond. South borders the section-4 lobby. All glazing is on the east façade.",
+   "total_glazing_m": 6.02,
+   "corner": false,
+   "power_kw": 23,
+   "ceiling_m": 4.2,
+   "confidence": "high",
+   "reasoning": "Sources are the p1 labels 'Блокируется с 3 подъездом' (top), 'Блокируется с 5 подъездом' (bottom) and 'Перспективная улица' (right), and the key plan, which highlights section 4 on the east side with 'Перспективная улица' labelled along the east. Together these give a north-up plan.\n\nGlazing is on p2. The east façade has three openings, all Тип 1 at 4.2 m high: a 1.81 m window in the main hall, a 2.4 m glazed opening with the entrance door through Тамбур 6,96, and a 1.81 m window in the small south room, which is part of the office as shown shaded on p1 and on p2. Total: 6.02 m.\n\nThe entrance tambour is on the east and opens onto the N-S Перспективная улица between C and E, with E across the street. This agrees with the master map (C east façade, section 4 office 15 on the Перспективная улица). The office sits mid-façade, between section 3 at the NE corner and section 5, so it is not a corner unit.\n\nFrom the p1 header: 115,24 m², 23 кВт, h=4.2 м."
+  },
+  "C-20": {
+   "key": "C-20",
+   "plan_rotation": "North-up, no rotation. On p1 'Перспективная улица' is printed above the plan, 'Блокируется с 1 подъездом' on the left and 'Блокируется с 3 подъездом' on the right. On the key plan, section 2 is highlighted in the top row between 1 (west) and 3 (east), under the 'Перспективная улица' label. So plan-top = N, left = W, right = E and bottom = S (the courtyard). The compass is tilted about 10–15° counter-clockwise, so plan-north really faces about NNE.",
+   "entrance_direction": "N",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "N",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "None glazed. W is a party wall to section 1 ('Блокируется с 1 подъездом'). E is an internal wall to the residential vestibule and tambour of section 2. S is a solid brick wall on the courtyard side, with no openings on p2.",
+   "total_glazing_m": 1.81,
+   "corner": false,
+   "power_kw": 14.3,
+   "ceiling_m": 4.2,
+   "confidence": "high",
+   "reasoning": "The office is a narrow L-shape at the west end of section 2, next to the wall it shares with section 1. On the north side of the plan, the 'Тамбур 7,00' has a double door opening outward under the 'Перспективная улица' label on both p1 and p2. Page 2 marks one opening only, '1,81м тип 1' (the glazed entrance unit, full height 4.2 m), on the north. The other walls are solid. Header data: 'Общая площадь офиса №20=71,36м², h=4.2м, 14,3 кВт'. This side faces the TARIH/DARYN boundary Перспективная улица (the C north side, which matches the master map). The office is not a corner unit: it is mid-façade between section 1 and the section 2 lobby, and C's NE corner is in section 3."
+  },
+  "C-22": {
+   "key": "C-22",
+   "plan_rotation": "The plan is north-up, with plan-top = N. Evidence: 'Перспективная улица' is printed above the plan (and above the key plan, where section 1 is highlighted on the top row), and 'Блокируется со 2 подъездом' is on the plan's right side, which matches section 2 being east of section 1 on the key plan. The key-plan compass is tilted about 10–15° counter-clockwise, so plan-top really faces about NNE.",
+   "entrance_direction": "N",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "N",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "None glazed. The west wall is a blind brick end wall at the west end of section 1, facing the NW open corner / courtyard entrance gap between sections 10 and 1 (category 'внутренний проезд/улица кластера'). There is no label or opening on this side in p1 or p2. The south wall is solid and faces the residents' courtyard ('двор ЖК (закрытый)'). The east side borders the residential vestibule and core of section 1.",
+   "total_glazing_m": 1.81,
+   "corner": false,
+   "power_kw": 14.2,
+   "ceiling_m": 4.2,
+   "confidence": "high",
+   "reasoning": "Office 22 (71.13 m², подъезд 1, 1 этаж) is the westernmost unit of section 1 in C, which sits at the top-left of the key plan. Labels used:\n- 'Перспективная улица' above the p1 plan, above the p2 plan and above the key plan.\n- 'Блокируется со 2 подъездом' on the right of the plan.\n- The second 'Перспективная улица' runs along the east of the key plan, at sections 3–6.\n\nLayout: p2 shows a narrow tambour (7.00 m²) running north to the façade, with a single double-leaf door and window opening marked '1,81м тип 1' (h 4.2 m) under 'Перспективная улица'. The main room lies behind it to the south.\n\nOpenings: on the p1 zoom, the west wall is continuous brick with no openings, and the south wall is solid toward the courtyard. The only glazing is the 1.81 m opening at the north door. So the entrance and all the glazing face north (really about NNE given the compass tilt) onto the TARIH/DARYN boundary Перспективная улица.\n\nNot a corner unit: the west end wall is blind, even though it faces the NW courtyard-entrance gap.\n\nPower and ceiling: 14.2 kW and h = 4.2 m.\n\nThis matches the master map, which lists office 22 with a north tambour on C's N side."
+  },
+  "E-2": {
+   "key": "E-2",
+   "plan_rotation": "The floor plan is north-up, the same orientation as the key plan, which agrees with the master map. Labels around the section 5 plan on p1: top 'Вид на перспективный проект ÜIA.DARYN M' (N), left 'Блокируется с 4 подъездом' (W, section 4 is west of 5 on the key plan), right 'Вид на перспективный проект ÜIA.TARIH F' (E), bottom 'Вид на ваш двор' (S). The key-plan compass (С/В/Ю/З) is tilted about 15° counter-clockwise, so the real 'north' is about NNE.",
+   "entrance_direction": "N",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "S",
+   "main_facade_faces": "двор ЖК (закрытый)",
+   "other_facades": "N (about NNE): one 2.15 m 'тип 1' opening (3.6 m tall), which is the glazed entrance unit with a double door and 'Зона тамбура'. It faces the TARIH/DARYN boundary street with DARYN M across ('Вид на перспективный проект ÜIA.DARYN M'). That 2.15 m is the office's only street frontage. W and E sides are interior walls (office 3 to the west, the stair/lobby core to the east). No other glazing.",
+   "total_glazing_m": 8.75,
+   "corner": false,
+   "power_kw": 18.216,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "Source: the E-2 sheet (Бизнес, office 2, 91.08 m², подъезд 5, этаж 1). The sheet shows 'План этажа: подъезд 5' and the key plan highlights section 5 at the NE of the U, which matches the master map. On p1 and p2 the office is L-shaped: a narrow 'neck' runs from the north façade (tambour zone) south into a wider hall along the south wall. P2 widths: north entrance '2,15м тип 1' under the label 'Вид на перспективный проект ÜIA.DARYN M'; south wall three windows '2,2м тип 2' ×3 = 6.6 m above the label '▼ Вид на ваш двор'. Total 2.15 + 6.6 = 8.75 m. So about 75% of the glazing (all the shop-window glazing) looks into the residents' courtyard, and only the 2.15 m entrance unit is on the street. The office sits mid-section between office 3 (west, toward 'Блокируется с 4') and the residential stair/lobby core (east), so it is not a corner. Power '18.216 кВт', ceiling 'h=3.9м'. This differs from neighbours 3 and 1, whose wide halls are on the north/street side and the east end (office 1 also has side windows toward TARIH F). E-2's street presence is just a narrow tambour door between them, and its display glazing faces the closed yard. That weakens it as a retail/street-visibility unit despite the north-street entrance."
+  },
+  "E-4": {
+   "key": "E-4",
+   "plan_rotation": "North-up, not rotated. The plan top is labelled 'Вид на перспективный проект ÜIA.DARYN M' (N). The plan bottom is labelled 'Вид на ваш двор' (S, courtyard). The plan right is labelled 'Блокируется с 5 подъездом' (E, section 5 lies east of 4 on the key plan). This matches the key plan, where section 4 is highlighted in the NW of the U with 5 to its east. The compass arrow tilts slightly clockwise from plan-up, so plan-top is really about NNE, as the master map says.",
+   "entrance_direction": "N",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "N",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "S (courtyard): 'Вид на ваш двор', two type-2 windows of 2.2 m each (4.4 m total, sill about 0.49 m), one of them on a stepped recess. These face the closed courtyard and have no door. E: blank wall, 'Блокируется с 5 подъездом'. W: a shared wall with office 5 of the same section, interior.",
+   "total_glazing_m": 8.75,
+   "corner": false,
+   "power_kw": 24.744,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "Office E-4 is 123.72 m², in section 4 (подъезд 4). It is the east bay of section 4, a mid-block unit, between office 5 to the west and section 5 to the east. The entrance is a door with a 'Зона тамбура' inside the 2.15 m type-1 opening on the north wall. That wall is labelled 'Вид на перспективный проект ÜIA.DARYN M', which is the TARIH/DARYN boundary Перспективная улица with DARYN M across. A second north opening is a 2.2 m type-1 full-height window, so the north side has 4.35 m of street glazing including the door. The south (двор) side has 2.2 + 2.2 m type-2 windows, 4.4 m in total. That is about equal to the north side but faces the closed residents' courtyard, so it is not retail frontage. I take the north side as the main façade because it carries the entrance and the full-height street windows. Total glazing is 8.75 m. The office is not a corner: the east side is labelled 'Блокируется с 5 подъездом', and the west side is the interior wall with office 5. Power is 24.744 kW and h = 3.9 m. The master map's E north = boundary street matches the sheet; there is no discrepancy. Traffic tier is 4 (the boundary street, not the NW corner, which belongs to office 6)."
+  },
+  "E-5": {
+   "key": "E-5",
+   "plan_rotation": "north-up (0°). Section 4 floor plan: top = 'Вид на перспективный проект ÜIA.DARYN M' (N, boundary street), right = 'Блокируется с 5 подъездом' (E, section 5 sits east of 4 on key plan), bottom = 'Вид на ваш двор' (S, courtyard), left = 'Вид на перспективный проект ÜIA.TARIH C' (W). Matches key plan where section 4 is top-left of the U, 5 to its east. Key-plan compass is tilted (С slightly left of top), consistent with the master map's ~10-15° grid twist; no 90° rotation.",
+   "entrance_direction": "N",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "N",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "S: one 2.2 m window (тип 2, sill 0.49 m, 3.11 m high) facing 'Вид на ваш двор' = closed residents' courtyard (двор ЖК (закрытый)), no door. E and W sides are internal walls (office 4 to the east, stair/lobby core of section 4 to the west) - no glazing.",
+   "total_glazing_m": 4.4,
+   "corner": false,
+   "power_kw": 12.95,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "Sheet: ÜIA.TARIH E, Бизнес, office 5, 64.75 m², подъезд 4, этаж 1, 64 750 000 тг, keys 27.03.2027. P1 shows section 4 north-up: top label 'Вид на перспективный проект ÜIA.DARYN M', right 'Блокируется с 5 подъездом', bottom 'Вид на ваш двор', left 'Вид на перспективный проект ÜIA.TARIH C'; key plan highlights section 4 at the NW of E's U, with DARYN M along the top. Office 5 is the shaded narrow strip in the middle of section 4, between the residential lobby/stair core (west) and office 4 (east). P2: the north end has 'Зона тамбура' with a door inside a 2.2 m тип 1 full-height opening (3.6 m of 3.9 m) under the label 'Вид на перспективный проект ÜIA.DARYN M'. So the entrance and street glazing face N onto the TARIH/DARYN boundary Перспективная улица. The south end has a 2.2 m тип 2 window under 'Вид на ваш двор' (closed courtyard). Total glazing is 2.2 + 2.2 = 4.4 m, but only 2.2 m of it is on the street, and that includes the door. Not a corner: both long sides are party walls. Power 12.95 кВт, h=3.9 м. This agrees with the master map (E north side = boundary street, traffic rank 4). How it differs from neighbour E-4 (123.72 m², 24.744 kW, same section): E-4 has a wider north frontage with a tambour, plus a projecting south bay toward the yard and its east side on the section 5 joint. E-5 is a deep, narrow unit, about 4–5 m wide with an L-shaped jog at the back. Its street frontage is a single 2.2 m opening, so its shop-window visibility is minimal and its usable layout is poor for retail. It suits a small service or office use rather than a showroom."
+  },
+  "E-7": {
+   "key": "E-7",
+   "plan_rotation": "Section 3 plan rotated 90 deg vs key plan: plan-top = E ('Вид на ваш двор'), plan-bottom = W ('Вид на перспективный проект ÜIA.TARIH C'), plan-right = S ('Блокируется с 2 подъездом'), plan-left = N (end of section 3, gap toward section 4). Matches master map.",
+   "entrance_direction": "W",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "W",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "E (plan-top, courtyard): 1.4 m + 2.2 m тип 2 = 3.6 m, faces двор ЖК (закрытый). N (plan-left, north end of section 3): 2.2 m тип 1, faces the gap/passage between sections 3 and 4 (внутренний проезд/улица кластера, courtyard entry from the C|E street). S (plan-right): blind wall shared with office 8, no glazing.",
+   "total_glazing_m": 12.4,
+   "corner": true,
+   "power_kw": 26.016,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "Sheet: ÜIA.TARIH E Бизнес, office 7, 130.08 m², подъезд 3, этаж 1, 145 689 600 тг (1 120 000/m²). Key plan: section 3 is highlighted on the west side of E. Its labels are 'Вид на перспективный проект ÜIA.TARIH C' on the west, 'DARYN M' on the north, 'TARIH F' on the east and 'Аллея' on the south. On p1 the 'Вид на ваш двор' label is above the plan and 'Блокируется с 2 подъездом' is on the right. Section 2 is south of 3 on the key plan, and the yard is east of 3. So plan-top = E, plan-right = S, plan-bottom = W (that edge carries the label 'Вид на перспективный проект ÜIA.TARIH C') and plan-left = N. Office 7 is the shaded L-shaped unit at the plan-left (north) end of section 3. It runs from the yard side to the street side. On p2 the tambour ('Зона тамбура') and the double door are on the plan-bottom edge, so the entrance opens W onto the N-S Перспективная улица between C and E, with C across at about 30 m. Glazing from p2: plan-bottom (W) has 2.2 + 2.2 (the door/tambour opening) + 2.2 = 6.6 m, all тип 1, and is the main façade. Plan-left (N) has 2.2 m тип 1. Plan-top (E, yard) has 1.4 + 2.2 = 3.6 m тип 2. The plan-right edge is the wall to office 8 and has no glazing. Total 12.4 m. It is an end unit with a street façade plus a north end façade toward the 3/4 gap (about 90 px apart on the key plan), so it counts as a corner, but it is not the E NW street corner (that is section 4). The compass is tilted, so the true facing is about WNW. Power 26.016 kW, h = 3.9 m (window types 1 and 2 both 3.9 m clear height)."
+  },
+  "E-8": {
+   "key": "E-8",
+   "plan_rotation": "Rotated 90°, and the sheet agrees with the master map. Plan-top is E: the \"▲ Вид на ваш двор\" label (the yard, which opens east on the key plan). Plan-bottom is W: the \"Вид на перспективный проект ÜIA.TARIH C\" label (C lies west of E on the key plan). Plan-right is S: the \"Блокируется с 2 подъездом\" label (section 2 is south of 3 on the key plan). Plan-left is N, toward section 4. The compass on the key plan is tilted about 15° counter-clockwise, so true W is about WNW.",
+   "entrance_direction": "W",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "W",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "E (plan-top): one 2.2 m window, тип 2 (sill 0.49 m, 3.11 m high), facing the closed yard (двор ЖК (закрытый), labelled \"Вид на ваш двор\"). N and S sides (plan-left and plan-right) have no glazing: they are party walls with office 7 (N) and office 9 (S). The office does not reach the \"Блокируется с 2\" end.",
+   "total_glazing_m": 6.6,
+   "corner": false,
+   "power_kw": 15.868,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "Section 3 is the only rotated E plan. All three labels around the p1 plan match the key plan: the yard on top (E), TARIH C on the bottom (W), and \"Блокируется с 2 подъездом\" on the right (S). E-8 is the middle of three offices (7, 8, 9). It is a narrow strip from the street front at plan-bottom to the yard at plan-top, with a wider front zone. Page 2 shows the following.\n- Bottom (W) wall: one 2.2 m тип 1 window (full 3.6 m high) and a 2.2 m тип 1 glazed entrance unit. The unit is a double door with sidelights, and the \"Зона тамбура\" sits right behind it. Together that is 4.4 m of street glazing including the door.\n- Top (E) wall: one 2.2 m тип 2 window onto the yard.\nTotal glazing is 6.6 m: 4.4 m street-side plus 2.2 m on the yard. The entrance opens W onto the N–S Перспективная улица between C and E, with TARIH C across at about 30 m. Page 1 labels this side \"Вид на перспективный проект ÜIA.TARIH C\"; the street itself is not named on the sheet, so its name comes from the master map. It is not a corner unit: offices 7 and 9 are on both sides. Power is 15.868 kW (the p1 and p2 plans both say \"15.868 кВт\"). Ceiling h=3.9 m. Area is 79.34 m², priced at 87 274 000 (71 564 680 discounted per args)."
+  },
+  "E-9": {
+   "key": "E-9",
+   "plan_rotation": "Section 3 plan is rotated 90 deg relative to the key plan: plan-top = E (label 'Вид на ваш двор' above the plan), plan-bottom = W (label 'Вид на перспективный проект ÜIA.TARIH C' below the plan), plan-right = S ('Блокируется с 2 подъездом'), plan-left = N. Consistent with key plan: section 3 is the vertical block on the west side of E, with 'Вид на перспективный проект ÜIA.TARIH C' along the key-plan west edge and section 2 directly south. Key-plan compass is tilted about 15 deg CCW, so true W is about WNW and E about ESE.",
+   "entrance_direction": "W",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "E",
+   "main_facade_faces": "двор ЖК (закрытый)",
+   "other_facades": "W (plan-bottom, 'Вид на перспективный проект ÜIA.TARIH C'): the street front on the N-S Перспективная улица between C and E. It has the entrance door/vitrage 2.2 m (тип 1, full height 3.6 m) in the 'Зона тамбура', plus a 1.35 m тип 1 window on a stepped-back bit of façade next to the section 3 residential stair/lobby door, so 3.55 m in total. S (plan-right) is blind: 'Блокируется с 2 подъездом'. N (plan-left) is an interior wall shared with office 8. E (plan-top, 'Вид на ваш двор') has 2 x 2.2 m тип 2 windows (3.11 m high on a 0.49 m sill), 4.4 m in total, all facing the closed courtyard.",
+   "total_glazing_m": 7.95,
+   "corner": false,
+   "power_kw": 20.928,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "Sheet header: ÜIA.TARIH E Бизнес, office 9, 104.64 m2, 115 104 000 (1 100 000/m2), 'План этажа: подъезд 3, этаж 1', h=3.9 m, 20.928 kW. Rotation: 'Вид на ваш двор' sits above the plan, 'Вид на перспективный проект ÜIA.TARIH C' below it and 'Блокируется с 2 подъездом' on its right. On the key plan, section 3 is the vertical west wing, C is labelled on the west and section 2 is south of it. So plan-bottom = W, plan-top = E (yard), plan-right = S, which matches the master map. Office 9 is the plan-right (southernmost) unit of section 3, next to section 2. The door with the tambour zone is on plan-bottom, so it opens W onto the N-S Перспективная улица toward TARIH C. This is a city street across from C, about 30 m, not Айтматова and not a corner. The unit is a through-unit with glazing on two opposite sides. By length, the most glazing is on the yard side (E): 2 x 2.2 = 4.4 m of тип 2 windows. The street side (W) has 2.2 + 1.35 = 3.55 m of тип 1, and the 1.35 m window is set back in a recess beside the residential stair entrance. Total 7.95 m. Even so, the commercially relevant front is the W street side with the entrance. Not a corner: the south side is blocked by section 2, and the SW corner (Перспективная x Аллея) belongs to section 2's office 11, so office 9 is about 20-30 m north of the Аллея. Unlike the corner units at the NW (sec. 4) and SW (sec. 2), it gets frontage on only one street (traffic tier 5 on the master map, the local C|E street)."
+  },
+  "E-10": {
+   "key": "E-10",
+   "plan_rotation": "North-up, no rotation. Plan-top = N ('Блокируется с 3 подъездом'; section 3 sits north of 2 on the key plan). Plan-right = E ('Блокируется с 1 подъездом'). Plan-bottom = S ('Аллея'). Plan-left = W ('Вид на перспективный проект ÜIA.TARIH C'). The E key-plan compass is tilted about 15° CCW, so plan-left really faces about WNW.",
+   "entrance_direction": "W",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_direction": "W",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "other_facades": "East (plan-right) end of the office's upper (northern) wing: one 2.2 m Тип 2 window marked 'Вид на ваш двор', facing the closed courtyard of E (двор ЖК (закрытый)). North wall: solid, attached to section 3 (торец к соседней секции). South and inner east walls: internal, shared with office 11 and the stair/lobby core.",
+   "total_glazing_m": 8.8,
+   "corner": false,
+   "power_kw": 23.616,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "E-10 (118.08 m², подъезд 2, этаж 1) is the north-west part of section 2. On the key plan, section 2 is highlighted at the SW of E, with section 3 to its north and section 1 to its east. The p1 plan labels match that layout directly, so the plan is north-up: 'Блокируется с 3 подъездом' on top, 'Блокируется с 1 подъездом' on the right, 'Аллея' below and 'Вид на перспективный проект ÜIA.TARIH C' on the left. The p2 office plan has the same labels.\n\nThe 'Зона тамбура' and the double entrance door are on the left (west) wall. That wall faces the N–S Перспективная улица between C and E, with C across it. The west wall carries three 2.2 m Тип 1 openings: upper wing, tambour/door and lower part, about 6.6 m in all, so it is the main façade.\n\nThe upper wing of the office reaches east past section 3. Its east end has one 2.2 m Тип 2 window labelled 'Вид на ваш двор', facing the closed courtyard. Total glazing is 3 × 2.2 + 2.2 = 8.8 m, counting the door opening.\n\nThe office is not a corner. The SW corner (Перспективная × Аллея) belongs to office 11, and the north wall is solid, attached to section 3. So E-10 has a single street frontage, mid-block on the local C|E Перспективная улица. That is traffic tier 5: pedestrian flow to the Аллея, low through-traffic. It has no Аллея or corner exposure, which is the difference from E-11 and E-12.\n\nPower is 23.616 kW and ceiling height is h = 3.9 m (from the sheet). This agrees with the master map: section 2, office 10, west tambour onto the Перспективная улица."
+  },
+  "E-12": {
+   "key": "E-12",
+   "plan_rotation": "none, the plan is north-up and matches the key plan. Plan-top = N ('Блокируется с 3 подъездом'; section 3 is directly north of 2 on the key plan, and office 12's northern bay faces the yard, marked '▲ Вид на ваш двор'). Plan-right = E ('Блокируется с 1 подъездом'; section 1 is east of 2). Plan-left = W ('Вид на перспективный проект ÜIA.TARIH C'). Plan-bottom = S ('Аллея', also under section 2 on the key plan). The key-plan compass is tilted about 15° counter-clockwise, so true plan-up is about NNE and plan-bottom about SSW.",
+   "entrance_direction": "S",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "S",
+   "main_facade_faces": "Аллея (пешеходная)",
+   "other_facades": "N: one 2.2 m opening (тип 2, with a 0.49 m sill) at the narrow top of the L-shaped unit, labelled '▲ Вид на ваш двор', so it faces the closed residents' yard (двор ЖК (закрытый)). E: a blank party wall, 'Блокируется с 1 подъездом' (торец к соседней секции/другое). W: an interior wall toward the section-2 lobby and office 11, with no glazing.",
+   "total_glazing_m": 6.6,
+   "corner": false,
+   "power_kw": 19.638,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "Office E-12 (98.19 m², section 2, ground floor) sits at the east end of section 2, next to section 1.\n\nLabels used: p1 top 'Блокируется с 3 подъездом', p1 right 'Блокируется с 1 подъездом', p1 left 'Вид на перспективный проект ÜIA.TARIH C', p1 bottom 'Аллея', and '▲ Вид на ваш двор' above the north edge of office 12. On p2, 'Аллея' sits under the bottom wall, 'Вид на ваш двор' above the top and 'Блокируется с 1 подъездом' on the right. On the key plan, section 2 is highlighted at the SW of the U, with 3 to the north, 1 to the east and Аллея along the south. All of these agree, so the plan is not rotated.\n\nGlazing from p2:\n- South wall: two 2.2 m тип 1 openings (full-height 3.6 m витраж). The left one holds the entrance door with an inside 'Зона тамбура', so the entrance opens south onto the pedestrian Аллея.\n- North wall: one 2.2 m тип 2 window into the closed yard.\n- Total: 2.2 + 2.2 + 2.2 = 6.6 m.\n\nNot a corner: the east side is blocked by section 1, the west side is interior, and the north side is the yard. Power is 19.638 kW and the ceiling is h = 3.9 m.\n\nThis agrees with the master map (E S side = Аллея, offices 11–15 have south tambours). Traffic-wise it is an Аллея frontage at the far east end of the boulevard, which the master map ranks weakest among Аллея units (tier 6). It has pedestrian flow only, no car visibility, and a fairly narrow 4.4 m Аллея shopfront."
+  },
+  "E-14": {
+   "key": "E-14",
+   "plan_rotation": "North-up, not rotated. Plan-top = N, labelled 'Вид на ваш двор'. Plan-left = W, labelled 'Блокируется с 2 подъездом', and section 2 is west of section 1 on the key plan. Plan-bottom = S, labelled 'Аллея'. The key plan agrees: section 1 is highlighted at the SE of the U, with 'Аллея' under it. The compass is tilted about 15° CCW, so plan-south is really about SSE.",
+   "entrance_direction": "S",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "S",
+   "main_facade_faces": "Аллея (пешеходная)",
+   "other_facades": "None. The office is a deep, narrow N–S bay in the middle of section 1. It sits between office 13 to the west (behind the stair/lobby core) and office 15 to the east. The west and east sides are internal walls. The north end, about 4 m wide, reaches the courtyard façade ('Вид на ваш двор'), but the p1 and p2 sheets show no window opening or width there, only solid wall. So all the glazing is on the south (Аллея) façade.",
+   "total_glazing_m": 4.4,
+   "corner": false,
+   "power_kw": 15.472,
+   "ceiling_m": 3.9,
+   "confidence": "high",
+   "reasoning": "Sheet E №14: 77.36 m², подъезд 1, этаж 1, Бизнес class. Plan-bottom carries 'Аллея' on both p1 and p2. Plan-left carries 'Блокируется с 2 подъездом', which matches section 2 being west of section 1 on the key plan. Plan-top is 'Вид на ваш двор'. The key plan has section 1 highlighted, with 'Аллея' along the bottom, 'Вид на перспективный проект ÜIA.TARIH F' on the right and '…TARIH C' on the left. That makes the plan north-up and the office's street side south, onto the Аллея. Page 2 shows two openings on the south façade only, each '2,2м тип 1' (window type 1 is 3.6 m high). One is a plain window on the SW part. The other is the glazed entrance unit with the door, on the SE part next to 'Зона тамбура'. Total glazing is 4.4 m. The office is a mid-façade unit 4 to 4.5 m wide, with a deep, narrow plan that runs north toward the courtyard. It has no side or courtyard glazing and is not a corner. Power is 15.472 kW and the ceiling is h=3.9 m. This agrees with the master map, which lists the E south side (sections 1 and 2, offices 11–15) on the Аллея with south tambours. It is in traffic tier 6: foot traffic on the boulevard, no car visibility, and the weakest part of the Аллея, at its far east end."
+  },
+  "E-15": {
+   "key": "E-15",
+   "plan_rotation": "north-up (0°). Plan top = N, labelled 'Вид на ваш двор'; plan bottom = S, labelled 'Аллея'; plan left = W, labelled 'Блокируется с 2 подъездом'. This matches the key plan, where section 1 is the highlighted bottom-right block east of 2, with 'Аллея' under it. The compass is tilted about 15° CCW, so plan-north is really about NNE.",
+   "entrance_direction": "S",
+   "entrance_faces": "Аллея (пешеходная)",
+   "main_facade_direction": "N",
+   "main_facade_faces": "двор ЖК (закрытый)",
+   "other_facades": "S façade: 3.55 m of glazing (a 2.2 m тип 1 opening with a double door plus a 1.35 m тип 1 window on a stepped-back segment), labelled 'Аллея'. E end wall: exterior on the upper part, but blind with no openings. The lower-east part is next to the building's own staircase and street-side entrance door, not to F frontage.",
+   "total_glazing_m": 7.95,
+   "corner": false,
+   "confidence": "high",
+   "reasoning": "Sources: the p1 labels 'План этажа: подъезд 1', 'Вид на ваш двор' (top), 'Аллея' (bottom) and 'Блокируется с 2 подъездом' (left); the p2 labels 'Вид на ваш двор' (top) and 'Аллея' (bottom); and the key plan, where section 1 is highlighted at the SE of the U with 'Аллея' below it and 'Вид на перспективный проект ÜIA.TARIH F' to the east. The office is the east end bay of section 1 and runs right through the section from north to south. The entrance double door is in the 2.2 m тип 1 opening on the south (Аллея) side, with the 'Зона тамбура' behind it. Glazing on p2: N (yard) 2.2 + 2.2 m тип 2 (raised sill 0.49 m, 3.11 m high) = 4.4 m; S (Аллея) 2.2 m тип 1 (door/витраж 3.6 m) + 1.35 m тип 1 = 3.55 m; total 7.95 m. By width the yard façade carries slightly more glazing (4.4 vs 3.55 m; by area about 13.7 vs 12.8 m²). The storefront and entrance face the Аллея, so the Аллея is the commercial frontage. The yard windows are not retail exposure. I checked the master map's claim that office 15 has side windows on the east (F) end and found it does not hold on the p2 plan: the east wall is solid, with only monolith and brick. So E-15 has no east/F exposure and is not a glazed corner. Power is 21.006 kW and ceiling h = 3.9 m.",
+   "power_kw": 21.006,
+   "ceiling_m": 3.9
+  }
+ },
+ "adjudicate": {
+  "E-4": {
+   "key": "E-4",
+   "entrance_direction": "N",
+   "entrance_faces": "Перспективная улица (городская улица)",
+   "main_facade_faces": "Перспективная улица (городская улица)",
+   "corner": false,
+   "total_glazing_m": 8.75,
+   "who_was_right": "Both are right. They agree on every point: N entrance onto the boundary Перспективная улица, N main façade, not a corner, 4.35 m N + 4.4 m S of glazing, 24.744 kW, h=3.9. Analyst B also gives the total, 8.75 m. Analyst A gives the same figures per side but does not add them up.",
+   "reasoning": "Sources checked: E-4 p1 and p2.\n\nRotation (p1, 'План этажа: подъезд 4, этаж 1'):\n- The plan is north-up. Top is 'Вид на перспективный проект ÜIA.DARYN M', bottom is '▼ Вид на ваш двор', left is 'Вид на перспективный проект ÜIA.TARIH C' and right is 'Блокируется с 5 подъездом'.\n- This matches the key plan. Section 4 is highlighted at the top-left of the U, section 5 is to its right, and the DARYN M label is above, TARIH C on the left, TARIH F on the right and 'Аллея' below.\n- The compass is tilted slightly, consistent with the master map's grid rotation of about 10–15°. 'N' therefore really means about NNE.\n\nOffice position: office 4 (123.72 m²) is the shaded east bay of section 4. It is a full-depth rectangle, about 8.2 m wide × 15 m deep, with a small notch at its SE courtyard corner.\n\nOpenings (p2):\n- North wall (DARYN M / boundary street): a '2,15м тип 1' door unit with 'Зона тамбура' inside, plus a '2,2м тип 1' full-height window. That is 4.35 m.\n- South wall (courtyard): '2,2м тип 2' × 2 (sill 0.49 m), one of them on the stepped recess. That is 4.4 m, with no door.\n- East wall: blank, labelled 'Блокируется с 5 подъездом'.\n- West wall: the interior wall shared with office 5.\n\nConclusions:\n- The entrance faces N, onto the TARIH/DARYN boundary Перспективная улица.\n- The main façade is N, because it carries the door and the full-height street glazing. The south side has about the same glazing, but it faces the closed residents' courtyard, so it is not retail frontage.\n- It is not a corner unit. The NW corner of section 4 belongs to office 6 (119.13 m², with a bay window toward TARIH C).\n- Total glazing is 8.75 m, counting the glazed door unit. Street-side glazing is only 4.35 m, and windows alone without the door come to 6.6 m.\n\nThe master map (E north = boundary street, with DARYN M across) agrees with the sheet; there is no discrepancy. Traffic tier is 4: a mid-block frontage on the boundary street, about 30 m east of the C|E crossroads corner."
+  }
+ }
+}
