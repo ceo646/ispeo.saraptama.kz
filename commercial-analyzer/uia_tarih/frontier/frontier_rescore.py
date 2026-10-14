@@ -26,7 +26,7 @@ TAX = 0.04             # simplified regime (3% for Astana from 2026 is unverifie
 SOC = 260_000          # ИП social payments per year while renting
 EMPTY_COST = 150       # ₸/m²/month ОСИ + heating paid by the owner while empty
 CAP = 0.10             # exit cap rate for implied value
-BUDGET = (65e6, 110e6)
+BUDGET = (0, 160e6)  # user: up to 160 M ₸ is fine (the 100 M cap came from the first task)
 
 # Months from Oct 2026 to keys. Sources show dates already slipping ~3 quarters,
 # so base = announced quarter + 2 quarters, slow = + 4 quarters.
