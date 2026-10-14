@@ -1,0 +1,1455 @@
+[
+ {
+  "key": "sheets",
+  "result": {
+   "rows": [
+    {
+     "complex": "DARYN",
+     "block": "E",
+     "address": "",
+     "date_stated": "Дата передачи ключей 24.12.2026 (Дата печати 14.10.2026); CSV 'Сдача' 4 кв. 2026",
+     "status": "under construction (sheet: handover planned)",
+     "source": "BI office sheet E_офис-2_171.73м2.pdf (office 2, 171.73 m2, подъезд 5, 9 эт)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/daryn/zip/E_офис-2_171.73м2.pdf",
+     "note": "Older landscape template headed 'ÜIA.BÜRKIT / Комфорт + / 2 очередь' (not DARYN). Plan title 'План этажа: подъезд 5, этаж 1'. Key plan: L-block, sections 1 (17 эт), 2 (14), 3 (14), 4 (17) along ул. Айтматова / пр. Улы Дала, section 5 (9 эт) highlighted at the SE corner. The '2 очередь' is old BÜRKIT numbering and conflicts with the K sheet, which calls DARYN A the 2nd queue."
+    },
+    {
+     "complex": "DARYN",
+     "block": "K",
+     "address": "",
+     "date_stated": "Дата передачи ключей 17.10.2026 (Дата печати 14.10.2026); CSV 4 кв. 2026",
+     "status": "under construction / keys imminent per sheet (date 3 days after print)",
+     "source": "BI office sheet K_офис-14_71.8м2.pdf (office 14, 71.8 m2, подъезд 2)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/daryn/zip/K_офис-14_71.8м2.pdf",
+     "note": "Header: 'ÜIA.DARYN K / Комфорт lite / 3 очередь'. Key plan labels: 'ÜIA.DARYN B 1 очередь', 'ÜIA.DARYN A 2 очередь', 'ÜIA.DARYN K 3 очередь'. K is a U-shaped block directly south of A, made of sections 1 (12 эт), 2 (9), 3 (12), 4 (9) and 5 (12). Section 2 is highlighted."
+    },
+    {
+     "complex": "DARYN",
+     "block": "K",
+     "address": "",
+     "date_stated": "Дата передачи ключей 17.10.2026 (Дата печати 14.10.2026); CSV 4 кв. 2026",
+     "status": "under construction / keys imminent per sheet",
+     "source": "BI office sheet K_офис-9_66.82м2.pdf (office 9, 66.82 m2, подъезд 3)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/daryn/zip/K_офис-9_66.82м2.pdf",
+     "note": "Same header '3 очередь' and same key plan as office 14. Section 3 (12 эт) is highlighted."
+    },
+    {
+     "complex": "DARYN",
+     "block": "H",
+     "address": "",
+     "date_stated": "Дата передачи ключей 27.02.2027 (Дата печати 14.10.2026); CSV 1 кв. 2027",
+     "status": "under construction",
+     "source": "BI office sheets H offices 14 (подъезд 1), 12 (подъезд 2), 7 (подъезд 3), 5 (подъезд 4, two copies), 2 (подъезд 5), 11 ('План этажа: ВП', CSV подъезд 7, 1-storey)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/daryn/zip/H_офис-*.pdf + /root/.claude/uploads/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/6a57e134-UIA._DARYN_H_-_H_-_5.pdf",
+     "note": "All 7 H sheets give the same date, including the extra uploaded copy of office 5. Header 'ÜIA.DARYN H Комфорт lite' with no очередь wording. Key plan: sections 1–4 (12 эт) and 5 (9 эт), 'Перспективная улица' to the north, 'Аллея Bolashaq' to the west, and the caption 'Вид на кластер ÜIA.TARIH' to the south. So H is DARYN's southern block next to TARIH. Office 11 (498.82 m2) is a stand-alone 'ВП' (built-in/attached) unit."
+    },
+    {
+     "complex": "DARYN",
+     "block": "M",
+     "address": "",
+     "date_stated": "Дата передачи ключей 31.03.2027 (Дата печати 14.10.2026); CSV 1 кв. 2027",
+     "status": "under construction (photo legend on sheet marks '- строится')",
+     "source": "BI office sheets M offices 16, 17, 18, 20 (подъезд 4), 21, 22 (подъезд 5), 26, 27, 28, 29, 30 (подъезд 6), 32 (подъезд 7)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/daryn/zip/M_офис-*.pdf",
+     "note": "All 12 M sheets give the same date. The office-number field is left blank on M sheets. Key plan: sections 4 (9 эт), 5 (9), 6 (12) and 7 (14) are drawn active, sections 1 (17), 2 (14) and 3 (12) are greyed, and пр. Улы Дала is to the north. Notes on the plans: 'Блокируется с 5 подъездом' (s4), 'с 7' (s6), 'с 6' (s7). The 31.03.2027 date conflicts with imagery showing M at only a few storeys in Oct 2026, so it is optimistic."
+    },
+    {
+     "complex": "DARYN",
+     "block": "F",
+     "address": "",
+     "date_stated": "Дата передачи ключей 05.06.2027 (Дата печати 14.10.2026); CSV 2 кв. 2027",
+     "status": "under construction",
+     "source": "BI office sheets F offices 1, 2 (подъезд 4, 17 эт), 8, 9 (подъезд 1, 14 эт)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/daryn/zip/F_офис-*.pdf",
+     "note": "Header 'ÜIA.DARYN F Бизнес' with no очередь wording. Key plan: sections 1 (14 эт), 2 (17), 3 (14) and 4 (17) along ул. Айтматова."
+    },
+    {
+     "complex": "DARYN",
+     "block": "G",
+     "address": "",
+     "date_stated": "Дата передачи ключей 25.09.2027 (Дата печати 14.10.2026); CSV 3 кв. 2027",
+     "status": "under construction",
+     "source": "BI office sheets G offices 10, 11 (подъезд 8), 12, 13 (подъезд 7), 16 (подъезд 5)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/daryn/zip/G_офис-*.pdf",
+     "note": "Header 'ÜIA. DARYN G Бизнес' with no очередь wording. Key plan: ул. Айтматова to the west and пр. Улы Дала to the north, with sections 5 (17 эт), 6 (17), 7 (14) and 8 (14)."
+    },
+    {
+     "complex": "DARYN",
+     "block": "C",
+     "address": "",
+     "date_stated": "CSV 'Сдача' 4 кв. 2026 (no sheet)",
+     "status": "unknown (no sheet)",
+     "source": "BI CSV office list (offices 2–15, подъезд 1 = 17 эт, 2 = 14 эт, 3 = 12 эт)",
+     "source_date": "2026-10-14 (export)",
+     "source_url_or_path": "/home/user/ispeo.saraptama.kz/commercial-analyzer/uia_daryn/offices.csv",
+     "note": "No sheet exists for C. The CSV says 'нет — ошибка на сервере BI' for every C office, so there is no exact key-handover date."
+    },
+    {
+     "complex": "TARIH",
+     "block": "B",
+     "address": "",
+     "date_stated": "Дата передачи ключей 28.11.2026 (Дата печати 14.10.2026); CSV 4 кв. 2026",
+     "status": "under construction (topped out per imagery)",
+     "source": "BI office sheets TARIH B offices 3 (подъезд 10), 4, 5 (подъезд 9), 12 (подъезд 6), 16, 17 (подъезд 4)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/tarih/zip/UIA.TARIH - B №*.pdf",
+     "note": "Header 'ÜIA.TARIH B Комфорт +' with no очередь wording. Key plan: ring of sections 1–10, with ул. Ч.Айтматова to the west and 'Аллея' to the north. Sections 4 and 9 are 12 эт, the rest 9 эт."
+    },
+    {
+     "complex": "TARIH",
+     "block": "C",
+     "address": "",
+     "date_stated": "Дата передачи ключей 31.03.2027 (Дата печати 14.10.2026); CSV 1 кв. 2027",
+     "status": "under construction",
+     "source": "BI office sheets TARIH C offices 22 (подъезд 1), 19, 20 (подъезд 2), 15 (подъезд 4), 13 (подъезд 5), 9 (подъезд 6), 8 (подъезд 7), 5, 6 (подъезд 8), 2, 4 (подъезд 9), 1 (подъезд 10)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/tarih/zip/UIA.TARIH C №*.pdf",
+     "note": "Header 'UIA.TARIH C Бизнес' with no очередь wording. Key plan: square ring of sections 1–10, all 9 эт, with 'Перспективная улица' to the north and east."
+    },
+    {
+     "complex": "TARIH",
+     "block": "E",
+     "address": "",
+     "date_stated": "Дата передачи ключей 27.03.2027 (Дата печати 14.10.2026); CSV 1 кв. 2027",
+     "status": "under construction",
+     "source": "BI office sheets TARIH E offices 14, 15 (подъезд 1), 10, 12 (подъезд 2), 7, 8, 9 (подъезд 3), 4, 5 (подъезд 4), 2 (подъезд 5)",
+     "source_date": "14.10.2026",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/tarih/zip/UIA.TARIH E - E №*.pdf",
+     "note": "Header 'ÜIA.TARIH E Бизнес' with no очередь wording. Key plan: sections 1–5, all 9 эт. Neighbours: 'Вид на перспективный проект ÜIA.DARYN M' to the north, 'ÜIA.TARIH C' to the west, 'ÜIA.TARIH F' to the east, 'Аллея' to the south. The date is 27.03, four days earlier than TARIH C."
+    }
+   ],
+   "summary": "I read page 1 of all 59 BI office sheets: 30 DARYN, 28 TARIH and the extra uploaded DARYN H office 5 sheet. Every sheet is printed 'Дата печати 14.10.2026'. Within each block every sheet gives the same 'Дата передачи ключей', so no sheet differs from the rest of its block.\n\nDARYN dates by block:\n- K: 17.10.2026 (sections 2 and 3)\n- E: 24.12.2026 (section 5)\n- H: 27.02.2027 (sections 1–5 plus the ВП unit)\n- M: 31.03.2027 (sections 4–7)\n- F: 05.06.2027 (sections 1 and 4)\n- G: 25.09.2027 (sections 5, 7 and 8)\n\nTARIH dates by block:\n- B: 28.11.2026 (sections 4, 6, 9, 10)\n- E: 27.03.2027 (sections 1–5)\n- C: 31.03.2027 (sections 1, 2, 4–10)\n\nThere is no sheet for DARYN C; the CSV says 'нет — ошибка на сервере BI' and gives only 4 кв. 2026. The 'Сдача' quarters in both CSVs (the repo copies and the copies bundled in the zips) match the sheet dates exactly: DARYN C/E/K Q4 2026, H/M Q1 2027, F Q2 2027, G Q3 2027; TARIH B Q4 2026, C/E Q1 2027. The CSV section numbers also match the sheets.\n\nОчередь wording appears only on the two older landscape templates:\n- K sheets: header 'ÜIA.DARYN K Комфорт lite 3 очередь'; key plan labels 'ÜIA.DARYN B 1 очередь', 'ÜIA.DARYN A 2 очередь', 'ÜIA.DARYN K 3 очередь'.\n- E sheet: header 'ÜIA.BÜRKIT Комфорт + 2 очередь'.\n\nThe portrait sheets (F, G, H, M and all TARIH) carry no очередь wording.\n\nKey plans place:\n- E, F and G along ул. Айтматова / пр. Улы Дала.\n- H to the south, with 'Вид на кластер ÜIA.TARIH'.\n- DARYN M north of TARIH E (the TARIH E plan reads 'Вид на перспективный проект ÜIA.DARYN M').\n\nCrops and montages are in /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_sheets/ (m_00–m_19.png, z_K_key.png, z_M_key.png, z_G_key.png). The script is /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/sheet_crops.py.\n\nWhat is fact and what is estimate: the dates above are BI's printed targets as of 14.10.2026, not confirmed handovers. K's 17.10.2026 is three days after the print date, which fits owner ads saying 'сдача сентябрь/октябрь 2026'. M's 31.03.2027 looks optimistic against imagery showing only a few storeys in October 2026; that judgement is an estimate.",
+   "conflicts": [
+    "Queue numbering: the E sheet (old ÜIA.BÜRKIT template) says '2 очередь' for E, but the K sheet's key plan labels DARYN A as '2 очередь', B as '1 очередь' and K as '3 очередь'. The E label is legacy BÜRKIT numbering and cannot be reconciled with the DARYN A/B/K order.",
+    "korter puts DARYN E and K in Q1 2027. The BI sheets say K 17.10.2026 and E 24.12.2026, and the BI CSV says Q4 2026 for both.",
+    "korter puts DARYN F and G in Q3 2027 and C in Q2 2027. BI sheets say F 05.06.2027 (Q2), G 25.09.2027 (Q3), and the CSV gives C Q4 2026.",
+    "krisha says TARIH queue 1 Q1 2026 and queue 2 Q1 2027. The BI sheets say B 28.11.2026, C 31.03.2027 and E 27.03.2027; no TARIH sheet has any очередь wording.",
+    "DARYN M sheet date 31.03.2027 vs Oct-2026 imagery showing M at only a few storeys: the date is BI's target and is likely to slip (estimate).",
+    "TARIH E (27.03.2027) and TARIH C (31.03.2027) are both Q1 2027 but four days apart. These are separate block dates, not an internal inconsistency."
+   ],
+   "gaps": [
+    "No BI sheet for DARYN C. The CSV marks every C office 'нет — ошибка на сервере BI', so the only BI date is '4 кв. 2026'.",
+    "No BI sheets for DARYN A, B or D, or TARIH A (no commercial units listed), so there are no printed key dates for them.",
+    "Section coverage is limited to sections with offices on sale: K s2, s3; E s5; F s1, s4; G s5, s7, s8; H s1–5 + ВП; M s4–7; TARIH B s4, s6, s9, s10; C s1, s2, s4–10; E s1–5. Other sections are not covered.",
+    "M sheets leave the office number blank. The office numbers come only from filenames and the CSV.",
+    "Sheet dates are BI's printed targets as of 14.10.2026, not confirmed handovers. They give no статус of an act of commissioning (акт ввода).",
+    "Page 2 of each sheet was not reviewed; the dates are only on page 1."
+   ]
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "DARYN K: 'Дата передачи ключей 17.10.2026', 'Дата печати 14.10.2026' (offices 14 and 9); header 'ÜIA.DARYN K / Комфорт lite / 3 очередь'",
+     "verdict": "confirmed",
+     "evidence": "I re-rendered page 1 of K_офис-14 and K_офис-9 (v_KE.png). Both read 'Дата передачи ключей 17.10.2026' and 'Дата печати 14.10.2026', with the header 'ŪIA.DARYN K Комфорт lite 3 очередь'. CSV: K Q4 2026, подъезд 2 (9 эт) and 3 (12 эт)."
+    },
+    {
+     "claim": "K key plan labels B '1 очередь', A '2 очередь', K '3 очередь'; K is south of A; sections 1(12)/2(9)/3(12)/4(9)/5(12); s2 highlighted on office 14",
+     "verdict": "confirmed",
+     "evidence": "key_K.png shows 'ÜIA.DARYN B 1 очередь', 'ÜIA.DARYN A 2 очередь' (by пр. Улы Дала) and 'ÜIA.DARYN K 3 очередь' south of A. Section labels are 1 12эт, 2 9эт (highlighted), 3 12эт, 4 9эт, 5 12эт. The aerial render also labels 'ÜIA.DARYN A 2 очередь'."
+    },
+    {
+     "claim": "DARYN E: 'Дата передачи ключей 24.12.2026', old template headed 'ÜIA.BÜRKIT Комфорт + 2 очередь'; section 5 (9 эт) highlighted; sections 1(17)/2(14)/3(14)/4(17) along Айтматова/Улы Дала",
+     "verdict": "confirmed",
+     "evidence": "v_KE.png reads 'ŪIA.BÜRKIT / Комфорт + / 2 очередь', 'Дата передачи ключей 24.12.2026', 'Дата печати 14.10.2026'. In key_E.png, пр. Улы Дала runs along the top and ул. Айтматова along the left; sections are 2 14эт, 3 14эт, 4 17эт, 1 17эт, and 5 9эт is highlighted at the bottom right. The aerial shows the Улы Дала/Айтматова junction. CSV: E Q4 2026, подъезд 5, 9 эт."
+    },
+    {
+     "claim": "DARYN H: all 7 sheets (6 in the zip plus uploaded office 5) say 27.02.2027",
+     "verdict": "confirmed",
+     "evidence": "v_H.png: offices 11, 12, 14, 2, 5, 7 and the uploaded 6a57e134 copy of office 5 all read 'Дата передачи ключей 27.02.2027' / 'Дата печати 14.10.2026'. The header is 'ŪIA.DARYN H Комфорт lite' with no очередь wording. CSV: H Q1 2027."
+    },
+    {
+     "claim": "H key plan: Перспективная улица north, Аллея Bolashaq west, 'Вид на кластер ÜIA.TARIH' south; sections 1–4 12 эт, 5 9 эт",
+     "verdict": "confirmed",
+     "evidence": "bot_H.png shows 'Перспективная улица' at the top, 'Аллея Bolashaq' on the left, 'Вид на перспективный проект' on the right, 'Вид на кластер ŪIA.TARIH' at the bottom, and sections 1–4 '12 эт' and 5 '9 эт'. The aerial render also carries 'Вид на кластер ÜIA.TARIH'."
+    },
+    {
+     "claim": "DARYN M: all 12 sheets say 31.03.2027; key plan sections 4(9)/5(9)/6(12)/7(14) active, 1(17)/2(14)/3(12) greyed, Улы Дала to the north",
+     "verdict": "confirmed",
+     "evidence": "v_M1.png and v_M2.png: all 12 M sheets read 'Дата передачи ключей 31.03.2027' / 'Дата печати 14.10.2026', header 'ŪIA.DARYN M Комфорт lite'. key_M.png shows 'пр. Улы Дала' at the top and the compass pointing up, with 7 14эт, 6 12эт, 5 9эт and 4 (highlighted) drawn dark and 1, 2, 3 grey. The aerial legend reads '- строится'. CSV: M Q1 2027."
+    },
+    {
+     "claim": "DARYN F: all 4 sheets say 05.06.2027; sections 1(14)/2(17)/3(14)/4(17) along ул. Айтматова",
+     "verdict": "confirmed",
+     "evidence": "v_F.png: offices 1, 2, 8 and 9 read 'Дата передачи ключей 05.06.2027' / 'Дата печати 14.10.2026'. key_F.png shows ул. Айтматова on the west and sections 3 14эт, 4 17эт (highlighted for office 1), 2 17эт and 1 14эт. CSV: F Q2 2027."
+    },
+    {
+     "claim": "DARYN G: all 5 sheets say 25.09.2027; key plan has Айтматова west, Улы Дала north, sections 5(17), 6(17), 7(14), 8(14)",
+     "verdict": "confirmed",
+     "evidence": "v_G.png: offices 10, 11, 12, 13 and 16 read 'Дата передачи ключей 25.09.2027' / 'Дата печати 14.10.2026', header 'ŪIA. DARYN G Бизнес'. The extra uploaded 80b73de1 G office 12 sheet, which the result did not count, gives the same date. bot_G.png shows 'ул. Айтматова', 'пр. Улы Дала' and sections 5, 8 (highlighted), 7 and 6. CSV: G Q3 2027."
+    },
+    {
+     "claim": "DARYN C: no sheet; CSV 'нет — ошибка на сервере BI', Сдача 4 кв. 2026; подъезд 1=17 эт, 2=14, 3=12",
+     "verdict": "confirmed",
+     "evidence": "All 12 C rows in both CSVs (byte-identical copies in the zip and the repo) read '4 кв. 2026' and 'нет — ошибка на сервере BI': 4 rows in под 1 (17 эт), 4 in под 2 (14 эт) and 4 in под 3 (12 эт). One C office is 'Забронировано'."
+    },
+    {
+     "claim": "TARIH B: all 6 sheets say 28.11.2026; ring of sections 1–10, Ч.Айтматова west, Аллея north, s4 and s9 12 эт, rest 9 эт",
+     "verdict": "confirmed",
+     "evidence": "v_TB.png: offices 12, 16, 17, 3, 4 and 5 read 'Дата передачи ключей 28.11.2026' / 'Дата печати 14.10.2026', header 'ŪIA.TARIH B Комфорт +'. bot_TB.png shows 'ул. Ч.Айтматова' on the west, 'Аллея' on the north, 4 and 9 at '12 эт', the rest '9 эт', with 10 highlighted for office 3. CSV: Q4 2026."
+    },
+    {
+     "claim": "TARIH C: all 12 sheets say 31.03.2027; square ring 1–10 all 9 эт, Перспективная улица north and east",
+     "verdict": "confirmed",
+     "evidence": "v_TC1.png and v_TC2.png: all 12 C sheets read 'Дата передачи ключей 31.03.2027' / 'Дата печати 14.10.2026', header 'UIA.TARIH C Бизнес'. bot_TC.png shows 'Перспективная улица' on the top and the right, all sections '9 эт', and section 10 highlighted for office 1. CSV: Q1 2027."
+    },
+    {
+     "claim": "TARIH E: all 10 sheets say 27.03.2027; neighbours DARYN M (north), TARIH C (west), TARIH F (east), Аллея (south)",
+     "verdict": "confirmed",
+     "evidence": "v_TE.png: all 10 E sheets read 'Дата передачи ключей 27.03.2027' / 'Дата печати 14.10.2026'. bot_TE.png labels 'Вид на перспективный проект ŪIA.DARYN M' (top), 'ŪIA.TARIH C' (left), 'ŪIA.TARIH F' (right) and 'Аллея' (bottom), with sections 1–5 all '9 эт'. CSV: Q1 2027."
+    },
+    {
+     "claim": "CSV 'Сдача' quarters match the sheet dates for every block, and the CSV section numbers match the sheets",
+     "verdict": "confirmed",
+     "evidence": "An awk tally of both CSVs gives DARYN C/E/K '4 кв. 2026', H/M '1 кв. 2027', F '2 кв. 2027', G '3 кв. 2027'; TARIH B '4 кв. 2026', C/E '1 кв. 2027'. Each sheet date falls inside its CSV quarter, and the подъезд/этажность values match the highlighted sections."
+    },
+    {
+     "claim": "Total of 59 sheets read (30 DARYN + 28 TARIH + 1 uploaded H)",
+     "verdict": "partially",
+     "evidence": "The count is right for what was listed, but it leaves out a second uploaded sheet, 80b73de1-UIA.DARYN_G_-_G_-_12_1.pdf (G office 12, 25.09.2027, consistent). It also leaves out the 39-page G brochure e822e367-Daryn_G (CorelDRAW, created 30.09.2026), which says 'ОЧЕРЕДЬ G' and 'Разрешение на привлечение денег дольщиков № 70 от 09.12.2025'. Neither changes any date."
+    },
+    {
+     "claim": "M's 31.03.2027 is optimistic against imagery showing only a few storeys in Oct 2026 (labelled as an estimate)",
+     "verdict": "partially",
+     "evidence": "The existing shadow-strip montage handover_imagery/st_C_M_H.png shows only a weak, short shadow for M7 through 13.10.2026, while H_N has a strong shadow from 08.09.2026. This supports 'M low/behind H', but Sentinel-2 shadow strips cannot resolve storey count precisely. The TARIH E plan still calls M a 'перспективный проект'. The claim is correctly marked as an estimate."
+    }
+   ],
+   "corrections": [
+    "The sheet count leaves out the second uploaded sheet /root/.claude/uploads/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/80b73de1-UIA.DARYN_G_-_G_-_12_1.pdf. It is consistent: 'Дата передачи ключей 25.09.2027', 'Дата печати 14.10.2026'.",
+    "Not a date error, but useful context: M, H and K headers read 'Комфорт lite', B reads 'Комфорт +', and F, G, TARIH C and TARIH E read 'Бизнес'. The CSV class for DARYN C is 'Комфорт lite'."
+   ],
+   "missing": [
+    "The G brochure /root/.claude/uploads/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/e822e367-Daryn_G_e6da768099.pdf, last page: 'Разрешение на привлечение денег дольщиков № 70 от 09.12.2025. Застройщик – ТОО «BI Development Astana». Уполномоченная компания – ТОО «Uly Dala Muse».' G's equity sales therefore began in Dec 2025, about 21 months before its 25.09.2027 key date. The brochure also confirms that BI calls the letter blocks 'очередь' ('ОЧЕРЕДЬ G', 'Очередь G').",
+    "The TARIH E key plan still calls DARYN M 'перспективный проект'. That supports reading M as a late block whose 31.03.2027 target is at risk.",
+    "The sheets give no date for DARYN A, B, D, C or TARIH A/F. Nothing on any sheet states an act of commissioning (акт ввода)."
+   ],
+   "overall_reliability": "high",
+   "summary": "I re-checked the sheets result and found no wrong dates, block mappings or numbers.\n\n**Method.** I re-rendered page 1 of every sheet. The PDFs have no text layer, so all dates were read from images. I did this for all 30 DARYN and 28 TARIH sheets in the zips, plus the two uploaded copies (H office 5 and G office 12). I also re-cropped the key plans for K, E, M, H, F, G and TARIH B, C, E, and re-tallied both CSV copies (zip and repo copies are byte-identical).\n\n**Confirmed dates.** Every sheet reads 'Дата печати 14.10.2026'. Within each block, every sheet gives the same 'Дата передачи ключей':\n- DARYN K: 17.10.2026\n- DARYN E: 24.12.2026 (on the old 'ŪIA.BÜRKIT Комфорт + 2 очередь' template)\n- DARYN H: 27.02.2027\n- DARYN M: 31.03.2027\n- DARYN F: 05.06.2027\n- DARYN G: 25.09.2027\n- TARIH B: 28.11.2026\n- TARIH E: 27.03.2027\n- TARIH C: 31.03.2027\n\n**Other confirmed points:**\n- The CSV 'Сдача' quarters match these dates exactly.\n- DARYN C has no sheet: all 12 C rows say '4 кв. 2026' and 'нет — ошибка на сервере BI'.\n- The K key plan's queue labels are as claimed: 'B 1 очередь', 'A 2 очередь', 'K 3 очередь'.\n- The neighbour labels are as claimed: H 'Вид на кластер ŪIA.TARIH' to the south; TARIH E 'Вид на перспективный проект ŪIA.DARYN M' to the north.\n- Section storey counts and highlighted sections all check out.\n\n**What was missed.** These are omissions, not errors:\n- A second uploaded G office 12 sheet (same 25.09.2027 date).\n- A G brochure stating 'Разрешение на привлечение денег дольщиков № 70 от 09.12.2025'.\n\n**Imagery.** The claim that M's date is optimistic is weakly supported by the existing Sentinel-2 shadow strips, and it is correctly labelled as an estimate.\n\n**What the dates are.** They are BI's printed targets as of 14.10.2026, not confirmed handovers.\n\nMy crops and montages are in /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_verify_sheets/ (v_*.png, key_*.png, bot_*.png)."
+  }
+ },
+ {
+  "key": "official",
+  "result": {
+   "rows": [
+    {
+     "complex": "DARYN",
+     "block": "A",
+     "address": "Улы Дала 12 (per owner ads)",
+     "date_stated": "No completion deadline published; permit dated 03.02.2026",
+     "status": "unknown (owner ads say delivered; korter queue data says A1–A6 Q4 2027)",
+     "source": "korter.kz developer note (BI advertising disclosure), fetched live 14.10.2026",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана (saved: /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/off/burkit_live.html)",
+     "source_date": "2026-10-14 (live fetch)",
+     "note": "Verbatim: 'ЖК UIA. DARYN-A Разрешение на привлечение денег дольщиков №5 от 03.02.2026.' No route, developer entity or deadline given. An akimat permit dated Feb 2026 fits a fast modular (ModeX) block that is now finished. It does not fit korter's Q4 2027 for A1–A6, which supports the idea that korter's 'A' is a different or re-lettered phase."
+    },
+    {
+     "complex": "DARYN",
+     "block": "B",
+     "address": "Улы Дала 10 (per owner ads)",
+     "date_stated": "No completion deadline published; БВУ permit/guarantee dated 06.08.2025",
+     "status": "unknown officially (owner ad says 'введен в эксплуатацию')",
+     "source": "korter.kz developer note",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "2026-10-14 (live fetch)",
+     "note": "Verbatim: 'ЖК UIA. DARYN-B Способ привлечения денег дольщиков: участие БВУ, номер разрешения/гарантии 30 от 06.08.2025. Застройщик – ТОО « Dala team». Уполномоченная компания – ТОО «BI Development Astana».' Developer ТОО «Dala team»; authorized company ТОО «BI Development Astana». No commissioning act found online."
+    },
+    {
+     "complex": "DARYN",
+     "block": "C",
+     "date_stated": "No completion deadline published; permit dated 04.03.2026",
+     "status": "under construction (per imagery from other tracks)",
+     "source": "korter.kz developer note",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "2026-10-14 (live fetch)",
+     "note": "Verbatim: 'ЖК UIA. DARYN-С Разрешение на привлечение денег дольщиков №27 от 04.03.2026.' (Cyrillic С.)"
+    },
+    {
+     "complex": "DARYN",
+     "block": "D",
+     "date_stated": "No completion deadline published; БВУ permit/guarantee dated 10.09.2025",
+     "status": "unknown",
+     "source": "korter.kz developer note",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "2026-10-14 (live fetch)",
+     "note": "Verbatim: 'ЖК UIA.DARYN - D Способ привлечения денег дольщиков: участие БВУ, номер разрешения/гарантии 43 от 10.09.2025. Застройщик – ТОО «BI Development Astana». Уполномоченная компания – ТОО «UIY DALA MUSE».'"
+    },
+    {
+     "complex": "DARYN",
+     "block": "E",
+     "date_stated": "No completion deadline published; permit dated 13.11.2025",
+     "status": "unknown",
+     "source": "korter.kz developer note",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "2026-10-14 (live fetch)",
+     "note": "Verbatim: 'ЖК UIA. DARYN-E Разрешение на привлечение денег дольщиков №61 от 13.11.2025.'"
+    },
+    {
+     "complex": "DARYN",
+     "block": "F",
+     "date_stated": "No completion deadline published; permit dated 09.12.2025",
+     "status": "unknown",
+     "source": "korter.kz developer note",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "2026-10-14 (live fetch)",
+     "note": "Verbatim: 'ЖК UIA. DARYN-F Разрешение на привлечение денег дольщиков №69 от 09.12.2025.'"
+    },
+    {
+     "complex": "DARYN",
+     "block": "G",
+     "date_stated": "No completion deadline published; permit dated 09.12.2025",
+     "status": "under construction (other tracks' imagery: sections still rising mid-2026)",
+     "source": "korter.kz developer note",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "2026-10-14 (live fetch)",
+     "note": "Verbatim: 'ЖК UIA. DARYN-G Разрешение на привлечение денег дольщиков №70 от 09.12.2025.' The permit is dated before G's structure was finished, so it cannot be an after-frame (каркас) permit. It is most likely the БВУ route, which says nothing about how far construction has got."
+    },
+    {
+     "complex": "DARYN",
+     "block": "K",
+     "date_stated": "No completion deadline published; permit dated 04.03.2026",
+     "status": "unknown",
+     "source": "korter.kz developer note; krisha.kz complex page and BI Group Север listings",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана ; https://krisha.kz/complex/show/astana/uiadaryn/ ; https://krisha.kz/a/show/1008911649",
+     "source_date": "2026-10-14",
+     "note": "Korter: 'ЖК UIA. DARYN-K Разрешение на привлечение денег дольщиков №29 от 04.03.2026.' Krisha labels the same permit 'Участие БВУ: 29 от 04.03.2026', so the route is bank participation."
+    },
+    {
+     "complex": "DARYN",
+     "block": "M",
+     "date_stated": "No completion deadline published; permit dated 04.03.2026",
+     "status": "under construction (other tracks' imagery: at most a few storeys in Oct 2026)",
+     "source": "korter.kz developer note; krisha.kz complex page",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана ; https://krisha.kz/complex/show/astana/uiadaryn/",
+     "source_date": "2026-10-14",
+     "note": "Korter: 'ЖК UIA. DARYN-M Разрешение на привлечение денег дольщиков №28 от 04.03.2026.' Krisha: 'Участие БВУ: 28 от 04.03.2026.'"
+    },
+    {
+     "complex": "DARYN",
+     "block": "H (inferred)",
+     "date_stated": "No completion deadline published; permit dated 03.07.2026",
+     "status": "unknown",
+     "source": "krisha.kz complex page and BI Group Север new-build listings",
+     "source_url_or_path": "https://krisha.kz/complex/show/astana/uiadaryn/ ; https://krisha.kz/a/show/1008911649 ; https://krisha.kz/a/show/1008911408",
+     "source_date": "2026-10-14 (fetched)",
+     "note": "Krisha: 'Участие БВУ: 74 от 03.07.2026'. Korter's per-block list does not include it, and no source names the block. H is the only BI sales letter without a known permit, and it is the newest permit, so it is probably H. This is an inference, not a fact. A BI Group Север listing for the same set of permits shows 'Год постройки 2027'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "whole complex (6 очередей)",
+     "address": "Улы Дала 14",
+     "date_stated": "'Первая очередь - II квартал 2026 г.' … 'Шестая очередь - III квартал 2027 г.'",
+     "status": "under construction",
+     "source": "krisha.kz complex page",
+     "source_url_or_path": "https://krisha.kz/complex/show/astana/uiadaryn/",
+     "source_date": "2026-10-14 (fetched)",
+     "note": "Krisha's developer field is 'BI Group Север'. The page does not link the queues to block letters. Krisha also shows it does not work with this complex, so its data may be stale."
+    },
+    {
+     "complex": "TARIH",
+     "block": "A",
+     "date_stated": "No completion deadline published; permit dated 19.11.2025",
+     "status": "unknown (standing per imagery)",
+     "source": "korter.kz developer note",
+     "source_url_or_path": "https://korter.kz/жк-uiatarih-астана (saved: /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/off/46c833.html)",
+     "source_date": "2026-10-14 (live fetch)",
+     "note": "Verbatim: 'ЖК Uia.TARIH - A: Разрешение на привлечение денег дольщиков №66 от 19.11.2025.' Krisha labels it 'Участие БВУ: 66 от 19.11.2025'."
+    },
+    {
+     "complex": "TARIH",
+     "block": "B / C / E (unmapped)",
+     "date_stated": "No completion deadline published; permits dated 27.02.2026 (№23) and 19.03.2026 (№34)",
+     "status": "unknown",
+     "source": "krisha.kz complex page",
+     "source_url_or_path": "https://krisha.kz/complex/show/astana/uiatarih/",
+     "source_date": "2026-10-14 (fetched)",
+     "note": "Krisha: 'Участие БВУ: 34 от 19.03.2026', 'Участие БВУ: 23 от 27.02.2026', 'Участие БВУ: 66 от 19.11.2025'. No source says which of B, C or E these two permits cover. There are 4 blocks and only 3 permits, so one block's permit is not shown."
+    },
+    {
+     "complex": "TARIH",
+     "block": "whole complex",
+     "address": "пр. Улы Дала, 5 стр.",
+     "date_stated": "'Срок сдачи: 4 квартал 2026 года'",
+     "status": "under construction (kn.kz: 'строится')",
+     "source": "kn.kz complex page",
+     "source_url_or_path": "https://www.kn.kz/zhilye-kompleksy/astana/uia-tarih",
+     "source_date": "2026-10-14 (cached copy)",
+     "note": "kn.kz gives the legal entities: 'получено разрешение на привлечение денег дольщиков, уполномоченная компания - ТОО «Uly Dala Muse», застройщик - ТОО «BI Development Astana»'. It is one date for the whole complex, with no breakdown by block."
+    },
+    {
+     "complex": "TARIH",
+     "block": "очереди 1–2",
+     "date_stated": "'Первая очередь - I квартал 2026 г.'; 'Вторая очередь - I квартал 2027 г.'",
+     "status": "under construction",
+     "source": "krisha.kz complex page",
+     "source_url_or_path": "https://krisha.kz/complex/show/astana/uiatarih/",
+     "source_date": "2026-10-14 (fetched)",
+     "note": "Developer field: 'BI Group Север'. The first-queue date has already passed and the page gives no handover confirmation."
+    }
+   ],
+   "summary": "No official construction-completion or commissioning date for any DARYN or TARIH queue is publicly available online. The akimat permit texts, which state the deadline per ПСД, are not published, and the registries that hold them are closed to me. Qazreestr (qazreestr.kz) requires an eGov login. The elicense.kz registry search has a captcha, which I did not try to get past. bi.group and bigville.bi.group return a Cloudflare 'Just a moment' 403, which I did not bypass. I found no akimat registry for 2025–2026, no KZHK guarantee entry and no BI press release or commissioning act (акт ввода) for Улы Дала 10/12.\n\nWhat is confirmed is which permit belongs to which block, from BI's own legally required advertising disclosure on korter, read live on 14.10.2026:\n- DARYN A: №5 of 03.02.2026\n- DARYN B: БВУ №30 of 06.08.2025. Застройщик ТОО «Dala team», уполномоченная компания ТОО «BI Development Astana».\n- DARYN C: №27 of 04.03.2026\n- DARYN D: БВУ №43 of 10.09.2025. Застройщик ТОО «BI Development Astana», уполномоченная компания ТОО «UIY DALA MUSE».\n- DARYN E: №61 of 13.11.2025\n- DARYN F: №69 of 09.12.2025\n- DARYN G: №70 of 09.12.2025\n- DARYN K: №29 of 04.03.2026\n- DARYN M: №28 of 04.03.2026\n- Krisha's 'Участие БВУ: 74 от 03.07.2026' is probably DARYN H. That is an inference: H is the only sales letter with no permit, and №74 is the newest.\n- TARIH A: №66 of 19.11.2025. TARIH permits №23 (27.02.2026) and №34 (19.03.2026) cannot be tied to B, C or E.\n- kn.kz names TARIH's застройщик as ТОО «BI Development Astana» and its уполномоченная компания as ТОО «Uly Dala Muse».\n\nKrisha labels these permits 'Участие БВУ' (bank participation). That route does not need a finished frame, so a permit's date says nothing about how far construction has got or when it will finish. G's and M's permits are dated 2025 / early 2026, yet those blocks were still low or rising in 2026.\n\nThe only stated dates, all from aggregators: krisha gives DARYN six queues from Q2 2026 to Q3 2027 and TARIH queue 1 Q1 2026, queue 2 Q1 2027. kn.kz gives TARIH (Улы Дала 5 стр) Q4 2026. A kn.kz/kapster profile of the earlier DARYN phase at Улы Дала 14 (300 apartments, 'Продажи завершены') gives Q1 2027 and lists КЖК among purchase methods. That KZHK mention could mean a guarantee route for that older phase, but this is unverified.",
+   "conflicts": [
+    "DARYN A got its akimat permit (№5) on 03.02.2026, and owner ads say A is delivered. Korter's queue data puts A1–A6 in Q4 2027. Korter's 'A' is therefore probably a different or re-lettered phase, or its data is wrong.",
+    "Krisha's DARYN page lists only permits 74, 29 and 28. Korter lists nine block permits (A–G, K, M) and leaves out 74. The two sites are showing different subsets.",
+    "The permits are labelled 'Участие БВУ' (bank participation, no finished frame needed). G's and M's permits are dated 2025 / early 2026, yet imagery shows those blocks still low or rising in 2026. So permit dates cannot be used to estimate handover.",
+    "Krisha gives TARIH queue 1 as 'I квартал 2026 г.', which has passed with no handover confirmation. kn.kz gives the whole of TARIH (Улы Дала 5 стр) as 'Срок сдачи: 4 квартал 2026 года'. BI office sheets (from the brief) give TARIH B Q4 2026 and C, E Q1 2027.",
+    "kn.kz says DARYN has a 'Гарантия Единого оператора жилищного строительства ФЩ \"КЖК\"' as well as БВУ participation and an akimat permit. Kapster lists КЖК (ФГЖС) as a purchase method for Улы Дала 14. No block-level КЖК guarantee number was found."
+   ],
+   "gaps": [
+    "The deadline written in each permit ('срок завершения строительства согласно ПСД') is not public. It needs an official request to the Astana akimat (Управление архитектуры/градостроительного контроля), or the buyer's ДДУ for the specific block. The ДДУ states the contractual handover date and the penalty terms.",
+    "Qazreestr (qazreestr.kz) needs an eGov login. elicense.kz SimpleSearchLicense has a captcha. Neither was accessed.",
+    "bi.group and bigville.bi.group are behind Cloudflare (403 'Just a moment'), so I could not read BI's own handover dates or progress news.",
+    "No commissioning act (акт ввода) or news of ввод was found for DARYN A/B (Улы Дала 12/10). Searches of akimat, Отбасы банк (hcsbk.kz) notices and news sites returned nothing.",
+    "Which block permit №74 (03.07.2026) covers is unconfirmed (H is an inference). Which of TARIH B, C or E permits №23 and №34 cover is unknown, and one TARIH block's permit is missing from all listings.",
+    "Statsnet and similar sites return no BIN or registration data for ТОО «Dala team» or ТОО «UIY DALA MUSE»/«Uly Dala Muse»."
+   ]
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "Korter developer note gives DARYN permits A №5 03.02.2026; B БВУ №30 06.08.2025 (Dala team / BI Development Astana); C №27 04.03.2026; D БВУ №43 10.09.2025 (BI Development Astana / UIY DALA MUSE); E №61 13.11.2025; F №69 09.12.2025; G №70 09.12.2025; K №29 04.03.2026; M №28 04.03.2026",
+     "verdict": "confirmed",
+     "evidence": "These are word-for-word in the 'note' JSON field of off/burkit_live.html, e.g. 'ЖК UIA. DARYN-K Разрешение на привлечение денег дольщиков №29 от 04.03.2026.' The BI brochure upload e822e367-Daryn_G_e6da768099.pdf (p.39) separately confirms G: 'Разрешение на привлечение денег дольщиков № 70 от 09.12.2025. Застройщик – ТОО «BI Development Astana». Уполномоченная компания – ТОО «Uly Dala Muse».' One minor conflict: metry.kz (agg/dl/e4d6cc0b.html) dates permits 27, 28 and 29 to '03.02.2026' instead of 04.03.2026."
+    },
+    {
+     "claim": "No official handover date for any DARYN or TARIH queue is available",
+     "verdict": "contradicted",
+     "evidence": "I re-rendered BI's own office sheets (printed 'Дата печати 14.10.2026'). Each has a 'Дата передачи ключей' (key handover date) field: DARYN E 24.12.2026, K 17.10.2026, H 27.02.2027, M 31.03.2027, F 05.06.2027, G 25.09.2027. Crops are in geo/handover_verify_official/ (H5_p1.png, G12_p1.png, dates_0/1/3/4.png). These are the developer's own dated statements of handover, and the result leaves them out entirely. The claim only holds if narrowed to 'no public online permit deadline per ПСД'."
+    },
+    {
+     "claim": "DARYN A = Улы Дала 12; the Feb 2026 permit 'fits a fast modular (ModeX) block that is now finished'",
+     "verdict": "contradicted",
+     "evidence": "The house data in korter's live page JSON (burkit_live.html) for queue 'ŪIA. DARYN A' lists A1–A6 as startYear 2025 Q4, endYear 2027 Q4, constructionStatus 'construction', 12–17 floors. That matches a permit issued in Feb 2026. Nothing in any source mentions ModeX or modular construction. That part is invented. The 'A = Улы Дала 12, delivered' owner ads most likely refer to the older ÜIA.BÜRKIT queues: korter still lists '1 очередь'…'4 очередь' with no houses attached. They do not refer to the current BI sales letter A."
+    },
+    {
+     "claim": "DARYN B is at Улы Дала 10 (per owner ads) and has been commissioned",
+     "verdict": "unverifiable",
+     "evidence": "No BI or korter source ties letter B to Улы Дала 10. Korter has no B queue in its houses list. The address mapping rests only on owner ads, and owner ads may describe the old BÜRKIT phase, as with A."
+    },
+    {
+     "claim": "Krisha DARYN page: 6 queues, 'Первая очередь - II квартал 2026 г.' … 'Шестая очередь - III квартал 2027 г.'; developer 'BI Group Север'; permits 74/29/28",
+     "verdict": "confirmed",
+     "evidence": "Live re-fetch on 14.10.2026 returned: I Q2 2026, II Q3 2026, III Q4 2026, IV Q1 2027, V Q2 2027, VI Q3 2027; 'Участие БВУ: 74 от 03.07.2026', '29 от 04.03.2026', '28 от 04.03.2026'; address 'ул. Улы Дала, 14'."
+    },
+    {
+     "claim": "Krisha shows it does not work with this complex",
+     "verdict": "contradicted",
+     "evidence": "The live krisha page has no such notice. The only 'не сотрудничает' text in the saved files is Kapster's own alert: 'Данный жилой комплекс не сотрудничает с Kapster'. The result appears to have mixed up Kapster's notice with krisha."
+    },
+    {
+     "claim": "Permit №74 (03.07.2026) is probably DARYN H",
+     "verdict": "partially",
+     "evidence": "This is a reasonable inference and nothing contradicts it. The H sheet (H5_p1.png) gives 'Дата передачи ключей 27.02.2027' and shows no permit number. H has no queue on korter. Still unproven."
+    },
+    {
+     "claim": "A BI Group Север listing for the same permits shows 'Год постройки 2027'",
+     "verdict": "partially",
+     "evidence": "Live fetch of /kz/a/show/1008911408 shows 'Салынған жылы: 2027'. But /kz/a/show/1008911649, which the result also cites, shows '2026'. Both listings carry the same complex-level permits (74/29/28), so the year cannot be tied to one block."
+    },
+    {
+     "claim": "K and M permits are the БВУ route ('Участие БВУ')",
+     "verdict": "partially",
+     "evidence": "Krisha and metry label every permit 'Участие БВУ' (Kazakh page: 'ЕДБ қатысуы'). BI's own disclosure on korter says 'участие БВУ, номер разрешения/гарантии' only for B and D. For A, C, E, F, G, K and M it says just 'Разрешение на привлечение денег дольщиков'. The aggregator label may be a default, so the route for K and M is not confirmed."
+    },
+    {
+     "claim": "TARIH A permit №66 of 19.11.2025; krisha TARIH lists only 34/23/66, so one block's permit is missing from all listings",
+     "verdict": "partially",
+     "evidence": "Korter note 46c833.html: 'ЖК Uia.TARIH - A: Разрешение на привлечение денег дольщиков №66 от 19.11.2025.' Confirmed, and the live krisha fetch shows 34 (19.03.2026), 23 (27.02.2026) and 66. But metry.kz (agg/dl/0f98e011.html) lists a fourth permit: 'Участие БВУ: 6 от 03.02.2025'. So the claim that it is missing from all listings is wrong."
+    },
+    {
+     "claim": "Krisha TARIH: 'Первая очередь - I квартал 2026 г.'; 'Вторая очередь - I квартал 2027 г.'",
+     "verdict": "confirmed",
+     "evidence": "Confirmed by live fetch. The krisha address is 'ул. Е 909, 29', not Улы Дала 5."
+    },
+    {
+     "claim": "kn.kz TARIH: 'Срок сдачи: 4 квартал 2026 года', 'пр. Улы Дала, 5 стр', Uly Dala Muse / BI Development Astana",
+     "verdict": "confirmed",
+     "evidence": "Saved kn/uia-tarih.html: 'Адрес: пр. Улы Дала, 5 стр. … Статус: строится Срок сдачи: 4 квартал 2026 года'. Also: 'уполномоченная компания - ТОО «Uly Dala Muse», застройщик - ТОО «BI Development Astana»'."
+    },
+    {
+     "claim": "kn.kz DARYN mentions a КЖК guarantee as well as БВУ and an akimat permit",
+     "verdict": "confirmed",
+     "evidence": "kn/uia-daryn.html: 'Гарантия Единого оператора жилищного строительства ФЩ \"КЖК\" Участие банка второго уровня Разрешение местного исполнительного органа'. The same page also says 'Срок сдачи: 2–3 квартал 2026 года'. Per-address dates: Улы Дала 14 стр, 10 стр and 12 are Q3 2026; 10а and 4 are Q4 2026. The result leaves out this overall date."
+    },
+    {
+     "claim": "Korter per-queue completion dates (implicitly treated as unreliable)",
+     "verdict": "confirmed",
+     "evidence": "The korter JSON gives these end quarters. DARYN: A Q4 2027, D Q3 2027, F Q3 2027, G Q3 2027, С Q2 2027, E Q1 2027, K Q1 2027, K-2 Q1 2027. TARIH: A Q4 2026, В Q4 2026, Е Q1 2027, C Q1 2027. All are marked 'construction'. These are developer-fed dates the result could have shown per block."
+    }
+   ],
+   "corrections": [
+    "The result's headline says no official handover date exists, which misses the answer to the user's question. BI's own office sheets printed 14.10.2026 give 'Дата передачи ключей' (key handover date) per block: DARYN K 17.10.2026, E 24.12.2026, H 27.02.2027, M 31.03.2027, F 05.06.2027, G 25.09.2027. Each should appear as a block row, labelled as the developer's stated date. It is not the permit deadline per ПСД.",
+    "DARYN A: remove the 'Улы Дала 12' address and the 'ModeX / now finished' reasoning. Korter's own data puts A1–A6 at start Q4 2025, end Q4 2027, under construction, 12–17 floors. The 'A delivered' owner ads most likely describe the old ÜIA.BÜRKIT queues, not the current BI sales block A.",
+    "Remove the statement that krisha shows it does not work with this complex. That notice is Kapster's ('не сотрудничает с Kapster'), not krisha's.",
+    "TARIH: a fourth permit is listed on metry.kz ('Участие БВУ: 6 от 03.02.2025'), so the gap 'one block's permit is missing from all listings' is wrong.",
+    "Listing 1008911649 shows built year 2026, not 2027. Only 1008911408 shows 2027.",
+    "Calling the permits 'Участие БВУ' is aggregator labelling. BI's korter disclosure calls only B and D the БВУ route.",
+    "Note the permit date conflict: metry.kz dates DARYN 27/28/29 to 03.02.2026, while korter and krisha say 04.03.2026.",
+    "Krisha's TARIH address is 'ул. Е 909, 29'. Улы Дала 5 стр comes from kn.kz."
+   ],
+   "missing": [
+    "BI sheet handover dates for each block (above) were not tied into the result rows. Nor was the queue labelling printed on the sheets: K = 'ÜIA.DARYN K Комфорт lite 3 очередь'; the E sheet is titled 'ÜIA.BÜRKIT Комфорт + 2 очередь'. This shows BI still uses the BÜRKIT name and queue numbers for part of DARYN, which helps map krisha's queue numbers to letters.",
+    "The K sheet date of 17.10.2026 is only 3 days after the print date. Korter says Q1 2027, and a 2GIS review says K's dates were moved 3 times. The result does not flag that K's stated date is very likely to slip.",
+    "Korter's per-block end quarters, as developer-fed data, for DARYN A/C/D/E/F/G/K/K-2 and TARIH A/В/C/Е.",
+    "kn.kz's overall DARYN 'Срок сдачи: 2–3 квартал 2026 года' and its per-address dates (Улы Дала 10/12/14 Q3 2026; 10а and 4 Q4 2026).",
+    "No BI sheet was found for DARYN C, D, A or B, or for any TARIH block. The brief's 'BI CSV quarters' (C Q4 2026; TARIH B Q4 2026, C/E Q1 2027) were not re-checked by the result.",
+    "There is no realistic-date estimate. The result gives no slip analysis against stated dates using imagery (e.g. M a few storeys in Oct 2026 vs keys 31.03.2027 is implausible)."
+   ],
+   "overall_reliability": "low",
+   "summary": "The permit numbers and dates in the result are accurate. They match BI's disclosure on korter word for word, and the G brochure confirms G's permit. But the result does not answer the user's question, when each block is handed over, and it gets several facts wrong.\n\nFirst, it says no official handover date exists, while BI's own office sheets printed 14.10.2026 state 'Дата передачи ключей' (key handover date) for each block. I re-rendered them and confirmed: K 17.10.2026, E 24.12.2026, H 27.02.2027, M 31.03.2027, F 05.06.2027, G 25.09.2027.\n\nSecond, its DARYN A row (Улы Дала 12, 'fast modular block now finished') is contradicted by korter's own data: A1–A6 started Q4 2025, finish Q4 2027, under construction, 12–17 floors. The ModeX idea appears in no source.\n\nThird, smaller errors:\n- The 'krisha does not work with this complex' remark is actually Kapster's notice.\n- metry.kz lists a fourth TARIH permit (6 of 03.02.2025), so it is not missing from all listings.\n- One of the two cited listings shows built year 2026, not 2027.\n- The 'Участие БВУ' route label comes from aggregators. BI's disclosure applies it only to B and D.\n\nConfirmed: krisha's DARYN six queues (Q2 2026 to Q3 2027), krisha's TARIH queues (Q1 2026 / Q1 2027), kn.kz's TARIH 'Срок сдачи: 4 квартал 2026 года', and the legal entities.\n\nVerification crops are in /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_verify_official/."
+  }
+ },
+ {
+  "key": "aggregators",
+  "result": {
+   "summary": "How each aggregator dates each queue as of 14.10.2026, and how far the dates have slipped. Pages and ads were read today; korter's own timestamp is 14.10.2026 for DARYN and 12.10.2026 for TARIH. Sources are korter (window.INITIAL_STATE), krisha (complex pages and about 45 ads, read through the /kz/ mirror), kn.kz (complex pages and all 177 ad cards: 136 DARYN, 41 TARIH), metry, kapster and 2GIS. homsters.kz and bi.group returned a Cloudflare challenge; I did not try to get around it.\n\nDARYN. The agency and ad consensus below is my estimate. Each \"official\" date is one I did not verify; it comes from the BI office sheet and CSV in the task context.\n- A: delivered. Ads planned keys for Q1 2026, then June 2026, then 12.07.2026. Many ads now say \"ключи на руках\" or \"Дом сдан\". The Улы Дала 12 address is A.\n- B: delivered or commissioned. Ads say \"дом введен в эксплуатацию\" and \"ДОКУМЕНТЫ НА РУКАХ\".\n- D: handover is happening now. Ads moved from July 2026 to September and then to 10.10.2026, with \"КЛЮЧИ ЧЕРЕЗ МЕСЯЦ\". The Улы Дала 4 address is D. D is missing from the BI sheet.\n- K: keys due mid-October 2026. Ads moved from June–July to August, then September, then \"Выдача ключей — 15 октября\". A 2GIS review says the dates moved 3 times. This fits the BI sheet's 17.10.2026.\n- E: ads said September, then October, and now mostly \"декабрь 2026\". This fits BI's 24.12.2026.\n- C: ads say November or December 2026, and one says \"1 квартал 27\". BI says Q4 2026.\n- H: ads consistently say February 2027 (BI: 27.02.2027).\n- M: ads consistently say March 2027 (BI: 31.03.2027).\n- F: ads mostly say June 2027, and one says September 2027 (BI: 05.06.2027).\n- G: one ad says Q3 2027 (BI: 25.09.2027).\n\nHow each aggregator compares:\n- korter is the most conservative and partly wrong. Every section shows a start date of 2025 Q4, which looks like a placeholder. It dates A at Q4 2027 although A is delivered, and D at Q3 2027 although D keys are being handed over now. E and K are Q1 2027, C is Q2 2027, and F and G are Q3 2027. It has no B, H or M queues.\n- metry gives per-block quarters that match the BI CSV for C, E, H, M, F and G. Its A, B, K and D quarters (Q2–Q3 2026) are ones that have already passed.\n- krisha's complex page lists only 6 queues, from Q2 2026 to Q3 2027, without letters.\n- kn.kz dates by address: Улы Дала 12, 10 стр and 14 стр are Q3 2026, and 10а and 4 are Q4 2026. Its text still says \"2–3 квартал 2026\".\n\nTARIH:\n- A and B: ads moved from September 2026 or Q3 2026 to November 2026. Exact dates in ads are 21.11, 27.11 and 28.11.2026. One B ad says keys on 21 October with documents on 21 November. korter and the BI CSV say Q4 2026.\n- C: \"Сдача в марте 2027 года\" in two ads.\n- E: \"Ключи уже в марте!\" in one ad. korter and the BI CSV say Q1 2027.\n- krisha's TARIH page is out of date: \"Первая очередь - I квартал 2026 г.\" and \"Вторая очередь - I квартал 2027 г.\". kn.kz says Q4 2026.\n\nMapping notes:\n- korter letters match BI letters. Its A1–A6 sections (12–17 floors) are BI A, and its own permit note for \"DARYN-A\" is №5 от 03.02.2026.\n- korter K-2 has 2 sections of 12 floors. A krisha ad at Улы Дала 10 on floor 11/12 says \"всего 2 подъезда\" and \"Выдача ключей — 15 октября\". That makes K-2 probably part of BI's K, not H or M; this is an inference.\n- kn.kz says \"Блоки A, B и K строятся по модульной технологии ModeX\". metry calls A, B, C, M, K and H \"Комфорт Lite\", D and E \"Комфорт+\", and F and G \"Бизнес\".\n\nFiles (local, temporary): /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/agg/ holds dl/daryn.html, dl/daryn.json, dl/tarih.html and dl/tarih.json (korter); dl/3ef0f2e0.html and dl/f04c20e6.html (kn.kz complex pages); dl/e4d6cc0b.html and dl/0f98e011.html (metry); dl/60519476.html (kapster); kn/cards/*.html and kn/full.txt (kn.kz ad cards).",
+   "rows": [
+    {
+     "complex": "DARYN",
+     "block": "A",
+     "date_stated": "Подъезд A1–A6 – сдача в 4 кв. 2027 (start 2025 Q4)",
+     "status": "under construction (per korter)",
+     "source": "korter.kz INITIAL_STATE",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана ; local dl/daryn.html, dl/daryn.json",
+     "source_date": "lastUpdateTime 14.10.2026",
+     "note": "Queue 'ŪIA. DARYN A', 6 sections of 12/14/17/17/14/17 floors, still listed with prices. Contradicted by many 'ключи на руках' ads, so korter's date for A is likely stale or a placeholder. korter note: 'UIA. DARYN-A Разрешение на привлечение денег дольщиков №5 от 03.02.2026'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "A",
+     "date_stated": "A блок (Комфорт Lite) - 2 кв 2026 г",
+     "status": "строится (page field)",
+     "source": "metry.kz",
+     "source_url_or_path": "https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/ ; local dl/e4d6cc0b.html",
+     "source_date": "fetched 14.10.2026",
+     "note": "Page-level fields: 'Год сдачи 2026', 'Квартал сдачи дома II'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "A (inferred = Первая очередь)",
+     "date_stated": "Первая очередь - II квартал 2026 г.",
+     "status": "Строящийся",
+     "source": "krisha.kz complex page",
+     "source_url_or_path": "https://krisha.kz/complex/show/astana/uiadaryn/",
+     "source_date": "'проверено 1 сентября'",
+     "note": "The page gives queue numbers, not letters. Mapping queue 1 to A is my inference from metry's order."
+    },
+    {
+     "complex": "DARYN",
+     "block": "A (address Улы Дала 12)",
+     "date_stated": "пр. Улы Дала, 12 — Срок сдачи: 3 квартал 2026",
+     "status": "строится",
+     "source": "kn.kz complex page",
+     "source_url_or_path": "https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn ; local dl/3ef0f2e0.html",
+     "source_date": "'Актуально на 9 октября 2026' (price block)",
+     "note": "Many ads place block A at Улы Дала 12. kn.kz still says 'строится'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "A",
+     "date_stated": "'Срок сдачи: 12.07.2026 г.'",
+     "status": "date passed; ad archived",
+     "source": "krisha ad 1013065423 ('ЖК UIA.DARYN A — комфорт Lite', ModeX)",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1013065423",
+     "source_date": "archived, no posting date",
+     "note": "Ad 1013159652 (Улы Дала 14, 13/17) title: 'КЛЮЧИ ОЧЕНЬ СКОРО 12.07.2026'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "A (likely; 14 стр / Улы Дала 12, block not named)",
+     "date_stated": "20.12.2025: 'Сдача ключей планируется в первом квартале 2026 года' → 25.02.2026: 'Ключи и документы будут готовы в июне 2026 года' → 17.03.2026: 'Ключи будут в июне 2026 года' → 08.04.2026 (Улы Дала 12): 'дом построен, идут отделочные работы, ключи в июне'",
+     "status": "slip history",
+     "source": "kn.kz ad cards 3598117, 3623761, 3617064, 3641356",
+     "source_url_or_path": "https://www.kn.kz/card/3598117 ; /card/3623761 ; /card/3617064 ; /card/3641356 ; local kn/cards/",
+     "source_date": "published 20.12.2025 – 08.04.2026",
+     "note": "Block not named except by address. A was the only block due in H1 2026. Ad 3600526 (republished 08.10.2026) still says 'Ключи в первом квартале 2026 г.' (stale text)."
+    },
+    {
+     "complex": "DARYN",
+     "block": "A",
+     "date_stated": "'Дом сдан, ключи на руках.' / 'Сдан, ключи на руках' / 'Дом готов, ключи на руках' / 'Ключи на руках, документы в ноябре' / 'Ключи на руках, документы в сентябре'",
+     "status": "delivered (keys handed)",
+     "source": "krisha ads 1015826371, 1016431792, 1015566194, 1011698065, 1011695823, 1009407373, 1016103429, 1016191647, 1013368538 (all name A and/or Улы Дала 12)",
+     "source_url_or_path": "https://krisha.kz/prodazha/kvartiry/astana/?_txt_=DARYN (pages 2–8 snippets)",
+     "source_date": "live 13–14.10.2026",
+     "note": "kn.kz 3712168 (Улы Дала 12, published 15.09.2026): 'Ключи на руках.' kn.kz 3642765 (26.06.2026): 'Ключи и документы наруках'. On 2GIS many residents ask to join the 'Блок А' chat."
+    },
+    {
+     "complex": "DARYN",
+     "block": "B",
+     "date_stated": "B, K блоки (Комфорт Lite) - 3 кв 2026 г",
+     "status": "(metry)",
+     "source": "metry.kz",
+     "source_url_or_path": "https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/",
+     "source_date": "fetched 14.10.2026",
+     "note": "korter has no B queue. korter note: 'UIA. DARYN-B … разрешения/гарантии 30 от 06.08.2025'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "B",
+     "date_stated": "'дом введен в эксплуатацию, документы на руках'",
+     "status": "delivered / commissioned",
+     "source": "krisha owner ad 1013656806 ('UIA Daryn, Block B', Улы Дала 10)",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1013656806",
+     "source_date": "archived",
+     "note": "Ad 1016112084 'ЖК UIA DARYN B': 'ДОКУМЕНТЫ НА РУКАХ', 'квартира полностью готова к заселению', Салынған жылы 2025. kn.kz 3614170 (Улы Дала 10 стр, published 13.04.2026): 'Дом сдан, ключи на руках, проходит в ипотеку.' That ad names no block; 10 стр is shared with K. kn.kz complex page still shows 'пр. Улы Дала, 10 стр — 3 квартал 2026, строится'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "C",
+     "date_stated": "Подъезд С1, С2, С3 – сдача в 2 кв. 2027",
+     "status": "under construction",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "14.10.2026",
+     "note": "Section floors 17/14/12. The queue name uses Cyrillic 'С'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "C",
+     "date_stated": "C блок (Комфорт Lite) - 4 кв 2026 г",
+     "status": "(metry)",
+     "source": "metry.kz",
+     "source_url_or_path": "https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/",
+     "source_date": "fetched 14.10.2026",
+     "note": ""
+    },
+    {
+     "complex": "DARYN",
+     "block": "C",
+     "date_stated": "'Ключи в декабре' (title); 'выдача ключей декабрь 2026, ремонт уже будет на момент выдачи ключей'",
+     "status": "keys expected Dec 2026",
+     "source": "krisha ad 1011127354 ('ЖК UIA DARYN C')",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1011127354",
+     "source_date": "live Oct 2026",
+     "note": "Ad 1016435135 'ЖК Uia Daryn C' (agent, Freedom Real Estate): 'Срок сдачи ноябрь 2026г'. Ad 1015384574 (Блок C, M): 'Сдача уже скоро 1 квартал 27 года'. The task context also cites an owner ad with 'передача ключей 26.12.2026' (not re-checked)."
+    },
+    {
+     "complex": "DARYN",
+     "block": "D",
+     "date_stated": "Подъезд D1–D5 – сдача в 3 кв. 2027 (start 2025 Q3)",
+     "status": "under construction (per korter)",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "14.10.2026",
+     "note": "Contradicted by ads saying D keys are due Sept–Oct 2026, so likely wrong. korter note: 'UIA.DARYN - D … номер разрешения/гарантии 43 от 10.09.2025'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "D",
+     "date_stated": "D блок (Комфорт+) - 3 кв 2026 г",
+     "status": "(metry)",
+     "source": "metry.kz",
+     "source_url_or_path": "https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/",
+     "source_date": "fetched 14.10.2026",
+     "note": ""
+    },
+    {
+     "complex": "DARYN",
+     "block": "D (address Улы Дала 4)",
+     "date_stated": "пр. Улы Дала, 4 — Срок сдачи: 4 квартал 2026",
+     "status": "строится",
+     "source": "kn.kz complex page",
+     "source_url_or_path": "https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn",
+     "source_date": "Oct 2026",
+     "note": "Улы Дала 4 = D per ads 1012531442, 3692626, 3703202 and 1013764801."
+    },
+    {
+     "complex": "DARYN",
+     "block": "D",
+     "date_stated": "09.03.2026: 'Сдача дома запланирована на июль 2026 года' → 18.06.2026: 'сдача объекта в сентябре 2026 года' → 31.07.2026: 'сдача в сентябре' → 24.08.2026: 'Ключи — сентябрь/октябрь 2026 года'",
+     "status": "slip history",
+     "source": "kn.kz ad cards 3628521 (блок D), 3673701 (Улы Дала 4), 3692626 (Daryn-D), 3703202 (ŪIA.DARYN D)",
+     "source_url_or_path": "https://www.kn.kz/card/3628521 ; /card/3673701 ; /card/3692626 ; /card/3703202",
+     "source_date": "published 09.03–24.08.2026",
+     "note": "About 3 months of slippage."
+    },
+    {
+     "complex": "DARYN",
+     "block": "D",
+     "date_stated": "'Дата передачи ключей: 10.10.2026'; title now '‼️КЛЮЧИ В октября'. The search-engine index still shows the older title '‼️КЛЮЧИ В ИЮЛЕ'.",
+     "status": "handover in progress / imminent",
+     "source": "krisha agency ad 1012531442 ('UIA.DARYN D', Улы Дала 4, Центр недвижимости Dom)",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1012531442",
+     "source_date": "viewed since 13.10.2026",
+     "note": "The title edit from July to October records a slip. An earlier search summary also cited a D ad with 'дата передачи ключей: 18.07.2026' (not opened). Ad 1016295691 'UIA DARYN-D': 'КЛЮЧИ - октябрь 2026'. Ad 1013912562 'блок D': 'КЛЮЧИ ЧЕРЕЗ МЕСЯЦ'. Ad 1012596756: 'сентябрь 2026'. The task context mentions a D ad with 'ключи ноябрь 2026' (not re-checked)."
+    },
+    {
+     "complex": "DARYN",
+     "block": "E",
+     "date_stated": "Подъезд E1–E5 – сдача в 1 кв. 2027",
+     "status": "under construction",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "14.10.2026",
+     "note": "korter note: 'UIA. DARYN-E Разрешение … №61 от 13.11.2025'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "E",
+     "date_stated": "E блок (Комфорт+) - 4 кв 2026 г",
+     "status": "(metry)",
+     "source": "metry.kz",
+     "source_url_or_path": "https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/",
+     "source_date": "fetched 14.10.2026",
+     "note": ""
+    },
+    {
+     "complex": "DARYN",
+     "block": "E (address Улы Дала 10а)",
+     "date_stated": "пр. Улы Дала, 10а — Срок сдачи: 4 квартал 2026",
+     "status": "строится",
+     "source": "kn.kz complex page",
+     "source_url_or_path": "https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn",
+     "source_date": "Oct 2026",
+     "note": "10а = E per kn.kz 3710680 and krisha 1015553959."
+    },
+    {
+     "complex": "DARYN",
+     "block": "E",
+     "date_stated": "09.09.2026: 'Сдача ключей сентябрь 2026 года' → 11.09.2026: 'Сдача будет в октябре' → owner ads now: 'Срок сдачи в декабре 2026 года'",
+     "status": "slip history; now Dec 2026",
+     "source": "kn.kz 3709814 ('Daryn E'), kn.kz 3710680 ('UIA DARYN E'), krisha 1009815808 ('Срок сдачи октябрь 2026 год'), krisha 1016527526, 1016459556, 1009784658, 1015987109 (December 2026)",
+     "source_url_or_path": "https://www.kn.kz/card/3709814 ; https://www.kn.kz/card/3710680 ; https://krisha.kz/kz/a/show/1016527526 ; https://krisha.kz/kz/a/show/1009815808",
+     "source_date": "Sept–Oct 2026",
+     "note": "krisha 1014971939 'UIA DARYN E': '(ключи 4 квартал)'. 1013932993: 'сдача в октябре'. Owner ads still give October next to December, so the older text has not been updated everywhere."
+    },
+    {
+     "complex": "DARYN",
+     "block": "F",
+     "date_stated": "Подъезд F1–F4 – сдача в 3 кв. 2027",
+     "status": "under construction",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "14.10.2026",
+     "note": "korter note: 'DARYN-F Разрешение №69 от 09.12.2025'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "F",
+     "date_stated": "F блок (Бизнес) - 2 кв 2027 г",
+     "status": "(metry)",
+     "source": "metry.kz",
+     "source_url_or_path": "https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/",
+     "source_date": "fetched 14.10.2026",
+     "note": ""
+    },
+    {
+     "complex": "DARYN",
+     "block": "F",
+     "date_stated": "'Срок сдачи — июнь 2027 года.'",
+     "status": "under construction",
+     "source": "kn.kz ad 3706241 ('блок F')",
+     "source_url_or_path": "https://www.kn.kz/card/3706241",
+     "source_date": "published 06.10.2026",
+     "note": "krisha 1016338005 'блок F': 'сдача в июне 2027'. krisha 1011427480 'UIA DARYN F бизнес блок': 'Сдача июнь 2027 год'. One outlier, krisha 1012640459 (resale by assignment, archived): 'Срок сдачи: сентябрь 2027 года'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "G",
+     "date_stated": "Подъезд G5–G8 – сдача в 3 кв. 2027",
+     "status": "under construction",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "14.10.2026",
+     "note": "korter note: 'DARYN-G Разрешение №70 от 09.12.2025'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "G",
+     "date_stated": "G блок (Бизнес) - 3 кв 2027 г",
+     "status": "(metry)",
+     "source": "metry.kz",
+     "source_url_or_path": "https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/",
+     "source_date": "fetched 14.10.2026",
+     "note": ""
+    },
+    {
+     "complex": "DARYN",
+     "block": "G",
+     "date_stated": "'Срок сдачи — III квартал 2027 года.'",
+     "status": "under construction",
+     "source": "krisha ad 1015439882 ('ЖК UIA.DARYN, блок G')",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1015439882",
+     "source_date": "live Oct 2026",
+     "note": "Other G ads (1015987099, kn.kz 3714466) give no date."
+    },
+    {
+     "complex": "DARYN",
+     "block": "H",
+     "date_stated": "'Ключи в феврале 2027г.'",
+     "status": "under construction",
+     "source": "krisha agent ad 1015669231 ('Очередь Daryn-H')",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1015669231",
+     "source_date": "viewed since 14.10.2026",
+     "note": "Agent ad 1015777563 'блок H': 'Передача ключей февраль 2027 года.' Ad 1008449391 (H): 'Сдача 02.2027 года.' Ad 1015669651 (H): 'Ключи в феврале 2027г.' metry: 'H, M блоки (Комфорт Lite) - 1 кв 2027 г'. korter has no H queue."
+    },
+    {
+     "complex": "DARYN",
+     "block": "M",
+     "date_stated": "'Срок сдачи 2027 году в марте'",
+     "status": "under construction",
+     "source": "krisha owner ad 1015960469 ('ЖК UIA.DARYN-M')",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1015960469",
+     "source_date": "viewed since 13.10.2026",
+     "note": "Owner ad 1014405371: 'Daryn M Ключи март 2027'. Agent ad 1016368887 'ЖК Uia Daryn M': 'Срок сдачи март 2027г'. Ad 1015384574 (Блок М; 'Блок C, M'): '1 квартал 27 года'. metry: Q1 2027. korter has no M queue. Permit per korter: '№28 от 04.03.2026'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "K",
+     "date_stated": "Подъезд K1–K5, K2-1, K2-2 – сдача в 1 кв. 2027",
+     "status": "under construction",
+     "source": "korter.kz (queues 'ŪIA. DARYN K' and 'ŪIA. DARYN K-2')",
+     "source_url_or_path": "https://korter.kz/uia-burkit-астана",
+     "source_date": "14.10.2026",
+     "note": "K1–K5 have 12/9/12/9/12 floors; K-2 has 2 sections of 12 floors. korter note: 'DARYN-K Разрешение №29 от 04.03.2026'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "K",
+     "date_stated": "B, K блоки (Комфорт Lite) - 3 кв 2026 г",
+     "status": "(metry)",
+     "source": "metry.kz",
+     "source_url_or_path": "https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/",
+     "source_date": "fetched 14.10.2026",
+     "note": ""
+    },
+    {
+     "complex": "DARYN",
+     "block": "K",
+     "date_stated": "27.03.2026: 'Выдача ключей: июнь–июль 2026 (через 2–3 месяца)' → 'в август 2026 г уже получаем КЛЮЧИ' → 'Срок сдачи сентябрь 2026 г.' → 'Выдача ключей — 15 октября!' (+ 'документы в ноябре')",
+     "status": "slip history; keys due mid-Oct 2026",
+     "source": "kn.kz 3636063 ('UIA Daryn K'); krisha 1013956243 ('блок К'); krisha 1013600684 ('очередь К'); krisha 1016139243 (Улы Дала 10, 11/12, 'всего 2 подъезда', block not named)",
+     "source_url_or_path": "https://www.kn.kz/card/3636063 ; https://krisha.kz/kz/a/show/1013956243 ; https://krisha.kz/a/show/1013600684 ; https://krisha.kz/kz/a/show/1016139243",
+     "source_date": "27.03.2026 – Oct 2026",
+     "note": "Ad 1016139243 matches korter's K-2 (2 sections × 12 floors); that is my inference. Ad 1016486448 'блок К' has the title 'С КЛЮЧАМИ', which is ambiguous. Ads 1015533728 and 1015925132 (K) say 'Никто не жил' / 'можно заехать сразу' with no date."
+    },
+    {
+     "complex": "DARYN",
+     "block": "K",
+     "date_stated": "'Uia daryn блок К уже 3 раз переносят сроки. Работа не двигается! Никому не советую'",
+     "status": "complaint of 3 slips",
+     "source": "2GIS review by 'R A'",
+     "source_url_or_path": "https://2gis.kz/astana/firm/70000001098474893/tab/reviews",
+     "source_date": "date not shown",
+     "note": "Other 2GIS items: 'оформление договора ДДУ перенесли с августа на декабрь. Означает ли это, что и срок сдачи перенесут?'; 'срок сдачи в марте 28 го сказали' (block unclear); several requests to join the 'блок К' chat. Developer replies say: 'Официальный чат жильцов будет создан после сдачи Вашего дома.'"
+    },
+    {
+     "complex": "DARYN",
+     "block": "all (6 queues, letters not given)",
+     "date_stated": "Первая очередь - II квартал 2026 г.; Вторая - III квартал 2026 г.; Третья - IV квартал 2026 г.; Четвертая - I квартал 2027 г.; Пятая - II квартал 2027 г.; Шестая - III квартал 2027 г.",
+     "status": "Строящийся",
+     "source": "krisha.kz complex page",
+     "source_url_or_path": "https://krisha.kz/complex/show/astana/uiadaryn/",
+     "source_date": "'проверено 1 сентября'",
+     "note": "Address 'ул. Улы Дала, 14', developer 'BI Group Север'. Permits listed: 'Участие БВУ: 74 от 03.07.2026', '29 от 04.03.2026', '28 от 04.03.2026'. Likely mapping: 1=A; 2=B, K, D; 3=C, E; 4=H, M; 5=F; 6=G (inferred from metry)."
+    },
+    {
+     "complex": "DARYN",
+     "block": "all",
+     "date_stated": "'Срок сдачи: 2–3 квартал 2026 года'; 'Статус: строится, часть домов построена'",
+     "status": "partly built",
+     "source": "kn.kz complex page summary",
+     "source_url_or_path": "https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn",
+     "source_date": "Oct 2026",
+     "note": "Stale summary text. The per-address table gives 14 стр / 10 стр / 12 = Q3 2026 and 10а / 4 = Q4 2026, all 'строится'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "all",
+     "date_stated": "Срок сдачи I кв. 2027",
+     "status": "Строится; 'Продажи завершены'",
+     "source": "kapster.kz",
+     "source_url_or_path": "https://kapster.kz/zk-uia-daryn",
+     "source_date": "'Дата обновления: 15 июня 2026'",
+     "note": "A search snippet earlier described kapster as showing 'I квартал 2026' (possibly an older version). Low reliability."
+    },
+    {
+     "complex": "TARIH",
+     "block": "A",
+     "date_stated": "UIA.TARIH - A: Подъезд 1–10 – сдача в 4 кв. 2026",
+     "status": "under construction",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/жк-uiatarih-астана ; local dl/tarih.html",
+     "source_date": "lastUpdateTime 12.10.2026",
+     "note": "Sections of 9–12 floors. korter note: 'Uia.TARIH - A: Разрешение … №66 от 19.11.2025'."
+    },
+    {
+     "complex": "TARIH",
+     "block": "A",
+     "date_stated": "12.04.2026: 'Блок А … выдача ключей: 3 квартал 2026 года' → 27.09.2026: 'Сдача дома запланирована на ноябрь 2026 года'",
+     "status": "slip Q3 → Nov 2026",
+     "source": "kn.kz ad cards 3643085 ('Блок А'), 3717173 ('блок А')",
+     "source_url_or_path": "https://www.kn.kz/card/3643085 ; https://www.kn.kz/card/3717173",
+     "source_date": "12.04.2026 and 27.09.2026",
+     "note": "krisha 1009871717 'UIA TARIH A блок': 'КЛЮЧИ В НОЯБРЕ'. krisha 1009050768 'Корпус А': 'Сдача ключей 21.10.2029г.' (probably a typo for 21.10.2026, which matches the B ad below)."
+    },
+    {
+     "complex": "TARIH",
+     "block": "B (В)",
+     "date_stated": "UIA.TARIH - В: Подъезд 1–10 – сдача в 4 кв. 2026",
+     "status": "under construction",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/жк-uiatarih-астана",
+     "source_date": "12.10.2026",
+     "note": "Sections of 9–12 floors."
+    },
+    {
+     "complex": "TARIH",
+     "block": "B",
+     "date_stated": "'Сдача: 2026г-21 октября ключи (можно приступить к ремонту)'; '21 ноября-выдача документов'",
+     "status": "keys imminent (Oct–Nov 2026)",
+     "source": "krisha agent ad 1015349621 ('ЖК UIA TARIH (блок B)')",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1015349621",
+     "source_date": "live Oct 2026",
+     "note": "krisha 1016195757 'UIA TARIH -B': 'выдача ключей 28.11.2026 года'. kn.kz 3607456 'блок B' (11.02.2026): 'Официальный срок сдачи — ноябрь 2026 года.' krisha 1012252387 (B): 'Срок сдачи: 4 квартал 2026 года'. krisha 1016230254 (B): 'срок сдачи четвертый квартал 2026'."
+    },
+    {
+     "complex": "TARIH",
+     "block": "A/B (block not named, Улы Дала 5 стр)",
+     "date_stated": "16.02.2026 'сдача осенью'; 30.03.2026 'сдача в сентябре'; 19.07.2026 'Выдача ключей — ноябрь 2026'; 18.09.2026 'Ключи ожидаются в сентябре 2026 года'; 28.09.2026 'Сдача дома — 28 ноября 2026 года'; 29.09.2026 'Передача ключей 21 ноября 2026 года'; 13.10.2026 'Сдача объекта 27 ноября 2026 года'",
+     "status": "slip Sept → late Nov 2026",
+     "source": "kn.kz ad cards 3619593, 3637157, 3641491, 3667418, 3717566, 3718505, 3723833",
+     "source_url_or_path": "https://www.kn.kz/card/3718505 ; https://www.kn.kz/card/3723833 ; local kn/cards/",
+     "source_date": "16.02.2026 – 13.10.2026",
+     "note": "krisha 1011373227: 'Сдача 3 квартал 2026 26 сентября 2026 г'. krisha 1011074389: '1 очередь — 3 кв. 2026'. kn.kz 3646439 (republished 10.10.2026): 'Ключи — август 2026 г.' (stale)."
+    },
+    {
+     "complex": "TARIH",
+     "block": "C",
+     "date_stated": "UIA.TARIH - C: Подъезд 1–10 – сдача в 1 кв. 2027",
+     "status": "under construction",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/жк-uiatarih-астана",
+     "source_date": "12.10.2026",
+     "note": "No start date; 9-floor sections."
+    },
+    {
+     "complex": "TARIH",
+     "block": "C",
+     "date_stated": "'Сдача в марте 2027 года'",
+     "status": "under construction",
+     "source": "krisha ad 1015750631 ('Uia ЖК Tarih блок C бизнес класса'); kn.kz 3712563 ('блок C', 16.09.2026)",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1015750631 ; https://www.kn.kz/card/3712563",
+     "source_date": "Sept–Oct 2026",
+     "note": "krisha lists Салынған жылы 2027."
+    },
+    {
+     "complex": "TARIH",
+     "block": "E (Е)",
+     "date_stated": "UIA.TARIH - Е: Подъезд 1–5 – сдача в 1 кв. 2027 (start 2025 Q4)",
+     "status": "under construction",
+     "source": "korter.kz",
+     "source_url_or_path": "https://korter.kz/жк-uiatarih-астана",
+     "source_date": "12.10.2026",
+     "note": "9-floor sections."
+    },
+    {
+     "complex": "TARIH",
+     "block": "E",
+     "date_stated": "'Блок Е! Бизнес класс! … Ключи уже в марте!'",
+     "status": "under construction",
+     "source": "krisha owner ad 1016492849",
+     "source_url_or_path": "https://krisha.kz/kz/a/show/1016492849",
+     "source_date": "live Oct 2026",
+     "note": "Салынған жылы 2027, so 'March' means March 2027."
+    },
+    {
+     "complex": "TARIH",
+     "block": "queues 1 and 2 (letters not given)",
+     "date_stated": "'Первая очередь - I квартал 2026 г.' и 'Вторая очередь - I квартал 2027 г.'",
+     "status": "Строящийся",
+     "source": "krisha.kz complex page",
+     "source_url_or_path": "https://krisha.kz/complex/show/astana/uiatarih/",
+     "source_date": "'проверено 1 сентября'",
+     "note": "Queue 1 (probably A + B) at Q1 2026 is out of date; ads now say November 2026. Permits listed: '34 от 19.03.2026', '23 от 27.02.2026', '66 от 19.11.2025'."
+    },
+    {
+     "complex": "TARIH",
+     "block": "all (address пр. Улы Дала, 5 стр)",
+     "date_stated": "Срок сдачи: 4 квартал 2026",
+     "status": "строится",
+     "source": "kn.kz complex page",
+     "source_url_or_path": "https://www.kn.kz/zhilye-kompleksy/astana/uia-tarih ; local dl/f04c20e6.html",
+     "source_date": "'Актуально на 14 сентября 2026'",
+     "note": "A single building entry; no per-block split. metry's TARIH page has no dates (permits only)."
+    }
+   ],
+   "conflicts": [
+    "DARYN A: korter says 'сдача в 4 кв. 2027' and lists A as under construction with prices. Many A ads at Улы Дала 12 say 'Дом сдан, ключи на руках'; metry says Q2 2026 and kn.kz says Q3 2026. korter's A date looks stale or wrong, although its A permit is dated 03.02.2026 (№5).",
+    "DARYN D: korter says Q3 2027. metry says Q3 2026 and kn.kz (Улы Дала 4) says Q4 2026. D ads say keys on 10.10.2026, 'ключи - октябрь 2026' and 'КЛЮЧИ ЧЕРЕЗ МЕСЯЦ'. D is missing from the BI office sheet.",
+    "DARYN K: korter says Q1 2027, but the BI sheet says 17.10.2026 and an ad says 'Выдача ключей — 15 октября'. metry's Q3 2026 has passed. Ads have moved from June–July to August, then September, then October; 2GIS reports 3 postponements.",
+    "DARYN E: korter says Q1 2027. The BI sheet, metry and kn.kz (10а) say Q4 2026 or 24.12.2026. Live owner ads say October 2026 and December 2026 at the same time.",
+    "DARYN C: korter says Q2 2027. metry and the BI CSV say Q4 2026. Ads say November 2026, December 2026, and one says '1 квартал 27 года'.",
+    "DARYN F: korter says Q3 2027 and one assignment ad says 'сентябрь 2027'. metry, the BI sheet and three ads say June 2027 / Q2 2027.",
+    "DARYN B: metry (Q3 2026) and kn.kz (10 стр 'строится', Q3 2026) still show B as under construction. Ads say 'дом введен в эксплуатацию' and 'ДОКУМЕНТЫ НА РУКАХ'.",
+    "kn.kz summary text says 'Срок сдачи: 2–3 квартал 2026 года' for the whole of DARYN, which contradicts its own per-address table and the later blocks.",
+    "TARIH queue 1: krisha says 'I квартал 2026 г.'; korter, kn.kz and ads say Q4 2026 or November 2026.",
+    "TARIH A/B ads disagree on keys: one B ad says '21 октября ключи' and '21 ноября-выдача документов', others say 21.11, 27.11 and 28.11.2026. One A ad says '21.10.2029' (probably a typo).",
+    "kapster says I кв. 2027 for the whole complex (updated 15.06.2026); a search snippet showed 'I квартал 2026' earlier."
+   ],
+   "gaps": [
+    "homsters.kz and bi.group/ru/landing/uia-daryn and /uia-tarih returned a Cloudflare 'Just a moment' challenge (HTTP 403). I did not try to get around it, so there is no homsters or BI-site data.",
+    "Wayback Machine (web.archive.org) connections were reset, so there is no archived history of korter, krisha or kn.kz date fields. Slip history is rebuilt only from dated kn.kz ad cards, changed krisha ad titles, and 2GIS.",
+    "vagapov.kz: no results found.",
+    "korter has no B, H or M queues. Its empty queues '1–4 очередь' (ids 39020, 39078–39080) have no houses (houseCount 39 vs 34 listed), so korter's dates for already-delivered stages are missing.",
+    "krisha ad pages do not show a posting date (only 'viewed since 13/14 Oct'). For krisha, dated history comes only from the July → October title change on 1012531442.",
+    "No ad found that names TARIH E or C with an exact day. No 2GIS review for TARIH was checked.",
+    "The 2GIS question about whether '26 июля' was the final date for block A comes from a search-engine summary; it was not seen on the fetched page.",
+    "The mapping of krisha's queue numbers to letters, and korter K-2 to BI K, are my inferences, not stated by the sources.",
+    "No source found for SŪNQAR or BIRLIK dates; outside scope."
+   ]
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "korter DARYN (lastUpdateTime 14.10.2026): A1–A6 end 2027 Q4; С1–С3 2027 Q2; D1–D5 2027 Q3; E1–E5 2027 Q1; F1–F4 2027 Q3; G5–G8 2027 Q3; K1–K5 and K2-1/K2-2 2027 Q1; no B, H or M queues; empty queues '1–4 очередь'",
+     "verdict": "confirmed",
+     "evidence": "Re-fetched https://korter.kz/uia-burkit-астана today and parsed buildingLandingStore.houses. Each section matches, e.g. 'Подъезд A1 12 fl start 2025 Q4 end 2027 Q4 construction available minPrice 42609130'. Queues 39020/39078/39079/39080 are '1–4 очередь' and have no houses. Saved at scratchpad/verify_agg/daryn.html."
+    },
+    {
+     "claim": "korter: every section shows a start date of 2025 Q4 (placeholder)",
+     "verdict": "partially",
+     "evidence": "D1–D5 show startYear 2025 / startQuarter 3, not Q4. TARIH C sections have startYear/startQuarter null. The 'placeholder' reading is an interpretation."
+    },
+    {
+     "claim": "korter permit notes: DARYN-A №5 от 03.02.2026; B БВУ 30 от 06.08.2025; С №27 от 04.03.2026; D БВУ 43 от 10.09.2025; E №61 от 13.11.2025; F №69 / G №70 от 09.12.2025; K №29 / M №28 от 04.03.2026",
+     "verdict": "confirmed",
+     "evidence": "Verbatim in the korter 'note' field, e.g. 'ЖК UIA. DARYN-A Разрешение на привлечение денег дольщиков №5 от 03.02.2026.' and 'ЖК UIA. DARYN-K … №29 от 04.03.2026.'"
+    },
+    {
+     "claim": "korter TARIH (lastUpdateTime 12.10.2026): A and В sections 1–10 end 2026 Q4; C sections 1–10 and Е sections 1–5 end 2027 Q1",
+     "verdict": "confirmed",
+     "evidence": "Re-fetched korter TARIH page and parsed INITIAL_STATE. A/В: 'end 2026 4'; C/Е: 'end 2027 1'. Only permit №66 от 19.11.2025 is in the note."
+    },
+    {
+     "claim": "metry: 'A блок (Комфорт Lite) - 2 кв 2026 г, B, K блоки - 3 кв 2026 г, D блок (Комфорт+) - 3 кв 2026 г, C - 4 кв 2026, E (Комфорт+) - 4 кв 2026, H, M - 1 кв 2027, F (Бизнес) - 2 кв 2027, G (Бизнес) - 3 кв 2027'; page fields 'Год сдачи 2026', 'Квартал сдачи дома II'",
+     "verdict": "confirmed",
+     "evidence": "Re-fetched https://metry.kz/zhilye-kompleksy/zhk-uia-daryn/ today. The text is identical, word for word."
+    },
+    {
+     "claim": "kn.kz DARYN: per-address 14 стр / 10 стр / 12 = 3 квартал 2026; 10а / 4 = 4 квартал 2026, all 'строится'; summary 'Срок сдачи: 2–3 квартал 2026 года'; 'Актуально на 9 октября 2026'; 'Блоки A, B и K строятся по модульной технологии ModeX'",
+     "verdict": "confirmed",
+     "evidence": "Re-fetched https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn. All strings found verbatim."
+    },
+    {
+     "claim": "kn.kz TARIH: пр. Улы Дала 5 стр – 4 квартал 2026, 'Актуально на 14 сентября 2026'",
+     "verdict": "confirmed",
+     "evidence": "Re-fetched page: 'Статус: строится Срок сдачи: 4 квартал 2026 года'; 'пр. Улы Дала, 5 стр 4 квартал 2026 строится'."
+    },
+    {
+     "claim": "krisha DARYN complex page: six queues II кв 2026 … III кв 2027; 'проверено 1 сентября'; БВУ 74 от 03.07.2026, 29 и 28 от 04.03.2026. TARIH page: 'Первая очередь - I квартал 2026 г.', 'Вторая очередь - I квартал 2027 г.'",
+     "verdict": "confirmed",
+     "evidence": "WebFetch of both /complex/show/ pages returned the same quotes. 'проверено 1 сентября' has no year. Queue-to-letter mapping is not on the page (inference, as the agent said)."
+    },
+    {
+     "claim": "DARYN A delivered: ads say 'ключи на руках' / 'Дом сдан'; ads 1015826371, 1016431792, 1015566194, 1011698065, 1013368538 etc. 'all name A and/or Улы Дала 12'",
+     "verdict": "partially",
+     "evidence": "1011698065 ('ЖК Uia Daryn (блок А)', Улы Дала 12, 2/17: 'Ключи на руках, документы в ноябре'), 1013368538 ('Uia Daryn А', 6/17: 'ключи на руках') and 1015566194 ('ЖК UIA Daryn A', 10/17: 'Дом готов, ключи на руках') confirm A is delivered. However, 1016431792 is at 'Улы Дала 14', 2/12, and names NO block ('Сдан, ключи на руках'). 1015826371 (Улы Дала 12, 2/12) also names no block."
+    },
+    {
+     "claim": "DARYN A slip: 1013065423 'UIA.DARYN A' 'Срок сдачи: 12.07.2026 г.' (archived); kn.kz 14 стр / 12 ads 20.12.2025 Q1 2026 → 25.02 June → 17.03 June → 08.04 June",
+     "verdict": "partially",
+     "evidence": "1013065423 confirmed ('Вид из окон: UIA.DARYN A', 5/17, 'Срок сдачи: 12.07.2026 г.', archived). kn.kz quotes match the saved cards with those publish dates. However, none of those kn.kz ads name block A. 3617064 says 18 floors, which matches no korter A section. 3623761 says 'сдан вовремя' in Feb 2026 while promising keys in June. kn.kz '14 стр' is a catch-all address: it is also used for named D (3628521), E (3709814) and F (3706241) ads. So these four ads may not be block A."
+    },
+    {
+     "claim": "DARYN B commissioned: krisha 1013656806 'UIA Daryn, Block B', Улы Дала 10 — 'дом введен в эксплуатацию, документы на руках'",
+     "verdict": "confirmed",
+     "evidence": "WebFetch: 4/14 floor, Улы Дала 10, 'дом введен в эксплуатацию, документы на руках', year 2026, archive warning shown. kn.kz 3614170 (10 стр, 14 floors, 13.04.2026): 'Дом сдан, ключи на руках'. It names no block, but the 14-floor height fits B."
+    },
+    {
+     "claim": "DARYN D: krisha 1012531442 (UIA.DARYN, Улы Дала 4, 7/17) 'Дата передачи ключей: 10.10.2026', title now 'КЛЮЧИ В октября', indexed title '‼️КЛЮЧИ В ИЮЛЕ'; 1013912562 'блок D' 'КЛЮЧИ ЧЕРЕЗ МЕСЯЦ'; kn.kz slip July → Sept → Sept/Oct",
+     "verdict": "confirmed",
+     "evidence": "WebFetch shows title '‼️КЛЮЧИ В октября. ПОТОЛКИ 3 м‼️' and 'Дата передачи ключей: 10.10.2026'. WebSearch index title is 'Улы Дала 4 — ‼️КЛЮЧИ В ИЮЛЕ', and the price has since dropped from 27.5M to 26.5M. 1013912562: 'UIA.DARYN блок D', Улы Дала 4, 4/17, 'КЛЮЧИ ЧЕРЕЗ МЕСЯЦ', viewed since 10 Oct. kn.kz 3628521 / 3673701 / 3692626 / 3703202 quotes and dates match the saved cards. 3628521 ('блок D') is at '14 стр', not 4."
+    },
+    {
+     "claim": "DARYN K: kn.kz 3636063 (27.03.2026) 'Выдача ключей: июнь–июль 2026'; krisha 1013956243 'блок К' 'в август 2026 г уже получаем КЛЮЧИ'; 1013600684 'очередь К' 'Срок сдачи сентябрь 2026 г.'; 1016139243 Улы Дала 10, 11/12, 'всего 2 подъезда', 'Выдача ключей — 15 октября!', 'документы в ноябре'",
+     "verdict": "confirmed",
+     "evidence": "All quotes match verbatim. 1013956243: Улы Дала 10, 11/12. 1013600684: Улы Дала 14, 9/12, '(очередь К)'. 1016139243 names no block, so linking it to K or K-2 is an inference. It is supported by a named K ad at the same address and height (1013956243, 11/12)."
+    },
+    {
+     "claim": "2GIS review by R A: 'Uia daryn блок К уже 3 раз переносят сроки…'; 'оформление договора ДДУ перенесли с августа на декабрь'; 'срок сдачи в марте 28 го сказали'",
+     "verdict": "confirmed",
+     "evidence": "WebFetch of 2gis.kz/astana/firm/70000001098474893/tab/reviews (firm shown as ТОО Global Build) returned all three verbatim, without dates. The official reply to the 'март 28' comment is dated 5 октября 2025, so that comment is about a year old. There was no '26 июля' text on the page, consistent with the agent's gap note."
+    },
+    {
+     "claim": "DARYN E now December 2026: krisha 1016527526 'Срок сдачи в декабре 2026 года'; earlier 1009815808 'Срок сдачи октябрь 2026'; kn.kz 3709814 'Сдача ключей сентябрь 2026' (09.09) → 3710680 'Сдача будет в октябре' (11.09)",
+     "verdict": "confirmed",
+     "evidence": "1016527526: 'ЖК Uia Daryn блок Е', 'Срок сдачи в декабре 2026 года'; krisha's complex label there is 'UIA. BURKIT', which supports the rename. 1009815808: 'Uia Daryn блок Е', 12/14, 'Срок сдачи октябрь 2026 год', still live (viewed since 13 Oct). The kn.kz cards match."
+    },
+    {
+     "claim": "DARYN C: krisha 1011127354 'ЖК UIA DARYN C' 'выдача ключей декабрь 2026'; and 'one says 1 квартал 27' (ad 1015384574)",
+     "verdict": "partially",
+     "evidence": "1011127354 confirmed: title 'Квартира с ремонтом! Ключи в декабре', description 'в ЖК UIA DARYN C', 'выдача ключей декабрь 2026', Улы Дала 14, 6/12. But 1015384574 is an M flat: its description names 'Блок М' and 'Блок C, M', with 'Сдача уже скоро 1 квартал 27 года !'. It is evidence for M, not for C slipping to Q1 2027."
+    },
+    {
+     "claim": "H: 1015669231 'Очередь Daryn-H' 'Ключи в феврале 2027г.'; M: 1015960469 'ЖК UIA.DARYN-M' 'Срок сдачи 2027 году в марте'; G: 1015439882 'блок G' 'Срок сдачи — III квартал 2027 года.'; F outlier 1012640459 'сентябрь 2027'",
+     "verdict": "confirmed",
+     "evidence": "All four were re-fetched and the quotes match. 1015669231 is 8/12. 1015960469 is on the 1st floor, which matters for ground-floor commercial. 1015439882 states 11/17 in its fields but '11 этаж из 14' in the text. 1012640459: 'Блок: F', 6/14, 'по переуступке', 'Срок сдачи: сентябрь 2027 года', archived."
+    },
+    {
+     "claim": "TARIH: krisha 1015349621 '(блок B)' 'Сдача: 2026г-21 октября ключи … 21 ноября-выдача документов'; 1016195757 'UIA TARIH -B' 'выдача ключей 28.11.2026'; kn.kz 3718505 '21 ноября 2026', 3723833 (13.10.2026) '27 ноября 2026', 3717566 '28 ноября 2026'; A: kn 3643085 (12.04) 'выдача ключей: 3 квартал 2026' → 3717173 (27.09) 'ноябрь 2026'; C 'Сдача в марте 2027 года'; E 'Ключи уже в марте!'",
+     "verdict": "confirmed",
+     "evidence": "All re-fetched or re-read from the saved cards and verbatim. 1015349621 and 1016195757 are both 9/9. 1016492849 (TARIH, 'Блок Е!', 5/9, year 2027): 'Ключи уже в марте!'. 1015750631: 'ЖК Tarih блок C бизнес класса', 'Сдача в марте 2027 года'. kn.kz 3646439 (republished 10.10.2026) still says 'Ключи — август 2026 г' (stale)."
+    },
+    {
+     "claim": "kapster: 'Срок сдачи I кв. 2027', 'Продажи завершены', 'Дата обновления: 15 июня 2026'",
+     "verdict": "confirmed",
+     "evidence": "Saved dl/60519476.html: 'Продажи завершены Эконом … Срок сдачи I кв. 2027 Строится … Дата обновления: 15 июня 2026'."
+    }
+   ],
+   "corrections": [
+    "Ad krisha 1015384574 is an M flat ('Блок М'; 'Блок C, M'), so its 'Сдача уже скоро 1 квартал 27 года' supports M = Q1 2027. It should be dropped as evidence that C slips to Q1 2027, both in the C row and in the DARYN C conflict. The C ad evidence is then November–December 2026 only.",
+    "'Every korter section shows start 2025 Q4' is inaccurate: D1–D5 show start 2025 Q3, and TARIH C sections have no start date. This is minor and does not affect any handover date.",
+    "krisha ad 1016431792 is at Улы Дала 14 (2/12) and names no block; 1015826371 (Улы Дала 12, 2/12) names no block either. The claim that the cited 'ключи на руках' ads 'all name A and/or Улы Дала 12' is wrong for 1016431792. A's delivery is still well supported by ads that name A: 1011698065 'блок А' 'Ключи на руках, документы в ноябре', 1013368538 'Uia Daryn А' 'ключи на руках', and 1015566194 'ЖК UIA Daryn A' 'Дом готов, ключи на руках'.",
+    "kn.kz ad addresses are seller-entered and '14 стр' is used as a catch-all address for ads naming D (3628521), E (3709814) and F (3706241). The block-A slip history built from unnamed kn.kz ads at 14 стр (3598117, 3623761, 3617064) should be marked weak; 3617064 even says 18 floors, which matches no korter A section. Address-to-block mappings from kn.kz alone (14 стр = A, 10а = E, 4 = D) are not reliable. Улы Дала 4 = D and Улы Дала 12 = A do hold where krisha ads also name the block (1012531442/1013912562 for D; 1011698065/1013368538/1015566194 for A).",
+    "The 2GIS comment 'срок сдачи в марте 28 го сказали' has an official developer reply dated 5 октября 2025, so it is about a year old and its block is unknown. It should not be read as a current signal.",
+    "krisha's 'проверено 1 сентября' has no year on either complex page, so it should not be presented as 1 September 2026."
+   ],
+   "missing": [
+    "I did not re-verify the BI office sheet dates (E 24.12.2026, K 17.10.2026, H 27.02.2027, M 31.03.2027, F 05.06.2027, G 25.09.2027); the agent marked these as unverified context. D, B, A, C and G are missing from that list, so there is no official day-level date for D or C.",
+    "The task-context ad with 'передача ключей 26.12.2026' (C) and the D ad with 'ключи ноябрь 2026' were not located or checked by either agent.",
+    "The result has no imagery-based check that construction progress matches the dates. For example, M was reportedly only a few storeys in Sept–Oct 2026, which makes 'March 2027' keys implausible, and G was still rising mid-2026. The investor's 'realistic' handover needs this.",
+    "krisha lists BVU participation permit 74 от 03.07.2026 for DARYN, and TARIH permits 34 от 19.03.2026 and 23 от 27.02.2026; none of these appear in korter's note. The agent did not tie them to a block.",
+    "No source states the BI-letter-to-krisha-queue-number mapping, or whether B has its own permit-backed date; B's 'введен в эксплуатацию' rests on one archived ad plus one unnamed kn.kz ad (10 стр, 14 floors).",
+    "The investor is buying ground-floor commercial units. None of the cited sources gives commercial-unit handover dates separately from flats; commercial units are often handed over or registered later."
+   ],
+   "overall_reliability": "high",
+   "summary": "I re-fetched korter (curl plus INITIAL_STATE parse), kn.kz, metry, the krisha complex pages, about 25 krisha ads via the /kz/ mirror, and 2GIS, and re-read the saved kn.kz cards and kapster. Nearly every quoted date is verbatim and current as of 14.10.2026. The korter quarters per section, korter's permit notes, metry's per-block quarters, kn.kz's per-address table and the krisha queue lists all match exactly. Key ad quotes are confirmed:\n- D: 'Дата передачи ключей: 10.10.2026'; title changed from 'КЛЮЧИ В ИЮЛЕ' to 'КЛЮЧИ В октября'.\n- K: 'Выдача ключей — 15 октября!', after slipping from June–July to August to September.\n- E: 'Срок сдачи в декабре 2026 года'.\n- H: 'Ключи в феврале 2027г.'\n- M: 'Срок сдачи 2027 году в марте'.\n- G: 'III квартал 2027'.\n- TARIH B: 21.10 keys / 28.11.2026 and 21–28 November.\n- TARIH C and E: March 2027.\n- 2GIS: 'блок К уже 3 раз переносят сроки'.\n\nErrors found:\n- (1) Ad 1015384574's 'Q1 2027' belongs to block M, not C.\n- (2) Some cited 'A delivered' ads name no block, and one is at Улы Дала 14. A's delivery is still confirmed by three ads that name A.\n- (3) kn.kz addresses, especially '14 стр', are catch-alls, so the A slip history built from unnamed kn.kz ads is weak.\n- (4) The korter start dates are not uniformly 2025 Q4.\n- (5) The 2GIS 'March 2028' comment dates from around October 2025.\n\nThe overall picture holds:\n- A and B: delivered.\n- D and K: handover in October 2026.\n- E and C: December 2026.\n- H: February 2027.\n- M: March 2027.\n- F: June 2027, with one September 2027 outlier.\n- G: Q3 2027.\n- TARIH A and B: November 2026.\n- TARIH C and E: March 2027.\n\nkorter's 2027 dates for A, D and K are stale. My verification copies are in /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/verify_agg/ (daryn.html, tarih.html, kn_daryn.html, kn_tarih.html, metry_d.html)."
+  }
+ },
+ {
+  "key": "imagery",
+  "result": {
+   "rows": [
+    {
+     "complex": "DARYN",
+     "block": "A",
+     "address": "Улы Дала 12 (owner ads; OSM has no tag)",
+     "date_stated": "Topped out about Nov–Dec 2025 (estimate). Delivered by imagery standards: built and landscaped in the Google mosaic of about Jul 2026.",
+     "status": "delivered",
+     "source": "Imagery track: Sentinel-2 L2A TCI shadow analysis plus Google satellite mosaic (undated; best match to S2 of 15 Jul 2026)",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_B_A.png",
+     "source_date": "S2 scenes 2025-03-02 … 2026-10-13",
+     "note": "FACT: Esri imagery of 2024-09-17 shows bare steppe. ESTIMATES from shadows: 2025-07 to 2025-10 there is no tall shadow on the north bar. By 2025-12-27 (snow) there is a long shadow. On 2026-02-25 the north bar is about 39 m (about 12–13 floors), and on 2026-07-15 and 2026-10-13 it is about 37–39 m (a plateau). In Google (about Jul 2026) the building is finished and the courtyard landscaped. This fits the owner ad 'дом сдан, ключи на руках'. Topping-out to keys took about 9–10 months, which I use as calibration."
+    },
+    {
+     "complex": "DARYN",
+     "block": "B",
+     "address": "Улы Дала 10 (OSM 'ЖК ŪIA.DARYN Блок B', 14 levels)",
+     "date_stated": "Topped out about Oct 2025 (estimate). Occupied by about Jul 2026.",
+     "status": "delivered",
+     "source": "Imagery track: S2 shadow strips plus Google mosaic",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_B_A.png",
+     "source_date": "S2 2025-03-02 … 2026-10-13",
+     "note": "ESTIMATED heights: about 18 m on 2025-03-02 (snow), about 15 m on 2025-07-20, about 35 m on 2025-09-25, about 41 m on 2025-10-28, then a plateau of 39–43 m through 2026-10-13. In Google (about Jul 2026) it is landscaped with parked cars. This fits the owner ad 'введен в эксплуатацию'. Topping-out to occupancy took about 8–9 months."
+    },
+    {
+     "complex": "DARYN",
+     "block": "D",
+     "address": "Улы Дала 4 (OSM 'ЖК ŪIA.DARYN')",
+     "date_stated": "Topped out about Nov 2025 (estimate). Realistic keys Oct 2026 – Jan 2027.",
+     "status": "under construction (finishing); keys plausibly imminent",
+     "source": "Imagery track: S2 shadow strips (avenue slab, probe x175)",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_E_D.png",
+     "source_date": "S2 2025-07-20 … 2026-10-13",
+     "note": "ESTIMATED: no shadow on 2025-07-20. About 33 m on 2025-09-25 and about 46 m on 2025-10-28. Plateau of about 48–53 m (about 16–17 floors) on 2026-03-27, -04-28, -06-02, -07-15, -09-08 and -10-13. In Google (about Jul 2026) the diagonal tower roof is complete. Topping-out to keys of 10–12 months gives Oct 2026 – Jan 2027. This matches the owner sale ad 'ключи ноябрь 2026'."
+    },
+    {
+     "complex": "DARYN",
+     "block": "E",
+     "address": "Улы Дала 10а (OSM 'блок Е')",
+     "date_stated": "Topped out about Feb–Mar 2026 (estimate). Realistic keys Dec 2026 – Mar 2027; BI sheet 24.12.2026 is at the early edge.",
+     "status": "under construction (topped out, finishing)",
+     "source": "Imagery track: S2 shadow strips (north slab, probe x60)",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_E_D.png",
+     "source_date": "S2 2025-09-25 … 2026-10-13",
+     "note": "ESTIMATED heights: about 15 m on 2025-09-25, about 28 m on 2025-10-28, about 33 m on 2025-11-19, about 45 m on 2026-02-25 (snow) and about 48–51 m on 2026-03-27. Plateau of 50–54 m (about 17 floors) from 2026-04-28 to 2026-10-13. In Google (about Jul 2026) the roofs carry finished plant and there is a crane. At this cluster's observed 8–12 months from topping-out to keys, the window is Nov 2026 – Mar 2027. Handover in the winter months is common for BI."
+    },
+    {
+     "complex": "DARYN",
+     "block": "K (main W column + S bar)",
+     "address": "south half of the A+K block, x 528–682 / y −330…−470 in the local frame",
+     "date_stated": "Main part topped out about Jan–Feb 2026 (estimate). Realistic keys Oct 2026 – Feb 2027. The BI sheet date of 17.10.2026 is plausible only for this part.",
+     "status": "under construction (main part topped out, finishing); keys possibly being handed for part",
+     "source": "Imagery track: S2 snow scenes plus Google mosaic",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/mont_snow.png",
+     "source_date": "S2 2025-11-19 … 2026-10-13",
+     "note": "ESTIMATES: no tall shadow in Oct–Nov 2025. A distinct L-shaped tall shadow inside K on 2026-02-25 and 2026-03-27. In Google (about Jul 2026) the W column and S bar are finished and the courtyard is partly landscaped. Individual heights are unreliable because the shadows fall into the closed courtyard. A 2GIS review says the K dates moved 3 times."
+    },
+    {
+     "complex": "DARYN",
+     "block": "K NE part (possibly korter 'K-2')",
+     "address": "x 580–665 / y −322…−398 (NE corner of K)",
+     "date_stated": "Rose Jul–Oct 2026. Topped out about Sep–Oct 2026 (estimate, low confidence). Realistic keys Jun – Oct 2027.",
+     "status": "under construction",
+     "source": "Imagery track: S2 shadow strip into A's courtyard (probe x635, wall −325)",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_K.png",
+     "source_date": "S2 2025-09-25 … 2026-10-13",
+     "note": "ESTIMATES: no shadow from 2025-09 to 2026-06. In Google (about Jul 2026) it is a low frame with formwork. About 25 m on 2026-07-15. Shadow reaching about 45 m on 2026-09-08 and at least about 36 m on 2026-10-13, where it is truncated by A's north bar. A buyer of a unit 'in K' should check which section the unit is in. The 17.10.2026 date cannot apply to this part."
+    },
+    {
+     "complex": "DARYN",
+     "block": "C1 (section 1, 17 fl., on Улы Дала)",
+     "address": "x 242–282 / y −150…−216",
+     "date_stated": "Frame rose about Jun–Aug 2026. Near or at full height Sep–Oct 2026 (estimate). Realistic keys Jul – Oct 2027. The owner-ad date of 26.12.2026 and the BI 'Q4 2026' are not credible.",
+     "status": "under construction",
+     "source": "Imagery track: S2 shadow strips and May–Jul daily-ish montage",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_C_M_H.png",
+     "source_date": "S2 2025-09-25 … 2026-10-13",
+     "note": "ESTIMATES: no shadow on any date up to 2026-06-02 (el 60°, where even a 15 m building would show). A thin shadow on 2026-06-20. A strong slab shadow from 2026-07-09 to 07-30. Shadow beyond the north end gives about 35–37 m on 2026-09-08, -09-20, -10-07 and -10-13 (wall ±10 m, so ±6 m). That may still be below the 17-floor design of about 52 m. In Google (about Jul 2026) it is tall with a crane. Cross-check: montage work/bm_C_jun.png."
+    },
+    {
+     "complex": "DARYN",
+     "block": "C2–C3 (sections 2–3, 14/12 fl.)",
+     "address": "x 228–266 / y −228…−318",
+     "date_stated": "Low (a few floors) in Jul 2026. Tall by Sep 2026. Topping-out about Sep–Nov 2026 (estimate). Realistic keys Jul – Nov 2027.",
+     "status": "under construction",
+     "source": "Imagery track: Google mosaic plus S2 montages",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/bm_HG_2026.png",
+     "source_date": "S2 2026-06-02 … 2026-10-13; Google about Jul 2026",
+     "note": "Google (about Jul 2026): a long flat slab at low level with a crane, and only a small west shadow. S2: from 2026-08-14 to 2026-10-13 a strong N–S shadow band at x 230–255 runs down the full C length. The north shadow cannot be measured, because it falls on C1 only about 16 m away. That makes the height a lower bound only."
+    },
+    {
+     "complex": "DARYN",
+     "block": "M (sections 4–7)",
+     "address": "x 292–345 / y −178…−350, east side of Аллея Bolashaq",
+     "date_stated": "Foundation and ground floors in Oct 2026. Topping-out about Apr–Jul 2027 (estimate). Realistic keys about Q1–Q3 2028. The BI sheet date of 31.03.2027 is not achievable.",
+     "status": "under construction (early: 1–5 floors)",
+     "source": "Imagery track: S2 shadow strips plus Google mosaic",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_M_L.png",
+     "source_date": "S2 2025-11-19 … 2026-10-13",
+     "note": "FACT (Google, about Jul 2026): two bare raft slabs, no walls. ESTIMATES: the north slab (M7/M6) casts no shadow through 2026-09-20 and about 5 m (1–2 floors) on 2026-10-13. The south slab (M5/M4) is about 10 m on 2026-09-08 and -09-20 and about 15–16 m (about 4–5 floors) on 2026-10-07 and -10-13. I assumed about 1 floor per 7–10 days with a winter slowdown to reach 14 floors."
+    },
+    {
+     "complex": "DARYN",
+     "block": "H",
+     "address": "x 345–450 / y −258…−388",
+     "date_stated": "Frame rising Jul 2026. Near full height Sep–Nov 2026 (estimate, low confidence). Realistic keys Jul – Nov 2027. The BI sheet date of 27.02.2027 is too early.",
+     "status": "under construction",
+     "source": "Imagery track: Google mosaic plus S2 strips and montage",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/bm_HG_2026.png",
+     "source_date": "S2 2026-06-02 … 2026-10-13; Google about Jul 2026",
+     "note": "Google (about Jul 2026): frames rising with several cranes, and the east column already tall. S2 north-bar shadow onto lot A: no tip beyond the wall on 2026-07-15, about 10–20 m on 2026-09-08 and about 36–45 m on 2026-09-20 and -10-13. That last figure is inflated by dark ground on lot A, so the height is a range only."
+    },
+    {
+     "complex": "DARYN",
+     "block": "F",
+     "address": "x −40…60 / y −198…−305 (west edge, by the Айтматова stub)",
+     "date_stated": "Near full height in Jul 2026. Still gaining height Aug–Oct 2026. Topping-out about Sep–Nov 2026 (estimate). Realistic keys Jul – Nov 2027. BI's 05.06.2027 is the optimistic edge.",
+     "status": "under construction",
+     "source": "Imagery track: Google mosaic plus S2 strip at the NW corner",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_F.png",
+     "source_date": "S2 2025-10-28 … 2026-10-13",
+     "note": "Google (about Jul 2026): towers in all parts of the block, at or near height, with cranes. S2 NW-corner shadow, estimated: about 13 m beyond the wall on 2026-08-14, about 29 m on 2026-09-08 and about 33 m on 2026-10-13. Low confidence, because the wall position is ±10 m and part of the shadow falls on F itself."
+    },
+    {
+     "complex": "DARYN",
+     "block": "G (5 tower, 8+7 slab, 6 tower)",
+     "address": "x 50–180 / y −215…−335, south of the PLAY HUB",
+     "date_stated": "Slab topped out about Aug 2026. G5 about Sep–Oct 2026. G6 still rising in Oct 2026, so topping-out about Nov 2026 – Jan 2027 (estimates). Realistic keys for the whole block Sep 2027 – Jan 2028. BI's 25.09.2027 is optimistic.",
+     "status": "under construction",
+     "source": "Imagery track: S2 shadow strips",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_G_F.png",
+     "source_date": "S2 2025-10-28 … 2026-10-13",
+     "note": "ESTIMATES. Slab: no shadow until 2026-04-28, about 20 m on 2026-06-02, about 45 m on 2026-07-15 and -08-14, about 41–43 m on 2026-09-08 and -09-20, and at least 48 m on 2026-10-13. G6: no shadow until 2026-07-15, then about 23 m on 2026-08-14, 34 m on 09-08 and 37 m on 09-20, and at least 42 m on 2026-10-13, still growing. G5: lower bounds only, at least 25 m in Jul and at least about 39 m in Sep, because its shadow hits E section 5 within 27 m."
+    },
+    {
+     "complex": "DARYN",
+     "block": "lot A building (brochure 'flat-roofed square building')",
+     "address": "x 342–448 / y −158…−272, fronting Улы Дала between Аллея Bolashaq and B",
+     "date_stated": "Piles or foundation only as of Oct 2026. No above-ground structure. Earliest realistic completion 2028 (estimate). No BI date known.",
+     "status": "not started (above ground); piling done",
+     "source": "Imagery track: Google mosaic plus S2 strip",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_M_L.png",
+     "source_date": "S2 2025-11-19 … 2026-10-13; Google about Jul 2026",
+     "note": "FACT (Google, about Jul 2026): a pile field with materials and cranes. S2: no shadow north of the lot on any date through 2026-10-13, so it is under about 5 m. The darkening inside the lot in Oct 2026 is H's shadow and/or ground works."
+    },
+    {
+     "complex": "TARIH",
+     "block": "A (NW block, corner of the boundary street and the Айтматова stub)",
+     "address": "x −80…62 / y −328…−452",
+     "date_stated": "Rose about Oct–Dec 2025. Topped out about Dec 2025 – Jan 2026 (estimate). Realistic keys Oct 2026 – Jan 2027.",
+     "status": "under construction (topped out, finishing)",
+     "source": "Imagery track: S2 snow scenes plus Google mosaic",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/bm_TARIH_winter.png",
+     "source_date": "S2 2025-09-25 … 2026-10-13",
+     "note": "ESTIMATES: bare outline on 2025-10-10. Low structures on 2025-11-19. Long blue shadows over the boundary street and F on 2025-12-27, 2026-01-18 and 2026-02-15, roughly the same extent each time. In Google (about Jul 2026) the full closed perimeter is roofed, with a large low podium in the courtyard. Absolute height could not be measured cleanly, because the shadow falls on F/G and on the podium. korter gives Q4 2026."
+    },
+    {
+     "complex": "TARIH",
+     "block": "B (SW block)",
+     "address": "x −120…40 / y −458…−560",
+     "date_stated": "Rose about Dec 2025 – Feb 2026. Topped out about Feb–Mar 2026 (estimate). Realistic keys Dec 2026 – Mar 2027. BI 'Q4 2026' means late December at best.",
+     "status": "under construction (topped out, finishing)",
+     "source": "Imagery track: S2 snow scenes plus Google mosaic",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/bm_TARIH_winter.png",
+     "source_date": "S2 2025-10-28 … 2026-10-13",
+     "note": "ESTIMATES: only small dark patches on 2025-12-27 and 2026-01-18. A long north-bar shadow across the Аллея on 2026-02-15 and -02-25, and a large shadow band on 2026-03-17. In Google (about Jul 2026) all roofs are complete. The courtyard probe is unreliable, likely because of a podium or parking roof. krisha's 'queue 1 Q1 2026' has already passed."
+    },
+    {
+     "complex": "TARIH",
+     "block": "C (middle north-row block, closed square, 9 fl.)",
+     "address": "x 58–175 / y −360…−482",
+     "date_stated": "Rose about Feb–Jun 2026. Topped out about Jun–Jul 2026 (estimate). Realistic keys Mar – Jul 2027. BI 'Q1 2027' is the optimistic edge.",
+     "status": "under construction (topped out, finishing)",
+     "source": "Imagery track: S2 shadow strips (north bar and courtyard), consistent with each other",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_TARIH.png",
+     "source_date": "S2 2025-09-25 … 2026-10-13",
+     "note": "ESTIMATES from two independent probes. Faint low ring on 2026-02-25 (snow). About 9–13 m on 2026-03-27, about 19–23 m on 2026-04-28 and about 26 m on 2026-06-02. A plateau of about 27–30 m (9 floors plus parapet) on 2026-07-15, -09-08 and -10-13. In Google (about Jul 2026) the roofs are complete around the square."
+    },
+    {
+     "complex": "TARIH",
+     "block": "E (east north-row block, U, 9 fl.)",
+     "address": "x 188–285 / y −375…−485",
+     "date_stated": "North part rose Apr–Sep 2026 and reached about 9 floors about Sep–Oct 2026. The SE part was still a frame in Jul 2026. Whole-block topping-out about Oct–Dec 2026 (estimate). Realistic keys Aug – Dec 2027. BI 'Q1 2027' is not credible.",
+     "status": "under construction",
+     "source": "Imagery track: S2 shadow strip (north bar) plus Google mosaic",
+     "source_url_or_path": "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/st_TARIH.png",
+     "source_date": "S2 2025-09-25 … 2026-10-13; Google about Jul 2026",
+     "note": "ESTIMATES (north bar): nothing on 2026-03-27, about 9 m on 2026-06-02, about 17 m on 2026-07-15, about 24 m on 2026-09-08 and about 27 m on 2026-10-13. Google (about Jul 2026): the north bar is roofed with cranes, and the SE sections are frames with formwork. The SE-part probe gave no measurable shadow, so its height is unknown."
+    }
+   ],
+   "summary": "Imagery-only estimate of the physical stage of every DARYN and TARIH block. Sources: Sentinel-2 L2A at 10 m (about 40 scenes from Sep 2024 to 13 Oct 2026, including Dec–Mar snow scenes with high-contrast shadows), the high-resolution Google mosaic, and Esri Wayback. Esri Wayback metadata dates its imagery to 2024-09-17, when the whole site was bare steppe, so every block was built after that.\n\nThe Google mosaic is undated. Its blurred content correlates best with S2 of 15 Jul 2026 (r=0.96, against 0.75–0.90 for nearby dates), so I treat it as about July 2026. Registration between S2 and the local frame is within ±2–6 m.\n\nHeights come from shadow length × tan(sun elevation). Shadows were measured along each scene's anti-solar azimuth from a wall point read off the Google footprint. The time-stack strips (st_*.png) carry a height ruler per date.\n\nCALIBRATION (fact-based within this cluster):\n- B topped out about Oct 2025 and was occupied or commissioned by about mid-2026.\n- A topped out about Nov–Dec 2025 and was delivered by Oct 2026 (owner ad).\n- D topped out about Nov 2025; the owner ad says keys Nov 2026.\n- E topped out about Feb–Mar 2026; the BI sheet says 24.12.2026.\n- K's main part topped out about Jan–Feb 2026; the BI sheet says 17.10.2026.\n\nSo BI's own topping-out-to-keys interval here is about 8–12 months, slower than the generic 4–9. I used 8–12 months (base about 10) for the realistic window. Treat 6 months as an aggressive floor.\n\nRESULTS:\n- Delivered: DARYN A and B.\n- Topped out and finishing, keys plausible Q4 2026 – Q1 2027: DARYN D (Oct 2026 – Jan 2027), DARYN E (Dec 2026 – Mar 2027), K's main part (Oct 2026 – Feb 2027), TARIH A (Oct 2026 – Jan 2027) and TARIH B (Dec 2026 – Mar 2027).\n- TARIH C topped out about Jun–Jul 2026, so keys about Mar – Jul 2027.\n- Rose in mid-2026 and are only now at or near full height: DARYN C1 (frame went up Jun–Aug 2026), C2–C3, F, G (G6 still rising), H, K's NE part and TARIH E. Realistic keys for these are mid to late 2027.\n- DARYN M was at about 1–5 floors in Oct 2026, so keys about 2028.\n- The lot A building has piles only.\n\nThis contradicts the BI and owner dates for:\n- C ('26.12.2026', 'Q4 2026')\n- H (27.02.2027)\n- M (31.03.2027)\n- TARIH E (Q1 2027)\n- K's NE part, if the 17.10.2026 date is meant for the whole of K.\n\nLIMITS OF 10 m IMAGERY (explicit):\n- Height precision is about ±1 pixel along the shadow: ±6 m (±2 floors) at 31° sun, ±17 m in midsummer.\n- Wall positions are ±5–10 m. Shadows falling on neighbouring buildings, closed courtyards, podiums, asphalt or dark ground truncate or inflate the measurement. Several values (C2–C3, G5, K courtyard, TARIH A/B courtyards, H over lot A) are bounds or ranges only.\n- It cannot tell a topped-out frame from a last floor still in formwork. It cannot show façade, windows, MEP, heating or power hook-up, lifts, finishing, landscaping in detail, the state commissioning act, or whether keys are actually being handed.\n- It cannot separate individual sections inside a block, or tell which section a given office is in.\n- The topping-out months are inferred from plateaus between scenes that can be 4–8 weeks apart. Handover windows are model estimates, not facts.\n\nImages are in /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_imagery/:\n- Overview montages: mont_2024_2025.png, mont_2025H2.png, mont_snow.png, mont_2026.png\n- Strips: st_E_D.png, st_B_A.png, st_K.png, st_C_M_H.png, st_M_L.png, st_G_F.png, st_F.png, st_TARIH.png, st_TAB_NW.png\n- Block montages: bm_C_M.png, bm_west.png, bm_HG_2026.png, bm_TARIH_winter.png\n- Footprint check crops: work/gz_*.png\n- Scripts: scripts/",
+   "conflicts": [
+    "DARYN C: the owner ad says 'передача ключей 26.12.2026' and the BI CSV says C Q4 2026. Imagery shows C1 with no shadow up to 2 Jun 2026 and its frame rising Jun–Aug 2026. C2–C3 were low in Jul 2026 and only tall by Sep 2026. Keys before about mid-2027 are not credible.",
+    "DARYN H: the BI sheet says 27.02.2027. H was still a rising frame with cranes in Jul 2026 and was only near full height in Sep–Nov 2026, so 3–5 months to keys would be far faster than this cluster's observed 8–12.",
+    "DARYN M: the BI sheet says 31.03.2027 and the BI CSV Q1 2027. M was a bare raft in Jul 2026 and about 1–5 floors on 13 Oct 2026, so about 2028 is realistic.",
+    "DARYN K: the BI sheet says 17.10.2026. That fits the W column and S bar (topped out about Jan–Feb 2026), but not the NE part, which rose Jul–Oct 2026 (possibly korter 'K-2').",
+    "DARYN A: korter's 'A Q4 2027' conflicts with the imagery (built and landscaped by about Jul 2026) and with the owner ad 'ключи на руках'. metry's 'A Q2 2026' is earlier than the about Nov–Dec 2025 topping-out allows, so Q3 2026 is more likely.",
+    "DARYN D: metry says Q3 2026 and the owner ad says Nov 2026. Topping-out was about Nov 2025, so the owner date fits and Q3 2026 probably slipped.",
+    "TARIH E: BI says Q1 2027, but the SE part was still a frame in Jul 2026 and the north bar only reached about 9 floors in Sep–Oct 2026.",
+    "TARIH C: BI says Q1 2027. Topping-out was about Jun–Jul 2026, so Q1 2027 would need only about 8–9 months: possible but at the optimistic edge.",
+    "The C1 height plateau of about 35–37 m in Sep–Oct 2026 is below the reported 17-floor design (about 52 m). Either the wall position estimate is off by about 10 m or C1 was not yet topped out."
+   ],
+   "gaps": [
+    "The Google mosaic is undated. I estimated about Jul 2026 from correlation with S2 (best 15 Jul 2026), which is not a stated acquisition date.",
+    "Section-level heights inside blocks (E1–E5, D tower vs slab, F sections, G5, the H sections, M4–M7) are not separable at 10 m. Several are lower bounds or ranges only.",
+    "TARIH A and B absolute heights could not be measured cleanly, because their shadows fall on DARYN F/G, the Аллея and courtyard podiums. Their topping-out months come from qualitative snow-scene shadow extent.",
+    "The TARIH E SE part gave no measurable shadow, so its height in Oct 2026 is unknown.",
+    "The 8–12 month topping-out-to-keys interval is calibrated from only five BI blocks in this cluster, partly using owner ads and BI sheet dates as the 'keys' end.",
+    "No sub-metre imagery after about Jul 2026 was available, so the Aug–Oct 2026 status rests on 10 m S2 only.",
+    "Commissioning acts, utility connections and actual key handover cannot be observed from orbit. These need on-site checks, the BI sales office, or the state commissioning register (акт ввода).",
+    "Lot A building: use and size are unknown. It is piles only."
+   ]
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "Esri Wayback imagery at the site is dated 2024-09-17 (bare steppe), so all blocks were built after that",
+     "verdict": "confirmed",
+     "evidence": "I re-queried the Wayback metadata (scripts/wbmeta.py) for the releases of 2026-05-28, 06-30, 08-05 and 09-24. All four return SRC_DATE2 2024-09-17, 0.31 m, 'Vivid Advanced'. Even the newest Esri release has no 2025–26 capture."
+    },
+    {
+     "claim": "The undated Google mosaic is about July 2026 (best correlation r=0.96 with S2 of 15 Jul 2026)",
+     "verdict": "confirmed",
+     "evidence": "I re-ran regcheck.py. Correlations were 0428 0.625, 0602 0.702, 0620 0.798, 0709 0.847, 0715 0.957, 0730 0.901, 0814 0.905, 0908 0.837 and 1013 0.633. The tiles also carry a '© 2026 Google' watermark. Caveat: the correlation is partly driven by shadow geometry, so 'late Jun – mid Aug 2026' is the honest window. It is not a stated acquisition date."
+    },
+    {
+     "claim": "DARYN A and B are built, landscaped and occupied by about Jul 2026 (delivered)",
+     "verdict": "confirmed",
+     "evidence": "Google crop handover_verify_imagery/g_AK.png and g_B.png: A has a finished perimeter and a landscaped courtyard with playgrounds. B is finished, with rows of parked cars on its west side. OSM way 1478765471 is 'ЖК ŪIA.DARYN Блок B', Улы Дала 10, building:levels 14, at local (490,−271). Imagery cannot prove the commissioning act or key handover. 'Delivered' rests on the owner ads plus physical completion."
+    },
+    {
+     "claim": "B: about 35 m on 2025-09-25, about 41 m on 2025-10-28, then a 39–43 m plateau; topped out about Oct 2025",
+     "verdict": "confirmed",
+     "evidence": "Automated probe re-run (handover_verify_imagery/sh.json), B: 39 (09-25), 41 (10-28), 41 (11-19), then 36–41 through 2026-10-13. The summer 2026 values of 27–39 are noisy. It also gives about 15–17 m on 2025-03-02 and 07-20, so B was already partly up in spring 2025."
+    },
+    {
+     "claim": "DARYN D topped out about Nov 2025 (about 33 m on 2025-09-25, about 46 m on 2025-10-28), with a 48–53 m plateau",
+     "verdict": "partially",
+     "evidence": "Probe D_N: 46 m on 2025-09-25, 51 on 10-28, 49 on 11-19, and about 45–51 through 2026-10-13. My strip st_A_early.png (D175) shows the shadow tip at about +55 m on 09-25 (el 37, about 41 m) and about +80 m on 10-10 (el 32, about 50 m). So D was at or near full height by about early or mid Oct 2025, about a month earlier than claimed. Its plateau is about 45–51 m, not 48–53. The 'ключи ноябрь 2026' fit still holds, at about 13 months after topping-out. Mapping 'D = Улы Дала 4' is an inference: OSM way 1478765467 at (176,−190) is named only 'ЖК ŪIA.DARYN' with no block letter."
+    },
+    {
+     "claim": "DARYN E (Улы Дала 10а) rose Sep 2025 – Mar 2026 and has a 50–54 m plateau from 2026-04-28",
+     "verdict": "confirmed",
+     "evidence": "OSM way 1478765469 'ЖК ŪIA.DARYN блок Е', Улы Дала 10а, at (54,−138). Probe E_N: 20 (09-25), 31 (10-28), 39 (11-19), 46 (02-15), 48 (02-25), 51 (03-27), 52 (04-28), then 49–52 through 10-13. Google (g_FG.png) shows E finished, with a crane still on site."
+    },
+    {
+     "claim": "DARYN C1 had no shadow up to 2026-06-02 'at el 60°, where even a 15 m building would show'; its frame rose Jun–Aug 2026; it was 35–37 m on 09-08, 09-20, 10-07 and 10-13; and Google (Jul) shows it 'tall with a crane'",
+     "verdict": "partially",
+     "evidence": "Snow scenes of 2025-12-27, 2026-02-15 and 02-25 show the whole C box white with no shadow, so C1 had no significant structure before late Feb 2026 (mont_mid.png, mont_C_spring.png). The '15 m would show' reasoning is wrong: at el 60° a 15 m building casts an 8.7 m shadow, under one 10 m S2 pixel, so 06-02 does not prove C1 was absent. In Google (g_C1.png), C1's shadow offset is about 12–15 m against B's about 25 m (B is 14 fl.), so C1 was roughly half-height (about 20–25 m) in Jul, not 'tall'. My strips (st_C1_H.png) give the shadow tip at about +15–25 m on 09-08 (about 15–24 m high), about +35–45 on 09-20 (about 28–37 m) and about +55–60 on 10-07 and 10-13 (about 33–39 m). The auto probe gives 6, 0, 17 and 24 m, because the tip falls on the dark avenue. So 35–37 m is supported only for October; C1 was still rising in Sep–Oct. The conclusion that C is not handed over in Dec 2026 is, if anything, strengthened."
+    },
+    {
+     "claim": "DARYN M (sections 4–7) was two bare raft slabs in Jul 2026 and about 1–5 floors on 13 Oct 2026, so 31.03.2027 is unachievable",
+     "verdict": "confirmed",
+     "evidence": "Google g_CMH.png: two bare concrete slabs at x 300–335, y −180…−245 and −280…−345, with no walls. Probe M7: 0 on every date up to 2026-10-07 and 5 m on 10-13. Reaching keys by 31.03.2027 from 1–5 floors in mid-October is not physically plausible. The '2028' window is a model estimate."
+    },
+    {
+     "claim": "The lot A building is piles only, with no above-ground structure up to Oct 2026",
+     "verdict": "confirmed",
+     "evidence": "Google g_CMH.png shows a pile field with materials and piling rigs at x 360–450, y −170…−260. The LotA probe found no shadow on any of the 19 dates through 2026-10-13."
+    },
+    {
+     "claim": "DARYN H was a frame rising in Jul 2026 and near full height only Sep–Nov 2026, so BI 27.02.2027 is too early (keys Jul–Nov 2027)",
+     "verdict": "contradicted",
+     "evidence": "Google g_H.png (about Jul 2026): the north section (x 350–410, y −275…−305), the east tower (x 400–430, y −305…−345, already carrying a roof structure) and the SW section all cast NW shadows offset about 20–25 m. That is comparable to B's about 25 m (14 fl.). So H's main sections were already near B's height in about Jul 2026, not merely 'rising'. The S2 figure of 36–45 m on 09-20 and 10-13 is not reproducible: the auto probe gives 8–11 m, and my strips are ambiguous because lot A's dark ground sits behind them. Topping-out is more likely about Jul–Sep 2026. That makes 27.02.2027 aggressive (about 6–8 months) but not clearly impossible."
+    },
+    {
+     "claim": "DARYN K: the W column and S bar topped out about Jan–Feb 2026; the NE part was a low frame in Jul 2026 and rose to about 45 m by Sep–Oct 2026",
+     "verdict": "partially",
+     "evidence": "Google g_AK.png confirms the W column, S bar and SE tower are finished with a landscaped courtyard. It also confirms the NE part (x 575–665, y −330…−395) is a low frame with formwork. Snow scenes show tall shadows inside K already on 2025-12-27 and 2026-01-18, so the main part was up by about Dec 2025 – Feb 2026. The NE height series does not hold. The K_NE probe (wall −325) runs straight onto A's finished south bar and courtyard, and the original strip st_K.png already shows the same dark band on 2026-03-27 and 04-28, when the NE part did not exist above ground. The '25 m Jul / 45 m Sep' values are artefacts. Only 'low frame in about Jul 2026' is supported."
+    },
+    {
+     "claim": "DARYN F: near full height in Jul 2026 but only about 13/29/33 m 'beyond the wall' in Aug–Oct; topping-out Sep–Nov 2026",
+     "verdict": "partially",
+     "evidence": "Google g_FG.png shows F towers with NW shadows comparable to finished E's, so F was largely at height by about Jul 2026. The S2 F_S series gives 8–24 m in Aug–Oct 2026, which does not fit F already being near full height in Jul. The S2 numbers are measurement artefacts (shadow onto F itself), and the agent's own note admits this. Topping-out is more likely Jul–Sep 2026, so BI 05.06.2027 sits inside the agent's own 8–12-month calibration rather than at its 'optimistic edge'."
+    },
+    {
+     "claim": "DARYN G: the slab was about 45 m by Jul–Aug 2026 and G6 was still rising in Oct 2026",
+     "verdict": "partially",
+     "evidence": "Probe G_sl: 0 until 06-02, then 25 (06-20), 29 (07-15), 44 (08-14), 34–39 (Sep) and 21 (10-13). Probe G6: 0 until 07-15, then 16 (08-14), 37 (09-08), ≥45 (09-20) and 32–36 (Oct). So the slab reached about 40–45 m in Aug rather than mid-Jul, and G6 rose Aug–Sep 2026. Google shows G6 as a frame in Jul. The direction of the claim (G last among the western blocks) holds, but the individual readings vary by ±10–15 m between methods."
+    },
+    {
+     "claim": "TARIH A rose Oct–Dec 2025 and topped out about Dec 2025 – Jan 2026; TARIH B rose Dec 2025 – Feb 2026 and topped out about Feb–Mar 2026",
+     "verdict": "confirmed",
+     "evidence": "My montage mont_TARIH_winter.png: on 2025-10-28 a dark band already sits just north of T-A (a low structure). 2025-12-27 and 2026-01-18 show large blue shadows north of T-A. B shows only small patches on 12-27, a north-bar shadow band on 02-15 and a strong one on 02-25. Google g_TARIH.png (about Jul) shows A and B roofed, with courtyards still under works. Absolute heights are unmeasured, as the agent says."
+    },
+    {
+     "claim": "TARIH C: about 26 m on 06-02, then a 27–30 m plateau (9 fl. + parapet), topped out about Jun–Jul 2026",
+     "verdict": "partially",
+     "evidence": "Timing is confirmed. A faint ring appears on 2026-02-25 and a clear ring on 03-17. Probe TC_N gives 12 (03-27), 9 (04-28), 27 (06-02), then 21–25 through 10-13. Probe TC_S plateaus at 22–26 from Aug. Google shows the closed square roofed around a bare concrete courtyard. The automated plateau is about 22–25 m, a few metres below the claimed 27–30 m. The '9 floors' figure is not derivable from imagery."
+    },
+    {
+     "claim": "TARIH E north bar: about 9 m on 06-02, 17 m on 07-15, 24 m on 09-08 and 27 m on 10-13, reaching 9 floors only in Sep–Oct 2026; BI Q1 2027 not credible",
+     "verdict": "contradicted",
+     "evidence": "Google g_TCE.png (about Jul 2026): the TE north bar (x 200–290, y −390…−410) has a finished roof with hatches. Its NW shadow (to about y −365, about 25 m) is as long as or longer than the topped-out TARIH C north bar's (about 20–25 m). So the north bar was at about C's height already in about Jul. The S2 series contradicts the agent's own Google observation. The auto probe gives 9, 13, 17 and 15–21 m. The W tower section (x 215–235, y −425…−470) also casts a long shadow. Only the far SE part (x 255–285) was a low frame. Whole-block topping-out is more plausibly Aug–Oct 2026, so 'Aug–Dec 2027 keys' is likely too pessimistic. BI Q1 2027 remains aggressive (about 5–7 months)."
+    },
+    {
+     "claim": "Calibration: BI's topping-out-to-keys interval in this cluster is 8–12 months, based on A, B, D, E and K",
+     "verdict": "partially",
+     "evidence": "The calibration is circular. For E (24.12.2026) and K (17.10.2026) the 'keys' end is BI's own promised sheet date, not an observed handover. For D it is an owner ad. The only observed completions are A and B. Neither has a dated handover; they were physically finished and occupied in the about Jul 2026 Google image. B topped out about Sep–Oct 2025 and was occupied by about Jul 2026, so ≤9–10 months. The band is an assumption, not a measured fact. Applying it uniformly is what produces the late-2027/2028 dates."
+    }
+   ],
+   "corrections": [
+    "DARYN D reached near-full height by about early or mid Oct 2025, not about Nov 2025 (S2: about 41–46 m on 2025-09-25, about 50 m on 10-10 and 10-28). Its plateau is about 45–51 m, not 48–53. The 'ключи ноябрь 2026' owner date still fits.",
+    "DARYN C1: no structure up to late Feb 2026 (snow scenes). It was roughly half-height (about 20–25 m) in the about-Jul 2026 Google image, not 'tall'. It was about 15–24 m on 09-08 and about 33–39 m on 10-07 and 10-13, so it was still rising in October. The '15 m would show at el 60°' argument is invalid, because a 15 m building casts under one S2 pixel of shadow at that sun height.",
+    "DARYN H: Google (about Jul 2026) shows the north, east and SW sections casting shadows comparable to B's (14 fl.). Topping-out is about Jul–Sep 2026, not Sep–Nov. BI 27.02.2027 is aggressive but not 'not achievable'. A realistic window is about Mar–Aug 2027, not Jul–Nov 2027.",
+    "DARYN F: Google shows F largely at height by about Jul 2026. The S2 Aug–Oct heights (13/29/33 m) are artefacts. Topping-out is about Jul–Sep 2026, and BI 05.06.2027 lies inside the agent's own calibration band rather than at its optimistic edge.",
+    "DARYN K NE part: the S2 heights (25 m Jul, 45 m Sep, ≥36 m Oct) are artefacts. The probe crosses A's finished south bar, and the same dark band is present in Mar–Apr 2026, before the part existed. Only 'low frame with formwork in about Jul 2026' (Google) is supported. Its topping-out date is unknown.",
+    "TARIH E: the north bar had a finished roof and a shadow as long as topped-out TARIH C's in about Jul 2026. The S2 series (17 m in Jul, 27 m in Oct) is wrong. Only the far SE part was a low frame. Whole-block topping-out is more likely Aug–Oct 2026, and keys about Q2–Q3 2027 rather than Aug–Dec 2027.",
+    "TARIH C: the automated plateau is about 22–25 m, not 27–30 m. The '9 floors' figure comes from elsewhere, not from imagery.",
+    "DARYN G slab: reached about 40–45 m in Aug 2026 rather than by 15 Jul (the auto probe gives 29 m on 07-15 and 44 m on 08-14).",
+    "Calibration: the 8–12 month topping-out-to-keys band is partly circular. It uses BI's own promised dates for E and K and an undated owner ad for D. Observed completions are only A and B, with undated handovers. The band should be labelled an assumption.",
+    "The Google mosaic date should be stated as 'about late Jun – mid Aug 2026' (correlation peak 15 Jul; 0.90 on 30 Jul and 14 Aug), not as a point date."
+   ],
+   "missing": [
+    "No imagery gives any handover date. Commissioning acts (акт ввода), utility hook-ups and actual key handover need the state register, the BI office or a site visit.",
+    "Design floor counts per block and section (needed to judge whether a plateau means topped out) are not established from imagery. C1's '17 fl.' and TARIH's '9 fl.' come from other sources.",
+    "Section-level mapping (which korter or BI section a given ground-floor office is in) is not resolved, especially for K versus 'K-2', C1 versus C2–C3, and the TARIH E north bar versus the SE part.",
+    "The dates of the owner ads ('дом сдан', 'введен в эксплуатацию') are not given, so the A and B topping-out-to-keys intervals are only upper bounds.",
+    "D's block letter at Улы Дала 4 is inferred. OSM names that building only 'ЖК ŪIA.DARYN'.",
+    "I did not re-check the BI sheet dates themselves (24.12.2026, 17.10.2026, 27.02.2027, 31.03.2027, 05.06.2027, 25.09.2027). They are inputs here and were verified by another track.",
+    "There is no sub-metre imagery after about Jul 2026. Planet or Maxar from Sep–Oct 2026 would settle C1, H, F, G6, K NE and TARIH E heights."
+   ],
+   "overall_reliability": "medium",
+   "summary": "I re-ran the imagery track from the agent's own cached S2 scenes (work/L_*.npz), the Google mosaic and the Esri Wayback metadata. New renders are in /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/handover_verify_imagery/: sh.json (automated shadow probes, 21 probes × 19 dates), st_C1_H.png, st_A_early.png, mont_east_winter.png, mont_mid.png, mont_C_spring.png, mont_TARIH_winter.png, and the Google crops g_AK, g_B, g_C1, g_CMH, g_H, g_FG, g_TARIH and g_TCE.\n\nThe robust findings hold:\n- The Esri capture is 2024-09-17.\n- The Google mosaic is about Jul 2026.\n- DARYN A and B were physically complete, landscaped and occupied.\n- D, E, K's main part, TARIH A, B and C were topped out by mid-2026.\n- C1 had no structure until spring 2026 and was still rising in Oct 2026, so 'C keys 26.12.2026 / Q4 2026' is not credible.\n- M was a bare raft in Jul and about 1–2 storeys in Oct 2026, so 31.03.2027 is impossible.\n- Lot A is piles only.\n- K's NE part was a low frame in Jul 2026, so 17.10.2026 cannot apply to it.\n\nThe weak part is the S2 height series for blocks whose shadows fall on other buildings or dark ground. The K NE, H, F and TARIH E numbers are contradicted by the agent's own Google observations or are probe artefacts.\n\nCorrecting them moves H, F and TARIH E topping-out earlier, to about Jul–Oct 2026. That softens the agent's 'BI date not credible' verdicts for H (27.02.2027) and TARIH E (Q1 2027) to 'aggressive', and makes F's 05.06.2027 consistent with the agent's own model.\n\nThe 8–12-month topping-out-to-keys calibration is partly circular, because it uses BI's promised dates as observations. All handover windows remain model estimates, not facts."
+  }
+ }
+]
