@@ -1,0 +1,252 @@
+[
+ {
+  "key": "assumptions",
+  "errors": [
+   {
+    "what": "The ramp in five_year() pays more in years 2 and 3 than in the mature years. In ramp years the cash factor is contract×pct×0.95. In mature years it is contract×0.85. As a share of the ask M that gives: year 1 0.641, year 2 0.752, year 3 0.812, mature 0.765.",
+    "why_wrong": "Year 3 comes out 6% above stabilised and year 2 is level with it, so in practice only year 1 is ramped. Ramp years carry the same ОСИ and the same vacancy between tenants as mature years, and probably more, so they should not get a 5% allowance when mature years get 15%. The research ramp (75/88/95% of M as the contracted rate) also does not fit the 0.9 haggle. Its year-3 contract of 0.95M is above the mature contract of 0.9M.",
+    "fix": "Apply the ramp percentages to the mature cash level: cash = 0.9·M·pct·0.85. Equivalently, set the ramp allowance to 0.85. My recomputation lowers the 5-year averages by 0.4–0.7 pp. Examples: C-15 6.6→5.9, C-19 6.2→5.6, B-16 4.8→4.4. The order of units is unchanged.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "The docstring says the year-1/2/3 contract is 70/85/95% of M. The code uses 0.75/0.88/0.95 and applies them to the contract rent (0.9·M), not to M.",
+    "why_wrong": "The comment and the code describe different ramps, and neither matches the research's 'of M' definition.",
+    "fix": "Make the comment match the code, and say which base the percentages apply to.",
+    "impact": "cosmetic"
+   },
+   {
+    "what": "Key slippage is set at one quarter: KEYS gives 5 months for Q4 2026 and 8 months for Q1 2027.",
+    "why_wrong": "Krisha listed TARIH queue 1 for Q1 2026, so it is already about 3 quarters late. SŪNQAR's Q3 2026 date has passed. Gasyr next door has slipped 8 times since Q4 2024. Korter dates DARYN later than the BI sheets. One quarter is the optimistic end of the evidence.",
+    "fix": "Use 2 quarters of slip in the base case (8 and 11 months) and 3–4 quarters in the slow case. Each extra quarter costs about 0.4–0.5 pp of 5-year yield. C-15 at M=8,000 goes 5.9→5.4 with +3 months. At M=7,000 it goes 5.1→4.6→4.2 at 8/11/14 months to keys.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "DEFLATOR = 8000/9200 sets the mature ask for the best TARIH frontage (C-15) at M = 8,000 ₸/m².",
+    "why_wrong": "The analog asks are 8,344, about 8,250, about 7,150, 6,854 and 6,640. Their median is 7,150 and their mean 7,447. Excluding the undelivered OİU, the median is 7,698. 8,000 is near the top of that range. Of the two analogs above it, Athletic City's figure mixes 2021–2026 vintages and includes a basement unit and two subleases (verifier). Jetisu was delivered next to populated earlier phases. Both are first-line on arterials in populated Нура, while TARIH's best units face internal cluster streets. The verifier rates all the analogs as less frontier than TARIH. Two more points weigh against 8,000. First, the agent's vintage split for the 5–8 km ring puts 2022–2024 builds at 5,556 against 8,206 for 2025+ (not reproduced, so an estimate). Second, a same-building owner ask at Улы Дала 14 is 5,682. On this evidence a 'mature' level for an internal frontier street is about 6,500–7,500. The comment's own 9,865 ÜIA ask median does not produce 9,200 either. The 9,200 is simply C-15's old rent.",
+    "fix": "Use a base anchor of M ≈ 7,000 (DEFLATOR 7000/9200 = 0.761), treat 8,000 as the upside, and add a 6,000 downside. The current stab_low (7,000) then becomes the base case. Estimated results at M=7,000 with the ramp fix and 2 quarters of slip: C-15 stabilised 8.4% and 5-year 4.6%; C-19 8.0% and 4.4%; C-13 8.0% and 4.4%.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "M is not capped at the stated anchor. E-7 gets M = 8,591, above the 8,000 'best TARIH street', because of its 9,880 old rent and a factor of 1.00. The ORIENT note calls it the 'NW corner of E at the crossroads'.",
+    "why_wrong": "The extract places E-7 at the north end of section 3 on the C|E street, with section 4 to its north. The adjudication gives the NW crossroads corner of E to office 6 of section 4. E-7 therefore has the same frontage as E-8 (0.97), and its pre-delivery premium survives the deflator.",
+    "fix": "Cap M at the anchor, or set E-7's factor to about 0.93 so that M is about 8,000. E-7 costs 119.5 M, which is outside the 65–110 M budget anyway.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "The ORIENT factors are inconsistent for frontages that face empty land. C-4, C-5 and C-6 are mid-Аллея units facing empty south-row plots and get 0.92. B-3 and B-4 face empty plot D across the east passage and get 0.85.",
+    "why_wrong": "The condition is the same: no residents across, and no through route north. Residents can only head north to Улы Дала. The Аллея runs east–west and starts at Айтматова, where there is nothing, so it carries no north-bound flow for C. The extract says C-4, C-5 and C-6 have no view from any car street. C-6 also has basement stairs in front of its shopfront.",
+    "fix": "Set C-4 and C-5 to about 0.86, C-6 to about 0.84, and C-8 and C-9 to about 0.90, since they get only an oblique view from the C|E × Аллея corner. With this, C-6 drops level with B-16, and C-4 drops below B-16 and E-7.",
+    "impact": "changes ranking"
+   },
+   {
+    "what": "B-16 and B-17 are discounted multiplicatively (0.78 and 0.75) from an old rent of 10,260. That old rent was set when the site-map ranked the Айтматова façade #1 for 'through car traffic, public-transport pedestrians'.",
+    "why_wrong": "Very little of that arterial premium still holds. After the factor, B-16's M is 87% of C-15's, while B-16's only flow is B's own residents. Section 4's residential lobby does open onto this façade, which helps a little. Sentinel-2 shows the stub as an unpaved 20–30 m band running only from 51.1066 to about 51.103. TARIH B's west façade is at about 51.1018–51.1028. So the stub is not shown to run past B-16 and B-17 at all. Cars bound for A, C and E would turn east onto the boundary street at A's NW corner, about 170–220 m north of B-16. Only B-bound cars would continue south, and B's parking gate is on the southern street at the 1/10 gap.",
+    "fix": "Lower B-16 to about 0.74 and B-17 to about 0.71 (estimate: strip about 15% of arterial premium, then apply the B-3/B-4-type 0.85). Do not model a car-visibility upside. The 'main vehicle entry' scenario would benefit A's west façade and the boundary street (C-19), not B-16 and B-17.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "The output ranks all 28 units without applying the user's 65–110 M budget.",
+    "why_wrong": "9 units are outside it. E-7 (119.5 M) and E-4 (111.6 M) are above. C-20, C-22, C-5, E-5, C-9, C-4 and B-12 (42.5–60.9 M) are below. E-7 and E-4 rank 13th and 16th by stabilised yield and could end up on a shortlist.",
+    "fix": "Add an in_budget flag or filter. 19 units are in budget. The top three in budget are unchanged: C-15, C-19, C-13.",
+    "impact": "cosmetic"
+   },
+   {
+    "what": "There is no capital value or exit in the 5-year metric. It is income only, divided by the purchase price.",
+    "why_wrong": "Delivered-analog resale asks are 720–875k ₸/m² (Salman City, Uly Dala Avenue, Улы Дала 28), and those analogs are in better locations. E units cost 902–918k ₸/m² and B-16/B-17 765k. At a 10% cap rate on stabilised NOI and M=7,000, the implied values are about 547–656k ₸/m² for E units, 537–559k for B-16/B-17, and 610–643k for C-15/C-19/C-13 (estimates). BI is also discounting C by 30%, B by 15% and E by 18% while holding about 28 TARIH and 42 DARYN units. Resale above BI's own current price is unlikely while that stock remains. For E units, a 15–30% exit discount amounts to −3 to −6 pp a year over 5 years, which outweighs the income.",
+    "fix": "Add a total-return line: 5-year income plus (exit value − price)/price/5. Use an exit based on the analog resale range (about 650–800k ₸/m², adjusted for frontier location) or on NOI/10%. Show it next to y5. E-units and B-16/B-17 should be marked as carrying capital-value risk.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "The yields are not compared with any alternative, and rents are flat in nominal terms for 5 years.",
+    "why_wrong": "A 4–6% nominal 5-year average is far below tenge deposit and bond yields, which I estimate at the mid-teens and should be checked against current KDIF and NBK figures. Inflation is also high. Flat nominal rents are conservative, but nothing offsets the opportunity cost of paying 100% upfront 8–11 months before keys.",
+    "fix": "Report an IRR or NPV with a stated tenge discount rate and an explicit rent indexation assumption, or at least state the gap to the deposit rate.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "A uniform mature vacancy/ОСИ factor of 0.85 is used for every unit, including the edge units.",
+    "why_wrong": "There are about 70 BI units unsold, about 12 owner rent ads with no tenant anywhere, Gasyr's delivered first-line units are cutting asks, and rent holidays are common. Analogs show about 25–50% of stock on the market 1.5–3.5 years after keys (an extrapolation per the verifier). Colliers (Almaty, 2020) found at least a third vacant. Edge units facing empty plots will see longer re-letting gaps permanently, not just in the first lag.",
+    "fix": "Use about 0.80 for edge units (factor ≤ 0.88) in mature years and about 0.85 for the boundary and C|E street units. Run 0.75 as a stress case.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "E's north frontage (E-2, E-4, E-5) gets a factor of 1.00 on the assumption that DARYN M stands across the boundary street.",
+    "why_wrong": "DARYN M is on the BI sheet (Q1 2027) and in one krisha ad, but not on korter. Neither the imagery nor the listings confirm that it is built. If it is not, E's north faces an empty plot and the 1.00 is unsupported. C-19 faces DARYN G (korter Q3 2027), which is better documented.",
+    "fix": "Make it conditional: 0.95 until DARYN M is confirmed under construction.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "Two tax details. (1) The 4% simplified-regime tax is applied after the 0.85 vacancy/ОСИ deduction. (2) Property tax of 0.5% is charged for all 60 months, including months before keys.",
+    "why_wrong": "(1) Tax applies to rental income before ОСИ, which is an expense, so the model slightly under-taxes. (2) No property tax is due before ownership is registered, so the model slightly over-charges. Capital Realty also quotes 3% for Astana ИП from 2026, against 4% in the model. Each effect is about 0.1 pp or less, and they partly cancel.",
+    "fix": "Tax rent × occupancy, deduct ОСИ separately, and start property tax at keys. Confirm the rate, and confirm that leasing is a permitted activity under the 2026 simplified regime.",
+    "impact": "cosmetic"
+   }
+  ],
+  "factor_changes": [
+   {
+    "office": "ALL (DEFLATOR / anchor M for best frontage)",
+    "current": 0.8696,
+    "proposed": 0.7609,
+    "reason": "This moves the anchor from 8,000 to 7,000 ₸/m². The analog median is 7,150 (7,698 excluding the undelivered OİU), the analogs are less frontier than TARIH, the best TARIH units face internal streets rather than an arterial, and 2022–24 builds in the 5–8 km ring ask about 5,556 (estimate). Keep 8,000 as the upside case."
+   },
+   {
+    "office": "C-4",
+    "current": 0.92,
+    "proposed": 0.86,
+    "reason": "Mid-Аллея unit facing empty south-row plots with no car-street view. That is the same situation as B-3/B-4 (0.85). The Аллея carries no north-bound resident flow."
+   },
+   {
+    "office": "C-5",
+    "current": 0.92,
+    "proposed": 0.86,
+    "reason": "Same as C-4: mid-Аллея, facing empty plots, no view from a car street."
+   },
+   {
+    "office": "C-6",
+    "current": 0.92,
+    "proposed": 0.84,
+    "reason": "Same as C-4, plus basement stairs in front of the shopfront."
+   },
+   {
+    "office": "C-8",
+    "current": 0.92,
+    "proposed": 0.9,
+    "reason": "23–30 m from the C|E × Аллея corner, with only an oblique view. South of the Аллея the C|E street leads to empty land."
+   },
+   {
+    "office": "C-9",
+    "current": 0.92,
+    "proposed": 0.9,
+    "reason": "13–23 m from the corner; office 10 holds the corner. Only an oblique view from the C|E street."
+   },
+   {
+    "office": "E-7",
+    "current": 1,
+    "proposed": 0.93,
+    "reason": "Not the crossroads corner; office 6 of section 4 holds it. It is the north end of section 3 on the C|E street, comparable to E-8 (0.97). At 1.00 its M is 8,591, above the model's own 8,000 anchor. 0.93 caps it at about 8,000. It is also outside the budget at 119.5 M."
+   },
+   {
+    "office": "B-16",
+    "current": 0.78,
+    "proposed": 0.74,
+    "reason": "The old rent of 10,260 still includes most of an arterial premium that no longer applies. The stub is unpaved and on imagery ends at about 51.103, north of B (51.1018–51.1028). Through-entering cars turn east about 170–220 m to the north. Its flow is B residents only, plus section 4's own lobby."
+   },
+   {
+    "office": "B-17",
+    "current": 0.75,
+    "proposed": 0.71,
+    "reason": "Same as B-16, and nearer the SW corner, which has steppe on two sides and no evidence of a built southern street."
+   },
+   {
+    "office": "E-2",
+    "current": 1,
+    "proposed": 0.95,
+    "reason": "Conditional: the DARYN M block across the street is not on korter, and it is not confirmed that it has been started."
+   },
+   {
+    "office": "E-4",
+    "current": 1,
+    "proposed": 0.95,
+    "reason": "Conditional on DARYN M, as for E-2. This is a mid-block frontage (adjudicated tier 4). It is outside the budget at 111.6 M."
+   },
+   {
+    "office": "E-5",
+    "current": 1,
+    "proposed": 0.95,
+    "reason": "Conditional on DARYN M, as for E-2. It has a narrow 3.3 m corridor entrance."
+   }
+  ],
+  "verdict_on_recommendation": "The model's arithmetic is correct: I recomputed M and the stabilised yield for all 28 units with zero mismatches. The price-for-9% inversion is also correct. The order of the top units holds up under every correction I tested: the ramp fix, 2 quarters of slip, the 7,000 anchor and the revised orientation factors. In-budget, C-15, C-19 and C-13 stay first, second and third.\n\nThe absolute numbers are overstated, for three reasons:\n- **The ramp does not ramp.** Years 2–3 pay at or above the mature level.\n- **Slippage is set too low.** Only one quarter is assumed, although TARIH is already about 3 quarters behind its earlier listing.\n- **The mature anchor is too high.** M = 8,000 sits near the top of an analog set the verifier calls less frontier than TARIH.\n\nWith these fixed, the base-case estimates for the top three are 8.0–8.4% stabilised and about 4.4–4.6% as a 5-year average. At M = 7,000 the price that gives 9% stabilised is about 72.1 M for C-15 (list 76.6), 58.6 M for C-19 (65.6) and 67.2 M for C-13 (75.4). So none of them clears 9% at list price in the base case. These are estimates built on asking rents, and no tenant exists anywhere in the cluster.\n\nThe model also leaves out capital value. E-units at 902–918k ₸/m², and B-16/B-17 at 765k with weak frontage, carry exit-value risk against the analog resale asks of 720–875k and against BI's own discounted, unsold stock. On point (d): the Айтматова stub is plausibly the main car entry for the western half of TARIH. But that traffic turns east onto the boundary street well north of B-16/B-17, and the imagery does not show the stub reaching B. The SSW earthwork corridor runs about 110 m west of Айтматова's projected line. It could be a road, but it is not in the 2026 programme and is just as consistent with a utility or drainage corridor, so it should not be priced in. TARIH's 4.2 m ceilings are a real advantage over DARYN's 2.7–2.8 m for food-service, fitness and mezzanine uses. Gasyr's delivered Улы Дала units have 4.5–4.6 m, though, so the advantage holds only against DARYN.",
+  "alternative_recommendation": "1. **Narrow the TARIH choice.** If buying in TARIH, consider only C-15 (76.6 M) or C-19 (65.6 M, the cheapest ticket on the boundary-street spine, though its frontage is only 6.9 m and its glazing 4.2 m). Exclude these:\n   - all E units: capital-value risk at 902k+;\n   - B-16 and B-17: 109.75 M for steppe-facing frontage on an unbuilt stub;\n   - B-3, B-4 and B-5;\n   - the C Аллея units C-4, C-5 and C-6.\n2. **Negotiate toward the 9% price, or defer.** Aim for about 72 M on C-15 and 59–62 M on C-19, or delay the purchase. BI is giving 30% off C while holding about 28 TARIH and 42 DARYN units. Waiting until after keys (Q2–Q3 2027) costs little in likely price rises (estimate) and would show whether any DARYN Улы Дала 10/12/14 unit has actually let, and at what rent.\n3. **Compare with a delivered DARYN first-line unit on Улы Дала 14.** Such a unit costs about 68 M for 87–88 m², about 773–782k ₸/m², ask only. It has keys now, sits on the only real road and bus route, and could earn income about 9–12 months sooner. Estimates for this unit:\n\n   | Mature ask M (₸/m²) | Stabilised yield | 5-year average |\n   |---|---|---|\n   | 6,500 | 6.5% | 5.2% |\n   | 7,500 | 7.7% | 6.1% |\n   | 8,500 | 8.8% | 7.0% |\n\n   For comparison, C-15 is about 8.4% stabilised and 4.6% over 5 years. The drawbacks: 2.7–2.8 m ceilings rule out kitchen-exhaust and some other formats, an owner in the same building asks only 5,682 ₸/m², and the two 68 M listings at Улы Дала 14 may be one unit with a long-unsold old ID.\n4. **Set expectations against the alternative.** Whichever unit is chosen, present the 5-year figures next to the tenge deposit rate. On current estimates this is a long-dated bet on the cluster filling up, not an income investment.",
+  "key_questions_for_bi_manager": [
+   "Will the Айтматова stub south of Улы Дала be paved and open past TARIH B (sections 3–5) at key handover? Will TARIH's southern street be built, and when? Where exactly are the vehicle entrances to TARIH and to B's courtyard parking?",
+   "What is the broad earthwork corridor running SSW about 120–250 m west of TARIH B: a road (the Айтматова extension?) or a utility or drainage line? Who owns it, and is there any date?",
+   "What is the contractual key date for B, C and E commercial units? What penalty does the ДДУ or contract set for delay? When can a buyer start fit-out, and when is the acceptance act signed for commercial units?",
+   "Is the current discount (30% on C, 18% on E, 15% on B) conditional on 100% payment or a deadline? What is the instalment price? Is there any price protection if BI later discounts the same block further?",
+   "How many ground-floor units does BI still hold in TARIH, DARYN, BIRLIK and SŪNQAR? Will BI rent out its unsold units itself, and at what asks?",
+   "Has any ground-floor unit in the delivered DARYN blocks (Улы Дала 10/12/14) been let? To what use, and at what rent? Is any grocery or pharmacy anchor committed inside TARIH, and in which unit?",
+   "Are DARYN G and DARYN M (across the boundary street from C-19 and the E north units) under construction, and when are their keys due? Are TARIH D and F, and the ФМЛ plot, in BI's permit pipeline at all?",
+   "What will ОСИ and heating cost per m² for a commercial unit while it stands empty? Are there use restrictions (food service exhaust shafts, alcohol, pick-up points) or power upgrade options for C units?",
+   "Can the contract be assigned (переуступка) before keys, and at what fee?",
+   "Where are the bus route 74 stops nearest TARIH, and is a stop planned at the Айтматова/Улы Дала junction?"
+  ]
+ },
+ {
+  "key": "devil",
+  "errors": [
+   {
+    "what": "The recommendation is not compared with what the same money earns while it waits. The 9–10% stabilised net yield and the 6–6.6% five-year average are judged on their own.",
+    "why_wrong": "The NBRK base rate is about 16.25%. It was cut on 4 Sep 2026, but one source prints 16.75%, so the exact figure needs checking. Tenge term deposits are estimated at 12–15%, and deposit interest is estimated to be tax-free for individuals. C-15 earns nothing until keys plus about 7 months of fit-out and letting. So the real question is not which TARIH unit to buy, but whether to buy now or wait and buy a let unit. In a 5-year cash-flow model (all inputs are estimates: exit at a 10% cap on stabilised net, ramp of 40/85/95/100% of stabilised income), buying C-15 now returns about +33% of price with keys at month 6, and +28% with keys at month 12. Keeping the money on deposit for 15–18 months and then buying a let unit of the same size at the same rent matches that return at a resale price of about 750–830k ₸/m². It beats it at any lower price.",
+    "fix": "Add a 'wait' benchmark at a 12–14% deposit rate (estimate). Report the break-even resale price per m² next to each unit, not only its yield.",
+    "impact": "changes ranking"
+   },
+   {
+    "what": "Market rent M = 8,000 ₸/m² is assumed for C-15, an inner-street unit, and the low case is only −12.5% (7,000).",
+    "why_wrong": "Asks in the cluster and in comparable new districts are lower than the model assumes. DARYN first-line units on Улы Дала 12/14 have keys and are the same size class (88 m²), yet they ask only 5,682 and 6,818 ₸/m². Those are the only keys-in-hand asks for that size, and the units sit on the arterial road. Delivered frontier analogs ask a median of 7,119–7,202 (Salman City), 6,854 (Turan Palace) and 6,640 (OİU). These are asks, not deals. In the 5–8 km ring, buildings 2–4 years old ask about 5,556 against 8,206 for 2025+ builds. So 7,000 is closer to a central case for a true frontier, and the downside should be about 6,000. At M = 6,000, C-15 gives about 7.1% stabilised and about 5.1% as a 5-year average (estimates).",
+    "fix": "Use 7,000–7,500 as the central M for C units on inner streets and 6,000 as the downside. Keep 8,000 as the upside.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "The base case assumes C/E keys in Q1 2027.",
+    "why_wrong": "Krisha lists the first TARIH queue as Q1 2026 and korter now gives Q4 2026, so it has already slipped about 3 quarters. A similar slip would move C keys to Q3–Q4 2027. With keys at month 12 instead of month 6, C-15's 5-year average falls from about 7.1% to about 6.1% in my model, and from about 6.6% to about 5.6% on the original basis (estimates).",
+    "fix": "Make 'keys at month 12' the base case and 'month 6' the upside. Check the ДДУ penalty clause for late delivery.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "C-15 gets the same location factor (1.0) as C-19.",
+    "why_wrong": "C-15 sits on the internal C|E Перспективная street of a cul-de-sac cluster. There is nothing south or west, and D and F are not listed, so its only traffic is TARIH residents walking north. C-19 faces DARYN on the main car route into TARIH, so it also catches DARYN residents. Colliers notes that courtyard and internal units serve only local demand. C-15's position near the NE crossroads justifies something close to 1.0, but not parity with C-19.",
+    "fix": "Set C-15 to 0.95 and C-13 to 0.93. C-15 then gives about 9.2% stabilised against 9.3% for C-19. C-19 also has the smaller ticket (65.6 M against 76.6 M), which puts less capital at frontier risk.",
+    "impact": "changes ranking"
+   },
+   {
+    "what": "The yield formula leaves out costs the owner pays in a frontier lease-up.",
+    "why_wrong": "The owner pays utilities, ОСИ and service fees while the unit is empty, plus broker fees (often about 1 month's rent) and fit-out contributions. Rent-free periods beyond the 0.85 factor are common: 22–24% of 2025–26-built rent cards offer каникулы, and 4 of the 12 ÜIA rent ads do. The ramp covers part of this but not the cash costs during vacancy.",
+    "fix": "Add an estimated 0.3–0.6 pp drag in years 1–2 and a one-off broker fee at each letting.",
+    "impact": "changes numbers only"
+   },
+   {
+    "what": "A 4% simplified-regime tax is used.",
+    "why_wrong": "Capital Realty (14 Sep 2026) says Astana's simplified-regime rate for an individual entrepreneur is 3% from 2026. It is unverified whether leasing remains allowed under the simplified regime in the 2026 Tax Code. If it is not, 10% ИПН would apply, cutting about 0.6 pp from the yield.",
+    "fix": "Confirm the regime with a tax adviser. Use 3% if allowed and 10% if not.",
+    "impact": "cosmetic"
+   }
+  ],
+  "factor_changes": [
+   {
+    "office": "C-15",
+    "current": 1,
+    "proposed": 0.95,
+    "reason": "C-15 is on the internal C|E street, so its traffic is TARIH residents only. It should not have parity with C-19, which is on the boundary street facing DARYN and the main car route in. The result is about 9.2% stabilised against 9.3% for C-19 (estimate)."
+   },
+   {
+    "office": "C-13",
+    "current": 0.97,
+    "proposed": 0.93,
+    "reason": "C-13 is mid-block on the same internal street and is not at the crossroads. It should stay below C-15."
+   },
+   {
+    "office": "C-19",
+    "current": 1,
+    "proposed": 1,
+    "reason": "Kept. It is the only C unit with exposure to the DARYN catchment and the route into TARIH, and it is the smallest ticket among the top units."
+   },
+   {
+    "office": "B-16",
+    "current": 0.78,
+    "proposed": 0.78,
+    "reason": "Kept. There is no evidence of an Айтматова extension south of Улы Дала (it is not in the 2026 road programme and not on Sentinel imagery). The land west lies next to the protected Taldykol and green-belt zones. An owner-investor in B already asks 8,974 ₸/m² for 156 m² with no tenant, which competes directly."
+   }
+  ],
+  "verdict_on_recommendation": "The recommendation holds if the decision is which TARIH unit to buy now, but it does not show that buying now is better than waiting.\n\nWithin TARIH, C is clearly better than B and E. It costs 665–679k ₸/m² against 765k for B and 902k for E, has 4.2 m ceilings, and is below every resale ask in the cluster (773k–1.4M) and the Salman City delivered-frontier sale median (787k).\n\nOn the alternatives:\n- **(iii) B-16/B-17** fails on the evidence. No road extension is planned, the land west is a protected or green-belt zone, and B-16 is the largest ticket (109.75 M). In my model it gives about 7.3% stabilised and about a 1% 5-year total gain at its modelled rent. It would only compete if the frontage became a through road (M about 8,900), and nothing announced points to that.\n- **(ii) DARYN first line at asking price** loses. At 68 M for 88 m² it gives 6.9% stabilised at the observed 6,800 ask and 8.2% at M = 8,000, against 9.8% for C-15. To match C-15 it needs M of at least 9,330 ₸/m², or a price of about 58 M or less at M = 8,000. Its only advantage is keys now. That adds about 1 pp to the 5-year average, and only if C slips to month 12.\n\nThe recommendation's weak points:\n- Its central rent of 8,000 ₸/m² sits at the optimistic end of the evidence. Delivered frontier analogs ask about 6,600–7,200.\n- It assumes on-time keys, but TARIH has already slipped about 3 quarters.\n- It ignores the opportunity cost of paying in full 6–12 months before keys and roughly 13–19 months before the first rent, at a base rate of about 16.25%.\n\nOnce those are included, buying C now and waiting to buy after delivery give roughly the same expected return, and waiting carries much less risk.",
+  "alternative_recommendation": "I recommend option (i) in a conditional form, \"lock in only if it is cheap to lock in, otherwise wait\". It beats the current recommendation under the conditions below. All figures are estimates from a 5-year cash-flow model: 10% exit cap, deposit at 12–14%, ramp of 40/85/95/100%.\n\n1. **Default: wait 12–18 months.** Keep the money on deposit, split across banks to stay within KDIF guarantee limits. After C/E delivery, buy a unit with an observed lease, or with clear evidence of what is letting in the cluster.\n   - Waiting wins if the price you can get later is at most about 750k ₸/m² (on-time keys, M = 8,000) up to about 830k ₸/m² (keys at month 12, M = 7,000).\n   - The evidence suggests exit prices near that break-even, not below it. Salman City, about 16 months after keys, has a grocery-let 127 m² unit asking 772k/m² (98 M, and pledged to a bank). DARYN keys-in-hand units ask 773–782k/m².\n   - So expect a tie in the base case and a clear win if C slips or rents come in below 7,500.\n   - If BI is still selling unsold C/E units at 665k after delivery, waiting wins outright: about +52% against +33% of price over 5 years. That is plausible, with 28 TARIH and 42 DARYN units on BI's lists in an oversupplied cluster (about 180–300 ground-floor units against an estimated 5,000–5,800 apartments).\n   - Do not count on owners dumping units. No resale in the cluster today is below BI's price.\n\n2. **Buy C-19 (or C-15) now only if all three of these hold:**\n   - (a) BI confirms in writing that the 30% discount ends before delivery.\n   - (b) Staged payment of about 30–50% now and the rest at keys keeps the discount, or costs less than the deposit interest forgone. That is about 0.9–1.2% of price per quarter (estimate).\n   - (c) The ДДУ carries a delay penalty and a shared-construction guarantee that covers commercial premises.\n   - Prefer C-19 over C-15. Their stabilised yields are nearly equal after the location fix (9.3% against 9.2%), and C-19 puts 11 M ₸ less at frontier risk.\n\n3. **DARYN first line on Улы Дала 12/14 (option ii)** becomes the best choice only if the 88 m² unit is bought at about 58–60 M or less (≈ 660–680k/m²; the 1008688487 listing is a long-unsold relist, so a 12–15% discount is worth trying), or with a signed lease at 9,300 ₸/m² or more. At that price it gives about 9.4–9.8% stabilised. With keys already in hand, it then beats C on the 5-year average by about 0.5–1.5 pp, and it has the only frontage in the cluster with outside traffic (bus 74, the small ring). The 2.7–2.8 m ceilings limit use for food service and possibly medical tenants. Check what each target tenant type needs.\n\n4. **B-16/B-17 (option iii)**: do not buy unless an approved and funded Айтматова extension or development west of TARIH appears in a ПДП or budget document.",
+  "key_questions_for_bi_manager": [
+   "Is the 30% discount on C/E commercial units time-limited? If so, until what date? Will unsold units stay at the same or a lower price after handover (акт ввода)? How many of the C and E commercial units are already sold?",
+   "Does the discount require 100% payment now? What is the price with 30–50% now and the rest at keys (рассрочка), or with mortgage financing?",
+   "What is the contractual handover date for C under the ДДУ, and what penalty applies for delay? What is the current construction stage of C (floors, envelope, utilities)? Why has the first queue slipped from Q1 2026 (Krisha) to Q4 2026?",
+   "Is the purchase covered by a shared-construction guarantee (Казахстанская жилищная компания or escrow), and does it cover commercial premises or only flats?",
+   "Has BI pre-let or reserved any TARIH or DARYN ground-floor units to chains (grocery, pharmacy, ПВЗ) or to its own Yourt centres and Äldi BI kindergartens? Will BI lease unsold units itself and compete with buyers?",
+   "Plots D and F and the ФМЛ: is there a land-allotment number, a permit or БВУ registration, and a start date? What will the southern street (Е 909?) connect to, and is there any approved plan for Айтматова south of Улы Дала?",
+   "For C-19 and C-15 specifically: allocated kW, a separate entrance, a ventilation shaft or exhaust allowance for food service, the façade and signage rules, and the ОСИ and service-fee rate per m² for commercial units?",
+   "Can C-19 or C-15 be inspected, or can an exact plan be obtained (entrance width, columns, wet point)? Is there a buy-back or assignment (переуступка) option before handover?"
+  ]
+ }
+]

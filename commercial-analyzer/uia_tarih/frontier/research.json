@@ -1,0 +1,2005 @@
+[
+ {
+  "key": "plans",
+  "result": {
+   "facts": [
+    {
+     "topic": "south_of_tarih",
+     "claim": "No official ПДП, генплан sheet or akimat document was found that assigns a land use to the plot south of TARIH's southern street (south of пр. Улы Дала, west end). Searches of ecoportal.kz, gov.kz/astana and news sites returned only documents for the NORTH side of Улы Дала.",
+     "source_url": "https://ecoportal.kz/Rubric/RubService/LoadFile/17397",
+     "source_date": "2022-10-22",
+     "confidence": "medium"
+    },
+    {
+     "topic": "south_of_tarih",
+     "claim": "Krisha's UIA.TARIH complex page and a TARIH listing both say the complex is located 'next to the city's green belt' (рядом зелёный пояс Астаны). This is the developer's own description, not a planning document.",
+     "source_url": "https://krisha.kz/complex/show/astana/uiatarih/",
+     "source_date": "2026-10 (page as fetched)",
+     "confidence": "medium"
+    },
+    {
+     "topic": "south_of_tarih",
+     "claim": "The capital's tree nursery, run by ТОО 'Астана-Зеленстрой', covers almost 350 ha. No source found says exactly where it is, so it is not confirmed to be the plantation seen on Sentinel south of the cluster.",
+     "source_url": "https://www.zakon.kz/obshestvo/6400653-zelenyy-poyas-napolnyat-v-astane.html",
+     "source_date": "2023",
+     "confidence": "low"
+    },
+    {
+     "topic": "south_of_tarih",
+     "claim": "Krisha has a land listing: 'Участок 1.96 га, Улы дала 2', Нура district, purpose МЖС, price 1,000,000,000 ₸. Its description reads '1 линия, Смежные участки 2 школы, ПДП МЖК 9-12'. This suggests the ПДП allows 9–12-floor housing with 2 school plots somewhere along Улы Дала. The exact location is unknown, and the listing is not tied to TARIH.",
+     "source_url": "https://krisha.kz/a/show/1013382753",
+     "source_date": "2026-10 (views counted since 10 Oct)",
+     "confidence": "low"
+    },
+    {
+     "topic": "genplan",
+     "claim": "The Astana General Plan to 2035 was first approved by Government Resolution No. 33 of 25 January 2024.",
+     "source_url": "https://adilet.zan.kz/rus/docs/P2400000033",
+     "source_date": "2024-01-25",
+     "confidence": "high"
+    },
+    {
+     "topic": "genplan",
+     "claim": "The government approved an updated (corrected) General Plan to 2035 by a resolution of 4 August 2026, in force from 8 August 2026. It keeps plots №5, №7 and №9 of the Малый Талдыколь lakes and expands the green belt. It plans 123 schools in phase 1 (to 2030) plus 55 more by 2035. Population targets are 1.97 M (2030) and 2.275 M (2035). No street-level details (Айтматова, Улы Дала) are published in the news summaries.",
+     "source_url": "https://www.zakon.kz/pravo/6527641-pravitelstvo-obnovilo-generalnyy-plan-astany.html",
+     "source_date": "2026-08-11",
+     "confidence": "high"
+    },
+    {
+     "topic": "genplan",
+     "claim": "Kursiv's summary of the approved plan names the Taldykol and Maybalyk lake systems and the green belt as valuable natural areas. It says the published provisions give no detail on further LRT (Tarlan Astana) lines.",
+     "source_url": "https://kz.kursiv.media/2026-08-11/ezif-lrt-snos-i-2-3-mln-zhiteley-kakoy-stanet-astana-k-2035-godu/",
+     "source_date": "2026-08-11",
+     "confidence": "high"
+    },
+    {
+     "topic": "taldykol",
+     "claim": "Akim Kasymbek gave this split: Big Taldykol = sites 1–2, Малый Талдыколь = sites 3–9. Sites 1, 2, 5, 7 and 9 are preserved. Sites 3, 4, 6 and 8 are designated for development under the general plan. A court decision fixes water-protection zones (500 m zone, 100 m strip for Big Taldykol and site 7), and construction is banned inside them. Eco-park main works are planned for 2026, with some work moving to 2027.",
+     "source_url": "https://kz.kursiv.media/?p=6782463",
+     "source_date": "2025-12-22",
+     "confidence": "high"
+    },
+    {
+     "topic": "taldykol",
+     "claim": "Малый Талдыколь lies around ул. Сыганак, Казыбек би and Розы Багляновой, with its filled-in shore along пр. Улы Дала. Lakes №5 and №7 are designated for an eco-park. Of the original seven lakes, two were filled and now hold a residential complex and two schools. This area is NORTH of Улы Дала, not south of TARIH.",
+     "source_url": "https://informburo.kz/stati/ozera-v-astane-est-no-v-genplane-ix-uze-net-kak-v-stolice-resaiut-sudbu-malogo-taldykolia",
+     "source_date": "2025-07-23",
+     "confidence": "high"
+    },
+    {
+     "topic": "taldykol",
+     "claim": "The design for streets 'Эллингтон-1…20' lies 'севернее проспекта Улы Дала, восточнее ул. Ч. Айтматова', near lake Талдыколь and south of Сыганак. Inside its red lines are 'болота от озера малый Талдыколь'. These are district-level main streets connecting to Айтматова and Улы Дала, and the document refers to a ПДП correction. All of this is NORTH of Улы Дала.",
+     "source_url": "https://ecoportal.kz/Rubric/RubService/LoadFile/17397",
+     "source_date": "2022-10-22",
+     "confidence": "high"
+    },
+    {
+     "topic": "taldykol",
+     "claim": "The Малый Талдыколь eco-park is to start construction in 2026. The design has 73 wells to keep the water level and a pedestrian bridge over the lake linking two residential districts.",
+     "source_url": "https://bes.media/amp/ekopark-na-malom-taldikole-nachnut-stroit-v-2026-godu-dlya-sohraneniya-urovnya-vodi-postroyat-73-skvazhini-3d5b51/",
+     "source_date": "2026-02-04",
+     "confidence": "high"
+    },
+    {
+     "topic": "taldykol",
+     "claim": "The Taldykol eco-park budget is 4.5 bn ₸, with completion planned for 2027. A natural park of more than 70 ha is announced near Big Taldykol.",
+     "source_url": "https://bes.media/amp/na-ekopark-na-taldikole-potratyat-45-mlrd-tenge/",
+     "source_date": "2025",
+     "confidence": "medium"
+    },
+    {
+     "topic": "aitmatova",
+     "claim": "The ул. Айтматова section from Сыганак to пр. Улы Дала opened in November 2023 with 4 of 8 lanes. The akimat said the link to Улы Дала and all 8 lanes would follow in 2024. The article says nothing about continuing south of Улы Дала.",
+     "source_url": "https://informburo.kz/novosti/v-astane-otkryli-dvizenie-po-novoi-ulice-kotoraya-razgruzit-prospekt-turan-i-novuyu-cast-goroda",
+     "source_date": "2023-11-17",
+     "confidence": "high"
+    },
+    {
+     "topic": "aitmatova",
+     "claim": "Айтматова (Сыганак to Улы Дала) was built as part of the 'малая кольцевая автодорога' project. The akimat describes the small ring road as running along Кошкарбаева, Улы Дала, Акжол and Бейсековой, about 46 km. So the ring runs along Улы Дала itself, and Айтматова ends at it.",
+     "source_url": "https://www.caravan.kz/news/v-stolice-otkrylas-novaya-ulica-969171/",
+     "source_date": "2023-11-18",
+     "confidence": "medium"
+    },
+    {
+     "topic": "aitmatova",
+     "claim": "The Astana 2026 road-works list covers only landscaping on Айтматова between Улы Дала and Сыганак, plus Мухамедханова from Айтматова to Коргалжынское шоссе. It mentions NO extension of Айтматова south of Улы Дала.",
+     "source_url": "https://bes.media/news/kakie-ulitsi-otremontiruyut-v-astane-v-2026-godu/",
+     "source_date": "2026-06-02",
+     "confidence": "high"
+    },
+    {
+     "topic": "aitmatova",
+     "claim": "Улы Дала from Айтматова to Толе би was closed for road and construction works from 26 July to 7 August 2025.",
+     "source_url": "https://finratings.kz/news/5633-uchastok-krupnogo-prospekta-astany-perekroiut-na-dve-nedeli/",
+     "source_date": "2025-07-26",
+     "confidence": "high"
+    },
+    {
+     "topic": "southern_street",
+     "claim": "Krisha gives UIA.TARIH's address as 'ул. Е 909, 29' and UIA.BIRLIK's as 'ул. Е 908, 23'. Tumar's Uly Dala Park is at 'ул. Е 908, 22'. 'Е-nnn' is Astana's code for designed streets that have no name yet. No document was found that says where Е 909 runs, whether it is built, or where it leads.",
+     "source_url": "https://krisha.kz/complex/show/astana/uiatarih/",
+     "source_date": "2026-10",
+     "confidence": "high"
+    },
+    {
+     "topic": "uia_master_plan",
+     "claim": "BI's official ŪIA page (seen only as a search snippet, because the site returns 403) lists three clusters: DARYN, BIRLIK and TARIH. Planned infrastructure: 2 'Yourt' neighbourhood centres, 2 'Äldi BI' kindergartens and 2 schools, including a 'Физико-математический лицей' and a 'Комфортная школа'.",
+     "source_url": "https://bi.group/ru/bigville/uia",
+     "source_date": "undated (search snippet, 2026)",
+     "confidence": "medium"
+    },
+    {
+     "topic": "uia_master_plan",
+     "claim": "BI launched ŪIA with a booking start in February 2025, promising 'уютные улицы, школы, детские сады, магазины и зоны отдыха'. No apartment or resident totals were published.",
+     "source_url": "https://finratings.kz/news/716-bi-group-provel-neobychnuiu-aktsiiu-v-astane/",
+     "source_date": "2025-02-19",
+     "confidence": "high"
+    },
+    {
+     "topic": "uia_master_plan",
+     "claim": "Korter, ŪIA.TARIH (building 4364): comfort+/business+, 9–12 floors, brick, 1,011 apartments of 30–112 m². Queues listed: A (10 sections, start Q4 2025, delivery Q4 2026), В (10 sections, Q4 2026), Е (5 sections, start Q4 2025, delivery Q1 2027), C (10 sections, Q1 2027). No queues D or F are listed.",
+     "source_url": "https://korter.kz/жк-uiatarih-астана",
+     "source_date": "2026-10-12 (prices updated)",
+     "confidence": "high"
+    },
+    {
+     "topic": "uia_master_plan",
+     "claim": "Krisha, UIA.TARIH: 337 apartments, queue 1 'I кв. 2026' and queue 2 'I кв. 2027'. Shared-construction (БВУ) registrations No. 66 (19.11.2025), No. 23 (27.02.2026) and No. 34 (19.03.2026). The page names Блоки А and И as comfort+ and Блок С as business class.",
+     "source_url": "https://krisha.kz/complex/show/astana/uiatarih/",
+     "source_date": "2026-10",
+     "confidence": "high"
+    },
+    {
+     "topic": "uia_master_plan",
+     "claim": "Korter, ŪIA.DARYN (slug uia-burkit, building 4235, пр. Улы Дала 10): 17 houses, 9–17 floors, 2,137 apartments of 38–119 m². Queues and deliveries: E, K, K-2 Q1 2027; С Q2 2027; D, F, G Q3 2027; A Q4 2027. Starts were Q3–Q4 2025. Construction photo points were updated 2026-08-30.",
+     "source_url": "https://korter.kz/uia-burkit-астана",
+     "source_date": "2026-10-14",
+     "confidence": "high"
+    },
+    {
+     "topic": "uia_master_plan",
+     "claim": "Krisha, UIA.DARYN (Улы Дала 14): 784 apartments, stages from Q2 2026 to Q3 2027, and БВУ registrations of 04.03.2026 (No. 28, No. 29) and 03.07.2026 (No. 74). The nearest school is listed as 'Комфортная средняя школа №118', 585 m, and a bus stop is 515 m away.",
+     "source_url": "https://krisha.kz/complex/show/astana/uiadaryn/",
+     "source_date": "2026-09-01 (price checked)",
+     "confidence": "high"
+    },
+    {
+     "topic": "uia_master_plan",
+     "claim": "Korter, ŪIA.SŪNQAR (Улы Дала 14): standard class, modular keramzite-concrete, 9–17 floors, 14 sections in 2 queues, both due Q3 2026. Krisha lists 112 apartments, 'IV кв. 2025', and says the developer lacks shared-construction permits (that page may be outdated).",
+     "source_url": "https://korter.kz/uia-sunqar-астана",
+     "source_date": "2026-10-14",
+     "confidence": "medium"
+    },
+    {
+     "topic": "uia_master_plan",
+     "claim": "Korter, UIA.BIRLIK ('вдоль пр. Улы дала', centre about 51.1027, 71.3646): 425 apartments, 25 sections, 9/17 floors, 'Площадь застройки 30 Га'. Queues: A Q3 2026; B and D Q4 2026; B-2 Q1 2027; E and F Q2 2027. Krisha names the legal developers as ТОО 'UlyDala Miras' (block A) and ТОО 'Ormanda' (block D), with ТОО 'BI Development Astana' as authorised company. Its last БВУ registration is KZ79PDD00004106 of 28.08.2026.",
+     "source_url": "https://korter.kz/uia-birlik-астана",
+     "source_date": "2026-09-29",
+     "confidence": "high"
+    },
+    {
+     "topic": "fml_school",
+     "claim": "The vagapov.kz page for UIA BIRLIK-D lists 'РФМШ (физико-математический лицей)' under 'А также ожидается в проекте' (also expected in the project), with no address, date or details. The same page lists the existing private Bibigul Tulegenova Creative School (1,058 pupils) as nearby.",
+     "source_url": "https://vagapov.kz/zhilie_kompleksi/zhk-uia-birlik-d/",
+     "source_date": "undated",
+     "confidence": "medium"
+    },
+    {
+     "topic": "fml_school",
+     "claim": "A kn.kz resale ad for Uia.Sunqar (published 03.10.2026) says 'Рядом будет Физико-математическая школа, а через дорогу уже есть лицей'. The physics-math school is described as future, not existing.",
+     "source_url": "https://www.kn.kz/card/3638905",
+     "source_date": "2026-10-03",
+     "confidence": "medium"
+    },
+    {
+     "topic": "fml_school",
+     "claim": "РФМШ's Astana branch has operated since 2016 at ул. Туркистан 2/1. No news, government or РФМШ announcement of a second Astana building or of a school in ŪIA was found.",
+     "source_url": "https://admissions.fizmat.kz/ru/o-rfmsh/",
+     "source_date": "undated",
+     "confidence": "medium"
+    },
+    {
+     "topic": "fml_school",
+     "claim": "The government allocated 7 bn ₸ from the Special State Fund (returned assets) for a 1,200-place state school in Нура district, under construction with completion by end-2027. It is meant to relieve schools №84, 85, 89 and 97. Its street location is not given and it is not described as a physics-math school.",
+     "source_url": "https://informburo.kz/novosti/7-mlrd-tenge-iz-vozvrashhennyx-aktivov-napravili-na-stroitelstvo-skoly-v-astane",
+     "source_date": "2026-08-14",
+     "confidence": "high"
+    },
+    {
+     "topic": "fml_school",
+     "claim": "The Bibigul Tulegenova Creative School, a private school founded by Armanzhan Baitassov, opened in Astana on 1 September 2024. Its street address is not stated in the news found.",
+     "source_url": "https://qazinform.com/news/dimash-attends-bibigul-tulegenova-creative-school-opening-ceremony-6317ab",
+     "source_date": "2024-09-02",
+     "confidence": "high"
+    },
+    {
+     "topic": "transport",
+     "claim": "New bus route №74 (ЖК Altyn Besik to ЖК Dostar-1) started on 21 February 2026 and runs on 'новым участкам улиц Ш. Айтматова и Улы Дала' and Айтеке би. CTS is the operator. The list of stops was not published.",
+     "source_url": "https://tengrinews.kz/kazakhstan_news/novyie-avtobusnyie-marshrutyi-zapuskayut-v-astane-593134/",
+     "source_date": "2026-02-20",
+     "confidence": "high"
+    },
+    {
+     "topic": "transport",
+     "claim": "Routes 15, 15А, 26, 35, 54, 60 and 314 use stops 'ЖК Арнау' and 'ЖК Камал-1' on пр. Улы Дала. These stops are on the eastern, built part of the avenue, not confirmed near the Айтматова junction.",
+     "source_url": "https://ulysmedia.kz/news/50625-sem-avtobusov-izmenili-marshruty-na-levom-beregu-astany/",
+     "source_date": "2025-04-27",
+     "confidence": "medium"
+    },
+    {
+     "topic": "transport",
+     "claim": "Astana plans 29.7 km of new bus lanes in 2026, including a section of пр. Улы Дала starting from пр. Туран. The end point is cut off in the snippet.",
+     "source_url": "https://bes.media/news/v-astane-uvelichat-protyazhyonnost-avtobusnih-polos-v-2026-godu-5096c3/",
+     "source_date": "2026",
+     "confidence": "low"
+    },
+    {
+     "topic": "news",
+     "claim": "In 2023 akim Kasymbek promised no new construction at Малый Талдыколь. Bes.media reported a residential building going up east of the future park under the 2016 general plan, on land given to АО 'СПК Astana' (2021) and ТОО 'Multipoint.kz' (2022).",
+     "source_url": "https://bes.media/amp/sudba-taldikolya-v-astane-kasimbek-obeshal-chto-zastroyki-ne-budet-no-tam-vozvodyat-zhk/",
+     "source_date": "2024-02-04",
+     "confidence": "high"
+    }
+   ],
+   "south_of_tarih": "FACTS: No approved ПДП sheet, akimat decision or news item was found that says what will be built south of TARIH's southern street. The only public statements tie the site to the green belt: BI and Krisha describe TARIH as 'next to the city's green belt'. The updated General Plan to 2035 (approved 4 Aug 2026, in force 8 Aug 2026) commits only in general terms to 'expanding the green belt'. One Krisha land ad ('Улы дала 2', 1.96 ha, МЖС, 'ПДП МЖК 9-12, смежные участки 2 школы') shows that 9–12-floor housing plus school plots exist somewhere on the ПДП along Улы Дала, but its exact location is unknown. The Талдыколь redevelopment and eco-park are NOT south of TARIH. Малый Талдыколь (sites 3–9) lies north of Улы Дала, around Сыганак, Казыбек би and Багляновой, east of Айтматова. Sites 5, 7 and 9 are preserved, and 3, 4, 6 and 8 are designated for development. ESTIMATE: the land the user saw empty south of TARIH B is most likely green-belt or nursery land, or an unstarted ПДП housing/school plot. Either way nothing is under construction, and no public timeline exists. For a ground-floor unit in TARIH B, do not count on foot traffic from the south for several years.",
+   "west_of_aitmatova": "FACTS: No planning document or news was found for land WEST of the Айтматова line south of Улы Дала. Every design document found (the Эллингтон-1…20 streets, the Малый Талдыколь eco-park, the BI clusters) lies EAST of Айтматова. The Taldykol lake system is protected by court-set water-protection zones (500 m zone, 100 m strip for Big Taldykol and site 7), and building is banned inside them. Big Taldykol (sites 1–2) is preserved, and a natural park of more than 70 ha is announced near it (4.5 bn ₸, completion targeted for 2027). ESTIMATE: the steppe and wetland west of TARIH sit inside or next to the protected Taldykol and green-belt zones. They are unlikely to be built up in the medium term, so TARIH A/B will stay at the western edge of the city.",
+   "aitmatova_extension": "FACTS: Айтматова runs from Коргалжынское шоссе to Сыганак (opened 2016) and then from Сыганак to пр. Улы Дала (opened November 2023 with 4 lanes; 8 lanes and the Улы Дала link were promised for 2024; landscaping was still under way in June 2026). The street was built under the 'малая кольцевая' project, whose ring itself follows Улы Дала (Кошкарбаева, Улы Дала, Акжол, Бейсековой, about 46 km). The akimat's 2026 road programme mentions only landscaping on Айтматова between Улы Дала and Сыганак and Мухамедханова between Айтматова and Коргалжынское шоссе. No source found announces an extension of Айтматова south of Улы Дала, a date for it, or a destination. ESTIMATE: south of Улы Дала, Айтматова is at most a local access stub along the ÜIA cluster's west edge, not a funded through road. Treat a through road there as unplanned or unfunded.",
+   "uia_master_plan": "FACTS (korter.kz INITIAL_STATE, fetched 2026-10-14, plus krisha.kz):\n- DARYN: 17 houses, 2,137 apartments, 9–17 floors. Queues A, C, D, E, F, G, K, K-2 are due Q1 2027 to Q4 2027 per korter. The BI office sheet in our context gives earlier dates (Q4 2026 to Q3 2027).\n- TARIH: 1,011 apartments, 9–12 floors, brick. On sale are queues A and В (Q4 2026), Е (Q1 2027) and C (Q1 2027). Plots D and F are NOT listed on korter or krisha.\n- SŪNQAR: 14 sections in 2 queues, due Q3 2026.\n- BIRLIK: 425 apartments, 25 sections. Queues A Q3 2026; B and D Q4 2026; B-2 Q1 2027; E and F Q2 2027. Korter lists 'Площадь застройки 30 Га'.\n- BI's official page lists 3 clusters (DARYN, BIRLIK, TARIH), 2 Yourt centres, 2 Äldi BI kindergartens and 2 schools, one of them a physics-math lyceum. Booking opened in February 2025.\n- Listed total: about 3,573 apartments (DARYN + TARIH + BIRLIK), plus SŪNQAR, whose count is not given on korter (krisha shows 112).\nESTIMATE: about 3,700–4,000 apartments, or roughly 9,000–11,000 residents at 2.5–2.7 per flat. Not started or not on sale: TARIH D and F, both schools including the ФМЛ, both kindergartens, and the Yourt centres. Of these, only the kindergartens and Yourt are described as inside the clusters.",
+   "timeline_summary": "2016: Айтматова opens from Коргалжынское шоссе to Сыганак. Nov 2023: Айтматова opens from Сыганак to Улы Дала (4 of 8 lanes). 25 Jan 2024: General Plan to 2035 approved (Resolution No. 33). Feb 2025: BI opens ŪIA booking. Jul–Aug 2025: Улы Дала (Айтматова to Толе би) and Айтматова (Сыганак to Улы Дала) are closed for works; the water ministry refuses to agree the general plan over Taldykol protection strips. Q3–Q4 2025: korter shows the DARYN and TARIH A/В/Е queues starting. Nov 2025 to Mar 2026: TARIH shared-construction registrations (БВУ No. 66, 23, 34). Dec 2025: the akim sets the Taldykol site split (1, 2, 5, 7, 9 kept; 3, 4, 6, 8 for development) and eco-park works for 2026. Feb 2026: Малый Талдыколь eco-park design with 73 wells; bus route 74 is launched on 21 Feb 2026 over the new sections of Айтматова and Улы Дала. Jun 2026: Айтматова landscaping between Улы Дала and Сыганак still ongoing; no southern extension listed. 4–8 Aug 2026: updated General Plan to 2035 approved and in force. Aug 2026: 7 bn ₸ state school (1,200 places) in Нура announced, due end-2027. Q3 2026 to Q4 2027: ŪIA deliveries (TARIH A/В Q4 2026; TARIH C/Е Q1 2027; DARYN through Q4 2027). After that, nothing is announced: TARIH D/F, the ФМЛ, kindergartens and the land south and west of TARIH all have no published dates.",
+   "fml_school": "FACTS: The 'ФМЛ' in the brochure appears in BI's own ŪIA infrastructure list as 'Физико-математический лицей' (search snippet of bi.group/ru/bigville/uia). Vagapov.kz calls it 'РФМШ (физико-математический лицей)' and lists it under 'ожидается в проекте'. A kn.kz ad of 03.10.2026 says 'рядом БУДЕТ физико-математическая школа'. No akimat, Ministry of Education or РФМШ announcement, tender, ecoportal filing or construction news was found. РФМШ's only Astana branch is at Туркистан 2/1 (since 2016). STATUS: it is only a marketing plan, and there is no evidence that construction has started. This matches the user's observation of an empty lot. The 'lyceum across the road' that already exists (north of Улы Дала) is not named in any source. The Bibigul Tulegenova Creative School (private, opened 1 Sep 2024) is described as nearby, but its address was not confirmed. Krisha lists 'Комфортная средняя школа №118' 585 m from DARYN. ESTIMATE: this is probably the school complex north of Улы Дала seen under construction on Sentinel, but this is unverified.",
+   "southern_street_e909": "FACTS: Krisha gives TARIH's address as 'ул. Е 909, 29' and TARIH listings as 'Е 909 23/29'. BIRLIK (about 1.1 km east) is at 'Е 908, 23', and Tumar's Uly Dala Park at 'Е 908, 22'. 'Е-nnn' codes mark designed streets that have no name yet. No ecoportal design, akimat road programme (2026 list checked) or news item mentions Е 909, so its route, whether it is built, and where it leads are unverified. It is also not confirmed that Е 909 is the SOUTHERN street rather than the inner E–W 'Перспективная улица' between DARYN and TARIH. ESTIMATE: Е 908 and Е 909 are internal ПДП streets of the bigville built by the developer. The southern boundary street probably ends at the cluster's edge, with no through connection west (to Айтматова southward) or south until the plots beyond are developed.",
+   "transport": "FACTS: Bus route №74 (ЖК Altyn Besik to ЖК Dostar-1, operator CTS) started on 21 Feb 2026 and runs along the 'new sections' of Айтматова and Улы Дала. This is the only route explicitly tied to these new sections. Its stop list was not published. Krisha puts the nearest bus stop about 515 m (7 min walk) from DARYN, with no name given. Routes 15, 15А, 26, 35, 54, 60 and 314 serve Улы Дала stops 'ЖК Арнау' and 'ЖК Камал-1' further east (2025). A 2026 plan adds bus lanes on part of Улы Дала from Туран (end point unclear). No source mentions the LRT (Tarlan Astana) reaching Айтматова or Улы Дала; one Krisha ad claims an 'LRT second line along Айтматова', which is unverified. 2gis and the Avtobys data were not accessible (403).",
+   "open_questions": [
+    "Which street is 'Е 909': the inner E–W Перспективная улица between DARYN and TARIH, or TARIH's southern boundary street? This needs the ПДП sheet or an address-plan extract (Управление архитектуры Астаны or the e-qala/geoportal)",
+    "The approved ПДП land use of the plot south of TARIH B (green belt, nursery, or the МЖК/school plots hinted at in the krisha 'Улы дала 2, 1.96 га, ПДП МЖК 9-12, 2 школы' ad), and its approval date",
+    "Whether any extension of ул. Айтматова south of Улы Дала exists in the 2026 corrected General Plan transport scheme (the map sheets are not in the news summaries)",
+    "The ФМЛ/РФМШ: is there any land allotment, budget line or tender? None was found. Ask BI sales for the plot number and the operator (РФМШ, НИШ or private)",
+    "Exact bus stops and routes at the Улы Дала–Айтматова junction. Check the Avtobys app or the CTS route 74 scheme on site",
+    "TARIH D and F: are they in BI's permit pipeline (no БВУ registration found) and when would sales start?",
+    "Location of the 7 bn ₸ Нура state school (1,200 places, due end-2027) and of 'Комфортная школа №118'",
+    "Whether the wetlands west of the cluster are part of the protected Big Taldykol zone (500 m water-protection zone)"
+   ]
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "Korter ŪIA.TARIH (building 4364): 1,011 apartments, 9–12 floors, brick, comfort+/business+. Queues A and В due Q4 2026, Е and C due Q1 2027. No queues D or F.",
+     "verdict": "confirmed",
+     "evidence": "I downloaded the korter page myself and parsed its INITIAL_STATE. There are exactly 4 queues: 'UIA.TARIH - A' (10 entrances, start Q4 2025, end Q4 2026), 'UIA.TARIH - В' (10 entrances, start Q4 2025, end Q4 2026), 'UIA.TARIH - Е' (5 entrances, start Q4 2025, end Q1 2027) and 'UIA.TARIH - C' (10 entrances, no start date, end Q1 2027). The map centre is 51.10260889, 71.34896104. Korter's address is 'пересечение пр. Улы дала и ул. Айтматова'. No D or F queue appears. Note: the WebFetch text summary of the same page mis-stated A as Q1 2027; the raw JSON says Q4 2026.",
+     "source_url": "https://korter.kz/жк-uiatarih-астана"
+    },
+    {
+     "claim": "Krisha UIA.TARIH: address 'ул. Е 909, 29', 337 apartments, queue 1 'I кв. 2026', queue 2 'I кв. 2027', БВУ No. 66 (19.11.2025), No. 23 (27.02.2026), No. 34 (19.03.2026). It says the complex is next to the city's green belt.",
+     "verdict": "confirmed",
+     "evidence": "I re-fetched the page and every item matches. The quoted text is 'рядом с зелёным поясом столицы' and 'в непосредственной близости к Зелёному поясу Астаны'. The agent missed three things. First, Krisha's queue-1 date of Q1 2026 has already passed, which shows the schedule has slipped. Second, Krisha's 337 apartments conflicts with korter's 1,011. Third, kn.kz gives a different address, 'пр. Улы Дала, 5 стр.', with delivery Q4 2026. The UIA.DARYN Krisha page uses the same 'Зелёный пояс' wording, so it is generic marketing text, not a statement about the plot south of TARIH.",
+     "source_url": "https://krisha.kz/complex/show/astana/uiatarih/"
+    },
+    {
+     "claim": "Krisha land ad 1013382753: 'Участок 1.96 га, Улы дала 2', МЖС, price 1,000,000,000 ₸. The description reads '1 линия, Смежные участки 2 школы, ПДП МЖК 9-12'. Exact location unknown, not tied to TARIH.",
+     "verdict": "partially",
+     "evidence": "The Russian ad page returned 403 to WebFetch, and curl hit a SafeLine anti-bot page, so I did not go further. A search snippet of the same ad shows a price of 1,350,000,000 ₸, purpose МЖС, and the text 'локация указано ориентировочно… ТОЛЬКО ПРИ ВСТРЕЧЕ'. Its Kazakh duplicate (1013141977) is titled 'Жер телімі · 1.96 га, УЛЫ ДАЛА 2 — АЙТМАТОВА', priced 1,255,000,000 ₸, purpose КҚТҚ. Its full text is only 'ЛОКАЦИЯ УКАЗАНО ОРИЕНТИРОВОЧНО… БОЛЕЕ ПОДРОБНО ТОЛЬКО ПРИ ВСТРЕЧЕ' and says nothing about 'ПДП МЖК 9-12' or '2 школы'. So the 1.0 bn price is not confirmed: three different prices exist across versions. The ПДП/schools wording could not be re-verified. The agent also missed that the seller explicitly places the plot at the Улы Дала–Айтматова corner, approximately.",
+     "source_url": "https://krisha.kz/kz/a/show/1013141977"
+    },
+    {
+     "claim": "The updated General Plan to 2035 was approved by a resolution of 4 Aug 2026, in force from 8 Aug. It keeps Малый Талдыколь plots №5, 7 and 9 and expands the green belt. It plans 123 + 55 schools, with population 1.97 M (2030) and 2.275 M (2035). No street-level detail is published.",
+     "verdict": "confirmed",
+     "evidence": "The zakon.kz article (11.08.2026) matches. The agent missed the resolution number: it is No. 697 of 04.08.2026, amending No. 33 of 25.01.2024 (zakon.uchet.kz). The full text of the main provisions is published at primeminister.kz/assets/media/prilozenie-rus-697.pdf (40 pp.). I searched that text: it does not mention Айтматова, Улы Дала or any plan south of TARIH. It does say 'реализация компенсационных мероприятий в случаях изъятия природных территорий под застройку', which means some natural land can still be taken for building. Kursiv's line that the plan gives 'no detail on LRT lines' needs a nuance: the text adopts a 'перспективная крестообразная схема развития Tarlan Astana' and trams as surface rapid transit, without naming streets.",
+     "source_url": "https://primeminister.kz/assets/media/prilozenie-rus-697.pdf"
+    },
+    {
+     "claim": "Akim Kasymbek (Dec 2025): Big Taldykol = sites 1–2, Малый = 3–9. Sites 1, 2, 5, 7 and 9 are preserved; 3, 4, 6 and 8 go to development. A court decision sets water-protection zones (500 m zone, 100 m strip), with no building inside them. Eco-park works are in 2026, partly in 2027.",
+     "verdict": "partially",
+     "evidence": "Kursiv confirms that sites 5 and 7 are court-protected, that 3, 4, 6 and 8 are 'transferred for construction', the 500 m zone and 100 m strip for Big Taldykol and site 7, and the 2026 works. However, site 9 is not yet preserved: activists are still seeking court protection, and the akim only promised to keep 'what the court decided'. (The General Plan text does list №9 as preserved.) The article gives no location of sites 3, 4, 6 and 8 relative to Улы Дала or Айтматова, so it cannot be used to say what happens west or south of TARIH.",
+     "source_url": "https://kz.kursiv.media/?p=6782463"
+    },
+    {
+     "claim": "The Taldykol eco-park budget is 4.5 bn ₸ with completion in 2027, and a natural park of more than 70 ha is announced near Big Taldykol (source date '2025'). The west_of_aitmatova summary attributes the 4.5 bn and 2027 to Big Taldykol.",
+     "verdict": "contradicted",
+     "evidence": "The bes.media article is dated 15 May 2026, not 2025. The 4.5 bn ₸ (deputy akim Отебаев) and the 2027 completion refer to the Малый Талдыколь eco-park, not Big Taldykol. The article does not mention a 70 ha park at all. The 70 ha figure has no source in the agent's citation.",
+     "source_url": "https://bes.media/amp/na-ekopark-na-taldikole-potratyat-45-mlrd-tenge/"
+    },
+    {
+     "claim": "ул. Айтматова from Сыганак to Улы Дала opened in Nov 2023 (4 of 8 lanes). The link to Улы Дала and 8 lanes were promised for 2024. No extension south of Улы Дала is mentioned.",
+     "verdict": "confirmed",
+     "evidence": "The informburo article of 17.11.2023 says this and mentions no extension south. Additional fact the agent missed: elordainfo (13.08.2026) reports a partial closure of Айтматова from Улы Дала to Сыганак on 14–24 Aug 2026 to lay the top road layer, so that section was still being finished in Aug 2026. My own search for any plan or project to extend Айтматова south of Улы Дала found nothing.",
+     "source_url": "https://ru.elordainfo.kz/novosti-stolicy-ru/uchastok-ulicy-aytmatova-perekroyut-v-astane"
+    },
+    {
+     "claim": "The 2026 road-works list covers only landscaping on Айтматова (Улы Дала to Сыганак) and Мухамедханова (Айтматова to Коргалжынское шоссе), with no southern extension.",
+     "verdict": "confirmed",
+     "evidence": "bes.media (2 June 2026) lists exactly these two items as ongoing landscaping and local access road work. It does not mention Е 909, Е 908 or new streets near ÜIA.",
+     "source_url": "https://bes.media/news/kakie-ulitsi-otremontiruyut-v-astane-v-2026-godu/"
+    },
+    {
+     "claim": "Bus route №74 (Altyn Besik to Dostar-1) started 21 Feb 2026 on the new sections of Айтматова and Улы Дала, with CTS as operator. No stop list was published.",
+     "verdict": "partially",
+     "evidence": "Tengrinews (20.02.2026) confirms the endpoints, the streets ('по новым участкам улиц Ш. Айтматова и Улы Дала'), Айтеке би and the start on 21 Feb. CTS is only cited as announcing a temporary detour; the article does not name it as the operator. No stops are listed, and the route image is captioned '№76', a typo. The agent missed that Krisha's UIA.DARYN page names the nearest bus stop (515 m) the same as 'Комфортная средняя школа №118', so at least one stop already exists near the cluster.",
+     "source_url": "https://tengrinews.kz/kazakhstan_news/novyie-avtobusnyie-marshrutyi-zapuskayut-v-astane-593134/"
+    },
+    {
+     "claim": "ФМЛ/РФМШ: it appears only in marketing (vagapov.kz 'ожидается в проекте', kn.kz ad 'рядом будет'). No official announcement, tender or construction was found.",
+     "verdict": "confirmed",
+     "evidence": "vagapov.kz lists only 'Физико-математический лицей (РФМШ)' under 'А также ожидается в проекте', with no date or address, and names the Bibigul Tulegenova Creative School (1,058 pupils) as nearby. The kn.kz ad 3638905 (published 03.10.2026, пр. Улы Дала 14) says 'Рядом будет Физико-математическая школа, а через дорогу уже есть лицей'. The same ad promises keys on 26 December this year and says 'напротив большой торговый центр'. My own search found no BI, akimat or РФМШ announcement linking a physics-math school to ŪIA; the only BI physics-math school found is a НИШ in Kostanay built by BI. Also note: the kn.kz TARIH page lists nearby schools that are far away (Alpamys on Кабанбай батыра 49/2, НИШ on Хусейна бен Талала 21), which suggests there is no operating school next to TARIH.",
+     "source_url": "https://vagapov.kz/zhilie_kompleksi/zhk-uia-birlik-d/"
+    },
+    {
+     "claim": "A 7 bn ₸ state school (1,200 places) in Нура is under construction for completion by end-2027, relieving schools №84, 85, 89 and 97. No street is given and it is not a physics-math school.",
+     "verdict": "confirmed",
+     "evidence": "Informburo (14.08.2026) says exactly this. No street, no ФМШ, and no mention of Улы Дала or Айтматова, so it cannot be tied to the empty lot south of TARIH B.",
+     "source_url": "https://informburo.kz/novosti/7-mlrd-tenge-iz-vozvrashhennyx-aktivov-napravili-na-stroitelstvo-skoly-v-astane"
+    },
+    {
+     "claim": "Krisha UIA.DARYN (Улы Дала 14): 784 apartments, stages Q2 2026 to Q3 2027, БВУ No. 28 and 29 (04.03.2026) and No. 74 (03.07.2026). Nearest school 'Комфортная средняя школа №118', 585 m; bus stop 515 m.",
+     "verdict": "confirmed",
+     "evidence": "I re-fetched the page and all items match. Searches did not find the address of school №118, so the agent's guess that it is the school-like complex under construction north of Улы Дала stays unverified.",
+     "source_url": "https://krisha.kz/complex/show/astana/uiadaryn/"
+    },
+    {
+     "claim": "The capital's tree nursery (ТОО 'Астана-Зеленстрой') covers almost 350 ha; its location is not given.",
+     "verdict": "confirmed",
+     "evidence": "Search results (Kazpravda and Zakon.kz, July 2023) give 'почти 350 га' and no location. Nothing ties it to the plantation seen south of the cluster on Sentinel.",
+     "source_url": "https://www.zakon.kz/obshestvo/6400653-zelenyy-poyas-napolnyat-v-astane.html"
+    },
+    {
+     "claim": "Малый Талдыколь lies around Сыганак, Казыбек би and Багляновой, north of Улы Дала. Two of the seven lakes were filled and now hold an МЖК and 2 schools. Lakes 5 and 7 are designated for the eco-park.",
+     "verdict": "confirmed",
+     "evidence": "Informburo (23.07.2025): plot №5 lies in the 'квадрат улиц Сыганак, Казыбек би и Розы Баглановой'; the dried shore is on the Улы Дала side; ПСД for the eco-park is being prepared for plots 5 and 7; plot 9 is under discussion. The article does not mention BI, Айтматова or land south of Улы Дала.",
+     "source_url": "https://informburo.kz/stati/ozera-v-astane-est-no-v-genplane-ix-uze-net-kak-v-stolice-resaiut-sudbu-malogo-taldykolia"
+    }
+   ],
+   "corrections": [
+    "Taldykol eco-park money: the 4.5 bn ₸ budget and 2027 completion belong to the MALY Taldykol eco-park (bes.media, 15 May 2026), not Big Taldykol. The '>70 ha natural park near Big Taldykol' is not in the cited source. The west_of_aitmatova section must drop the '(4.5 bn ₸, completion 2027)' attribution to Big Taldykol and the 70 ha figure.",
+    "Krisha land ad 'Улы дала 2, 1.96 га': the price is NOT confirmed at 1.0 bn ₸. Versions show 1.35 bn (Russian ad, search snippet) and 1.255 bn (Kazakh duplicate 1013141977). The 'ПДП МЖК 9-12 / 2 школы' description could not be re-verified: the Kazakh version's full text has no such words, and the Russian page is behind SafeLine anti-bot. The location is not 'unknown': the Kazakh title reads 'УЛЫ ДАЛА 2 — АЙТМАТОВА', and the seller says the pin is approximate.",
+    "Site 9 of Малый Талдыколь: the akim (Dec 2025) did not confirm it as preserved; activists were still seeking court protection. Only the August 2026 General Plan text lists №9 as preserved.",
+    "The updated General Plan is Government Resolution No. 697 of 04.08.2026, amending No. 33 of 25.01.2024. Its main-provisions text is public (primeminister.kz prilozenie-rus-697.pdf). The claim that 'only news summaries' exist is wrong, although that text indeed has no street-level content for Улы Дала or Айтматова.",
+    "Bus route 74: CTS is cited only for the temporary detour, not named as the operator. A bus stop named after 'Комфортная средняя школа №118' exists about 515 m from DARYN (Krisha), so 'no stops known near the cluster' is too strong.",
+    "Айтматова Сыганак–Улы Дала was still being finished in August 2026 (top-layer paving, 14–24 Aug 2026; elordainfo 13.08.2026), not just landscaped in June 2026.",
+    "The estimate of 9,000–11,000 residents is an extrapolation. It adds korter totals (DARYN 2,137 + TARIH 1,011 + BIRLIK 425) and multiplies by an assumed 2.5–2.7 people per flat. Krisha gives much lower counts (DARYN 784, TARIH 337, SŪNQAR 112), so the apartment base is uncertain by a factor of about 2–3."
+   ],
+   "missing": [
+    "Schedule slip already visible: Krisha still shows TARIH queue 1 'I кв. 2026', which has passed. Korter says Q4 2026 and kn.kz says Q4 2026. SŪNQAR 'Q3 2026' has also passed, and a kn.kz ad now promises keys on 26 Dec 2026. For a ground-floor buyer, rent will not start before the residential blocks are handed over and populated, so expect 2027 at the earliest.",
+    "The 'Улы Дала 2 — Айтматова' plot (1.96 ha, МЖС/КҚТҚ, about 1.26–1.35 bn ₸, listed in Oct 2026) is the only public sign of what could be built on the empty land at the junction. ESTIMATE: even house numbers on Улы Дала (DARYN 10/12/14) are on the south side, so 'Улы Дала 2' is probably at the south-west corner, next to DARYN/TARIH A. If it is sold to a developer, it could become a competing ground-floor retail supply rather than a source of customers. This is unverified and needs a cadastral check (aisgzk.kz / e-qala).",
+    "The general plan's own text allows 'компенсационные мероприятия в случаях изъятия природных территорий под застройку'. Green-belt or natural land is therefore not legally untouchable, which cuts against the agent's estimate that the land west and south of TARIH will stay empty.",
+    "Commercial supply in ŪIA itself: kn.kz lists a 'Коммерческие помещения' category for TARIH, and Krisha has DARYN first-line commercial ads (e.g. krisha.kz/a/show/1013946781). The agent did not count how many ground-floor units BI is putting on the market across DARYN, TARIH, SŪNQAR and BIRLIK. That competing supply matters more for rent than the plans for the land to the south.",
+    "Nothing on whether TARIH B (inner SW block) faces any through street at all. TARIH's postal address is 'Е 909' (or 'пр. Улы Дала 5 стр.' per kn.kz, which conflicts), and no source shows Е 909's route. A unit in B that faces only the empty south side or the Айтматова stub would have essentially no passing trade.",
+    "kn.kz's 'nearby' schools for TARIH (Alpamys, Кабанбай батыра 49/2; НИШ, Хусейна бен Талала 21) are kilometres away. This confirms that no school operates next to TARIH today.",
+    "The address of 'Комфортная средняя школа №118' (Krisha's nearest school and bus stop for DARYN) was not found. It should be checked: if it is the complex under construction north of Улы Дала, it is the main nearby source of foot traffic."
+   ],
+   "overall_reliability": "medium",
+   "summary": "Most of the core facts hold up when re-checked against primary pages: korter's TARIH queues (A and В Q4 2026, Е and C Q1 2027, no D or F), Krisha's TARIH and DARYN data, the August 2026 General Plan points, the Айтматова history, the 2026 road list (no southern extension), route 74, the 7 bn ₸ Нура school, and the fact that the ФМЛ/РФМШ exists only in marketing ('ожидается', 'рядом будет'). These all support the user's own observation that nothing is being built beyond TARIH B. The errors are concentrated in the details. The Taldykol figures (4.5 bn ₸, 2027, 70 ha) were pinned on the wrong lake, and the 70 ha number has no source. The 'Улы дала 2' land ad was misreported: its price is not 1.0 bn (it is 1.255–1.35 bn), its 'ПДП МЖК 9-12 / 2 школы' text could not be re-verified, and its title actually ties it to the Улы Дала–Айтматова corner. Site 9 of Малый Талдыколь is overstated as preserved. The resident estimate stacks assumptions. The agent also missed three things. First, the full General Plan text is public (Resolution No. 697) and allows natural land to be taken for building with compensation. Second, the TARIH and SŪNQAR delivery dates are already slipping. Third, competing ground-floor commercial supply inside ŪIA, rather than what happens to the land south of TARIH, is the bigger issue for rent. Bottom line, from facts: nothing official commits anything to the land south or west of TARIH B, and no school, road or transit there has a funded date. ESTIMATE: a TARIH B ground-floor unit will rely only on ŪIA's own residents from 2027 onward, which is a weak case compared with DARYN units on the Улы Дала frontage."
+  }
+ },
+ {
+  "key": "population",
+  "result": {
+   "projects": [
+    {
+     "name": "ÜIA.TARIH – block A (north row, corner of Aitmatov line)",
+     "apartments": 312,
+     "apartments_basis": "ESTIMATE. Korter gives 1,011 apartments for the whole of TARIH (queues A, B, C, E; 30 to 35 sections). This block's share is taken from its residential section-floors: 10 sections, 6 of 9 floors and 4 of 12 floors. Krisha gives only 337 apartments for TARIH, which looks like an early partial figure.",
+     "blocks": "1 block, 10 sections (podъезды)",
+     "floors": "9 and 12",
+     "delivery": "Q4 2026 (korter: start Q4 2025, end Q4 2026). Fundraising permit №66 of 19.11.2025.",
+     "status_today": "Under construction. No keys handed over yet.",
+     "developer": "BI Group (BI Group Север)",
+     "distance_km": 0.15,
+     "lat": 51.1029,
+     "lon": 71.3495,
+     "side": "in place / N part of TARIH",
+     "source_url": "https://korter.kz/жк-uiatarih-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ÜIA.TARIH – block B (SW corner block, ~140×90 m)",
+     "apartments": 292,
+     "apartments_basis": "ESTIMATE: share of korter's 1,011 total. 10 sections: 8 of 9 floors and 2 of 12 floors.",
+     "blocks": "1 block, 10 sections",
+     "floors": "9 and 12",
+     "delivery": "Q4 2026 (korter and BI sheet)",
+     "status_today": "Under construction, structure up. The user saw on site that there is nothing beyond it: an empty lot.",
+     "developer": "BI Group",
+     "distance_km": 0.05,
+     "lat": 51.1026,
+     "lon": 71.349,
+     "side": "reference point (korter's TARIH pin = SW corner of the cluster)",
+     "source_url": "https://korter.kz/жк-uiatarih-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ÜIA.TARIH – blocks C (closed square) and E (U-shape)",
+     "apartments": 407,
+     "apartments_basis": "ESTIMATE: share of korter's 1,011 total. C has 10 sections of 9 floors (about 271 apartments). E has 5 sections of 9 floors (about 136 apartments).",
+     "blocks": "2 blocks, 15 sections",
+     "floors": "9 (some 12)",
+     "delivery": "Q1 2027 (korter and BI sheet). E started Q4 2025.",
+     "status_today": "Under construction",
+     "developer": "BI Group",
+     "distance_km": 0.3,
+     "lat": 51.103,
+     "lon": 71.353,
+     "side": "E / NE",
+     "source_url": "https://korter.kz/жк-uiatarih-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ÜIA.TARIH – planned plots D and F",
+     "apartments": 0,
+     "apartments_basis": "Not counted. Korter lists no queue D or F; it has only A, B, C and E. The user's on-site visit and Sentinel-2 imagery of 2026-10-13 show empty steppe there.",
+     "blocks": "planned",
+     "floors": "unknown",
+     "delivery": "none announced",
+     "status_today": "Not started (empty lot)",
+     "developer": "BI Group",
+     "distance_km": 0.3,
+     "side": "E of B / E of E",
+     "source_url": "https://korter.kz/жк-uiatarih-астана",
+     "confidence": "high"
+    },
+    {
+     "name": "ÜIA.DARYN – blocks C, E, K (+K-2)",
+     "apartments": 853,
+     "apartments_basis": "ESTIMATE. Korter gives 2,137 apartments across 17 houses for DARYN, split here by residential section-floors of the 34 listed sections. C: 3 sections of 12/14/17 floors, about 193 apartments. E: 5 sections of 9–17 floors, about 318. K: 5 sections of 9/12 floors, about 236. K-2: 2 sections of 12 floors, about 106. Krisha gives only 784 apartments for DARYN, which looks partial.",
+     "blocks": "C, E, K, K-2 (15 sections)",
+     "floors": "9–17",
+     "delivery": "BI sheet: C, E and K in Q4 2026. Korter: E, K and K-2 in Q1 2027, C in Q2 2027. Permits: C №27 (04.03.2026), E №61 (13.11.2025), K №29 (04.03.2026).",
+     "status_today": "Under construction. Towers topped out per Sentinel-2.",
+     "developer": "BI Group",
+     "distance_km": 0.35,
+     "lat": 51.10493,
+     "lon": 71.35239,
+     "side": "N / NE (band along the south side of Uly Dala)",
+     "source_url": "https://korter.kz/uia-burkit-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ÜIA.DARYN – blocks F, G, D, A",
+     "apartments": 1285,
+     "apartments_basis": "ESTIMATE, same split of korter's 2,137. F: 4 sections of 14/17 floors, about 279 apartments. G: 4 sections, about 279. D: 5 sections of 9–17 floors, about 318. A: 6 sections of 12–17 floors, about 409. Blocks M and H appear on the BI sheet (Q1 2027) and in a Krisha ad ('Daryn M, ключи март 2027'), but korter has no queues for them, so they are not counted. That is an upside.",
+     "blocks": "F, G, D, A (19 sections) (+ M, H not on korter)",
+     "floors": "9–17",
+     "delivery": "BI sheet: F Q2 2027, G Q3 2027. Korter: F, G and D Q3 2027, A Q4 2027. Krisha lists DARYN in six queues, Q2 2026 to Q3 2027.",
+     "status_today": "Under construction",
+     "developer": "BI Group",
+     "distance_km": 0.45,
+     "lat": 51.105,
+     "lon": 71.353,
+     "side": "N / NE",
+     "source_url": "https://korter.kz/uia-burkit-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ÜIA.SŪNQAR (Улы Дала 14)",
+     "apartments": 820,
+     "apartments_basis": "ESTIMATE: 14 sections (mostly 17 floors) give 205 residential section-floors; at 4 flats per floor that is about 820. Krisha states only 112 apartments, which looks partial. WARNING: the korter pin (51.10386, 71.35850) falls on the OSM polygon 'ЖК ŪIA.DARYN Блок B' (14 floors), and one Krisha ad says the complex 'сейчас называется Daryn'. SŪNQAR may therefore be DARYN B and partly inside DARYN's 2,137. The low case drops it.",
+     "blocks": "2 queues, 14 sections",
+     "floors": "12–17",
+     "delivery": "Korter: Q3 2026, still 'construction'. Krisha: Q4 2025, out of date. Modelled as Q4 2026.",
+     "status_today": "Under construction or finishing. Towers are standing per Sentinel-2. No proof of handover.",
+     "developer": "BI Group Север",
+     "distance_km": 0.68,
+     "lat": 51.10386,
+     "lon": 71.3585,
+     "side": "ENE",
+     "source_url": "https://korter.kz/uia-sunqar-астана",
+     "confidence": "low"
+    },
+    {
+     "name": "ÜIA.BIRLIK (Е 908 23)",
+     "apartments": 1152,
+     "apartments_basis": "ESTIMATE: 28 sections listed on korter. A has 4, B 3, B-2 4, D 8, E 6 and F 3 sections, of 9 or 17 floors. That is 288 residential section-floors; at 4 flats per floor, about 1,150. Korter and Krisha state 425 apartments, which looks like the first queues only.",
+     "blocks": "A, B, B-2, D, E, F (25 to 28 sections)",
+     "floors": "9 and 17",
+     "delivery": "Korter: A Q3 2026; B and D Q4 2026; B-2 Q1 2027; E and F Q2 2027. A Krisha ad says 'ключи 17 октября 2026'. Krisha shows five queues, Q3 2026 to Q3 2027. Permits №12–16 of 10.02.2026.",
+     "status_today": "Under construction. Block A is about to hand over keys.",
+     "developer": "BI Group",
+     "distance_km": 1.09,
+     "lat": 51.10271,
+     "lon": 71.36459,
+     "side": "E",
+     "source_url": "https://korter.kz/uia-birlik-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ЖК Gasyr (пр. Улы Дала 24/4 / Айтматова 24/4; 'Улы Дала 5')",
+     "apartments": 270,
+     "apartments_basis": "Korter: 270 apartments, 7 sections, 9 floors.",
+     "blocks": "7 blocks",
+     "floors": "9",
+     "delivery": "kn.kz: Q4 2026, but the date has slipped every quarter since Q4 2024 (Q4'24 → Q1'25 → Q2'25 → Q3'25 → Q4'25 → Q2'26 → Q3'26 → Q4'26). Korter: Q2 2026, status 'unknown'.",
+     "status_today": "Built but not handed over ('строится' on kn.kz). Towers are visible north of Uly Dala in Sentinel-2.",
+     "developer": "Sensata Group",
+     "distance_km": 0.68,
+     "lat": 51.10642,
+     "lon": 71.35653,
+     "side": "NE (north side of Uly Dala)",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/gasyr",
+     "confidence": "high"
+    },
+    {
+     "name": "КГ Ellington Hills (Aspan Royal Park), Айтматова 24/11",
+     "apartments": 40,
+     "apartments_basis": "ESTIMATE. The project covers 14.4 ha in 5 queues of cottages and townhouses. Forbes lists 28 townhouses and 4 cottages on sale. These are premium units with a resident-only club.",
+     "blocks": "5 queues",
+     "floors": "2–3",
+     "delivery": "kn.kz: Q3 2026, after slipping from Q4 2025, Q1 2026 and Q2 2026. Modelled as Q1 2027.",
+     "status_today": "Under construction or finishing. A cottage grid is visible on Sentinel-2. Krisha notes that it has no equity-participation permits.",
+     "developer": "Ellington Hills",
+     "distance_km": 1.39,
+     "lat": 51.10773,
+     "lon": 71.36718,
+     "side": "ENE (north of Uly Dala)",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/ellington-hills",
+     "confidence": "low"
+    },
+    {
+     "name": "ЖК ABAI CITY. Mahabbat (Е 908, уч. 23) – OUTSIDE 1.5 km",
+     "apartments": 1146,
+     "apartments_basis": "Korter: 1,146 apartments in 2 houses.",
+     "blocks": "2 houses",
+     "floors": "9–18",
+     "delivery": "Q1 2027 (queue 1, block 1.2). Permit №61 of 25.05.2026.",
+     "status_today": "Under construction",
+     "developer": "SAT-NS",
+     "distance_km": 1.72,
+     "lat": 51.10162,
+     "lon": 71.37354,
+     "side": "E",
+     "source_url": "https://korter.kz/жк-abai-city-mahabbat-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ЖК Uly Dala Park | Life (Е 908, 24) – OUTSIDE 1.5 km",
+     "apartments": 400,
+     "apartments_basis": "Korter: 400 apartments.",
+     "blocks": "6 blocks",
+     "floors": "9 and 14",
+     "delivery": "Korter: Q3 2026",
+     "status_today": "Korter still shows it under construction; no handover confirmed.",
+     "developer": "Tumar Group",
+     "distance_km": 1.94,
+     "lat": 51.10047,
+     "lon": 71.37659,
+     "side": "E",
+     "source_url": "https://korter.kz/жк-uly-dala-park-life-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ЖК Esentai City (Айтматова 24/14) – just OUTSIDE 1.5 km",
+     "apartments_basis": "Apartment count not found",
+     "floors": "9–16",
+     "delivery": "kn.kz: Q3 2026, after slipping from Q3 2025, Q4 2025, Q1 2026 and Q2 2026. Krisha ads say 2025–2026.",
+     "status_today": "Under construction. kn.kz flags that the full permit set is missing and there are deviations from the project.",
+     "developer": "Baisanat Home",
+     "distance_km": 1.64,
+     "lat": 51.11623,
+     "lon": 71.35785,
+     "side": "NNE",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/esentai-city",
+     "confidence": "medium"
+    },
+    {
+     "name": "ЖК Aspan Residence (Е 908 24/1) – about 1.9 km, OUTSIDE",
+     "apartments_basis": "Not found. Known only from Krisha resale ads (2026–2027).",
+     "delivery": "2026–2027 per ads",
+     "status_today": "Under construction (per ads)",
+     "distance_km": 1.9,
+     "side": "E",
+     "source_url": "https://krisha.kz/prodazha/kvartiry/astana/?areas=p51.1160%2C71.3270%2C51.1160%2C71.3710%2C51.0890%2C71.3710%2C51.0890%2C71.3270%2C51.1160%2C71.3270&page=18",
+     "confidence": "low"
+    },
+    {
+     "name": "ЖК Next One (Айтматова 19) – OUTSIDE",
+     "delivery": "not checked",
+     "status_today": "Under construction (korter)",
+     "distance_km": 2.05,
+     "lat": 51.12054,
+     "lon": 71.35586,
+     "side": "NNE",
+     "source_url": "https://korter.kz/жк-next-one-астана",
+     "confidence": "medium"
+    },
+    {
+     "name": "ЖК Baisa (Айтматова 21) – OUTSIDE",
+     "apartments": 333,
+     "apartments_basis": "Krisha: 333 apartments",
+     "floors": "9",
+     "delivery": "Q3 2026 (Krisha and kn.kz). Ads say Nov–Dec 2026.",
+     "status_today": "Under construction",
+     "developer": "Favorite Group",
+     "distance_km": 2.27,
+     "lat": 51.12246,
+     "lon": 71.35672,
+     "side": "NNE",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/baisa",
+     "confidence": "high"
+    },
+    {
+     "name": "ЖК Qadam (Айтматова 22) – OUTSIDE",
+     "apartments_basis": "Not stated. kn.kz ads mention 7 entrances.",
+     "floors": "9–12",
+     "delivery": "kn.kz: Q4 2026. Ads say end of October 2026.",
+     "status_today": "Under construction or handing over",
+     "developer": "Svoy Dom",
+     "distance_km": 2.48,
+     "lat": 51.1239,
+     "lon": 71.35968,
+     "side": "NNE",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/qadam",
+     "confidence": "high"
+    }
+   ],
+   "facilities": [
+    {
+     "name": "Комфортная средняя школа №118 (пр. Улы Дала 11)",
+     "type": "public school",
+     "status": "Operating. In August 2026, applications were taken until 25 Aug. Staff say capacity is about 4,000. The area is described as 'пока ещё малообжитой'. Pupils turned away by other schools are sent there by organised bus, and public transport 'практически не ходит'. OSM tags it amenity=school at 51.1062, 71.3623, on the north side of Uly Dala.",
+     "distance_km": 1,
+     "side": "ENE, across Uly Dala",
+     "source_url": "https://newtimes.kz/eksklyuziv/222430-defitsit-mest-v-shkolakh-astany-pochemu-pervoklassnikov-otpravliaiut-na-okrainy-stolitsy"
+    },
+    {
+     "name": "Ellington Mall / 'Aspan' tourist quarter (Айтматова × Улы Дала)",
+     "type": "mall + tourist quarter (mall, multi-level parking, arena, climbing gym, hotels, F&B)",
+     "status": "Under construction, about 50% built as of Aug 2026. The mall is due by end-2028 and the whole quarter by end-2030. Investment is ₸205.6 bn (Ellington Group KAZ Ltd). The original target was 2027. OSM has building=construction 'Elington Mall' at 51.1106, 71.3592. The white-roofed low-rise complex north of Uly Dala on Sentinel-2 at about 51.110, 71.359 matches this site.",
+     "distance_km": 1.14,
+     "side": "NNE",
+     "source_url": "https://bes.media/news/ellington-mall-ili-aspan-novyy-trts-astany-dostroyat-do-kontsa-2028-goda/"
+    },
+    {
+     "name": "'Large school-like complex under construction just north of Uly Dala' (point given as about 51.1060, 71.3530)",
+     "type": "identification note",
+     "status": "OSM shows no school there. The closest mapped objects are the Gasyr construction site (7 residential buildings of 9 floors, 51.1065, 71.3576, 0.7 km), the operating School №118 (51.1062, 71.3623, 1.0 km) and the Ellington Mall site (51.1106, 71.3592, 1.1 km). The large low-rise complex with white and blue roofs is most likely Ellington Mall. The 'few towers' are Gasyr.",
+     "distance_km": 0.75,
+     "side": "NNE–NE",
+     "source_url": "https://www.openstreetmap.org/way/1431543354"
+    },
+    {
+     "name": "ФМЛ (physics-math school) south of TARIH B, from the BI brochure",
+     "type": "school (planned)",
+     "status": "Not started. It appears only in the brochure render. The user's on-site visit and Sentinel-2 of 2026-10-13 show empty steppe south of B. No permit or news found.",
+     "distance_km": 0.2,
+     "side": "S",
+     "source_url": "https://korter.kz/жк-uiatarih-астана"
+    },
+    {
+     "name": "Planned city school 'район ул. Айтматова и участка №24/22 (в стороне строящегося Ellington mall)'",
+     "type": "public school (plan from 2023)",
+     "status": "Plan announced in Oct 2023. It may be the same school as the operating №118; not confirmed.",
+     "distance_km": 1,
+     "side": "N / NE",
+     "source_url": "https://tengrinews.kz/article/zdes-shkola-kakih-rayonah-astanyi-poyavyatsya-novyie-2171/"
+    },
+    {
+     "name": "Planned school near ул. Айтматова, Нура, 1,200 seats",
+     "type": "public school",
+     "status": "At the data-collection stage (Apr 2026). Exact site unknown.",
+     "side": "N (Aitmatov corridor)",
+     "source_url": "https://www.vechastana.kz/news/adresa-novyh-shkol"
+    },
+    {
+     "name": "Ellington Hills residents' club (pool, 2,000 m² fitness, kids room, supermarket)",
+     "type": "sport / retail (residents only)",
+     "status": "Under construction, together with the cottage town",
+     "distance_km": 1.4,
+     "side": "ENE",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/ellington-hills"
+    },
+    {
+     "name": "Kindergartens, clinics, mosques, malls (operating)",
+     "type": "none within 1.5 km",
+     "status": "None found. The kn.kz infrastructure layers on the Gasyr, Baisa and Qadam pages list nothing within 1.5 km of TARIH. The nearest are Binom School им. Бөкейхана (Е-20, 5) at 2.9 km, kindergartens №86 and №90 (Маметовой) at about 3.4 km, Small supermarket (Туран 65) at 3.1 km, the Qazaqstan athletics complex at 3.1 km, Barys Arena at 3.3 km and Green Mall at 4.2 km.",
+     "distance_km": 2.9,
+     "side": "NE / E",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/gasyr"
+    },
+    {
+     "name": "Proposed LRT extension (Aitmatov corridor)",
+     "type": "transport",
+     "status": "Proposed only (OSM proposed:railway=light_rail). Ads cite a launch in Q4 2026; not verified.",
+     "distance_km": 2.8,
+     "side": "NNE",
+     "source_url": "https://www.openstreetmap.org/way/1522365411"
+    }
+   ],
+   "occupied_apartments_estimate": [
+    {
+     "when": "today (2026-10-14)",
+     "within_600m": 0,
+     "within_1500m": 0,
+     "basis": "FACT: no residential building within 1.5 km has handed over keys. Korter shows every complex as construction. Gasyr has been postponed to Q4 2026. The nearest delivered complexes are Salman City and Abadan at about 2.4–2.5 km."
+    },
+    {
+     "when": "end-2026",
+     "within_600m": 42,
+     "within_1500m": 116,
+     "basis": "ESTIMATE, base case. Keys are taken mid-quarter on the BI-sheet or korter date (TARIH A/B, DARYN C/E/K, SŪNQAR, BIRLIK A/B/D, Gasyr all in Q4 2026). Occupancy rises linearly from 0 at keys to 30% at 12 months, 60% at 24 and 85% at 36. With 3 persons per apartment that is about 130 people within 600 m and 350 within 1.5 km. If keys slip 6 months, both figures are 0. Supply in the ring is about 2,500 apartments within 600 m (all of TARIH plus about 70% of DARYN) and about 5,430 within 1.5 km."
+    },
+    {
+     "when": "end-2027",
+     "within_600m": 601,
+     "within_1500m": 1430,
+     "basis": "ESTIMATE, base case: about 1,800 people within 600 m and 4,300 within 1.5 km. With a 6-month key slip: 273 and 684 apartments. Without SŪNQAR (possible double count with DARYN B): 1,153 within 1.5 km."
+    },
+    {
+     "when": "end-2028",
+     "within_600m": 1346,
+     "within_1500m": 3040,
+     "basis": "ESTIMATE, base case: about 4,000 people within 600 m and 9,100 within 1.5 km. With a 6-month slip: 977 and 2,245. Without SŪNQAR: 2,523 within 1.5 km. Ellington Mall is due to open around end-2028, which would add destination traffic north of Uly Dala."
+    },
+    {
+     "when": "end-2029",
+     "within_600m": 1970,
+     "within_1500m": 4354,
+     "basis": "ESTIMATE, base case: about 5,900 people within 600 m and 13,100 within 1.5 km. With a 6-month slip: 1,684 and 3,760. Without SŪNQAR: 3,657 within 1.5 km. Excluded: DARYN M/H (upside), TARIH D/F (not started) and projects beyond 1.5 km (Mahabbat 1,146 and Uly Dala Park Life 400, both on the E side at 1.7–1.9 km)."
+    }
+   ],
+   "notes": "FACTS\n1. The user's report checks out. Korter lists only queues A, B, C and E for TARIH; there is no D or F. On Sentinel-2 of 2026-10-13, korter's TARIH pin (51.10261, 71.34896) sits on the SW corner of the built cluster, with empty steppe to the south and west. So the TARIH catchment can only face north and east (DARYN and Uly Dala). Nothing lies to the south or west.\n2. Nobody lives within 1.5 km today. Every residential project there is under construction or waiting for keys. School №118 (Uly Dala 11, about 1.0 km ENE) is operating, but newtimes.kz (17.08.2026) says it sits in a 'малообжитой' area. It takes pupils turned away by other schools and moves them by organised bus, with almost no public transport.\n3. Ellington Mall / Aspan is about 50% built. The mall is due end-2028 and the full quarter end-2030 (bes.media, 25.09.2026). It sits about 1.1 km NNE, north of Uly Dala, and is most likely the 'large complex under construction' seen on the imagery.\n4. Apartment counts conflict between sources:\n   - TARIH: korter 1,011, Krisha 337.\n   - DARYN: korter 2,137, Krisha 784.\n   - BIRLIK: korter and Krisha 425, against about 1,150 implied by 28 sections of 9/17 floors.\n   - SŪNQAR: Krisha 112, against about 820 implied by 14 sections.\n   For BI complexes the Krisha numbers look like the first queues only.\n5. Delivery dates also conflict between the BI sheets and korter. Korter puts DARYN C/E/K one to two quarters later than BI. DARYN A is Q4 2027 on korter.\n6. Non-BI neighbours slip repeatedly: Gasyr six times since Q4 2024, Esentai City four times, Ellington Hills three times.\n7. The korter SŪNQAR pin coincides with OSM 'ЖК ŪIA.DARYN Блок B', and a Krisha ad says SŪNQAR is 'now called Daryn'. Treat SŪNQAR as possibly the same buildings as DARYN B.\n8. Projects named in the task that lie outside 1.5 km: Mahabbat (1.72 km E), Uly Dala Park Life (1.94 km E), Esentai City (1.64 km NNE), Aspan Residence (about 1.9 km E), Next One (2.05 km), Baisa (2.27 km NNE) and Qadam (2.48 km NNE). Qadam and Baisa sit at the north end of Aitmatov, not near the junction.\n\nESTIMATES (method)\n- Apartments per queue: korter totals split by residential section-floors (floors minus 1 per section), or 4 flats per floor per section where no reliable total exists.\n- Share within 600 m: all of TARIH, about 70% of DARYN, nothing else. SŪNQAR and Gasyr are about 0.65–0.75 km away.\n- Occupancy: 3 persons per apartment, linear from keys to 30% at 12 months, 60% at 24 and 85% at 36.\n- Weakest assumptions: the SŪNQAR and BIRLIK apartment counts, the DARYN 600 m share, and on-time keys. BI dates have slipped before. A 6-month slip roughly halves the end-2027 numbers.\n- Implication for a ground-floor office at TARIH B: almost no local foot traffic before mid-2027. About 600 occupied apartments within 600 m by end-2027 and about 2,000 by end-2029. The west and south sides of TARIH face empty land with no plans in place.\n\nFILES: raw korter, kn.kz and OSM pages and scripts are in /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/pop/ (raw/, scripts/kparse.py, scripts/knparse.py, scripts/occ.py).\n\nOTHER SOURCES:\n- krisha complex pages: https://krisha.kz/complex/show/astana/uiatarih/ , /uiadaryn/ , /uiasunqar/ , /uiabirlik/ , /baisa/\n- krisha 1.5 km polygon search (488 sale ads, all in DARYN, TARIH, BIRLIK, Gasyr, Esentai City, Aspan Residence and Uly Dala Park): https://krisha.kz/prodazha/kvartiry/astana/?areas=p51.1160%2C71.3270%2C51.1160%2C71.3710%2C51.0890%2C71.3710%2C51.0890%2C71.3270%2C51.1160%2C71.3270\n- OSM Overpass, 2 km around TARIH (2026-10-14).\n\nACCESS: BI and 2GIS were not accessed (anti-bot protection). One fetched page (bizmedia.kz) contained an embedded instruction aimed at AI tools; it was ignored."
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "Korter lists TARIH with 1,011 apartments in only four queues (A, B, C, E) and no D or F. A has 10 sections (6×9 and 4×12 floors) and B has 10 sections (8×9 and 2×12), both due Q4 2026. C has 10×9 floors and E has 5×9, both due Q1 2027. Krisha gives 337 apartments.",
+     "verdict": "confirmed",
+     "evidence": "I re-downloaded the korter page and parsed window.INITIAL_STATE. Queues are 'UIA.TARIH - A', '- В', '- Е' and '- C'. Sections and floors match the claim exactly: 35 sections in total, while the attribute 'Количество секций' says 30. A and В end Q4 2026 and started Q4 2025. Е and C end Q1 2027. All are 'construction'. 'Количество квартир' is 1011, and the pin is 51.10260889, 71.34896104. Krisha's complex page says 337 apartments. The agent's per-block split (A 312, B 292, C 271, E 136) is arithmetic on these figures and is correct as arithmetic. Two things the agent missed: (a) Krisha gives the first TARIH queue as 'I квартал 2026 г.' and the second as 'I квартал 2027 г.', so the Q4 2026 date for B is already about three quarters late against that listing; (b) 1,011 apartments is only about 3.4 per residential section-floor, against about 4.8 for DARYN on the same method. Either TARIH flats are larger (comfort+/business+, 30–112 m²) or 1,011 is also partial.",
+     "source_url": "https://korter.kz/жк-uiatarih-астана"
+    },
+    {
+     "claim": "FACT: nobody lives within 1.5 km today, because no residential building within 1.5 km has handed over keys (0 occupied apartments within both 600 m and 1,500 m on 2026-10-14).",
+     "verdict": "contradicted",
+     "evidence": "Owner ads on Krisha say DARYN buildings along Улы Дала have already handed over keys. Rent ad 1016551423 (ЖК Уя Дарын А, Улы Дала 12, 88 m², 600k ₸) says 'дом сдан, ключи на руках'. Rent ad 1014567269 (Uia Daryn A, Ұлы Дала 12, 1st floor, 57 m²) says 'ключи на руках'. Snippets in the Krisha DARYN sale list (complex 3744, 238 ads) include 'КЛЮЧИ НА РУКАХ' (1014172449, Улы Дала 14) and 'КЛЮЧИ выданы ... сдача июнь' (1010101588, Улы Дала 10). The last two detail pages returned 403, so only their snippets were seen. kn.kz lists Улы Дала 10 стр, 12 and 14 стр with delivery in Q3 2026 and says 'часть домов построена'. Yandex puts 'UIA Daryn - A' (Улы Дала 12) at 51.10463, 71.35757, about 0.64 km from TARIH B. So some owners within 1.5 km hold keys, probably since about June to Q3 2026. Actual residence is likely low while fit-out is under way, but the number is not 0, and the agent's model starts the first keys too late. Korter still shows every DARYN queue as 'construction', so korter's status flags are stale and should not be used as proof.",
+     "source_url": "https://krisha.kz/a/show/1016551423"
+    },
+    {
+     "claim": "SŪNQAR may be the same buildings as DARYN B. The korter SŪNQAR pin (51.10386, 71.35850) 'falls on the OSM polygon ЖК ŪIA.DARYN Блок B', and a Krisha ad says SŪNQAR is 'now called Daryn'.",
+     "verdict": "partially",
+     "evidence": "The geometric claim is wrong. I took the OSM way 1478765471 ('ЖК ŪIA.DARYN Блок B', Улы Дала 10, 14 floors) from the OSM API. It spans lat 51.10386–51.10467 and lon 71.35714–71.35788, and a point-in-polygon test puts the pin OUTSIDE it, about 45 m to the east, at the edge of an unnamed 'construction=residential' way (1478765474). The underlying concern is still valid, on other evidence. Krisha's DARYN page uses address Улы Дала 14, the same address as SŪNQAR. Sale ad 1015515118 is labelled 'Uya Sunkar (BI Group)' at 'Улы дала 12', which is DARYN A's address. Yandex puts DARYN A at 51.10463, 71.35757, within about 80 m of OSM 'Блок B' and the SŪNQAR pin. Korter's DARYN has no block B, while kn.kz and Krisha say DARYN blocks A, B and K are ModeX modular. The Krisha SŪNQAR page also says 'Нет документов на ЖК'. I did not re-find the 'сейчас называется Daryn' ad. Treating SŪNQAR as overlapping with DARYN A/B, the early ModeX blocks that appear to have handed over keys, is better supported than adding 820 extra apartments.",
+     "source_url": "https://api.openstreetmap.org/api/0.6/way/1478765471/full.json"
+    },
+    {
+     "claim": "DARYN: korter has 2,137 apartments 'across 17 houses'. Its queue structure is C (3 sections), E (5), K (5), K-2 (2), F (4), G (4), D (5) and A (6), with korter dates of E/K/K-2 Q1 2027, C Q2 2027, F/G/D Q3 2027 and A Q4 2027. Krisha gives 784 apartments in six stages, Q2 2026 to Q3 2027.",
+     "verdict": "partially",
+     "evidence": "The sections, floors and end dates match my parse of korter, and 'Количество квартир' is 2137. But korter's houseCount is 39 and it lists 34 sections, not '17 houses'. Krisha does show 784 apartments and six stages from Q2 2026 to Q3 2027. The agent missed that the first Krisha stage (Q2 2026) and kn.kz's Q3 2026 date for Улы Дала 10/12/14 line up with owner ads saying keys were issued around June 2026. Korter's 'DARYN A = Q4 2027' therefore cannot be the same building as Krisha's 'Uia Daryn A, Улы Дала 12, ключи на руках'. The block letters differ between sources, so splitting korter totals by letter is unreliable.",
+     "source_url": "https://korter.kz/uia-burkit-астана"
+    },
+    {
+     "claim": "Gasyr (Sensata Group, Айтматова 24/4): 270 apartments, 7 sections of 9 floors. kn.kz shows the date slipping every quarter, Q4 2024 → … → Q4 2026, and the complex is still 'строится'. Korter gives Q2 2026 with status 'unknown'.",
+     "verdict": "confirmed",
+     "evidence": "Korter re-parse: address 'ул. Чингиз Айтматов, 24, 24/4', 7 sections, 9 floors, 270 apartments, end Q2 2026, constructionStatus 'unknown', pin 51.10654, 71.35663. kn.kz: Sensata Group, 9 floors, current date Q4 2026, 'строится'. Its history runs 05.10.2024 Q4'24, 07.01.2025 Q1'25, 18.04.2025 Q2'25, 04.07.2025 Q3'25, 11.10.2025 Q4'25, 24.04.2026 Q2'26, 23.07.2026 Q3'26. kn.kz also says equity contracts are signed only after a guarantee or permit is obtained. One caveat: the context's Gasyr comparable 'Улы Дала 5' (92 M for 92 m²) is ambiguous. kn.kz gives TARIH's address as 'пр. Улы Дала, 5 стр', while Krisha ad 1011805801 labels 'Улы дала 5' as 'Gasyr (Сенсата), 2 очередь'. Check that ad's location before using it as a Gasyr comparable.",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/gasyr"
+    },
+    {
+     "claim": "School №118 is operating about 1.0 km ENE, north of Улы Дала. Staff give its capacity as about 4,000, and the area is 'пока ещё малообжитой'. Pupils turned away by other schools are sent there by organised bus, and public transport 'практически не ходит' (newtimes.kz, 17.08.2026).",
+     "verdict": "confirmed",
+     "evidence": "The newtimes article is dated 17 Aug 2026. It says the school is 'в районе улицы Улы Дала' in Нура, 'рассчитана на 4 тысячи человек', documents are accepted 'до 25 августа', the area is 'пока ещё малообжитом районе', 'кого не приняли в других школах, к нам все идут', and school buses are organised for first-graders. 'Транспорт практически не ходит' is a parent's quote, not a verified fact. Nominatim reverse geocoding returns OSM way 1478765472 'Комфортная средняя школа №118', Ұлы Дала даңғылы, at 51.1062, 71.3623, about 1.0 km from TARIH B. The house number 'Улы Дала 11' is not in the article; it is unverified.",
+     "source_url": "https://newtimes.kz/eksklyuziv/222430-defitsit-mest-v-shkolakh-astany-pochemu-pervoklassnikov-otpravliaiut-na-okrainy-stolitsy"
+    },
+    {
+     "claim": "Ellington Mall / Aspan is about 50% built. The mall is due by end-2028 and the whole quarter by end-2030. Investment is ₸205.6 bn (Ellington Group KAZ Ltd), the original target was 2027, and the site is about 1.1 km NNE (OSM 'Elington Mall').",
+     "verdict": "confirmed",
+     "evidence": "bes.media (25.09.2026) says: 'общая строительная готовность составляет порядка 50%'; the mall 'достроят до конца 2028 года'; the quarter is to be finished 'до конца 2030 года'; investment is 205.623 bn ₸, up from 175.1 bn; the investor is Ellington Group KAZ Ltd; completion was planned for 2027. The article places it 'на пересечении улиц Айтматова и Улы дала'. OSM way 1431543354 (building=construction, name 'Elington Mall') has nodes at about 51.1103–51.1111, 71.3564–71.3620, which is 1.0–1.2 km from TARIH B.",
+     "source_url": "https://bes.media/news/ellington-mall-ili-aspan-novyy-trts-astany-dostroyat-do-kontsa-2028-goda/"
+    },
+    {
+     "claim": "BIRLIK: korter and Krisha give 425 apartments, but 28 sections of 9/17 floors imply about 1,150. Block A is due Q3 2026 and is 'about to hand over keys' (a Krisha ad says 'ключи 17 октября 2026').",
+     "verdict": "partially",
+     "evidence": "Korter re-parse: A has 4 sections (9, 9, 17, 17) due Q3 2026; B 3 sections Q4 2026; B-2 4 sections Q1 2027; D 8 sections Q4 2026; E 6 sections Q2 2027; F 3 sections Q2 2027. That is 28 sections, while houseCount is 29 and the attribute says 25. Apartments are 425 and the pin is 51.10271, 71.36459. The ~1,150 figure is the agent's assumption of 4 flats per floor; no source gives it. Krisha rent ad 1016457172 (Uia Birlik A, Е 908 23) says 'Ключи скоро выдадут', which supports imminent keys. I did not find the specific '17 октября 2026' ad.",
+     "source_url": "https://korter.kz/uia-birlik-астана"
+    },
+    {
+     "claim": "The ФМЛ (physics-math school) south of TARIH B appears only in the brochure render. It has not started, and no permit or news exists.",
+     "verdict": "unverifiable",
+     "evidence": "Searches for a physics-math lyceum or NIS at Улы Дала/Айтматова found nothing. Neither the korter nor the kn.kz TARIH page mentions a school. The 2023 Tengrinews article (19.10.2023) places a planned city school 'в районе улицы Айтматова и участка № 24/22 (в стороне строящегося Ellington mall)', which is north of Улы Дала and fits School №118, not a site south of TARIH. Vechastana (20.04.2026) lists further Aitmatov-area schools: 'ЖК Шарын' with 600 seats at the design stage, a 1,200-seat school in 'Нура' at the data-collection stage, and an 800-seat Нура school due to start construction in H2 2026. None is located south of TARIH. The absence of evidence is consistent with the user's on-site observation.",
+     "source_url": "https://www.vechastana.kz/news/adresa-novyh-shkol"
+    },
+    {
+     "claim": "Occupancy forecast for ~600 m / 1.5 km: 42/116 apartments at end-2026, 601/1,430 at end-2027, 1,346/3,040 at end-2028, 1,970/4,354 at end-2029 (3 persons per apartment; 30%, 60% and 85% occupancy at 12, 24 and 36 months).",
+     "verdict": "unverifiable",
+     "evidence": "These are model outputs. The 3 persons per apartment and the occupancy curve have no cited source. The inputs are partly wrong: (1) some DARYN ModeX blocks at Улы Дала 10/12/14 already have keys (from about June to Q3 2026), so the curve starts earlier for those blocks; (2) SŪNQAR's 820 and BIRLIK's ~1,150 are flats-per-floor assumptions, not data; (3) the ~70% share of DARYN within 600 m is not shown. Yandex places DARYN A (Улы Дала 12) about 0.64 km from TARIH B, and OSM 'Блок B' is about 0.62 km away. (4) Korter block letters do not match Krisha/kn.kz letters. The precision (for example '42' and '601') is spurious. Use these as order-of-magnitude figures only.",
+     "source_url": "https://korter.kz/жк-uiatarih-астана"
+    },
+    {
+     "claim": "No kindergartens, clinics, mosques or operating malls lie within 1.5 km. The nearest are Binom (Е-20, 5), Small (Туран 65), Barys Arena and similar (per kn.kz Gasyr infrastructure).",
+     "verdict": "partially",
+     "evidence": "The kn.kz Gasyr page lists Binom School им. Бокейхана (Е-20, 5), Small (Туран 65), Astana Arena, Barys Arena and Qazaqstan, but gives no distances, so the agent's figures of 2.9–4.2 km are its own calculations. An OSM query within 1.6 km of TARIH (amenity, shop and named buildings) returned only School №118 plus construction sites, which is consistent with no operating kindergarten, clinic or shop. School №118 is itself an operating facility at 1.0 km, so the claim 'nothing operating' needs that exception.",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/gasyr"
+    }
+   ],
+   "corrections": [
+    "Wrong: 'nobody lives within 1.5 km' and 'no residential building has handed over keys'. Owner ads say DARYN buildings at Улы Дала 12 / 10 / 14 are 'дом сдан, ключи на руках' and 'КЛЮЧИ выданы, сдача июнь' (Krisha 1016551423, 1014567269, and snippets of 1010101588 and 1014172449). kn.kz lists those addresses for Q3 2026. These buildings are about 0.6–0.65 km from TARIH B. Today's occupied count is small but not zero, and the curve for these blocks should start at about mid-2026, not Q4 2026.",
+    "Wrong: the SŪNQAR korter pin does not 'fall on' the OSM polygon 'ЖК ŪIA.DARYN Блок B'. A point-in-polygon test shows it lies outside, about 45 m east. The overlap is better shown by addresses: Krisha DARYN and SŪNQAR are both 'Улы Дала 14', and a Krisha ad labelled 'Uya Sunkar' is at 'Улы дала 12', DARYN A's address. Drop SŪNQAR's 820 apartments from the base case and do not add them on top of DARYN.",
+    "Wrong: DARYN is not '17 houses' on korter. houseCount is 39 and 34 sections are listed in 8 queues (A, D, F, G, С, E, K, K-2). There is no B, M or H.",
+    "Missing date slip: Krisha's TARIH page gives the first queue as Q1 2026 (now Q4 2026 on korter) and DARYN's first stage as Q2 2026. TARIH B is therefore already about three quarters late against that listing.",
+    "Unsourced assumptions: SŪNQAR 820 and BIRLIK ~1,150 apartments come from an assumed 4 flats per floor, not from data. Korter and Krisha say 425 for BIRLIK and Krisha says 112 for SŪNQAR. The occupancy parameters (3 persons per apartment; 30%, 60%, 85%) are also unsourced.",
+    "Ambiguous comparable: 'Улы Дала 5' is used for both Gasyr (Krisha 1011805801 'Gasyr (Сенсата), 2 очередь') and TARIH (kn.kz 'пр. Улы Дала, 5 стр'). Gasyr's own address is Айтматова 24/4. Check where that 92 M / 92 m² unit really is before treating it as a Gasyr comparable.",
+    "Distances: the new DARYN-A/B coordinates (51.1046, 71.3576) put the early-delivered blocks about 0.62–0.64 km from TARIH B, just outside a 600 m ring. The '~70% of DARYN within 600 m' share is unsupported."
+   ],
+   "missing": [
+    "Competing ground-floor commercial supply inside the cluster. On 2026-10-14 the Krisha map polygon (51.099–51.108, 71.344–71.370) shows 15 commercial rent ads and 19 commercial sale ads, all in DARYN, BIRLIK, TARIH, SŪNQAR and Gasyr. Rent asks are mostly 5,682–12,281 ₸/m²/month, plus a 21,127 outlier: DARYN A 88 m² at 600k (6,818/m²) 'ключи на руках'; DARYN A 57 m² at 700–750k; TARIH B 156 m² at 1.4 M (8,974/m²); Gasyr 111.8 m² at 1.0 M. Sale asks run about 772k–1.41 M ₸/m² (for example TARIH C 49.5 m² at 49.5 M, 1.0 M/m²; DARYN D 120 m² at 170 M). Several ads offer 'каникулы' (rent holidays) or 'срочно, торг'. This points to an oversupplied, owner-to-owner rental market before any population has arrived.",
+    "The early handover of the DARYN ModeX blocks (Улы Дала 10/12/14, about June to Q3 2026) is a real signal that BI does deliver here. It also means the first live residents are about 0.6 km east of TARIH B, not next to it.",
+    "Korter's construction statuses are stale. Every DARYN queue still reads 'construction' while owners report keys in hand. 'Korter shows all as construction' should not be used as proof of zero occupancy.",
+    "School №118 (about 4,000 places, 1.0 km, operating) is a daily traffic generator, but it is north of Улы Дала and pupils come by school bus. It does not create walk-by traffic at TARIH B.",
+    "Krisha's SŪNQAR complex page says 'Нет документов на ЖК' (no permit documents), and its stated Q4 2025 date has passed.",
+    "No TARIH buildings are mapped in OSM at all, so OSM cannot confirm TARIH's footprint. Only DARYN (Улы Дала 4, 10, 10а) and nearby construction ways appear.",
+    "The agent did not check whether TARIH B's ground floor faces the internal 'Аллея' or the empty southern and western streets. With nothing to the south or west, only the north and east frontages can pick up walk-by traffic."
+   ],
+   "overall_reliability": "medium",
+   "summary": "Most of the hard data the agent cites checks out when re-fetched. Korter's TARIH figures match: 1,011 apartments, queues A/В/Е/C only, and A and В due Q4 2026. So do Gasyr's 270 apartments and its repeatedly slipping dates on kn.kz, the newtimes report on School №118 (operating, about 4,000 places, 'малообжитой' area, about 1.0 km away per OSM), and the Ellington Mall facts from bes.media (about 50% built, mall by end-2028, quarter by end-2030, ₸205.6 bn, 1.0–1.2 km NNE). I found no evidence of any school or other project south or west of TARIH B, which is consistent with what the user saw on site.\n\nThe agent's main factual conclusion, that 'nobody lives within 1.5 km / no keys handed over', is contradicted. Krisha owner ads for DARYN at Улы Дала 12/10/14 say 'дом сдан, ключи на руках' and 'КЛЮЧИ выданы, сдача июнь', and kn.kz dates those addresses Q3 2026. These blocks are about 0.6–0.65 km east of TARIH B. The SŪNQAR = DARYN overlap is likely, but the agent's stated proof (the pin on the OSM Блок B polygon) is geometrically wrong. The real support is the shared addresses Улы Дала 12/14. DARYN is 39 sections/houses on korter, not 17. The SŪNQAR (820) and BIRLIK (~1,150) apartment counts and the whole occupancy curve are assumptions without sources, so the forecast figures carry spurious precision.\n\nThe agent also missed two points: Krisha already shows the first TARIH queue slipping from Q1 2026, and the cluster already has 34 competing commercial ads, with rent asks of about 6–12k ₸/m² and rent holidays on offer. For TARIH B in particular, the fact that matters most is unchanged: the west and south sides face empty land, and the nearest residents with keys are about 600 m away to the east."
+  }
+ },
+ {
+  "key": "supply",
+  "result": {
+   "polygon_used": "p51.1135,71.3330,51.1135,71.3800,51.0950,71.3800,51.0950,71.3330,51.1135,71.3330 (a closed ring). The rent search returned 'Найдено 15 объявлений в области на карте' on 1 page. The sale search returned 28 on 2 pages (20 + 8). Searched 2026-10-14 via WebFetch: https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.1135%2C71.3330%2C51.1135%2C71.3800%2C51.0950%2C71.3800%2C51.0950%2C71.3330%2C51.1135%2C71.3330 and the /prodazha/ equivalent with &page=2. The box also catches buildings outside ÜIA: Gasyr (north side of Улы Дала, Айтматова 24/4 / Улы Дала 5), and Abai City / Uly Dala Park on Е 908 (east). Each row is flagged.",
+   "rent_listings": [
+    {
+     "id": "1015453430",
+     "url": "https://krisha.kz/a/show/1015453430",
+     "complex": "ŪIA.TARIH block B (Блок Б)",
+     "address": "Е 909 23 / Ч. Айтматова",
+     "area": 156,
+     "price": 1400000,
+     "ppm": 8974,
+     "posted": "list date 10 окт; views counted since 10 Oct",
+     "building_delivered": "Not stated. Build year 2026. korter: TARIH B queue Q4 2026, 'construction'.",
+     "note": "Floor 1, ceiling 4.2 m, черновая, 31-32 kW, separate entrance, located 'во дворе'. Three shop windows onto the inner pedestrian alley between blocks A/B/C/E. No text about сдача после ввода and no tenant mentioned. The only TARIH rent listing."
+    },
+    {
+     "id": "1016130183",
+     "url": "https://krisha.kz/a/show/1016130183",
+     "complex": "ŪIA.DARYN block A",
+     "address": "Улы Дала 12, 1st line",
+     "area": 75,
+     "price": 800000,
+     "ppm": 10667,
+     "posted": "13 окт",
+     "building_delivered": "Not stated. Build year 2026.",
+     "note": "Floor 1, 2.7 m, 'Готовый ремонт', 15 kW, 17-floor building, near the school / planned traffic light. 'СДАМ В ДОЛГОСРОЧНУЮ АРЕНДУ', refundable deposit. Marked 'Срочно, торг'. No tenant."
+    },
+    {
+     "id": "1016457172",
+     "url": "https://krisha.kz/a/show/1016457172",
+     "complex": "ŪIA.BIRLIK A",
+     "address": "Е 908 23",
+     "area": 75.11,
+     "price": 650000,
+     "ppm": 8654,
+     "posted": "13 окт",
+     "building_delivered": "No. 'Ключи скоро выдадут' (keys not yet handed over).",
+     "note": "Ceiling 4 m, черновая, 16 kW. The description says 'Аренда 700 000', which conflicts with the listed price. The same 75.11 m² size is also offered for sale at 90 M (1016559363 / 1016457259)."
+    },
+    {
+     "id": "1016551423",
+     "url": "https://krisha.kz/a/show/1016551423",
+     "complex": "ŪIA.DARYN A ('Уя Дарын А')",
+     "address": "Улы Дала 12, 1st line",
+     "area": 88,
+     "price": 600000,
+     "ppm": 6818,
+     "posted": "13 окт",
+     "building_delivered": "YES: the description says 'дом сдан', 'ключи на руках'.",
+     "note": "Черновая, 2.7 m, 35 kW, 3 shop windows. Offers 'каникулы' and a refundable deposit. No tenant. The lowest ₸/m² in DARYN A."
+    },
+    {
+     "id": "1014567269",
+     "url": "https://krisha.kz/a/show/1014567269",
+     "complex": "ŪIA.DARYN A",
+     "address": "Ұлы Дала 12",
+     "area": 57,
+     "price": 700000,
+     "ppm": 12281,
+     "posted": "12 окт",
+     "building_delivered": "Keys in hand ('ключи на руках'). Commissioning not stated explicitly.",
+     "note": "Floor 1, черновая, 2.8 m. 1 month rent holiday. 700k/month if paid quarterly, 750k if monthly. Deposit 750k. Long term only. No tenant."
+    },
+    {
+     "id": "1016322725",
+     "url": "https://krisha.kz/a/show/1016322725",
+     "complex": "ŪIA.DARYN K",
+     "address": "Улы Дала 14",
+     "area": 70.96,
+     "price": 700000,
+     "ppm": 9865,
+     "posted": "12 окт",
+     "building_delivered": "Not stated. Build year 2026.",
+     "note": "Floor 1, черновая, 2.7 m, 15 kW, 1st line. 'каникулы предусмотрены'. No tenant. The same 70.96 m² size is for sale at 70 M (1016564402)."
+    },
+    {
+     "id": "1015049371",
+     "url": "https://krisha.kz/a/show/1015049371",
+     "complex": "ŪIA (block not stated)",
+     "address": "Улы Дала 14",
+     "area": 88,
+     "price": 500000,
+     "ppm": 5682,
+     "posted": "12 окт",
+     "building_delivered": "Not stated. Build year 2026.",
+     "note": "Floor 1, черновая, 2.8 m, 25 kW, 1st line, 'рядом расположена школа'. The lowest ask in the cluster. An 88 m² unit at Улы Дала 14 is also for sale at 68 M (1008688487)."
+    },
+    {
+     "id": "1010687071",
+     "url": "https://krisha.kz/a/show/1010687071",
+     "complex": "ŪIA.DARYN block A",
+     "address": "Улы Дала 12, 1st line",
+     "area": 74.35,
+     "price": 800000,
+     "ppm": 10760,
+     "posted": "12 окт; views since 12 Oct (id is old, so likely relisted)",
+     "building_delivered": "'Ключи на руках'. The building is described as 17 floors, 529 apartments.",
+     "note": "Floor 1, 2.7 m, 25 kW. Says 'Большой пеший трафик', park behind, closest unit to the school. No tenant."
+    },
+    {
+     "id": "1013103202",
+     "url": "https://krisha.kz/a/show/1013103202",
+     "complex": "ŪIA (Улы Дала 14, block not stated)",
+     "address": "Улы Дала 14",
+     "area": 68.5,
+     "price": 685000,
+     "ppm": 10000,
+     "posted": "11 окт",
+     "building_delivered": "Not stated. Build year 2026.",
+     "note": "Floor 1, черновая, 2.8 m. 'Предусмотрены каникулы'. No tenant."
+    },
+    {
+     "id": "1016472223",
+     "url": "https://krisha.kz/a/show/1016472223",
+     "complex": "ŪIA.BIRLIK A",
+     "address": "Е 908 23",
+     "area": 88,
+     "price": 880000,
+     "ppm": 10000,
+     "posted": "10 окт",
+     "building_delivered": "Not stated.",
+     "note": "Floor 1, 3.9 m, 20 kW, courtyard ('во дворе'), next to a gate, 6 windows. 'Идеально под продуктовый магазин'. No tenant."
+    },
+    {
+     "id": "1013339365",
+     "url": "https://krisha.kz/a/show/1013339365",
+     "complex": "ŪIA.DARYN ('А офис 16', near entrance 3)",
+     "address": "Улы Дала 12",
+     "area": 71,
+     "price": 1500000,
+     "ppm": 21127,
+     "posted": "9 окт",
+     "building_delivered": "Not stated.",
+     "note": "OUTLIER, about 2x the cluster median. 'Срочно, торг'. Renovation in progress. The same unit appears in the sale category at 1.5 M (1016542553), so it is a miscategorised rent ad."
+    },
+    {
+     "id": "1014522111",
+     "url": "https://krisha.kz/a/show/1014522111",
+     "complex": "ŪIA.DARYN K",
+     "address": "Улыдала 14",
+     "area": 66.82,
+     "price": 550000,
+     "ppm": 8231,
+     "posted": "7 окт",
+     "building_delivered": "Not stated.",
+     "note": "Floor 1, 2.7 m. Owner listing. 'Срочно, торг'. No tenant."
+    },
+    {
+     "id": "1014047803",
+     "url": "https://krisha.kz/a/show/1014047803",
+     "complex": "NOT ÜIA: Gasyr side (north of Улы Дала)",
+     "address": "Улы-Дала 5 / Ч. Айтматова",
+     "area": 125,
+     "price": 1350000,
+     "ppm": 10800,
+     "posted": "11 окт",
+     "building_delivered": "Not stated. Build year 2026.",
+     "note": "Ceiling 4.6 m, 50 kW, exhaust hood fitted, 'хорошо подходит под общепит'. No tenant."
+    },
+    {
+     "id": "1013648023",
+     "url": "https://krisha.kz/a/show/1013648023",
+     "complex": "NOT ÜIA: ЖК Gasyr",
+     "address": "Айтматова 24/4",
+     "area": 111.8,
+     "price": 1000000,
+     "ppm": 8945,
+     "posted": "10 окт",
+     "building_delivered": "Probably not: the ad says 'новом строящемся районе'.",
+     "note": "Corner unit, 1st line, 4.5 m, черновая. Vacant."
+    },
+    {
+     "id": "1013220359",
+     "url": "https://krisha.kz/a/show/1013220359",
+     "complex": "NOT ÜIA: ЖК Gasyr",
+     "address": "Айтматова 24/4 (near Ellington mall)",
+     "area": 130,
+     "price": 1295800,
+     "ppm": 9968,
+     "posted": "8 окт",
+     "building_delivered": "'Срок сдачи: ключи на руках'.",
+     "note": "Floor 1, 4.5 m, черновая, two WCs prepared. 'Индивидуальный подход' for long-term tenants. Vacant."
+    }
+   ],
+   "sale_listings": [
+    {
+     "id": "1016421822",
+     "url": "https://krisha.kz/a/show/1016421822",
+     "complex": "ŪIA.TARIH block C",
+     "address": "Е 909 31",
+     "area": 49.5,
+     "price": 49500000,
+     "ppm": 1000000,
+     "posted": "8 окт",
+     "note": "Broker ('Специалист'). 'сдача в 1 квартале 2027', 4.2 m. The text also says '40000 за метр', which is unclear."
+    },
+    {
+     "id": "1016564402",
+     "url": "https://krisha.kz/a/show/1016564402",
+     "complex": "ŪIA (Улы Дала 14, likely DARYN K)",
+     "address": "Улы Дала 14",
+     "area": 70.96,
+     "price": 70000000,
+     "ppm": 986471,
+     "posted": "14 окт",
+     "note": "Same size as rent ad 1016322725."
+    },
+    {
+     "id": "1016559363",
+     "url": "https://krisha.kz/a/show/1016559363",
+     "complex": "probably ŪIA.BIRLIK",
+     "address": "Улы Дала 38",
+     "area": 75.11,
+     "price": 90000000,
+     "ppm": 1198243,
+     "posted": "14 окт",
+     "note": "Floor 1. Detail page returned 403. Same 75.11 m² and 90 M as 1016457259 (BIRLIK), so likely a duplicate."
+    },
+    {
+     "id": "1016457259",
+     "url": "https://krisha.kz/a/show/1016457259",
+     "complex": "ŪIA.BIRLIK",
+     "address": "Е 908 22",
+     "area": 75.11,
+     "price": 90000000,
+     "ppm": 1198243,
+     "posted": "10 окт",
+     "note": "See 1016559363 and rent 1016457172."
+    },
+    {
+     "id": "1016507325",
+     "url": "https://krisha.kz/a/show/1016507325",
+     "complex": "ŪIA (Улы Дала 14)",
+     "address": "Улы Дала 14",
+     "area": 86,
+     "price": 104000000,
+     "ppm": 1209302,
+     "posted": "12 окт",
+     "note": "Floor 1."
+    },
+    {
+     "id": "1016443731",
+     "url": "https://krisha.kz/a/show/1016443731",
+     "complex": "ŪIA (Улы Дала 14)",
+     "address": "Улы Дала 14",
+     "area": 87,
+     "price": 68000000,
+     "ppm": 781609,
+     "posted": "9 окт",
+     "note": "Floor 1."
+    },
+    {
+     "id": "1008688487",
+     "url": "https://krisha.kz/a/show/1008688487",
+     "complex": "ŪIA (Улы Дала 14 x Айтматова)",
+     "address": "Улы Дала 14",
+     "area": 88,
+     "price": 68000000,
+     "ppm": 772727,
+     "posted": "8 окт",
+     "note": "Old id, so a long-unsold relist."
+    },
+    {
+     "id": "1016287769",
+     "url": "https://krisha.kz/a/show/1016287769",
+     "complex": "ŪIA.DARYN (Улы Дала 4)",
+     "address": "Улы Дала 4 / Айтматова",
+     "area": 119.67,
+     "price": 100000000,
+     "ppm": 835631,
+     "posted": "11 окт",
+     "note": ""
+    },
+    {
+     "id": "1016109248",
+     "url": "https://krisha.kz/a/show/1016109248",
+     "complex": "ŪIA.DARYN D",
+     "address": "Улы Дала 4",
+     "area": 120.17,
+     "price": 170000000,
+     "ppm": 1414663,
+     "posted": "11 окт",
+     "note": "Highest ask in ÜIA."
+    },
+    {
+     "id": "1016272937",
+     "url": "https://krisha.kz/a/show/1016272937",
+     "complex": "ŪIA.BIRLIK B",
+     "address": "Е 908 23",
+     "area": 102.34,
+     "price": 81000000,
+     "ppm": 791479,
+     "posted": "10 окт",
+     "note": "Same unit as 1016242517 (80.6 M). kn.kz developer price for a 102.34 m² BIRLIK lot is 80,592,750, so this is resale at roughly the developer price."
+    },
+    {
+     "id": "1016242517",
+     "url": "https://krisha.kz/a/show/1016242517",
+     "complex": "ŪIA.BIRLIK",
+     "address": "Е 908 23",
+     "area": 102.34,
+     "price": 80600000,
+     "ppm": 787571,
+     "posted": "7 окт",
+     "note": "Duplicate of 1016272937."
+    },
+    {
+     "id": "1011493212",
+     "url": "https://krisha.kz/a/show/1011493212",
+     "complex": "ŪIA.BIRLIK A",
+     "address": "Улы Дала БН",
+     "area": 100,
+     "price": 122000000,
+     "ppm": 1220000,
+     "posted": "7 окт",
+     "note": "Floor 1. Old id."
+    },
+    {
+     "id": "1016374973",
+     "url": "https://krisha.kz/a/show/1016374973",
+     "complex": "ŪIA.BIRLIK",
+     "address": "E 908 1/1",
+     "area": 98.21,
+     "price": 124000000,
+     "ppm": 1262601,
+     "posted": "7 окт",
+     "note": "Floor 1."
+    },
+    {
+     "id": "1015515118",
+     "url": "https://krisha.kz/a/show/1015515118",
+     "complex": "ŪIA.SŪNQAR ('Uya Sunkar')",
+     "address": "Улы Дала 12 (as listed)",
+     "area": 85.6,
+     "price": 89000000,
+     "ppm": 1039720,
+     "posted": "8 окт",
+     "note": "Floor 1. Detail page returned 403."
+    },
+    {
+     "id": "1016553380",
+     "url": "https://krisha.kz/a/show/1016553380",
+     "complex": "unknown (Улы Дала 18)",
+     "address": "Улы Дала 18",
+     "area": 35.22,
+     "price": 40000000,
+     "ppm": 1135718,
+     "posted": "13 окт",
+     "note": "Small unit. Complex not stated in the list."
+    },
+    {
+     "id": "1015151446",
+     "url": "https://krisha.kz/a/show/1015151446",
+     "complex": "unknown",
+     "address": "Улы Дала 10 (corner of Айтматова)",
+     "area": 150,
+     "price": 18000000,
+     "ppm": 120000,
+     "posted": "8 окт",
+     "note": "Общепит. At 120k/m² this is almost certainly a business or equipment sale, not the premises. Excluded from stats."
+    },
+    {
+     "id": "1016542553",
+     "url": "https://krisha.kz/a/show/1016542553",
+     "complex": "ŪIA.DARYN",
+     "address": "Улы Дала 12",
+     "area": 71,
+     "price": 1500000,
+     "ppm": 21127,
+     "posted": "13 окт",
+     "note": "Miscategorised rent ad (= rent 1013339365). Excluded."
+    },
+    {
+     "id": "1016541096",
+     "url": "https://krisha.kz/a/show/1016541096",
+     "complex": "ŪIA.DARYN (Улы Дала 4)",
+     "address": "Улы Дала 4",
+     "area": 3.62,
+     "price": 3500000,
+     "ppm": 966851,
+     "posted": "13 окт",
+     "note": "Storeroom. Excluded."
+    },
+    {
+     "id": "1010837061",
+     "url": "https://krisha.kz/a/show/1010837061",
+     "complex": "ŪIA.DARYN D",
+     "address": "Улы Дала 4",
+     "area": 2.5,
+     "price": 2800000,
+     "ppm": 1120000,
+     "posted": "11 окт",
+     "note": "Storeroom. Excluded."
+    },
+    {
+     "id": "1016415226",
+     "url": "https://krisha.kz/a/show/1016415226",
+     "complex": "unclear (Е 908 22 / Толе би; east edge)",
+     "address": "Е 908 22 — Толе би",
+     "area": 530,
+     "price": 450000000,
+     "ppm": 849057,
+     "posted": "12 окт",
+     "note": "Large unit. Not confirmed as ÜIA."
+    },
+    {
+     "id": "1011805801",
+     "url": "https://krisha.kz/a/show/1011805801",
+     "complex": "NOT ÜIA: Gasyr",
+     "address": "Улы Дала 5",
+     "area": 92,
+     "price": 92000000,
+     "ppm": 1000000,
+     "posted": "12 окт",
+     "note": ""
+    },
+    {
+     "id": "1016236867",
+     "url": "https://krisha.kz/a/show/1016236867",
+     "complex": "NOT ÜIA: Gasyr",
+     "address": "Улы Дала 5",
+     "area": 90,
+     "price": 113000000,
+     "ppm": 1255556,
+     "posted": "8 окт",
+     "note": ""
+    },
+    {
+     "id": "1016423628",
+     "url": "https://krisha.kz/a/show/1016423628",
+     "complex": "NOT ÜIA: Abai City Mahabbat",
+     "address": "Е 908 22",
+     "area": 144.5,
+     "price": 275000000,
+     "ppm": 1903114,
+     "posted": "9 окт",
+     "note": ""
+    },
+    {
+     "id": "1012636045",
+     "url": "https://krisha.kz/a/show/1012636045",
+     "complex": "NOT ÜIA: Abai City (developer new-build)",
+     "address": "пр. Улы Дала",
+     "area": 143.23,
+     "price": 195228362,
+     "ppm": 1363000,
+     "posted": "14 окт",
+     "note": "Price is 'от'. ₸/m² computed by us."
+    },
+    {
+     "id": "1012636044",
+     "url": "https://krisha.kz/a/show/1012636044",
+     "complex": "NOT ÜIA: Abai City (developer)",
+     "address": "пр. Улы Дала",
+     "area": 112.27,
+     "price": 121299427,
+     "ppm": 1080400,
+     "posted": "14 окт",
+     "note": "'от'. ₸/m² computed by us."
+    },
+    {
+     "id": "1012636048",
+     "url": "https://krisha.kz/a/show/1012636048",
+     "complex": "NOT ÜIA: Abai City (developer)",
+     "address": "Нура",
+     "area": 149.26,
+     "price": 203067484,
+     "ppm": 1360500,
+     "posted": "14 окт",
+     "note": "'от'. ₸/m² computed by us."
+    },
+    {
+     "id": "1012636050",
+     "url": "https://krisha.kz/a/show/1012636050",
+     "complex": "NOT ÜIA: Abai City (developer)",
+     "address": "пр. Улы Дала",
+     "area": 196.47,
+     "price": 303734368,
+     "ppm": 1546000,
+     "posted": "14 окт",
+     "note": "'от'. ₸/m² computed by us."
+    },
+    {
+     "id": "1016279412",
+     "url": "https://krisha.kz/a/show/1016279412",
+     "complex": "NOT ÜIA: Улы Дала парк",
+     "address": "Е-908 1 / Улы Дала",
+     "area": 155.84,
+     "price": 93504000000,
+     "ppm": 600000000,
+     "posted": "8 окт",
+     "note": "Obvious price typo (93.5 bn). Probably 93.5 M, about 600k/m². Excluded."
+    }
+   ],
+   "bi_commercial_supply": [
+    {
+     "project": "ŪIA.TARIH (blocks A, B, C, E; korter queues 'UIA.TARIH - A/В/C/Е')",
+     "units": "FACT: 28 on sale per the user's BI list (B 6, C 12, E 10). kn.kz developer tab shows 7 sample lots: 49.52 / 50.59 / 64.75 / 84.33 / 113.45 / 120.59 / 143.47 m² at 665k–840k ₸/m². Only 1 owner rent listing and 1 resale on krisha. ESTIMATE of total ground-floor units: 50–90.",
+     "m2": "ESTIMATE 4,300–7,600 m², from 35 sections x 1.5–2.5 units x about 85 m². FACT from korter: 35 sections, 9–12 floors, 1,011 apartments.",
+     "handover": "korter (updated 12.10.2026): A and B Q4 2026, C and E Q1 2027. Krisha ad 1016421822 also says 'сдача в 1 квартале 2027' for C.",
+     "source_url": "https://korter.kz/жк-uiatarih-астана ; https://www.kn.kz/zhilye-kompleksy/astana/uia-tarih"
+    },
+    {
+     "project": "ŪIA.DARYN (korter slug uia-burkit; queues A, С, D, E, F, G, K, K-2 plus legacy '1–4 очередь')",
+     "units": "FACT: 42 office rows on sale per the user's BI list. kn.kz shows 16 developer lots of 59.78–464.76 m² at 680k–950k ₸/m², including large first-line units of 346.92 and 464.76 m². krisha: 9 owner rent listings and about 7 resale listings. ESTIMATE of total: 70–110 units.",
+     "m2": "ESTIMATE 7,000–11,000 m². Units are bigger on the Улы Дала frontage. FACT from korter: 2,137 apartments, 34 sections listed (houseCount 39), 9–17 floors. A krisha ad says DARYN A at Улы Дала 12 is 17 floors with 529 apartments, and it is unclear whether these are inside the 2,137.",
+     "handover": "korter (14.10.2026): E and K Q1 2027, С Q2 2027, D, F, G Q3 2027, A Q4 2027. However, krisha ads for DARYN A at Улы Дала 12 say 'дом сдан' / 'ключи на руках', so the Улы Дала 12 building already has keys. Korter's dates also differ from the BI sheets you gave.",
+     "source_url": "https://korter.kz/uia-burkit-астана ; https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn"
+    },
+    {
+     "project": "ŪIA.BIRLIK (queues A, B, B-2, D, E, F)",
+     "units": "FACT: kn.kz shows 16 developer lots of 51.68–260.64 m² at 600k–1,050k ₸/m². krisha: 2 owner rent listings and 5 resale listings. ESTIMATE of total: 40–70 units.",
+     "m2": "ESTIMATE 3,500–6,500 m². FACT from korter: 28 sections, 9 and 17 floors, 'Площадь застройки 30 Га'. Korter gives 425 apartments, which looks incomplete for 28 sections. Our estimate is about 1,000–1,300.",
+     "handover": "korter (29.09.2026): A Q3 2026, B and D Q4 2026, B-2 Q1 2027, E and F Q2 2027. Rent ad 1016457172 for BIRLIK A says 'Ключи скоро выдадут'.",
+     "source_url": "https://korter.kz/uia-birlik-астана ; https://www.kn.kz/zhilye-kompleksy/astana/uia-birlik"
+    },
+    {
+     "project": "ŪIA.SŪNQAR (1 and 2 очередь)",
+     "units": "FACT: no developer commercial tab on kn.kz and 1 resale on krisha (85.6 m², 89 M). ESTIMATE: 20–35 units.",
+     "m2": "ESTIMATE 1,700–3,000 m². FACT from korter: 14 sections, 12–17 floors, standard class, modular. No apartment count; our estimate is about 800–1,000.",
+     "handover": "korter (14.10.2026): all sections Q3 2026, still marked 'construction'.",
+     "source_url": "https://korter.kz/uia-sunqar-астана"
+    },
+    {
+     "project": "Competing non-BI and non-ÜIA supply inside the polygon",
+     "units": "Gasyr (north side of Улы Дала at Айтматова): 3 rent and 2 sale listings, 90–130 m², 4.5–4.6 m ceilings. Abai City / Mahabbat (Е 908 уч. 23, korter Q1 2027): 4 developer and 1 resale commercial listings, 112–196 m². Uly Dala Park Life (Е 908 24, korter Q3 2026).",
+     "m2": "not measured",
+     "handover": "see korter",
+     "source_url": "https://korter.kz/жк-abai-city-mahabbat-астана ; https://korter.kz/жк-uly-dala-park-life-астана"
+    },
+    {
+     "project": "ÜIA cluster TOTAL",
+     "units": "FACT: about 70 BI units on sale now (42 DARYN + 28 TARIH, from the user's lists, BIRLIK and SŪNQAR not counted), plus 12 owner rent ads and about 13 unique resale ads on krisha. ESTIMATE of the total built stock: about 180–300 ground-floor units.",
+     "m2": "ESTIMATE about 16,000–28,000 m² (midpoint about 20,000 m²), delivered Q3 2026 to Q4 2027.",
+     "handover": "2026 Q3 – 2027 Q4",
+     "source_url": "krisha polygon search and korter pages above"
+    }
+   ],
+   "supply_vs_catchment": "CATCHMENT. Facts plus estimates. Korter counts: TARIH 1,011 apartments, DARYN 2,137. BIRLIK and SŪNQAR are estimated at about 1,000–1,300 and 800–1,000 (korter's 425 for BIRLIK looks incomplete, and SŪNQAR has no count). That gives about 5,000–5,500 apartments in the ÜIA cluster, about 5,500–6,000 if DARYN A at Улы Дала 12 (529 apartments) is not already in korter's figure. The user saw on site, and Sentinel-2 confirms, that there is nothing west or south of TARIH B: steppe, the wetland and the nursery. So TARIH's walk-in catchment is only the cluster itself plus, from the north, Gasyr and the school/towers across Улы Дала.\n\nRATIO. Estimate. About 16,000–28,000 m² of ground-floor commercial space for about 5,000–5,800 apartments is about 2,800–5,500 m² per 1,000 apartments (central about 3,700). At about 3 residents per apartment that is about 0.9–1.8 m² per resident.\n\nBENCHMARK. Our rule of thumb, not a sourced statistic. Neighbourhood-level demand for everyday retail and services (grocery, pharmacy, salons, kids' clubs, small clinics, cafés) is commonly about 1,000–2,000 m² per 1,000 apartments. Planning norms put shop sales area alone at a few hundred m² per 1,000 residents. On that basis the cluster's planned ground-floor space is roughly 2–3x what the residents alone can absorb. Astana's own new-build districts typically show the same pattern: almost every first floor on a street or alley is commercial, so oversupply in a new district is normal and vacancy is high for the first 1–3 years. I found no published Astana figure on m² per 1,000 apartments, so this comparison is a qualitative judgement.\n\nTIMING. On 2026-10-14 almost nobody lives there yet. Only DARYN A at Улы Дала 12 has keys, and SŪNQAR is due Q3 2026. Meanwhile about 70 BI units are on sale, 12 owner units are offered for rent, and none of the 12 ÜIA rent ads mentions an existing tenant. Several offer rent holidays ('каникулы'). Our conclusion: oversupplied for at least 2026–2027. TARIH units on the inner alley compete against DARYN and Gasyr units that front Улы Дала at similar or lower asks (5,700–10,800 ₸/m²).",
+   "notes": "FACTS, from krisha on 2026-10-14:\n\nRent, 12 ÜIA listings in the polygon:\n- Asks run 5,682–12,281 ₸/m² a month, plus one outlier at 21,127.\n- Median about 9,900 ₸/m² (9,865 without the outlier). Gasyr's 3 are 8,945–10,800.\n- Mix: 8 in DARYN (A and K, Улы Дала 12/14), 2 in BIRLIK A, 1 in TARIH, 1 unassigned.\n- Every one is a first-floor unit of about 57–156 m² from an owner or investor.\n- None mentions an existing tenant.\n- Only DARYN A at Улы Дала 12 shows signs of a delivered building: 'дом сдан' in 1016551423, 'ключи на руках' in 1014567269 and 1010687071. BIRLIK A says 'Ключи скоро выдадут'. TARIH B (1015453430, the only TARIH rent ad, 1.4 M for 156 m² = 8,974/m²) gives no status.\n- No ad uses the phrase 'сдача после ввода', but 4 offer rent holidays or 'каникулы' (1016551423, 1016322725, 1013103202, 1014567269) and several require deposits.\n- Posted dates on krisha are 'updated' dates (7–13 Oct). Detail pages show only 'просматривали с <date>'. Old ids such as 1010687071 and 1008688487 suggest units relisted for months without a tenant or buyer.\n\nSale, about 12 unique ÜIA listings after removing duplicates, storerooms, a miscategorised rent ad and a business sale:\n- Asks run 773k–1,415k ₸/m², median about 1.0 M ₸/m².\n- Developer prices on kn.kz: TARIH 665k–840k, DARYN 680k–950k, BIRLIK 600k–1,050k ₸/m².\n- So resale asks are mostly at or above developer prices, and one BIRLIK B resale (81 M for 102.34 m²) equals the developer price.\n- TARIH resale: C block, 49.5 m², 49.5 M (1.0 M/m²), handover Q1 2027.\n\nAsk-to-ask arithmetic (an estimate, not a deal yield): 9,900 x 12 / 1,000,000 is about 11.9% gross. It is not reliable, because neither side is a closed deal and there is no tenant evidence.\n\nSupply facts:\n- Korter section counts: TARIH 35, DARYN 34 listed (39 houses), BIRLIK 28, SŪNQAR 14. Apartments: TARIH 1,011, DARYN 2,137. Korter shows no commercial listings for any of the four (realty.count = 0).\n- kn.kz developer 'Коммерческие помещения' tabs show sample lots only (TARIH 7, DARYN 16, BIRLIK 16), not totals.\n- Your BI lists give 42 DARYN and 28 TARIH rows on sale. No source gave the total commercial m² for the cluster.\n\nESTIMATES: the totals of about 180–300 units and 16,000–28,000 m² come from sections x 1.5–2.5 units x 70–100 m², with extra allowance for DARYN's large units on Улы Дала.\n\nDATA GAPS:\n- Detail pages for 1015515118, 1016559363 and 1016457172 (on the first attempt; retried successfully) returned 403 from krisha. No anti-bot bypass was attempted.\n- bi.group and 2gis were not accessed.\n- Korter delivery dates for DARYN (A Q4 2027 etc.) conflict with the BI sheets and with the 'дом сдан' ad for DARYN A at Улы Дала 12. Korter probably treats the delivered first phase as separate legacy queues 1–4.\n\nRaw korter/kn.kz pages are saved at /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/k/ and /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/kn/. The earlier collection is at /home/user/ispeo.saraptama.kz/commercial-analyzer/bigville/data/uia.json."
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "The polygon rent search returns 'Найдено 15 объявлений в области на карте', and the sale search returns 28 (20 on page 1).",
+     "verdict": "confirmed",
+     "evidence": "I re-fetched both lists on 2026-10-14. Rent: exactly 15, with the same 15 ids. Sale: 'Найдено 28 объявлений в области на карте', and the 20 ids on page 1 match the agent's list.",
+     "source_url": "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.1135%2C71.3330%2C51.1135%2C71.3800%2C51.0950%2C71.3800%2C51.0950%2C71.3330%2C51.1135%2C71.3330"
+    },
+    {
+     "claim": "TARIH B rent ad 1015453430: 156 m², 1.4 M ₸/month (8,974/m²), floor 1, 4.2 m, черновая, about 31–32 kW, 'во дворе', windows on the inner alley, no handover status, no tenant, the only TARIH rent ad.",
+     "verdict": "confirmed",
+     "evidence": "The re-fetched page matches. It is an owner ad ('Хозяин недвижимости'). The text says 'Окна выходят прямо на благоустроенную пешеходную аллею' between blocks A/B/C/E and claims heavy resident foot traffic. That is aspirational: C and E are not due until Q1 2027 (korter), and the user saw nothing beyond B. The ad says nothing about keys or a tenant, and no other TARIH rent ad is in the polygon. One detail the agent left out: the seller is an investor-owner inside block B itself, so this unit competes directly with any B unit the user would buy.",
+     "source_url": "https://krisha.kz/a/show/1015453430"
+    },
+    {
+     "claim": "korter (updated 12.10.2026): TARIH A and B Q4 2026, C and E Q1 2027; 35 sections, 9–12 floors, 1,011 apartments.",
+     "verdict": "confirmed",
+     "evidence": "Checked against korter's INITIAL_STATE in the page I re-downloaded. lastUpdateTime is '12.10.2026' and houseCount is 35. Queues: 'UIA.TARIH - A' (10 entrances) and 'UIA.TARIH - В' (10 entrances, 9 and 12 floors), all endYear 2026 / endQuarter 4. 'UIA.TARIH - C' (10) and 'UIA.TARIH - Е' (5) are 2027 Q1. All are 'construction', with startYear 2025 Q4. Warning: the WebFetch text summary of the same page wrongly said 'B: Q1 2027', so the raw JSON should be the reference. Facts the agent missed: construction only started in Q4 2025 (korter), and the page cites a ДДУ permit 'No. 66 dated 19.11.2025'. kn.kz gives TARIH as a whole 'Срок сдачи: 4 квартал 2026', status 'строится'.",
+     "source_url": "https://korter.kz/жк-uiatarih-астана"
+    },
+    {
+     "claim": "TARIH resale 1016421822: block C, 49.5 m², 49.5 M (1.0 M/m²), broker, 'сдача в 1 квартале 2027', text says '40000 за метр'.",
+     "verdict": "confirmed",
+     "evidence": "Re-fetched: 'UIA Tarih, C блок', 4.2 m, 'Специалист'. The text says 'сдача в 1 квартале 2027' and contains the conflicting '40000 за метр'. Something the agent missed: kn.kz shows a developer lot of 49.52 m² 'от 840 000 ₸/м², от 41 596 800 ₸'. This resale ask is therefore about 19% (+7.9 M) above BI's own price for an almost identical size.",
+     "source_url": "https://krisha.kz/a/show/1016421822"
+    },
+    {
+     "claim": "TARIH developer commercial lots on kn.kz: 49.52 / 50.59 / 64.75 / 84.33 / 113.45 / 120.59 / 143.47 m² at 665k–840k ₸/m².",
+     "verdict": "confirmed",
+     "evidence": "The saved kn page text reads: 84.33 m² 680k (57.34 M); 113.45 m² 665k (75.44 M); 49.52 m² 840k (41.60 M); 143.47 m² 720k (103.30 M); 64.75 m² 820k (53.10 M); 50.59 m² 805k (40.72 M); 120.59 m² 665k (80.19 M). All are 'от' prices. A live WebFetch of kn.kz today did not return the commercial tab ('0 commercial lots'), so this rests on the agent's saved copy from 08:31 today. In the user's 65–110 M budget only 113.45, 120.59 and 143.47 m² fall inside, at 665–720k/m², the cheapest per m² in the cluster.",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/uia-tarih"
+    },
+    {
+     "claim": "BIRLIK developer prices on kn.kz are 600k–1,050k ₸/m²; resale 1016272937 (81 M for 102.34 m²) equals the developer price of 80,592,750.",
+     "verdict": "partially",
+     "evidence": "The total of 80,592,750 for the 102.34 m² lot is confirmed. But kn prints '1 050 000 ₸/м²' for that lot, while 80,592,750 / 102.34 = 787,500. The 1,050k figure is a kn.kz data error, not a price. Every other BIRLIK commercial lot is internally consistent, so the real range is 600k–930k ₸/m². The agent's upper bound of 1,050k is an artifact. The same check on DARYN (680k–950k, including 346.92 and 464.76 m² at 950k) is consistent.",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/uia-birlik"
+    },
+    {
+     "claim": "Only DARYN A at Улы Дала 12 shows signs of a delivered building ('дом сдан' in 1016551423, 'ключи на руках' in 1014567269 and 1010687071).",
+     "verdict": "partially",
+     "evidence": "1016551423 re-fetched: 'в ЖК Уя Дарын А, дом сдан, ключи на руках', 'каникулы, возвратный депозит'. 1010687071 re-fetched: 'Ключи на руках', 'Дом 17 этажный', 'Квартир в доме 529'. 1014567269 returned 403 for me. The word 'only' is too strong. kn.kz's DARYN page lists 'пр. Улы Дала, 10 стр', '12' and '14 стр' with '3 квартал 2026' and 'пр. Улы Дала, 10а' and '4' with '4 квартал 2026', and says 'Статус: строится, часть домов построена; Срок сдачи: 2–3 квартал 2026'. So Улы Дала 14 (DARYN K, where 4 of the rent ads are) was also due in Q3 2026. Gasyr resale 1016236867 also says 'Ключи на руках'. Korter's DARYN queues (A Q4 2027 ... K Q1 2027, lastUpdate 14.10.2026) conflict with both kn.kz and the owners. Korter's DARYN data looks unreliable for timing.",
+     "source_url": "https://www.kn.kz/zhilye-kompleksy/astana/uia-daryn"
+    },
+    {
+     "claim": "12 ÜIA rent asks run 5,682–12,281 ₸/m², plus an outlier at 21,127; median about 9,900; every ad is from an owner or investor; none mentions a tenant.",
+     "verdict": "partially",
+     "evidence": "Recomputed from the ids: median of 12 = (9,865 + 10,000) / 2 = 9,932, and 9,865 without the outlier. Correct. No re-fetched ad mentions a tenant. 'Every one from an owner' is wrong: 1016457172 (BIRLIK A) is 'Специалист' Онгарбаев Т., Real.Group, and its text says 'Аренда 700 000' and 'Ключи скоро выдадут', which confirms the price conflict and the keys status. All of these are asks in buildings without tenants, so they are not achieved rents.",
+     "source_url": "https://krisha.kz/a/show/1016457172"
+    },
+    {
+     "claim": "Rent 1013339365 (71 m², 1.5 M) and sale 1016542553 (71 m², 1.5 M) are the same unit, a miscategorised rent ad.",
+     "verdict": "partially",
+     "evidence": "Both are owner ads at Улы Дала 12, 71 m², 1.5 M, so excluding the sale row is right. But the details differ. Rent: 2.8 m, 16 kW (to become 25), черновая, 'ремонт почти завершён', near entrance 3. Sale: 2.7 m, 22.19 kW, 'full major renovation', walk-in cold room, pitched as a liquor store, building '600 apartments'. It may be the same unit described twice, or the sale ad may be a business/fit-out sale. 'Same unit' is a plausible inference, not proven.",
+     "source_url": "https://krisha.kz/a/show/1016542553"
+    },
+    {
+     "claim": "Gasyr listings (Улы Дала 5 / Айтматова 24/4) are NOT ÜIA and are competing supply with 4.5–4.6 m ceilings.",
+     "verdict": "confirmed",
+     "evidence": "1011805801: name field 'Gasyr', text 'ЖК Гасыр (Сенсата) 2 очередь', 4.5 m, 92 M. 1016236867: 'ЖК GASYR', 263 apartments, 4.6 m, 'Ключи на руках', 'срочно снижена цена'. 1014047803 returned 403 for me. Oddity: kn.kz's TARIH page labels its construction pin 'пр. Улы Дала, 5 стр', the same street number as Gasyr. Agent ads whose only clue is 'Улы Дала 5' are therefore ambiguous, though the 2 I checked name Gasyr explicitly.",
+     "source_url": "https://krisha.kz/a/show/1016236867"
+    },
+    {
+     "claim": "Cluster total of about 180–300 ground-floor units and 16,000–28,000 m², and a benchmark of about 1,000–2,000 m² of neighbourhood retail demand per 1,000 apartments, so supply is 2–3x what residents can absorb.",
+     "verdict": "unverifiable",
+     "evidence": "No source gives commercial unit counts or m² for any ÜIA project. kn.kz tabs show sample lots only, and korter shows no commercial listings. The totals come from sections x 1.5–2.5 units x 70–100 m², an assumption. The demand benchmark and the 3 residents per apartment are unsourced, as the agent admits. A search for Astana statistics on new-build ground-floor vacancy found none. The direction (oversupply now) is supported by observable facts: 12 rent ads with no tenant, rent holidays offered, 28 sale ads, and BI's own unsold lots. The 2–3x multiple has no basis.",
+     "source_url": ""
+    },
+    {
+     "claim": "Ask-to-ask gross yield of about 11.9% (9,900 x 12 / 1,000,000).",
+     "verdict": "partially",
+     "evidence": "The arithmetic is correct (9,932 x 12 / 1.0 M = 11.9%), but both sides are asks. With TARIH developer prices (665–720k/m² for 113–143 m²) and the only TARIH rent ask (8,974/m²), the same arithmetic gives 15–16%, an estimate on asks only. There is no closed rent deal and no tenant anywhere in ÜIA, so neither figure is evidence of income. Missing deductions: vacancy or lease-up time, rent holidays, ОСИ/maintenance fees, property tax, and a possible VAT or individual-entrepreneur tax regime.",
+     "source_url": "https://krisha.kz/a/show/1015453430"
+    }
+   ],
+   "corrections": [
+    "TARIH handover: the agent's korter reading (A and B Q4 2026, C and E Q1 2027) is right per the raw JSON. Korter also shows construction started only in Q4 2025 (permit dated 19.11.2025). A Q4 2026 handover for B is still an announced date, not a delivery. Not one TARIH ad says 'ключи'.",
+    "BIRLIK developer price range should be 600k–930k ₸/m², not 600k–1,050k. The 1,050k on kn.kz is a per-m² error on the 102.34 m² lot (its total implies 787,500).",
+    "'Only DARYN A at Улы Дала 12 has keys' is too narrow. kn.kz gives Улы Дала 10, 12 and 14 a Q3 2026 deadline and says 'часть домов построена'. Gasyr (Улы Дала 5) also advertises 'Ключи на руках'. Korter's DARYN dates (Q1–Q4 2027) contradict kn.kz and the owner ads, so they should not be used.",
+    "Not every ÜIA rent ad is from an owner: 1016457172 is posted by an agent (Real.Group).",
+    "The 'same unit' link between 1013339365 and 1016542553 is plausible but not proven: ceiling, power and finish differ.",
+    "The TARIH C resale at 1.0 M/m² (49.5 M) is about 19% above BI's developer price for a 49.52 m² lot (41.6 M at 840k). Resale asks are not evidence of value growth, and buying direct from BI is cheaper.",
+    "The supply totals (180–300 units, 16,000–28,000 m²), the 1,000–2,000 m² per 1,000 apartments benchmark and the '2–3x' oversupply multiple are invented assumptions with no source. The only sourced facts are the qualitative signs of oversupply."
+   ],
+   "missing": [
+    "The user's site visit matters more than the agent allowed. TARIH B's west face (Айтматова line) and south face (the 'southern city street', the brochure's ФМЛ) look onto empty steppe or nursery, and plot D east of B is empty. B's only realistic footfall is its own residents and those of A, plus C and E after Q1 2027. The 'Аллея' foot-traffic claim in 1015453430 is aspirational. I found no source confirming that the ФМЛ south of B or the southern street is funded or scheduled. The school north of Улы Дала could not be identified by name or date (searches found only general city school programmes).",
+    "Direct competition inside TARIH itself: BI still holds about 28 TARIH units (user's list), and kn.kz shows lots at 665–840k/m². An owner already in block B is renting out 156 m² on the same alley. The first owners in B compete with BI's unsold stock and with other investors for the same few tenants.",
+    "Price comparison within the user's 65–110 M budget: TARIH developer lots of 113.45 m² (75.4 M, 665k), 120.59 m² (80.2 M, 665k) and 143.47 m² (103.3 M, 720k) are cheaper per m² than DARYN first-line developer lots (780–950k) and than every ÜIA resale (about 0.77–1.4 M/m²). The agent did not set this against location: DARYN and Gasyr units face Улы Дала, TARIH units face an inner courtyard.",
+    "Gasyr (263 apartments, keys in hand, 4.5–4.6 m ceilings, first line of Улы Дала, 'срочно снижена цена') is a delivered competitor with better frontage. Its owners are cutting asks now.",
+    "No evidence of any achieved rent or signed tenant anywhere in ÜIA or Gasyr. The agent noted this, but the yield figures should not be presented next to it as if they meant something.",
+    "Several krisha detail pages returned 403 for me as well (1014567269, 1015049371, 1014047803). No bypass was attempted, so those rows rest on the agent's reading only.",
+    "kn.kz pins TARIH at 'пр. Улы Дала, 5 стр' and gives its address as 'ул. Е 909, 29', while krisha gives Gasyr as 'Улы Дала 5'. Address-only matching in this area is unreliable, and rows should be assigned by the ЖК name field.",
+    "Possible duplicate sale rows that the agent kept: 1016443731 (87 m², 68 M) and 1008688487 (88 m², 68 M), both at Улы Дала 14."
+   ],
+   "overall_reliability": "medium",
+   "summary": "The listing-level facts mostly hold up when re-fetched. The polygon counts (15 rent, 28 sale), the TARIH B rent ad (156 m², 1.4 M, courtyard and alley, no keys, no tenant), the TARIH C resale (49.5 M, Q1 2027), the TARIH developer prices on kn.kz (665–840k ₸/m²), the korter TARIH queues (A and B Q4 2026, C and E Q1 2027, 35 entrances, 1,011 apartments; raw JSON lastUpdate 12.10.2026) and the rent medians are all confirmed. Errors: the BIRLIK upper price of 1,050k is a kn.kz data error (the real top is 930k); one rent ad is from an agent, not an owner; the 'same unit' duplicate claim is not proven; and 'only Улы Дала 12 has keys' is too narrow, since kn.kz puts Улы Дала 10/12/14 at Q3 2026 with 'часть домов построена', Gasyr has keys, and korter's DARYN dates look wrong. The cluster supply totals, the demand benchmark and the '2–3x oversupply' figure have no source. The yields are ask-to-ask with no tenant evidence anywhere. What matters most for the decision, and was under-weighted: TARIH B's west, south and east sides face empty land (the user's own observation), so its footfall is limited to its own and neighbouring blocks' residents. TARIH units compete with BI's own unsold stock and with delivered first-line Улы Дала units (DARYN, Gasyr) at similar asks. Buying TARIH direct from BI (about 665–720k/m² for 113–143 m²) is notably cheaper than resale (about 1.0 M/m²), but there is still no evidence of achievable rent."
+  }
+ },
+ {
+  "key": "analogs",
+  "result": {
+   "analogs": [
+    {
+     "cluster": "Athletic City (Tumar Group, comfort+, 6 houses / 20 blocks, 1,310 apartments)",
+     "location": "пр. Улы Дала 25/27/29, Толе би 20, Туран 59/2-59/3 (Нура), about 51.102, 71.390. Same avenue as ÜIA, about 2.8 km east of the Айтматова junction.",
+     "delivered": "Fact (korter): blocks D/F/H Q1 2023, E Q1 2024, G/I Q3 2024. So the complex is now 2 to 3.5 years after keys.",
+     "context_at_delivery": "Fact: korter's description says the 'микрорайон активно застраивается'. Neighbouring stock (Uly Dala Avenue at Толе би 27, HomeLand at Толе би 25/1, Bozjyra at Улы Дала 28) is also new, 2021-2026 builds. I did not verify satellite imagery for 2023. Estimate: this was a semi-frontier at delivery, less isolated than TARIH B is now.",
+     "median_rent_ppm": 8344,
+     "rent_listings": 8,
+     "median_sale_ppm": 1062500,
+     "vacancy_evidence": "Fact (krisha map-polygon, 14.10.2026): the box has 23 rent and 23 sale listings. 8 rent listings are Athletic City ground-floor premises (5,833-12,500 ₸/m², median 8,344), plus 3 storage cells. There are 4 sale premises at 0.8-1.21 M ₸/m². Listing 1013678510 (100 m², Толе би 20) was indexed by a search engine at 900,000 ₸ (9,000 ₸/m²). It is live today at 700,000 (7,000 ₸/m²), a 22% ask cut, and its text offers rent holidays 'по договорённости'. Estimate: if there are about 2 units per block (about 40 units), about 25-30% of the stock is on the market (rent or sale) 2-3.5 years after keys.",
+     "source_urls": [
+      "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.1040%2C71.3860%2C51.1040%2C71.3950%2C51.0995%2C71.3950%2C51.0995%2C71.3860%2C51.1040%2C71.3860",
+      "https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/astana/?areas=p51.1040%2C71.3860%2C51.1040%2C71.3950%2C51.0995%2C71.3950%2C51.0995%2C71.3860%2C51.1040%2C71.3860",
+      "https://krisha.kz/a/show/1013678510",
+      "https://korter.kz/жк-athletic-city-астана"
+     ]
+    },
+    {
+     "cluster": "Salman City / Salman City 2 (Ulytau Group, comfort+, 6 houses)",
+     "location": "ул. Казыбек би 41, 41/1, 41/4 (Нура), about 51.097, 71.382. SW edge of Нура near Туран / Улы Дала, about 2.4 km from ÜIA.",
+     "delivered": "Fact: korter shows all 10 houses ready, Q2 2025. krisha cards print build years 2025/2026. So the complex is about 1-1.5 years after keys.",
+     "context_at_delivery": "Fact: listing texts say 'перспективный район, активная застройка, растущий поток клиентов' and 'новый район, рядом много ЖК, школа'. BI Arna and Alem to the south are still under construction (korter). Estimate: this is the closest true-frontier analog to TARIH.",
+     "median_rent_ppm": 7119,
+     "rent_listings": 16,
+     "median_sale_ppm": 787244,
+     "vacancy_evidence": "Fact (krisha snapshot 13-14.10.2026, address match): 16 rent premises (2,445-13,100 ₸/m², median 7,119) and 6 sale premises (median 787 k ₸/m²). A map-polygon fetch today found 14 rent listings (13 premises, median 7,202). 4 of the 9 rent cards with full text offer rent holidays: 1015580223 is 122.7 m² at 300,000 (2,445 ₸/m²) with 'каникулы три месяца'; 1009887410 and 1005497580 offer 'каникулы на ремонт'. One sale card (1013047304, 127 m², 98 M) has a grocery tenant in place. Estimate: 22 units on the market against an estimated 25-40 units means roughly half or more of the stock is offered about 16 months after keys.",
+     "source_urls": [
+      "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.0995%2C71.3790%2C51.0995%2C71.3860%2C51.0945%2C71.3860%2C51.0945%2C71.3790%2C51.0995%2C71.3790",
+      "https://krisha.kz/a/show/1013047304",
+      "https://korter.kz/salman-city-астана"
+     ]
+    },
+    {
+     "cluster": "Jetisu bigville (BI Group): Aqsu, Lepsi, Kerbez, Kerbez Comfort, Nauryz, Bereke, Aspan, Satti",
+     "location": "Е-915 / Е-511 / Е-446 / Е-509 / Е-669 and пр. Улы Дала 46 (Есиль), about 51.08-51.09, 71.46-71.47. This is the eastern part of Улы Дала.",
+     "delivered": "Fact (korter/krisha): staggered keys. Aqsu Q4 2022-Q2 2025; Lepsi Q3 2022-Q2 2023; Kerbez Q4 2024-Q3 2025; Nauryz Q1 2026; Kerbez Comfort Q2 2026. Satti and Aspan are still under construction.",
+     "context_at_delivery": "Fact: a 2026 sale card at Е-511 25 says 'новом развивающемся районе... активная застройка'. Each new Jetisu queue was delivered next to already-populated earlier queues, so it was not empty steppe. Estimate: this analog is less frontier than TARIH.",
+     "median_rent_ppm": 8246,
+     "rent_listings": 28,
+     "median_sale_ppm": 859808,
+     "vacancy_evidence": "Fact (krisha map polygon, 13.10.2026): 37 rent and 33 sale listings, including storage cells. Rent medians by vintage, from my computation: Aqsu, 1.5-4 years after keys (2 listings: 5,429 and 9,000); Kerbez, 1-2 years (about 8,680, n=4); Kerbez Comfort, 0-4 months (about 8,050, n=6 unique); Nauryz, about 7 months (about 9,190, n=4). Pre-delivery Satti asks about 9,195. One Nauryz unit already has a tenant at 350,000 ₸/month for 41 m² (8,537 ₸/m²), within about 7 months of keys (sale card 1016542462). Е-669 13 (ЖК Aiva) has a grocery tenant (sale card 1010799764). 5 of 16 detailed rent cards mention 'каникулы'.",
+     "source_urls": [
+      "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.092000%2C71.459000%2C51.092000%2C71.474000%2C51.078000%2C71.474000%2C51.078000%2C71.459000%2C51.092000%2C71.459000",
+      "https://krisha.kz/a/show/1016542462",
+      "https://krisha.kz/complex/show/nur-sultan/jetisulepsi/",
+      "https://korter.kz/jetisu-nauryz-astana",
+      "https://korter.kz/jetisu-kerbez-comfor-astana"
+     ]
+    },
+    {
+     "cluster": "Turan Palace (Safi-K Group, business class, 3 houses, 289 apartments)",
+     "location": "пр. Туран 83/1-83/2 at Хусейн бен Талал (Нура), about 51.086, 71.387",
+     "delivered": "Fact (korter): Q4 2023, Q3 2024 and Q1 2025. So 1.5-3 years after keys.",
+     "context_at_delivery": "Fact: south Нура near Хусейн бен Талал. BI Arna and Space/Cosmic City are around it, partly delivered in 2022 and partly still under construction (korter). Estimate: semi-frontier at delivery.",
+     "median_rent_ppm": 6854,
+     "rent_listings": 3,
+     "vacancy_evidence": "Fact (krisha map polygon, 14.10.2026): 3 rent listings: 125 m² at 4,000, 138.6 m² at 6,854 and 138.4 m² at 7,225 ₸/m². One card mentions каникулы. No sale listings of this complex were identified. For a business-class building, asks are about 30% below the ÜIA pre-delivery asks.",
+     "source_urls": [
+      "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.0890%2C71.3830%2C51.0890%2C71.3910%2C51.0830%2C71.3910%2C51.0830%2C71.3830%2C51.0890%2C71.3830",
+      "https://korter.kz/жк-turan-palace-астана"
+     ]
+    },
+    {
+     "cluster": "OİU bigville, 1st queue (BI Group): a frontier bigville being delivered now",
+     "location": "Коргалжинское шоссе 24/2, Е-181 / Е-923 (Нура, west edge toward Талдыколь), about 51.153, 71.360",
+     "delivered": "Fact (korter): 6 houses Q3 2026 and 11 houses Q1 2027. krisha cards show build year 2026. The same timing as ÜIA TARIH.",
+     "context_at_delivery": "Fact: the sale card calls it a 'быстроразвивающийся район' and its unit 'самое первое помещение при заезде в бигвиль'. Estimate: a city-edge site, comparable to TARIH.",
+     "median_rent_ppm": 6640,
+     "rent_listings": 4,
+     "median_sale_ppm": 972222,
+     "vacancy_evidence": "Fact (krisha snapshot 13-14.10.2026): 4 rent asks at 6,075-10,185 ₸/m² (median 6,640) and 1 sale. Sale card 1013615959 is a 72 m² corner unit with shopfront glazing on both sides at the bigville entrance. It is pre-let to a minimarket at 650,000 ₸/month (9,028 ₸/m²), offered at 70 M (gross yield 11.1%). So a corner or entrance unit can be pre-let to a convenience store even at the edge.",
+     "source_urls": [
+      "https://krisha.kz/a/show/1013615959",
+      "https://krisha.kz/a/show/1015753992",
+      "https://krisha.kz/a/show/1014623945",
+      "https://korter.kz/жк-oiu-астана"
+     ]
+    },
+    {
+     "cluster": "Abadan (Ken Qurylys, economy, 2 houses, 516 apartments)",
+     "location": "ул. Чингиз Айтматов 33 (Нура), about 51.124, 71.357. Nearest delivered complex to ÜIA (about 2.4 km north on Айтматова).",
+     "delivered": "Fact (korter): Q4 2025. So about 10 months after keys.",
+     "context_at_delivery": "Fact (korter): 'рядом озеро'. The developer writes that on the first floor 'в будущем появятся магазины, кафе, аптека'. Neighbours are Aisafi (2021) and Ümit (under construction).",
+     "rent_listings": 0,
+     "vacancy_evidence": "Fact: the krisha map polygon around Айтматова 33 (14.10.2026) returned 1 rent listing, and that is the neighbouring ЖК Qadam (Айтматова 22, 96 m², 10,417 ₸/m², 'ключи будут в конце октября, каникулы на ремонт'). An address match on 'Айтматова 33' found 3 rent cards, but the one with full text is ЖК Aisafi (2021), not Abadan. So no Abadan commercial unit is listed. Either the developer holds the units or they are not marketed on krisha. This is not evidence that they are occupied.",
+     "source_urls": [
+      "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.1265%2C71.3535%2C51.1265%2C71.3610%2C51.1215%2C71.3610%2C51.1215%2C71.3535%2C51.1265%2C71.3535",
+      "https://korter.kz/жк-по-ул-чингиза-аитматова-астана"
+     ]
+    }
+   ],
+   "commentary": [
+    {
+     "claim": "Colliers International (Shakhida Sadyrova), on Almaty: residential-retail supply formed over two years is about 117k m², and at least one third of it is vacant. Average rent is 4.7k ₸/m² (from 2.5k). Low occupancy is mostly because developers prefer to sell premises rather than lease them. Anchor and chain tenants are not expected. Courtyard-facing units serve only local demand, and first-line units with pedestrian or transport flow get the highest rents.",
+     "source_url": "https://kapital.kz/real_estate/84926/na-rynke-kommercheskoy-nedvizhimosti-poyavilsya-novyy-trend.html",
+     "source_date": "2020-02-24"
+    },
+    {
+     "claim": "Colliers Kazakhstan (Maxim Nikityuk): street retail remains the most liquid commercial segment, because the ticket is low and the buyer pool wide. Commercial property targets about a 10-year payback, and developers aim for a cap rate of about 10%. Street retail on a busy through-street with developed infrastructure gives higher yield at lower risk.",
+     "source_url": "https://digitalbusiness.kz/2025-11-26/street-retail-ostaetsya-samim-likvidnim-segmentom-ekspert-rasskazal-chto-proishodit-na-rinke-kommercheskoy-nedvizhimosti/",
+     "source_date": "2025-11-26"
+    },
+    {
+     "claim": "Colliers Kazakhstan (Danila Petrov): online retail grew from 482 bn to 3.77 trn ₸ in 2021-2025, from 3.6% to 13.6% of retail, and marketplaces took about 86% of online sales in 2025. Astana mall occupancy was about 92% in Q1 2026. Medical and coworking uses are 'точечные решения' that depend on location, parking and entrance.",
+     "source_url": "https://digitalbusiness.kz/2026-07-14/minevidim-priznakov-massovogo-opusteniya-vtrts-ekspert-colliers-kazakhstan-rasskazal-orealnoy-situatsii-narinke-torgovoy-nedvizhimosti/amp/",
+     "source_date": "2026-07-14"
+    },
+    {
+     "claim": "Capital Realty: there are no official street-retail rent statistics for Astana. Astana commissioned 4.81 M m² of housing in 2025, which means strong competition for tenants on the ground floors of new complexes. Finding a tenant for a narrow format 'может занять месяцы'. In their example, 2 empty months a year cut the yield by about 1.7 pp (8.4% to 6.7%). The simplified-regime tax for an individual entrepreneur in Astana is 3% from 2026.",
+     "source_url": "https://capital-realty.kz/blog/kommercheskaya-nedvizhimost-astana-2026-investicii.html",
+     "source_date": "2026-09-14"
+    },
+    {
+     "claim": "My computation on a krisha.kz Astana snapshot (13-14.10.2026, about 1,239 residential ground-floor cards with full text): rent holidays ('каникулы') appear in 24% of 2025-built and 22% of 2026-built rent cards. The share is 11% for 2022-2024 builds and 2-5% for pre-2022 builds. A tenant in place is mentioned in only 2-4% of 2025-2026-built sale cards, against 9-15% for older stock.",
+     "source_url": "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/",
+     "source_date": "2026-10-14"
+    },
+    {
+     "claim": "My computation on the same snapshot, residential ground floors 5-8 km from the centre (ÜIA's band). Median asking rent is 8,206 ₸/m² for 2025+ builds (n=82), 5,556 for 2022-2024 builds (n=37) and 5,167 for 2018-2021 builds (n=20). At 3-5 km it is 9,697 against 6,522. New-build asks run about 30% above those of buildings 2-4 years old in the same ring. Part of the gap is quality, and part is initial asking optimism that is later cut.",
+     "source_url": "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/",
+     "source_date": "2026-10-14"
+    },
+    {
+     "claim": "Uly Dala Avenue (Толе би 27, Улы Дала): a 152.8 m² unit at 1,000,000 ₸/month is offered with 3 months rent-free for fit-out. The krisha page now returns 403; this text comes from a search-engine snippet.",
+     "source_url": "https://krisha.kz/a/show/1013920926",
+     "source_date": "2026"
+    },
+    {
+     "claim": "Typical first tenants in delivered new-build clusters, from krisha cards. Grocery or minimarket: Salman City 1013047304; Е-669 13 Aiva 1010799764; Е-779 32 1016434758; OİU 1013615959 at 650k ₸/month for 72 m². A meat shop at Толе би 16 (ЖК Дастур, 1014490645). Owners' ads list target uses as clothing, grocery, dentistry, pharmacy, yoga or dance studio (Athletic City 1013678510). I found no Kazakhstan source quantifying ПВЗ (Wildberries/Ozon/Kaspi) as ground-floor tenants. A blog post (not verified) says Ozon's Kazakhstan pick-up network grew 27x in a year to more than 1,300 points.",
+     "source_url": "https://krisha.kz/a/show/1013047304",
+     "source_date": "2026-10-14"
+    },
+    {
+     "claim": "Russian-market reference, not Kazakhstan: first floors in new residential complexes often stand empty, with vacancy reaching up to 30% in the first years. Supply often does not match retailer needs (for example, a supermarket needs 400-2,000 m² without load-bearing walls).",
+     "source_url": "https://www.retail.ru/news/developery-vernutsya-k-stroitelstvu-zhilya-na-pervykh-etazhakh/"
+    }
+   ],
+   "ramp": {
+    "months_to_first_tenant": "Estimate: 6 months after keys (range 3-12) for a corner or street-facing TARIH B unit. Expect 9-18 months for a courtyard unit or a façade facing the empty steppe. These figures include 1-3 months of rough-finish fit-out, which is usually given as rent-free 'каникулы'.",
+    "y1_rent_pct": 75,
+    "y2_rent_pct": 88,
+    "y3_rent_pct": 95,
+    "y1_vacancy_months": 7,
+    "rationale": "FACTS behind it:\n(1) ÜIA's own pre-delivery asks have a median of 9,865 ₸/m² (n=9).\n(2) Delivered analogs ask less. Athletic City, 2-3.5 years after keys: 8,344 (n=8). Jetisu: 8,246 (n=28); Kerbez 1-2 years after keys about 8,680. Salman City, about 16 months after keys, true frontier: 7,119 (n=16). Turan Palace, 1.5-3 years: 6,854 (n=3). OİU, delivering now: 6,640 asks (n=4).\n(3) In ÜIA's 5-8 km ring, 2022-2024 builds ask 5,556 against 8,206 for 2025+ builds.\n(4) Concessions are common in young stock. 22-24% of 2025-2026-built rent cards offer каникулы, typically 'на ремонт' or 3 months. One Athletic City ask was cut 22%. Salman City has a 2,445 ₸/m² ask with 3 months free.\n(5) Early tenants do appear. Jetisu Nauryz has a 41 m² unit let at 8,537 ₸/m² within about 7 months of keys. OİU has a corner unit at the entrance pre-let to a minimarket at 9,028 ₸/m² before delivery. Salman City has a grocery tenant within about a year.\n(6) Listed stock is large. Salman City has about 22 premises for rent or sale about 16 months after keys, and Athletic City about 12 at 2-3.5 years.\n\nESTIMATES:\n- Mature rent (M) for ÜIA ground floors: 8,500-9,000 ₸/m²/month asking, which is about 0.85-0.9 of today's ÜIA asks. This is anchored on Athletic City, Jetisu Kerbez and Äuez/Family BI medians of 9,100-10,000.\n- Year 1 (contracted rate): 75% of M, about 6,400-6,750 ₸/m². Salman City, Turan Palace and OİU asks of 6,600-7,100 are consistent with this, and deals usually close below asks.\n- Year 2: 88%. Year 3: 95%, as DARYN, SŪNQAR and BIRLIK fill (keys 2026-2027) and residents finish their renovations.\n- Year 1 vacancy: 7 months, made up of about 4-5 months unlet plus about 2-3 months rent-free.\n- Expected economic vacancy: about 15% in year 2 (about 2 months) and 8-10% from year 3 (about 1 month a year).\n- Because the land beyond TARIH B is empty, B's outer façades (Айтматова line, southern street) carry no passing traffic until those streets and the ФМЛ are built. Demand in years 1-2 is only from ÜIA residents. That is why year 1 is set below the Jetisu queues, which were delivered next to populated earlier phases.",
+    "range_note": "Uncertainty (estimates):\n- Months to first tenant: 3 (corner, minimarket or pharmacy, pre-let as at OİU) to 18 (inner-courtyard unit, empty frontage, many competing ÜIA units released at once).\n- Year 1 rent: 55-85% of M. Year 2: 75-95%. Year 3: 85-100%.\n- Year 1 vacancy: 3-12 months. Downside: the Salman City pattern of about half the stock listed 16 months after keys, plus 2,400-4,600 ₸/m² distress asks. Upside: a pre-let or chain tenant at 9,000+ ₸/m² from month 1-3.\n- M itself is ±10% (8,000-9,800).\n- Data limits: all rents are krisha asks, not deals. Older (1-3 year) krisha snapshots were not retrievable (archive.org blocked, old cards return 403), so the ramp comes from comparing vintages in today's snapshot, not from tracking the same units over time. Unit counts per complex are estimates."
+   }
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "OİU sale card 1013615959: 72 m² corner unit at the bigville entrance, pre-let to a minimarket at 650,000 ₸/month, asking 70 M (about 11.1% gross yield). Used as evidence that edge units can be pre-let.",
+     "verdict": "partially",
+     "evidence": "Re-fetched on 14.10.2026. Price 70,000,000 ₸, 72 m², Кургальжинское шоссе 24/2, 'Oiu', 2026, floor 1. The text says 'Имеется готовый арендатор (минимаркет) с ежемесячной арендой 650 тысяч тенге' and 'Самое первое помещение при заезде в бигвиль'. However, the card's own structured field says 'Есть арендаторы: нет', which contradicts the text. The building is not delivered: korter shows OİU as 'Строится', queue 1 due Q3 2026. So this is an unverified seller claim about a pre-let in an unfinished building, not an observed lease. The 11.1% yield is arithmetic on that claim.",
+     "source_url": "https://krisha.kz/a/show/1013615959"
+    },
+    {
+     "claim": "OİU is 'a frontier bigville being delivered now' (6 houses Q3 2026, 11 houses Q1 2027). Its rent asks have a median of 6,640 (n=4).",
+     "verdict": "partially",
+     "evidence": "korter confirms 17 houses: queue 1 (6) Q3 2026 and queue 2 (11) Q1 2027. The status is still 'Строится', so nothing is delivered yet. Rent cards 1015753992 and 1014623945 return 403, so the 6,640 median could not be re-checked. With n=4 asks in an unbuilt complex, it is not a delivered-market rent.",
+     "source_url": "https://korter.kz/жк-oiu-астана"
+    },
+    {
+     "claim": "Athletic City keys: D/F/H Q1 2023, E Q1 2024, G/I Q3 2024, so the complex is 2–3.5 years after keys and serves as the 'mature' anchor.",
+     "verdict": "partially",
+     "evidence": "korter today gives dates only for I-2, G-1 and G-2 ('2024'). It marks the other blocks 'построено' with no dates and is internally inconsistent (6 vs 20 houses). krisha sale cards in the same polygon print build years 2021–2022 for Туран 59/2 and 59/3, but 2025–2026 for Толе би 20 and Улы Дала 27/1 units (1007723259: 2025; 1011747447: 2026; 1005620523: 2025). Rent card 1014285775 at Толе би 20 shows 2026. So part of the 'mature' sample is actually 2025–2026 stock, and the 'mature rent' anchor is partly new-build asks.",
+     "source_url": "https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/astana/?areas=p51.1040%2C71.3860%2C51.1040%2C71.3950%2C51.0995%2C71.3950%2C51.0995%2C71.3860%2C51.1040%2C71.3860"
+    },
+    {
+     "claim": "Athletic City polygon: 23 rent listings, 8 of them Athletic City premises at 5,833–12,500 ₸/m² (median 8,344).",
+     "verdict": "partially",
+     "evidence": "Confirmed: 'Найдено 23 объявления'. Athletic City premises: 7,000 (1013678510), 12,500 (1016048101), 8,687 (1011432137), 10,680 (1016336047), 8,000 (1016043850, a sublease), 5,833 (1016400970, which its text places at basement level), 6,000 (1015976292, a sublease) and 10,000 (1012812144, 554 m², ЖК not named). The 5,833 low end is a basement unit and two cards are subleases, so the set is not cleanly 'ground-floor premises'. The median is roughly right. 1011432137 offers '2 месяца каникул'.",
+     "source_url": "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.1040%2C71.3860%2C51.1040%2C71.3950%2C51.0995%2C71.3950%2C51.0995%2C71.3860%2C51.1040%2C71.3860"
+    },
+    {
+     "claim": "Listing 1013678510 (100 m², Толе би 20) was earlier indexed at 900,000 and is now 700,000, a 22% ask cut.",
+     "verdict": "unverifiable",
+     "evidence": "Today's list shows 1013678510 at 700,000 ₸ (7,000 ₸/m²), with rough finish and a courtyard entrance. The detail page returns 403. A web search found no snapshot of this ID at 900,000; the only 900,000 / ~100 m² hits are a different listing (1013799615, Толе би 46, 101 m²). The 22% cut has no source I could reproduce.",
+     "source_url": "https://krisha.kz/a/show/1013678510"
+    },
+    {
+     "claim": "Salman City: polygon has 14 rent listings (13 premises, median 7,202). 1015580223 is 122.7 m² at 300,000 (2,445 ₸/m²) with 3 months of rent holidays. 1009887410 and 1005497580 offer 'каникулы на ремонт'.",
+     "verdict": "partially",
+     "evidence": "Confirmed: 'Найдено 14'. 13 premises, and the median I computed is 7,202. 1015580223 is 122.7 m² at 300,000, 1st floor, Salman City 2; the list snippet mentions каникулы, but the detail page (403) could not confirm 'три месяца'. 1009887410 says 'каникулы на ремонт'. For 1005497580 the snippet is truncated and no каникулы is visible. Several cards look like duplicates of the same unit: 114.5 m² at 41/1 appears twice (1011735236 at 1.2 M and 1009364663 at 1.5 M), 97.2 m² twice and 35 m² twice. So the unit counts are inflated.",
+     "source_url": "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.0995%2C71.3790%2C51.0995%2C71.3860%2C51.0945%2C71.3860%2C51.0945%2C71.3790%2C51.0995%2C71.3790"
+    },
+    {
+     "claim": "Salman City is about 16 months after keys (all houses delivered Q2 2025), and 22 units on the market means 'roughly half or more of the stock'.",
+     "verdict": "partially",
+     "evidence": "korter shows '10 домов сдано' with block dates '2025', but is inconsistent (6 vs 10 houses). krisha's complex page still lists planned dates of 'I кв. II 2025 / II кв. IV 2025' with status 'строится'. A storage card (1005839151) labels 'Salman city-1' as 2018. Keys are therefore somewhere in 2025, with a possible earlier phase. The sale polygon has 16 listings, but it includes Gala One, Next Seven, Е 48 41, and four separate listings of what appears to be one ~1,190 m² standalone building. 128 m² at 93.5 M (1016258147 / 1016229509) and 127/128 m² at 98 M (1013047304 / 1014631323) also look duplicated. The 25–40 unit denominator has no source. The 'about half the stock' figure is an extrapolation.",
+     "source_url": "https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/astana/?areas=p51.0995%2C71.3790%2C51.0995%2C71.3860%2C51.0945%2C71.3860%2C51.0945%2C71.3790%2C51.0995%2C71.3790"
+    },
+    {
+     "claim": "Salman City sale card 1013047304 (127 m², 98 M) has a grocery tenant in place.",
+     "verdict": "confirmed",
+     "evidence": "The sale-polygon list shows 1013047304: 127 m², 98,000,000 ₸ (771,654 ₸/m²), Казыбек би 41/1, Салман сити, 2025, 'продуктовый магазин', 'с действующим арендатором'. The detail page returns 403. A separate card, 1014631323 (128 m², 98 M, same address, no tenant mentioned), may be the same unit.",
+     "source_url": "https://krisha.kz/prodazha/kommercheskaya-nedvizhimost/astana/?areas=p51.0995%2C71.3790%2C51.0995%2C71.3860%2C51.0945%2C71.3860%2C51.0945%2C71.3790%2C51.0995%2C71.3790"
+    },
+    {
+     "claim": "Jetisu Nauryz: a 41 m² unit was let at 350,000 ₸/month (8,537 ₸/m²) within about 7 months of keys (sale card 1016542462).",
+     "verdict": "partially",
+     "evidence": "Card 1016542462: Е-511 25, 41 m², 36 M (878,049 ₸/m²), 'Есть арендаторы: да', text '350 000 тг/мес (стабильный доход)'. The card names no ЖК and no build year. kn.kz listings tie Е-511 25 to Jetisu Nauryz. korter gives Nauryz's address as Е-915 21 with keys Q1 2026, while krisha rent cards at Е-511 25 print build year 2025 (1016261844, 1009923012) or 2026. The tenant is real per the card, but 'within ~7 months of keys' rests on uncertain dates.",
+     "source_url": "https://krisha.kz/a/show/1016542462"
+    },
+    {
+     "claim": "Jetisu: Satti and Aspan are still under construction. 5 of 16 detailed rent cards mention каникулы. Kerbez Comfort is about 8,050 ₸/m².",
+     "verdict": "partially",
+     "evidence": "The polygon now has 'Найдено 40' (37 earlier). Aspan cards print build year 2025–2026, including an 'Офис, свежий ремонт' (1012787621) and a storage unit on '5 этаж из 9, лифт работает'. Satti cards print 2026. So Aspan at least appears delivered and occupied, which contradicts 'under construction'. There is also an Aspan ask at 4,375 ₸/m² (1016567303). Kerbez Comfort asks (8,095, 8,095, 8,333, 8,772, 8,333, 5,853, 7,564, 7,692) confirm a median of about 8,050. Of about 33 premises on pages 1–2, 3 mention 'каникулы на ремонт' (two of them are one duplicated 160 m² unit) and one is truncated. That is fewer than 5/16, but the agent may have used full texts.",
+     "source_url": "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.092000%2C71.459000%2C51.092000%2C71.474000%2C51.078000%2C71.474000%2C51.078000%2C71.459000%2C51.092000%2C71.459000"
+    },
+    {
+     "claim": "Turan Palace: 3 rent listings at 4,000, 6,854 and 7,225 ₸/m²; one card mentions каникулы.",
+     "verdict": "confirmed",
+     "evidence": "'Найдено 3'. 1015899190: 138.6 m², 950k (6,854), 2024. 1016382144: 138.4 m², 1.0 M (7,225), 2024. 1016132682: 125 m², 500k (4,000), 2025, 1st floor, rough finish, 'Арендные каникулы: 2 месяца' with a long-term lease.",
+     "source_url": "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.0890%2C71.3830%2C51.0890%2C71.3910%2C51.0830%2C71.3910%2C51.0830%2C71.3830%2C51.0890%2C71.3830"
+    },
+    {
+     "claim": "Abadan (Айтматова 33): no Abadan commercial unit is listed; the polygon only returns a neighbouring Qadam unit.",
+     "verdict": "confirmed",
+     "evidence": "Today the polygon returns 2 listings, both ЖК Qadam (Айтматова 22, 2026 build): 1016567785 (99.4 m², 1.1 M, 11,066 ₸/m², first line on Айтматова, two shopfronts) and 1016116932 (96 m², 1.0 M, 10,417). There is no Abadan card.",
+     "source_url": "https://krisha.kz/arenda/kommercheskaya-nedvizhimost/astana/?areas=p51.1265%2C71.3535%2C51.1265%2C71.3610%2C51.1215%2C71.3610%2C51.1215%2C71.3535%2C51.1265%2C71.3535"
+    },
+    {
+     "claim": "Capital Realty: no official street-retail rent statistics; Astana commissioned 4.81 M m² of housing in 2025; finding a tenant 'может занять месяцы'; 2 empty months cut the yield from 8.4% to 6.7%; simplified-regime tax for an ИП is 3%.",
+     "verdict": "confirmed",
+     "evidence": "All are quoted on the page (updated 14.09.2026). The 8.4%/6.7% example assumes a 50 M outlay and is labelled illustrative. The 4.81 M m² figure is consistent with Kapital.kz citing the statistics bureau (Astana 4.81 M of 20.1 M m² nationally).",
+     "source_url": "https://capital-realty.kz/blog/kommercheskaya-nedvizhimost-astana-2026-investicii.html"
+    },
+    {
+     "claim": "Colliers (Sadyrova, 2020): about 117k m² of residential retail, at least one third vacant, average rent 4.7k ₸/m² from 2.5k, developers prefer to sell, courtyard units serve only local demand.",
+     "verdict": "confirmed",
+     "evidence": "All quoted in the article of 24.02.2020. It is about ALMATY, and is 6.5 years old. It is weak as a direct benchmark for Astana in 2026.",
+     "source_url": "https://kapital.kz/real_estate/84926/na-rynke-kommercheskoy-nedvizhimosti-poyavilsya-novyy-trend.html"
+    },
+    {
+     "claim": "Colliers (Nikityuk, 2025): street retail is the most liquid segment; target payback is about 10 years; cap rate about 10%; a through-street is lower risk. Colliers (Petrov, 2026): online retail figures, mall occupancy about 92%.",
+     "verdict": "confirmed",
+     "evidence": "Both articles say this. Neither says anything about ground floors of new residential complexes or about ПВЗ.",
+     "source_url": "https://digitalbusiness.kz/2025-11-26/street-retail-ostaetsya-samim-likvidnim-segmentom-ekspert-rasskazal-chto-proishodit-na-rinke-kommercheskoy-nedvizhimosti/"
+    }
+   ],
+   "corrections": [
+    "OİU is not 'being delivered now' in any verified sense: korter shows it as 'Строится'. The minimarket pre-let in 1013615959 is seller text, contradicted by the card's own 'Есть арендаторы: нет' field. Treat the 9,028 ₸/m² pre-let and the 11.1% yield as unverified claims, not evidence.",
+    "Athletic City is not a clean '2–3.5 years after keys' sample. krisha cards at Толе би 20 and Улы Дала 27/1 print build years 2025–2026, while Туран 59/2 and 59/3 print 2021–2022. korter gives dates only for blocks G/I (2024). The 8,344 'mature' median mixes vintages and includes a basement unit (5,833) and two subleases.",
+    "The '22% ask cut' on 1013678510 (900k to 700k) could not be reproduced. No search snapshot at 900k exists for this ID; a different 101 m² listing at Толе би 46 is at 900k. Drop the claim or mark it unverified.",
+    "The Salman City counts include duplicates: 114.5 m² twice, 97.2 m² twice and 35 m² twice in rent; 128 m² at 93.5 M twice and 127/128 m² at 98 M twice in sale. The sale polygon also includes Gala One, Next Seven, a 1,200 m² building at Е 48 41 and four listings of one ~1,190 m² standalone building. The 'roughly half or more of the stock' estimate depends on an unsourced 25–40 unit denominator and should be called a guess.",
+    "Salman City keys are uncertain: korter says 2025 for all blocks, krisha's complex page still says 'строится' with Q2/Q4 2025 plans, and one card labels Salman City-1 as 2018. '16 months after keys' is approximate at best.",
+    "Jetisu Aspan, and probably Satti, are not 'still under construction'. Aspan cards print build year 2025–2026 and show finished offices and a 5th-floor storage unit with a working lift. Aspan has a 4,375 ₸/m² ask.",
+    "The Jetisu Nauryz '7 months after keys' timing is uncertain: korter gives Q1 2026 for Е-915 21, while krisha cards at Е-511 25 print 2025. The 41 m² tenant card itself names no ЖК and no year.",
+    "Salman City (Казыбек би 41 at Туран / Улы Дала) and Athletic City (Толе би / Улы Дала) sit at busy junctions inside populated Нура. They are NOT 'true frontier' analogs for TARIH B, which the user says has nothing at all beyond it. The real frontier gap is larger than the agent's year-1 haircut assumes."
+   ],
+   "missing": [
+    "Resale (secondary) price per m² of delivered ground floors versus ÜIA primary prices, a capital-value risk. Salman City 2025-built units are offered at 730–875 k ₸/m². Uly Dala Avenue 152.8 m² is at 864 k. An Улы Дала 28 unit of 110 m² is at 718 k (2026). Athletic City is at 0.8–1.21 M. If ÜIA units cost about 1 M+/m², delivered-stock resale asks are 15–30% lower. The agent listed sale medians but never compared them with the purchase price.",
+    "A gross-yield check on the agent's own ramp. Year-1 contracted rent of 6,400–6,750 ₸/m² on a purchase at about 1.0–1.1 M ₸/m² gives roughly 7–8% gross before 3% tax and vacancy. That is below Colliers' ~10% cap-rate benchmark. This is an estimate and should be shown explicitly.",
+    "Competing supply inside ÜIA itself was never counted: the ground-floor units across DARYN, TARIH, SŪNQAR and BIRLIK released in Q4 2026–Q3 2027. With no outside traffic, they all compete for the same residents.",
+    "The nearest new-build commercial asks on the same street: ЖК Qadam, Айтматова 22 (2026 build, first line on Айтматова) at 10,417–11,066 ₸/m², with 'каникулы на ремонт' noted earlier. They are about 2.4 km north in a more populated area. This is a ceiling reference, not a deal.",
+    "Uly Dala Avenue (Толе би 27) has three live listings for 152.8 m² at 1,000,000 ₸ (6,545 ₸/m²), plus 131 m² at 7,634 with 2 months of rent holidays and 75 m² with 1 month. The agent cited only a 403 snippet, but live cards exist and show the same pattern.",
+    "No-tenant evidence: in the Athletic City sale polygon, only 3 of about 20 cards mention a tenant. The agent did not quantify this for analogs, only for the city-wide snapshot.",
+    "Days-on-market proxies: several Salman City rent cards have old IDs (1001006284, 1005497580, 1007102294), which suggests long exposure. Krisha ID-to-date mapping was not verified.",
+    "The agent's city-wide 'my computation' figures (24% каникулы in 2025-built rent cards, the 8,206 vs 5,556 vintage medians) cannot be reproduced without its dataset. My spot checks found каникулы in roughly 10–20% of analog premises, which is consistent in order of magnitude but not verified."
+   ],
+   "overall_reliability": "medium",
+   "summary": "I re-fetched the krisha map polygons, listing cards, korter pages and press articles on 14.10.2026. Headline counts and medians mostly reproduce: Athletic City 23 rent listings, Salman City 14 rent listings with median 7,202, Turan Palace 3 listings at 4,000/6,854/7,225, Kerbez Comfort about 8,050, Abadan with no listings. The Colliers and Capital Realty quotes are accurate, though the Colliers vacancy figure is Almaty 2020.\n\nThe weak points are the claims the ramp leans on most:\n- **OİU pre-let:** the minimarket tenant is seller text, contradicted by the card's own 'no tenants' field, and OİU is still under construction.\n- **Athletic City as the mature anchor:** it mixes vintages (2021–2026 builds by krisha), and the 'mature' median includes a basement unit and subleases.\n- **22% ask cut:** this could not be reproduced.\n- **Salman City stock counts:** they contain duplicates and depend on an unsourced unit denominator.\n- **Jetisu:** Aspan and Satti are not under construction, and the Nauryz timing is uncertain.\n\nThe analogs are also less frontier than TARIH B: Salman City and Athletic City sit at busy Нура junctions, while the user saw empty land beyond TARIH B. So the agent's year-1 haircut (75% of mature rent, 7 vacancy months) is more likely optimistic than conservative.\n\nThe biggest omission is resale value. Delivered analog ground floors are offered at about 0.72–0.87 M ₸/m² (Salman City, Uly Dala Avenue, Улы Дала 28), which implies capital-value risk if ÜIA costs about 1 M ₸/m² or more. On the agent's own rents, year-1 gross yield would be about 7–8%. Both of these are my estimates.\n\nAll rents and prices are asking prices, not deals."
+  }
+ },
+ {
+  "key": "imagery",
+  "result": {
+   "scenes_used": [
+    "S2C_42UXB_20250605_0_L2A (cloud 0.39%)",
+    "S2B_42UXB_20250720_0_L2A (cloud 0.0001%, sun el 58.3)",
+    "S2C_42UXB_20251010_0_L2A",
+    "S2B_42UXB_20251028_0_L2A (sun el 25.6, az 173.5)",
+    "S2C_42UXB_20260428_0_L2A",
+    "S2C_42UXB_20260518_0_L2A",
+    "S2B_42UXB_20260602_0_L2A (sun el 59.8)",
+    "S2B_42UXB_20260712_0_L2A",
+    "S2A_42UXB_20260808_0_L2A",
+    "S2C_42UXB_20260829_0_L2A",
+    "S2C_42UXB_20260908_0_L2A",
+    "S2B_42UXB_20260920_0_L2A (sun el 39.3)",
+    "S2C_42UXB_20260928_0_L2A",
+    "S2A_42UXB_20261007_0_L2A",
+    "S2B_42UXB_20261013_0_L2A (cloud 0.13%, sun el 31.0, az 172.4: shadows point almost due N, length about 1.66 x height)",
+    "Esri World Imagery: WorldView-3, 0.31 m, dated 2024-09-17 (per the Esri identify service: 'DYNAMIC_ESRI_Astana_24Q4'). This is the pre-construction baseline, not 2022-23.",
+    "OSM via Overpass (maps.mail.ru mirror), fetched 2026-10-14: roads, the DARYN building footprints and landuse"
+   ],
+   "images_written": [
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/c1k_20250605.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/c1k_20251028.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/c1k_20260602.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/c1k_20261013.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/c1k_20251010.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/c1k_20260712.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/wide_20261013.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/wide_20250605.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_zoom_a.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_zoom_b.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/zoom_20261013.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/zoom_20260920.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/annot_20261013.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/annotosm_20261013.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/annotosm_20250720.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_sa.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_ss.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_south_a.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_south_b.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_nw.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_nwa.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/ring_20261013.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/ring_20250720.png",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/esri_2km.jpg",
+    "/tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/esri_1km.jpg"
+   ],
+   "blocks": [
+    {
+     "label_guess": "DARYN band (several blocks; OSM names 'ŪIA.DARYN блок Е' at 51.1051-51.1058, 71.3506-71.3520; 'ŪIA.DARYN' Улы Дала 4 at 51.1046-51.1054, 71.3524-71.3536; 'DARYN Блок B', 14 levels, at 51.1039-51.1047, 71.3571-71.3579)",
+     "status": "Multi-storey structures stand on the south side of Улы Дала from the junction (71.3505) east to about 71.360, from the road south to about 51.1036. There are about 8-10 masses with long N-pointing shadows on 2026-10-13. The NW-corner towers already cast long shadows on 2025-10-28; most of the rest rose between Nov 2025 and Jun 2026. I cannot tell finished from topped-out frame at 10 m. Blue-roofed site cabins and disturbed ground are still visible in and around the band in Oct 2026.",
+     "where_in_image": "zoom_20261013.png: the upper row of dark shadow blocks just south of the grey Улы Дала band. annot_20261013.png: the red OSM DARYN markers.",
+     "confidence": "high that tall structures exist; medium for the block-to-name mapping (OSM footprints)"
+    },
+    {
+     "label_guess": "TARIH A (NW of TARIH, corner of the Айтматова line and the E-W street)",
+     "status": "Multi-storey mass with shadows, at about 51.1028-51.1040, 71.3494-71.3512 (shadow included, ±15 m). It sat inside a rectangular foundation outline on 2025-10-28 and cast clear shadows by 2026-04-28. Its form has not changed since June 2026. Finished vs frame cannot be resolved.",
+     "where_in_image": "zoom_20260920.png px ~410-560 x 545-700; mont_zoom_a/b, the west block of the second row",
+     "confidence": "medium (row/column matches the brochure; letters inferred from position)"
+    },
+    {
+     "label_guess": "TARIH C (closed square, about 130-250 m east of the Айтматова line)",
+     "status": "Closed-square multi-storey mass with shadows, at about 51.1027-51.1037, 71.3514-71.3529. Visible with shadows on 2026-04-28; unchanged in form since June 2026.",
+     "where_in_image": "zoom_20260920.png px ~575-700 x 575-720",
+     "confidence": "medium"
+    },
+    {
+     "label_guess": "TARIH E (U-shape, about 280-350 m east)",
+     "status": "Multi-storey mass at about 51.1026-51.1036, 71.3532-71.3544. It looked lower or less advanced on 2026-04-28 and had full shadows by 2026-06-02.",
+     "where_in_image": "zoom_20260920.png px ~725-830 x 600-720",
+     "confidence": "medium"
+    },
+    {
+     "label_guess": "TARIH B (SW corner block, about 140 x 90 m)",
+     "status": "The southernmost building of the whole cluster: a rectangular/closed multi-storey block at about 51.1018-51.1028, 71.3488-71.3510. The korter TARIH pin (51.10261, 71.34896) falls on its west wing. It was a foundation outline on 2025-10-28, cast shadows by 2026-04-28, and has been unchanged in form since June 2026. Nothing tall stands south or west of it.",
+     "where_in_image": "zoom_20261013.png px ~360-540 x 680-830; mont_sa.png (korter TARIH marker)",
+     "confidence": "high that it is the SW-most and southernmost tall structure; medium that it is 'B'"
+    },
+    {
+     "label_guess": "Plot D (east of B) and plot F (east of E)",
+     "status": "No shadows and no rectangular foundation outline on any date from Jun to Oct 2026. Plot D shows only light disturbed ground, small bright objects and faint linear patterns (laydown area, site roads, cabins). Not started as a building, as far as 10 m imagery can show.",
+     "where_in_image": "mont_sa.png, area east of the korter TARIH marker around 51.1020-51.1028, 71.3505-71.3525",
+     "confidence": "medium (a ground-level slab would not be clearly resolvable)"
+    },
+    {
+     "label_guess": "NEW: unknown project NW of the Айтматова/Улы Дала junction (west of Айтматова)",
+     "status": "Started in Aug 2026. It was green steppe on 2026-07-12. The ground was cleared by 2026-08-08, small bright rectangles appeared on 08-29 and 09-08, and by 09-28 to 10-13 there are bright perimeter-block foundation outlines (at least two L/U shapes). Location about 51.1074-51.1093, 71.3475-71.3507, about 100-300 m NW of the junction and about 0.65 km north of TARIH B. This is the same signature TARIH B showed in Oct 2025, one stage before its frame rose. Owner unknown; not in OSM.",
+     "where_in_image": "mont_nwa.png (8 dates, Jul 12 to Oct 13); mont_nw.png",
+     "confidence": "high that new foundation-stage construction exists; owner and use unknown"
+    }
+   ],
+   "south_west_activity": "FACTS (from S2 time series Jul 2025 to Oct 2026, plus Esri 2024-09-17):\n(1) South of TARIH B: no new building. No foundation outline, frame or shadow appears anywhere south of B's south facade (about 51.1018) or in plot D, on any date from 2025-07-20 to 2026-10-13. This matches the user's site visit. What does exist south of B is a construction staging zone about 100-200 m deep (to about 51.1000-51.1005): light, disturbed ground with scattered bright objects (stockpiles, cabins, materials). It has been present since spring 2026, with objects shifting between dates. It is a work yard for the existing blocks, not a new building.\n(2) About 0.5-0.8 km SSE of B, a bright linear strip of fresh material (sand/gravel fill or spoil) runs along the NW edge of the tree plantation. It is about 370 m long and 30-40 m wide, at about 51.0937-51.0970, 71.3504-71.3533. It was absent on 2025-10-28, present on 2026-04-28, and roughly unchanged Jun-Oct 2026. On 2026-06-02 a straight double-line trench is visible running from the cluster's south edge SSE to this strip. It looks like a utility trench or haul track (estimate). No structures and no shadows.\n(3) West: a linear earthwork corridor runs SSW from the cluster's NW corner for more than 1.5 km. It is about 40-60 m wide, about 120-250 m west of B's west facade, at about 71.3463 at 51.100. In Esri 2024 and S2 Jul 2025 it was only a narrow trench line with ponds; it was widened into a broad light earth band between 2025-10-28 and 2026-04-28, and persists to Oct 2026. It is unpaved-looking, with no structures. My estimate: a road embankment (it is roughly parallel to the Айтматова alignment, about 100-150 m west of its projected line) or a trunk-utility corridor. S2 cannot tell which.\n(4) The only NEW building-type construction within about 1 km west or north-west is the site NW of the junction (51.1074-51.1093, 71.3475-71.3507). It started Aug 2026 and was at foundation stage on Oct 13. It is north of the Улы Дала line, not south or west of TARIH.\n(5) Further out: at about 1.9-2.3 km south (about 51.083-51.086) new E-W light lines appear in Oct 2026 that were not in June 2025. Low confidence; outside 1.5 km.",
+   "roads": "FACTS:\n- Junction: OSM puts the west end of Улы Дала (tertiary, oneway carriageways) and the south end of Айтматова (tertiary) at 51.10663-51.10668, 71.3505. This is about 200 m north of the 51.1045 in the task context; S2 and Esri agree with OSM. OSM has no road south of the junction.\n- Улы Дала and Айтматова north of the junction show as continuous grey, asphalt-like bands on every S2 date. In Esri 2024 they are asphalt dual carriageways with cars.\n- Айтматова 'stub' south of the junction: along the west edge of DARYN and TARIH A, from 51.1066 to about 51.103, there is a light-tan band 20-30 m wide. It has the same tone as disturbed soil, not the grey of Улы Дала. In Esri 2024 this spot was a construction yard and a trench. Assessment: unpaved, or a construction road. At 10 m a fresh concrete or gravel surface cannot be ruled out, but there is no asphalt-like dark line.\n- 'Southern city street' south of B and the E-W 'Аллея': neither is visible as a distinct paved linear feature. South of B the ground is uniformly light and disturbed (site yard). Assessment: not built, or not distinguishable from site ground.\n- OSM tags a 'service, surface=asphalt' way running SSW about 300-350 m west of B (51.1109,71.3491 -> 51.0998,71.3437 -> 51.0871,71.3374). In Esri 2024 it looks like an earth track, and in S2 it is a thin light line. Its paving is unconfirmed.\n- An E-W earth track continues Улы Дала's line west of the junction across the steppe.\n- The broad SSW earthwork corridor described above lies between that OSM track and the cluster.",
+   "directions": [
+    {
+     "direction": "N",
+     "within_1_5km": "Айтматова (paved) runs NNE from the junction. Just NW of the junction is the NEW foundation-stage site (Aug-Oct 2026, about 0.65 km N of TARIH B). West of Айтматова: steppe with earth tracks. East of Айтматова about 0.9-1.1 km NNE: a large complex under construction, two big flat-roofed buildings, tagged in OSM as 'Elington Mall' (construction) at 51.1096-51.1116, 71.3564-71.3620; this is the 'school-like complex'. One tower at about 1.6 km N (51.117, 71.354). The dense built-up city starts at about 2+ km N/NNE. Mostly construction plus empty steppe."
+    },
+    {
+     "direction": "NE",
+     "within_1_5km": "North side of Улы Дала: towers and sites under construction. OSM: ЖК Гасыр (construction, 51.1053-51.1076, 71.3546-71.3607), Школа №118 (2 levels, 51.1055-51.1065, 71.3613-71.3631), Ellington Hills (construction, about 51.108, 71.3676), plus several 'building=construction' footprints. A small lake/wetland at about 1.5-2 km NE (51.112-51.115, 71.364-71.368). All construction; no visibly delivered district within 1.5 km."
+    },
+    {
+     "direction": "E",
+     "within_1_5km": "A continuous band of tall structures along the south side of Улы Дала: DARYN to about 71.360 (0.7 km), then more towers at about 71.362-71.367 (0.9-1.2 km) and a dense tower cluster at about 71.368-71.372 (1.3-1.6 km). These are probably SŪNQAR and BIRLIK (my estimate). In July 2025 almost all of this was empty ground; it rose Oct 2025 to Jun 2026. All are under construction or newly topped out."
+    },
+    {
+     "direction": "SE",
+     "within_1_5km": "Large rectangular tree plantation (OSM landuse=forest, 51.0824-51.1015, 71.3485-71.3692). Its NW boundary runs diagonally about 250-500 m SE of the cluster, with row structure visible. Empty of buildings. Another tower district appears at about 1.9-2.4 km SE (about 51.088-51.091, 71.365-71.372), outside 1.5 km."
+    },
+    {
+     "direction": "S",
+     "within_1_5km": "0-200 m: construction staging yard of the cluster. Then steppe, with the bright fill or spoil strip (51.0937-51.0970) at about 0.6-0.8 km and the trench line to it. The plantation covers the S-SE beyond its diagonal edge. No buildings. New E-W light lines at about 1.9-2.3 km S (outside 1.5 km, low confidence)."
+    },
+    {
+     "direction": "SW",
+     "within_1_5km": "Steppe with small ponds and old trench lines (dug pits are visible in Esri 2024). It is crossed by the broad SSW earthwork corridor (widened winter 2025-26) and the OSM 'asphalt' service track (earth-looking). No buildings, no foundations."
+    },
+    {
+     "direction": "W",
+     "within_1_5km": "Empty steppe for about 1 km. At about 1.0-1.5 km W (51.102-51.106, 71.330-71.336) are dark ponds and wetland patches, part of the Талдыколь wetland system. No construction apart from the N-S linear corridor about 0.15-0.3 km W."
+    },
+    {
+     "direction": "NW",
+     "within_1_5km": "Steppe with tracks; the E-W earth track continues Улы Дала's line. The new foundation site is just NW of the junction. At about 1.3-2.5 km NW is the large Талдыколь open water and reed wetland (OSM 'Үлкен Талдыкөл' centred 51.1242, 71.3363). No other building activity."
+    }
+   ],
+   "change_log": "- 2024-09-17 (Esri WV3, 0.31 m): south of Улы Дала at this end was empty grass steppe with tracks, a few tree clumps and dumped rubbish. There was a contractor yard (containers, pipe stacks) at the SW corner of the junction and a utility trench along the south edge of Улы Дала. Nothing at TARIH or DARYN. North of the road: the 'Elington Mall' complex and a tower under construction.\n- 2025-06-05 / 2025-07-20: earthworks and early foundations in the DARYN west part; the TARIH area was still mostly green with some excavations. East along Улы Дала mostly empty.\n- 2025-10-10 / 2025-10-28: 2-3 DARYN NW-corner towers cast long shadows. TARIH west (A and B) appeared as a large rectangular foundation outline; another outline sat at DARYN-B (about 71.357). The west corridor was a narrow light strip. No white strip yet.\n- Nov 2025 to Mar 2026: snow-covered scenes, not used.\n- 2026-04-28 / 05-18: TARIH A, B and C cast shadows (multi-storey); E lower. The west corridor had widened into a broad earth band. The white strip and staging yard south of the cluster were present.\n- 2026-06-02 / 07-12: all of TARIH A, C, E and B, plus most of DARYN, stand as multi-storey blocks. A trench line ran from the cluster to the white strip. The towers east along Улы Дала were up.\n- 2026-07-12 to 08-08: ground cleared at the NW-of-junction site.\n- 2026-08-29 to 10-13: foundation-stage outlines grew at the NW site. The TARIH/DARYN footprints were unchanged in form; shadow lengthening matches the falling sun angle (sun elevation 60 to 31 degrees). South of B, nothing new beyond the shifting staging yard; the white strip and west corridor were unchanged in form.",
+   "limitations": "- Sentinel-2 pixels are 10 m, and the crops were upsampled with LANCZOS (it looks sharper than it is). Positions are about ±10-20 m, and my block extents include shadow. Each crop has its own contrast stretch, so absolute brightness is not comparable across dates.\n- S2 cannot show: tower cranes (thin), site fencing, individual cabins below about 10 m, facades, glazing, or finishing. It cannot distinguish a topped-out frame from a finished building, gravel from asphalt on narrow roads, or a ground-level slab from cleared ground. 'Multi-storey' is inferred from shadows (on 2026-10-13, shadow ≈ 1.66 x height, pointing about 352°). I did not derive reliable heights or storey counts.\n- The A/C/E/B letters are inferred by matching the brochure layout to positions. Only DARYN names come from OSM footprints, and TARIH is not mapped in OSM.\n- The only high-resolution image (Esri) is from 2024-09-17, before construction, so it gives a baseline only.\n- Nov 2025 to Mar 2026 scenes are snow-covered, so the exact start dates of the winter changes (west corridor widening, white strip) are bracketed only as 2025-10-28 to 2026-04-28.\n- Uses of the west corridor, the white strip and the NW site (road vs utility; developer) are unknown. Those labels are my estimates.\n- The context's junction coordinate (51.1045, 71.3505) appears to be about 200 m too far south; OSM and imagery give about 51.1067, 71.3505."
+  },
+  "verify": {
+   "checked": [
+    {
+     "claim": "The Улы Дала / Айтматова junction is at about 51.1067, 71.3505 (OSM), about 200 m north of the 51.1045 given in the task context. OSM has no road south of the junction.",
+     "verdict": "confirmed",
+     "evidence": "In the saved OSM file osm_geom.json, way 1081365625 'Ұлы Дала даңғылы' and way 611772025 'Шыңғыс Айтматов көшесі' both end at 51.10668, 71.35051. No highway way in the file runs south of that point near the cluster. On S2 2026-10-13 (annot_20261013.png) the grey road band meets the junction at about 51.1063-51.1067.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/osm_geom.json"
+    },
+    {
+     "claim": "DARYN occupies the band along Улы Дала, so TARIH lies south of about 51.104.",
+     "verdict": "confirmed",
+     "evidence": "OSM landuse=construction way 1546808299 covers 51.10389-51.10593, 71.35039-71.35579, and contains the DARYN 'блок Е' and 'Улы Дала 4' footprints. Its south edge, about 51.1039, is where the A/C/E row starts.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/osm_geom.json"
+    },
+    {
+     "claim": "TARIH B is the southernmost and SW-most tall building of the whole cluster. It is a closed rectangular block at about 51.1018-51.1028, 71.3488-71.3510 (shadow included), and the korter TARIH pin sits on it.",
+     "verdict": "confirmed",
+     "evidence": "My crops v_south_mont.png and v_d_mont.png show it. On 2026-06-02 (short shadows) the block is a closed rectangle with a courtyard, about 140 m E-W, at about 51.1019-51.1026 and 71.3488-71.3508. The korter pin (51.10261, 71.34896) falls on its NW corner, not exactly the 'west wing'; the difference is within ±10-20 m. On 2026-10-13 no shadow-casting structure exists anywhere south or west of it. The letter 'B' itself rests only on the block's position matching the brochure layout.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery_verify/v_south_mont.png"
+    },
+    {
+     "claim": "B timeline: a ground-level outline on 2025-10-28, shadows by 2026-04-28, unchanged in form since June 2026.",
+     "verdict": "confirmed",
+     "evidence": "In v_d_mont.png (8 dates), B is a flat light outline on 2025-10-10 and 2025-10-28. It has dark north-side shadows on 2026-04-28. On 06-02, 08-08, 09-28, 10-07 and 10-13 the footprint is the same; only the shadow length grows as the sun gets lower.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery_verify/v_d_mont.png"
+    },
+    {
+     "claim": "TARIH A 'sat inside a rectangular foundation outline on 2025-10-28' and cast clear shadows by 2026-04-28.",
+     "verdict": "partially",
+     "evidence": "In v_a_mont.png (2025-10-10, 10-20, 10-28 and 2026-04-28), A's north wing already casts a distinct dark shadow on 2025-10-28. The shadow lies at about 51.1036-51.1039, 71.3498-71.3513 and is about 35-40 m long. A faint version shows on 10-20. The shadow sits south of the DARYN construction boundary (51.1039), so it belongs to A, not DARYN. By 2026-04-28, A, B and C all cast strong shadows, which matches the claim.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery_verify/v_a_mont.png"
+    },
+    {
+     "claim": "TARIH C (closed square, 71.3514-71.3529) and E (71.3532-71.3544) stand as multi-storey masses. E was lower in April and had full shadows by June 2026.",
+     "verdict": "confirmed",
+     "evidence": "zoom_20260428.png, my v_south_mont.png (06-02 and 09-28) and v_d_mont.png show a closed square with shadow east of A, and a further shadowed block east of it. The letters come from position only, as the agent itself says.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/zoom_20260428.png"
+    },
+    {
+     "claim": "South of B there is no new building: no foundation outline, frame or shadow on any date. Only a construction staging yard about 100-200 m deep, then steppe.",
+     "verdict": "confirmed",
+     "evidence": "My crops v_south_mont.png (2025-10-28, 2026-06-02, 09-28, 10-13) and mont_sa.png show only light disturbed ground with scattered bright points (materials or cabins) down to about 51.1000-51.1005, then brown steppe. The points shift between dates and none of them casts a shadow. This matches the user's site visit. Note that the 2025-10-28 site outline reached about 51.1013, about 50-60 m south of B's south facade. That edge is a perimeter or site-road line, not a building.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery_verify/v_south_mont.png"
+    },
+    {
+     "claim": "Plot D (east of B) shows no rectangular foundation outline from Jun to Oct 2026, only light disturbed ground and faint linear patterns. It has not started as a building.",
+     "verdict": "partially",
+     "evidence": "Nothing casts a shadow at plot D on any date, so nothing vertical has been built there. However, my v_d_mont.png shows a fairly distinct rectangular grid of light lines, about 100 x 130 m with 2-3 internal cells, at about 51.1011-51.1025, 71.3511-71.3530. It is visible on 2026-04-28, 06-02, 08-08 and 09-28 and has the same layout on 10-07 and 10-13. At 10 m this could be site roads or laydown bays, or a ground-level pile field or slab outline. The pattern is static from April to October, so there is no visible progress either way.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery_verify/v_d_mont.png"
+    },
+    {
+     "claim": "A bright fill or spoil strip lies at about 51.094-51.097, 71.350-71.353 along the plantation's NW edge. It was absent on 2025-10-28 and present on 2026-04-28. On 2026-06-02 a double-line trench runs from the cluster to it.",
+     "verdict": "confirmed",
+     "evidence": "In mont_ss.png the strip is absent on 2025-10-28 (brown ground) and bright white on 2026-04-28, 06-02 and 10-13, right along the green OSM forest boundary. On 06-02, faint parallel diagonal lines run SSE from the yard toward it. Whether it is fill, spoil or a utility line is not determinable.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_ss.png"
+    },
+    {
+     "claim": "A west earthwork corridor runs SSW (about 71.3463 at 51.100). It was only a narrow trench line before winter and was widened into a broad earth band between 2025-10-28 and 2026-04-28. Road or utility is unknown.",
+     "verdict": "partially",
+     "evidence": "mont_ss.png shows the band broad and light on 2026-04-28, 06-02 and 10-13. On 2025-10-28 a light strip of moderate width and a dark trench with ponds already existed near the cluster, so the corridor was more than a 'narrow trench line'. It was clearly widened over winter. My own calculation: projecting Айтматова's OSM line SSW from the junction gives about 71.3475 at 51.100, so the corridor runs only about 80-150 m west of that line. Whether it is a road or a utility corridor cannot be determined from S2.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_ss.png"
+    },
+    {
+     "claim": "A new foundation-stage project NW of the junction, west of Айтматова (about 51.1074-51.1093, 71.3475-71.3507), started in Aug 2026. It was green on 07-12, cleared by 08-08, had bright outlines by 09-28 and two L/U shapes by 10-13.",
+     "verdict": "confirmed",
+     "evidence": "The 8-date sequence in mont_nwa.png shows exactly this. The owner and use cannot be determined. The OSM 'asphalt' service way (1343940317) is drawn through the site's west part, so either that OSM line is wrong or the site is being built over it.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/mont_nwa.png"
+    },
+    {
+     "claim": "The OSM 'service, surface=asphalt' way runs SSW about 300-350 m west of B and looks like an earth track.",
+     "verdict": "partially",
+     "evidence": "OSM way 1343940317 passes 51.1055,71.3465 and 51.0998,71.3437, which interpolates to about 71.3451 at B's latitude (51.1023). That is about 260 m west of B's west facade (about 71.3488), not 300-350 m. In esri_1km.jpg the line is an unpaved track. Its paving in 2026 cannot be verified.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/osm_geom.json"
+    },
+    {
+     "claim": "An E-W earth track continues Улы Дала's line west of the junction.",
+     "verdict": "confirmed",
+     "evidence": "OSM way 1300082422 is a highway=service with surface=earth, running about 51.1066-51.1077 west of 71.3437. It shows as a light track in the S2 crops and in Esri.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/osm_geom.json"
+    },
+    {
+     "claim": "The Айтматова 'stub' south of the junction is a light-tan, unpaved-looking band, and the 'southern city street' and the 'Аллея' are not visible as paved features.",
+     "verdict": "unverifiable",
+     "evidence": "A light band along the cluster's west edge is visible in annot_20261013.png. At 10 m, however, gravel, concrete and fresh asphalt on a 20-30 m band cannot be told apart. The absence of a distinct linear road south of B is consistent with the imagery but does not prove it.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/annot_20261013.png"
+    },
+    {
+     "claim": "The 'school-like complex' north of Улы Дала is the OSM 'Elington Mall' (construction) at 51.1096-51.1116, 71.3564-71.3620.",
+     "verdict": "unverifiable",
+     "evidence": "OSM way 1431543354 is building=construction with the name 'Elington Mall', and two large flat roofs are visible there in ring_20261013.png. OSM also tags a separate 'Школа №118' (building=commercial, 2 levels) at 51.1055-51.1065, 71.3613-71.3631. Which of these the task context meant cannot be settled from imagery.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/osm_geom.json"
+    },
+    {
+     "claim": "Esri World Imagery is a WorldView-3 scene dated 2024-09-17 and shows a pre-construction baseline: grass steppe, a contractor yard at the junction's SW corner, a trench along Улы Дала, and an asphalt dual carriageway with cars.",
+     "verdict": "partially",
+     "evidence": "The content is confirmed visually in esri_1km.jpg: steppe and tracks where TARIH and DARYN stand now, a yard with containers and pipe stacks SW of the junction, a trench along the road's south edge, and a dual carriageway with cars. I did not re-query the Esri identify service, so the 2024-09-17 date is unverified.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/esri_1km.jpg"
+    },
+    {
+     "claim": "On 2026-10-13, at sun elevation 31.0 deg and azimuth 172.4 deg, shadows point about 352 deg and are about 1.66 times the building height.",
+     "verdict": "confirmed",
+     "evidence": "1/tan(31.0 deg) = 1.664, and 172.4 + 180 = 352.4 deg.",
+     "source_url": ""
+    },
+    {
+     "claim": "To the east, tall structures continue along the south side of Улы Дала to about 71.372, probably SŪNQAR and BIRLIK. To the SE there is a tower district at about 1.9-2.4 km. To the W, Талдыколь ponds at 1.0-1.5 km. To the S and SE, a plantation with no buildings.",
+     "verdict": "partially",
+     "evidence": "ring_20261013.png shows a shadowed tower band at 71.362-71.373 along Улы Дала, a tower group at about 51.0875-51.0895, 71.364-71.372, dark ponds at about 51.101-51.105, 71.325-71.333, and a row-structured plantation SE with no structures. The SŪNQAR/BIRLIK names are the agent's estimate and are not verifiable from imagery.",
+     "source_url": "file:///tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery/ring_20261013.png"
+    },
+    {
+     "claim": "Finished buildings cannot be told from topped-out frames, and storey counts are not derivable.",
+     "verdict": "confirmed",
+     "evidence": "At 10 m S2 resolution, facades, glazing and cranes are not resolvable. This limitation stands.",
+     "source_url": ""
+    }
+   ],
+   "corrections": [
+    "TARIH A was not just a ground-level outline on 2025-10-28. Its north wing already cast a shadow about 35-40 m long (about 51.1036-51.1039, 71.3498-71.3513), faintly also on 2025-10-20. My own estimate: about 15-20 m tall at sun elevation 25.6 deg. See imagery_verify/v_a_mont.png.",
+    "Plot D is not just 'faint linear patterns'. A fairly distinct rectangular grid, about 100 x 130 m (about 51.1011-51.1025, 71.3511-71.3530), has been present unchanged from 2026-04-28 to 2026-10-13. It casts no shadow. It could be site roads or laydown bays, or a ground-level pile field or slab outline; S2 cannot tell which. Either way it shows no progress from April to October. See imagery_verify/v_d_mont.png.",
+    "The OSM 'asphalt' service way is about 260 m west of B's west facade at B's latitude, not 300-350 m.",
+    "The korter TARIH pin falls on B's NW corner, which is close to, but not exactly, its 'west wing'.",
+    "The west corridor was already more than a narrow trench by 2025-10-28: a light strip plus a trench existed near the cluster. It was widened over winter 2025-26. It runs only about 80-150 m west of Айтматова's projected SSW line (about 71.3475 at 51.100), which leaves 'Айтматова extension embankment' open as a possibility (estimate).",
+    "The match of the 'school-like complex' to Elington Mall is an assumption. OSM also has 'Школа №118' (2 levels) north of Улы Дала at 51.1055-51.1065, 71.3613-71.3631."
+   ],
+   "missing": [
+    "The imagery does not refute the user's ground report. On every date from 2025-07-20 to 2026-10-13, no building, frame or shadow exists south or west of TARIH B. B is the last built structure at the SW edge of the bigville cluster.",
+    "The 'southern city street' south of B and the Айтматова extension along B's west side were not visibly built as paved roads as of 2026-10-13, and S2 cannot confirm paving. For a ground-floor commercial unit in B, both street frontages the brochure shows could still be unbuilt. That is an inference from the imagery, not a fact.",
+    "No high-resolution image newer than the Esri baseline was found, so the work-yard objects, cabins and any ground-level slabs at plot D or south of B cannot be identified.",
+    "New crops written: /tmp/claude-0/-home-user-ispeo-saraptama-kz/9c75da6f-017a-59fc-9a5e-c9e0d03d9df9/scratchpad/geo/imagery_verify/v_south_mont.png (4 dates, south of B), v_d_mont.png (8 dates, plot D and B), v_a_mont.png (TARIH A, Oct 2025 vs Apr 2026), plus the single-date v_south_*.png, v_d_*.png and v_a_*.png files."
+   ],
+   "overall_reliability": "high",
+   "summary": "I re-opened the agent's images, checked the saved OSM data, and made three new multi-date Sentinel-2 crops (south of B, plot D, TARIH A). The agent's key conclusions hold:\n- **The block the agent calls TARIH B is the southernmost and SW-most tall building of the cluster.** It is a closed rectangular block of about 140 m, with the korter pin on its NW corner.\n- **Nothing exists south or west of it.** On every date there is no foundation, frame or shadow there: only a work yard about 100-200 m deep, then steppe and the tree plantation. This matches the user's visit.\n- **Both corridors outside the cluster carry no buildings.** The broad western earthwork corridor and the white fill strip to the SSE (by the plantation) are real winter 2025-26 changes. Whether either is a road or a utility line cannot be determined.\n- **The only new building activity nearby is north of the cluster.** A foundation-stage site NW of the Айтматова junction started in Aug 2026. Its owner is unknown.\n- **The agent's correction of the junction position is right.** OSM puts it at 51.10668, 71.35051, about 200 m north of the coordinate in the task context.\n\nCorrections:\n- TARIH A's north wing was already casting a shadow on 2025-10-28, not just sitting in a ground-level outline.\n- Plot D (east of B) has a static rectangular grid of about 100 x 130 m, present from April to October 2026. It casts no shadow, and 10 m imagery cannot say whether it is site roads or a ground-level slab or pile field.\n- The OSM 'asphalt' track is about 260 m west of B, not 300-350 m.\n- Calling the large complex north of Улы Дала the 'school-like complex' (Elington Mall) is an assumption; OSM also has a separate Школа №118 nearby.\n\nUnverifiable at 10 m:\n- the block letters;\n- whether the buildings are finished or only topped out;\n- road paving;\n- the purpose of the corridor and the strip."
+  }
+ }
+]
