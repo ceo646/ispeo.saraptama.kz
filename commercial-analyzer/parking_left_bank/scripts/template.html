@@ -1,0 +1,514 @@
+<title>Паркинги левого берега</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one-screen map tool — toolbar on top, map on the left, findings rail on the right; stacks map-over-rail on phones. */
+:root {
+  --bg: #eef1f4;          /* asphalt-light ground */
+  --panel: #ffffff;
+  --ink: #18212b;
+  --muted: #5d6b7a;
+  --line: #d5dce4;
+  --accent: #1f56b3;      /* parking-sign blue: controls, links */
+  --accent-ink: #ffffff;
+  --land: #f7f8f6;
+  --land-out: #dfe3e8;
+  --water: #b9d3ea;
+  --park: #d8ead2;
+  --road1: #b7a58f;
+  --road2: #c9bcab;
+  --road3: #cfd5dc;
+  --road4: #e3e7eb;
+  --border: #7a4fa0;
+  --shadow: 0 1px 2px rgba(20, 30, 45, .08), 0 6px 24px rgba(20, 30, 45, .08);
+  --f-display: "Unbounded", "Onest", system-ui, sans-serif;
+  --f-body: "Onest", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161c; --panel: #171e26; --ink: #e6ebf0; --muted: #94a2b2; --line: #2a3541;
+    --accent: #6b9bf0; --accent-ink: #0d1520;
+    --land: #1c242d; --land-out: #12171d; --water: #24405c; --park: #1f3326;
+    --road1: #6f6253; --road2: #5a5148; --road3: #3a4652; --road4: #2c3640; --border: #b58ad9;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 24px rgba(0, 0, 0, .35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161c; --panel: #171e26; --ink: #e6ebf0; --muted: #94a2b2; --line: #2a3541;
+  --accent: #6b9bf0; --accent-ink: #0d1520;
+  --land: #1c242d; --land-out: #12171d; --water: #24405c; --park: #1f3326;
+  --road1: #6f6253; --road2: #5a5148; --road3: #3a4652; --road4: #2c3640; --border: #b58ad9;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 6px 24px rgba(0, 0, 0, .35);
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 14px; line-height: 1.45;
+  display: flex; flex-direction: column;
+}
+/*__LEAFLET_CSS__*/
+.top {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
+  padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  border-bottom: 1px solid var(--line); background: var(--panel);
+}
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.psign {
+  flex: none; width: 30px; height: 30px; border-radius: 6px; background: var(--accent); color: var(--accent-ink);
+  display: grid; place-items: center; font-family: var(--f-display); font-weight: 700; font-size: 17px;
+}
+.brand h1 { margin: 0; font-family: var(--f-display); font-weight: 500; font-size: 16px; letter-spacing: .01em; text-wrap: balance; }
+.brand small { display: block; color: var(--muted); font-size: 12px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-left: auto; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button {
+  font: inherit; font-size: 13px; padding: 6px 10px; border: 0; background: transparent; color: var(--ink); cursor: pointer;
+}
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.seg button:focus-visible, .rk:focus-visible, .cxrow:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ctl-label { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-right: 6px; }
+.radius { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; }
+.radius input { width: 110px; accent-color: var(--accent); }
+.main { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) 390px; }
+#map { min-height: 0; background: var(--land-out); }
+.rail {
+  min-width: 0; overflow-y: auto; background: var(--panel); border-left: 1px solid var(--line);
+  padding-block: 16px 24px; padding-left: 18px; padding-right: max(18px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 22px;
+}
+.eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 6px; }
+.answer h2 { margin: 0; font-family: var(--f-display); font-weight: 500; font-size: 18px; line-height: 1.3; text-wrap: balance; }
+.answer .big { font-family: var(--f-display); font-weight: 700; font-size: 30px; line-height: 1.1; margin-top: 8px; font-variant-numeric: tabular-nums; }
+.answer .big span { font-family: var(--f-body); font-weight: 500; font-size: 14px; color: var(--muted); margin-left: 6px; }
+.answer p { margin: 8px 0 0; color: var(--muted); }
+.legend .bar { height: 12px; border-radius: 6px; }
+.legend .ticks { display: flex; justify-content: space-between; font-family: var(--f-mono); font-size: 11px; color: var(--muted); margin-top: 4px; font-variant-numeric: tabular-nums; }
+.legend .ends { display: flex; justify-content: space-between; font-size: 12px; margin-top: 2px; }
+.districts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.dcard { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.dcard b { display: block; font-size: 13px; font-weight: 600; }
+.dcard .v { font-family: var(--f-mono); font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.dcard small { color: var(--muted); font-size: 12px; }
+.rank { display: flex; flex-direction: column; }
+.rk {
+  display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 10px; align-items: start;
+  padding: 9px 4px; border-top: 1px solid var(--line); cursor: pointer; background: none; border-left: 0; border-right: 0; border-bottom: 0;
+  font: inherit; color: inherit; text-align: left; width: 100%;
+}
+.rk:hover { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.rk .n { font-family: var(--f-mono); color: var(--muted); font-size: 12px; padding-top: 2px; }
+.rk .nm { font-weight: 600; font-size: 13.5px; }
+.rk .sub { color: var(--muted); font-size: 12px; overflow-wrap: anywhere; }
+.rk .val { font-family: var(--f-mono); font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.rk .val small { display: block; font-weight: 400; color: var(--muted); font-size: 11px; }
+.chip { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.cxsearch { width: 100%; font: inherit; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); }
+.cxlist { max-height: 340px; overflow-y: auto; margin-top: 8px; border-top: 1px solid var(--line); }
+.cxrow { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; padding: 7px 2px; border-bottom: 1px solid var(--line); cursor: pointer; align-items: baseline; }
+.cxrow:hover { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.cxrow .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cxrow .c { color: var(--muted); font-size: 12px; font-family: var(--f-mono); }
+.cxrow .p { font-family: var(--f-mono); font-weight: 600; font-variant-numeric: tabular-nums; }
+.notes { color: var(--muted); font-size: 12.5px; }
+.notes p { margin: 0 0 8px; }
+.notes a, .pop a { color: var(--accent); }
+.hoverbox {
+  position: absolute; z-index: 500; pointer-events: none; padding: 6px 9px; border-radius: 8px; background: var(--panel); color: var(--ink);
+  box-shadow: var(--shadow); font-size: 12.5px; white-space: nowrap; transform: translate(12px, -50%);
+}
+.hoverbox b { font-family: var(--f-mono); }
+.leaflet-container { background: var(--land-out); font-family: var(--f-body); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--panel); color: var(--ink); box-shadow: var(--shadow); }
+.leaflet-popup-content { margin: 12px 14px; font-size: 13px; line-height: 1.4; min-width: 230px; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
+.leaflet-bar a, .leaflet-bar a:hover { background: var(--panel); color: var(--ink); border-bottom-color: var(--line); }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--panel) 85%, transparent) !important; color: var(--muted); }
+.leaflet-control-attribution a { color: var(--accent); }
+.pop h3 { margin: 0 0 2px; font-size: 14px; }
+.pop .meta { color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+.pop .kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 12.5px; margin-bottom: 6px; }
+.pop .kv b { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.pop ul { margin: 0; padding: 0; list-style: none; max-height: 150px; overflow-y: auto; border-top: 1px solid var(--line); }
+.pop li { display: flex; justify-content: space-between; gap: 10px; padding: 3px 0; border-bottom: 1px solid var(--line); font-family: var(--f-mono); font-size: 12px; }
+@media (max-width: 860px) {
+  body { display: block; height: auto; }
+  html { height: auto; }
+  .main { display: block; }
+  #map { height: 62vh; }
+  .rail { border-left: 0; border-top: 1px solid var(--line); overflow: visible; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .controls { margin-left: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .leaflet-zoom-anim .leaflet-zoom-animated { transition: none !important; } }
+</style>
+
+<header class="top">
+  <div class="brand">
+    <div class="psign" aria-hidden="true">P</div>
+    <div><h1>Паркинги левого берега</h1><small id="sub">Есиль и Нура · продажа машино-мест · krisha.kz</small></div>
+  </div>
+  <div class="controls">
+    <div><span class="ctl-label">Цена</span><span class="seg" role="group" aria-label="Показатель">
+      <button id="m-place" aria-pressed="true">за место</button><button id="m-m2" aria-pressed="false">за м²</button></span></div>
+    <div><span class="ctl-label">Тип</span><span class="seg" role="group" aria-label="Тип паркинга">
+      <button id="t-covered" aria-pressed="true">крытые</button><button id="t-under" aria-pressed="false">подземные</button><button id="t-all" aria-pressed="false">+ наземные без уточнения</button></span></div>
+    <label class="radius" for="h"><span class="ctl-label">Сглаживание</span><input id="h" type="range" min="350" max="1500" step="50" value="700"><span id="hval">700 м</span></label>
+  </div>
+</header>
+<div class="main">
+  <div id="map" aria-label="Карта цен паркингов"></div>
+  <aside class="rail">
+    <section class="answer">
+      <p class="eyebrow">Самая дорогая зона</p>
+      <h2 id="top-name">—</h2>
+      <div class="big" id="top-val">—</div>
+      <p id="top-sub"></p>
+    </section>
+    <section class="legend">
+      <p class="eyebrow" id="leg-title">Медиана, ₸ за место</p>
+      <div class="bar" id="leg-bar"></div>
+      <div class="ticks" id="leg-ticks"></div>
+      <div class="ends"><span>дешевле</span><span>дороже</span></div>
+    </section>
+    <section>
+      <p class="eyebrow">Районы</p>
+      <div class="districts" id="districts"></div>
+    </section>
+    <section>
+      <p class="eyebrow">Зоны ~1 км, по медиане (от 6 объявлений)</p>
+      <div class="rank" id="zones"></div>
+    </section>
+    <section>
+      <p class="eyebrow">Жилые комплексы</p>
+      <input class="cxsearch" id="cxq" type="search" placeholder="Найти ЖК" aria-label="Найти ЖК">
+      <div class="cxlist" id="cxlist"></div>
+    </section>
+    <section class="notes" id="notes"></section>
+  </aside>
+</div>
+<script id="basemap" type="application/json">/*__BASEMAP__*/</script>
+<script id="pdata" type="application/json">/*__DATA__*/</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+(function () {
+  const B = JSON.parse(document.getElementById('basemap').textContent);
+  const D = JSON.parse(document.getElementById('pdata').textContent);
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const STOPS = [[0, [26, 152, 80]], [0.25, [145, 207, 96]], [0.5, [254, 224, 139]], [0.75, [252, 141, 89]], [1, [215, 48, 39]]];
+  function rgb(t) {
+    t = Math.max(0, Math.min(1, t));
+    for (let i = 1; i < STOPS.length; i++) {
+      if (t <= STOPS[i][0]) {
+        const [t0, a] = STOPS[i - 1], [t1, b] = STOPS[i], k = (t - t0) / (t1 - t0);
+        return [0, 1, 2].map(j => Math.round(a[j] + (b[j] - a[j]) * k));
+      }
+    }
+    return STOPS[STOPS.length - 1][1];
+  }
+  const hex = c => '#' + c.map(v => v.toString(16).padStart(2, '0')).join('');
+  const state = { metric: 'place', types: 'covered', h: 700 };
+  const fmtM = v => (v / 1e6).toLocaleString('ru-RU', { maximumFractionDigits: 1, minimumFractionDigits: 1 }) + ' млн';
+  const fmtK = v => Math.round(v / 1000).toLocaleString('ru-RU') + ' тыс';
+  const fmt = v => state.metric === 'place' ? fmtM(v) : fmtK(v);
+  const unit = () => state.metric === 'place' ? '₸ за место' : '₸ за м²';
+  const median = a => { const s = [...a].sort((x, y) => x - y), n = s.length; return n ? (n % 2 ? s[(n - 1) / 2] : (s[n / 2 - 1] + s[n / 2]) / 2) : NaN; };
+  const quant = (a, q) => { const s = [...a].sort((x, y) => x - y); if (!s.length) return NaN; const i = (s.length - 1) * q, lo = Math.floor(i), hi = Math.ceil(i); return s[lo] + (s[hi] - s[lo]) * (i - lo); };
+
+  // projection to local metres
+  const LAT0 = 51.1, KX = 111320 * Math.cos(LAT0 * Math.PI / 180), KY = 110540;
+  const toM = (lat, lon) => [(lon - 71.4) * KX, (lat - LAT0) * KY];
+
+  // ---------- map + basemap ----------
+  const map = L.map('map', { zoomControl: true, preferCanvas: true, minZoom: 11, maxZoom: 17, attributionControl: true })
+    .setView([51.105, 71.42], 12);
+  map.attributionControl.setPrefix(false).addAttribution('© участники <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> · цены: krisha.kz');
+  map.createPane('base'); map.getPane('base').style.zIndex = 200;
+  map.createPane('surf'); map.getPane('surf').style.zIndex = 350;
+  map.createPane('roadsTop'); map.getPane('roadsTop').style.zIndex = 380; map.getPane('roadsTop').style.pointerEvents = 'none';
+  const baseR = L.canvas({ pane: 'base', padding: 0.3 }), topR = L.canvas({ pane: 'roadsTop', padding: 0.3 });
+  const ll = ring => ring.map(p => [p[1], p[0]]);
+  const polysLL = arr => arr.map(poly => poly.map(ll));
+  const leftLayer = L.polygon(polysLL(B.left), { renderer: baseR, stroke: false, fillOpacity: 1, interactive: false });
+  const parkLayer = L.polygon(polysLL(B.green), { renderer: baseR, stroke: false, fillOpacity: 1, interactive: false });
+  const waterLayer = L.polygon(polysLL(B.water), { renderer: baseR, stroke: false, fillOpacity: 1, interactive: false });
+  const roadLayers = [1, 2, 3, 4].map(c => L.polyline(B.roads.filter(r => r[0] === c).map(r => ll(r[2])),
+    { renderer: c <= 2 ? topR : baseR, interactive: false, lineCap: 'round', lineJoin: 'round' }));
+  const distLayers = Object.values(B.districts).map(ps => L.polygon(polysLL(ps), { renderer: topR, fill: false, interactive: false, dashArray: '6 6', weight: 1.4 }));
+  [leftLayer, parkLayer, waterLayer, roadLayers[3], roadLayers[2], roadLayers[1], roadLayers[0], ...distLayers].forEach(l => l.addTo(map));
+  function styleBase() {
+    leftLayer.setStyle({ fillColor: css('--land') });
+    parkLayer.setStyle({ fillColor: css('--park') });
+    waterLayer.setStyle({ fillColor: css('--water') });
+    const rc = ['--road1', '--road2', '--road3', '--road4'], rw = [3.2, 2.4, 1.5, 0.8];
+    roadLayers.forEach((l, i) => l.setStyle({ color: css(rc[i]), weight: rw[i], opacity: i <= 1 ? 0.85 : 1 }));
+    distLayers.forEach(l => l.setStyle({ color: css('--border'), opacity: 0.7 }));
+  }
+  styleBase();
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+  (mq.addEventListener ? mq.addEventListener('change', styleBase) : mq.addListener(styleBase));
+  new MutationObserver(styleBase).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  map.fitBounds([[51.04, 71.33], [51.15, 71.53]]);
+
+  // left-bank mask in metres for clipping
+  const leftM = B.left.map(poly => poly.map(ring => ring.map(p => toM(p[1], p[0]))));
+
+  // ---------- data ----------
+  const TYPES = { covered: new Set(['u', 'c']), under: new Set(['u']), all: new Set(['u', 'c', 'a']) };
+  function rows() {
+    const ok = TYPES[state.types];
+    return D.listings.filter(r => ok.has(r.t)).map(r => ({ ...r, v: state.metric === 'place' ? r.p : (r.a ? r.p / r.a : null) }))
+      .filter(r => r.v && isFinite(r.v));
+  }
+  function groupBy(rs) {
+    const g = new Map();
+    for (const r of rs) {
+      if (!g.has(r.g)) g.set(r.g, { key: r.g, name: r.cx, items: [] });
+      g.get(r.g).items.push(r);
+    }
+    for (const x of g.values()) {
+      x.n = x.items.length;
+      x.med = median(x.items.map(r => r.v));
+      x.lat = median(x.items.map(r => r.lat)); x.lon = median(x.items.map(r => r.lon));
+      x.m = toM(x.lat, x.lon);
+      x.d = x.items[0].d;
+    }
+    return [...g.values()];
+  }
+
+  // ---------- surface ----------
+  const overlay = L.imageOverlay('data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', [[51, 71.2], [51.2, 71.65]],
+    { pane: 'surf', opacity: 0.78, interactive: false }).addTo(map);
+  let grid = null;
+  function surface(groups, lo, hi) {
+    const h = state.h, cut = 3 * h, cell = 45;
+    let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity;
+    for (const g of groups) { x0 = Math.min(x0, g.m[0]); x1 = Math.max(x1, g.m[0]); y0 = Math.min(y0, g.m[1]); y1 = Math.max(y1, g.m[1]); }
+    const pad = 1.6 * h;
+    x0 -= pad; x1 += pad; y0 -= pad; y1 += pad;
+    const W = Math.ceil((x1 - x0) / cell), H = Math.ceil((y1 - y0) / cell);
+    const val = new Float32Array(W * H), alp = new Float32Array(W * H);
+    const inv = 1 / (2 * h * h), f0 = 0.55 * h, f1 = 1.45 * h;
+    const pts = groups.map(g => [g.m[0], g.m[1], Math.sqrt(Math.min(g.n, 12)), g.med]);
+    for (let j = 0; j < H; j++) {
+      const y = y1 - (j + 0.5) * cell;
+      for (let i = 0; i < W; i++) {
+        const x = x0 + (i + 0.5) * cell;
+        let sw = 0, sv = 0, dn = Infinity;
+        for (const p of pts) {
+          const dx = p[0] - x; if (dx > cut || dx < -cut) continue;
+          const dy = p[1] - y; if (dy > cut || dy < -cut) continue;
+          const d2 = dx * dx + dy * dy;
+          if (d2 < dn) dn = d2;
+          const k = p[2] * Math.exp(-d2 * inv);
+          sw += k; sv += k * p[3];
+        }
+        const o = j * W + i;
+        dn = Math.sqrt(dn);
+        if (sw > 1e-6 && dn < f1) {
+          const t = Math.max(0, Math.min(1, (dn - f0) / (f1 - f0)));
+          val[o] = sv / sw; alp[o] = 1 - t * t * (3 - 2 * t);  // fade out with distance to the nearest ЖК
+        } else { val[o] = NaN; alp[o] = 0; }
+      }
+    }
+    const cv = document.createElement('canvas'); cv.width = W; cv.height = H;
+    const cx = cv.getContext('2d'), img = cx.createImageData(W, H);
+    for (let o = 0; o < W * H; o++) {
+      if (!(alp[o] > 0.02)) continue;
+      const c = rgb((val[o] - lo) / (hi - lo));
+      const a = alp[o];
+      img.data[o * 4] = c[0]; img.data[o * 4 + 1] = c[1]; img.data[o * 4 + 2] = c[2]; img.data[o * 4 + 3] = Math.round(255 * a);
+    }
+    cx.putImageData(img, 0, 0);
+    cx.globalCompositeOperation = 'destination-in';
+    cx.beginPath();
+    for (const poly of leftM) for (const ring of poly) ring.forEach((p, k) => {
+      const px = (p[0] - x0) / cell, py = (y1 - p[1]) / cell; k ? cx.lineTo(px, py) : cx.moveTo(px, py);
+    });
+    cx.fill('evenodd');
+    const toLL = (x, y) => [LAT0 + y / KY, 71.4 + x / KX];
+    overlay.setUrl(cv.toDataURL());
+    overlay.setBounds(L.latLngBounds(toLL(x0, y0), toLL(x1, y1)));
+    grid = { x0, y1, cell, W, H, val, alp };
+  }
+
+  // ---------- points ----------
+  const ptLayer = L.layerGroup().addTo(map);
+  function points(groups, lo, hi) {
+    ptLayer.clearLayers();
+    for (const g of [...groups].sort((a, b) => b.n - a.n)) {
+      const m = L.circleMarker([g.lat, g.lon], {
+        radius: 3.5 + Math.sqrt(g.n) * 1.6, weight: 1.5, color: css('--panel'), fillColor: hex(rgb((g.med - lo) / (hi - lo))), fillOpacity: 1,
+      });
+      m.bindPopup(() => popup(g), { maxWidth: 300 });
+      m.on('mouseover', () => hoverOff = true).on('mouseout', () => hoverOff = false);
+      g.marker = m;
+      ptLayer.addLayer(m);
+    }
+  }
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const TYPE_RU = { u: 'подземный', c: 'наземный крытый', a: 'наземный (тип не указан)' };
+  function popup(g) {
+    const ps = g.items.map(r => r.p), m2 = g.items.filter(r => r.a).map(r => r.p / r.a);
+    const types = [...new Set(g.items.map(r => TYPE_RU[r.t]))].join(', ');
+    const li = [...g.items].sort((a, b) => a.p - b.p).map(r =>
+      `<li><a href="${r.url}" target="_blank" rel="noopener">${fmtM(r.p)}</a><span>${r.a ? r.a.toLocaleString('ru-RU') + ' м²' : '—'}${r.st ? ' · +кладовка' : ''}${r.uc ? ' · стройка' : ''}</span></li>`).join('');
+    return `<div class="pop"><h3>${esc(g.name || 'Без названия ЖК')}</h3><div class="meta">${g.d === 'Е' ? 'Есиль' : 'Нура'} · ${types}</div>
+      <div class="kv"><span>Медиана за место</span><b>${fmtM(median(ps))} ₸</b><span>Разброс</span><b>${fmtM(Math.min(...ps))} – ${fmtM(Math.max(...ps))}</b>
+      <span>Медиана за м²</span><b>${m2.length ? fmtK(median(m2)) + ' ₸' : '—'}</b><span>Объявлений</span><b>${g.n}</b></div><ul>${li}</ul></div>`;
+  }
+
+  // ---------- zones (hexes ~1 km) ----------
+  const HR = 560; // hex circumradius, m
+  function hexOf(x, y) {
+    const q = (Math.sqrt(3) / 3 * x - y / 3) / HR, r = (2 / 3 * y) / HR;
+    let rx = Math.round(q), ry = Math.round(-q - r), rz = Math.round(r);
+    const dx = Math.abs(rx - q), dy = Math.abs(ry + q + r), dz = Math.abs(rz - r);
+    if (dx > dy && dx > dz) rx = -ry - rz; else if (dy <= dz) rz = -rx - ry;
+    return [rx, rz];
+  }
+  const hexCenter = (q, r) => [HR * Math.sqrt(3) * (q + r / 2), HR * 1.5 * r];
+  const majors = B.roads.filter(r => r[0] <= 3 && r[1]).map(r => {
+    const name = r[1].replace(/ (проспект|улица|көшесі|даңғылы|шоссе)$/i, '').replace(/^(проспект|улица|шоссе) /i, '');
+    // prefer avenues over local streets and named streets over index names like «Е-308»
+    return { name, pen: (r[0] === 3 ? 150 : 0) + (/^[ЕE]-?\d+/.test(name) ? 400 : 0), pts: r[2].map(p => toM(p[1], p[0])) };
+  });
+  function segDist(p, a, b) {
+    const vx = b[0] - a[0], vy = b[1] - a[1], wx = p[0] - a[0], wy = p[1] - a[1];
+    const t = Math.max(0, Math.min(1, (wx * vx + wy * vy) / (vx * vx + vy * vy || 1)));
+    return Math.hypot(wx - t * vx, wy - t * vy);
+  }
+  function zoneName(c) {
+    const best = new Map();
+    for (const r of majors) {
+      for (let k = 1; k < r.pts.length; k++) {
+        const d = segDist(c, r.pts[k - 1], r.pts[k]) + r.pen;
+        if (d < 1100 && (!best.has(r.name) || d < best.get(r.name))) best.set(r.name, d);
+      }
+    }
+    return [...best.entries()].sort((a, b) => a[1] - b[1]).slice(0, 3).map(e => e[0]);
+  }
+  let zoneOutline = null;
+  function zones(rs) {
+    const z = new Map();
+    for (const r of rs) {
+      const m = toM(r.lat, r.lon), k = hexOf(m[0], m[1]).join(',');
+      if (!z.has(k)) z.set(k, { k, items: [] });
+      z.get(k).items.push(r);
+    }
+    const out = [];
+    for (const x of z.values()) {
+      const cx = new Set(x.items.map(r => r.g));
+      if (x.items.length < 6) continue;
+      const [q, r] = x.k.split(',').map(Number), c = hexCenter(q, r);
+      const counts = {};
+      x.items.forEach(i => counts[i.cx || '—'] = (counts[i.cx || '—'] || 0) + 1);
+      out.push({ ...x, n: x.items.length, ncx: cx.size, med: median(x.items.map(r => r.v)), c,
+        cxs: Object.entries(counts).sort((a, b) => b[1] - a[1]).map(e => e[0]).filter(n => n !== '—'),
+        d: x.items.filter(i => i.d === 'Е').length >= x.items.length / 2 ? 'Есиль' : 'Нура' });
+    }
+    return out.sort((a, b) => b.med - a.med);
+  }
+  function hexLL(c) {
+    const pts = [];
+    for (let i = 0; i < 6; i++) { const a = Math.PI / 180 * (60 * i - 30); pts.push([LAT0 + (c[1] + HR * Math.sin(a)) / KY, 71.4 + (c[0] + HR * Math.cos(a)) / KX]); }
+    return pts;
+  }
+  function showZone(z, fly) {
+    if (zoneOutline) map.removeLayer(zoneOutline);
+    zoneOutline = L.polygon(hexLL(z.c), { color: css('--ink'), weight: 2, dashArray: '5 4', fill: false, interactive: false }).addTo(map);
+    if (fly) map.flyToBounds(zoneOutline.getBounds().pad(1.2), { duration: 0.6 });
+  }
+
+  // ---------- hover readout ----------
+  let hoverOff = false;
+  const hb = document.createElement('div'); hb.className = 'hoverbox'; hb.hidden = true; document.getElementById('map').appendChild(hb);
+  map.on('mousemove', e => {
+    if (!grid || hoverOff) { hb.hidden = true; return; }
+    const m = toM(e.latlng.lat, e.latlng.lng), i = Math.floor((m[0] - grid.x0) / grid.cell), j = Math.floor((grid.y1 - m[1]) / grid.cell);
+    const o = j * grid.W + i;
+    if (i < 0 || j < 0 || i >= grid.W || j >= grid.H || !(grid.alp[o] > 0.15)) { hb.hidden = true; return; }
+    hb.hidden = false; hb.style.left = e.containerPoint.x + 'px'; hb.style.top = e.containerPoint.y + 'px';
+    hb.innerHTML = `≈ <b>${fmt(grid.val[o])}</b> ${unit()}`;
+  });
+  map.on('mouseout', () => hb.hidden = true);
+
+  // ---------- rail ----------
+  function render() {
+    const rs = rows(), groups = groupBy(rs);
+    const meds = []; groups.forEach(g => { for (let k = 0; k < Math.min(g.n, 5); k++) meds.push(g.med); });
+    const lo = quant(meds, 0.05), hi = quant(meds, 0.95);
+    surface(groups, lo, hi); points(groups, lo, hi);
+    // legend
+    document.getElementById('leg-title').textContent = 'Медиана, ' + unit();
+    document.getElementById('leg-bar').style.background = 'linear-gradient(90deg,' + STOPS.map(s => hex(s[1]) + ' ' + s[0] * 100 + '%').join(',') + ')';
+    document.getElementById('leg-ticks').innerHTML = [0, 0.25, 0.5, 0.75, 1].map(t => `<span>${t === 0 ? '≤ ' : t === 1 ? '≥ ' : ''}${fmt(lo + (hi - lo) * t)}</span>`).join('');
+    // districts
+    document.getElementById('districts').innerHTML = ['Е', 'Н'].map(d => {
+      const v = rs.filter(r => r.d === d).map(r => r.v);
+      return `<div class="dcard"><b>${d === 'Е' ? 'Есиль' : 'Нура'}</b><div class="v">${v.length ? fmt(median(v)) : '—'}</div><small>медиана · ${v.length} объявл.</small></div>`;
+    }).join('');
+    // zones
+    const zs = zones(rs);
+    const zEl = document.getElementById('zones'); zEl.innerHTML = '';
+    zs.slice(0, 10).forEach((z, k) => {
+      const b = document.createElement('button'); b.className = 'rk'; b.type = 'button';
+      const nm = zoneName(z.c);
+      z.label = nm.length ? nm.slice(0, 2).join(' × ') : (z.cxs[0] || 'Зона');
+      b.innerHTML = `<span class="n">${k + 1}</span><span><span class="nm"><span class="chip" style="background:${hex(rgb((z.med - lo) / (hi - lo)))}"></span>${esc(z.label)}</span>
+        <span class="sub">${esc(z.d)} · ${esc(z.cxs.slice(0, 4).join(', ') || '—')}</span></span>
+        <span class="val">${fmt(z.med)}<small>${z.n} объявл. · ${z.ncx} ЖК</small></span>`;
+      b.addEventListener('click', () => showZone(z, true));
+      zEl.appendChild(b);
+    });
+    if (zs.length) {
+      const t = zs[0];
+      document.getElementById('top-name').textContent = t.label;
+      document.getElementById('top-val').innerHTML = `${fmt(t.med)}<span>${unit()}</span>`;
+      const lm = (D.landmarks || []).map(l => ({ ...l, dist: Math.hypot(toM(l.lat, l.lon)[0] - t.c[0], toM(l.lat, l.lon)[1] - t.c[1]) }))
+        .sort((a, b) => a.dist - b.dist)[0];
+      const near = lm && lm.dist < 1500 ? ` · ${lm.dist < 300 ? 'у' : (lm.dist / 1000).toLocaleString('ru-RU', { maximumFractionDigits: 1 }) + ' км от'} ${lm.name}` : '';
+      document.getElementById('top-sub').textContent = `${t.d}${near} · ${t.n} объявлений в ${t.ncx} ЖК: ${t.cxs.slice(0, 5).join(', ')}`;
+      showZone(t, false);
+    }
+    // complexes
+    cxGroups = groups.filter(g => g.name).sort((a, b) => b.med - a.med);
+    renderCx();
+    // notes
+    const n = rs.length;
+    document.getElementById('notes').innerHTML = D.notes.map(p => `<p>${p}</p>`).join('') +
+      `<p>Сейчас на карте: ${n} объявлений, ${groups.length} точек (ЖК). Цвет: от 5-го до 95-го процентиля медиан ЖК, ${fmt(lo)} → ${fmt(hi)}.</p>`;
+  }
+  let cxGroups = [];
+  function renderCx() {
+    const q = document.getElementById('cxq').value.trim().toLowerCase();
+    const el = document.getElementById('cxlist'); el.innerHTML = '';
+    cxGroups.filter(g => !q || g.name.toLowerCase().includes(q)).forEach(g => {
+      const r = document.createElement('div'); r.className = 'cxrow'; r.tabIndex = 0;
+      r.innerHTML = `<span class="nm">${esc(g.name)}</span><span class="c">${g.n}</span><span class="p">${fmt(g.med)}</span>`;
+      const go = () => { map.flyTo([g.lat, g.lon], 16, { duration: 0.6 }); setTimeout(() => g.marker && g.marker.openPopup(), 650); };
+      r.addEventListener('click', go); r.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
+      el.appendChild(r);
+    });
+  }
+  document.getElementById('cxq').addEventListener('input', renderCx);
+  function bindSeg(ids, key, vals) {
+    ids.forEach((id, i) => document.getElementById(id).addEventListener('click', () => {
+      state[key] = vals[i]; ids.forEach((x, j) => document.getElementById(x).setAttribute('aria-pressed', String(i === j))); render();
+    }));
+  }
+  bindSeg(['m-place', 'm-m2'], 'metric', ['place', 'm2']);
+  bindSeg(['t-covered', 't-under', 't-all'], 'types', ['covered', 'under', 'all']);
+  const hEl = document.getElementById('h');
+  let ht = null;
+  hEl.addEventListener('input', () => {
+    state.h = +hEl.value; document.getElementById('hval').textContent = hEl.value + ' м';
+    clearTimeout(ht); ht = setTimeout(render, 120);
+  });
+  document.getElementById('sub').textContent = `Есиль и Нура · продажа машино-мест · krisha.kz, ${D.date}`;
+  render();
+})();
+</script>
