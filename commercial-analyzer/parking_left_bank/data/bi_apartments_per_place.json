@@ -13,32 +13,6 @@
   "note": "Башня 27 эт. На листке 1 уровень на 32 места; проверить, нет ли других уровней. На krisha место продают за 15,5 млн."
  },
  {
-  "name": "Greenline. Velora",
-  "district": "Нура",
-  "apartments": 187,
-  "apartments_source": "реестр",
-  "sheet_places": 72,
-  "project_places": 138,
-  "project_source": "реестр",
-  "ratio_sheet": 2.6,
-  "ratio_project": 1.36,
-  "confidence": "средняя",
-  "note": "Листок 72 места против 138 по проекту: возможен второй уровень."
- },
- {
-  "name": "Capital Park. Art",
-  "district": "Есиль",
-  "apartments": 538,
-  "apartments_source": "реестр",
-  "sheet_places": 221,
-  "project_places": 410,
-  "project_source": "реестр",
-  "ratio_sheet": 2.43,
-  "ratio_project": 1.31,
-  "confidence": "средняя",
-  "note": "Листок 221 против 410 по проекту: возможен второй уровень."
- },
- {
   "name": "GreenLine. Verda",
   "district": "Нура",
   "apartments": 266,
@@ -52,19 +26,6 @@
   "note": "Листок и проект почти совпадают (124 и 134)."
  },
  {
-  "name": "GreenLine. Garden (1-1 + 1-2)",
-  "district": "Нура",
-  "apartments": 446,
-  "apartments_source": "реестр",
-  "sheet_places": 215,
-  "project_places": 326,
-  "project_source": "реестр",
-  "ratio_sheet": 2.07,
-  "ratio_project": 1.37,
-  "confidence": "средняя",
-  "note": "Листок 215 против 326 по проекту. Garden 2 — отдельный объект: 390 кв. на 237 мест (1,65)."
- },
- {
   "name": "ÜIA.DARYN (бизнес-блоки D, E, F, G)",
   "district": "Нура",
   "apartments": 1200,
@@ -75,7 +36,7 @@
   "ratio_sheet": null,
   "ratio_project": 1.67,
   "confidence": "средняя",
-  "note": "Привязка карточки к блокам D–G — по классу и срокам."
+  "note": "Привязка карточки к блокам D–G — по классу и срокам. Листок блока F показывает только -1 этаж (100 мест), а в реестре у F 194: реестр считает все уровни."
  },
  {
   "name": "Capital Park Vector",
@@ -130,6 +91,32 @@
   "note": "Крупные квартиры, 5 этажей."
  },
  {
+  "name": "GreenLine. Garden (1-1 + 1-2)",
+  "district": "Нура",
+  "apartments": 446,
+  "apartments_source": "реестр",
+  "sheet_places": 215,
+  "project_places": 326,
+  "project_source": "реестр",
+  "ratio_sheet": 2.07,
+  "ratio_project": 1.37,
+  "confidence": "средняя",
+  "note": "Листок 215 против 326 по проекту. Garden 2 — отдельный объект: 390 кв. на 237 мест (1,65)."
+ },
+ {
+  "name": "Greenline. Velora",
+  "district": "Нура",
+  "apartments": 187,
+  "apartments_source": "реестр",
+  "sheet_places": 72,
+  "project_places": 138,
+  "project_source": "реестр",
+  "ratio_sheet": 2.6,
+  "ratio_project": 1.36,
+  "confidence": "средняя",
+  "note": "Листок 72 места против 138 по проекту: судя по DARYN F и Atlant, на листке один уровень из двух."
+ },
+ {
   "name": "Qasteev (очереди 1–3)",
   "district": "Нура",
   "apartments": 675,
@@ -141,6 +128,19 @@
   "ratio_project": 1.35,
   "confidence": "высокая",
   "note": "Паркинг двухуровневый."
+ },
+ {
+  "name": "Capital Park. Art",
+  "district": "Есиль",
+  "apartments": 538,
+  "apartments_source": "реестр",
+  "sheet_places": 221,
+  "project_places": 410,
+  "project_source": "реестр",
+  "ratio_sheet": 2.43,
+  "ratio_project": 1.31,
+  "confidence": "средняя",
+  "note": "Листок 221 против 410 по проекту: судя по DARYN F и Atlant, на листке один уровень из двух."
  },
  {
   "name": "Auez Park (1 + 2)",
@@ -208,17 +208,30 @@
   "note": ""
  },
  {
-  "name": "Family Gardens 1",
+  "name": "Atlant (6 + 6-2)",
   "district": "Есиль",
-  "apartments": 150,
+  "apartments": 266,
+  "apartments_source": "krisha 246 + реестр 20",
+  "sheet_places": 254,
+  "project_places": 254,
+  "project_source": "листок BI, оба уровня",
+  "ratio_sheet": 1.05,
+  "ratio_project": 1.05,
+  "confidence": "средняя",
+  "note": "Листок 6.2 показывает оба уровня: -1 этаж (места 1–104 и 224–254) и 1 этаж (105–223). Квартиры 6-й очереди в реестре не заполнены."
+ },
+ {
+  "name": "Family Gardens (1 + 2)",
+  "district": "Есиль",
+  "apartments": 315,
   "apartments_source": "реестр",
   "sheet_places": null,
-  "project_places": 164,
-  "project_source": "реестр",
+  "project_places": 327,
+  "project_source": "реестр (1 очередь) + листок (2 очередь)",
   "ratio_sheet": null,
-  "ratio_project": 0.91,
+  "ratio_project": 0.96,
   "confidence": "высокая",
-  "note": "Family Gardens 2 (165 кв.) — свой паркинг, число мест в реестре не заполнено."
+  "note": "2 очередь: 163 места для машин (+7 мото) на 165 квартир; 1 очередь: 164 места на 150 квартир."
  },
  {
   "name": "GreenLine.4YOU (1 + 2)",
@@ -247,6 +260,19 @@
   "note": ""
  },
  {
+  "name": "Akbulak Riviera",
+  "district": "Алматы",
+  "apartments": 157,
+  "apartments_source": "korter/kapster",
+  "sheet_places": 234,
+  "project_places": 266,
+  "project_source": "листок BI (всего 266, из них 22 гостевых и 10 фитнес)",
+  "ratio_sheet": 0.67,
+  "ratio_project": 0.59,
+  "confidence": "высокая",
+  "note": "Сдан в 2024, а свободно ещё 49 мест: мест явно больше, чем нужно жильцам."
+ },
+ {
   "name": "ALEM (Alem Zerde A)",
   "district": "Нура",
   "apartments": 251,
@@ -273,19 +299,6 @@
   "note": "Блоки H, K, M (978 кв.) — места в реестре не заполнены; рядом строят отдельное здание паркинга. Если H, K, M без своего паркинга, по всем шести блокам 2190/1020 = 2,15."
  },
  {
-  "name": "Atlant (6 + 6-2)",
-  "district": "Есиль",
-  "apartments": 266,
-  "apartments_source": "krisha 246 + реестр 20",
-  "sheet_places": null,
-  "project_places": 393,
-  "project_source": "ООС ecoportal",
-  "ratio_sheet": null,
-  "ratio_project": 0.68,
-  "confidence": "низкая",
-  "note": "Квартиры 6-й очереди в реестре не заполнены."
- },
- {
   "name": "MOD Fusion 1",
   "district": "Есиль",
   "apartments": 202,
@@ -310,18 +323,5 @@
   "ratio_project": 0.3,
   "confidence": "низкая",
   "note": "682 места на весь квартал; всех квартир по оценке 300–550, то есть 0,4–0,8."
- },
- {
-  "name": "Akbulak Riviera",
-  "district": "Алматы",
-  "apartments": 157,
-  "apartments_source": "korter/kapster",
-  "sheet_places": null,
-  "project_places": null,
-  "project_source": "нет данных",
-  "ratio_sheet": null,
-  "ratio_project": null,
-  "confidence": "нет",
-  "note": "Строили без дольщиков, в реестре нет. Места только из приложения."
  }
 ]
