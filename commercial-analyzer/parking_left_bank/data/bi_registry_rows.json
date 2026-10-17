@@ -1,0 +1,1396 @@
+[
+ {
+  "id": 1470,
+  "name": "ЖК \"Nexpo Grand\"",
+  "addr": "г. Астана, р. Есиль, ул. Т. Рыскулова, уч. 4",
+  "commission": "25.01.2028",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/nexpo-grand?ysclid=mtsdopd4vk376976319",
+  "apts": 202,
+  "queues": [
+   [
+    "Очередь 1",
+    202
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,18,20",
+  "entrances": 4,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 682,
+  "guest": 1,
+  "cls": "II класс",
+  "lat": "51.084931",
+  "lon": "71.405854"
+ },
+ {
+  "id": 1041,
+  "name": "ЖК \"Nexpo Aura\"",
+  "addr": "г. Астана, р. Есиль, пр. Мангилик Ел, уч. 57, 57/1, 57Б",
+  "commission": "05.12.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/nexpo-aura",
+  "apts": 290,
+  "queues": [
+   [
+    "Очередь -",
+    290
+   ]
+  ],
+  "houses": "1",
+  "floors": "22",
+  "entrances": 7,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 401,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.088344",
+  "lon": "71.422914"
+ },
+ {
+  "id": 1338,
+  "name": "ЖК \"Family Nest A\"",
+  "addr": "г. Астана, р. Есиль, ул. Е 354, уч. 3",
+  "commission": "16.05.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/family-nest?ysclid=mlufdm0xh764670149",
+  "apts": 324,
+  "queues": [
+   [
+    "Очередь A",
+    324
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 6,
+  "first_nonres": "0",
+  "ptype": "1",
+  "places": 182,
+  "guest": 0,
+  "cls": "Малогабаритное жилье",
+  "lat": "51.053562",
+  "lon": "71.430488"
+ },
+ {
+  "id": 1339,
+  "name": "ЖК \"Family Nest B\"",
+  "addr": "г. Астана, р. Есиль, ул. Е 354, уч. 3",
+  "commission": "17.03.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/family-nest?ysclid=mlyz5pr9qo3990533",
+  "apts": 290,
+  "queues": [
+   [
+    "Очередь B",
+    290
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 6,
+  "first_nonres": "0",
+  "ptype": null,
+  "places": 0,
+  "guest": 0,
+  "cls": "Малогабаритное жилье",
+  "lat": "51.052995",
+  "lon": "71.430788"
+ },
+ {
+  "id": 1357,
+  "name": "ЖК \"Family Nest F\"",
+  "addr": "г. Астана, р. Есиль, пр. Әл-Фараби, уч. 73 A",
+  "commission": "27.12.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/family-nestf?ysclid=mmul5bl8tg396026586",
+  "apts": 283,
+  "queues": [
+   [
+    "Очередь F",
+    283
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 10,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 270,
+  "guest": 0,
+  "cls": "IV класс",
+  "lat": "51.054803",
+  "lon": "71.435080"
+ },
+ {
+  "id": 1480,
+  "name": "ЖК \"Family Nest G\"",
+  "addr": "г. Астана, р. Есиль, пр. Әл-Фараби, уч. 73",
+  "commission": "16.01.2028",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/family-nest?ysclid=msg0ed57w174604808",
+  "apts": 534,
+  "queues": [
+   [
+    "Очередь G",
+    534
+   ]
+  ],
+  "houses": "1",
+  "floors": "1,2,9",
+  "entrances": 13,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 370,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.054614",
+  "lon": "71.434908"
+ },
+ {
+  "id": 1142,
+  "name": "ЖК \"Family Gardens 1\"",
+  "addr": "г. Астана, р. Есиль, ул. Е 314, уч. 12",
+  "commission": "06.02.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/family-gardens?ysclid=meh6igpbpz831868410",
+  "apts": 150,
+  "queues": [
+   [
+    "Очередь 1",
+    150
+   ]
+  ],
+  "houses": "1",
+  "floors": "4, 5",
+  "entrances": 13,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 164,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.067813",
+  "lon": "71.424607"
+ },
+ {
+  "id": 1426,
+  "name": "ЖК \"Family Gardens 2\"",
+  "addr": "г. Астана, р. Есиль, ул. Е 314, уч.12",
+  "commission": "08.11.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/family-gardens?ysclid=mqf07jf26a867827326",
+  "apts": 165,
+  "queues": [
+   [
+    "Очередь 2",
+    165
+   ]
+  ],
+  "houses": "1",
+  "floors": "5",
+  "entrances": 13,
+  "first_nonres": "0",
+  "ptype": null,
+  "places": 0,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.067938",
+  "lon": "71.424673"
+ },
+ {
+  "id": 628,
+  "name": "ЖК \"Atlant - 6\"",
+  "addr": "р. Есиль, между улицами Сарайшык и Д. Конаева",
+  "commission": "12.01.2025",
+  "authority": "Участие БВУ",
+  "site": "https://atlant.bi.group/",
+  "apts": 0,
+  "queues": [],
+  "houses": "1",
+  "floors": "21",
+  "entrances": 0,
+  "first_nonres": "1",
+  "ptype": "2",
+  "places": null,
+  "guest": null,
+  "cls": "І",
+  "lat": "51.135108",
+  "lon": "71.418176"
+ },
+ {
+  "id": 1013,
+  "name": "ЖК \"Atlant - 6-2\"",
+  "addr": "г. Астана, р. Есиль, ул. Сарайшык и Д. Кунаева",
+  "commission": "11.01.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/atlant-6",
+  "apts": 20,
+  "queues": [
+   [
+    "Очередь 6-2",
+    20
+   ]
+  ],
+  "houses": "1",
+  "floors": "8",
+  "entrances": 1,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 64,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.316881",
+  "lon": "71.279295"
+ },
+ {
+  "id": 875,
+  "name": "ЖК \"Atlant Unique\" (очередь 5-1)",
+  "addr": "р. Есиль, ул. Д. Конаев, 3",
+  "commission": "23.08.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/atlant-unique?srsltid=AfmBOopfJgOmbvDo4cD3DmFX2fVvGeiqVci8_8EEgxkeKckspSQOscdB",
+  "apts": 282,
+  "queues": [
+   [
+    null,
+    282
+   ]
+  ],
+  "houses": "1",
+  "floors": "21",
+  "entrances": 0,
+  "first_nonres": "1",
+  "ptype": null,
+  "places": 0,
+  "guest": 0,
+  "cls": "II",
+  "lat": "51.133647",
+  "lon": "71.418115"
+ },
+ {
+  "id": 1298,
+  "name": "ЖК \"Atlant Unique 5-2\"",
+  "addr": "г. Астана, р. Есиль, прсч. ул. Сарайшык и Д. Конаева",
+  "commission": "07.12.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/atlant-unique?ysclid=mkuvo0seqv908074846",
+  "apts": 42,
+  "queues": [
+   [
+    "Очередь 5-2",
+    42
+   ]
+  ],
+  "houses": "1",
+  "floors": "8",
+  "entrances": 3,
+  "first_nonres": "1",
+  "ptype": null,
+  "places": 0,
+  "guest": 0,
+  "cls": "IV класс",
+  "lat": "51.133774",
+  "lon": "71.418407"
+ },
+ {
+  "id": 1421,
+  "name": "ЖК \"Alem.Zerde - A\"",
+  "addr": "г. Астана, р. Нұра, ул. Казыбек би, уч. 91B",
+  "commission": "06.10.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/alem-zerde?ysclid=mpkwfgww59556182013",
+  "apts": 251,
+  "queues": [
+   [
+    "Очередь A",
+    251
+   ]
+  ],
+  "houses": "1",
+  "floors": "2,12,14,16",
+  "entrances": 4,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 195,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.072603",
+  "lon": "71.375041"
+ },
+ {
+  "id": 1381,
+  "name": "ЖК \"Alem. Sana - A\"",
+  "addr": "г. Астана, р. Нұра, ул. Казыбек би, уч. 91В",
+  "commission": "20.01.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/alem-sana?ysclid=mocm37xjbo187775376",
+  "apts": 333,
+  "queues": [
+   [
+    "Очередь A",
+    333
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12,14",
+  "entrances": 7,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 188,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.072900",
+  "lon": "71.379719"
+ },
+ {
+  "id": 1380,
+  "name": "ЖК \"Alem. Sana - E\"",
+  "addr": "г. Астана, р. Нұра, ул. Казыбек би, уч. 91B",
+  "commission": "13.03.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/alem-sana?ysclid=mocm37xjbo187775376",
+  "apts": 189,
+  "queues": [
+   [
+    "Очередь E",
+    189
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 130,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.073439",
+  "lon": "71.381092"
+ },
+ {
+  "id": 1416,
+  "name": "ЖК \"Alem. Sana - D\"",
+  "addr": "г. Астана, р. Нұра, ул. E101, уч. 4",
+  "commission": "18.01.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/alem-sana?ysclid=mpyztxyi1p178477808",
+  "apts": 189,
+  "queues": [
+   [
+    "Очередь D",
+    189
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 125,
+  "guest": 0,
+  "cls": "IV класс",
+  "lat": "51.073250",
+  "lon": "71.380491"
+ },
+ {
+  "id": 1462,
+  "name": "ЖК \"Alem. Dara - C\"",
+  "addr": "г. Астана, р. Нұра, ул. Қазыбек Би, уч. 63",
+  "commission": "13.09.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/alem-dara?ysclid=msoi3cz0nx352723003",
+  "apts": 366,
+  "queues": [
+   [
+    "Очередь C",
+    366
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,14",
+  "entrances": 6,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 288,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.072199",
+  "lon": "71.381435"
+ },
+ {
+  "id": 1122,
+  "name": "ЖК \"Capital Park Art\"",
+  "addr": "г. Астана, р. Есиль, прсч. ул. Керей и Жанибек хандар, Бұқар Жырау и № 38",
+  "commission": "13.04.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/capitalpark-art?companyIds=%5B%224a9425ed-8abd-11ee-ab79-001dd8b7289a%22%5D&propertyTypes=%5B%225990a172-812a-4fee-b4f5-c860cca824d7%22%2C%22b6e20785-9b33-46a9-86b5-707fdbffe314%22%2C%22a6deff39-99d2-4a4c-982c-b245b7e43037%22%2C%22b3be088f-52d2-47af-93d5-0667312547c9%22%2C%228f72b6b1-0453-4938-9775-0f2f3a836ccd%22%2C%221429f97b-e73f-4bd4-8b59-a4c779b4db34%22%5D&filterTags=%7B%7D",
+  "apts": 538,
+  "queues": [
+   [
+    "Очередь -",
+    538
+   ]
+  ],
+  "houses": "1",
+  "floors": "9, 14, 16",
+  "entrances": 11,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 410,
+  "guest": 1,
+  "cls": "II класс",
+  "lat": "51.102518",
+  "lon": "71.450830"
+ },
+ {
+  "id": 1276,
+  "name": "ЖК \"Capital Park Vector\"",
+  "addr": "г. Астана, р. Есиль, прсч. ул. Керей Жанибек хандар, Бұқар Жырау и № 38, уч. 6B",
+  "commission": "24.08.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/capitalpark-vector?ysclid=mk3n6yoqmi228653419",
+  "apts": 275,
+  "queues": [
+   [
+    "Очередь 1",
+    275
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12,14",
+  "entrances": 8,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 185,
+  "guest": 1,
+  "cls": "III класс",
+  "lat": "51.099210",
+  "lon": "71.446195"
+ },
+ {
+  "id": 1193,
+  "name": "ЖК \"Auez Park\"",
+  "addr": "г. Астана, прсч. ул. Ш. Қалдаяқов, С. Нұрмағамбетов, Райымбек батыр",
+  "commission": "01.01.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/auez-park?ysclid=mgytxi12t0582494579",
+  "apts": 207,
+  "queues": [
+   [
+    "Очередь 1",
+    207
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 6,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 180,
+  "guest": 1,
+  "cls": "II класс",
+  "lat": "51.069017",
+  "lon": "71.367188"
+ },
+ {
+  "id": 1427,
+  "name": "ЖК \"Auez Park 2\"",
+  "addr": "г. Астана, р. Сарайшық, прсч. ул. Ш. Калдаякова, С. Нурмагамбетова и Райымбек батыра",
+  "commission": "22.06.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/auez-park?ysclid=mqagjbrejs735469793",
+  "apts": 204,
+  "queues": [
+   [
+    "Очередь 2",
+    204
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 6,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 166,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.112252",
+  "lon": "71.482716"
+ },
+ {
+  "id": 1489,
+  "name": "ЖК \"Tamga Hills\"",
+  "addr": "г. Астана, р. Есиль, ул. Е 117, уч. 54",
+  "commission": "16.11.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/tamga-hills?ysclid=mtr75g0pw5185222943",
+  "apts": 95,
+  "queues": [
+   [
+    "Очередь 1",
+    95
+   ]
+  ],
+  "houses": "1",
+  "floors": "5",
+  "entrances": 8,
+  "first_nonres": "0",
+  "ptype": "1",
+  "places": 69,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.085895",
+  "lon": "71.491170"
+ },
+ {
+  "id": 1084,
+  "name": "ЖК \"GreenLine.Garden 1-1\"",
+  "addr": "г. Астана, р. Нұра, прсч. ул. Е796 и Е899",
+  "commission": "04.11.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/greenline-garden?ysclid=ma6urto5v2948995261",
+  "apts": 212,
+  "queues": [
+   [
+    "Очередь 1-1",
+    212
+   ]
+  ],
+  "houses": "1",
+  "floors": "1,9,12,16",
+  "entrances": 4,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 137,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.137746",
+  "lon": "71.388763"
+ },
+ {
+  "id": 1120,
+  "name": "ЖК \"GreenLine.Garden 1-2\"",
+  "addr": "г. Астана, р. «Нура», ул. Е796 и Е899",
+  "commission": "19.02.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/greenline-garden?companyIds=%5B%224a9425ed-8abd-11ee-ab79-001dd8b7289a%22%5D&propertyTypes=%5B%225990a172-812a-4fee-b4f5-c860cca824d7%22%2C%22b6e20785-9b33-46a9-86b5-707fdbffe314%22%2C%22a6deff39-99d2-4a4c-982c-b245b7e43037%22%2C%22b3be088f-52d2-47af-93d5-0667312547c9%22%2C%228f72b6b1-0453-4938-9775-0f2f3a836ccd%22%2C%221429f97b-e73f-4bd4-8b59-a4c779b4db34%22%5D&filterTags=%7B%7D",
+  "apts": 234,
+  "queues": [
+   [
+    "Очередь 1-2",
+    234
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12",
+  "entrances": 6,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 189,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.136992",
+  "lon": "71.391563"
+ },
+ {
+  "id": 1235,
+  "name": "ЖК \"GreenLine.Garden 2\"",
+  "addr": "г. Астана, р. Нұра, прсч. ул. Е796 и Е899",
+  "commission": "15.01.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/kk/landing/greenline-garden?ysclid=mi5oxl1b3q850542371",
+  "apts": 390,
+  "queues": [
+   [
+    "Очередь 2",
+    390
+   ]
+  ],
+  "houses": "1",
+  "floors": "9.12.16",
+  "entrances": 9,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 237,
+  "guest": 1,
+  "cls": "II класс",
+  "lat": "51.069017",
+  "lon": "71.367188"
+ },
+ {
+  "id": 1068,
+  "name": "ЖК \"GreenLine.Verda - 1\"",
+  "addr": "г. Астана, р. Есиль, ул. E899, уч. 5",
+  "commission": "07.11.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/greenline-verda",
+  "apts": 266,
+  "queues": [
+   [
+    "Очередь 1",
+    266
+   ]
+  ],
+  "houses": "1",
+  "floors": "12",
+  "entrances": 8,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 134,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.206884",
+  "lon": "71.367186"
+ },
+ {
+  "id": 1297,
+  "name": "ЖК \"GreenLine.Prima - 1\"",
+  "addr": "г. Астана, р. Нұра, ул. Е 899, уч. 4",
+  "commission": "29.08.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/greenline-prima?ysclid=mkqi6mg7a1152241867",
+  "apts": 206,
+  "queues": [
+   [
+    "Очередь 1",
+    206
+   ]
+  ],
+  "houses": "1",
+  "floors": "7, 9, 18, 20",
+  "entrances": 7,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 178,
+  "guest": 1,
+  "cls": "II класс",
+  "lat": "51.134326",
+  "lon": "71.391284"
+ },
+ {
+  "id": 1373,
+  "name": "ЖК \"Greenline.Tiara\"",
+  "addr": "г. Астана, р. Нұра, ул. 899, уч.  5",
+  "commission": "05.11.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/greenline-7?ysclid=mny9c1apf784601020",
+  "apts": 226,
+  "queues": [
+   [
+    "Очередь 1",
+    226
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,14",
+  "entrances": 6,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 201,
+  "guest": 0,
+  "cls": "IV класс",
+  "lat": "51.136803",
+  "lon": "71.389267"
+ },
+ {
+  "id": 1367,
+  "name": "ЖК \"MOD Fusion 1\"",
+  "addr": "г. Астана, р. Есиль, ул. Т. Рыскулова, уч. 18/6",
+  "commission": "27.07.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/mod-fusion?ysclid=mnmv8i1sk8774836034",
+  "apts": 202,
+  "queues": [
+   [
+    "Очередь 1",
+    202
+   ]
+  ],
+  "houses": "1",
+  "floors": "8,9,12",
+  "entrances": 6,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 313,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.082822",
+  "lon": "71.440187"
+ },
+ {
+  "id": 967,
+  "name": "ЖК \"MOD Urban\"",
+  "addr": "г. Астана, р. Есиль, ул. Т. Рыскулова, уч. № 18/5",
+  "commission": "05.10.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.grouprulandingmod-urban",
+  "apts": 178,
+  "queues": [
+   [
+    "Очередь 1",
+    178
+   ]
+  ],
+  "houses": "1",
+  "floors": "12",
+  "entrances": 4,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 195,
+  "guest": 1,
+  "cls": "II класс",
+  "lat": "51.179344",
+  "lon": "71.411131"
+ },
+ {
+  "id": 1034,
+  "name": "ЖК \"MOD Urban 2\" (очереди 1-2)",
+  "addr": "г. Астана, р. Есиль, ул. Т. Рысқұлова, уч. 18/5",
+  "commission": "03.02.2027",
+  "authority": "Участие БВУ",
+  "site": null,
+  "apts": 239,
+  "queues": [
+   [
+    "Очередь 2",
+    239
+   ]
+  ],
+  "houses": "1",
+  "floors": "12",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 189,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.206884",
+  "lon": "71.323241"
+ },
+ {
+  "id": 1143,
+  "name": "ЖК \"MOD Urban 3\"",
+  "addr": "г. Астана, р. Есиль, ул. Т. Рысқұлова, уч. 18",
+  "commission": "06.12.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/mod-urban3?ysclid=meihbph17x699937318",
+  "apts": 165,
+  "queues": [
+   [
+    "Очередь 3",
+    165
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 164,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.080945",
+  "lon": "71.433407"
+ },
+ {
+  "id": 1211,
+  "name": "ЖК «MOD Urban 4»",
+  "addr": "г. Астана, р. Есиль, ул. Т. Рысқұлова, уч. 18",
+  "commission": "11.02.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/mod-urban?ysclid=mfwoaz95dn303587982",
+  "apts": 239,
+  "queues": [
+   [
+    "Очередь 4",
+    239
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12",
+  "entrances": 5,
+  "first_nonres": "0",
+  "ptype": "1",
+  "places": 216,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.124213",
+  "lon": "71.499023"
+ },
+ {
+  "id": 1155,
+  "name": "ЖК \"MOD Ultra\"",
+  "addr": "г. Астана, р. Есиль, прсч. ул. 37 и Хусейн бен Талал, уч. 37",
+  "commission": "11.12.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/mod-ultra?ysclid=mer5b7cv6u29111291",
+  "apts": 318,
+  "queues": [
+   [
+    "Очередь 1",
+    128
+   ],
+   [
+    "Очередь 2",
+    190
+   ]
+  ],
+  "houses": "2",
+  "floors": "9,17",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 227,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.078906",
+  "lon": "71.429469"
+ },
+ {
+  "id": 1053,
+  "name": "ЖК \"Qasteev - 1\"",
+  "addr": "г. Астана, р. Нұра, ул. Б. Жырау, уч. 20",
+  "commission": "08.11.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/qasteev?gad_source=1&gclid=Cj0KCQiAwtu9BhC8ARIsAI9JHam9IexPBkdNySsNbf5xp1J7VHz4ZI4TUnR0lH6-bq-SJuxYVKtNnf0aAh-REALw_wcB",
+  "apts": 265,
+  "queues": [
+   [
+    "Очередь 1",
+    265
+   ]
+  ],
+  "houses": "1",
+  "floors": "21",
+  "entrances": 4,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 190,
+  "guest": 0,
+  "cls": "I класс",
+  "lat": "51.399206",
+  "lon": "71.279295"
+ },
+ {
+  "id": 1061,
+  "name": "ЖК \"Qasteev-2\"",
+  "addr": "г. Астана, р. Нұра, ул. Бухар Жырау, уч. 20А",
+  "commission": "08.01.2027",
+  "authority": "Участие БВУ",
+  "site": "http://bi.group/ru/perspective/qasteev2",
+  "apts": 207,
+  "queues": [
+   [
+    "Очередь 2",
+    207
+   ]
+  ],
+  "houses": "1",
+  "floors": "21",
+  "entrances": 3,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 145,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.206884",
+  "lon": "71.367186"
+ },
+ {
+  "id": 1220,
+  "name": "ЖК \"Qasteev - 3\"",
+  "addr": "г. Астана, р. Нұра, ул. Б. Жырау, уч. 24",
+  "commission": "06.08.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/qasteev?ysclid=mhubcsepkh551234856",
+  "apts": 203,
+  "queues": [
+   [
+    "Очередь 3",
+    203
+   ]
+  ],
+  "houses": "1",
+  "floors": "21,8,15",
+  "entrances": 3,
+  "first_nonres": "0",
+  "ptype": "1",
+  "places": 165,
+  "guest": 0,
+  "cls": "IV класс",
+  "lat": "51.069017",
+  "lon": "71.455078"
+ },
+ {
+  "id": 1165,
+  "name": "ЖК \"GreenLine. Velora\"",
+  "addr": "г. Астана, р. Нұра, ул. Е899, уч. 5",
+  "commission": "13.02.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/greenline-velora?ysclid=mf2398k8cm579634769",
+  "apts": 187,
+  "queues": [
+   [
+    "Очередь 1",
+    187
+   ]
+  ],
+  "houses": "1",
+  "floors": "12,17,9",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 138,
+  "guest": 0,
+  "cls": "IV класс",
+  "lat": "51.135516",
+  "lon": "71.38724"
+ },
+ {
+  "id": 977,
+  "name": "ЖК \"Green Line 4YOU\"",
+  "addr": "г. Астана, р. Нұра, ул. К. Мухамедханова, уч. 6/1",
+  "commission": "13.01.2027",
+  "authority": "Участие БВУ",
+  "site": "httpsgreenline.bi.group",
+  "apts": 151,
+  "queues": [
+   [
+    "Очередь 1",
+    151
+   ]
+  ],
+  "houses": "1",
+  "floors": "2, 20",
+  "entrances": 2,
+  "first_nonres": "0",
+  "ptype": "1",
+  "places": 392,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.140000",
+  "lon": "71.390000"
+ },
+ {
+  "id": 1066,
+  "name": "ЖК \"GreenLine 4YOU-2\"",
+  "addr": "г. Астана, р. Нұра, ул. К. Мухамехданова, уч. 6/1",
+  "commission": "05.11.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/greenline-4you",
+  "apts": 187,
+  "queues": [
+   [
+    "Очередь 2",
+    187
+   ]
+  ],
+  "houses": "1",
+  "floors": "20",
+  "entrances": 4,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 407,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.138307",
+  "lon": "71.393914"
+ },
+ {
+  "id": 1313,
+  "name": "ЖК \"UIA. DARYN-A\"",
+  "addr": "г. Астана, р. Нұра, пр. Ұлы Дала, уч. 10",
+  "commission": "30.11.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?ysclid=ml6lqo0vkp306234925",
+  "apts": 529,
+  "queues": [
+   [
+    "Очередь A",
+    529
+   ]
+  ],
+  "houses": "1",
+  "floors": "12,14,17",
+  "entrances": 6,
+  "first_nonres": "0",
+  "ptype": "1",
+  "places": 402,
+  "guest": 0,
+  "cls": "Малогабаритное жилье",
+  "lat": "51.104223",
+  "lon": "71.357746"
+ },
+ {
+  "id": 1136,
+  "name": "ЖК \"UIA. DARYN-B\"",
+  "addr": "г. Астана, р. Нұра, ул. Е75, уч. 13",
+  "commission": "19.07.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?companyIds=%5B%224a9425ed-8abd-11ee-ab79-001dd8b7289a%22%5D&propertyTypes=%5B%225990a172-812a-4fee-b4f5-c860cca824d7%22%2C%22b6e20785-9b33-46a9-86b5-707fdbffe314%22%2C%22a6deff39-99d2-4a4c-982c-b245b7e43037%22%2C%22b3be088f-52d2-47af-93d5-0667312547c9%22%2C%228f72b6b1-0453-4938-9775-0f2f3a836ccd%22%2C%221429f97b-e73f-4bd4-8b59-a4c779b4db34%22%5D&filterTags=%7B%7D",
+  "apts": 307,
+  "queues": [
+   [
+    "Очередь B",
+    307
+   ]
+  ],
+  "houses": "1",
+  "floors": "12,14,17",
+  "entrances": 3,
+  "first_nonres": "0",
+  "ptype": "1",
+  "places": 318,
+  "guest": 0,
+  "cls": "IV класс",
+  "lat": "51.104091",
+  "lon": "71.360616"
+ },
+ {
+  "id": 1361,
+  "name": "ЖК \"UIA.DARYN-C\"",
+  "addr": "г. Астана, р. Нұра, пр. Ұлы Дала, уч. 6",
+  "commission": "29.04.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?ysclid=mn2sgl9au4894986161",
+  "apts": 376,
+  "queues": [
+   [
+    "Очередь C",
+    376
+   ]
+  ],
+  "houses": "1",
+  "floors": "12,14,17",
+  "entrances": 3,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 300,
+  "guest": 0,
+  "cls": "Малогабаритное жилье",
+  "lat": "51.102875",
+  "lon": "71.356888"
+ },
+ {
+  "id": 1176,
+  "name": "ЖК \"UIA.DARYN - D\"",
+  "addr": "г. Астана, р. Нұра, прсч. пр. Ұлы Дала и ул. Ш. Айтматова",
+  "commission": "18.06.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?ysclid=mfky1gb3ip55865563",
+  "apts": 349,
+  "queues": [
+   [
+    "Очередь D",
+    349
+   ]
+  ],
+  "houses": "1",
+  "floors": "17,14,9",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 195,
+  "guest": 1,
+  "cls": "II класс",
+  "lat": "51.105268",
+  "lon": "71.35186"
+ },
+ {
+  "id": 1233,
+  "name": "ЖК \"UIA.DARYN - E\"",
+  "addr": "г. Астана, р. Нұра, прсч. пр. Ұлы Дала и ул. Ш. Айтматова",
+  "commission": "06.02.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?ysclid=mhyx7wlwo975919932",
+  "apts": 314,
+  "queues": [
+   [
+    "Очередь E",
+    314
+   ]
+  ],
+  "houses": "1",
+  "floors": "14,17,9",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 139,
+  "guest": 1,
+  "cls": "II класс",
+  "lat": "51.041394",
+  "lon": "71.235352"
+ },
+ {
+  "id": 1263,
+  "name": "ЖК \"UIA.DARYN - F\"",
+  "addr": "г. Астана, р. Нұра, прсч. пр. Ұлы Дала и ул. Ш. Айтматова",
+  "commission": "06.09.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?ysclid=mizzlln8ja736774349",
+  "apts": 260,
+  "queues": [
+   [
+    "Очередь F",
+    260
+   ]
+  ],
+  "houses": "1",
+  "floors": "14,17",
+  "entrances": 4,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 194,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.104748",
+  "lon": "71.350451"
+ },
+ {
+  "id": 1292,
+  "name": "ЖК \"UIA.DARYN - G\"",
+  "addr": "г. Астана, р. Нұра, прсч. пр.  Ұлы Дала и ул. Ш. Айтматова",
+  "commission": "28.09.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/perspective/uiadaryn-g",
+  "apts": 277,
+  "queues": [
+   [
+    "Очередь G",
+    277
+   ]
+  ],
+  "houses": "1",
+  "floors": "14,17",
+  "entrances": 4,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 192,
+  "guest": 0,
+  "cls": "II класс",
+  "lat": "51.103953",
+  "lon": "71.351910"
+ },
+ {
+  "id": 1437,
+  "name": "ЖК \"UIA. DARYN - H\"",
+  "addr": "г. Астана, р. Нұра, пр. Ұлы Дала, уч. 6",
+  "commission": "22.04.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?ysclid=mr3448rkql894362965",
+  "apts": 282,
+  "queues": [
+   [
+    "Очередь H",
+    282
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12",
+  "entrances": 7,
+  "first_nonres": "1",
+  "ptype": null,
+  "places": 0,
+  "guest": 1,
+  "cls": "Малогабаритное жилье",
+  "lat": "51.104620",
+  "lon": "71.356169"
+ },
+ {
+  "id": 1359,
+  "name": "ЖК \"UIA. DARYN - K\"",
+  "addr": "г. Астана, р. Нұра, пр. Ұлы Дала, уч. 10",
+  "commission": "28.03.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?ysclid=mn8qn4xwd246729765",
+  "apts": 383,
+  "queues": [
+   [
+    "Очередь K",
+    383
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12",
+  "entrances": 5,
+  "first_nonres": "0",
+  "ptype": null,
+  "places": 0,
+  "guest": 0,
+  "cls": "Малогабаритное жилье",
+  "lat": "51.103953",
+  "lon": "71.359205"
+ },
+ {
+  "id": 1363,
+  "name": "ЖК \"UIA. DARYN - M\"",
+  "addr": "г. Астана, р. Нұра, пр. Ұлы Дала, уч. 6",
+  "commission": "29.10.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-daryn?ysclid=mnd0eqscql994274074",
+  "apts": 313,
+  "queues": [
+   [
+    "Очередь M",
+    313
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12,14",
+  "entrances": 6,
+  "first_nonres": "1",
+  "ptype": null,
+  "places": 0,
+  "guest": 0,
+  "cls": "Малогабаритное жилье",
+  "lat": "51.103953",
+  "lon": "71.358261"
+ },
+ {
+  "id": 899,
+  "name": "ЖК \"Turan Tower\"",
+  "addr": "г. Астана, р. Есиль, пр. Туран, уч. 41",
+  "commission": "16.08.2026",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/turantowers",
+  "apts": 199,
+  "queues": [
+   [
+    "Очередь 1",
+    199
+   ]
+  ],
+  "houses": "1",
+  "floors": "27",
+  "entrances": 0,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": null,
+  "guest": 0,
+  "cls": "II",
+  "lat": "51.126013",
+  "lon": "71.402306"
+ },
+ {
+  "id": 1239,
+  "name": "ЖК \"Uia.TARIH - A\"",
+  "addr": "г. Астана, р. Нұра, прсч. пр. Ұлы Дала и ул. Ш. Айтматова",
+  "commission": "10.03.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-tarih?ysclid=micsynryht348719",
+  "apts": 448,
+  "queues": [
+   [
+    "Очередь A",
+    448
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12",
+  "entrances": 10,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 332,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.069017",
+  "lon": "71.411133"
+ },
+ {
+  "id": 1372,
+  "name": "ЖК \"UIA.TARIH-B\"",
+  "addr": "г. Астана, р. Нұра, ул. Е 909, уч. 31",
+  "commission": "13.06.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-tarih?ysclid=mnihwmf77w717877595",
+  "apts": 395,
+  "queues": [
+   [
+    "Очередь B",
+    395
+   ]
+  ],
+  "houses": "1",
+  "floors": "9,12",
+  "entrances": 10,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 194,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.103953",
+  "lon": "71.351738"
+ },
+ {
+  "id": 1319,
+  "name": "UIA TARIH C",
+  "addr": "г.Астана, район Нұра, улица E 909, участок 31",
+  "commission": "28.03.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-tarih",
+  "apts": 289,
+  "queues": [
+   [
+    "Очередь С",
+    289
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 10,
+  "first_nonres": "1",
+  "ptype": "1",
+  "places": 204,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.102458",
+  "lon": "71.351588"
+ },
+ {
+  "id": 1356,
+  "name": "ЖК \"UIA.TARIH - E\"",
+  "addr": "г. Астана, р. Нұра, ул. Е 909, уч. 24",
+  "commission": "20.01.2027",
+  "authority": "Участие БВУ",
+  "site": "https://bi.group/ru/landing/uia-tarih?ysclid=mmuf2c3j27905691224",
+  "apts": 168,
+  "queues": [
+   [
+    "Очередь E",
+    168
+   ]
+  ],
+  "houses": "1",
+  "floors": "9",
+  "entrances": 5,
+  "first_nonres": "1",
+  "ptype": "2",
+  "places": 124,
+  "guest": 1,
+  "cls": "IV класс",
+  "lat": "51.103845",
+  "lon": "71.354485"
+ },
+ {
+  "id": 61,
+  "name": "ЖК \"Akbulak Life\"",
+  "addr": "р. Алматы, пр. Тәуелсіздік, д. 39",
+  "commission": "25.05.2019",
+  "authority": "Участие БВУ",
+  "site": null,
+  "apts": 0,
+  "queues": [],
+  "houses": "4",
+  "floors": "9, 13, 17",
+  "entrances": 0,
+  "first_nonres": null,
+  "ptype": null,
+  "places": 0,
+  "guest": 0,
+  "cls": "III",
+  "lat": "51.136094",
+  "lon": "71.466538"
+ }
+]
