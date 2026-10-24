@@ -11,8 +11,17 @@ RK = json.load(open(f"{W}/rank.json"))
 ZP = json.load(open(f"{W}/zone_polys.json"))
 B = json.load(open(f"{W}/basemap.json"))
 F = json.load(open(f"{W}/findings_all.json"))
-CAND = {c["id"]: c for c in json.load(open(f"{W}/candidates.json"))}
-CHK = {c["id"]: c for c in json.load(open(CHECKS))}
+CAND = {}
+for fn in ("candidates.json", "candidates_top.json"):
+    if __import__("os").path.exists(f"{W}/{fn}"):
+        CAND.update({c["id"]: c for c in json.load(open(f"{W}/{fn}"))})
+CHK = {}
+for fn in CHECKS.split(","):
+    for c in json.load(open(fn)):
+        CHK.setdefault(c["id"], {}).update(c)
+TOP = json.load(open(f"{W}/top.json"))
+LOC = json.load(open(f"{W}/loc.json"))
+TOPS = {s["id"]: s for s in TOP["sales"]}
 ROWS = json.load(open(f"{W}/rows.json"))
 AIG = json.load(open(f"{W}/aigul.json")) if __import__("os").path.exists(f"{W}/aigul.json") else None
 
@@ -93,36 +102,57 @@ def kind_of(t):
     if "гараж" in head or head.startswith("отдельно стоящий дом") or "бокс" in head:
         return "другое"
     if head.startswith(("отдельно стоящ", "продаётся всё", "продается всё", "здание целиком", "продаётся отдельно",
-                        "продается отдельно")) or "здание целиком" in head[:40]:
+                        "продается отдельно")) or "здание целиком" in head[:40] or re.search(r"отдельн\w* (?:\w+ )?здани", head):
         return "здание целиком"
     return "встроенное помещение"
 
 
 ZONE_OF = {s["id"]: s["zone"] for s in A["sales"]}
+RU = json.load(open(f"{W}/ru_overrides.json"))
+DUP = {"1008725286", "1015754547", "1004950657"}   # same objects as 1015713283 (Лермонтова 96/1), 1016813946 (Машхур Жусупа 288), 661837635 (Ломова 37/1)
+UPPER = re.compile(r"на ([2-9])-?(?:м|й)? этаж|([2-9])-?(?:м|й) этаж\w* (?:из|\w+этажн)", re.I)
+FLOOR = {r["id"]: r.get("floor") for r in ROWS}
 offers = []
 for i, c in CHK.items():
     o, r = c.get("object"), c.get("rent")
     if not o or not r or o["verdict"] == "reject" or not r.get("gross_yield"):
         continue
+    if not TOPS.get(i, {}).get("top") or o.get("first_line_check") == "not_first_line" or i in DUP:
+        continue
+    what_text = RU[i]["what"] if i in RU else o["what_is_sold"]
+    if ((FLOOR.get(i) or 1) >= 2 or UPPER.search(what_text[:160])) and kind_of(what_text) != "здание целиком":
+        continue                     # office on an upper floor: the building is on the street, the unit has no frontage
     cd = CAND[i]
     offers.append(dict(id=i, address=cd["address"], zone=ZONE_OF.get(i, cd["zone"]), grp=cd["group"], area=cd["area_m2"], price=cd["price_tenge"],
                        ppm=cd["price_per_m2"], rent=r["realistic_rent_per_m2"], gross=r["gross_yield"], net=r["net_yield"],
-                       verdict=o["verdict"], kind=kind_of(o["what_is_sold"]), nflags=len(o["red_flags"]), y0=cd["our_estimate"]["gross_yield"],
+                       verdict=o["verdict"], kind=kind_of(what_text), nflags=len(o["red_flags"]), y0=cd["our_estimate"]["gross_yield"],
                        what=first_sentences(o["what_is_sold"], 240),
-                       flags=[first_sentences(f, 200) for f in o["red_flags"][:2]]))
+                       flags=[first_sentences(f, 200) for f in o["red_flags"][:2]], place=TOPS[i]["kind"],
+                       flc=o.get("first_line_check"), flnote=first_sentences(o.get("first_line_note", ""), 200)
+                       or "отдельно не проверялась, по объявлению — первая линия"))
+    if i in RU:
+        offers[-1].update(what=RU[i]["what"], flags=RU[i]["flags"], flnote=RU[i]["flnote"])
 offers.sort(key=lambda o: -o["net"])
-rejected = [i for i, c in CHK.items() if c.get("object") and c["object"]["verdict"] == "reject"]
+rejected = [i for i, c in CHK.items() if c.get("object") and (c["object"]["verdict"] == "reject" or c["object"].get("first_line_check") == "not_first_line")]
 pick_ids = {o["id"] for o in offers}
 
 sales = []
-for s in A["sales"]:
+for s in TOP["sales"]:
+    if not s["top"]:
+        continue
     c = CHK.get(s["id"])
     chk = None
     if c and c.get("rent") and c.get("object"):
         chk = dict(gross=c["rent"]["gross_yield"], net=c["rent"]["net_yield"], what=first_sentences(c["object"]["what_is_sold"], 200))
     sales.append(dict(id=s["id"], lat=s["lat"], lon=s["lon"], zone=s["zone"], grp=s["grp"], area=s["area"], price=s["price"],
-                      ppm=s["ppm"], est_rent=s["est_rent"], y=s["yield_"], address=s["address"], pick=s["id"] in pick_ids, check=chk))
-rents = [dict(id=r["id"], lat=r["lat"], lon=r["lon"], ppm=r["ppm"], area=r["area"], address=r["address"]) for r in A["rent_points"]]
+                      ppm=s["ppm"], est_rent=s["est_rent"], y=s["yield_"], address=s["address"], pick=s["id"] in pick_ids, check=chk,
+                      kind=s["kind"]))
+LOCI = {o["id"]: o for o in LOC["listings"]}
+RID = {r["id"]: r for r in ROWS}
+rents = [dict(id=r["id"], lat=r["lat"], lon=r["lon"], ppm=r["ppm"], area=r["area"], address=r["address"]) for r in A["rent_points"]
+         if LOCI.get(r["id"], {}).get("top")]
+grid = [dict(b=g["boundary"], active=g["active"], dense=g["dense"], density=g["density"], flats=g["flats"], poi=g["poi"],
+             stops=g["stops"], lst=g["lst"]) for g in LOC["grid"] if g["active"] or g["dense"]]
 
 # type / size table (listing-level)
 S = [s for s in A["sales"] if s["comp_n"] >= 5 and s["yield_"] <= 0.35]
@@ -210,13 +240,30 @@ prem_s = [s["ppm"] for s in A["sales"]]
 n_clean = sum(1 for r in ROWS if not r["excluded"])
 city_y = RK["city_yield"]
 top = RK["rows"][0]
+STREET_NOTE = json.load(open(f"{W}/texts.json")).get("street_notes", {})
+ZONE_NOTE = json.load(open(f"{W}/texts.json")).get("zone_notes", {})
+top_d = dict(premiums=TOP["premiums"], overall=TOP["overall"], by_kind=TOP["by_kind"],
+             by_street=[dict(x, note=STREET_NOTE.get(x["key"], "")) for x in TOP["by_street"] if x["n_rent"] + x["n_sale"] >= 4],
+             by_zone=[dict(x, note=ZONE_NOTE.get(x["key"], "")) for x in TOP["by_zone"]],
+             prem_rows=[dict(key="fl", k="Первая линия", note="Цена растёт сильнее ставки: на первой линии платят за ликвидность и статус"),
+                        dict(key="act", k="Активное место (магазины, остановки, ТЦ рядом)", note="Ставка и цена растут примерно одинаково"),
+                        dict(key="den", k="Плотная жилая застройка", note="Даёт прибавку к ставке: арендаторы «у дома» платят за поток жителей")])
 D = dict(
-    zones=zones, rank=RK["rows"], city=dict(yield_=city_y, **{"yield": city_y}), sales=sales, rents=rents, offers=offers, types=types,
+    zones=zones, top=top_d, grid=grid, rank=RK["rows"], city=dict(yield_=city_y, **{"yield": city_y}), sales=sales, rents=rents, offers=offers, types=types,
     themes=themes, basemap=dict(footprint=B["footprint"], water=B["water"], parks=B["parks"], roads=B["roads"]),
 )
 OUTTXT = json.load(open(f"{W}/texts.json"))
 D.update(OUTTXT)
+OV = {x["key"]: x for x in TOP["overall"]}
+tl = OV["топ-локации"]
 D["tiles"] = [
+    dict(v=f"{TOP['n_top']['rent'] + TOP['n_top']['sale']}", u="объявлений", k=f"в топ-локациях: {TOP['n_top']['rent']} аренды и {TOP['n_top']['sale']} продажи"),
+    dict(v=f"{tl['rent']:,.0f}".replace(",", " "), u="₸/м² в месяц", k="медиана аренды в топ-локациях"),
+    dict(v=f"{tl['sale']/1000:,.0f}".replace(",", " "), u="тыс. ₸/м²", k="медиана цены продажи в топ-локациях"),
+    dict(v=f"{tl['y_y']*100:.1f}".replace(".", ","), u="% годовых", k="типичная валовая доходность до налогов и простоя"),
+    dict(v=f"+{TOP['premiums']['sale']['fl']['pct']*100:.0f}%", u="к цене", k=f"даёт первая линия; к ставке аренды только +{TOP['premiums']['rent']['fl']['pct']*100:.0f}%"),
+]
+D["tiles_city"] = [
     dict(v=f"{med(prem_r):,.0f}".replace(",", " "), u="₸/м² в месяц", k="медиана аренды офисов и торговых помещений"),
     dict(v=f"{med(prem_s)/1000:,.0f}".replace(",", " "), u="тыс. ₸/м²", k="медиана цены продажи тех же помещений"),
     dict(v=f"{city_y*100:.1f}".replace(".", ","), u="% годовых", k="типичная валовая доходность до налогов и простоя"),

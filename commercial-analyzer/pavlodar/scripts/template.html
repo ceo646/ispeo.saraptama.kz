@@ -27,6 +27,7 @@
   --good: #0ca30c; --warn: #fab219; --bad: #d03b3b;
   --seq-0: #e8eef6; --seq-1: #cde2fb; --seq-2: #9ec5f4; --seq-3: #6da7ec; --seq-4: #3987e5; --seq-5: #256abf; --seq-6: #184f95; --seq-7: #0d366b;
   --nodata: #d4d8d5;
+  --c-dense: #2a78d6; --c-act: #eb6834; --c-both: #1baf7a;
   --shadow: 0 1px 2px rgba(20, 30, 25, .06), 0 6px 18px rgba(20, 30, 25, .08);
   --f-display: "Literata", "PT Serif", Georgia, serif;
   --f-body: "Golos Text", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -35,13 +36,13 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #141917; --panel: #1c2320; --ink: #e9eeeb; --muted: #a2ada7; --line: #2f3833; --accent: #6fc2a1; --accent-soft: #1f3129;
   --pick: #ff8a57; --dot: #8f9a94; --rentdot: #4c5550; --land: #1a201d; --built: #232b27; --water: #1d3447; --park: #1f2e22;
-  --road: #39433e; --road-edge: #2a322e; --nodata: #3a423e;
+  --road: #39433e; --road-edge: #2a322e; --nodata: #3a423e; --c-dense: #3987e5; --c-act: #d95926; --c-both: #199e70;
   --seq-0: #18263a; --seq-1: #104281; --seq-2: #184f95; --seq-3: #1c5cab; --seq-4: #256abf; --seq-5: #3987e5; --seq-6: #6da7ec; --seq-7: #b7d3f6;
   --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35); color-scheme: dark; } }
 :root[data-theme="dark"] {
   --bg: #141917; --panel: #1c2320; --ink: #e9eeeb; --muted: #a2ada7; --line: #2f3833; --accent: #6fc2a1; --accent-soft: #1f3129;
   --pick: #ff8a57; --dot: #8f9a94; --rentdot: #4c5550; --land: #1a201d; --built: #232b27; --water: #1d3447; --park: #1f2e22;
-  --road: #39433e; --road-edge: #2a322e; --nodata: #3a423e;
+  --road: #39433e; --road-edge: #2a322e; --nodata: #3a423e; --c-dense: #3987e5; --c-act: #d95926; --c-both: #199e70;
   --seq-0: #18263a; --seq-1: #104281; --seq-2: #184f95; --seq-3: #1c5cab; --seq-4: #256abf; --seq-5: #3987e5; --seq-6: #6da7ec; --seq-7: #b7d3f6;
   --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35); color-scheme: dark; }
 
@@ -166,29 +167,34 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
   <header>
     <div class="eyebrow">Павлодар · коммерческая недвижимость · снимок krisha.kz на 24.10.2026</div>
     <h1>Где в Павлодаре купить помещение под аренду</h1>
+    <div class="eyebrow" style="color:var(--accent)">Только топ-локации: первая линия в активном или плотно заселённом месте</div>
     <p class="lede" id="lede"></p>
     <div class="verdicts" id="verdicts"></div>
     <div class="tiles" id="tiles"></div>
   </header>
 
   <section aria-labelledby="h-map">
-    <div class="read"><h2 id="h-map">Карта доходности по районам</h2>
+    <div class="read"><h2 id="h-map">Карта топ-локаций</h2>
     <p class="muted" id="mapnote"></p></div>
     <div class="mapbox">
       <div class="mapbar">
         <div class="seg" role="group" aria-label="Что показывает цвет районов">
-          <button id="m-yield" aria-pressed="true">Доходность</button>
+          <button id="m-loc" aria-pressed="true">Топ-локации</button>
+          <button id="m-yield" aria-pressed="false">Доходность</button>
           <button id="m-rent" aria-pressed="false">Ставка аренды</button>
           <button id="m-sale" aria-pressed="false">Цена продажи</button>
         </div>
         <label class="chk"><input type="checkbox" id="c-picks" checked> Проверенные предложения</label>
-        <label class="chk"><input type="checkbox" id="c-sale"> Все продажи</label>
-        <label class="chk"><input type="checkbox" id="c-rent"> Аренда</label>
+        <label class="chk"><input type="checkbox" id="c-sale" checked> Продажи в топ-локациях</label>
+        <label class="chk"><input type="checkbox" id="c-rent"> Аренда в топ-локациях</label>
       </div>
       <div id="map" role="img" aria-label="Карта Павлодара: районы окрашены по доходности коммерции"></div>
       <div class="maplegend">
-        <div class="ramp"><div id="rampname" style="font-size:12px"></div><div class="bar" id="rampbar"></div><div class="ticks" id="rampticks"></div></div>
-        <span class="key"><i style="background:var(--nodata)"></i>мало данных (меньше 6 продаж)</span>
+        <div class="ramp" id="ramp" hidden><div id="rampname" style="font-size:12px"></div><div class="bar" id="rampbar"></div><div class="ticks" id="rampticks"></div></div>
+        <span class="key" id="k-nodata" hidden><i style="background:var(--nodata)"></i>мало данных (меньше 6 продаж)</span>
+        <span class="key lockey"><i style="background:var(--c-act)"></i>активное место</span>
+        <span class="key lockey"><i style="background:var(--c-dense)"></i>плотная застройка</span>
+        <span class="key lockey"><i style="background:var(--c-both)"></i>и то и другое</span>
         <span class="key"><i style="background:var(--pick)"></i>проверенное предложение</span>
         <span class="key"><i style="background:var(--dot)"></i>продажа</span>
         <span class="key"><i style="background:var(--rentdot)"></i>аренда</span>
@@ -196,21 +202,22 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
     </div>
   </section>
 
-  <section aria-labelledby="h-rank">
-    <div class="read"><h2 id="h-rank">Рейтинг районов</h2>
-    <p class="muted">Итоговый балл: доходность 40%, уровень ставок 20%, глубина рынка 15%, отзывы и оценки в интернете 25%. Колонка «Первое место» показывает, в какой доле из 20 000 случайных наборов весов район оказывается лучшим. Нажмите на строку, чтобы показать район на карте.</p></div>
-    <div class="tablewrap"><table id="ztable"><thead><tr>
-      <th>#</th><th>Район</th><th>Балл</th><th class="n">Первое место</th><th>Доходность типичных помещений, 90% интервал</th><th class="n">Аренда, ₸/м²·мес</th><th class="n">Продажа, ₸/м²</th><th class="n">Объявлений аренда / продажа</th><th>В интернете</th>
-    </tr></thead><tbody></tbody></table></div>
+  <section aria-labelledby="h-prem">
+    <div class="read"><h2 id="h-prem">Что даёт топ-локация</h2>
+    <p class="muted" id="premnote"></p></div>
+    <div class="tablewrap"><table id="ptable" style="min-width:640px"><thead><tr><th>Признак</th><th class="n">К ставке аренды</th><th class="n">К цене продажи</th><th>Что это значит</th></tr></thead><tbody></tbody></table></div>
+    <div class="tablewrap"><table id="otable" style="min-width:640px"><thead><tr><th>Где стоит помещение</th><th class="n">Аренда, ₸/м²·мес</th><th class="n">Продажа, ₸/м²</th><th class="n">Доходность типичных помещений</th><th class="n">Объявлений аренда / продажа</th></tr></thead><tbody></tbody></table></div>
   </section>
 
-  <section aria-labelledby="h-type">
-    <div class="read"><h2 id="h-type">Что выгоднее по типу и размеру</h2></div>
-    <div class="tablewrap"><table id="ttable" style="min-width:620px"><thead><tr><th>Срез</th><th class="n">Продаж</th><th class="n">Цена, ₸/м²</th><th class="n">Ожидаемая аренда, ₸/м²·мес</th><th class="n">Доходность (медиана)</th><th>Комментарий</th></tr></thead><tbody></tbody></table></div>
+  <section aria-labelledby="h-street">
+    <div class="read"><h2 id="h-street">Лучшие улицы и районы среди топ-локаций</h2>
+    <p class="muted" id="streetnote"></p></div>
+    <div class="tablewrap"><table id="stable" style="min-width:720px"><thead><tr><th>Улица</th><th class="n">Аренда, ₸/м²·мес</th><th class="n">Продажа, ₸/м²</th><th class="n">Доходность</th><th class="n">Объявлений аренда / продажа</th><th>Комментарий</th></tr></thead><tbody></tbody></table></div>
+    <div class="tablewrap"><table id="tztable" style="min-width:720px"><thead><tr><th>Район</th><th class="n">Аренда, ₸/м²·мес</th><th class="n">Продажа, ₸/м²</th><th class="n">Доходность, 90% интервал</th><th class="n">Объявлений аренда / продажа</th><th>Тип места</th></tr></thead><tbody></tbody></table></div>
   </section>
 
   <section aria-labelledby="h-offers">
-    <div class="read"><h2 id="h-offers">Самые доходные предложения после проверки</h2>
+    <div class="read"><h2 id="h-offers">Проверенные предложения в топ-локациях</h2>
     <p class="muted" id="offersnote"></p></div>
     <div class="filters">
       <div class="seg" role="group" aria-label="Фильтр предложений">
@@ -220,6 +227,19 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
       </div>
     </div>
     <div class="offers" id="offers"></div>
+  </section>
+
+  <section aria-labelledby="h-rank">
+    <div class="read"><h2 id="h-rank">Для сравнения: рейтинг районов по всему городу</h2>
+    <p class="muted">Итоговый балл: доходность 40%, уровень ставок 20%, глубина рынка 15%, отзывы и оценки в интернете 25%. Колонка «Первое место» показывает, в какой доле из 20 000 случайных наборов весов район оказывается лучшим. Нажмите на строку, чтобы показать район на карте.</p></div>
+    <div class="tablewrap"><table id="ztable"><thead><tr>
+      <th>#</th><th>Район</th><th>Балл</th><th class="n">Первое место</th><th>Доходность типичных помещений, 90% интервал</th><th class="n">Аренда, ₸/м²·мес</th><th class="n">Продажа, ₸/м²</th><th class="n">Объявлений аренда / продажа</th><th>В интернете</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section aria-labelledby="h-type">
+    <div class="read"><h2 id="h-type">Для сравнения: тип и размер по всему городу</h2></div>
+    <div class="tablewrap"><table id="ttable" style="min-width:620px"><thead><tr><th>Срез</th><th class="n">Продаж</th><th class="n">Цена, ₸/м²</th><th class="n">Ожидаемая аренда, ₸/м²·мес</th><th class="n">Доходность (медиана)</th><th>Комментарий</th></tr></thead><tbody></tbody></table></div>
   </section>
 
   <section aria-labelledby="h-web">
@@ -256,6 +276,8 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
   D.tiles.forEach(t => T.append(el('div', { class: 'tile' }, `<span class="v">${t.v}${t.u ? ` <small>${t.u}</small>` : ''}</span><span class="k">${t.k}</span>`)));
   document.getElementById('mapnote').innerHTML = D.mapnote;
   document.getElementById('offersnote').innerHTML = D.offersnote;
+  document.getElementById('premnote').innerHTML = D.premnote;
+  document.getElementById('streetnote').innerHTML = D.streetnote;
   document.getElementById('webnote').innerHTML = D.webnote;
   document.getElementById('method').innerHTML = D.method;
   document.getElementById('foot').innerHTML = D.foot;
@@ -286,7 +308,7 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
     rent: { name: 'Медиана аренды, ₸/м² в месяц', key: z => z.rent, n: z => z.n_rent, br: [2600, 3000, 3400, 3700, 3900, 4100], fmtTick: v => fmt(v) },
     sale: { name: 'Медиана цены продажи, тыс. ₸/м²', key: z => z.sale, n: z => z.n_sale, br: [300000, 380000, 440000, 480000, 500000, 540000], fmtTick: v => fmt(v / 1000) },
   };
-  let mode = 'yield';
+  let mode = 'loc';
   const bin = (v, br) => { let i = 0; while (i < br.length && v >= br[i]) i++; return i; };
   const zoneLayers = D.zones.filter(z => z.polys && z.polys.length).map(z => {
     const lyr = L.polygon(polysLL(z.polys), { pane: 'zones', weight: 1.2, fillOpacity: .62, className: 'zpoly' }).addTo(map);
@@ -294,12 +316,39 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
     const lab = L.marker([z.label[1], z.label[0]], { pane: 'pts', interactive: false, icon: L.divIcon({ className: 'zlabel', html: '', iconSize: null }) }).addTo(map);
     return { z, lyr, lab };
   });
+  const cellLayer = L.layerGroup().addTo(map);
+  function paintCells() {
+    cellLayer.clearLayers();
+    if (mode !== 'loc') return;
+    D.grid.forEach(g => {
+      const c = g.active && g.dense ? '--c-both' : g.active ? '--c-act' : '--c-dense';
+      L.polygon(g.b.map(([x, y]) => [y, x]), { pane: 'zones', stroke: false, fillColor: css(c), fillOpacity: .5, interactive: true })
+        .bindPopup(`<div class="pop"><h3>${g.active && g.dense ? 'Активное и плотное место' : g.active ? 'Активное место' : 'Плотная застройка'}</h3><div class="kv">
+          <span>Жителей на км²</span><b>${fmt(g.density)}</b><span>Квартир в продаже в 500 м</span><b>${fmt(g.flats)}</b>
+          <span>Магазинов, кафе, офисов в 400 м</span><b>${fmt(g.poi)}</b><span>Остановок в 300 м</span><b>${fmt(g.stops)}</b>
+          <span>Коммерческих объявлений в 400 м</span><b>${fmt(g.lst)}</b></div></div>`).addTo(cellLayer);
+    });
+  }
   function paintZones() {
+    if (mode === 'loc') {
+      zoneLayers.forEach(({ z, lyr, lab }) => {
+        lyr.setStyle({ fillOpacity: 0, color: css('--ink'), opacity: .45, dashArray: '4 4' });
+        lab.setIcon(L.divIcon({ className: 'zlabel', html: `${esc(z.short)}`, iconSize: null }));
+        lyr.unbindPopup();
+      });
+      document.getElementById('ramp').hidden = true; document.getElementById('k-nodata').hidden = true;
+      document.querySelectorAll('.lockey').forEach(e => e.hidden = false);
+      paintCells();
+      return;
+    }
+    document.getElementById('ramp').hidden = false; document.getElementById('k-nodata').hidden = false;
+    document.querySelectorAll('.lockey').forEach(e => e.hidden = true);
+    paintCells();
     const M = MODES[mode];
     zoneLayers.forEach(({ z, lyr, lab }) => {
       const v = M.key(z), few = (M.n(z) || 0) < 6 || v == null;
       const c = few ? css('--nodata') : css(SEQ[bin(v, M.br)]);
-      lyr.setStyle({ fillColor: c, color: css('--ink'), opacity: .35 });
+      lyr.setStyle({ fillColor: c, fillOpacity: .62, color: css('--ink'), opacity: .35, dashArray: null });
       const val = few ? 'мало данных' : (mode === 'yield' ? pct(v) : mode === 'rent' ? fmt(v) + ' ₸' : fmt(v / 1000) + ' тыс.');
       lab.setIcon(L.divIcon({ className: 'zlabel', html: `${esc(z.short)}<b>${val}</b>`, iconSize: null }));
       lyr.bindPopup(`<div class="pop"><h3>${esc(z.zone)}</h3><div class="kv">
@@ -323,6 +372,7 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
   const picks = L.layerGroup(), sales = L.layerGroup(), rents = L.layerGroup();
   const popSale = s => `<div class="pop"><h3>${esc(s.address)}</h3><div class="kv">
     <span>Район</span><b style="font-family:var(--f-body);font-weight:500">${esc(s.zone)}</b>
+    <span>Место</span><b style="font-family:var(--f-body);font-weight:500">${esc(s.kind)}</b>
     <span>Площадь</span><b>${fmt(s.area)} м²</b><span>Цена</span><b>${mln(s.price)} · ${fmt(s.ppm)} ₸/м²</b>
     <span>Аренда рядом</span><b>${fmt(s.est_rent)} ₸/м²</b><span>Доходность</span><b>${pct(s.y)}</b>
     ${s.check ? `<span>После проверки</span><b>${pct(s.check.gross)} вал. · ${pct(s.check.net)} чист.</b>` : ''}</div>
@@ -342,8 +392,8 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
     if (cb.checked) lyr.addTo(map);
     cb.addEventListener('change', () => cb.checked ? lyr.addTo(map) : map.removeLayer(lyr));
   });
-  ['yield', 'rent', 'sale'].forEach(m => document.getElementById('m-' + m).addEventListener('click', () => {
-    mode = m; ['yield', 'rent', 'sale'].forEach(k => document.getElementById('m-' + k).setAttribute('aria-pressed', k === m)); paintZones();
+  ['loc', 'yield', 'rent', 'sale'].forEach(m => document.getElementById('m-' + m).addEventListener('click', () => {
+    mode = m; ['loc', 'yield', 'rent', 'sale'].forEach(k => document.getElementById('m-' + k).setAttribute('aria-pressed', k === m)); paintZones();
   }));
   const repaint = () => { paintBase(); paintZones(); paintPoints(); };
   repaint();
@@ -374,6 +424,18 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
   const ttb = document.querySelector('#ttable tbody');
   D.types.forEach(t => ttb.append(el('tr', {}, `<td>${esc(t.k)}</td><td class="n">${t.n}</td><td class="n">${fmt(t.sale)}</td><td class="n">${fmt(t.rent)}</td><td class="n">${pct(t.y)}</td><td class="zsub">${esc(t.note)}</td>`)));
 
+  // ---------- top-location tables
+  const sig = p => p < 0.05 ? '' : ' <span class="muted">(не значимо)</span>';
+  const pc = v => (v.pct >= 0 ? '+' : '') + fmt(v.pct * 100) + '%' + ` <span class="muted num" style="font-size:12px">${fmt(v.lo * 100)}…${fmt(v.hi * 100)}</span>`;
+  const PB = document.querySelector('#ptable tbody');
+  D.top.prem_rows.forEach(r => PB.append(el('tr', {}, `<td>${esc(r.k)}</td><td class="n">${pc(D.top.premiums.rent[r.key])}${sig(D.top.premiums.rent[r.key].p)}</td><td class="n">${pc(D.top.premiums.sale[r.key])}${sig(D.top.premiums.sale[r.key].p)}</td><td class="zsub">${esc(r.note)}</td>`)));
+  const OB = document.querySelector('#otable tbody');
+  D.top.overall.forEach(r => OB.append(el('tr', {}, `<td>${esc(r.key)}</td><td class="n">${fmt(r.rent)}</td><td class="n">${fmt(r.sale)}</td><td class="n">${pct(r.y_y)} <span class="muted" style="font-size:12px">${r.y_lo ? pct(r.y_lo) + '–' + pct(r.y_hi) : ''}</span></td><td class="n">${r.n_rent} / ${r.n_sale}</td>`)));
+  const SB = document.querySelector('#stable tbody');
+  D.top.by_street.forEach(r => SB.append(el('tr', {}, `<td class="zname">${esc(r.key)}</td><td class="n">${fmt(r.rent)}</td><td class="n">${fmt(r.sale)}</td><td class="n">${r.y_n >= 3 ? pct(r.y_y) : '—'} <span class="muted" style="font-size:12px">${r.y_n >= 3 ? 'n=' + r.y_n : ''}</span></td><td class="n">${r.n_rent} / ${r.n_sale}</td><td class="zsub">${esc(r.note || '')}</td>`)));
+  const ZB = document.querySelector('#tztable tbody');
+  D.top.by_zone.forEach(r => ZB.append(el('tr', {}, `<td class="zname">${esc(r.key)}</td><td class="n">${fmt(r.rent)}</td><td class="n">${fmt(r.sale)}</td><td class="n">${r.y_n >= 4 ? pct(r.y_y) + ' <span class="muted" style="font-size:12px">' + pct(r.y_lo) + '–' + pct(r.y_hi) + '</span>' : (r.y_n ? pct(r.y_y) + ' <span class="muted" style="font-size:12px">n=' + r.y_n + '</span>' : '—')}</td><td class="n">${r.n_rent} / ${r.n_sale}</td><td class="zsub">${esc(r.note || '')}</td>`)));
+
   // ---------- offers
   const OF = document.getElementById('offers');
   const KC = { 'встроенное помещение': '--accent', 'здание целиком': '--seq-5', 'другое': '--dot' };
@@ -386,7 +448,8 @@ footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--lin
         <div class="top"><div><div class="addr">${esc(o.address)}</div><div class="zone">${esc(o.zone)} · ${esc(o.grp)}</div></div>
         <div class="y">${pct(o.gross)}<small>реалистично, вал.</small></div></div>
         <div class="facts"><span>${fmt(o.area)} м²</span><span>${mln(o.price)}</span><span>${fmt(o.ppm)} ₸/м²</span><span>аренда ${fmt(o.rent)} ₸/м²</span><span>чистая ${pct(o.net)}</span><span>было ${pct(o.y0)}</span><span>окупаемость ${fmt(1 / o.gross, 1)} лет</span></div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="chip" style="--c:var(${c})">${esc(o.kind)}</span><span class="chip" style="--c:var(--warn)">${o.nflags} оговорок</span></div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="chip" style="--c:var(${o.place === 'активный и плотный' ? '--c-both' : o.place === 'активный' ? '--c-act' : '--c-dense'})">${esc(o.place)}</span><span class="chip" style="--c:var(${c})">${esc(o.kind)}</span><span class="chip" style="--c:var(--warn)">${o.nflags} оговорок</span></div>
+        ${o.flnote ? `<div class="zsub"><b>Первая линия${o.flc === 'confirmed' ? ' подтверждена' : o.flc === 'doubtful' ? ' под вопросом' : ''}:</b> ${esc(o.flnote)}</div>` : ''}
         <div class="what">${esc(o.what)}</div>
         ${o.flags.length ? `<ul class="flags">${o.flags.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
         <a href="https://krisha.kz/a/show/${o.id}" target="_blank" rel="noopener">Объявление на krisha.kz</a>`));

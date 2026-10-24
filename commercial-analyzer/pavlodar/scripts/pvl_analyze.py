@@ -96,7 +96,10 @@ for z in ORDER:
                       wh_sale=med([r["ppm"] for r in ww if r["deal"] == "sale"])))
 
 # ---------- per sale listing: expected rent from nearby comparable rent listings + model prediction
-rent_rows = [r for r in prem if r["deal"] == "rent"]
+rent_rows_all = [r for r in prem if r["deal"] == "rent"]
+# comparables exclude asks above 2.5× the city median (rents with a business, licence or services bundled in)
+CAP = 2.5 * float(np.median([r["ppm"] for r in rent_rows_all]))
+rent_rows = [r for r in rent_rows_all if r["ppm"] <= CAP]
 dr = frame(rent_rows)
 m_rent = models["rent"]
 
@@ -184,7 +187,7 @@ for z in zones:
 
 json.dump(dict(y_ref=y_ref, zones=zones, sales=sales,
                rent_points=[dict(id=r["id"], lat=r["lat"], lon=r["lon"], ppm=r["ppm"], area=r["area"], grp=r["grp"],
-                                 zone=r["zone"], address=r["address"], title=r["title"]) for r in rent_rows],
+                                 zone=r["zone"], address=r["address"], title=r["title"]) for r in rent_rows_all], rent_cap=CAP,
                warehouses=[dict(id=r["id"], deal=r["deal"], lat=r["lat"], lon=r["lon"], ppm=r["ppm"], area=r["area"],
                                 zone=r["zone"], address=r["address"]) for r in wh],
                model_rent=dict(r2=models["rent"].rsquared, n=int(models["rent"].nobs)),
