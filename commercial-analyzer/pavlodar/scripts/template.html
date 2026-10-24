@@ -1,0 +1,405 @@
+<title>Доходная коммерция Павлодара</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Golos+Text:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>/*__LEAFLET_CSS__*/</style>
+<style>
+/* Layout: a single reading column (answer → map → district table → offers → web reviews → method);
+   the map and the table break out to a wider measure. Steppe-grey paper, pine accent, blue yield ramp. */
+:root {
+  --bg: #f3f5f3;
+  --panel: #ffffff;
+  --ink: #17201c;
+  --muted: #5a6560;
+  --line: #d9dfdb;
+  --accent: #1f5f4a;
+  --accent-soft: #e2eee8;
+  --pick: #eb6834;
+  --dot: #8a948f;
+  --rentdot: #b7bfbb;
+  --land: #eceeea;
+  --built: #e1e4df;
+  --water: #b9d3e6;
+  --park: #d6e4d3;
+  --road: #ffffff;
+  --road-edge: #c9cec9;
+  --good: #0ca30c; --warn: #fab219; --bad: #d03b3b;
+  --seq-0: #e8eef6; --seq-1: #cde2fb; --seq-2: #9ec5f4; --seq-3: #6da7ec; --seq-4: #3987e5; --seq-5: #256abf; --seq-6: #184f95; --seq-7: #0d366b;
+  --nodata: #d4d8d5;
+  --shadow: 0 1px 2px rgba(20, 30, 25, .06), 0 6px 18px rgba(20, 30, 25, .08);
+  --f-display: "Literata", "PT Serif", Georgia, serif;
+  --f-body: "Golos Text", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --panel: #1c2320; --ink: #e9eeeb; --muted: #a2ada7; --line: #2f3833; --accent: #6fc2a1; --accent-soft: #1f3129;
+  --pick: #ff8a57; --dot: #8f9a94; --rentdot: #4c5550; --land: #1a201d; --built: #232b27; --water: #1d3447; --park: #1f2e22;
+  --road: #39433e; --road-edge: #2a322e; --nodata: #3a423e;
+  --seq-0: #18263a; --seq-1: #104281; --seq-2: #184f95; --seq-3: #1c5cab; --seq-4: #256abf; --seq-5: #3987e5; --seq-6: #6da7ec; --seq-7: #b7d3f6;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #141917; --panel: #1c2320; --ink: #e9eeeb; --muted: #a2ada7; --line: #2f3833; --accent: #6fc2a1; --accent-soft: #1f3129;
+  --pick: #ff8a57; --dot: #8f9a94; --rentdot: #4c5550; --land: #1a201d; --built: #232b27; --water: #1d3447; --park: #1f2e22;
+  --road: #39433e; --road-edge: #2a322e; --nodata: #3a423e;
+  --seq-0: #18263a; --seq-1: #104281; --seq-2: #184f95; --seq-3: #1c5cab; --seq-4: #256abf; --seq-5: #3987e5; --seq-6: #6da7ec; --seq-7: #b7d3f6;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 22px rgba(0,0,0,.35); color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 56px; display: grid; gap: 40px; }
+.read { max-width: 70ch; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 700; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(28px, 4.6vw, 44px); line-height: 1.08; letter-spacing: -.01em; }
+h2 { font-size: clamp(21px, 2.6vw, 27px); line-height: 1.2; }
+h3 { font-size: 17px; line-height: 1.3; }
+p { margin: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+section { display: grid; gap: 16px; min-width: 0; grid-template-columns: minmax(0, 1fr); }
+
+/* header */
+header { display: grid; gap: 14px; }
+.lede { font-size: 17px; max-width: 68ch; }
+.verdicts { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.verdict { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 6px; align-content: start; }
+.verdict .tag { font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
+.verdict .tag::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c); flex: none; }
+.verdict b { font-family: var(--f-display); font-size: 18px; line-height: 1.25; }
+.verdict p { color: var(--muted); font-size: 14px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.tile { border-top: 2px solid var(--ink); padding-top: 8px; display: grid; gap: 2px; }
+.tile .v { font-family: var(--f-mono); font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.tile .v small { font-family: var(--f-body); font-size: 13px; font-weight: 500; color: var(--muted); }
+.tile .k { font-size: 13px; color: var(--muted); }
+
+/* map */
+.mapbox { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr); }
+#map { width: 100%; }
+.mapbar { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.seg button { font: inherit; font-size: 13px; padding: 6px 11px; border: 0; background: transparent; color: var(--ink); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--panel); }
+.chk { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; cursor: pointer; }
+.chk input { accent-color: var(--accent); }
+#map { height: min(72vh, 640px); min-height: 420px; background: var(--land); }
+.maplegend { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; padding: 10px 14px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--muted); }
+.ramp { display: grid; gap: 3px; min-width: 220px; }
+.ramp .bar { display: flex; height: 10px; border-radius: 3px; overflow: hidden; }
+.ramp .bar span { flex: 1; }
+.ramp .ticks { display: flex; justify-content: space-between; font-family: var(--f-mono); font-size: 11px; font-variant-numeric: tabular-nums; }
+.key { display: inline-flex; align-items: center; gap: 6px; }
+.key i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.leaflet-container { font-family: var(--f-body); background: var(--land); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--panel); color: var(--ink); box-shadow: var(--shadow); }
+.leaflet-popup-content { margin: 12px 14px; font-size: 13px; line-height: 1.45; min-width: 220px; max-width: 290px; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--muted); }
+.leaflet-bar a, .leaflet-bar a:hover { background: var(--panel); color: var(--ink); border-bottom-color: var(--line); }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--panel) 85%, transparent) !important; color: var(--muted); }
+.leaflet-control-attribution a { color: var(--accent); }
+.zlabel { font-family: var(--f-body); font-size: 11px; font-weight: 600; color: var(--ink); text-shadow: 0 0 3px var(--panel), 0 0 3px var(--panel), 0 0 6px var(--panel); white-space: nowrap; pointer-events: none; text-align: center; line-height: 1.2; }
+.zlabel b { font-family: var(--f-mono); font-weight: 600; display: block; }
+.pop h3 { font-family: var(--f-body); font-size: 14px; font-weight: 600; margin: 0 0 4px; }
+.pop .kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 12.5px; }
+.pop .kv b { font-family: var(--f-mono); font-weight: 600; font-variant-numeric: tabular-nums; }
+.pop p { margin-top: 6px; color: var(--muted); font-size: 12.5px; }
+
+/* table */
+.tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; min-width: 1060px; font-size: 13.5px; }
+#ztable td:nth-child(2) { min-width: 210px; }
+#ztable td:last-child { min-width: 250px; }
+th, td { padding: 9px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+th { font-size: 12px; font-weight: 600; color: var(--muted); letter-spacing: .02em; background: var(--panel); position: sticky; top: 0; }
+td.n, th.n { text-align: right; font-family: var(--f-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--accent-soft); }
+.zname { font-weight: 600; }
+.zsub { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+.ci { position: relative; height: 14px; width: 130px; margin-top: 4px; }
+.ci .rail { position: absolute; left: 0; right: 0; top: 6px; height: 2px; background: var(--line); }
+.ci .rng { position: absolute; top: 4px; height: 6px; border-radius: 3px; background: var(--seq-3); opacity: .55; }
+.ci .pt { position: absolute; top: 2px; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: var(--seq-5); border: 2px solid var(--panel); }
+.ci .city { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--ink); opacity: .45; }
+.score { display: flex; align-items: center; gap: 8px; }
+.score .b { height: 6px; border-radius: 3px; background: var(--accent); }
+.sent { font-family: var(--f-mono); font-size: 12px; white-space: nowrap; }
+.rank1 td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
+
+/* offers */
+.offers { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 12px; }
+.offer { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.offer .top { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+.offer .addr { font-weight: 600; overflow-wrap: anywhere; }
+.offer .zone { font-size: 12.5px; color: var(--muted); }
+.offer .y { font-family: var(--f-mono); font-size: 20px; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.offer .y small { display: block; font-family: var(--f-body); font-size: 11px; color: var(--muted); font-weight: 500; text-align: right; }
+.offer .facts { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; }
+.offer .facts span { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.offer .what { font-size: 13.5px; }
+.offer .flags { font-size: 12.5px; color: var(--muted); padding-left: 16px; margin: 0; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); white-space: nowrap; }
+.chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.filters { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+
+/* reviews */
+.themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 14px; }
+.theme { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; min-width: 0; }
+.theme ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 14px; }
+.theme li a { font-size: 12px; }
+.src { color: var(--muted); font-size: 12px; overflow-wrap: anywhere; }
+
+.method { font-size: 14px; color: var(--muted); display: grid; gap: 10px; max-width: 78ch; }
+.method b { color: var(--ink); }
+.method ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+footer { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; }
+@media (max-width: 560px) { .tile .v { font-size: 20px; } #map { height: 62vh; } }
+@media (prefers-reduced-motion: reduce) { .leaflet-zoom-anim .leaflet-zoom-animated { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Павлодар · коммерческая недвижимость · снимок krisha.kz на 24.10.2026</div>
+    <h1>Где в Павлодаре купить помещение под аренду</h1>
+    <p class="lede" id="lede"></p>
+    <div class="verdicts" id="verdicts"></div>
+    <div class="tiles" id="tiles"></div>
+  </header>
+
+  <section aria-labelledby="h-map">
+    <div class="read"><h2 id="h-map">Карта доходности по районам</h2>
+    <p class="muted" id="mapnote"></p></div>
+    <div class="mapbox">
+      <div class="mapbar">
+        <div class="seg" role="group" aria-label="Что показывает цвет районов">
+          <button id="m-yield" aria-pressed="true">Доходность</button>
+          <button id="m-rent" aria-pressed="false">Ставка аренды</button>
+          <button id="m-sale" aria-pressed="false">Цена продажи</button>
+        </div>
+        <label class="chk"><input type="checkbox" id="c-picks" checked> Проверенные предложения</label>
+        <label class="chk"><input type="checkbox" id="c-sale"> Все продажи</label>
+        <label class="chk"><input type="checkbox" id="c-rent"> Аренда</label>
+      </div>
+      <div id="map" role="img" aria-label="Карта Павлодара: районы окрашены по доходности коммерции"></div>
+      <div class="maplegend">
+        <div class="ramp"><div id="rampname" style="font-size:12px"></div><div class="bar" id="rampbar"></div><div class="ticks" id="rampticks"></div></div>
+        <span class="key"><i style="background:var(--nodata)"></i>мало данных (меньше 6 продаж)</span>
+        <span class="key"><i style="background:var(--pick)"></i>проверенное предложение</span>
+        <span class="key"><i style="background:var(--dot)"></i>продажа</span>
+        <span class="key"><i style="background:var(--rentdot)"></i>аренда</span>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-rank">
+    <div class="read"><h2 id="h-rank">Рейтинг районов</h2>
+    <p class="muted">Итоговый балл: доходность 40%, уровень ставок 20%, глубина рынка 15%, отзывы и оценки в интернете 25%. Колонка «Первое место» показывает, в какой доле из 20 000 случайных наборов весов район оказывается лучшим. Нажмите на строку, чтобы показать район на карте.</p></div>
+    <div class="tablewrap"><table id="ztable"><thead><tr>
+      <th>#</th><th>Район</th><th>Балл</th><th class="n">Первое место</th><th>Доходность типичных помещений, 90% интервал</th><th class="n">Аренда, ₸/м²·мес</th><th class="n">Продажа, ₸/м²</th><th class="n">Объявлений аренда / продажа</th><th>В интернете</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section aria-labelledby="h-type">
+    <div class="read"><h2 id="h-type">Что выгоднее по типу и размеру</h2></div>
+    <div class="tablewrap"><table id="ttable" style="min-width:620px"><thead><tr><th>Срез</th><th class="n">Продаж</th><th class="n">Цена, ₸/м²</th><th class="n">Ожидаемая аренда, ₸/м²·мес</th><th class="n">Доходность (медиана)</th><th>Комментарий</th></tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section aria-labelledby="h-offers">
+    <div class="read"><h2 id="h-offers">Самые доходные предложения после проверки</h2>
+    <p class="muted" id="offersnote"></p></div>
+    <div class="filters">
+      <div class="seg" role="group" aria-label="Фильтр предложений">
+        <button id="f-all" aria-pressed="true">Все</button>
+        <button id="f-clean" aria-pressed="false">Встроенные помещения</button>
+        <button id="f-small" aria-pressed="false">До 300 м²</button>
+      </div>
+    </div>
+    <div class="offers" id="offers"></div>
+  </section>
+
+  <section aria-labelledby="h-web">
+    <div class="read"><h2 id="h-web">Что пишут в интернете</h2>
+    <p class="muted" id="webnote"></p></div>
+    <div class="themes" id="themes"></div>
+  </section>
+
+  <section aria-labelledby="h-method">
+    <h2 id="h-method">Как считали и где осторожнее</h2>
+    <div class="method" id="method"></div>
+  </section>
+
+  <footer id="foot"></footer>
+</div>
+
+<script id="pdata" type="application/json">/*__DATA__*/</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+(() => {
+  const D = JSON.parse(document.getElementById('pdata').textContent);
+  const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const fmt = (v, d = 0) => v == null ? '—' : v.toLocaleString('ru-RU', { maximumFractionDigits: d, minimumFractionDigits: d }).replace(/ /g, ' ');
+  const pct = (v, d = 1) => v == null ? '—' : fmt(v * 100, d) + '%';
+  const mln = v => fmt(v / 1e6, v >= 1e8 ? 0 : 1) + ' млн ₸';
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const el = (tag, attrs = {}, html = '') => { const e = document.createElement(tag); Object.entries(attrs).forEach(([k, v]) => e.setAttribute(k, v)); e.innerHTML = html; return e; };
+
+  // ---------- header
+  document.getElementById('lede').innerHTML = D.lede;
+  const V = document.getElementById('verdicts');
+  D.verdicts.forEach(v => V.append(el('div', { class: 'verdict', style: `--c:var(${v.c})` }, `<span class="tag">${esc(v.tag)}</span><b>${esc(v.title)}</b><p>${v.text}</p>`)));
+  const T = document.getElementById('tiles');
+  D.tiles.forEach(t => T.append(el('div', { class: 'tile' }, `<span class="v">${t.v}${t.u ? ` <small>${t.u}</small>` : ''}</span><span class="k">${t.k}</span>`)));
+  document.getElementById('mapnote').innerHTML = D.mapnote;
+  document.getElementById('offersnote').innerHTML = D.offersnote;
+  document.getElementById('webnote').innerHTML = D.webnote;
+  document.getElementById('method').innerHTML = D.method;
+  document.getElementById('foot').innerHTML = D.foot;
+
+  // ---------- map
+  const map = L.map('map', { zoomControl: true, preferCanvas: true, minZoom: 11, maxZoom: 17, attributionControl: true, scrollWheelZoom: false })
+    .fitBounds([[52.236, 76.905], [52.318, 77.035]]);
+  map.attributionControl.setPrefix(false).addAttribution('Подложка © OpenStreetMap · данные krisha.kz');
+  map.createPane('base').style.zIndex = 200;
+  map.createPane('zones').style.zIndex = 300;
+  map.createPane('roads').style.zIndex = 350;
+  map.createPane('pts').style.zIndex = 450;
+  const baseR = L.canvas({ pane: 'base', padding: 0.3 }), roadR = L.canvas({ pane: 'roads', padding: 0.3 }), ptR = L.canvas({ pane: 'pts', padding: 0.3 });
+  const ll = cs => cs.map(([x, y]) => [y, x]);
+  const polysLL = ps => ps.map(p => p.map(ll));
+  const B = D.basemap;
+  const built = L.polygon(polysLL(B.footprint), { renderer: baseR, stroke: false, fillOpacity: 1, interactive: false }).addTo(map);
+  const parks = L.polygon(polysLL(B.parks), { renderer: baseR, stroke: false, fillOpacity: 1, interactive: false }).addTo(map);
+  const water = L.polygon(polysLL(B.water), { renderer: baseR, stroke: false, fillOpacity: 1, interactive: false }).addTo(map);
+  const roads = [1, 2, 3, 4].map(c => L.polyline(B.roads.filter(r => r[0] === c).map(r => ll(r[2])),
+    { renderer: roadR, interactive: false, weight: { 1: 3.2, 2: 2.4, 3: 1.4, 4: 0.6 }[c], opacity: c === 4 ? .35 : .95, lineCap: 'round' }));
+  const syncRoads = () => roads.forEach((r, i) => (i < 3 || map.getZoom() >= 14) ? r.addTo(map) : map.removeLayer(r));
+  map.on('zoomend', syncRoads); syncRoads();
+
+  const SEQ = ['--seq-1', '--seq-2', '--seq-3', '--seq-4', '--seq-5', '--seq-6', '--seq-7'];
+  const MODES = {
+    yield: { name: 'Валовая доходность типичных помещений, % годовых', key: z => z.y_list, n: z => z.n_y, br: [0.08, 0.085, 0.09, 0.095, 0.10, 0.105], fmtTick: v => fmt(v * 100, 1) },
+    rent: { name: 'Медиана аренды, ₸/м² в месяц', key: z => z.rent, n: z => z.n_rent, br: [2600, 3000, 3400, 3700, 3900, 4100], fmtTick: v => fmt(v) },
+    sale: { name: 'Медиана цены продажи, тыс. ₸/м²', key: z => z.sale, n: z => z.n_sale, br: [300000, 380000, 440000, 480000, 500000, 540000], fmtTick: v => fmt(v / 1000) },
+  };
+  let mode = 'yield';
+  const bin = (v, br) => { let i = 0; while (i < br.length && v >= br[i]) i++; return i; };
+  const zoneLayers = D.zones.filter(z => z.polys && z.polys.length).map(z => {
+    const lyr = L.polygon(polysLL(z.polys), { pane: 'zones', weight: 1.2, fillOpacity: .62, className: 'zpoly' }).addTo(map);
+    lyr.on('click', () => lyr.openPopup());
+    const lab = L.marker([z.label[1], z.label[0]], { pane: 'pts', interactive: false, icon: L.divIcon({ className: 'zlabel', html: '', iconSize: null }) }).addTo(map);
+    return { z, lyr, lab };
+  });
+  function paintZones() {
+    const M = MODES[mode];
+    zoneLayers.forEach(({ z, lyr, lab }) => {
+      const v = M.key(z), few = (M.n(z) || 0) < 6 || v == null;
+      const c = few ? css('--nodata') : css(SEQ[bin(v, M.br)]);
+      lyr.setStyle({ fillColor: c, color: css('--ink'), opacity: .35 });
+      const val = few ? 'мало данных' : (mode === 'yield' ? pct(v) : mode === 'rent' ? fmt(v) + ' ₸' : fmt(v / 1000) + ' тыс.');
+      lab.setIcon(L.divIcon({ className: 'zlabel', html: `${esc(z.short)}<b>${val}</b>`, iconSize: null }));
+      lyr.bindPopup(`<div class="pop"><h3>${esc(z.zone)}</h3><div class="kv">
+        <span>Доходность</span><b>${pct(z.y_list)} <span class="muted">(${pct(z.y_list_lo)}–${pct(z.y_list_hi)})</span>${z.corrected ? ' *' : ''}</b>
+        <span>Аренда</span><b>${fmt(z.rent)} ₸/м²</b><span>Продажа</span><b>${fmt(z.sale)} ₸/м²</b>
+        <span>Объявлений</span><b>${z.n_rent} / ${z.n_sale}</b></div>${z.corrected ? '<p>* по внешней проверке первой линии; наша выборка из 6 объектов давала 13%</p>' : ''}<p>${esc(z.web || '')}</p></div>`);
+    });
+    document.getElementById('rampname').textContent = M.name;
+    const bar = document.getElementById('rampbar'); bar.innerHTML = '';
+    SEQ.forEach(s => bar.append(el('span', { style: `background:var(${s})` })));
+    const tk = document.getElementById('rampticks'); tk.innerHTML = '';
+    tk.append(el('span', {}, '<' + M.fmtTick(M.br[0])));
+    M.br.slice(1, -1).forEach((b, i) => i % 2 === 1 && tk.append(el('span', {}, M.fmtTick(b))));
+    tk.append(el('span', {}, '≥' + M.fmtTick(M.br[M.br.length - 1])));
+  }
+  function paintBase() {
+    built.setStyle({ fillColor: css('--built') }); parks.setStyle({ fillColor: css('--park') }); water.setStyle({ fillColor: css('--water') });
+    roads.forEach((r, i) => r.setStyle({ color: i < 3 ? css('--road') : css('--road-edge') }));
+  }
+
+  const picks = L.layerGroup(), sales = L.layerGroup(), rents = L.layerGroup();
+  const popSale = s => `<div class="pop"><h3>${esc(s.address)}</h3><div class="kv">
+    <span>Район</span><b style="font-family:var(--f-body);font-weight:500">${esc(s.zone)}</b>
+    <span>Площадь</span><b>${fmt(s.area)} м²</b><span>Цена</span><b>${mln(s.price)} · ${fmt(s.ppm)} ₸/м²</b>
+    <span>Аренда рядом</span><b>${fmt(s.est_rent)} ₸/м²</b><span>Доходность</span><b>${pct(s.y)}</b>
+    ${s.check ? `<span>После проверки</span><b>${pct(s.check.gross)} вал. · ${pct(s.check.net)} чист.</b>` : ''}</div>
+    ${s.check ? `<p>${esc(s.check.what)}</p>` : ''}<p><a href="https://krisha.kz/a/show/${s.id}" target="_blank" rel="noopener">Объявление на krisha.kz</a></p></div>`;
+  function paintPoints() {
+    picks.clearLayers(); sales.clearLayers(); rents.clearLayers();
+    D.rents.forEach(r => L.circleMarker([r.lat, r.lon], { renderer: ptR, radius: 3, weight: 0, fillOpacity: .9, fillColor: css('--rentdot') })
+      .bindPopup(`<div class="pop"><h3>${esc(r.address)}</h3><div class="kv"><span>Аренда</span><b>${fmt(r.ppm)} ₸/м²·мес</b><span>Площадь</span><b>${fmt(r.area)} м²</b></div><p><a href="https://krisha.kz/a/show/${r.id}" target="_blank" rel="noopener">Объявление</a></p></div>`).addTo(rents));
+    D.sales.forEach(s => L.circleMarker([s.lat, s.lon], { renderer: ptR, radius: 4, weight: 1, color: css('--panel'), fillOpacity: 1, fillColor: css('--dot') })
+      .bindPopup(popSale(s)).addTo(sales));
+    D.sales.filter(s => s.pick).forEach(s => L.circleMarker([s.lat, s.lon], { renderer: ptR, radius: 7, weight: 2, color: css('--panel'), fillOpacity: 1, fillColor: css('--pick') })
+      .bindPopup(popSale(s)).addTo(picks));
+  }
+  const toggles = { 'c-picks': picks, 'c-sale': sales, 'c-rent': rents };
+  Object.entries(toggles).forEach(([id, lyr]) => {
+    const cb = document.getElementById(id);
+    if (cb.checked) lyr.addTo(map);
+    cb.addEventListener('change', () => cb.checked ? lyr.addTo(map) : map.removeLayer(lyr));
+  });
+  ['yield', 'rent', 'sale'].forEach(m => document.getElementById('m-' + m).addEventListener('click', () => {
+    mode = m; ['yield', 'rent', 'sale'].forEach(k => document.getElementById('m-' + k).setAttribute('aria-pressed', k === m)); paintZones();
+  }));
+  const repaint = () => { paintBase(); paintZones(); paintPoints(); };
+  repaint();
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', repaint);
+  new MutationObserver(repaint).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+  // ---------- zone table
+  const lo = 0.05, hi = 0.20, X = v => Math.max(0, Math.min(100, (v - lo) / (hi - lo) * 100));
+  const tb = document.querySelector('#ztable tbody');
+  const maxScore = Math.max(...D.rank.map(r => r.score));
+  D.rank.forEach((r, i) => {
+    const z = D.zones.find(q => q.zone === r.zone);
+    const tr = el('tr', { class: i === 0 ? 'rank1' : '', tabindex: '0' }, `
+      <td class="n">${i + 1}</td>
+      <td><div class="zname">${esc(r.zone)}</div><div class="zsub">${esc(z.note || '')}</div></td>
+      <td><div class="score"><span class="b" style="width:${Math.round(r.score / maxScore * 70)}px"></span><span class="num">${fmt(r.score * 100)}</span></div></td>
+      <td class="n">${fmt(r.p_first * 100)}%</td>
+      <td><span class="num">${pct(z.y_list)}</span> <span class="muted num" style="font-size:12px">${pct(z.y_list_lo)}–${pct(z.y_list_hi)}</span>
+        <div class="ci" aria-hidden="true"><span class="rail"></span><span class="city" style="left:${X(D.city.yield)}%"></span>
+        <span class="rng" style="left:${X(z.y_list_lo ?? z.y_list)}%;width:${Math.max(2, X(z.y_list_hi ?? z.y_list) - X(z.y_list_lo ?? z.y_list))}%"></span>
+        <span class="pt" style="left:${X(z.y_list)}%"></span></div></td>
+      <td class="n">${fmt(z.rent)}</td><td class="n">${fmt(z.sale)}</td><td class="n">${z.n_rent} / ${z.n_sale}</td>
+      <td><span class="sent">${r.S > 0 ? '+' : ''}${fmt(r.S, 1)}</span> <span class="zsub">${esc(z.web || 'нет данных')}</span></td>`);
+    const go = () => { const zl = zoneLayers.find(q => q.z.zone === r.zone); if (zl) { map.fitBounds(zl.lyr.getBounds(), { maxZoom: 14 }); zl.lyr.openPopup(); document.getElementById('map').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'center' }); } };
+    tr.addEventListener('click', go); tr.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
+    tb.append(tr);
+  });
+  const ttb = document.querySelector('#ttable tbody');
+  D.types.forEach(t => ttb.append(el('tr', {}, `<td>${esc(t.k)}</td><td class="n">${t.n}</td><td class="n">${fmt(t.sale)}</td><td class="n">${fmt(t.rent)}</td><td class="n">${pct(t.y)}</td><td class="zsub">${esc(t.note)}</td>`)));
+
+  // ---------- offers
+  const OF = document.getElementById('offers');
+  const KC = { 'встроенное помещение': '--accent', 'здание целиком': '--seq-5', 'другое': '--dot' };
+  let filt = 'all';
+  function paintOffers() {
+    OF.innerHTML = '';
+    D.offers.filter(o => filt === 'all' || (filt === 'clean' && o.kind === 'встроенное помещение') || (filt === 'small' && o.area <= 300)).forEach(o => {
+      const c = KC[o.kind] || '--dot';
+      OF.append(el('article', { class: 'offer' }, `
+        <div class="top"><div><div class="addr">${esc(o.address)}</div><div class="zone">${esc(o.zone)} · ${esc(o.grp)}</div></div>
+        <div class="y">${pct(o.gross)}<small>реалистично, вал.</small></div></div>
+        <div class="facts"><span>${fmt(o.area)} м²</span><span>${mln(o.price)}</span><span>${fmt(o.ppm)} ₸/м²</span><span>аренда ${fmt(o.rent)} ₸/м²</span><span>чистая ${pct(o.net)}</span><span>было ${pct(o.y0)}</span><span>окупаемость ${fmt(1 / o.gross, 1)} лет</span></div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="chip" style="--c:var(${c})">${esc(o.kind)}</span><span class="chip" style="--c:var(--warn)">${o.nflags} оговорок</span></div>
+        <div class="what">${esc(o.what)}</div>
+        ${o.flags.length ? `<ul class="flags">${o.flags.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
+        <a href="https://krisha.kz/a/show/${o.id}" target="_blank" rel="noopener">Объявление на krisha.kz</a>`));
+    });
+    if (!OF.children.length) OF.append(el('p', { class: 'muted' }, 'Под этот фильтр предложений нет.'));
+  }
+  [['f-all', 'all'], ['f-clean', 'clean'], ['f-small', 'small']].forEach(([id, f]) => document.getElementById(id).addEventListener('click', () => {
+    filt = f; ['f-all', 'f-clean', 'f-small'].forEach(k => document.getElementById(k).setAttribute('aria-pressed', k === id)); paintOffers();
+  }));
+  paintOffers();
+
+  // ---------- web themes
+  const TH = document.getElementById('themes');
+  D.themes.forEach(t => TH.append(el('div', { class: 'theme' }, `<h3>${esc(t.title)}</h3><ul>${t.items.map(i => `<li>${esc(i.text)} <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.src)}</a></li>`).join('')}</ul>`)));
+})();
+</script>
